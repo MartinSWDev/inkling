@@ -1,0 +1,175 @@
+{
+  "_about": "Round 4 'this or that' pairs. Each pair is one axis that splits subjects in the data (see onet_profiles.py and the HESA analysis). Tap one side; 'skip' scores nothing. Image prompts are scene descriptions to combine with the house style block; no text, no faces.",
+  "_scoring": "Picking a side adds +1 to its measure and -0.5 to the opposite measure (for opposed measures). Subjects are then matched on z-scores of subject_profiles; 'path' uses HESA top-job share.",
+  "pairs": [
+    {
+      "id": "why_vs_make",
+      "data": "Investigative vs Enterprising, r = -0.80 across 163 subjects",
+      "a": {
+        "label": "Find out why",
+        "caption": "Test it, study it, get to the bottom of it.",
+        "scores": {
+          "Investigative": 1,
+          "Enterprising": -0.5
+        },
+        "image": "a desk under a lamp: an open notebook full of hand-drawn diagrams, a magnifying glass over a leaf, a few small test tubes in a rack",
+        "image_alt": "a lab bench with a microscope, a slide and a notebook of observations",
+        "chosen": {
+          "file": "pair_out/why_vs_make/a2.png",
+          "scene": "a lab bench with a microscope, a slide and a notebook of observations",
+          "source": "pairs.json"
+        }
+      },
+      "b": {
+        "label": "Make it happen",
+        "caption": "Pitch it, plan it, get people on board.",
+        "scores": {
+          "Enterprising": 1,
+          "Investigative": -0.5
+        },
+        "image": "a wall of colourful sticky notes arranged in columns with a hand-drawn arrow up to a rocket doodle, a phone mid-call and two coffee cups on the table",
+        "image_alt": "a small market stall being set up, blank hand-painted sign, boxes of stock, bunting",
+        "chosen": {
+          "file": "pair_out/why_vs_make/bW.png",
+          "scene": "Bright outdoor close-up of one hand holding a plain red megaphone, aimed at a crowd shown only as dozens of eagerly raised hands against a blue sky",
+          "source": "Muse Wonder"
+        }
+      }
+    },
+    {
+      "id": "people_vs_systems",
+      "data": "Social vs Conventional, r = -0.72",
+      "a": {
+        "label": "Help people",
+        "caption": "Teach, guide, look after someone.",
+        "scores": {
+          "Social": 1,
+          "Conventional": -0.5
+        },
+        "image": "a cosy reading corner in a classroom: cushions, a low shelf of picture books, two small chairs pulled close together",
+        "image_alt": "two mugs of tea and a box of tissues on a low table between two comfy chairs",
+        "chosen": {
+          "file": "pair_out/people_vs_systems/a2.png",
+          "scene": "two mugs of tea and a box of tissues on a low table between two comfy chairs",
+          "source": "pairs.json"
+        }
+      },
+      "b": {
+        "label": "Sort the system",
+        "caption": "Organise it, check it, make it run smoothly.",
+        "scores": {
+          "Conventional": 1,
+          "Social": -0.5
+        },
+        "image": "a perfectly tidy desk: colour-coded folders in a row, a laptop showing a neat spreadsheet of coloured cells, a planner with ticked boxes",
+        "image_alt": "a wall of labelled drawers and neatly sorted parts, every drawer the same size, no text",
+        "chosen": {
+          "file": "pair_out/people_vs_systems/bW.png",
+          "scene": "Cool-toned top-down view of a straight conveyor belt: one hand nudges a single tilted, plain unmarked brown parcel back into line with a row of evenly spaced identical parcels moving under a scanner arch with a glowing green light",
+          "source": "Muse Wonder"
+        }
+      }
+    },
+    {
+      "id": "desk_vs_feet",
+      "data": "Sitting vs standing, r = -0.99",
+      "a": {
+        "label": "At a desk",
+        "caption": "Head down, headphones on, deep focus.",
+        "scores": {
+          "sitting": 1,
+          "standing": -1
+        },
+        "image": "a calm desk set-up with two monitors, a plant, big headphones and a warm lamp",
+        "image_alt": "a drawing table by a window with pens, rulers and a mug",
+        "chosen": {
+          "file": "pair_out/desk_vs_feet/aW.png",
+          "scene": "Cosy night-time view from behind a teenager in a hoodie at a single desk, head bowed in oversized headphones in the centre of the frame, hands typing on a laptop under a warm pool of light, body tucked in and completely still",
+          "source": "Muse Wonder"
+        }
+      },
+      "b": {
+        "label": "On my feet",
+        "caption": "Moving around, never the same day twice.",
+        "scores": {
+          "standing": 1,
+          "sitting": -1
+        },
+        "image": "a pair of trainers, a lanyard and a clipboard by a busy corridor with doors along it",
+        "image_alt": "a workshop floor with a toolbox on wheels, a hard hat and a half-built frame",
+        "chosen": {
+          "file": "pair_out/desk_vs_feet/bW.png",
+          "scene": "Bright daytime waist-down side view of a teenager in trainers caught mid-stride with one foot in the air and motion blur, a sports bag swinging in one hand as they walk from indoor tiles out onto grass, moving diagonally across the frame",
+          "source": "Muse Wonder"
+        }
+      }
+    },
+    {
+      "id": "path_vs_options",
+      "data": "HESA: share of graduates in the single most common job, two clear groups (medicine 97%, psychology 15%); professional accreditation follows the same split",
+      "a": {
+        "label": "One clear career",
+        "caption": "Train for a job I already know I want.",
+        "scores": {
+          "path": 1
+        },
+        "image": "a single straight path through a field towards a lit doorway at the end",
+        "image_alt": "a uniform on a hanger with a blank name badge, ready for the first day",
+        "chosen": {
+          "file": "pair_out/path_vs_options/aW.png",
+          "scene": "A large archery target in a school sports hall, seen close-up at a slight angle and filling the frame, with one bright-green arrow lodged exactly in the gold centre and no other arrows anywhere.",
+          "source": "Muse Wonder"
+        }
+      },
+      "b": {
+        "label": "Keep my options open",
+        "caption": "Learn things that lead lots of places.",
+        "scores": {
+          "path": -1
+        },
+        "image": "a wooden signpost at a crossroads with many arms pointing different ways, arms left blank",
+        "image_alt": "a map spread on a table with several different routes traced in coloured pencil",
+        "chosen": {
+          "file": "pair_out/path_vs_options/b1.png",
+          "scene": "a wooden signpost at a crossroads with many arms pointing different ways, arms left blank",
+          "source": "pairs.json"
+        }
+      }
+    },
+    {
+      "id": "indoors_vs_outdoors",
+      "data": "O*NET outdoors: building, animal science, landscape and rural estate high; clinical subjects low",
+      "a": {
+        "label": "Indoors",
+        "caption": "Warm, bright, everything within reach.",
+        "scores": {
+          "outdoors": -0.5
+        },
+        "image": "a bright studio with a big window, plants on the sill and a long table",
+        "image_alt": "a library reading room with tall windows and warm lamps",
+        "chosen": {
+          "file": "pair_out/indoors_vs_outdoors/a4.png",
+          "scene": "a bright modern office corner: a desk by a big window with a laptop, a plant and a mug, an empty office chair, a tidy bookshelf; no people, no hands, no feet",
+          "source": "redo"
+        },
+        "image_redo": "a bright modern office corner: a desk by a big window with a laptop, a plant and a mug, an empty office chair, a tidy bookshelf; no people, no hands, no feet"
+      },
+      "b": {
+        "label": "Some of it outdoors",
+        "caption": "Fresh air, mud on my boots.",
+        "scores": {
+          "outdoors": 1
+        },
+        "image": "muddy wellies, a field notebook and a hi-vis jacket hung on a fence with green hills behind",
+        "image_alt": "a garden bench with gloves, a trowel and seed trays in the sunshine",
+        "chosen": {
+          "file": "pair_out/indoors_vs_outdoors/b4.png",
+          "scene": "side-on view of a pair of muddy walking boots standing on wet grass beside a small puddle, rolling green hills and a bright sky behind; no people, no legs, just the boots",
+          "source": "redo"
+        },
+        "image_redo": "side-on view of a pair of muddy walking boots standing on wet grass beside a small puddle, rolling green hills and a bright sky behind; no people, no legs, just the boots"
+      }
+    }
+  ],
+  "_status": "Chosen images are placeholders (paper-diorama style); regenerate in the final house style later."
+}
