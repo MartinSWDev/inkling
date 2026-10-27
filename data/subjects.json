@@ -1,0 +1,1613 @@
+{
+  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+  "subjects": [
+    {
+      "code": "CAH01-01",
+      "name": "medicine and dentistry",
+      "level": 2,
+      "parent_code": "CAH01",
+      "parent_name": "medicine and dentistry",
+      "course_count": 149
+    },
+    {
+      "code": "CAH01-01-01",
+      "name": "medical sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH01-01",
+      "parent_name": "medicine and dentistry",
+      "course_count": 30
+    },
+    {
+      "code": "CAH01-01-02",
+      "name": "medicine (non-specific)",
+      "level": 3,
+      "parent_code": "CAH01-01",
+      "parent_name": "medicine and dentistry",
+      "course_count": 67
+    },
+    {
+      "code": "CAH01-01-03",
+      "name": "medicine by specialism",
+      "level": 3,
+      "parent_code": "CAH01-01",
+      "parent_name": "medicine and dentistry",
+      "course_count": 8
+    },
+    {
+      "code": "CAH01-01-04",
+      "name": "dentistry",
+      "level": 3,
+      "parent_code": "CAH01-01",
+      "parent_name": "medicine and dentistry",
+      "course_count": 45
+    },
+    {
+      "code": "CAH02-02",
+      "name": "pharmacology, toxicology and pharmacy",
+      "level": 2,
+      "parent_code": "CAH02",
+      "parent_name": "subjects allied to medicine",
+      "course_count": 204
+    },
+    {
+      "code": "CAH02-02-01",
+      "name": "pharmacology",
+      "level": 3,
+      "parent_code": "CAH02-02",
+      "parent_name": "pharmacology, toxicology and pharmacy",
+      "course_count": 134
+    },
+    {
+      "code": "CAH02-02-02",
+      "name": "toxicology",
+      "level": 3,
+      "parent_code": "CAH02-02",
+      "parent_name": "pharmacology, toxicology and pharmacy",
+      "course_count": 6
+    },
+    {
+      "code": "CAH02-02-03",
+      "name": "pharmacy",
+      "level": 3,
+      "parent_code": "CAH02-02",
+      "parent_name": "pharmacology, toxicology and pharmacy",
+      "course_count": 71
+    },
+    {
+      "code": "CAH02-04",
+      "name": "nursing and midwifery",
+      "level": 2,
+      "parent_code": "CAH02",
+      "parent_name": "subjects allied to medicine",
+      "course_count": 572
+    },
+    {
+      "code": "CAH02-04-01",
+      "name": "nursing (non-specific)",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 16
+    },
+    {
+      "code": "CAH02-04-02",
+      "name": "adult nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 192
+    },
+    {
+      "code": "CAH02-04-03",
+      "name": "community nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 0
+    },
+    {
+      "code": "CAH02-04-04",
+      "name": "midwifery",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 75
+    },
+    {
+      "code": "CAH02-04-05",
+      "name": "children's nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 109
+    },
+    {
+      "code": "CAH02-04-06",
+      "name": "dental nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 8
+    },
+    {
+      "code": "CAH02-04-07",
+      "name": "mental health nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 153
+    },
+    {
+      "code": "CAH02-04-08",
+      "name": "learning disabilities nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 49
+    },
+    {
+      "code": "CAH02-04-09",
+      "name": "others in nursing",
+      "level": 3,
+      "parent_code": "CAH02-04",
+      "parent_name": "nursing and midwifery",
+      "course_count": 10
+    },
+    {
+      "code": "CAH02-05",
+      "name": "medical sciences",
+      "level": 2,
+      "parent_code": "CAH02",
+      "parent_name": "subjects allied to medicine",
+      "course_count": 533
+    },
+    {
+      "code": "CAH02-05-01",
+      "name": "medical technology",
+      "level": 3,
+      "parent_code": "CAH02-05",
+      "parent_name": "medical sciences",
+      "course_count": 64
+    },
+    {
+      "code": "CAH02-05-02",
+      "name": "healthcare science (non-specific)",
+      "level": 3,
+      "parent_code": "CAH02-05",
+      "parent_name": "medical sciences",
+      "course_count": 24
+    },
+    {
+      "code": "CAH02-05-03",
+      "name": "biomedical sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH02-05",
+      "parent_name": "medical sciences",
+      "course_count": 363
+    },
+    {
+      "code": "CAH02-05-04",
+      "name": "anatomy, physiology and pathology",
+      "level": 3,
+      "parent_code": "CAH02-05",
+      "parent_name": "medical sciences",
+      "course_count": 83
+    },
+    {
+      "code": "CAH02-06",
+      "name": "allied health",
+      "level": 2,
+      "parent_code": "CAH02",
+      "parent_name": "subjects allied to medicine",
+      "course_count": 680
+    },
+    {
+      "code": "CAH02-06-01",
+      "name": "health sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 175
+    },
+    {
+      "code": "CAH02-06-02",
+      "name": "nutrition and dietetics",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 114
+    },
+    {
+      "code": "CAH02-06-03",
+      "name": "ophthalmics",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 28
+    },
+    {
+      "code": "CAH02-06-04",
+      "name": "environmental and public health",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 43
+    },
+    {
+      "code": "CAH02-06-05",
+      "name": "physiotherapy",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 80
+    },
+    {
+      "code": "CAH02-06-06",
+      "name": "complementary and alternative medicine",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 45
+    },
+    {
+      "code": "CAH02-06-07",
+      "name": "counselling, psychotherapy and occupational therapy",
+      "level": 3,
+      "parent_code": "CAH02-06",
+      "parent_name": "allied health",
+      "course_count": 200
+    },
+    {
+      "code": "CAH03-01",
+      "name": "biosciences",
+      "level": 2,
+      "parent_code": "CAH03",
+      "parent_name": "biological and sport sciences",
+      "course_count": 1225
+    },
+    {
+      "code": "CAH03-01-01",
+      "name": "biosciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 235
+    },
+    {
+      "code": "CAH03-01-02",
+      "name": "biology (non-specific)",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 232
+    },
+    {
+      "code": "CAH03-01-03",
+      "name": "ecology and environmental biology",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 199
+    },
+    {
+      "code": "CAH03-01-04",
+      "name": "microbiology and cell science",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 96
+    },
+    {
+      "code": "CAH03-01-05",
+      "name": "plant sciences",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 11
+    },
+    {
+      "code": "CAH03-01-06",
+      "name": "zoology",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 161
+    },
+    {
+      "code": "CAH03-01-07",
+      "name": "genetics",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 85
+    },
+    {
+      "code": "CAH03-01-08",
+      "name": "molecular biology, biophysics and biochemistry",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 291
+    },
+    {
+      "code": "CAH03-01-09",
+      "name": "hair and beauty sciences",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 0
+    },
+    {
+      "code": "CAH03-01-10",
+      "name": "others in biosciences",
+      "level": 3,
+      "parent_code": "CAH03-01",
+      "parent_name": "biosciences",
+      "course_count": 52
+    },
+    {
+      "code": "CAH03-02",
+      "name": "sport and exercise sciences",
+      "level": 2,
+      "parent_code": "CAH03",
+      "parent_name": "biological and sport sciences",
+      "course_count": 685
+    },
+    {
+      "code": "CAH03-02-01",
+      "name": "sport and exercise sciences",
+      "level": 3,
+      "parent_code": "CAH03-02",
+      "parent_name": "sport and exercise sciences",
+      "course_count": 685
+    },
+    {
+      "code": "CAH04-01",
+      "name": "psychology",
+      "level": 2,
+      "parent_code": "CAH04",
+      "parent_name": "psychology",
+      "course_count": 1181
+    },
+    {
+      "code": "CAH04-01-01",
+      "name": "psychology (non-specific)",
+      "level": 3,
+      "parent_code": "CAH04-01",
+      "parent_name": "psychology",
+      "course_count": 944
+    },
+    {
+      "code": "CAH04-01-02",
+      "name": "applied psychology",
+      "level": 3,
+      "parent_code": "CAH04-01",
+      "parent_name": "psychology",
+      "course_count": 186
+    },
+    {
+      "code": "CAH04-01-03",
+      "name": "developmental psychology",
+      "level": 3,
+      "parent_code": "CAH04-01",
+      "parent_name": "psychology",
+      "course_count": 53
+    },
+    {
+      "code": "CAH04-01-04",
+      "name": "psychology and health",
+      "level": 3,
+      "parent_code": "CAH04-01",
+      "parent_name": "psychology",
+      "course_count": 32
+    },
+    {
+      "code": "CAH04-01-05",
+      "name": "others in psychology",
+      "level": 3,
+      "parent_code": "CAH04-01",
+      "parent_name": "psychology",
+      "course_count": 42
+    },
+    {
+      "code": "CAH05-01",
+      "name": "veterinary sciences",
+      "level": 2,
+      "parent_code": "CAH05",
+      "parent_name": "veterinary sciences",
+      "course_count": 55
+    },
+    {
+      "code": "CAH05-01-01",
+      "name": "veterinary medicine and dentistry",
+      "level": 3,
+      "parent_code": "CAH05-01",
+      "parent_name": "veterinary sciences",
+      "course_count": 28
+    },
+    {
+      "code": "CAH05-01-02",
+      "name": "others in veterinary sciences",
+      "level": 3,
+      "parent_code": "CAH05-01",
+      "parent_name": "veterinary sciences",
+      "course_count": 28
+    },
+    {
+      "code": "CAH06-01",
+      "name": "agriculture, food and related studies",
+      "level": 2,
+      "parent_code": "CAH06",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 364
+    },
+    {
+      "code": "CAH06-01-01",
+      "name": "animal science",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 168
+    },
+    {
+      "code": "CAH06-01-02",
+      "name": "agricultural sciences",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 6
+    },
+    {
+      "code": "CAH06-01-03",
+      "name": "agriculture",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 139
+    },
+    {
+      "code": "CAH06-01-04",
+      "name": "rural estate management",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 11
+    },
+    {
+      "code": "CAH06-01-05",
+      "name": "forestry and arboriculture",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 11
+    },
+    {
+      "code": "CAH06-01-06",
+      "name": "food and beverage studies (non-specific)",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 16
+    },
+    {
+      "code": "CAH06-01-07",
+      "name": "food sciences",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 36
+    },
+    {
+      "code": "CAH06-01-08",
+      "name": "food and beverage production",
+      "level": 3,
+      "parent_code": "CAH06-01",
+      "parent_name": "agriculture, food and related studies",
+      "course_count": 20
+    },
+    {
+      "code": "CAH07-01",
+      "name": "physics and astronomy",
+      "level": 2,
+      "parent_code": "CAH07",
+      "parent_name": "physical sciences",
+      "course_count": 607
+    },
+    {
+      "code": "CAH07-01-01",
+      "name": "physics",
+      "level": 3,
+      "parent_code": "CAH07-01",
+      "parent_name": "physics and astronomy",
+      "course_count": 560
+    },
+    {
+      "code": "CAH07-01-02",
+      "name": "astronomy",
+      "level": 3,
+      "parent_code": "CAH07-01",
+      "parent_name": "physics and astronomy",
+      "course_count": 144
+    },
+    {
+      "code": "CAH07-02",
+      "name": "chemistry",
+      "level": 2,
+      "parent_code": "CAH07",
+      "parent_name": "physical sciences",
+      "course_count": 403
+    },
+    {
+      "code": "CAH07-02-01",
+      "name": "chemistry",
+      "level": 3,
+      "parent_code": "CAH07-02",
+      "parent_name": "chemistry",
+      "course_count": 403
+    },
+    {
+      "code": "CAH07-04",
+      "name": "general, applied and forensic sciences",
+      "level": 2,
+      "parent_code": "CAH07",
+      "parent_name": "physical sciences",
+      "course_count": 267
+    },
+    {
+      "code": "CAH07-04-01",
+      "name": "physical sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH07-04",
+      "parent_name": "general, applied and forensic sciences",
+      "course_count": 7
+    },
+    {
+      "code": "CAH07-04-02",
+      "name": "forensic and archaeological sciences",
+      "level": 3,
+      "parent_code": "CAH07-04",
+      "parent_name": "general, applied and forensic sciences",
+      "course_count": 197
+    },
+    {
+      "code": "CAH07-04-03",
+      "name": "sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH07-04",
+      "parent_name": "general, applied and forensic sciences",
+      "course_count": 12
+    },
+    {
+      "code": "CAH07-04-04",
+      "name": "natural sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH07-04",
+      "parent_name": "general, applied and forensic sciences",
+      "course_count": 54
+    },
+    {
+      "code": "CAH09-01",
+      "name": "mathematical sciences",
+      "level": 2,
+      "parent_code": "CAH09",
+      "parent_name": "mathematical sciences",
+      "course_count": 943
+    },
+    {
+      "code": "CAH09-01-01",
+      "name": "mathematics",
+      "level": 3,
+      "parent_code": "CAH09-01",
+      "parent_name": "mathematical sciences",
+      "course_count": 855
+    },
+    {
+      "code": "CAH09-01-02",
+      "name": "operational research",
+      "level": 3,
+      "parent_code": "CAH09-01",
+      "parent_name": "mathematical sciences",
+      "course_count": 13
+    },
+    {
+      "code": "CAH09-01-03",
+      "name": "statistics",
+      "level": 3,
+      "parent_code": "CAH09-01",
+      "parent_name": "mathematical sciences",
+      "course_count": 181
+    },
+    {
+      "code": "CAH10-01",
+      "name": "engineering",
+      "level": 2,
+      "parent_code": "CAH10",
+      "parent_name": "engineering and technology",
+      "course_count": 2481
+    },
+    {
+      "code": "CAH10-01-01",
+      "name": "engineering (non-specific)",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 264
+    },
+    {
+      "code": "CAH10-01-02",
+      "name": "mechanical engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 437
+    },
+    {
+      "code": "CAH10-01-03",
+      "name": "production and manufacturing engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 339
+    },
+    {
+      "code": "CAH10-01-04",
+      "name": "aeronautical and aerospace engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 229
+    },
+    {
+      "code": "CAH10-01-05",
+      "name": "naval architecture",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 8
+    },
+    {
+      "code": "CAH10-01-06",
+      "name": "bioengineering, medical and biomedical engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 142
+    },
+    {
+      "code": "CAH10-01-07",
+      "name": "civil engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 374
+    },
+    {
+      "code": "CAH10-01-08",
+      "name": "electrical and electronic engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 590
+    },
+    {
+      "code": "CAH10-01-09",
+      "name": "chemical, process and energy engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 225
+    },
+    {
+      "code": "CAH10-01-10",
+      "name": "others in engineering",
+      "level": 3,
+      "parent_code": "CAH10-01",
+      "parent_name": "engineering",
+      "course_count": 12
+    },
+    {
+      "code": "CAH10-03",
+      "name": "materials and technology",
+      "level": 2,
+      "parent_code": "CAH10",
+      "parent_name": "engineering and technology",
+      "course_count": 214
+    },
+    {
+      "code": "CAH10-03-01",
+      "name": "minerals technology",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 1
+    },
+    {
+      "code": "CAH10-03-02",
+      "name": "materials technology",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 44
+    },
+    {
+      "code": "CAH10-03-03",
+      "name": "polymers and textiles",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 12
+    },
+    {
+      "code": "CAH10-03-04",
+      "name": "maritime technology",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 17
+    },
+    {
+      "code": "CAH10-03-05",
+      "name": "biotechnology",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 28
+    },
+    {
+      "code": "CAH10-03-06",
+      "name": "others in technology",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 105
+    },
+    {
+      "code": "CAH10-03-07",
+      "name": "materials science",
+      "level": 3,
+      "parent_code": "CAH10-03",
+      "parent_name": "materials and technology",
+      "course_count": 21
+    },
+    {
+      "code": "CAH11-01",
+      "name": "computing",
+      "level": 2,
+      "parent_code": "CAH11",
+      "parent_name": "computing",
+      "course_count": 2373
+    },
+    {
+      "code": "CAH11-01-01",
+      "name": "computer science",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 1090
+    },
+    {
+      "code": "CAH11-01-02",
+      "name": "information technology",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 96
+    },
+    {
+      "code": "CAH11-01-03",
+      "name": "information systems",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 137
+    },
+    {
+      "code": "CAH11-01-04",
+      "name": "software engineering",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 371
+    },
+    {
+      "code": "CAH11-01-05",
+      "name": "artificial intelligence",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 269
+    },
+    {
+      "code": "CAH11-01-06",
+      "name": "computer games and animation",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 483
+    },
+    {
+      "code": "CAH11-01-07",
+      "name": "business computing",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 93
+    },
+    {
+      "code": "CAH11-01-08",
+      "name": "others in computing",
+      "level": 3,
+      "parent_code": "CAH11-01",
+      "parent_name": "computing",
+      "course_count": 166
+    },
+    {
+      "code": "CAH13-01",
+      "name": "architecture, building and planning",
+      "level": 2,
+      "parent_code": "CAH13",
+      "parent_name": "architecture, building and planning",
+      "course_count": 599
+    },
+    {
+      "code": "CAH13-01-01",
+      "name": "architecture",
+      "level": 3,
+      "parent_code": "CAH13-01",
+      "parent_name": "architecture, building and planning",
+      "course_count": 210
+    },
+    {
+      "code": "CAH13-01-02",
+      "name": "building",
+      "level": 3,
+      "parent_code": "CAH13-01",
+      "parent_name": "architecture, building and planning",
+      "course_count": 315
+    },
+    {
+      "code": "CAH13-01-03",
+      "name": "landscape design",
+      "level": 3,
+      "parent_code": "CAH13-01",
+      "parent_name": "architecture, building and planning",
+      "course_count": 21
+    },
+    {
+      "code": "CAH13-01-04",
+      "name": "planning (urban, rural and regional)",
+      "level": 3,
+      "parent_code": "CAH13-01",
+      "parent_name": "architecture, building and planning",
+      "course_count": 61
+    },
+    {
+      "code": "CAH15-01",
+      "name": "sociology, social policy and anthropology",
+      "level": 2,
+      "parent_code": "CAH15",
+      "parent_name": "social sciences",
+      "course_count": 1787
+    },
+    {
+      "code": "CAH15-01-01",
+      "name": "social sciences (non-specific)",
+      "level": 3,
+      "parent_code": "CAH15-01",
+      "parent_name": "sociology, social policy and anthropology",
+      "course_count": 106
+    },
+    {
+      "code": "CAH15-01-02",
+      "name": "sociology",
+      "level": 3,
+      "parent_code": "CAH15-01",
+      "parent_name": "sociology, social policy and anthropology",
+      "course_count": 1261
+    },
+    {
+      "code": "CAH15-01-03",
+      "name": "social policy",
+      "level": 3,
+      "parent_code": "CAH15-01",
+      "parent_name": "sociology, social policy and anthropology",
+      "course_count": 228
+    },
+    {
+      "code": "CAH15-01-04",
+      "name": "anthropology",
+      "level": 3,
+      "parent_code": "CAH15-01",
+      "parent_name": "sociology, social policy and anthropology",
+      "course_count": 202
+    },
+    {
+      "code": "CAH15-01-05",
+      "name": "development studies",
+      "level": 3,
+      "parent_code": "CAH15-01",
+      "parent_name": "sociology, social policy and anthropology",
+      "course_count": 67
+    },
+    {
+      "code": "CAH15-01-06",
+      "name": "cultural studies",
+      "level": 3,
+      "parent_code": "CAH15-01",
+      "parent_name": "sociology, social policy and anthropology",
+      "course_count": 43
+    },
+    {
+      "code": "CAH15-02",
+      "name": "economics",
+      "level": 2,
+      "parent_code": "CAH15",
+      "parent_name": "social sciences",
+      "course_count": 930
+    },
+    {
+      "code": "CAH15-02-01",
+      "name": "economics",
+      "level": 3,
+      "parent_code": "CAH15-02",
+      "parent_name": "economics",
+      "course_count": 930
+    },
+    {
+      "code": "CAH15-03",
+      "name": "politics",
+      "level": 2,
+      "parent_code": "CAH15",
+      "parent_name": "social sciences",
+      "course_count": 1227
+    },
+    {
+      "code": "CAH15-03-01",
+      "name": "politics",
+      "level": 3,
+      "parent_code": "CAH15-03",
+      "parent_name": "politics",
+      "course_count": 1227
+    },
+    {
+      "code": "CAH15-04",
+      "name": "health and social care",
+      "level": 2,
+      "parent_code": "CAH15",
+      "parent_name": "social sciences",
+      "course_count": 505
+    },
+    {
+      "code": "CAH15-04-01",
+      "name": "social work",
+      "level": 3,
+      "parent_code": "CAH15-04",
+      "parent_name": "health and social care",
+      "course_count": 165
+    },
+    {
+      "code": "CAH15-04-02",
+      "name": "childhood and youth studies",
+      "level": 3,
+      "parent_code": "CAH15-04",
+      "parent_name": "health and social care",
+      "course_count": 156
+    },
+    {
+      "code": "CAH15-04-03",
+      "name": "health studies",
+      "level": 3,
+      "parent_code": "CAH15-04",
+      "parent_name": "health and social care",
+      "course_count": 185
+    },
+    {
+      "code": "CAH16-01",
+      "name": "law",
+      "level": 2,
+      "parent_code": "CAH16",
+      "parent_name": "law",
+      "course_count": 1096
+    },
+    {
+      "code": "CAH16-01-01",
+      "name": "law",
+      "level": 3,
+      "parent_code": "CAH16-01",
+      "parent_name": "law",
+      "course_count": 1096
+    },
+    {
+      "code": "CAH17-01",
+      "name": "business and management",
+      "level": 2,
+      "parent_code": "CAH17",
+      "parent_name": "business and management",
+      "course_count": 3718
+    },
+    {
+      "code": "CAH17-01-01",
+      "name": "business and management (non-specific)",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 863
+    },
+    {
+      "code": "CAH17-01-02",
+      "name": "business studies",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 921
+    },
+    {
+      "code": "CAH17-01-03",
+      "name": "marketing",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 619
+    },
+    {
+      "code": "CAH17-01-04",
+      "name": "management studies",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 543
+    },
+    {
+      "code": "CAH17-01-05",
+      "name": "human resource management",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 142
+    },
+    {
+      "code": "CAH17-01-06",
+      "name": "tourism, transport and travel",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 399
+    },
+    {
+      "code": "CAH17-01-07",
+      "name": "finance",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 608
+    },
+    {
+      "code": "CAH17-01-08",
+      "name": "accounting",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 509
+    },
+    {
+      "code": "CAH17-01-09",
+      "name": "others in business and management",
+      "level": 3,
+      "parent_code": "CAH17-01",
+      "parent_name": "business and management",
+      "course_count": 4
+    },
+    {
+      "code": "CAH19-01",
+      "name": "English studies",
+      "level": 2,
+      "parent_code": "CAH19",
+      "parent_name": "language and area studies",
+      "course_count": 1536
+    },
+    {
+      "code": "CAH19-01-01",
+      "name": "English studies (non-specific)",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 410
+    },
+    {
+      "code": "CAH19-01-02",
+      "name": "English language",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 166
+    },
+    {
+      "code": "CAH19-01-03",
+      "name": "literature in English",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 608
+    },
+    {
+      "code": "CAH19-01-04",
+      "name": "studies of specific authors",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 0
+    },
+    {
+      "code": "CAH19-01-05",
+      "name": "creative writing",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 315
+    },
+    {
+      "code": "CAH19-01-06",
+      "name": "others in English studies",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 11
+    },
+    {
+      "code": "CAH19-01-07",
+      "name": "linguistics",
+      "level": 3,
+      "parent_code": "CAH19-01",
+      "parent_name": "English studies",
+      "course_count": 268
+    },
+    {
+      "code": "CAH19-02",
+      "name": "Celtic studies",
+      "level": 2,
+      "parent_code": "CAH19",
+      "parent_name": "language and area studies",
+      "course_count": 230
+    },
+    {
+      "code": "CAH19-02-01",
+      "name": "Celtic studies (non-specific)",
+      "level": 3,
+      "parent_code": "CAH19-02",
+      "parent_name": "Celtic studies",
+      "course_count": 103
+    },
+    {
+      "code": "CAH19-02-02",
+      "name": "Gaelic studies",
+      "level": 3,
+      "parent_code": "CAH19-02",
+      "parent_name": "Celtic studies",
+      "course_count": 62
+    },
+    {
+      "code": "CAH19-02-03",
+      "name": "Welsh studies",
+      "level": 3,
+      "parent_code": "CAH19-02",
+      "parent_name": "Celtic studies",
+      "course_count": 46
+    },
+    {
+      "code": "CAH19-02-04",
+      "name": "others in Celtic studies",
+      "level": 3,
+      "parent_code": "CAH19-02",
+      "parent_name": "Celtic studies",
+      "course_count": 23
+    },
+    {
+      "code": "CAH19-04",
+      "name": "languages and area studies",
+      "level": 2,
+      "parent_code": "CAH19",
+      "parent_name": "language and area studies",
+      "course_count": 2599
+    },
+    {
+      "code": "CAH19-04-01",
+      "name": "French studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 474
+    },
+    {
+      "code": "CAH19-04-02",
+      "name": "German and Scandinavian studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 445
+    },
+    {
+      "code": "CAH19-04-03",
+      "name": "Italian studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 287
+    },
+    {
+      "code": "CAH19-04-04",
+      "name": "Iberian studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 549
+    },
+    {
+      "code": "CAH19-04-05",
+      "name": "Slavic studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 404
+    },
+    {
+      "code": "CAH19-04-06",
+      "name": "Asian studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 194
+    },
+    {
+      "code": "CAH19-04-07",
+      "name": "African and modern Middle Eastern studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 432
+    },
+    {
+      "code": "CAH19-04-08",
+      "name": "American and Australasian studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 38
+    },
+    {
+      "code": "CAH19-04-09",
+      "name": "others in language and area studies",
+      "level": 3,
+      "parent_code": "CAH19-04",
+      "parent_name": "languages and area studies",
+      "course_count": 657
+    },
+    {
+      "code": "CAH20-01",
+      "name": "history and archaeology",
+      "level": 2,
+      "parent_code": "CAH20",
+      "parent_name": "historical, philosophical and religious studies",
+      "course_count": 1916
+    },
+    {
+      "code": "CAH20-01-01",
+      "name": "history",
+      "level": 3,
+      "parent_code": "CAH20-01",
+      "parent_name": "history and archaeology",
+      "course_count": 1186
+    },
+    {
+      "code": "CAH20-01-02",
+      "name": "history of art, architecture and design",
+      "level": 3,
+      "parent_code": "CAH20-01",
+      "parent_name": "history and archaeology",
+      "course_count": 289
+    },
+    {
+      "code": "CAH20-01-03",
+      "name": "archaeology",
+      "level": 3,
+      "parent_code": "CAH20-01",
+      "parent_name": "history and archaeology",
+      "course_count": 216
+    },
+    {
+      "code": "CAH20-01-04",
+      "name": "heritage studies",
+      "level": 3,
+      "parent_code": "CAH20-01",
+      "parent_name": "history and archaeology",
+      "course_count": 19
+    },
+    {
+      "code": "CAH20-01-05",
+      "name": "classics",
+      "level": 3,
+      "parent_code": "CAH20-01",
+      "parent_name": "history and archaeology",
+      "course_count": 393
+    },
+    {
+      "code": "CAH20-02",
+      "name": "philosophy and religious studies",
+      "level": 2,
+      "parent_code": "CAH20",
+      "parent_name": "historical, philosophical and religious studies",
+      "course_count": 946
+    },
+    {
+      "code": "CAH20-02-01",
+      "name": "philosophy",
+      "level": 3,
+      "parent_code": "CAH20-02",
+      "parent_name": "philosophy and religious studies",
+      "course_count": 659
+    },
+    {
+      "code": "CAH20-02-02",
+      "name": "theology and religious studies",
+      "level": 3,
+      "parent_code": "CAH20-02",
+      "parent_name": "philosophy and religious studies",
+      "course_count": 327
+    },
+    {
+      "code": "CAH22-01",
+      "name": "education and teaching",
+      "level": 2,
+      "parent_code": "CAH22",
+      "parent_name": "education and teaching",
+      "course_count": 699
+    },
+    {
+      "code": "CAH22-01-01",
+      "name": "education",
+      "level": 3,
+      "parent_code": "CAH22-01",
+      "parent_name": "education and teaching",
+      "course_count": 504
+    },
+    {
+      "code": "CAH22-01-02",
+      "name": "teacher training",
+      "level": 3,
+      "parent_code": "CAH22-01",
+      "parent_name": "education and teaching",
+      "course_count": 203
+    },
+    {
+      "code": "CAH23-01",
+      "name": "combined and general studies",
+      "level": 2,
+      "parent_code": "CAH23",
+      "parent_name": "combined and general studies",
+      "course_count": 299
+    },
+    {
+      "code": "CAH23-01-01",
+      "name": "combined, general or negotiated studies",
+      "level": 3,
+      "parent_code": "CAH23-01",
+      "parent_name": "combined and general studies",
+      "course_count": 13
+    },
+    {
+      "code": "CAH23-01-02",
+      "name": "personal development",
+      "level": 3,
+      "parent_code": "CAH23-01",
+      "parent_name": "combined and general studies",
+      "course_count": 162
+    },
+    {
+      "code": "CAH23-01-03",
+      "name": "humanities (non-specific)",
+      "level": 3,
+      "parent_code": "CAH23-01",
+      "parent_name": "combined and general studies",
+      "course_count": 28
+    },
+    {
+      "code": "CAH23-01-04",
+      "name": "liberal arts (non-specific)",
+      "level": 3,
+      "parent_code": "CAH23-01",
+      "parent_name": "combined and general studies",
+      "course_count": 99
+    },
+    {
+      "code": "CAH24-01",
+      "name": "media, journalism and communications",
+      "level": 2,
+      "parent_code": "CAH24",
+      "parent_name": "media, journalism and communications",
+      "course_count": 1180
+    },
+    {
+      "code": "CAH24-01-01",
+      "name": "information services",
+      "level": 3,
+      "parent_code": "CAH24-01",
+      "parent_name": "media, journalism and communications",
+      "course_count": 23
+    },
+    {
+      "code": "CAH24-01-02",
+      "name": "publicity studies",
+      "level": 3,
+      "parent_code": "CAH24-01",
+      "parent_name": "media, journalism and communications",
+      "course_count": 36
+    },
+    {
+      "code": "CAH24-01-03",
+      "name": "publishing",
+      "level": 3,
+      "parent_code": "CAH24-01",
+      "parent_name": "media, journalism and communications",
+      "course_count": 24
+    },
+    {
+      "code": "CAH24-01-04",
+      "name": "journalism",
+      "level": 3,
+      "parent_code": "CAH24-01",
+      "parent_name": "media, journalism and communications",
+      "course_count": 216
+    },
+    {
+      "code": "CAH24-01-05",
+      "name": "media studies",
+      "level": 3,
+      "parent_code": "CAH24-01",
+      "parent_name": "media, journalism and communications",
+      "course_count": 926
+    },
+    {
+      "code": "CAH25-01",
+      "name": "creative arts and design",
+      "level": 2,
+      "parent_code": "CAH25",
+      "parent_name": "design, and creative and performing arts",
+      "course_count": 1939
+    },
+    {
+      "code": "CAH25-01-01",
+      "name": "creative arts and design (non-specific)",
+      "level": 3,
+      "parent_code": "CAH25-01",
+      "parent_name": "creative arts and design",
+      "course_count": 83
+    },
+    {
+      "code": "CAH25-01-02",
+      "name": "art",
+      "level": 3,
+      "parent_code": "CAH25-01",
+      "parent_name": "creative arts and design",
+      "course_count": 219
+    },
+    {
+      "code": "CAH25-01-03",
+      "name": "design studies",
+      "level": 3,
+      "parent_code": "CAH25-01",
+      "parent_name": "creative arts and design",
+      "course_count": 1031
+    },
+    {
+      "code": "CAH25-01-04",
+      "name": "cinematics and photography",
+      "level": 3,
+      "parent_code": "CAH25-01",
+      "parent_name": "creative arts and design",
+      "course_count": 607
+    },
+    {
+      "code": "CAH25-01-05",
+      "name": "others in creative arts and design",
+      "level": 3,
+      "parent_code": "CAH25-01",
+      "parent_name": "creative arts and design",
+      "course_count": 52
+    },
+    {
+      "code": "CAH25-02",
+      "name": "performing arts",
+      "level": 2,
+      "parent_code": "CAH25",
+      "parent_name": "design, and creative and performing arts",
+      "course_count": 1198
+    },
+    {
+      "code": "CAH25-02-01",
+      "name": "performing arts (non-specific)",
+      "level": 3,
+      "parent_code": "CAH25-02",
+      "parent_name": "performing arts",
+      "course_count": 46
+    },
+    {
+      "code": "CAH25-02-02",
+      "name": "music",
+      "level": 3,
+      "parent_code": "CAH25-02",
+      "parent_name": "performing arts",
+      "course_count": 654
+    },
+    {
+      "code": "CAH25-02-03",
+      "name": "drama",
+      "level": 3,
+      "parent_code": "CAH25-02",
+      "parent_name": "performing arts",
+      "course_count": 470
+    },
+    {
+      "code": "CAH25-02-04",
+      "name": "dance",
+      "level": 3,
+      "parent_code": "CAH25-02",
+      "parent_name": "performing arts",
+      "course_count": 65
+    },
+    {
+      "code": "CAH26-01",
+      "name": "geography, earth and environmental studies",
+      "level": 2,
+      "parent_code": "CAH26",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 960
+    },
+    {
+      "code": "CAH26-01-01",
+      "name": "geography (non-specific)",
+      "level": 3,
+      "parent_code": "CAH26-01",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 159
+    },
+    {
+      "code": "CAH26-01-02",
+      "name": "physical geographical sciences",
+      "level": 3,
+      "parent_code": "CAH26-01",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 227
+    },
+    {
+      "code": "CAH26-01-03",
+      "name": "human geography",
+      "level": 3,
+      "parent_code": "CAH26-01",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 287
+    },
+    {
+      "code": "CAH26-01-04",
+      "name": "environmental sciences",
+      "level": 3,
+      "parent_code": "CAH26-01",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 183
+    },
+    {
+      "code": "CAH26-01-05",
+      "name": "others in geographical studies",
+      "level": 3,
+      "parent_code": "CAH26-01",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 2
+    },
+    {
+      "code": "CAH26-01-06",
+      "name": "earth sciences",
+      "level": 3,
+      "parent_code": "CAH26-01",
+      "parent_name": "geography, earth and environmental studies",
+      "course_count": 194
+    }
+  ]
+}

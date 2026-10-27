@@ -1,0 +1,9 @@
+.venv
+.env
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+smoke_out/
+__pycache__/
+.DS_Store
