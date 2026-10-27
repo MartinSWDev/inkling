@@ -7,3 +7,7 @@ data/processed/*
 smoke_out/
 __pycache__/
 .DS_Store
+image_out/
+style_out/
+anchor_out/
+pair_out/
