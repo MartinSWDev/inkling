@@ -27,7 +27,7 @@ LAYOUT = json.loads((ROOT / "web" / "public" / "room" / "layout.json").read_text
 STICKERS = ROOT / "web" / "public" / "stickers"
 INDEX = STICKERS / "stickers.json"
 OUT = ROOT / "sticker_out"
-SCALE = {"small": 0.5, "medium": 0.75, "large": 1.0}
+SCALE = {"small": 0.6, "medium": 0.8, "large": 1.0}
 LARGE_WORDS = ("guitar", "telescope", "mannequin", "suitcase", "harp", "gate", "skeleton",
                "spotlight", "camera on tripod", "wardrobe", "surfboard", "easel", "drum")
 _lock = threading.Lock()
@@ -49,11 +49,13 @@ def sticker_prompt(card, bigger=False):
     return json.dumps({
         "task": "draw ONLY this object, isolated, as a cut-paper piece in the same style as the reference room, "
                 "three-quarter view matching the room's camera, centred on a flat solid #00FF00 background, "
+                "the whole object fully in frame with a wide green margin, no outline, no border, no sticker edge, "
                 "no shadow on the background, nothing else" + ("; clearly visible, a little larger" if bigger else ""),
         "visual_identity": identity(), "object": card["object"], "negative": NEGATIVE}, indent=1)
 
 
-def sam_box(image, card):
+def sam_present(image, card):
+    """SAM is only an 'is the object there' check; it no longer crops anything."""
     url = data_url(image)
     for label in card["sam_labels"]:
         seg = client().responses.create(
@@ -62,16 +64,41 @@ def sam_box(image, card):
                 {"type": "input_text", "text": label},
                 {"type": "input_image", "image_url": url}]}],
             metadata={"include_confidence": "true"})
-        boxes = [b for b in parse_sam(seg.output_text or "") if b.get("c", 1) >= 0.5]
-        if boxes:
-            return max(boxes, key=lambda b: b.get("c", 0))
+        if [b for b in parse_sam(seg.output_text or "") if b.get("c", 1) >= 0.5]:
+            return label
     return None
 
 
-def cut_out(img, box):
-    x1, y1, x2, y2 = (max(0, int(box["x1"]) - 8), max(0, int(box["y1"]) - 8),
-                      min(img.width, int(box["x2"]) + 8), min(img.height, int(box["y2"]) + 8))
-    crop = img.crop((x1, y1, x2, y2)).convert("RGBA")
+def _largest_share(alpha_small):
+    px = alpha_small.load()
+    w, h = alpha_small.size
+    seen = [bytearray(w) for _ in range(h)]
+    total = best = 0
+    from collections import deque
+    for y in range(h):
+        for x in range(w):
+            if px[x, y] <= 10:
+                continue
+            total += 1
+            if seen[y][x]:
+                continue
+            n, q = 0, deque([(x, y)])
+            seen[y][x] = 1
+            while q:
+                cx, cy = q.popleft()
+                n += 1
+                for nx, ny in ((cx + 1, cy), (cx - 1, cy), (cx, cy + 1), (cx, cy - 1)):
+                    if 0 <= nx < w and 0 <= ny < h and not seen[ny][nx] and px[nx, ny] > 10:
+                        seen[ny][nx] = 1
+                        q.append((nx, ny))
+            best = max(best, n)
+    return best / total if total else 0.0
+
+
+def keyed_sticker(img):
+    """Crop to the keyed alpha (never the SAM box); reject stickers touching the frame edge."""
+    from PIL import ImageFilter
+    crop = img.convert("RGBA")
     px = crop.load()
     for y in range(crop.height):
         for x in range(crop.width):
@@ -80,14 +107,19 @@ def cut_out(img, box):
                 px[x, y] = (r, g, b, 0)
             elif g > r and g > b:  # despill green fringe
                 px[x, y] = (r, max(r, b), b, px[x, y][3])
-    bbox = crop.getchannel("A").getbbox()
+    alpha = crop.getchannel("A").filter(ImageFilter.MinFilter(3)).filter(ImageFilter.MinFilter(3))
+    crop.putalpha(alpha)
+    bbox = alpha.getbbox()
     if not bbox:
-        return None, 0.0
+        return None, 0.0, 0.0
+    if bbox[0] <= 2 or bbox[1] <= 2 or bbox[2] >= crop.width - 2 or bbox[3] >= crop.height - 2:
+        return None, 0.0, 0.0  # clipped by the frame
+    frac = sum(1 for v in alpha.getdata() if v > 10) / (crop.width * crop.height)
+    share = _largest_share(alpha.resize((128, 128)))
     crop = crop.crop(bbox)
-    frac = sum(1 for v in crop.getchannel("A").getdata() if v > 10) / (crop.width * crop.height)
     if crop.width > 512 or crop.height > 512:
         crop.thumbnail((512, 512))
-    return crop, frac
+    return crop, frac, share
 
 
 def build_one(card, room_ref):
@@ -101,17 +133,31 @@ def build_one(card, room_ref):
                 "tool_enablement": NO_SEARCH, "images": [{"image_url": room_ref}],
                 "prompt": sticker_prompt(card, bigger=attempt > 0)})
             save_b64(r["data"][0], raw)
-        box = sam_box(raw, card)
-        if not box:
-            continue
-        sticker, frac = cut_out(Image.open(raw).convert("RGB"), box)
-        if sticker is None or frac < 0.02:
+        label = sam_present(raw, card)
+        sticker, frac, share = keyed_sticker(Image.open(raw).convert("RGB"))
+        ok = sticker is not None and 0.01 < frac < 0.7 and (label is not None or share >= 0.85)
+        if not ok:
             raw.unlink(missing_ok=True)
             continue
         sticker.save(STICKERS / (code + ".webp"), lossless=True)
         return {"code": code, "slot": card["slot"], "size": size_class(card),
-                "w": sticker.width, "h": sticker.height}
+                "w": sticker.width, "h": sticker.height, "label": label or "alpha-fallback"}
     return None
+
+
+def _shadow(canvas, st, x, y, wall=False):
+    """Soft contact shadow: ellipse under standing objects, offset silhouette for wall items."""
+    from PIL import ImageDraw, ImageFilter
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    if wall:
+        sil = Image.new("RGBA", st.size, (30, 20, 40, 90))
+        sil.putalpha(st.getchannel("A").point(lambda a: a * 90 // 255))
+        layer.paste(sil, (x + 7, y + 10), sil)
+    else:
+        d.ellipse([x + st.width * 0.12, y + st.height - 7, x + st.width * 0.88, y + st.height + 7],
+                  fill=(30, 20, 40, 64))  # ~25% multiply shadow
+    canvas.alpha_composite(layer.filter(ImageFilter.GaussianBlur(5)))
 
 
 def composite_rooms(entries, cards_by_code, n=6):
@@ -120,7 +166,7 @@ def composite_rooms(entries, cards_by_code, n=6):
     view = Image.open(ROOT / "web" / "public" / "views" / "campus_day.webp").convert("RGB")
     spots = LAYOUT["spots"]
     names = []
-    rng = random.Random(8)
+    rng = random.Random()
     for i in range(n):
         canvas = Image.new("RGBA", room.size, (110, 110, 150, 255))
         canvas.paste(view.resize((win["w"], win["h"])), (win["x"], win["y"]))
@@ -141,7 +187,9 @@ def composite_rooms(entries, cards_by_code, n=6):
             scale = min(mw / st.width, mh / st.height) * SCALE[e["size"]]
             st = st.resize((max(1, int(st.width * scale)), max(1, int(st.height * scale))))
             ax, ay = spot["anchor"]
-            canvas.paste(st, (ax - st.width // 2, ay - st.height), st)
+            x, y = ax - st.width // 2, ay - st.height
+            _shadow(canvas, st, x, y, wall=e["slot"] == "wall")
+            canvas.paste(st, (x, y), st)
         dest = OUT / ("room%d.png" % (i + 1))
         canvas.convert("RGB").save(dest)
         names.append(dest.name)

@@ -3,42 +3,64 @@
   "code": "CAH01-01-01",
   "slot": "wall",
   "size": "medium",
-  "w": 331,
-  "h": 512
+  "w": 383,
+  "h": 512,
+  "label": "alpha-fallback"
  },
  {
   "code": "CAH01-01-02",
   "slot": "desk",
   "size": "medium",
-  "w": 454,
-  "h": 512
+  "w": 512,
+  "h": 453,
+  "label": "stethoscope"
+ },
+ {
+  "code": "CAH01-01-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 436,
+  "h": 512,
+  "label": "alpha-fallback"
  },
  {
   "code": "CAH01-01-04",
   "slot": "desk",
   "size": "medium",
   "w": 512,
-  "h": 328
+  "h": 351,
+  "label": "alpha-fallback"
  },
  {
   "code": "CAH02-02-01",
   "slot": "shelf",
   "size": "small",
-  "w": 177,
-  "h": 512
+  "w": 495,
+  "h": 512,
+  "label": "bottles"
  },
  {
   "code": "CAH02-02-02",
   "slot": "shelf",
   "size": "small",
-  "w": 154,
-  "h": 177
+  "w": 214,
+  "h": 512,
+  "label": "flowering plant"
  },
  {
   "code": "CAH02-02-03",
   "slot": "shelf",
   "size": "small",
-  "w": 473,
-  "h": 512
+  "w": 482,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH02-04-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 381,
+  "h": 512,
+  "label": "alpha-fallback"
  }
 ]
