@@ -45,10 +45,24 @@ def size_class(card):
     return size
 
 
+VIEWS_BY_SLOT = {
+    "wall": "perfectly flat and front-on, parallel to the picture plane, no visible sides or depth "
+            "(at most a thin frame edge), like a print pinned flat to a wall",
+    "shelf": "front view at eye level, seen very slightly from above (about 15 degrees) so only a "
+             "sliver of the top shows; object square to the camera, not rotated",
+    "desk": "front view at eye level, seen very slightly from above (about 15 degrees) so only a "
+            "sliver of the top shows; object square to the camera, not rotated",
+    "floor": "front view at eye level, seen very slightly from above (about 15 degrees) so only a "
+             "sliver of the top shows; object square to the camera, not rotated",
+    "bed": "lying flat as if on a duvet, seen from slightly above",
+}
+
+
 def sticker_prompt(card, bigger=False):
     return json.dumps({
         "task": "draw ONLY this object, isolated, as a cut-paper piece in the same style as the reference room, "
-                "three-quarter view matching the room's camera, centred on a flat solid #00FF00 background, "
+                + VIEWS_BY_SLOT[card["slot"]] + ", object upright and level, not tilted, "
+                "centred on a flat solid #00FF00 background, "
                 "the whole object fully in frame with a wide green margin, no outline, no border, no sticker edge, "
                 "no shadow on the background, nothing else" + ("; clearly visible, a little larger" if bigger else ""),
         "visual_identity": identity(), "object": card["object"], "negative": NEGATIVE}, indent=1)
@@ -187,6 +201,8 @@ def composite_rooms(entries, cards_by_code, n=6):
             scale = min(mw / st.width, mh / st.height) * SCALE[e["size"]]
             st = st.resize((max(1, int(st.width * scale)), max(1, int(st.height * scale))))
             ax, ay = spot["anchor"]
+            if e["slot"] == "wall":
+                st = st.rotate(rng.uniform(-2, 2), expand=True, resample=Image.BICUBIC)
             x, y = ax - st.width // 2, ay - st.height
             _shadow(canvas, st, x, y, wall=e["slot"] == "wall")
             canvas.paste(st, (x, y), st)

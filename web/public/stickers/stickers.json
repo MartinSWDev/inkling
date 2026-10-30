@@ -3,24 +3,24 @@
   "code": "CAH01-01-01",
   "slot": "wall",
   "size": "medium",
-  "w": 383,
+  "w": 345,
   "h": 512,
-  "label": "alpha-fallback"
+  "label": "anatomy poster"
  },
  {
   "code": "CAH01-01-02",
   "slot": "desk",
   "size": "medium",
-  "w": 512,
-  "h": 453,
+  "w": 332,
+  "h": 512,
   "label": "stethoscope"
  },
  {
   "code": "CAH01-01-03",
   "slot": "wall",
   "size": "medium",
-  "w": 436,
-  "h": 512,
+  "w": 512,
+  "h": 507,
   "label": "alpha-fallback"
  },
  {
@@ -28,14 +28,14 @@
   "slot": "desk",
   "size": "medium",
   "w": 512,
-  "h": 351,
-  "label": "alpha-fallback"
+  "h": 490,
+  "label": "metal tray"
  },
  {
   "code": "CAH02-02-01",
   "slot": "shelf",
   "size": "small",
-  "w": 495,
+  "w": 445,
   "h": 512,
   "label": "bottles"
  },
@@ -51,15 +51,15 @@
   "code": "CAH02-02-03",
   "slot": "shelf",
   "size": "small",
-  "w": 482,
+  "w": 463,
   "h": 512,
-  "label": "alpha-fallback"
+  "label": "mortar"
  },
  {
   "code": "CAH02-04-01",
   "slot": "shelf",
   "size": "small",
-  "w": 381,
+  "w": 215,
   "h": 512,
   "label": "alpha-fallback"
  }
