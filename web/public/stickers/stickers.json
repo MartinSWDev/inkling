@@ -1,0 +1,44 @@
+[
+ {
+  "code": "CAH01-01-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 331,
+  "h": 512
+ },
+ {
+  "code": "CAH01-01-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 454,
+  "h": 512
+ },
+ {
+  "code": "CAH01-01-04",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 328
+ },
+ {
+  "code": "CAH02-02-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 177,
+  "h": 512
+ },
+ {
+  "code": "CAH02-02-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 154,
+  "h": 177
+ },
+ {
+  "code": "CAH02-02-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 473,
+  "h": 512
+ }
+]
