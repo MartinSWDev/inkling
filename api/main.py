@@ -38,6 +38,45 @@ def pairs():
     return _load("pairs.json")
 
 
+class ScoreRequest(BaseModel):
+    chips: list = []
+    typed: List[str] = []
+    swipes: list = []
+    subject_swipes: list = []
+    pairs: list = []
+    shown: List[str] = []
+
+
+def _datasets():
+    cards = _load("subject_cards.json")["cards"]
+    profiles = _load("subject_profiles.json")["subjects"]
+    return cards, profiles, _load("pairs.json")
+
+
+@app.post("/api/score")
+def score(req: ScoreRequest):
+    from api.scoring import score_answers
+    cards, profiles, pairs_data = _datasets()
+    return score_answers(req.dict(), cards, profiles, pairs_data)
+
+
+@app.get("/api/content")
+def content():
+    from api.scoring import CHIPS, EXTRA_NAMES, QUESTIONS, THINGS
+    return {"chips": CHIPS, "extra_names": EXTRA_NAMES, "things": THINGS, "questions": QUESTIONS,
+            "pairs": _load("pairs.json")["pairs"]}
+
+
+@app.get("/api/next-cards")
+def next_cards(round: str = "things", shown: str = "", count: int = 5, seed: int = 0, answers: str = ""):
+    from api.scoring import pick_next_cards
+    cards, profiles, pairs_data = _datasets()
+    parsed = json.loads(answers) if answers else {}
+    picked = pick_next_cards(parsed, cards, profiles, pairs_data,
+                             [s for s in shown.split(",") if s], count=count, seed=seed)
+    return {"round": round, "cards": picked}
+
+
 class RoomRequest(BaseModel):
     room_id: Optional[str] = None
     add: List[str] = []
