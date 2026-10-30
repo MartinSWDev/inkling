@@ -1,0 +1,578 @@
+{
+ "about": "Second-pass edits on top of Spark's first-pass subject cards: removes near-duplicate objects, rebalances slots (target shelf 60 / desk 35 / wall 30 / floor 25 / bed 15), replaces stereotyped objects, fixes why lines that didn't fit. Made by Muse Spark (review pass) plus hand edits. Applied by scripts/apply_card_overrides.py; first-pass values kept under 'spark'.",
+ "overrides": {
+  "CAH02-04-02": {
+   "object": "blood pressure cuff with dial gauge",
+   "slot": "desk",
+   "sam_labels": [
+    "blood pressure cuff",
+    "medical cuff",
+    "gauge"
+   ]
+  },
+  "CAH02-05-04": {
+   "object": "articulated plastic skeleton on a stand",
+   "slot": "floor",
+   "sam_labels": [
+    "skeleton model",
+    "skeleton",
+    "anatomy model"
+   ]
+  },
+  "CAH05-01-01": {
+   "object": "single metal horseshoe",
+   "slot": "wall",
+   "sam_labels": [
+    "metal horseshoe",
+    "horseshoe",
+    "animal shoe"
+   ]
+  },
+  "CAH05-01-02": {
+   "object": "pet carrier with an open door",
+   "slot": "floor",
+   "sam_labels": [
+    "pet carrier",
+    "animal carrier",
+    "carrier"
+   ]
+  },
+  "CAH02-06-01": {
+   "object": "set of coloured resistance bands",
+   "slot": "bed",
+   "sam_labels": [
+    "resistance bands",
+    "exercise bands",
+    "elastic bands"
+   ]
+  },
+  "CAH03-02-01": {
+   "object": "kettlebell",
+   "slot": "floor",
+   "sam_labels": [
+    "kettlebell",
+    "weight",
+    "dumbbell"
+   ]
+  },
+  "CAH03-01-05": {
+   "object": "seed tray of sprouting seedlings",
+   "slot": "shelf",
+   "sam_labels": [
+    "seed tray",
+    "seedlings",
+    "plant pots"
+   ]
+  },
+  "CAH07-04-04": {
+   "object": "magnifying glass resting on a leaf",
+   "slot": "desk",
+   "sam_labels": [
+    "magnifying glass",
+    "magnifier",
+    "lens"
+   ]
+  },
+  "CAH26-01-04": {
+   "object": "small weather station with spinning cups",
+   "slot": "shelf",
+   "sam_labels": [
+    "weather station",
+    "anemometer",
+    "weather instrument"
+   ]
+  },
+  "CAH02-02-02": {
+   "object": "potted foxglove plant",
+   "slot": "shelf",
+   "sam_labels": [
+    "foxglove",
+    "flowering plant",
+    "potted plant"
+   ]
+  },
+  "CAH02-02-01": {
+   "object": "brown glass dropper bottles in a rack",
+   "slot": "shelf",
+   "sam_labels": [
+    "dropper bottles",
+    "glass bottles",
+    "bottles"
+   ]
+  },
+  "CAH02-04-06": {
+   "object": "dental jaw model with white teeth",
+   "slot": "shelf",
+   "sam_labels": [
+    "dental jaw model",
+    "teeth model",
+    "model"
+   ]
+  },
+  "CAH02-05-03": {
+   "object": "lab microscope",
+   "slot": "desk",
+   "sam_labels": [
+    "microscope",
+    "lab microscope",
+    "instrument"
+   ]
+  },
+  "CAH06-01-08": {
+   "object": "kitchen stand mixer",
+   "slot": "desk",
+   "sam_labels": [
+    "stand mixer",
+    "food mixer",
+    "mixer"
+   ]
+  },
+  "CAH07-04-01": {
+   "object": "glass prism casting a rainbow",
+   "slot": "shelf",
+   "sam_labels": [
+    "glass prism",
+    "prism",
+    "glass"
+   ]
+  },
+  "CAH04-01-02": {
+   "object": "pink brain model",
+   "slot": "shelf",
+   "sam_labels": [
+    "brain model",
+    "model",
+    "sculpture"
+   ]
+  },
+  "CAH06-01-02": {
+   "object": "sheaf of dried wheat in a vase",
+   "slot": "shelf",
+   "sam_labels": [
+    "wheat sheaf",
+    "wheat",
+    "dried grass"
+   ]
+  },
+  "CAH06-01-04": {
+   "object": "waxed jacket hanging on a hook",
+   "slot": "wall",
+   "sam_labels": [
+    "waxed jacket",
+    "jacket",
+    "coat"
+   ]
+  },
+  "CAH10-01-01": {
+   "object": "red metal toolbox",
+   "slot": "floor",
+   "sam_labels": [
+    "toolbox",
+    "tool box",
+    "box"
+   ]
+  },
+  "CAH13-01-02": {
+   "object": "spirit level",
+   "slot": "desk",
+   "sam_labels": [
+    "spirit level",
+    "level",
+    "ruler"
+   ]
+  },
+  "CAH10-01-10": {
+   "object": "high-visibility vest on a hook",
+   "slot": "wall",
+   "sam_labels": [
+    "high-visibility vest",
+    "vest",
+    "jacket"
+   ]
+  },
+  "CAH10-01-05": {
+   "object": "model sailing ship",
+   "slot": "shelf",
+   "sam_labels": [
+    "model ship",
+    "ship",
+    "boat"
+   ]
+  },
+  "CAH10-03-04": {
+   "object": "brass ship's wheel",
+   "slot": "wall",
+   "sam_labels": [
+    "ship's wheel",
+    "wheel",
+    "helm"
+   ]
+  },
+  "CAH10-01-04": {
+   "object": "model aeroplane hanging from the ceiling",
+   "slot": "wall",
+   "sam_labels": [
+    "model aeroplane",
+    "aeroplane",
+    "plane"
+   ]
+  },
+  "CAH11-01-01": {
+   "object": "mechanical keyboard with colourful keys",
+   "slot": "desk",
+   "sam_labels": [
+    "keyboard",
+    "computer keyboard",
+    "device"
+   ]
+  },
+  "CAH19-01-01": {
+   "object": "pair of owl bookends holding books",
+   "slot": "shelf",
+   "sam_labels": [
+    "bookends",
+    "books",
+    "owl"
+   ]
+  },
+  "CAH19-01-02": {
+   "object": "old rotary telephone",
+   "slot": "shelf",
+   "sam_labels": [
+    "rotary telephone",
+    "telephone",
+    "phone"
+   ]
+  },
+  "CAH19-02-04": {
+   "object": "bodhran frame drum",
+   "slot": "wall",
+   "sam_labels": [
+    "bodhran drum",
+    "frame drum",
+    "drum"
+   ]
+  },
+  "CAH20-02-01": {
+   "object": "wooden chess set mid-game",
+   "slot": "desk",
+   "sam_labels": [
+    "chess board",
+    "chess set",
+    "board game"
+   ]
+  },
+  "CAH07-04-02": {
+   "object": "fingerprint brush and powder jar",
+   "slot": "desk",
+   "sam_labels": [
+    "fingerprint brush",
+    "brush",
+    "jar"
+   ]
+  },
+  "CAH15-02-01": {
+   "object": "toy shopping trolley full of groceries",
+   "slot": "floor",
+   "sam_labels": [
+    "toy shopping trolley",
+    "shopping trolley",
+    "trolley"
+   ]
+  },
+  "CAH22-01-01": {
+   "object": "small blank chalkboard on an easel",
+   "slot": "floor",
+   "sam_labels": [
+    "chalkboard easel",
+    "chalkboard",
+    "easel"
+   ]
+  },
+  "CAH15-01-05": {
+   "object": "orange wind-up radio with round dial",
+   "slot": "shelf",
+   "sam_labels": [
+    "wind-up radio",
+    "hand-crank radio",
+    "radio"
+   ]
+  },
+  "CAH15-01-01": {
+   "object": "desk globe",
+   "slot": "desk",
+   "sam_labels": [
+    "globe",
+    "desk globe",
+    "sphere"
+   ]
+  },
+  "CAH17-01-04": {
+   "object": "whiteboard covered in sticky notes",
+   "slot": "wall",
+   "sam_labels": [
+    "whiteboard",
+    "sticky notes",
+    "board"
+   ]
+  },
+  "CAH23-01-02": {
+   "object": "closed cloth journal with ribbon bookmark",
+   "slot": "bed",
+   "sam_labels": [
+    "cloth journal",
+    "journal",
+    "notebook"
+   ]
+  },
+  "CAH15-01-02": {
+   "object": "folded hoodie with a blank front",
+   "slot": "bed",
+   "sam_labels": [
+    "hoodie",
+    "sweatshirt",
+    "clothing"
+   ]
+  },
+  "CAH17-01-03": {
+   "object": "stack of colourful shopping bags",
+   "slot": "floor",
+   "sam_labels": [
+    "shopping bags",
+    "paper bags",
+    "bags"
+   ]
+  },
+  "CAH25-01-01": {
+   "object": "jar of paintbrushes and pencils",
+   "slot": "desk",
+   "sam_labels": [
+    "jar of brushes",
+    "paintbrushes",
+    "jar"
+   ]
+  },
+  "CAH25-02-01": {
+   "object": "stage spotlight on a stand",
+   "slot": "floor",
+   "sam_labels": [
+    "stage spotlight",
+    "spotlight",
+    "lamp"
+   ]
+  },
+  "CAH25-01-03": {
+   "object": "fan of colour swatch cards",
+   "slot": "desk",
+   "sam_labels": [
+    "colour swatches",
+    "swatch fan",
+    "cards"
+   ]
+  },
+  "CAH19-04-01": {
+   "object": "folded blue and white striped scarf",
+   "slot": "bed",
+   "sam_labels": [
+    "striped scarf",
+    "wool scarf",
+    "scarf"
+   ]
+  },
+  "CAH19-04-08": {
+   "object": "small surfboard leaning on the wall",
+   "slot": "floor",
+   "sam_labels": [
+    "surfboard",
+    "board",
+    "plank"
+   ]
+  },
+  "CAH02-06-04": {
+   "object": "handheld water testing meter with probe",
+   "slot": "shelf",
+   "sam_labels": [
+    "water testing meter",
+    "water quality meter",
+    "testing meter"
+   ]
+  },
+  "CAH02-06-06": {
+   "object": "stack of three smooth black massage stones",
+   "slot": "shelf",
+   "sam_labels": [
+    "massage stones",
+    "hot stones",
+    "stones"
+   ]
+  },
+  "CAH02-06-07": {
+   "object": "folded grey weighted blanket",
+   "slot": "bed",
+   "sam_labels": [
+    "weighted blanket",
+    "folded blanket",
+    "blanket"
+   ]
+  },
+  "CAH02-06-02": {
+   "slot": "desk"
+  },
+  "CAH03-01-03": {
+   "slot": "wall"
+  },
+  "CAH07-01-01": {
+   "slot": "desk"
+  },
+  "CAH10-01-07": {
+   "slot": "floor"
+  },
+  "CAH15-01-04": {
+   "slot": "wall"
+  },
+  "CAH15-03-01": {
+   "slot": "floor"
+  },
+  "CAH15-04-01": {
+   "object": "plain canvas tote bag",
+   "slot": "floor",
+   "sam_labels": [
+    "canvas tote bag",
+    "tote bag",
+    "bag"
+   ]
+  },
+  "CAH17-01-05": {
+   "object": "blue staff lanyard with blank badge",
+   "slot": "bed",
+   "sam_labels": [
+    "staff lanyard",
+    "lanyard",
+    "ID badge"
+   ]
+  },
+  "CAH17-01-09": {
+   "slot": "bed"
+  },
+  "CAH19-01-07": {
+   "object": "pair of blank speech bubble cushions",
+   "slot": "bed",
+   "sam_labels": [
+    "speech bubble cushion",
+    "speech bubble pillow",
+    "cushion"
+   ]
+  },
+  "CAH19-02-01": {
+   "slot": "wall"
+  },
+  "CAH19-02-03": {
+   "slot": "wall"
+  },
+  "CAH19-04-02": {
+   "object": "folded grey knitted beanie hat",
+   "slot": "bed",
+   "sam_labels": [
+    "knitted beanie",
+    "beanie hat",
+    "winter hat"
+   ]
+  },
+  "CAH19-04-04": {
+   "object": "small ceramic dish of green olives",
+   "slot": "shelf",
+   "sam_labels": [
+    "olive dish",
+    "dish of olives",
+    "dish"
+   ]
+  },
+  "CAH19-04-05": {
+   "object": "red enamel stovetop kettle",
+   "slot": "shelf",
+   "sam_labels": [
+    "enamel kettle",
+    "stovetop kettle",
+    "kettle"
+   ]
+  },
+  "CAH19-04-06": {
+   "object": "round bamboo steamer basket with lid",
+   "slot": "shelf",
+   "sam_labels": [
+    "bamboo steamer",
+    "steamer basket",
+    "bamboo basket"
+   ]
+  },
+  "CAH19-04-07": {
+   "slot": "wall"
+  },
+  "CAH20-01-04": {
+   "object": "ornate antique brass key hanging on hook",
+   "slot": "wall"
+  },
+  "CAH20-01-05": {
+   "object": "large replica amphora vase",
+   "slot": "floor"
+  },
+  "CAH20-02-02": {
+   "object": "small colourful stained glass window hanging",
+   "slot": "wall",
+   "sam_labels": [
+    "stained glass panel",
+    "stained glass",
+    "window hanging"
+   ]
+  },
+  "CAH22-01-02": {
+   "slot": "desk"
+  },
+  "CAH23-01-03": {
+   "object": "framed abstract colour-block print",
+   "slot": "wall",
+   "sam_labels": [
+    "abstract colour print",
+    "framed abstract print",
+    "framed print"
+   ]
+  },
+  "CAH24-01-01": {
+   "object": "wooden card catalogue cabinet with small drawers",
+   "slot": "floor",
+   "sam_labels": [
+    "card catalogue cabinet",
+    "catalogue cabinet",
+    "wooden cabinet"
+   ]
+  },
+  "CAH25-02-04": {
+   "slot": "bed"
+  },
+  "CAH26-01-03": {
+   "object": "brown raised relief terrain map panel",
+   "slot": "wall",
+   "sam_labels": [
+    "raised relief map",
+    "terrain map",
+    "map panel"
+   ]
+  },
+  "CAH03-01-10": {
+   "why_line": "Good if you're curious how living things, humans included, change over time."
+  },
+  "CAH19-01-06": {
+   "why_line": "Good if you're curious how people sign, speak and get understood.",
+   "object": "small fanned stack of picture flashcards",
+   "slot": "bed",
+   "sam_labels": [
+    "flashcards",
+    "picture cards",
+    "cards"
+   ]
+  },
+  "CAH17-01-02": {
+   "why_line": "If you've ever planned how you'd run your own shop."
+  }
+ }
+}

@@ -11,3 +11,7 @@ image_out/
 style_out/
 anchor_out/
 pair_out/
+cards_list.txt
+api/cache/
+web/node_modules/
+web/dist/
