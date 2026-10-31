@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
-import { scoreAnswers } from "./scoring";
+import { qualifiedSubjects, scoreAnswers } from "./scoring";
+import { ROUND_CAPS, growRoom } from "./roomRules";
 
 const ROUNDS = [
   { id: "subjects", label: "Round 1 · Your subjects", short: "Your subjects", min: 3 },
@@ -19,7 +20,9 @@ function heat(roundIdx: number, n: number) {
 }
 
 function CardArt({ card }: { card: DeckCard }) {
+  const [failed, setFailed] = useState(false);
   const [a, b] = SCENES[card.scene] || SCENES.light;
+  if (!failed) return (<div className="cardart"><img src={"/cards/" + card.id + ".webp"} alt="" onError={() => setFailed(true)} /></div>);
   return (<div className="cardart"><svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
     <defs><linearGradient id={"g" + card.id} x1="0" x2="0" y1="0" y2="1"><stop offset="0" stopColor={a} /><stop offset="1" stopColor={b} /></linearGradient></defs>
     <rect width="300" height="200" fill={"url(#g" + card.id + ")"} /><ellipse cx="150" cy="176" rx="90" ry="12" fill="#000" opacity=".15" />
@@ -75,20 +78,37 @@ export default function App() {
   }, [answers, content, subjects]);
   const ranked = live?.ranked ?? [];
   const surprise = live?.surprise ?? null;
-  const placedCodes = live?.room.slice(0, 8) ?? [];
+  const [roomCodes, setRoomCodes] = useState<string[]>([]);
+  const scoresRef = useRef<Record<string, number>>({});
   const assigned = useMemo(
-    () => (assets ? assignStickers(placedCodes, assets.stickers, assets.layout) : []),
-    [assets, placedCodes]);
+    () => (assets ? assignStickers(roomCodes, assets.stickers, assets.layout) : []),
+    [assets, roomCodes]);
 
   function nextRound() {
     if (round < 4) { setRound(round + 1); setDeckIdx(0); }
     else setPhase("reveal");
   }
 
-  function syncChips(nextPicked: Record<string, string>, nextTyped: string[]) {
+  // One action changes at most one room object, and only qualified subjects qualify.
+  function applyAction(snap: Answers, heart: boolean) {
+    if (!content || !subjects.length) return;
+    const profiles: Record<string, Record<string, number>> = {};
+    for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
+    const decks = { chips: content.chips, things: content.things, questions: content.questions };
+    const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks);
+    if (round > 1 || heart) {
+      const qualified = qualifiedSubjects(snap, subjects, profiles, content.pairs, decks);
+      setRoomCodes((prev) => growRoom(prev, scoresRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]));
+    }
+    scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
+  }
+
+  function syncChips(nextPicked: Record<string, string>, nextTyped: string[], heart = false) {
     setPicked(nextPicked); setTypedNames(nextTyped);
-    setAnswers({ ...answersRef.current,
-      chips: Object.entries(nextPicked).map(([id, state]) => ({ id, state })), typed: nextTyped });
+    const snap = { ...answersRef.current,
+      chips: Object.entries(nextPicked).map(([id, state]) => ({ id, state })), typed: nextTyped };
+    setAnswers(snap);
+    applyAction(snap, heart);
   }
 
   function chipsContinue() { nextRound(); }
@@ -97,6 +117,7 @@ export default function App() {
     if (!current) return;
     const snap = { ...answersRef.current, swipes: [...answersRef.current.swipes, { card_id: current.id, answer: kind }] };
     setAnswers(snap);
+    applyAction(snap, false);
     const key = round === 2 ? "things" : "questions";
     setStats((s) => ({ ...s, [key]: [s[key][0] + 1, s[key][1] + (kind === "no" ? 0 : 1)] }));
     if (round === 4 && kind !== "no" && current.fact) {
@@ -108,11 +129,13 @@ export default function App() {
   function answerPair(pair: Pair, side: "a" | "b" | null) {
     const snap = { ...answersRef.current, pairs: [...answersRef.current.pairs, { pair_id: pair.id, side }] };
     setAnswers(snap);
+    applyAction(snap, false);
     if (pairIdx + 1 < (content?.pairs.length || 0)) setPairIdx(pairIdx + 1);
     else nextRound();
   }
 
   function restart() {
+    setRoomCodes([]); scoresRef.current = {};
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
     setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] }); setRound(1); setPhase("play");
   }
@@ -140,7 +163,13 @@ export default function App() {
       </div>
 
       {phase !== "reveal" && (<div className="top"><div className="segs">
-        {ROUNDS.map((r, i) => <div key={r.id} className={"seg" + (i < round - 1 ? " done" : "")}><i style={{ width: (phase === "play" && i === round - 1 ? Math.min(1, heat(i, progress)) * 100 : i < round - 1 ? 100 : 0) + "%" }} /></div>)}
+        {ROUNDS.map((r, i) => {
+          const totals = [content.chips.length, content.things.length, content.pairs.length, content.questions.length];
+          return (<div key={r.id} className={"seg" + (i < round - 1 ? " done" : "")}>
+            <i style={{ width: (phase === "play" && i === round - 1 ? Math.min(1, heat(i, progress)) * 100 : i < round - 1 ? 100 : 0) + "%" }} />
+            {phase === "play" && i === round - 1 && <em className="mintick" style={{ left: (r.min / Math.max(1, totals[i]) * 100) + "%" }} />}
+          </div>);
+        })}
       </div><div className="topline"><b>{phase === "intro" ? "Inkling" : ROUNDS[round - 1].short}</b><span>{phase === "play" ? "Round " + round + " of 4" : ""}</span></div></div>)}
       <div className={"toast" + (toast ? "" : " off")}>{toast}</div>
 
@@ -153,14 +182,14 @@ export default function App() {
 
       {phase === "play" && (<div className="overlay">
         {round === 1 && (<div className="sheet2">
-          <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart the ones you love.</p></div>
+          <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
               onClick={() => { const n = { ...picked }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; syncChips(n, typedNames); }}>
               <span>{chip.name}</span>
               <span className="heart" role="button" aria-label={"Love " + chip.name}
-                onClick={(e) => { e.stopPropagation(); syncChips({ ...picked, [chip.id]: picked[chip.id] === "love" ? "take" : "love" }, typedNames); }}>♥</span>
+                onClick={(e) => { e.stopPropagation(); syncChips({ ...picked, [chip.id]: picked[chip.id] === "love" ? "take" : "love" }, typedNames, picked[chip.id] !== "love"); }}>♥</span>
             </button>);
           })}</div>
           <div><p className="hint2" style={{ marginBottom: 6 }}>Something else?</p>
@@ -181,7 +210,7 @@ export default function App() {
               ? <div className="card"><div className="stamp yes">{round === 4 ? "tell me" : "yes!"}</div><div className="stamp no">nah</div>
                   {round === 4 && <div className="stamp up">need to know</div>}
                   <CardArt card={current} />{round === 4 && <div className="qtext">{current.title}</div>}
-                  <div className="cap"><b>{round === 2 ? current.title : ""}</b><small>{deckIdx + 1} / {ROUNDS[round - 1].min} min</small></div></div>
+                  <div className="cap"><b>{round === 2 ? current.title : ""}</b><small>{Math.min(deckIdx, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</small></div></div>
               : <div className="card" style={{ placeItems: "center", display: "grid", padding: 16 }}><p className="note">That's every card in this round.</p></div>}
           </div>
           <div className="actions">

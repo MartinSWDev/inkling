@@ -1,21 +1,202 @@
 {
- "window": {"x": 280, "y": 472, "w": 348, "h": 588},
+ "window": {
+  "x": 280,
+  "y": 472,
+  "w": 352,
+  "h": 592
+ },
  "spots": {
-  "shelf_top": {"slot": "shelf", "anchor": [1000, 563], "max": [120, 150], "z": 2},
-  "shelf_top_right": {"slot": "shelf", "anchor": [1085, 563], "max": [110, 150], "z": 2},
-  "shelf_low": {"slot": "shelf", "anchor": [1040, 830], "max": [140, 120], "z": 2},
-  "desk_left": {"slot": "desk", "anchor": [795, 1300], "max": [190, 150], "z": 3},
-  "desk_right": {"slot": "desk", "anchor": [1065, 1340], "max": [170, 150], "z": 3},
-  "desk_front": {"slot": "desk", "anchor": [905, 1405], "max": [210, 140], "z": 4},
-  "wall_board": {"slot": "wall", "anchor": [815, 990], "max": [180, 260], "z": 1},
-  "wall_high_right": {"slot": "wall", "anchor": [815, 600], "max": [200, 240], "z": 1},
-  "wall_left": {"slot": "wall", "anchor": [163, 920], "max": [100, 260], "z": 1},
-  "bed_pillow": {"slot": "bed", "anchor": [260, 1370], "max": [230, 170], "z": 3},
-  "bed_middle": {"slot": "bed", "anchor": [300, 1530], "max": [270, 220], "z": 4},
-  "bed_foot": {"slot": "bed", "anchor": [420, 1690], "max": [250, 200], "z": 5},
-  "floor_bed_end": {"slot": "floor", "anchor": [600, 1910], "max": [260, 260], "z": 5},
-  "floor_desk_side": {"slot": "floor", "anchor": [1020, 1990], "max": [240, 260], "z": 5},
-  "floor_bed_front": {"slot": "floor", "anchor": [290, 1990], "max": [280, 230], "z": 6},
-  "floor_centre": {"slot": "floor", "anchor": [720, 2035], "max": [300, 240], "z": 6}
+  "shelf_top": {
+   "slot": "shelf",
+   "anchor": [
+    1000,
+    563
+   ],
+   "max": [
+    120,
+    150
+   ],
+   "z": 2
+  },
+  "shelf_top_right": {
+   "slot": "shelf",
+   "anchor": [
+    1085,
+    563
+   ],
+   "max": [
+    110,
+    150
+   ],
+   "z": 2
+  },
+  "shelf_low": {
+   "slot": "shelf",
+   "anchor": [
+    1040,
+    830
+   ],
+   "max": [
+    140,
+    120
+   ],
+   "z": 2
+  },
+  "desk_left": {
+   "slot": "desk",
+   "anchor": [
+    795,
+    1300
+   ],
+   "max": [
+    190,
+    150
+   ],
+   "z": 3
+  },
+  "desk_right": {
+   "slot": "desk",
+   "anchor": [
+    1065,
+    1340
+   ],
+   "max": [
+    170,
+    150
+   ],
+   "z": 3
+  },
+  "desk_front": {
+   "slot": "desk",
+   "anchor": [
+    905,
+    1405
+   ],
+   "max": [
+    210,
+    140
+   ],
+   "z": 4
+  },
+  "wall_board": {
+   "slot": "wall",
+   "anchor": [
+    815,
+    990
+   ],
+   "max": [
+    180,
+    260
+   ],
+   "z": 1
+  },
+  "wall_high_right": {
+   "slot": "wall",
+   "anchor": [
+    815,
+    600
+   ],
+   "max": [
+    200,
+    240
+   ],
+   "z": 1
+  },
+  "wall_left": {
+   "slot": "wall",
+   "anchor": [
+    163,
+    920
+   ],
+   "max": [
+    100,
+    260
+   ],
+   "z": 1
+  },
+  "bed_pillow": {
+   "slot": "bed",
+   "anchor": [
+    260,
+    1370
+   ],
+   "max": [
+    230,
+    170
+   ],
+   "z": 3
+  },
+  "bed_middle": {
+   "slot": "bed",
+   "anchor": [
+    300,
+    1530
+   ],
+   "max": [
+    270,
+    220
+   ],
+   "z": 4
+  },
+  "bed_foot": {
+   "slot": "bed",
+   "anchor": [
+    420,
+    1690
+   ],
+   "max": [
+    250,
+    200
+   ],
+   "z": 5
+  },
+  "floor_bed_end": {
+   "slot": "floor",
+   "anchor": [
+    600,
+    1910
+   ],
+   "max": [
+    260,
+    260
+   ],
+   "z": 5
+  },
+  "floor_desk_side": {
+   "slot": "floor",
+   "anchor": [
+    1020,
+    1990
+   ],
+   "max": [
+    240,
+    260
+   ],
+   "z": 5
+  },
+  "floor_bed_front": {
+   "slot": "floor",
+   "anchor": [
+    290,
+    1990
+   ],
+   "max": [
+    280,
+    230
+   ],
+   "z": 6
+  },
+  "floor_centre": {
+   "slot": "floor",
+   "anchor": [
+    720,
+    2035
+   ],
+   "max": [
+    300,
+    240
+   ],
+   "z": 6
+  }
  }
 }

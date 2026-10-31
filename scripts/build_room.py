@@ -49,7 +49,14 @@ def key_out(raw):
             if r > 150 and r - g > 80 and b - g > 40:  # magenta panes (paper texture shifts the blue)
                 apx[x, y] = 0
     alpha = alpha.filter(ImageFilter.GaussianBlur(0.7))
+    alpha = alpha.filter(ImageFilter.MinFilter(3)).filter(ImageFilter.MinFilter(3))  # expand key 2px
     out = img.convert("RGBA")
+    px2 = out.load()
+    for y in range(out.height):  # despill magenta on the remaining edge pixels
+        for x in range(out.width):
+            r, g, b = px2[x, y][:3]
+            if r > 150 and b - g > 40:
+                px2[x, y] = (r, max(g, (r + b) // 3), b, 255)
     out.putalpha(alpha)
     return out
 

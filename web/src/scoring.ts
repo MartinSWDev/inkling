@@ -130,3 +130,42 @@ export function scoreAnswers(
   const room = ranked.filter((r) => r.score > 0.15).slice(0, 8).map((r) => r.code);
   return { ranked, surprise, room };
 }
+
+export function qualifiedSubjects(
+  answers: AnswersLike, cards: CardLike[], profiles: Record<string, Record<string, number>>,
+  pairsData: PairLike[], decks: DeckLike,
+): Set<string> {
+  const out = new Set<string>();
+  const chips: Record<string, DeckLike["chips"][number]> = Object.fromEntries(decks.chips.map((c) => [c.id, c]));
+  const deckCards: Record<string, DeckCardW> = Object.fromEntries([...decks.things, ...decks.questions].map((c) => [c.id, c]));
+  for (const pick of answers.chips || []) {
+    if (pick.state !== "love") continue;
+    const chip = chips[pick.id];
+    if (!chip) continue;
+    const weights = expandTerms(Object.fromEntries(chip.terms.map((t) => [t, 0.6])), cards);
+    let best: string | null = null;
+    for (const c of cards) if (weights[c.code] && (best === null || weights[c.code] > weights[best])) best = c.code;
+    if (best) out.add(best);
+  }
+  for (const swipe of answers.swipes || []) {
+    const card = deckCards[swipe.card_id];
+    if (card && (swipe.answer === "yes" || swipe.answer === "up"))
+      for (const code of Object.keys(expandTerms(card.terms, cards))) out.add(code);
+  }
+  for (const swipe of answers.subject_swipes || [])
+    if (swipe.answer === "yes" || swipe.answer === "up") out.add(swipe.code);
+  const pairs: Record<string, PairLike> = Object.fromEntries(pairsData.map((p) => [p.id, p]));
+  const stats = zscores(profiles);
+  const userVec: Record<string, number> = {};
+  for (const pick of answers.pairs || []) {
+    const pair = pairs[pick.pair_id];
+    if (!pair || (pick.side !== "a" && pick.side !== "b")) continue;
+    for (const [m, v] of Object.entries(pair[pick.side].scores || {})) userVec[m] = (userVec[m] || 0) + v;
+  }
+  for (const [code, prof] of Object.entries(profiles)) {
+    let total = 0;
+    for (const m of Object.keys(userVec)) if (typeof prof[m] === "number" && m in stats) total += userVec[m] * (prof[m] - stats[m][0]) / stats[m][1];
+    if (total > 0) out.add(code);
+  }
+  return out;
+}

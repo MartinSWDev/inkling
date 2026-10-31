@@ -16,3 +16,5 @@ api/cache/
 web/node_modules/
 web/dist/
 *.tsbuildinfo
+card_out/
+sticker_out/
