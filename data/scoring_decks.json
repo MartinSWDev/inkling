@@ -1,0 +1,514 @@
+{
+ "chips": [
+  {
+   "id": "maths",
+   "name": "Maths",
+   "terms": [
+    "maths",
+    "statistics",
+    "numbers"
+   ]
+  },
+  {
+   "id": "english",
+   "name": "English",
+   "terms": [
+    "english",
+    "books",
+    "writing",
+    "novels"
+   ]
+  },
+  {
+   "id": "biology",
+   "name": "Biology",
+   "terms": [
+    "biology",
+    "animals",
+    "plants",
+    "cells"
+   ]
+  },
+  {
+   "id": "chemistry",
+   "name": "Chemistry",
+   "terms": [
+    "chemistry",
+    "reactions",
+    "molecules"
+   ]
+  },
+  {
+   "id": "physics",
+   "name": "Physics",
+   "terms": [
+    "physics",
+    "space",
+    "quantum"
+   ]
+  },
+  {
+   "id": "computing",
+   "name": "Computing",
+   "terms": [
+    "coding",
+    "programming",
+    "computers",
+    "data"
+   ]
+  },
+  {
+   "id": "art",
+   "name": "Art & Design",
+   "terms": [
+    "art",
+    "design",
+    "drawing",
+    "painting"
+   ]
+  },
+  {
+   "id": "history",
+   "name": "History",
+   "terms": [
+    "history",
+    "past",
+    "ancient"
+   ]
+  },
+  {
+   "id": "geography",
+   "name": "Geography",
+   "terms": [
+    "geography",
+    "maps",
+    "environment",
+    "cities"
+   ]
+  },
+  {
+   "id": "languages",
+   "name": "Languages",
+   "terms": [
+    "language",
+    "translation",
+    "french",
+    "spanish",
+    "german"
+   ]
+  }
+ ],
+ "extra_names": [
+  "Music",
+  "Drama",
+  "Dance",
+  "Business",
+  "Economics",
+  "Psychology",
+  "PE",
+  "Media Studies",
+  "Film Studies",
+  "Sociology",
+  "Philosophy",
+  "Religious Studies",
+  "Design & Technology",
+  "Product Design",
+  "Textiles",
+  "Photography",
+  "Graphic Design",
+  "Food & Nutrition",
+  "Further Maths",
+  "Statistics",
+  "Electronics",
+  "Engineering",
+  "Computer Science",
+  "Law",
+  "Politics",
+  "Criminology",
+  "Health & Social Care",
+  "Environmental Science",
+  "Geology",
+  "Classics"
+ ],
+ "things": [
+  {
+   "id": "radio",
+   "title": "Taking apart an old radio",
+   "scene": "desk",
+   "terms": {
+    "robots": 0.5,
+    "engineering": 0.4,
+    "physics": 0.2
+   }
+  },
+  {
+   "id": "sew",
+   "title": "A sewing machine mid-seam",
+   "scene": "light",
+   "terms": {
+    "fashion": 0.7,
+    "art": 0.2,
+    "textiles": 0.5
+   }
+  },
+  {
+   "id": "fossil",
+   "title": "Brushing dirt off a fossil",
+   "scene": "wood",
+   "terms": {
+    "history": 0.4,
+    "geography": 0.4,
+    "fossils": 0.6,
+    "archaeology": 0.5
+   }
+  },
+  {
+   "id": "synth",
+   "title": "Making a beat on a synth",
+   "scene": "night",
+   "terms": {
+    "music": 0.7,
+    "coding": 0.2,
+    "games": 0.2
+   }
+  },
+  {
+   "id": "printer",
+   "title": "3D-printing a part you designed",
+   "scene": "desk",
+   "terms": {
+    "engineering": 0.5,
+    "robots": 0.3,
+    "architecture": 0.2,
+    "design": 0.3
+   }
+  },
+  {
+   "id": "lamb",
+   "title": "Bottle-feeding a lamb",
+   "scene": "green",
+   "terms": {
+    "farming": 0.5,
+    "animals": 0.4,
+    "biology": 0.3,
+    "vet": 0.4
+   }
+  },
+  {
+   "id": "seedlings",
+   "title": "Planting out seedlings",
+   "scene": "green",
+   "terms": {
+    "plants": 0.6,
+    "farming": 0.4,
+    "ecology": 0.4
+   }
+  },
+  {
+   "id": "edit",
+   "title": "Editing a video late at night",
+   "scene": "night",
+   "terms": {
+    "film": 0.7,
+    "journalism": 0.2,
+    "games": 0.2,
+    "editing": 0.5
+   }
+  },
+  {
+   "id": "paint",
+   "title": "Mixing paint for a big canvas",
+   "scene": "light",
+   "terms": {
+    "art": 0.7,
+    "painting": 0.6,
+    "fashion": 0.2
+   }
+  },
+  {
+   "id": "cook",
+   "title": "Cooking for a full table",
+   "scene": "wood",
+   "terms": {
+    "food": 0.5,
+    "cooking": 0.5,
+    "business": 0.2
+   }
+  },
+  {
+   "id": "bridge",
+   "title": "Building a model bridge",
+   "scene": "desk",
+   "terms": {
+    "engineering": 0.5,
+    "bridges": 0.6,
+    "architecture": 0.4
+   }
+  },
+  {
+   "id": "ankle",
+   "title": "Strapping up a twisted ankle",
+   "scene": "light",
+   "terms": {
+    "sport": 0.5,
+    "nursing": 0.4,
+    "physio": 0.6,
+    "injury": 0.5
+   }
+  },
+  {
+   "id": "code",
+   "title": "Coding a game from scratch",
+   "scene": "dark",
+   "terms": {
+    "games": 0.5,
+    "coding": 0.5,
+    "gaming": 0.5
+   }
+  },
+  {
+   "id": "rockpool",
+   "title": "Rock-pooling at low tide",
+   "scene": "sea",
+   "terms": {
+    "animals": 0.4,
+    "wildlife": 0.5,
+    "environment": 0.3,
+    "coasts": 0.5
+   }
+  },
+  {
+   "id": "gig",
+   "title": "Rigging the lights for a gig",
+   "scene": "night",
+   "terms": {
+    "events": 0.4,
+    "acting": 0.3,
+    "music": 0.3,
+    "theatre": 0.4
+   }
+  },
+  {
+   "id": "chart",
+   "title": "Turning messy data into a chart",
+   "scene": "light",
+   "terms": {
+    "statistics": 0.5,
+    "data": 0.4,
+    "economics": 0.4,
+    "maths": 0.3
+   }
+  },
+  {
+   "id": "club",
+   "title": "Running a kids' football club",
+   "scene": "green",
+   "terms": {
+    "sport": 0.4,
+    "children": 0.4,
+    "teaching": 0.4,
+    "coaching": 0.5
+   }
+  },
+  {
+   "id": "rover",
+   "title": "Driving a rover across a sand pit",
+   "scene": "desk",
+   "terms": {
+    "robots": 0.6,
+    "engineering": 0.2,
+    "space": 0.4
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "dream",
+   "title": "Why do we dream?",
+   "scene": "night",
+   "fact": "Most vivid dreams happen in REM sleep, when your brain is almost as active as when you're awake.",
+   "terms": {
+    "psychology": 0.7,
+    "brain": 0.5,
+    "biology": 0.3
+   }
+  },
+  {
+   "id": "deep",
+   "title": "What's at the bottom of the ocean?",
+   "scene": "sea",
+   "fact": "Most of the ocean floor has never been mapped in detail.",
+   "terms": {
+    "ships": 0.3,
+    "coasts": 0.5,
+    "animals": 0.3,
+    "earthquakes": 0.4
+   }
+  },
+  {
+   "id": "life",
+   "title": "Is there life on other planets?",
+   "scene": "dark",
+   "fact": "Astronomers have confirmed more than 5,000 planets orbiting other stars.",
+   "terms": {
+    "space": 0.7,
+    "planets": 0.6,
+    "biology": 0.2
+   }
+  },
+  {
+   "id": "crime",
+   "title": "Who decides what counts as a crime?",
+   "scene": "wood",
+   "fact": "The age of criminal responsibility is 10 in England and Wales, and 12 in Scotland.",
+   "terms": {
+    "law": 0.6,
+    "crime": 0.6,
+    "politics": 0.3,
+    "psychology": 0.2
+   }
+  },
+  {
+   "id": "romans",
+   "title": "What did people eat 2,000 years ago?",
+   "scene": "wood",
+   "fact": "Romans splashed a fermented fish sauce called garum on their food, a bit like ketchup.",
+   "terms": {
+    "history": 0.7,
+    "ancient": 0.6,
+    "food": 0.3
+   }
+  },
+  {
+   "id": "rich",
+   "title": "Why are some countries rich and others poor?",
+   "scene": "light",
+   "fact": "The 2024 Nobel Prize in economics went to research on exactly this question.",
+   "terms": {
+    "economics": 0.6,
+    "money": 0.4,
+    "politics": 0.4,
+    "poverty": 0.5
+   }
+  },
+  {
+   "id": "virus",
+   "title": "How does a virus spread?",
+   "scene": "light",
+   "fact": "A single sneeze can send droplets several metres across a room.",
+   "terms": {
+    "biology": 0.5,
+    "viruses": 0.7,
+    "nursing": 0.3,
+    "disease": 0.5
+   }
+  },
+  {
+   "id": "aiart",
+   "title": "Can a computer be creative?",
+   "scene": "dark",
+   "fact": "In 2018 a portrait made by an AI sold at Christie's for $432,500.",
+   "terms": {
+    "ai": 0.6,
+    "art": 0.3,
+    "games": 0.3,
+    "coding": 0.4
+   }
+  },
+  {
+   "id": "words",
+   "title": "Why do languages change?",
+   "scene": "wood",
+   "fact": "In medieval English, \"nice\" meant foolish.",
+   "terms": {
+    "language": 0.6,
+    "history": 0.4,
+    "teaching": 0.2,
+    "accents": 0.5
+   }
+  },
+  {
+   "id": "catchy",
+   "title": "What makes a song catchy?",
+   "scene": "night",
+   "fact": "Researchers call a song stuck in your head an \"earworm\", and study why it happens.",
+   "terms": {
+    "music": 0.6,
+    "psychology": 0.4,
+    "songwriting": 0.5
+   }
+  },
+  {
+   "id": "city",
+   "title": "How do you design a city people love?",
+   "scene": "night",
+   "fact": "Manhattan's street grid was planned in 1811, long before most of it was built.",
+   "terms": {
+    "cities": 0.6,
+    "planning": 0.5,
+    "architecture": 0.3,
+    "urban": 0.5
+   }
+  },
+  {
+   "id": "rules",
+   "title": "Is it ever right to break a rule?",
+   "scene": "wood",
+   "fact": "Philosophers have argued over the \"trolley problem\" since 1967.",
+   "terms": {
+    "law": 0.4,
+    "ethics": 0.6,
+    "politics": 0.3,
+    "philosophy": 0.6
+   }
+  },
+  {
+   "id": "bees",
+   "title": "How do bees find their way home?",
+   "scene": "green",
+   "fact": "Honeybees tell each other where food is by doing a \"waggle dance\".",
+   "terms": {
+    "ecology": 0.5,
+    "wildlife": 0.5,
+    "biology": 0.4,
+    "animals": 0.3
+   }
+  },
+  {
+   "id": "quake",
+   "title": "What keeps a skyscraper up in an earthquake?",
+   "scene": "dark",
+   "fact": "Some skyscrapers hide giant swinging weights inside to stop them swaying.",
+   "terms": {
+    "engineering": 0.6,
+    "structures": 0.6,
+    "architecture": 0.3,
+    "earthquakes": 0.6
+   }
+  },
+  {
+   "id": "fake",
+   "title": "Why do people believe fake news?",
+   "scene": "light",
+   "fact": "A 2018 MIT study found false news spread faster on Twitter than true news.",
+   "terms": {
+    "psychology": 0.4,
+    "journalism": 0.5,
+    "news": 0.5,
+    "media": 0.4
+   }
+  },
+  {
+   "id": "species",
+   "title": "Can we save a species on the brink?",
+   "scene": "sea",
+   "fact": "Humpback whales were hunted close to extinction. Many populations have since recovered.",
+   "terms": {
+    "ecology": 0.5,
+    "conservation": 0.6,
+    "wildlife": 0.5,
+    "biology": 0.2
+   }
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "about": "Shared scoring cases. Both api/tests/test_scoring.py (pytest) and web/src/scoring.test.ts (vitest) run every case against the same datasets, so the Python and TypeScript scorers cannot drift. Scores compared with tolerance 0.02.",
+ "cases": [
+  {"name": "empty", "answers": {}, "expect": {"zero_all": true}},
+  {"name": "maths_love", "answers": {"chips": [{"id": "maths", "state": "love"}]},
+   "expect": {"top": "CAH09-01-01", "top_score": 1.425, "reasons": {"CAH09-01-01": ["Maths"]}, "room_includes": ["CAH09-01-01"]}},
+  {"name": "maths_take_scores_less_than_love", "answers": {"chips": [{"id": "maths", "state": "take"}]},
+   "expect": {"top": "CAH09-01-01", "top_score": 0.57}},
+  {"name": "subject_swipe_yes_with_neighbour_nudge", "answers": {"subject_swipes": [{"code": "CAH11-01-01", "answer": "yes"}]},
+   "expect": {"positive": ["CAH11-01-01", "CAH11-01-04", "CAH11-01-05", "CAH11-01-02", "CAH11-01-06"]}},
+  {"name": "subject_swipe_no_goes_negative", "answers": {"subject_swipes": [{"code": "CAH11-01-01", "answer": "no"}]},
+   "expect": {"negative": ["CAH11-01-01"]}},
+  {"name": "pairs_investigative_beats_business", "answers": {"pairs": [{"pair_id": "why_vs_make", "side": "a"}]},
+   "expect": {"greater": [["CAH07-01-01", "CAH17-01-01"]]}},
+  {"name": "thing_swipe_radio_lifts_engineering", "answers": {"swipes": [{"card_id": "radio", "answer": "yes"}]},
+   "expect": {"top": "CAH10-01-01", "positive": ["CAH10-01-01"]}}
+ ]
+}
