@@ -141,6 +141,18 @@ def build_one(card, room_ref):
     raw = OUT / "raw" / (code + ".png")
     raw.parent.mkdir(parents=True, exist_ok=True)
     for attempt in range(3):
+        try:
+            entry = _attempt(card, room_ref, raw, attempt)
+            if entry:
+                return entry
+        except Exception as exc:  # one bad call must not kill the batch
+            print(code, "attempt error:", str(exc)[:160], flush=True)
+    return None
+
+
+def _attempt(card, room_ref, raw, attempt):
+    code = card["code"]
+    if True:
         if attempt or not raw.exists():
             r = post_json("/images/edits", {
                 "model": "muse-image-1.0", "n": 1, "size": "1024x1024", "output_format": "png",
@@ -152,7 +164,7 @@ def build_one(card, room_ref):
         ok = sticker is not None and 0.01 < frac < 0.7 and (label is not None or share >= 0.85)
         if not ok:
             raw.unlink(missing_ok=True)
-            continue
+            return None
         sticker.save(STICKERS / (code + ".webp"), lossless=True)
         return {"code": code, "slot": card["slot"], "size": size_class(card),
                 "w": sticker.width, "h": sticker.height, "label": label or "alpha-fallback"}
@@ -240,6 +252,13 @@ def main():
     done = {}
     if INDEX.exists():
         done = {e["code"]: e for e in json.loads(INDEX.read_text())}
+    by_code_all = {c["code"]: c for c in cards}
+    for f in STICKERS.glob("*.webp"):  # resume after a crashed run: files on disk count as done
+        code = f.stem
+        if code not in done and code in by_code_all:
+            im = Image.open(f)
+            done[code] = {"code": code, "slot": by_code_all[code]["slot"], "size": size_class(by_code_all[code]),
+                          "w": im.width, "h": im.height, "label": "resumed"}
     todo = [c for c in cards if c["code"] not in done]
     if args.only:
         todo = [c for c in cards if c["code"] == args.only]

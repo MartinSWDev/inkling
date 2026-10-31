@@ -62,5 +62,1237 @@
   "w": 215,
   "h": 512,
   "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH02-04-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 455,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-04-04",
+  "slot": "shelf",
+  "size": "small",
+  "w": 253,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-04-05",
+  "slot": "bed",
+  "size": "medium",
+  "w": 361,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-04-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 490,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-04-07",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 449,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-04-08",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 351,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-04-09",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 476,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-05-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 302,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-05-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 298,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-05-03",
+  "slot": "desk",
+  "size": "medium",
+  "w": 333,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-05-04",
+  "slot": "floor",
+  "size": "large",
+  "w": 245,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-01",
+  "slot": "bed",
+  "size": "medium",
+  "w": 394,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 348,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-03",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 251,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-04",
+  "slot": "shelf",
+  "size": "small",
+  "w": 305,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-05",
+  "slot": "floor",
+  "size": "large",
+  "w": 146,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 501,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH02-06-07",
+  "slot": "bed",
+  "size": "medium",
+  "w": 452,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 386,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 447,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 358,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-04",
+  "slot": "shelf",
+  "size": "small",
+  "w": 428,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 333,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 435,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-07",
+  "slot": "wall",
+  "size": "medium",
+  "w": 183,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-01-08",
+  "slot": "desk",
+  "size": "medium",
+  "w": 293,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH03-01-10",
+  "slot": "shelf",
+  "size": "small",
+  "w": 376,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH03-02-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 366,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH04-01-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 386,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH04-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 479,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH04-01-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 446,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH04-01-04",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 337,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH04-01-05",
+  "slot": "wall",
+  "size": "medium",
+  "w": 416,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH05-01-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 462,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH05-01-02",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 441,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 306,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 321,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-03",
+  "slot": "floor",
+  "size": "large",
+  "w": 439,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-04",
+  "slot": "wall",
+  "size": "medium",
+  "w": 433,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 503,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 350,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-07",
+  "slot": "shelf",
+  "size": "small",
+  "w": 357,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH06-01-08",
+  "slot": "desk",
+  "size": "medium",
+  "w": 426,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-01-01",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 444,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-01-02",
+  "slot": "floor",
+  "size": "large",
+  "w": 213,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-02-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 457,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-04-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 485,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-04-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 447,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-04-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 403,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH07-04-04",
+  "slot": "desk",
+  "size": "medium",
+  "w": 377,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH09-01-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 511,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH09-01-02",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 489,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH09-01-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 327,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 474,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 373,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH10-01-03",
+  "slot": "desk",
+  "size": "medium",
+  "w": 355,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 488,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 287,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-07",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 504,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-08",
+  "slot": "desk",
+  "size": "medium",
+  "w": 510,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-09",
+  "slot": "shelf",
+  "size": "small",
+  "w": 226,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-01-10",
+  "slot": "wall",
+  "size": "medium",
+  "w": 328,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 492,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 424,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-03",
+  "slot": "floor",
+  "size": "large",
+  "w": 313,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-04",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 511,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 317,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-06",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 367,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH10-03-07",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 266,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-01",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 396,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 408,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 477,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-04",
+  "slot": "desk",
+  "size": "medium",
+  "w": 414,
+  "h": 512,
+  "label": "duck toy"
+ },
+ {
+  "code": "CAH11-01-05",
+  "slot": "desk",
+  "size": "medium",
+  "w": 441,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-06",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 292,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-07",
+  "slot": "desk",
+  "size": "medium",
+  "w": 304,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH11-01-08",
+  "slot": "desk",
+  "size": "medium",
+  "w": 229,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH13-01-01",
+  "slot": "desk",
+  "size": "medium",
+  "w": 467,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH13-01-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 203,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH13-01-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 478,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH13-01-04",
+  "slot": "wall",
+  "size": "medium",
+  "w": 405,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH15-01-01",
+  "slot": "desk",
+  "size": "medium",
+  "w": 377,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH15-01-02",
+  "slot": "bed",
+  "size": "medium",
+  "w": 413,
+  "h": 512,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH15-01-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 323,
+  "label": "resumed"
+ },
+ {
+  "code": "CAH15-01-04",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 407,
+  "label": "woven basket"
+ },
+ {
+  "code": "CAH15-01-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 482,
+  "label": "radio"
+ },
+ {
+  "code": "CAH15-01-06",
+  "slot": "wall",
+  "size": "medium",
+  "w": 393,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH15-02-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 356,
+  "h": 512,
+  "label": "toy shopping trolley"
+ },
+ {
+  "code": "CAH15-03-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 457,
+  "h": 512,
+  "label": "wooden box"
+ },
+ {
+  "code": "CAH15-04-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 381,
+  "h": 512,
+  "label": "canvas tote bag"
+ },
+ {
+  "code": "CAH15-04-02",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 512,
+  "label": "wooden blocks"
+ },
+ {
+  "code": "CAH15-04-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 486,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH16-01-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 413,
+  "label": "scales of justice"
+ },
+ {
+  "code": "CAH17-01-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 467,
+  "label": "briefcase"
+ },
+ {
+  "code": "CAH17-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 410,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH17-01-03",
+  "slot": "floor",
+  "size": "large",
+  "w": 406,
+  "h": 512,
+  "label": "shopping bags"
+ },
+ {
+  "code": "CAH17-01-04",
+  "slot": "wall",
+  "size": "medium",
+  "w": 433,
+  "h": 512,
+  "label": "sticky notes"
+ },
+ {
+  "code": "CAH17-01-05",
+  "slot": "bed",
+  "size": "medium",
+  "w": 135,
+  "h": 512,
+  "label": "staff lanyard"
+ },
+ {
+  "code": "CAH17-01-06",
+  "slot": "floor",
+  "size": "large",
+  "w": 512,
+  "h": 481,
+  "label": "cabin suitcase"
+ },
+ {
+  "code": "CAH17-01-07",
+  "slot": "shelf",
+  "size": "small",
+  "w": 501,
+  "h": 512,
+  "label": "piggy bank"
+ },
+ {
+  "code": "CAH17-01-08",
+  "slot": "shelf",
+  "size": "small",
+  "w": 478,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH17-01-09",
+  "slot": "bed",
+  "size": "medium",
+  "w": 444,
+  "h": 512,
+  "label": "headset"
+ },
+ {
+  "code": "CAH19-01-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 360,
+  "label": "books"
+ },
+ {
+  "code": "CAH19-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 447,
+  "label": "rotary telephone"
+ },
+ {
+  "code": "CAH19-01-03",
+  "slot": "desk",
+  "size": "medium",
+  "w": 247,
+  "h": 512,
+  "label": "feather pen"
+ },
+ {
+  "code": "CAH19-01-05",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 489,
+  "label": "vintage typewriter"
+ },
+ {
+  "code": "CAH19-01-06",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 303,
+  "label": "cards"
+ },
+ {
+  "code": "CAH19-01-07",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 313,
+  "label": "speech bubble cushion"
+ },
+ {
+  "code": "CAH19-02-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 500,
+  "h": 512,
+  "label": "Celtic knot carving"
+ },
+ {
+  "code": "CAH19-02-02",
+  "slot": "shelf",
+  "size": "large",
+  "w": 311,
+  "h": 512,
+  "label": "celtic harp"
+ },
+ {
+  "code": "CAH19-02-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 168,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH19-02-04",
+  "slot": "wall",
+  "size": "large",
+  "w": 507,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH19-04-01",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 501,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH19-04-02",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 472,
+  "label": "knitted beanie"
+ },
+ {
+  "code": "CAH19-04-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 416,
+  "h": 512,
+  "label": "espresso maker"
+ },
+ {
+  "code": "CAH19-04-04",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 449,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH19-04-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 498,
+  "h": 512,
+  "label": "enamel kettle"
+ },
+ {
+  "code": "CAH19-04-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 498,
+  "label": "steamer basket"
+ },
+ {
+  "code": "CAH19-04-07",
+  "slot": "wall",
+  "size": "medium",
+  "w": 291,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH19-04-08",
+  "slot": "floor",
+  "size": "large",
+  "w": 195,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH19-04-09",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 172,
+  "label": "bunting flags"
+ },
+ {
+  "code": "CAH20-01-01",
+  "slot": "shelf",
+  "size": "small",
+  "w": 269,
+  "h": 512,
+  "label": "hourglass"
+ },
+ {
+  "code": "CAH20-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 470,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH20-01-03",
+  "slot": "shelf",
+  "size": "small",
+  "w": 216,
+  "h": 512,
+  "label": "hand trowel"
+ },
+ {
+  "code": "CAH20-01-04",
+  "slot": "wall",
+  "size": "medium",
+  "w": 191,
+  "h": 512,
+  "label": "antique brass key"
+ },
+ {
+  "code": "CAH20-01-05",
+  "slot": "floor",
+  "size": "large",
+  "w": 368,
+  "h": 512,
+  "label": "amphora vase"
+ },
+ {
+  "code": "CAH20-02-01",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 468,
+  "label": "chess board"
+ },
+ {
+  "code": "CAH20-02-02",
+  "slot": "wall",
+  "size": "medium",
+  "w": 256,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH22-01-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 330,
+  "h": 512,
+  "label": "easel"
+ },
+ {
+  "code": "CAH22-01-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 346,
+  "h": 512,
+  "label": "bell"
+ },
+ {
+  "code": "CAH23-01-01",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 487,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH23-01-02",
+  "slot": "bed",
+  "size": "medium",
+  "w": 368,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH23-01-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 352,
+  "h": 512,
+  "label": "framed print"
+ },
+ {
+  "code": "CAH23-01-04",
+  "slot": "shelf",
+  "size": "small",
+  "w": 192,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH24-01-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 437,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH24-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 386,
+  "h": 512,
+  "label": "loudhailer"
+ },
+ {
+  "code": "CAH24-01-03",
+  "slot": "desk",
+  "size": "medium",
+  "w": 433,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH24-01-04",
+  "slot": "desk",
+  "size": "medium",
+  "w": 244,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH24-01-05",
+  "slot": "floor",
+  "size": "large",
+  "w": 240,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH25-01-01",
+  "slot": "desk",
+  "size": "medium",
+  "w": 287,
+  "h": 512,
+  "label": "jar"
+ },
+ {
+  "code": "CAH25-01-02",
+  "slot": "desk",
+  "size": "medium",
+  "w": 432,
+  "h": 512,
+  "label": "paint palette"
+ },
+ {
+  "code": "CAH25-01-03",
+  "slot": "desk",
+  "size": "medium",
+  "w": 512,
+  "h": 345,
+  "label": "colour swatches"
+ },
+ {
+  "code": "CAH25-01-04",
+  "slot": "floor",
+  "size": "large",
+  "w": 300,
+  "h": 512,
+  "label": "camera tripod"
+ },
+ {
+  "code": "CAH25-01-05",
+  "slot": "desk",
+  "size": "medium",
+  "w": 274,
+  "h": 512,
+  "label": "jewellery pliers"
+ },
+ {
+  "code": "CAH25-02-01",
+  "slot": "floor",
+  "size": "large",
+  "w": 336,
+  "h": 512,
+  "label": "spotlight"
+ },
+ {
+  "code": "CAH25-02-02",
+  "slot": "floor",
+  "size": "large",
+  "w": 250,
+  "h": 512,
+  "label": "acoustic guitar"
+ },
+ {
+  "code": "CAH25-02-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 326,
+  "label": "drama masks"
+ },
+ {
+  "code": "CAH25-02-04",
+  "slot": "bed",
+  "size": "medium",
+  "w": 512,
+  "h": 492,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH26-01-01",
+  "slot": "wall",
+  "size": "medium",
+  "w": 512,
+  "h": 325,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH26-01-02",
+  "slot": "shelf",
+  "size": "small",
+  "w": 312,
+  "h": 512,
+  "label": "sediment jar"
+ },
+ {
+  "code": "CAH26-01-03",
+  "slot": "wall",
+  "size": "medium",
+  "w": 397,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH26-01-04",
+  "slot": "shelf",
+  "size": "small",
+  "w": 287,
+  "h": 512,
+  "label": "alpha-fallback"
+ },
+ {
+  "code": "CAH26-01-05",
+  "slot": "shelf",
+  "size": "small",
+  "w": 512,
+  "h": 272,
+  "label": "quadcopter drone"
+ },
+ {
+  "code": "CAH26-01-06",
+  "slot": "shelf",
+  "size": "small",
+  "w": 486,
+  "h": 512,
+  "label": "alpha-fallback"
  }
 ]
