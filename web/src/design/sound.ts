@@ -13,6 +13,8 @@ export function setSoundEnabled(on: boolean) {
 }
 export function unlock() {
   unlocked = true;
+  // Default ON after the first tap when the user has never chosen.
+  try { if (localStorage.getItem("inkling-sound") === null) enabled = true; } catch { enabled = true; }
   if (enabled) ac();
 }
 function ac(): AudioContext | null {

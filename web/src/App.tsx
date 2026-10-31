@@ -1,15 +1,12 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useReducer, useRef, useState, type CSSProperties } from "react";
+import { motion } from "motion/react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
 import { qualifiedSubjects, scoreAnswers } from "./scoring";
 import { ROUND_CAPS, ensureFloorOrBed, growRoom } from "./roomRules";
-
-const ROUNDS = [
-  { id: "subjects", label: "Round 1 · Your subjects", short: "Your subjects", min: 3 },
-  { id: "things", label: "Round 2 · Things", short: "Things", min: 5 },
-  { id: "pairs", label: "Round 3 · This or that", short: "This or that", min: 5 },
-  { id: "questions", label: "Round 4 · Big questions", short: "Big questions", min: 5 },
-];
+import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
+import { popUp } from "./design/motion";
+import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
 const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "country", name: "Countryside" }];
 const SCENES: Record<string, [string, string]> = { sea: ["#1f6f8b", "#8fd0e6"], desk: ["#5a4a7a", "#c9b7e8"], wood: ["#6e4329", "#d9b48f"], night: ["#1c1a3a", "#6b5aa8"], dark: ["#101418", "#2f3a48"], green: ["#2f6b3a", "#a9d9a0"], light: ["#e8dfd0", "#fff8ea"] };
 
@@ -32,8 +29,13 @@ function CardArt({ card }: { card: DeckCard }) {
 
 export default function App() {
   const [content, setContent] = useState<Awaited<ReturnType<typeof fetchContent>> | null>(null);
-  const [phase, setPhase] = useState<"intro" | "play" | "reveal">("intro");
-  const [round, setRound] = useState(1);
+  const [scene, dispatch] = useReducer(flowReducer, initialScene);
+  const [howOpen, setHowOpen] = useState(false);
+  const [soundOn, setSoundOn] = useState(soundEnabled());
+  const round = scene.kind === "roundTitle" || scene.kind === "round" || scene.kind === "roundOutro" ? scene.round : 4;
+  const phase: "intro" | "play" | "reveal" =
+    scene.kind === "reveal" || scene.kind === "share" || scene.kind === "finale" ? "reveal"
+    : scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro" ? "play" : "intro";
   const [answers, setAnswers] = useState<Answers>(emptyAnswers());
   const answersRef = useRef(answers);
   answersRef.current = answers;
@@ -56,6 +58,26 @@ export default function App() {
     fetchContent().then(setContent).catch(() => setToast("Could not load the game content. Check the API is running."));
     fetchSubjects().then((d) => setSubjects(d.subjects)).catch(() => null);
   }, []);
+  useEffect(() => {
+    const onTap = () => unlock();
+    window.addEventListener("pointerdown", onTap, { once: true });
+    return () => window.removeEventListener("pointerdown", onTap);
+  }, []);
+  useEffect(() => {
+    if (scene.kind === "unfold") { const t = window.setTimeout(() => dispatch({ type: "UNFOLDED" }), 1400); return () => window.clearTimeout(t); }
+    if (scene.kind === "roundTitle") { const t = window.setTimeout(() => dispatch({ type: "TITLE_DONE" }), 950); return () => window.clearTimeout(t); }
+    if (scene.kind === "roundOutro") { const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), 400); return () => window.clearTimeout(t); }
+  }, [scene.kind]);
+  // Preload room layers, common stickers, card art and views while the landing is shown.
+  useEffect(() => {
+    if (!content) return;
+    const urls = ["/room/room.png", ...["city", "coast", "campus", "country"].flatMap((v) => ["day", "dusk"].map((t) => `/views/${v}_${t}.webp`)),
+      ...[...content.things, ...content.questions].map((c) => `/cards/${c.id}.webp`)];
+    for (const u of urls) { const img = new Image(); img.src = u; }
+    fetch("/stickers/stickers.json").then((r) => r.json()).then((list: { code: string }[]) => {
+      for (const s of list.slice(0, 40)) { const img = new Image(); img.src = `/stickers/${s.code}.webp`; }
+    }).catch(() => null);
+  }, [content]);
   const tip = useCallback((msg: string, ms = 3200) => {
     setToast(msg); window.clearTimeout(toastTimer.current);
     toastTimer.current = window.setTimeout(() => setToast(""), ms);
@@ -96,8 +118,9 @@ export default function App() {
     [assets, displayCodes, phase]);
 
   function nextRound() {
-    if (round < 4) { setRound(round + 1); setDeckIdx(0); }
-    else setPhase("reveal");
+    setDeckIdx(0);
+    sfx.fold();
+    dispatch({ type: "CONTINUE" });
   }
 
   // One action changes at most one room object, and only qualified subjects qualify.
@@ -191,7 +214,8 @@ export default function App() {
   function restart() {
     setRoomCodes([]); scoresRef.current = {};
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
-    setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] }); setRound(1); setPhase("play");
+    setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] });
+    dispatch({ type: "RESTART" });
   }
 
   const revealList = (() => {
@@ -209,31 +233,70 @@ export default function App() {
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
 
+  const inGame = scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro";
   return (
-    <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB">
+    <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
+      style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
         <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={phase === "play"} />
       </div>
 
-      {phase !== "reveal" && (<div className="top"><div className="segs">
+      {inGame && (<div className="top"><div className="segs">
         {ROUNDS.map((r, i) => {
           const totals = [content.chips.length, content.things.length, content.pairs.length, content.questions.length];
-          return (<div key={r.id} className={"seg" + (i < round - 1 ? " done" : "")}>
-            <i style={{ width: (phase === "play" && i === round - 1 ? Math.min(1, heat(i, progress)) * 100 : i < round - 1 ? 100 : 0) + "%" }} />
-            {phase === "play" && i === round - 1 && <em className="mintick" style={{ left: (r.min / Math.max(1, totals[i]) * 100) + "%" }} />}
+          return (<div key={r.n} className={"seg" + (i < round - 1 ? " done" : "")}>
+            <i style={{ width: (i === round - 1 ? Math.min(1, heat(i, progress)) * 100 : i < round - 1 ? 100 : 0) + "%" }} />
+            {i === round - 1 && <em className="mintick" style={{ left: (r.min / Math.max(1, totals[i]) * 100) + "%" }} />}
           </div>);
         })}
-      </div><div className="topline"><b>{phase === "intro" ? "Inkling" : ROUNDS[round - 1].short}</b><span>{phase === "play" ? "Round " + round + " of 4" : ""}</span></div></div>)}
+      </div><div className="topline"><b>{ROUNDS[round - 1].title}</b><span>{"Round " + round + " of 4"}</span>
+        <button className="soundbtn" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
+          onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>{soundOn ? "Sound on" : "Sound off"}</button></div></div>)}
       <div className={"toast" + (toast ? "" : " off")}>{toast}</div>
 
-      {phase === "intro" && (<section className="intro"><div className="sheet2">
-        <h1>Inkling</h1>
-        <p className="lede">Don't know what to study? You've probably got an inkling.</p>
-        <p className="note">Four quick rounds. Your room fills with what you're into, then you'll see subjects worth exploring.</p>
-        <button className="btn alt" onClick={() => setPhase("play")}>Start</button>
-      </div></section>)}
+      {scene.kind === "landing" && (<section className="landing">
+        <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }} />
+        <h1 className="wordmark">Inkling</h1>
+        <p className="lede">Not sure what to study? Find the degree subjects that fit you.</p>
+        <button className="btn alt bigbtn" onClick={() => { unlock(); sfx.pop(); dispatch({ type: "START" }); }}>Find my subjects</button>
+        <p className="smallprint">Takes about 3 minutes · free · no sign-up</p>
+        <button className="musetag" onClick={() => setHowOpen(true)}>Built with Meta Muse</button>
+        <p className="smallprint">Built with UK course data from Discover Uni · <button className="linkbtn" onClick={() => setHowOpen(true)}>How it works</button></p>
+        <button className="soundbtn landing-sound" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
+          onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>{soundOn ? "Sound on" : "Sound off"}</button>
+        {howOpen && (<div className="howsheet" role="dialog" aria-label="How it works"><div className="sheet2">
+          <h2>How it works</h2>
+          <p className="note">Four quick rounds. Your answers fill a paper room with what you're into, then you see degree subjects worth exploring. Answers stay on your phone; the share link only carries subject codes.</p>
+          <p className="note">Course data comes from the UK Discover Uni dataset. Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0.</p>
+          <p className="note">Muse Spark Open (open weights, on Baseten) wrote and reviewed the subject cards. Muse Image drew the room, stickers and card art. SAM 3.1 cut out and checked every object. Muse Image paints your room on request.</p>
+          <button className="btn alt" onClick={() => setHowOpen(false)}>Close</button>
+        </div></div>)}
+      </section>)}
 
-      {phase === "play" && (<div className="overlay">
+      {scene.kind === "unfold" && (<section className="unfold" aria-hidden="true">
+        <motion.div className="unfoldwall" initial={{ rotateX: -90, opacity: 0 }} animate={{ rotateX: 0, opacity: 1 }} transition={{ duration: 0.9, ease: "easeOut" }} />
+        {[0, 1, 2, 3, 4].map((i) => (
+          <motion.span key={i} className={"unfoldbit b" + i} initial={{ scale: 0, y: 30, opacity: 0 }}
+            animate={{ scale: 1, y: 0, opacity: 1 }} transition={{ delay: 0.45 + i * 0.13, type: "spring", stiffness: 320, damping: 22 }} />))}
+      </section>)}
+
+      {scene.kind === "intro" && (<section className="intro">
+        <motion.div className="sheet2" variants={popUp} initial="hidden" animate="shown">
+          <h2>Before we start</h2>
+          <p className="note">Four quick rounds. Answer on gut feel — there are no wrong answers. Your room fills up with what you're into, then you'll see subjects worth exploring.</p>
+          <button className="btn alt" onClick={() => { sfx.pop(); buzz(); dispatch({ type: "GO" }); }}>Let's go</button>
+        </motion.div>
+      </section>)}
+
+      {scene.kind === "roundTitle" && (<button className="titlecard" aria-label={"Start round " + round} onClick={() => dispatch({ type: "TITLE_DONE" })}>
+        <motion.span className="titleinner" initial={{ rotateY: 90, opacity: 0 }} animate={{ rotateY: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 260, damping: 24 }}>
+          <span className="titlenum">{"Round " + round}</span>
+          <span className="titlebig">{ROUNDS[round - 1].title}</span>
+          <span className="titlehow">{ROUNDS[round - 1].how}</span>
+        </motion.span>
+      </button>)}
+
+      {scene.kind === "round" && (<div className="overlay">
         {round === 1 && (<div className="sheet2">
           <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {
@@ -257,7 +320,7 @@ export default function App() {
         </div>)}
 
         {(round === 2 || round === 4) && (<div style={{ display: "grid", gap: 10, justifyItems: "center", width: "100%" }}>
-          <p className="theme">{ROUNDS[round - 1].label}<b>{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</b></p>
+          <p className="theme">{"Round " + round + " · " + ROUNDS[round - 1].title}<b>{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</b></p>
           <div className="deck">
             {deck[deckIdx + 1] && <div className="card peek" aria-hidden="true"><CardArt card={deck[deckIdx + 1]} /></div>}
             {current
