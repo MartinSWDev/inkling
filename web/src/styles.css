@@ -5,6 +5,14 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font
 .app{position:relative;height:100dvh;overflow:clip;max-width:560px;margin:0 auto;background:var(--wall2)}
 @media(min-width:700px){.app{height:min(100dvh,844px);margin-top:calc((100dvh - min(100dvh,844px))/2);border-radius:28px;box-shadow:0 24px 80px rgba(20,10,40,.35)}}
 .room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall)}
+.room-stack{position:absolute;inset:0}
+.room-stack .view-img{position:absolute;object-fit:cover}
+.room-stack .room-top{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.room-stack .sticker-img{position:absolute;animation:popin .45s cubic-bezier(.2,.9,.3,1.3) both}
+.room-stack .sticker-shadow{position:absolute;height:12px;background:rgba(30,20,40,.25);border-radius:50%;filter:blur(4px)}
+.room-stack .sticker-dropshadow{position:absolute;filter:brightness(0);opacity:.28;mix-blend-mode:multiply}
+.room-stack .dusk-wash{position:absolute;inset:0;background:rgba(255,140,60,.22);mix-blend-mode:multiply;pointer-events:none}
+.phone .room-stack{position:absolute;inset:0}
 .room-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:opacity .6s,filter .5s}
 .room-img.next{opacity:0}.room-img.on{opacity:1}
 .app[data-mode="swipe"] .room-img,.app[data-mode="intro"] .room-img{filter:blur(6px) saturate(.9);transform:scale(1.04)}

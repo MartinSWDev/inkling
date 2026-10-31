@@ -1,5 +1,6 @@
-import { useCallback, useEffect, useRef, useState } from "react";
-import { Answers, DeckCard, Pair, Placed, Ranked, emptyAnswers, fetchContent, postRoom, postScore } from "./api";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Answers, DeckCard, Pair, Ranked, emptyAnswers, fetchContent, postScore } from "./api";
+import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
 
 const ROUNDS = [
   { id: "subjects", label: "Round 1 · Your subjects", short: "Your subjects", min: 3 },
@@ -25,15 +26,6 @@ function CardArt({ card }: { card: DeckCard }) {
   </svg></div>);
 }
 
-function FallbackRoom({ names }: { names: string[] }) {
-  return (<svg className="room-img" viewBox="0 0 600 430" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Your room (fallback)">
-    <rect width="600" height="300" fill="#dcd0ee" /><rect y="300" width="600" height="130" fill="#c98e63" />
-    <rect x="232" y="80" width="136" height="130" fill="#f3a27a" /><rect x="40" y="120" width="200" height="8" fill="#8d5a3a" />
-    <rect x="380" y="240" width="170" height="10" fill="#8d5a3a" /><rect x="30" y="300" width="170" height="70" rx="6" fill="#3f8f88" />
-    {names.slice(0, 8).map((n, i) => <text key={n} x={60 + (i % 4) * 130} y={150 + Math.floor(i / 4) * 90} fontSize="13" fill="#2b2340">{n}</text>)}
-  </svg>);
-}
-
 export default function App() {
   const [content, setContent] = useState<Awaited<ReturnType<typeof fetchContent>> | null>(null);
   const [phase, setPhase] = useState<"intro" | "play" | "reveal">("intro");
@@ -50,13 +42,10 @@ export default function App() {
   const [toast, setToast] = useState("");
   const [ranked, setRanked] = useState<Ranked[]>([]);
   const [surprise, setSurprise] = useState<string | null>(null);
-  const [roomId, setRoomId] = useState<string | null>(null);
-  const [roomImg, setRoomImg] = useState<string | null>(null);
-  const [roomFailed, setRoomFailed] = useState(false);
-  const [placed, setPlaced] = useState<Placed[]>([]);
-  const [fresh, setFresh] = useState<string[]>([]);
+  const [placedCodes, setPlacedCodes] = useState<string[]>([]);
   const [page, setPage] = useState(0);
-  const [view, setView] = useState("city");
+  const [view, setView] = useState("campus");
+  const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
   const [selfie, setSelfie] = useState<string | null>(null);
   const [stats, setStats] = useState({ things: [0, 0], questions: [0, 0] });
   const toastTimer = useRef<number>(0);
@@ -73,31 +62,34 @@ export default function App() {
     ? Object.values(picked).reduce((a, v) => a + (v === "love" ? 1.5 : 1), 0) + typedNames.length
     : round === 3 ? pairIdx : deckIdx;
 
+  const assets = useRoomAssets();
+  const assigned = useMemo(
+    () => (assets ? assignStickers(placedCodes, assets.stickers, assets.layout) : []),
+    [assets, placedCodes]);
   async function updateRoom(snap: Answers) {
     try {
       const scored = await postScore(snap);
       setRanked(scored.ranked); setSurprise(scored.surprise);
-      const have = new Set(placed.map((p) => p.code));
-      const add = scored.room.filter((c) => !have.has(c)).slice(0, Math.max(0, 8 - have.size));
-      if (!add.length) return scored;
-      const res = await postRoom(roomId, add);
-      setRoomId(res.room_id);
-      setFresh(res.placed.map((p) => p.code).filter((c) => !have.has(c)));
-      setPlaced(res.placed);
-      setRoomImg(res.image_url);
-      if (res.failed.length) tip("Some things could not be drawn this time and were left out.", 2600);
+      setPlacedCodes(scored.room.slice(0, 5));
       return scored;
-    } catch { setRoomFailed(true); return null; }
+    } catch { return null; }
   }
 
-  async function endRound(snap: Answers) {
-    const scored = await updateRoom(snap);
-    const top = scored?.ranked.find((r) => r.score > 0);
-    tip(top ? "Leaning towards " + top.display_name.toLowerCase() + "." : "Nothing new this round, but the picture got sharper.", 2200);
+  const busyRef = useRef(false);
+  function endRound(snap: Answers) {
+    if (busyRef.current) return;
+    busyRef.current = true;
+    tip("Filling your room…", 2200);
+    // Stickers are pre-rendered: scoring returns and the room updates instantly.
+    void updateRoom(snap).then((scored) => {
+      const top = scored?.ranked.find((r) => r.score > 0);
+      if (top) tip("Leaning towards " + top.display_name.toLowerCase() + ".", 2200);
+    });
     window.setTimeout(() => {
+      busyRef.current = false;
       if (round < 4) { setRound(round + 1); setDeckIdx(0); }
       else setPhase("reveal");
-    }, 1400);
+    }, 900);
   }
 
   function chipsContinue() {
@@ -127,7 +119,7 @@ export default function App() {
 
   function restart() {
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
-    setRanked([]); setSurprise(null); setPlaced([]); setRoomId(null); setRoomImg(null); setRoomFailed(false);
+    setRanked([]); setSurprise(null); setPlacedCodes([]);
     setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] }); setRound(1); setPhase("play");
   }
 
@@ -150,15 +142,7 @@ export default function App() {
   return (
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB">
       <div className="room-wrap">
-        {roomImg && !roomFailed
-          ? <img className="room-img on" src={roomImg} alt="Your room" />
-          : <FallbackRoom names={placed.map((p) => ranked.find((r) => r.code === p.code)?.display_name || p.code)} />}
-        {roomImg && placed.filter((p) => fresh.includes(p.code)).map((p) => (
-          <div key={p.code} className="popbox" style={{
-            left: (p.box.x1 / p.box.w * 100) + "%", top: (p.box.y1 / p.box.h * 100) + "%",
-            width: ((p.box.x2 - p.box.x1) / p.box.w * 100) + "%", height: ((p.box.y2 - p.box.y1) / p.box.h * 100) + "%",
-          }}><span>{ranked.find((r) => r.code === p.code)?.display_name || p.label}</span></div>
-        ))}
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
       </div>
 
       {phase !== "reveal" && (<div className="top"><div className="segs">
@@ -234,29 +218,48 @@ export default function App() {
         <button className="zone right" aria-label="Next" onClick={() => setPage(Math.min(5, page + 1))} />
         <div className="pages">
           <div className={"page" + (page === 0 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Your room</p>
-            <h2>{placed.length} thing{placed.length === 1 ? "" : "s"} landed. Here's your room.</h2><p className="note">Tap the right side to continue, left to go back.</p></div></div>
+            <h2>{assigned.length} thing{assigned.length === 1 ? "" : "s"} landed. Here's your room.</h2><p className="note">Tap the right side to continue, left to go back.</p></div></div>
           <div className={"page" + (page === 1 ? " on" : "")}><div className="pc mid big"><p className="eyebrow">You're into</p>
             <h2>{revealList.slice(0, 3).map((r) => r.display_name.toLowerCase()).join(", ") || "not sure yet"}</h2><p className="note">{doerText}</p></div></div>
           <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Subjects to explore</p>
             <ul className="subjects">{revealList.map((r) => (
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
-                <small>{r.code === surprise ? "Never on a card. It scored from everything around it." : (r.reasons.length ? "Because of: " + r.reasons.join(" · ") : "")}</small></div>
+                <small>{r.code === surprise ? "Never on a card. It scored from everything around it." : (r.reasons.length ? "Because of: " + r.reasons.join(" · ") : "")}</small>
+                <a href={"https://www.discoveruni.gov.uk/search/?q=" + encodeURIComponent(r.display_name)} target="_blank" rel="noreferrer">See courses on Discover Uni</a></div>
                 <span className="pct">{r.code === surprise ? <span className="tag">surprise</span> : Math.round(r.score / maxScore * 100) + "%"}</span></li>))}
             </ul>{surprise && <p className="note">The starred one was never on a card. It scored from everything around it.</p>}</div></div>
           <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Where do you see yourself studying?</p><h2>Pick a view</h2>
             <div className="views">{VIEWS.map((v) => <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>{v.name}</button>)}</div>
+            <div className="views" style={{ marginTop: 8 }}>{["day", "dusk"].map((t) => <button key={t} aria-pressed={t === viewTime} onClick={() => setViewTime(t)}>{t === "day" ? "Day" : "Dusk"}</button>)}</div>
             <p className="note">It changes your window, and later helps suggest places to study.</p></div></div>
           <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Put yourself in it</p><h2>Add a selfie</h2>
             <input type="file" accept="image/*" onChange={(e) => { const f = e.target.files?.[0]; if (!f) return; const rd = new FileReader(); rd.onload = () => setSelfie(String(rd.result)); rd.readAsDataURL(f); }} />
             {selfie && <img src={selfie} alt="Your selfie" style={{ width: 72, height: 72, objectFit: "cover", borderRadius: 99 }} />}
             <p className="note">Stays in your browser here. In the real build SAM 3.1 cuts you out and Muse Image repaints you in the room's style.</p></div></div>
           <div className={"page" + (page === 5 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Share</p>
-            <div className="share"><div className="phone">{roomImg ? <img src={roomImg} alt="Your room" /> : <FallbackRoom names={[]} />}
+            <div className="share"><div className="phone"><RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
               <div className="over"><b>got an inkling?</b>made with Inkling</div></div>
               <div><p style={{ fontStyle: "italic", margin: "0 0 6px" }}>"my inkling: {revealList.slice(0, 2).map((r) => r.display_name.toLowerCase()).join(" + ") || "still working it out"}. got an inkling?"</p>
-                <p className="note">Exports as a 9:16 image or a 10-second clip. Add trending audio when you post.</p>
+                <p className="note">Downloads a 9:16 share card and a story background made from your room.</p>
                 <div className="row" style={{ marginTop: 10 }}>
-                  <button className="btn alt" onClick={() => tip("In the real build this saves a 9:16 image and a short clip to your camera roll.", 2500)}>Export</button>
+                  <button className="btn alt" onClick={async () => {
+                    if (!assets) return;
+                    const canvas = await composeRoomCanvas(assigned, view, viewTime, assets.layout);
+                    const ctx = canvas.getContext("2d")!;
+                    ctx.fillStyle = "rgba(43,35,64,.82)"; ctx.fillRect(0, 1620, 1080, 300);
+                    ctx.fillStyle = "#fff"; ctx.font = "64px Georgia"; ctx.fillText(revealList[0]?.display_name || "My inkling", 48, 1710);
+                    ctx.font = "44px Georgia"; ctx.fillText("got an inkling?", 48, 1780);
+                    download(canvas, "inkling-share.png");
+                  }}>Share card</button>
+                  <button className="btn" onClick={async () => {
+                    if (!assets) return;
+                    const canvas = await composeRoomCanvas(assigned, view, viewTime, assets.layout);
+                    const ctx = canvas.getContext("2d")!;
+                    ctx.fillStyle = "#e59a2c"; ctx.fillRect(0, 0, 1080, 90); ctx.fillRect(0, 1830, 1080, 90);
+                    ctx.save(); ctx.translate(120, 240); ctx.rotate(-0.18); ctx.font = "120px Georgia"; ctx.fillStyle = "rgba(255,255,255,.9)";
+                    ctx.fillText((revealList[0]?.display_name || "I").slice(0, 2).toUpperCase(), 0, 0); ctx.restore();
+                    download(canvas, "inkling-story.png");
+                  }}>Story background</button>
                   <button className="btn ghost" onClick={restart}>Start over</button>
                 </div></div></div>
             <details><summary>What the model thinks</summary><pre>{ranked.slice(0, 12).map((r) => r.display_name + "  score " + r.score.toFixed(2) + "  unc " + r.uncertainty.toFixed(2)).join("\n")}</pre></details>
