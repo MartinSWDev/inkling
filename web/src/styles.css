@@ -86,7 +86,20 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .pcard img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
 .pcard .lbl{position:absolute;left:8px;right:8px;bottom:8px;padding:8px 10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;transform:rotate(-1deg);box-shadow:0 1px 0 rgba(42,34,56,.18),0 8px 18px rgba(42,34,56,.22)}
 .pcard .lbl b{font-family:var(--display);font-weight:400;font-size:1.05rem;display:block}.pcard .lbl small{font-size:.78rem;color:var(--muted)}
-.pcard.picked{border-color:var(--accent)}.pcard.dim{opacity:.4}
+.pcard{transition:transform .22s ease,opacity .22s ease}
+.pcard:active{transform:scale(.97)}
+.pcard.picked{border-color:var(--accent)}
+.pcard.dim{opacity:0;transform:rotateX(70deg) scale(.94);transform-origin:50% 100%}
+.plusflag{position:absolute;background:var(--butter);color:var(--ink);font-size:12px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--line);transform:rotate(-4deg) translate(-30%,-120%);box-shadow:var(--paper-shadow-sm);animation:popin .35s cubic-bezier(.2,.9,.3,1.3) both;pointer-events:none}
+.outrotag{position:absolute;left:0;right:0;bottom:12%;z-index:8;display:grid;place-items:center;background:none;border:0;cursor:pointer}
+.outrotag span{background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);font-family:var(--display);font-weight:700;font-size:22px;padding:12px 18px;border-radius:12px;border:1px solid var(--line);box-shadow:var(--paper-shadow);transform:rotate(-1deg)}
+.sticker-img.wiggle{animation:wiggle .7s ease-in-out}
+@keyframes wiggle{0%,100%{margin-top:0}25%{margin-top:-8px}55%{margin-top:2px}75%{margin-top:-4px}}
+.chip{transition:transform .12s ease}
+.chip:active{transform:scale(.97)}
+.flecks{position:absolute;right:8px;top:50%;pointer-events:none}
+.flecks i{position:absolute;width:7px;height:7px;border-radius:2px;background:var(--accent)}
+.flecks i:nth-child(2n){background:var(--sage)}.flecks i:nth-child(3n){background:var(--lilac)}
 .orpill{justify-self:center;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
 .pfoot{display:flex;justify-content:space-between;align-items:center}
 .linkbtn{font:inherit;background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;padding:6px}

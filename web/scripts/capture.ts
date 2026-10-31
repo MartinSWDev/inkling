@@ -47,7 +47,7 @@ await step("round1 chips", async () => {
 });
 await shot(page, "04-round1-picked");
 await step("round1 continue", async () => { await clickText(page, /continue/i); });
-await page.waitForTimeout(1500);
+await page.waitForTimeout(3400);
 await shot(page, "05-round2");
 
 await step("round2 swipe + buttons", async () => {
@@ -64,7 +64,7 @@ await step("round2 swipe + buttons", async () => {
 });
 await shot(page, "06-round2-done");
 await step("round2 continue", async () => { await clickText(page, /continue/i); });
-await page.waitForTimeout(1500);
+await page.waitForTimeout(3400);
 await shot(page, "07-round3-pairs");
 
 await step("round3 pairs", async () => {
@@ -76,7 +76,7 @@ await step("round3 pairs", async () => {
     if (await page.locator(".card.swipe").count()) break;
   }
 });
-await page.waitForTimeout(1200);
+await page.waitForTimeout(3400);
 await shot(page, "08-round4");
 await step("round4 answers", async () => {
   await page.keyboard.press("ArrowUp").catch(() => null);

@@ -66,7 +66,7 @@ export default function App() {
   useEffect(() => {
     if (scene.kind === "unfold") { const t = window.setTimeout(() => dispatch({ type: "UNFOLDED" }), 1400); return () => window.clearTimeout(t); }
     if (scene.kind === "roundTitle") { const t = window.setTimeout(() => dispatch({ type: "TITLE_DONE" }), 950); return () => window.clearTimeout(t); }
-    if (scene.kind === "roundOutro") { const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), 400); return () => window.clearTimeout(t); }
+    if (scene.kind === "roundOutro") { const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), 1700); return () => window.clearTimeout(t); }
   }, [scene.kind]);
   // Preload room layers, common stickers, card art and views while the landing is shown.
   useEffect(() => {
@@ -101,6 +101,9 @@ export default function App() {
   const ranked = live?.ranked ?? [];
   const surprise = live?.surprise ?? null;
   const [roomCodes, setRoomCodes] = useState<string[]>([]);
+  const [lastAdded, setLastAdded] = useState<string | null>(null);
+  const [confetti, setConfetti] = useState<string | null>(null);
+  const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const scoresRef = useRef<Record<string, number>>({});
   const qualifiedAll = useMemo(() => {
     if (!content || !subjects.length) return new Set<string>();
@@ -132,7 +135,13 @@ export default function App() {
     const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks);
     if (round > 1 || heart) {
       const qualified = qualifiedSubjects(snap, subjects, profiles, content.pairs, decks);
-      setRoomCodes((prev) => growRoom(prev, scoresRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]));
+      const next = growRoom(roomCodes, scoresRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]);
+      const added = next.find((c) => !roomCodes.includes(c));
+      setRoomCodes(next);
+      if (added) {
+        setLastAdded(added); sfx.thwip(); buzz();
+        window.setTimeout(() => setLastAdded((c) => (c === added ? null : c)), 1600);
+      }
     }
     scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
   }
@@ -192,6 +201,7 @@ export default function App() {
 
   function decide(kind: "yes" | "no" | "up") {
     if (!current) return;
+    sfx.flick(); if (kind !== "no") buzz();
     const snap = { ...answersRef.current, swipes: [...answersRef.current.swipes, { card_id: current.id, answer: kind }] };
     setAnswers(snap);
     applyAction(snap, false);
@@ -207,7 +217,15 @@ export default function App() {
     const snap = { ...answersRef.current, pairs: [...answersRef.current.pairs, { pair_id: pair.id, side }] };
     setAnswers(snap);
     applyAction(snap, false);
-    if (pairIdx + 1 < (content?.pairs.length || 0)) setPairIdx(pairIdx + 1);
+    sfx.pop(); buzz();
+    if (side) {
+      setPairPick(side);
+      window.setTimeout(() => {
+        setPairPick(null);
+        if (pairIdx + 1 < (content?.pairs.length || 0)) setPairIdx(pairIdx + 1);
+        else nextRound();
+      }, 260);
+    } else if (pairIdx + 1 < (content?.pairs.length || 0)) setPairIdx(pairIdx + 1);
     else nextRound();
   }
 
@@ -238,8 +256,14 @@ export default function App() {
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
-        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={phase === "play"} />
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={scene.kind === "round"} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null} />
       </div>
+
+      {scene.kind === "roundOutro" && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
+        <motion.span initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 380, damping: 20 }}>
+          {assigned.length + " thing" + (assigned.length === 1 ? "" : "s") + " in your room so far"}
+        </motion.span>
+      </button>)}
 
       {inGame && (<div className="top"><div className="segs">
         {ROUNDS.map((r, i) => {
@@ -302,10 +326,14 @@ export default function App() {
           <div className="chips">{content.chips.map((chip) => {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
-              onClick={() => { const n = { ...picked }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; syncChips(n, typedNames); }}>
+              onClick={() => { const n = { ...picked }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; sfx.pop(); syncChips(n, typedNames); }}>
               <span>{chip.name}</span>
+              {confetti === chip.id && (<span className="flecks" aria-hidden="true">{[0, 1, 2, 3, 4, 5].map((i) => (
+                <motion.i key={i} initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
+                  animate={{ x: Math.cos(i * 1.05) * 34, y: Math.sin(i * 1.05) * 26 - 8, opacity: 0, scale: 0.5 }}
+                  transition={{ duration: 0.55, ease: "easeOut" }} />))}</span>)}
               <span className="heart" role="button" aria-label={"Love " + chip.name}
-                onClick={(e) => { e.stopPropagation(); syncChips({ ...picked, [chip.id]: picked[chip.id] === "love" ? "take" : "love" }, typedNames, picked[chip.id] !== "love"); }}>♥</span>
+                onClick={(e) => { e.stopPropagation(); const loving = picked[chip.id] !== "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: loving ? "love" : "take" }, typedNames, loving); }}>♥</span>
             </button>);
           })}</div>
           <div><p className="hint2" style={{ marginBottom: 6 }}>Something else?</p>
@@ -353,7 +381,7 @@ export default function App() {
           <div className="pfoot"><div><p className="eyebrow">Round 3 · This or that</p><h2>Which is more you?</h2></div><span className="count">{pairIdx + 1} / {content.pairs.length}</span></div>
           <div className="pairs">
             {(["a", "b"] as const).map((side) => (
-              <button key={side} className="pcard" onClick={() => answerPair(pair, side)}>
+              <button key={side} className={"pcard" + (pairPick === side ? " picked" : pairPick ? " dim" : "")} onClick={() => answerPair(pair, side)}>
                 <img src={"/img/" + pair.id + "_" + side + ".jpg"} alt="" />
                 <span className="lbl"><b>{pair[side].label}</b><small>{pair[side].caption}</small></span>
               </button>

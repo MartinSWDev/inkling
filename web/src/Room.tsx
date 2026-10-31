@@ -50,8 +50,8 @@ const pct = (v: number, total: number) => (v / total * 100) + "%";
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
 
-export function RoomView({ assigned, viewId, viewTime, band = false }: {
-  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean;
+export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null }: {
+  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null;
 }) {
   const [layout, setLayout] = useState<Layout | null>(null);
   const stackRef = useRef<HTMLDivElement>(null);
@@ -83,14 +83,15 @@ export function RoomView({ assigned, viewId, viewTime, band = false }: {
       <img className="view-img" src={"/views/" + viewId + "_" + viewTime + ".webp"} alt=""
         style={{ left: pct(win.x, ROOM_W), top: pct(win.y, ROOM_H), width: pct(win.w, ROOM_W), height: pct(win.h, ROOM_H) }} />
       <img className="room-top" src="/room/room.png" alt="Your room" />
-      {[...assigned].sort((a, b) => a.z - b.z).map((a) => (
+      {[...assigned].sort((a, b) => a.z - b.z).map((a, ai) => (
         <span key={a.code}>
           {a.slot !== "wall"
             ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: pct(a.y + a.h - 6, ROOM_H), width: pct(a.w * 0.76, ROOM_W) }} />
             : <img className="sticker-dropshadow" src={"/stickers/" + a.code + ".webp"} alt=""
                 style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H) }} />}
-          <img className="sticker-img" src={"/stickers/" + a.code + ".webp"} alt=""
-            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H), zIndex: a.z }} />
+          <img className={"sticker-img" + (celebrate ? " wiggle" : "")} src={"/stickers/" + a.code + ".webp"} alt=""
+            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined }} />
+          {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 5 }}>+1</span>}
         </span>
       ))}
       {viewTime === "dusk" && <span className="dusk-wash" />}
