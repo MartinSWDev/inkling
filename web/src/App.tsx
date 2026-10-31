@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Answers, DeckCard, Pair, Ranked, emptyAnswers, fetchContent, postScore } from "./api";
+import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
+import { scoreAnswers } from "./scoring";
 
 const ROUNDS = [
   { id: "subjects", label: "Round 1 · Your subjects", short: "Your subjects", min: 3 },
@@ -40,9 +41,7 @@ export default function App() {
   const [pairIdx, setPairIdx] = useState(0);
   const [fact, setFact] = useState<string | null>(null);
   const [toast, setToast] = useState("");
-  const [ranked, setRanked] = useState<Ranked[]>([]);
-  const [surprise, setSurprise] = useState<string | null>(null);
-  const [placedCodes, setPlacedCodes] = useState<string[]>([]);
+  const [subjects, setSubjects] = useState<Subject[]>([]);
   const [page, setPage] = useState(0);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
@@ -50,7 +49,10 @@ export default function App() {
   const [stats, setStats] = useState({ things: [0, 0], questions: [0, 0] });
   const toastTimer = useRef<number>(0);
 
-  useEffect(() => { fetchContent().then(setContent).catch(() => setToast("Could not load the game content. Check the API is running.")); }, []);
+  useEffect(() => {
+    fetchContent().then(setContent).catch(() => setToast("Could not load the game content. Check the API is running."));
+    fetchSubjects().then((d) => setSubjects(d.subjects)).catch(() => null);
+  }, []);
   const tip = useCallback((msg: string, ms = 3200) => {
     setToast(msg); window.clearTimeout(toastTimer.current);
     toastTimer.current = window.setTimeout(() => setToast(""), ms);
@@ -63,40 +65,33 @@ export default function App() {
     : round === 3 ? pairIdx : deckIdx;
 
   const assets = useRoomAssets();
+  // Scoring runs in the browser: every answers change rescores and refills the room.
+  const live = useMemo(() => {
+    if (!content || !subjects.length) return null;
+    const profiles: Record<string, Record<string, number>> = {};
+    for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
+    return scoreAnswers(answers, subjects, profiles, content.pairs,
+      { chips: content.chips, things: content.things, questions: content.questions });
+  }, [answers, content, subjects]);
+  const ranked = live?.ranked ?? [];
+  const surprise = live?.surprise ?? null;
+  const placedCodes = live?.room.slice(0, 8) ?? [];
   const assigned = useMemo(
     () => (assets ? assignStickers(placedCodes, assets.stickers, assets.layout) : []),
     [assets, placedCodes]);
-  async function updateRoom(snap: Answers) {
-    try {
-      const scored = await postScore(snap);
-      setRanked(scored.ranked); setSurprise(scored.surprise);
-      setPlacedCodes(scored.room.slice(0, 5));
-      return scored;
-    } catch { return null; }
+
+  function nextRound() {
+    if (round < 4) { setRound(round + 1); setDeckIdx(0); }
+    else setPhase("reveal");
   }
 
-  const busyRef = useRef(false);
-  function endRound(snap: Answers) {
-    if (busyRef.current) return;
-    busyRef.current = true;
-    tip("Filling your room…", 2200);
-    // Stickers are pre-rendered: scoring returns and the room updates instantly.
-    void updateRoom(snap).then((scored) => {
-      const top = scored?.ranked.find((r) => r.score > 0);
-      if (top) tip("Leaning towards " + top.display_name.toLowerCase() + ".", 2200);
-    });
-    window.setTimeout(() => {
-      busyRef.current = false;
-      if (round < 4) { setRound(round + 1); setDeckIdx(0); }
-      else setPhase("reveal");
-    }, 900);
+  function syncChips(nextPicked: Record<string, string>, nextTyped: string[]) {
+    setPicked(nextPicked); setTypedNames(nextTyped);
+    setAnswers({ ...answersRef.current,
+      chips: Object.entries(nextPicked).map(([id, state]) => ({ id, state })), typed: nextTyped });
   }
 
-  function chipsContinue() {
-    const chips = Object.entries(picked).map(([id, state]) => ({ id, state }));
-    const snap = { ...answersRef.current, chips, typed: typedNames };
-    setAnswers(snap); void endRound(snap);
-  }
+  function chipsContinue() { nextRound(); }
 
   function decide(kind: "yes" | "no" | "up") {
     if (!current) return;
@@ -114,12 +109,11 @@ export default function App() {
     const snap = { ...answersRef.current, pairs: [...answersRef.current.pairs, { pair_id: pair.id, side }] };
     setAnswers(snap);
     if (pairIdx + 1 < (content?.pairs.length || 0)) setPairIdx(pairIdx + 1);
-    else void endRound(snap);
+    else nextRound();
   }
 
   function restart() {
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
-    setRanked([]); setSurprise(null); setPlacedCodes([]);
     setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] }); setRound(1); setPhase("play");
   }
 
@@ -163,16 +157,16 @@ export default function App() {
           <div className="chips">{content.chips.map((chip) => {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
-              onClick={() => setPicked((p) => { const n = { ...p }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; return n; })}>
+              onClick={() => { const n = { ...picked }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; syncChips(n, typedNames); }}>
               <span>{chip.name}</span>
               <span className="heart" role="button" aria-label={"Love " + chip.name}
-                onClick={(e) => { e.stopPropagation(); setPicked((p) => ({ ...p, [chip.id]: p[chip.id] === "love" ? "take" : "love" })); }}>♥</span>
+                onClick={(e) => { e.stopPropagation(); syncChips({ ...picked, [chip.id]: picked[chip.id] === "love" ? "take" : "love" }, typedNames); }}>♥</span>
             </button>);
           })}</div>
           <div><p className="hint2" style={{ marginBottom: 6 }}>Something else?</p>
             <div className="other"><input value={other} list="other-list" placeholder="Type a subject" autoComplete="off"
               onChange={(e) => setOther(e.target.value)}
-              onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { setTypedNames((t) => [...t, other.trim()]); setOther(""); } }} />
+              onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { syncChips(picked, [...typedNames, other.trim()]); setOther(""); } }} />
               <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist></div>
             {typedNames.length > 0 && <p className="hint2">Added: {typedNames.join(", ")}</p>}</div>
           {Object.keys(picked).length + typedNames.length >= 3 &&
@@ -193,7 +187,7 @@ export default function App() {
           <div className="actions">
             <button className="no" aria-label="Not for me" onClick={() => decide("no")}>✕</button>
             {round === 4 && <button className="up" aria-label="Need to know" onClick={() => decide("up")}>★</button>}
-            {deckIdx >= ROUNDS[round - 1].min && <button className="btn alt" id="continue" onClick={() => void endRound(answersRef.current)}>{round < 4 ? "Continue" : "Build my room"}</button>}
+            {deckIdx >= ROUNDS[round - 1].min && <button className="btn alt" id="continue" onClick={nextRound}>{round < 4 ? "Continue" : "Build my room"}</button>}
             <button className="yes" aria-label="Yes" onClick={() => decide("yes")}>✓</button>
           </div>
         </div>)}

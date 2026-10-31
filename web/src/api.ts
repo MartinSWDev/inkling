@@ -1,8 +1,12 @@
-export type Chip = { id: string; name: string };
-export type DeckCard = { id: string; title: string; scene: string; fact?: string };
-export type PairSide = { label: string; caption: string };
+export type Chip = { id: string; name: string; terms: string[] };
+export type DeckCard = { id: string; title: string; scene: string; fact?: string; terms: Record<string, number> };
+export type PairSide = { label: string; caption: string; scores: Record<string, number> };
 export type Pair = { id: string; a: PairSide; b: PairSide };
 export type Ranked = { code: string; display_name: string; score: number; uncertainty: number; direct: number; reasons: string[] };
+export type Subject = {
+  code: string; display_name: string; name: string; keywords: string[]; neighbours: string[];
+  slot: string; object: string; profile: Record<string, number> | null; course_count: number;
+};
 export type Answers = {
   chips: { id: string; state: string }[];
   typed: string[];
@@ -22,8 +26,4 @@ async function getJson<T>(url: string): Promise<T> {
 
 export const fetchContent = () =>
   getJson<{ chips: Chip[]; extra_names: string[]; things: DeckCard[]; questions: DeckCard[]; pairs: Pair[] }>("/api/content");
-export const fetchPairs = () => getJson<{ pairs: Pair[] }>("/api/pairs");
-export const postScore = (answers: Answers) =>
-  fetch("/api/score", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(answers) })
-    .then((r) => { if (!r.ok) throw new Error("score " + r.status); return r.json() as Promise<{ ranked: Ranked[]; surprise: string | null; room: string[] }>; });
-{}
+export const fetchSubjects = () => getJson<{ count: number; subjects: Subject[] }>("/api/subjects");
