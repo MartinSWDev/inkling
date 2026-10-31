@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
 import { qualifiedSubjects, scoreAnswers } from "./scoring";
-import { ROUND_CAPS, growRoom } from "./roomRules";
+import { ROUND_CAPS, ensureFloorOrBed, growRoom } from "./roomRules";
 
 const ROUNDS = [
   { id: "subjects", label: "Round 1 · Your subjects", short: "Your subjects", min: 3 },
@@ -80,9 +80,20 @@ export default function App() {
   const surprise = live?.surprise ?? null;
   const [roomCodes, setRoomCodes] = useState<string[]>([]);
   const scoresRef = useRef<Record<string, number>>({});
+  const qualifiedAll = useMemo(() => {
+    if (!content || !subjects.length) return new Set<string>();
+    const profiles: Record<string, Record<string, number>> = {};
+    for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
+    return qualifiedSubjects(answers, subjects, profiles, content.pairs,
+      { chips: content.chips, things: content.things, questions: content.questions });
+  }, [answers, content, subjects]);
+  const displayCodes = useMemo(() => {
+    if (phase !== "reveal" || !assets) return roomCodes;
+    return ensureFloorOrBed(roomCodes, ranked, qualifiedAll, (c) => assets.stickers[c]?.slot);
+  }, [phase, assets, roomCodes, ranked, qualifiedAll]);
   const assigned = useMemo(
-    () => (assets ? assignStickers(roomCodes, assets.stickers, assets.layout) : []),
-    [assets, roomCodes]);
+    () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.25 : 1) : []),
+    [assets, displayCodes, phase]);
 
   function nextRound() {
     if (round < 4) { setRound(round + 1); setDeckIdx(0); }
@@ -140,7 +151,6 @@ export default function App() {
     setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] }); setRound(1); setPhase("play");
   }
 
-  const maxScore = ranked[0]?.score || 1;
   const revealList = (() => {
     const top = ranked.filter((r) => r.score > 0).slice(0, 5);
     const sur = surprise ? ranked.find((r) => r.code === surprise) : undefined;
@@ -159,7 +169,7 @@ export default function App() {
   return (
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB">
       <div className="room-wrap">
-        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={phase === "play"} />
       </div>
 
       {phase !== "reveal" && (<div className="top"><div className="segs">
@@ -198,26 +208,31 @@ export default function App() {
               onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { syncChips(picked, [...typedNames, other.trim()]); setOther(""); } }} />
               <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist></div>
             {typedNames.length > 0 && <p className="hint2">Added: {typedNames.join(", ")}</p>}</div>
-          {Object.keys(picked).length + typedNames.length >= 3 &&
-            <button className="btn alt" onClick={chipsContinue}>Continue</button>}
+          {Object.keys(picked).length + typedNames.length >= 3
+            ? <button className="btn alt" onClick={chipsContinue}>Continue</button>
+            : <p className="hint2" style={{ textAlign: "center" }}>Pick at least 3</p>}
         </div>)}
 
         {(round === 2 || round === 4) && (<div style={{ display: "grid", gap: 10, justifyItems: "center", width: "100%" }}>
           <p className="theme">{ROUNDS[round - 1].label}<b>{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</b></p>
           <div className="deck">
-            {fact && <div className="fact"><b>Did you know?</b>{fact}</div>}
             {current
               ? <div className="card"><div className="stamp yes">{round === 4 ? "tell me" : "yes!"}</div><div className="stamp no">nah</div>
                   {round === 4 && <div className="stamp up">need to know</div>}
                   <CardArt card={current} />{round === 4 && <div className="qtext">{current.title}</div>}
-                  <div className="cap"><b>{round === 2 ? current.title : ""}</b><small>{Math.min(deckIdx, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</small></div></div>
+                  {fact && <div className="fact"><b>Did you know?</b>{fact}</div>}
+                  <div className="cap"><b>{round === 2 ? current.title : ""}</b><small>{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</small></div></div>
               : <div className="card" style={{ placeItems: "center", display: "grid", padding: 16 }}><p className="note">That's every card in this round.</p></div>}
           </div>
-          <div className="actions">
-            <button className="no" aria-label="Not for me" onClick={() => decide("no")}>✕</button>
-            {round === 4 && <button className="up" aria-label="Need to know" onClick={() => decide("up")}>★</button>}
-            {deckIdx >= ROUNDS[round - 1].min && <button className="btn alt" id="continue" onClick={nextRound}>{round < 4 ? "Continue" : "Build my room"}</button>}
-            <button className="yes" aria-label="Yes" onClick={() => decide("yes")}>✓</button>
+          <div className="actioncol">
+            <div className="continurow">
+              {deckIdx >= ROUNDS[round - 1].min && <button className="btn alt" id="continue" onClick={nextRound}>{round < 4 ? "Continue" : "Build my room"}</button>}
+            </div>
+            <div className="actions">
+              <button className="no" aria-label="Not for me" onClick={() => decide("no")}>✕</button>
+              <button className="up" aria-label="Need to know" disabled={round !== 4} style={round !== 4 ? { visibility: "hidden" } : undefined} onClick={() => decide("up")}>★</button>
+              <button className="yes" aria-label="Yes" onClick={() => decide("yes")}>✓</button>
+            </div>
           </div>
         </div>)}
 
@@ -240,7 +255,7 @@ export default function App() {
         <button className="zone left" aria-label="Back" onClick={() => setPage(Math.max(0, page - 1))} />
         <button className="zone right" aria-label="Next" onClick={() => setPage(Math.min(5, page + 1))} />
         <div className="pages">
-          <div className={"page" + (page === 0 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Your room</p>
+          <div className={"page" + (page === 0 ? " on" : "")}><div className="pc roomcap"><p className="eyebrow">Your room</p>
             <h2>{assigned.length} thing{assigned.length === 1 ? "" : "s"} landed. Here's your room.</h2><p className="note">Tap the right side to continue, left to go back.</p></div></div>
           <div className={"page" + (page === 1 ? " on" : "")}><div className="pc mid big"><p className="eyebrow">You're into</p>
             <h2>{revealList.slice(0, 3).map((r) => r.display_name.toLowerCase()).join(", ") || "not sure yet"}</h2><p className="note">{doerText}</p></div></div>
@@ -249,8 +264,8 @@ export default function App() {
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "Never on a card. It scored from everything around it." : (r.reasons.length ? "Because of: " + r.reasons.join(" · ") : "")}</small>
                 <a href={"https://www.discoveruni.gov.uk/search/?q=" + encodeURIComponent(r.display_name)} target="_blank" rel="noreferrer">See courses on Discover Uni</a></div>
-                <span className="pct">{r.code === surprise ? <span className="tag">surprise</span> : Math.round(r.score / maxScore * 100) + "%"}</span></li>))}
-            </ul>{surprise && <p className="note">The starred one was never on a card. It scored from everything around it.</p>}</div></div>
+                {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>))}
+            </ul></div></div>
           <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Where do you see yourself studying?</p><h2>Pick a view</h2>
             <div className="views">{VIEWS.map((v) => <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>{v.name}</button>)}</div>
             <div className="views" style={{ marginTop: 8 }}>{["day", "dusk"].map((t) => <button key={t} aria-pressed={t === viewTime} onClick={() => setViewTime(t)}>{t === "day" ? "Day" : "Dusk"}</button>)}</div>

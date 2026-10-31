@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 
 export type StickerEntry = { code: string; slot: string; size: string; w: number; h: number; label?: string };
 export type Spot = { slot: string; anchor: [number, number]; max: [number, number]; z: number };
@@ -25,7 +25,7 @@ function overlap(a: Assigned, b: Assigned) {
   return (iw * ih) / Math.min(a.w * a.h, b.w * b.h);
 }
 
-export function assignStickers(codes: string[], stickers: Record<string, StickerEntry>, layout: Layout): Assigned[] {
+export function assignStickers(codes: string[], stickers: Record<string, StickerEntry>, layout: Layout, boost = 1): Assigned[] {
   const placed: Assigned[] = [];
   const used = new Set<string>();
   for (const code of codes) {
@@ -34,7 +34,7 @@ export function assignStickers(codes: string[], stickers: Record<string, Sticker
     let done = false;
     for (const [name, spot] of Object.entries(layout.spots)) {
       if (spot.slot !== entry.slot || used.has(name)) continue;
-      const scale = Math.min(spot.max[0] / entry.w, spot.max[1] / entry.h) * (SCALE[entry.size] ?? 0.8);
+      const scale = Math.min(spot.max[0] / entry.w, spot.max[1] / entry.h) * (SCALE[entry.size] ?? 0.8) * boost;
       const cand: Assigned = { code, spot: name, x: spot.anchor[0] - (entry.w * scale) / 2, y: spot.anchor[1] - entry.h * scale,
         w: entry.w * scale, h: entry.h * scale, z: spot.z, slot: entry.slot };
       if (placed.some((p) => overlap(cand, p) > 0.5)) continue;
@@ -47,13 +47,39 @@ export function assignStickers(codes: string[], stickers: Record<string, Sticker
 
 const pct = (v: number, total: number) => (v / total * 100) + "%";
 
-export function RoomView({ assigned, viewId, viewTime }: { assigned: Assigned[]; viewId: string; viewTime: string }) {
+const BAND_TOP = 0.18;
+const BAND_BOTTOM = 0.96;
+
+export function RoomView({ assigned, viewId, viewTime, band = false }: {
+  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean;
+}) {
   const [layout, setLayout] = useState<Layout | null>(null);
+  const stackRef = useRef<HTMLDivElement>(null);
+  const [box, setBox] = useState({ w: 0, h: 0 });
   useEffect(() => { fetch("/room/layout.json").then((r) => r.json()).then(setLayout).catch(() => null); }, []);
-  if (!layout) return <div className="room-stack" />;
+  useEffect(() => {
+    if (!band || !stackRef.current?.parentElement) return;
+    const parent = stackRef.current.parentElement;
+    const measure = () => setBox({ w: parent.clientWidth, h: parent.clientHeight });
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(parent);
+    return () => ro.disconnect();
+  }, [band, layout]);
+  if (!layout) return <div className="room-stack" ref={stackRef} />;
   const win = layout.window;
+  // Band mode: fill the width, cropping the room to shelves-to-floor (y 18%-96%).
+  // Sticker coordinates stay in the same 1152x2048 room space.
+  let bandStyle: CSSProperties | undefined;
+  if (band && box.w > 0) {
+    const bandH = (BAND_BOTTOM - BAND_TOP) * ROOM_H;
+    const s = Math.max(box.w / ROOM_W, box.h / bandH);
+    const x = (box.w - ROOM_W * s) / 2;
+    const y = -BAND_TOP * ROOM_H * s - Math.max(0, bandH * s - box.h) / 2;
+    bandStyle = { width: ROOM_W, height: ROOM_H, transform: `translate(${x}px, ${y}px) scale(${s})`, transformOrigin: "0 0" };
+  }
   return (
-    <div className="room-stack">
+    <div className={"room-stack" + (band ? " band" : "")} ref={stackRef} style={bandStyle}>
       <img className="view-img" src={"/views/" + viewId + "_" + viewTime + ".webp"} alt=""
         style={{ left: pct(win.x, ROOM_W), top: pct(win.y, ROOM_H), width: pct(win.w, ROOM_W), height: pct(win.h, ROOM_H) }} />
       <img className="room-top" src="/room/room.png" alt="Your room" />

@@ -154,18 +154,19 @@ export function qualifiedSubjects(
   }
   for (const swipe of answers.subject_swipes || [])
     if (swipe.answer === "yes" || swipe.answer === "up") out.add(swipe.code);
+  // Each pair choice is round 2+ evidence on its own: subjects aligned with
+  // the chosen side of any single pair qualify (no cumulative cancellation).
   const pairs: Record<string, PairLike> = Object.fromEntries(pairsData.map((p) => [p.id, p]));
   const stats = zscores(profiles);
-  const userVec: Record<string, number> = {};
   for (const pick of answers.pairs || []) {
     const pair = pairs[pick.pair_id];
     if (!pair || (pick.side !== "a" && pick.side !== "b")) continue;
-    for (const [m, v] of Object.entries(pair[pick.side].scores || {})) userVec[m] = (userVec[m] || 0) + v;
-  }
-  for (const [code, prof] of Object.entries(profiles)) {
-    let total = 0;
-    for (const m of Object.keys(userVec)) if (typeof prof[m] === "number" && m in stats) total += userVec[m] * (prof[m] - stats[m][0]) / stats[m][1];
-    if (total > 0) out.add(code);
+    const side = pair[pick.side].scores || {};
+    for (const [code, prof] of Object.entries(profiles)) {
+      let total = 0;
+      for (const [m, v] of Object.entries(side)) if (typeof prof[m] === "number" && m in stats) total += v * (prof[m] - stats[m][0]) / stats[m][1];
+      if (total > 0) out.add(code);
+    }
   }
   return out;
 }

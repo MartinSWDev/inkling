@@ -19,3 +19,18 @@ export function growRoom(
   if (best.score <= (scores[weakest] ?? 0)) return prev;
   return [...prev.filter((c) => c !== weakest), best.code];
 }
+
+/** Reveal preference: keep at least one floor/bed object when a qualified one exists. */
+export function ensureFloorOrBed(
+  room: string[], ranked: RankedRow[], qualified: Set<string>,
+  slotOf: (code: string) => string | undefined,
+): string[] {
+  if (!room.length || room.some((c) => slotOf(c) === "floor" || slotOf(c) === "bed")) return room;
+  const cand = ranked.find((r) => qualified.has(r.code) && !room.includes(r.code)
+    && (slotOf(r.code) === "floor" || slotOf(r.code) === "bed"));
+  if (!cand) return room;
+  const scores: Record<string, number> = Object.fromEntries(ranked.map((r) => [r.code, r.score]));
+  let weakest = room[0];
+  for (const code of room) if ((scores[code] ?? 0) < (scores[weakest] ?? 0)) weakest = code;
+  return [...room.filter((c) => c !== weakest), cand.code];
+}
