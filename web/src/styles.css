@@ -1,7 +1,12 @@
-:root{--bg:#efeaf2;--paper:#fbf8fc;--ink:#2b2340;--muted:#6c6280;--line:#d9d0e2;--accent:#e59a2c;--accent-ink:#5a3600;--teal:#3f8f88;--no:#c75a5a;--yes:#4f9a6a;--wall:#dcd0ee;--wall2:#cbbde3;--floor:#c98e63;--glass:rgba(251,248,252,.86);--scrim:rgba(43,35,64,.35);--display:"Caprasimo","Georgia",serif;--body:"Atkinson Hyperlegible","Helvetica Neue",Arial,sans-serif}
+@font-face{font-family:"Fraunces";src:url(/fonts/fraunces-700.ttf) format("truetype");font-weight:700;font-display:swap}
+@font-face{font-family:"Fraunces";src:url(/fonts/fraunces-900.ttf) format("truetype");font-weight:900;font-display:swap}
+@font-face{font-family:"Figtree";src:url(/fonts/figtree-400.ttf) format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:"Figtree";src:url(/fonts/figtree-600.ttf) format("truetype");font-weight:600;font-display:swap}
+:root{--bg:#1E1830;--paper:#FBF6EE;--ink:#2A2238;--muted:#6c6280;--line:#ddd2c2;--accent:#e59a2c;--accent-ink:#5a3600;--lilac:#C9B8E8;--peach:#F6C9A8;--sage:#B9CDB0;--butter:#F3D98B;--round-accent:#C9B8E8;--teal:#3f8f88;--no:#c75a5a;--yes:#4f9a6a;--wall:#dcd0ee;--wall2:#cbbde3;--floor:#c98e63;--glass:rgba(251,246,238,.92);--scrim:rgba(43,35,64,.35);--paper-shadow:0 1px 0 rgba(42,34,56,.16),0 18px 36px rgba(30,24,48,.18);--paper-shadow-sm:0 1px 0 rgba(42,34,56,.16),0 8px 18px rgba(30,24,48,.16);--display:"Fraunces","Georgia",serif;--body:"Figtree","Helvetica Neue",Arial,sans-serif}
 @media (prefers-color-scheme:dark){:root{--bg:#1e1829;--paper:#2a2238;--ink:#f1ecf6;--muted:#b1a7c2;--line:#463b58;--accent:#f0b24a;--accent-ink:#2a1a00;--teal:#5fb4ac;--wall:#4a3f6b;--wall2:#3c3259;--glass:rgba(42,34,56,.88);--scrim:rgba(10,6,20,.45);color-scheme:dark}}
 *{box-sizing:border-box}[hidden]{display:none!important}html,body,#root{height:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.4;overflow:hidden}
+body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28),transparent 70%),var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.4;overflow:hidden}
+.sheet2,.pc,.card,.paperlabel,.pcard .lbl{background-image:url(/paper-grain.png);background-size:128px}
 .app{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(560px,100vw);height:min(844px,100svh);overflow:clip;background:var(--wall2)}
 @media(min-width:700px){.app{border-radius:28px;box-shadow:0 24px 80px rgba(20,10,40,.35)}}
 .room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);z-index:0;isolation:isolate;pointer-events:none}
