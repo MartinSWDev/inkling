@@ -18,3 +18,4 @@ web/dist/
 *.tsbuildinfo
 card_out/
 sticker_out/
+review_out/

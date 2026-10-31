@@ -124,6 +124,49 @@ export default function App() {
 
   function chipsContinue() { nextRound(); }
 
+  // --- Real swipe gestures (rounds 2 and 4) ---
+  const cardRef = useRef<HTMLDivElement>(null);
+  const dragRef = useRef<{ sx: number; sy: number; lx: number; ly: number; lt: number; vx: number; vy: number } | null>(null);
+  const [dragT, setDragT] = useState({ x: 0, y: 0, animate: false });
+  useEffect(() => { setDragT({ x: 0, y: 0, animate: false }); dragRef.current = null; }, [deckIdx, round]);
+  const flick = useCallback((kind: "yes" | "no" | "up") => {
+    setDragT((d) => ({ x: kind === "yes" ? 640 : kind === "no" ? -640 : d.x, y: kind === "up" ? -640 : d.y, animate: true }));
+    window.setTimeout(() => decide(kind), 170);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current, deckIdx, round]);
+  function onCardDown(e: React.PointerEvent) {
+    (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
+    dragRef.current = { sx: e.clientX, sy: e.clientY, lx: e.clientX, ly: e.clientY, lt: performance.now(), vx: 0, vy: 0 };
+    setDragT({ x: 0, y: 0, animate: false });
+  }
+  function onCardMove(e: React.PointerEvent) {
+    const d = dragRef.current; if (!d) return;
+    const now = performance.now(), dt = Math.max(1, now - d.lt);
+    const ivx = (e.clientX - d.lx) / dt * 1000, ivy = (e.clientY - d.ly) / dt * 1000;
+    dragRef.current = { ...d, lx: e.clientX, ly: e.clientY, lt: now, vx: d.vx * 0.7 + ivx * 0.3, vy: d.vy * 0.7 + ivy * 0.3 };
+    setDragT({ x: e.clientX - d.sx, y: e.clientY - d.sy, animate: false });
+  }
+  function onCardUp(e: React.PointerEvent) {
+    const d = dragRef.current; dragRef.current = null;
+    if (!d) return;
+    const w = cardRef.current?.offsetWidth || 300, h = cardRef.current?.offsetHeight || 220;
+    const dx = e.clientX - d.sx, dy = e.clientY - d.sy;
+    if (round === 4 && (dy < -0.3 * h || d.vy < -600)) return flick("up");
+    if (dx > 0.3 * w || d.vx > 600) return flick("yes");
+    if (dx < -0.3 * w || d.vx < -600) return flick("no");
+    setDragT({ x: 0, y: 0, animate: true });
+  }
+  useEffect(() => {
+    if (phase !== "play" || (round !== 2 && round !== 4)) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight") flick("yes");
+      else if (e.key === "ArrowLeft") flick("no");
+      else if (e.key === "ArrowUp" && round === 4) flick("up");
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [phase, round, flick]);
+
   function decide(kind: "yes" | "no" | "up") {
     if (!current) return;
     const snap = { ...answersRef.current, swipes: [...answersRef.current.swipes, { card_id: current.id, answer: kind }] };
@@ -216,12 +259,19 @@ export default function App() {
         {(round === 2 || round === 4) && (<div style={{ display: "grid", gap: 10, justifyItems: "center", width: "100%" }}>
           <p className="theme">{ROUNDS[round - 1].label}<b>{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</b></p>
           <div className="deck">
+            {deck[deckIdx + 1] && <div className="card peek" aria-hidden="true"><CardArt card={deck[deckIdx + 1]} /></div>}
             {current
-              ? <div className="card"><div className="stamp yes">{round === 4 ? "tell me" : "yes!"}</div><div className="stamp no">nah</div>
-                  {round === 4 && <div className="stamp up">need to know</div>}
-                  <CardArt card={current} />{round === 4 && <div className="qtext">{current.title}</div>}
+              ? <div className="card swipe" ref={cardRef} role="group" aria-label={current.title}
+                  style={{ transform: `translate(${dragT.x}px, ${dragT.y}px) rotate(${dragT.x / 20}deg)`, transition: dragT.animate ? "transform .28s cubic-bezier(.2,.9,.3,1.2)" : "none" }}
+                  onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
+                  <div className="stamp yes" style={{ opacity: Math.max(0, Math.min(1, dragT.x / 80)) }}>{round === 4 ? "Tell me" : "Yes"}</div>
+                  <div className="stamp no" style={{ opacity: Math.max(0, Math.min(1, -dragT.x / 80)) }}>Not for me</div>
+                  {round === 4 && <div className="stamp up" style={{ opacity: Math.max(0, Math.min(1, -dragT.y / 80)) }}>Need to know</div>}
+                  <CardArt card={current} />
+                  <span className="counttab">{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</span>
+                  <div className="paperlabel">{current.title}</div>
                   {fact && <div className="fact"><b>Did you know?</b>{fact}</div>}
-                  <div className="cap"><b>{round === 2 ? current.title : ""}</b><small>{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</small></div></div>
+                </div>
               : <div className="card" style={{ placeItems: "center", display: "grid", padding: 16 }}><p className="note">That's every card in this round.</p></div>}
           </div>
           <div className="actioncol">

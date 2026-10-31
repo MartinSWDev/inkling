@@ -41,14 +41,19 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font
 .theme b{display:block;font-family:var(--display);font-weight:400;font-size:1.25rem;text-transform:none;letter-spacing:0}
 .deck{position:relative;width:min(100%,300px);height:min(300px,42vh)}
 .card{position:absolute;inset:0;border-radius:18px;background:var(--paper);border:1px solid var(--line);box-shadow:0 14px 40px rgba(20,10,40,.35);display:grid;grid-template-rows:1fr auto;overflow:hidden;touch-action:none;user-select:none;cursor:grab}
-.cardart{width:100%;height:100%;min-height:0}.cardart svg{width:100%;height:100%;display:block}.cardart img{width:100%;height:100%;object-fit:cover;display:block}
+.cardart{position:absolute;inset:0}.cardart svg{width:100%;height:100%;display:block}.cardart img{width:100%;height:100%;object-fit:cover;display:block}
+.card.swipe{z-index:2;display:block;touch-action:none}
+.card.peek{z-index:1;transform:scale(.96) translateY(12px)}
+.counttab{position:absolute;top:10px;right:10px;z-index:4;background:var(--paper);color:var(--ink);font-size:.72rem;padding:3px 8px;border-radius:6px;border:1px solid var(--line);box-shadow:0 1px 0 rgba(42,34,56,.18),0 6px 14px rgba(42,34,56,.18);transform:rotate(1deg)}
+.paperlabel{position:absolute;left:12px;right:12px;bottom:12px;z-index:4;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-family:var(--display);font-size:1.3rem;line-height:1.15;transform:rotate(-1deg);box-shadow:0 1px 0 rgba(42,34,56,.18),0 10px 22px rgba(42,34,56,.22)}
 .card .cap{padding:8px 14px 10px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
 .card .cap b{font-family:var(--display);font-weight:400;font-size:1rem}.card .cap small{color:var(--muted);font-size:.72rem;white-space:nowrap}
 .card .stamp{position:absolute;top:14px;padding:4px 10px;border:3px solid;border-radius:8px;font-family:var(--display);font-size:1.1rem;opacity:0;transform:rotate(-12deg)}
 .card .stamp.yes{left:14px;color:var(--yes);border-color:var(--yes)}.card .stamp.no{right:14px;color:var(--no);border-color:var(--no);transform:rotate(12deg)}
-.card .stamp.up{left:50%;top:auto;bottom:56px;transform:translateX(-50%);color:var(--accent);border-color:var(--accent)}
+.card .stamp.up{left:50%;top:48px;bottom:auto;transform:translateX(-50%);color:var(--accent);border-color:var(--accent);background:var(--paper);z-index:6}
+.card .stamp.yes,.card .stamp.no{background:var(--paper);z-index:6}
 .card .qtext{position:absolute;left:0;right:0;top:0;padding:16px 16px 40px;background:linear-gradient(rgba(0,0,0,.55),transparent);color:#fff;font-family:var(--display);font-size:1.35rem;line-height:1.15;pointer-events:none}
-.fact{position:absolute;left:12px;right:12px;bottom:54px;z-index:5;background:var(--paper);border-radius:14px;padding:10px 12px;box-shadow:0 10px 30px rgba(20,10,40,.35);font-size:.9rem;border-left:4px solid var(--accent)}
+.fact{position:absolute;left:12px;right:12px;top:44px;z-index:5;background:var(--paper);border-radius:14px;padding:10px 12px;box-shadow:0 10px 30px rgba(20,10,40,.35);font-size:.9rem;border-left:4px solid var(--accent)}
 .fact b{display:block;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .actioncol{display:grid;gap:8px;justify-items:center}
 .continurow{height:48px;display:grid;place-items:center}
@@ -74,8 +79,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font
 .pairs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .pcard{position:relative;display:block;width:100%;border-radius:16px;overflow:hidden;border:3px solid transparent;padding:0;cursor:pointer;background:#1e1829;font:inherit;text-align:left}
 .pcard img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-.pcard .lbl{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 9px;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff}
-.pcard .lbl b{font-family:var(--display);font-weight:400;font-size:1.15rem;display:block}.pcard .lbl small{font-size:.8rem;opacity:.9}
+.pcard .lbl{position:absolute;left:8px;right:8px;bottom:8px;padding:8px 10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;transform:rotate(-1deg);box-shadow:0 1px 0 rgba(42,34,56,.18),0 8px 18px rgba(42,34,56,.22)}
+.pcard .lbl b{font-family:var(--display);font-weight:400;font-size:1.05rem;display:block}.pcard .lbl small{font-size:.78rem;color:var(--muted)}
 .pcard.picked{border-color:var(--accent)}.pcard.dim{opacity:.4}
 .orpill{justify-self:center;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
 .pfoot{display:flex;justify-content:space-between;align-items:center}
