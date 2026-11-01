@@ -503,8 +503,8 @@ export default function App() {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
               onClick={(e) => { if ((e.target as HTMLElement).closest(".heart")) return; const nxt = toggleChip(st as "take" | "love" | undefined); const n = { ...picked }; if (nxt) n[chip.id] = nxt; else delete n[chip.id]; sfx.pop(); syncChips(n, typedNames); }}>
-              <span>{chip.name}</span>
-              {st && <span className="checkmark" aria-hidden="true"><Check {...ICON_SM} /></span>}
+              <span className={"checkmark" + (st ? "" : " off")} aria-hidden="true"><Check {...ICON_SM} /></span>
+              <span className="chiplabel">{chip.name}</span>
               {confetti === chip.id && (<span className="flecks" aria-hidden="true">{[0, 1, 2, 3, 4, 5].map((i) => (
                 <motion.i key={i} initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
                   animate={{ x: Math.cos(i * 1.05) * 34, y: Math.sin(i * 1.05) * 26 - 8, opacity: 0, scale: 0.5 }}

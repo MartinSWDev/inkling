@@ -45,10 +45,10 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .app[data-mode="swipe"] .actioncol{position:absolute;left:0;right:0;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:grid;justify-items:center;gap:8px;z-index:5}
 .chipsheet{max-height:none;overflow:visible}
 .chipsheet .chips{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
-.chipsheet .chip{min-height:44px;min-width:0;padding:6px 50px 6px 10px;font-size:13.5px;border-radius:12px}
-.chipsheet .chip>span:first-child{overflow:visible;text-overflow:clip;white-space:normal;line-height:1.15}
-.chipsheet .chip .heart{width:44px;height:44px;font-size:17px;right:0}
-.chipsheet .chip .checkmark{margin-right:2px}
+.chipsheet .chip{min-height:44px;min-width:0;padding:6px 6px 6px 10px;font-size:13.5px;border-radius:12px}
+.chipsheet .chiplabel{flex:1;min-width:0;overflow:visible;text-overflow:clip;white-space:normal;overflow-wrap:anywhere;hyphens:auto;line-height:1.15}
+.chipsheet .chip .heart{width:44px;height:44px;min-height:44px;flex:none}
+.chipsheet .chip .checkmark{margin:0}
 @media(max-width:640px){.chipsheet .chips{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .chip:active{transform:scale(.97);background:var(--paper)}
 .chip[aria-pressed="true"]:active{background:var(--round-accent)}
@@ -117,11 +117,13 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .eyebrow{font-size:.7rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 2px}
 .hint2{margin:0;color:var(--muted);font-size:.8rem}.note{color:var(--muted);font-size:.82rem;margin:0}
 .chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.chip{position:relative;display:flex;align-items:center;gap:8px;min-height:52px;padding:8px 36px 8px 10px;border-radius:14px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;line-height:1.15;text-align:left;font:inherit}
+.chip{position:relative;display:flex;align-items:center;gap:6px;min-height:52px;height:auto;padding:6px 6px 6px 10px;border-radius:14px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;line-height:1.15;text-align:left;font:inherit}
+.chiplabel{flex:1;min-width:0;white-space:normal;overflow-wrap:anywhere;hyphens:auto;line-height:1.15}
 .chip[aria-pressed="true"]{background:var(--round-accent);color:var(--ink);border-color:var(--ink)}
 .chip.loved{background:var(--round-accent);color:var(--ink);border-color:var(--ink)}
-.chip .checkmark{font-weight:700;margin-left:auto;margin-right:26px}
-.chip .heart{position:absolute;right:5px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:99px;border:0;background:transparent;color:inherit;display:none;place-items:center;cursor:pointer;font-size:18px}
+.chip .checkmark{font-weight:700;flex:none;width:16px;height:16px}
+.chip .checkmark.off{visibility:hidden}
+.chip .heart{position:static;flex:none;width:44px;height:44px;min-height:44px;border-radius:99px;border:0;background:transparent;color:inherit;display:grid;place-items:center;cursor:pointer}
 .chip .heart{display:grid;opacity:.35}
 .chip[aria-pressed="true"] .heart{opacity:1}.chip.loved .heart{color:#b03060;opacity:1}
 .other{display:flex;gap:8px;align-items:center}
