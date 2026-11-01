@@ -16,11 +16,12 @@ export function decodeShare(code: string): ShareData | null {
     return { t: d.t.slice(0, 3), w: d.w ?? null, v: d.v || "campus", vt: d.vt || "day", r: d.r.slice(0, 8) };
   } catch { return null; }
 }
-export const shareUrl = (d: ShareData) => `${window.location.origin}/r/${encodeShare(d)}`;
-
 /** Short domain printed on the video end card (the full /r/<code> link
  * only ever goes in the share text, never in the video). */
 export const SHORT_DOMAIN = "myinkling.com";
+
+/** Canonical share link on the production domain, wherever it is copied from. */
+export const shareUrl = (d: ShareData) => `https://${SHORT_DOMAIN}/r/${encodeShare(d)}`;
 
 function loadImg(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => { const i = new Image(); i.onload = () => resolve(i); i.onerror = reject; i.src = src; });
@@ -81,7 +82,7 @@ export async function makeShareVideo(opts: {
   const canvas = document.createElement("canvas"); canvas.width = W; canvas.height = H;
   const ctx = canvas.getContext("2d")!;
   const [viewImg, roomImg] = await Promise.all([
-    loadImg(`/views/${opts.viewId}_${opts.viewTime}.webp`), loadImg("/room/room.png")]);
+    loadImg(`/views/${opts.viewId}_${opts.viewTime}.webp`), loadImg("/room/room.webp")]);
   const stickerImgs = new Map<string, HTMLImageElement>();
   for (const a of opts.assigned) stickerImgs.set(a.code, await loadImg(`/stickers/${a.code}.webp`));
   if (opts.wildcard && !stickerImgs.has(opts.wildcard.code))

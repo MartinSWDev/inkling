@@ -1,5 +1,5 @@
 /** Typed-subject alias lookup (Spark Open batch index + hand extras, served
- * in /api/content). Normalise, exact match, then fuzzy edit distance <= 2.
+ * in /data/content.json). Normalise, exact match, then fuzzy edit distance <= 2.
  */
 export type AliasIndex = Record<string, Record<string, number>>;
 

@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import ShareReplay from "./ShareReplay";
-import Simulation from "./Simulation";
 import AppMenu from "./Menu";
+
+const ShareReplay = lazy(() => import("./ShareReplay"));
+const Simulation = lazy(() => import("./Simulation"));
 import "./styles.css";
 import "./sim.css";
 
@@ -27,8 +28,8 @@ function Root() {
     return () => window.removeEventListener("popstate", on);
   }, []);
   const m = path.match(/^\/r\/([A-Za-z0-9_-]+)/);
-  if (m) return <ShareReplay code={m[1]} />;
-  if (path === "/simulation") return <Simulation />;
+  if (m) return <Suspense fallback={null}><ShareReplay code={m[1]} /></Suspense>;
+  if (path === "/simulation") return <Suspense fallback={null}><Simulation /></Suspense>;
   if (path === "/built") return <BuiltSoon />;
   return <App />;
 }

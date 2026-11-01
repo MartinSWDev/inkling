@@ -93,6 +93,7 @@ def main():
         print("rendered raw room")
     room = key_out(RAW)
     room.save(ROOM)
+    room.save(ROOM.with_suffix(".webp"), quality=82, method=6)  # the client ships the WebP
     box = transparent_box(room)
     layout = json.loads(LAYOUT.read_text()) if LAYOUT.exists() else {}
     layout["window"] = box

@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173",
+    "prebuild": "../.venv/bin/python ../scripts/export_static_data.py || python3 ../scripts/export_static_data.py",
     "build": "tsc -b && vite build",
     "preview": "vite preview --port 5173",
     "test": "vitest run",

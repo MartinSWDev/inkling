@@ -26,5 +26,5 @@ async function getJson<T>(url: string): Promise<T> {
 
 export const fetchContent = () =>
   getJson<{ chips: Chip[]; extra_names: string[]; things: DeckCard[]; questions: DeckCard[]; pairs: Pair[];
-    aliases: Record<string, Record<string, number>> }>("/api/content");
-export const fetchSubjects = () => getJson<{ count: number; subjects: Subject[] }>("/api/subjects");
+    aliases: Record<string, Record<string, number>> }>("/data/content.json");
+export const fetchSubjects = () => getJson<{ count: number; subjects: Subject[] }>("/data/subjects.json");

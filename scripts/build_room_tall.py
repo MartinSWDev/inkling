@@ -23,6 +23,8 @@ from api.style import DIORAMA, NEGATIVE  # noqa: E402
 
 W, H, TOP = 1152, 2496, 224
 SRC = ROOT / "web" / "public" / "room" / "room.png"
+if not SRC.exists():  # the client ships room.webp; the PNG only exists right after build_room.py
+    SRC = SRC.with_suffix(".webp")
 OUT_PNG = ROOT / "web" / "public" / "room" / "room_tall.png"
 OUT_WEBP = ROOT / "web" / "public" / "room" / "room_tall.webp"
 RAW = ROOT / "room_out" / "room_tall_edit.png"

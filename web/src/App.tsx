@@ -97,7 +97,7 @@ export default function App() {
     setViewReady(false);
     const p = Promise.all(["day", "dusk"].map((t) => {
       const img = new Image();
-      img.src = `/views/${view}_${t}.webp`;
+      img.src = `/views/${view}_${t}_sm.webp`;
       return img.decode().catch(() => undefined);
     })).then(() => undefined);
     viewDecodedRef.current = p;
@@ -152,15 +152,25 @@ export default function App() {
       return () => window.clearTimeout(t);
     }
   }, [scene.kind]);
-  // Preload room layers, common stickers, card art and views while the landing is shown.
+  // Preload room layers, common stickers, card art and views while the landing
+  // is shown — deferred to idle time so it never competes with the first paint.
   useEffect(() => {
     if (!content) return;
-    const urls = ["/room/room.png", ...["city", "coast", "campus", "countryside"].flatMap((v) => ["day", "dusk"].map((t) => `/views/${v}_${t}.webp`)),
-      ...[...content.things, ...content.questions].map((c) => `/cards/${c.id}.webp`)];
-    for (const u of urls) { const img = new Image(); img.src = u; }
-    fetch("/stickers/stickers.json").then((r) => r.json()).then((list: { code: string }[]) => {
-      for (const s of list.slice(0, 40)) { const img = new Image(); img.src = `/stickers/${s.code}.webp`; }
-    }).catch(() => null);
+    const load = () => {
+      const urls = ["/room/room.webp", ...["city", "coast", "campus", "countryside"].flatMap((v) => ["day", "dusk"].flatMap((t) => [`/views/${v}_${t}.webp`, `/views/${v}_${t}_sm.webp`])),
+        ...[...content.things, ...content.questions].map((c) => `/cards/${c.id}.webp`)];
+      for (const u of urls) { const img = new Image(); img.src = u; }
+      fetch("/stickers/stickers.json").then((r) => r.json()).then((list: { code: string }[]) => {
+        for (const s of list.slice(0, 40)) { const img = new Image(); img.src = `/stickers/${s.code}.webp`; }
+      }).catch(() => null);
+    };
+    const ric = (window as { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number }).requestIdleCallback;
+    if (ric) {
+      const id = ric(load, { timeout: 3000 });
+      return () => window.cancelIdleCallback(id);
+    }
+    const t = window.setTimeout(load, 2500);
+    return () => window.clearTimeout(t);
   }, [content]);
   const tip = useCallback((msg: string, ms = 3200) => {
     setToast(msg); window.clearTimeout(toastTimer.current);
@@ -469,8 +479,8 @@ export default function App() {
       {scene.kind === "landing" && <AppMenu path="/" />}
       {scene.kind === "landing" && (<section className="landing">
         <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }}>
-          <img className="miniview" src={"/views/" + view + "_" + viewTime + ".webp"} alt="" />
-          <img className="miniroom" src="/room/room.png" alt="" />
+          <img className="miniview" src={"/views/" + view + "_" + viewTime + "_sm.webp"} alt="" />
+          <img className="miniroom" src="/room/room.webp" alt="" />
         </motion.div>
         <h1 className="wordmark">Inkling</h1>
         <p className="lede">Not sure what to study? Find the degree subjects that fit you.</p>
@@ -505,12 +515,12 @@ export default function App() {
             transition={{ delay: p.delay, type: "spring", stiffness: 220, damping: 28 }}>
             {p.key === "back" ? (<>
               <span className="usliceimgbox">
-                <img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt="" style={uviewStyle} />
+                <img className="uview" src={"/views/" + view + "_" + viewTime + "_sm.webp"} alt="" style={uviewStyle} />
               </span>
               <span className="usliceclip" style={{ clipPath: p.clip }}>
-                <img src={isPhone ? "/room/room_tall.webp" : "/room/room.png"} alt="" />
+                <img src={isPhone ? "/room/room_tall.webp" : "/room/room.webp"} alt="" />
               </span>
-            </>) : <img src={isPhone ? "/room/room_tall.webp" : "/room/room.png"} alt="" />}
+            </>) : <img src={isPhone ? "/room/room_tall.webp" : "/room/room.webp"} alt="" />}
           </motion.div>))}
         <motion.div className="ulamp" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05, duration: 0.35 }} />
       </section>)}
