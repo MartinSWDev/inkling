@@ -196,7 +196,7 @@ export default function SimScene(p: SimSceneProps) {
         ctx.fillStyle = "#2A2238"; ctx.font = "600 15px Figtree, sans-serif";
         const words = s.label.split(" "); const mid = Math.ceil(words.length / 2);
         ctx.fillText(words.slice(0, mid).join(" "), s.x, s.y - 64);
-        if (words.length > 2) ctx.fillText(words.slice(mid).join(" "), s.x, s.y - 48);
+        if (words.length > 1) ctx.fillText(words.slice(mid).join(" "), s.x, s.y - 48);
       }
       ctx.restore();
       // Buildings + counters
