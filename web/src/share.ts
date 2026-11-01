@@ -26,15 +26,19 @@ function loadImg(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => { const i = new Image(); i.onload = () => resolve(i); i.onerror = reject; i.src = src; });
 }
 
-function thwipAt(ctx: AudioContext, dest: MediaStreamAudioDestinationNode, t: number) {
-  const len = Math.floor(ctx.sampleRate * 0.09);
-  const buf = ctx.createBuffer(1, len, ctx.sampleRate);
-  const data = buf.getChannelData(0);
-  for (let i = 0; i < len; i++) data[i] = (Math.random() * 2 - 1) * (1 - i / len);
-  const src = ctx.createBufferSource(); src.buffer = buf;
-  const f = ctx.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 1800;
-  const g = ctx.createGain(); g.gain.setValueAtTime(0.12, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.09);
-  src.connect(f).connect(g).connect(dest); src.start(t);
+import { createKit } from "./design/kit";
+
+/** Bake the shared sound kit into a 10s buffer with an OfflineAudioContext,
+ * so the video's soundtrack is sample-accurate whatever the live context does. */
+async function renderKitTrack(assignedCount: number, hasWildcard: boolean): Promise<AudioBuffer> {
+  const sr = 44100;
+  const off = new OfflineAudioContext(2, sr * 10, sr);
+  const kit = createKit(off, off.destination);
+  for (let i = 0; i < assignedCount; i++) kit.pop(0.4 + i * 0.35, i);
+  for (let j = 0; j < 3; j++) { kit.whoosh(3.5 + j * 1.16); kit.marimba(3.55 + j * 1.16, j); }
+  if (hasWildcard) kit.wildcard(7.05);
+  kit.endChord(8.6);
+  return off.startRendering();
 }
 
 function wrapLines(ctx: CanvasRenderingContext2D, text: string, maxW: number, maxLines: number): string[] {
@@ -83,9 +87,15 @@ export async function makeShareVideo(opts: {
   if (opts.wildcard && !stickerImgs.has(opts.wildcard.code))
     stickerImgs.set(opts.wildcard.code, await loadImg(`/stickers/${opts.wildcard.code}.webp`).catch(() => null as unknown as HTMLImageElement));
 
+  // Soundtrack: the shared kit, baked offline, then streamed with the canvas.
   const audioCtx = new AudioContext();
   const audioDest = audioCtx.createMediaStreamDestination();
-  opts.assigned.forEach((_, i) => thwipAt(audioCtx, audioDest, audioCtx.currentTime + 0.4 + i * 0.35));
+  try {
+    const buf = await renderKitTrack(opts.assigned.length, !!opts.wildcard);
+    const src = audioCtx.createBufferSource(); src.buffer = buf; src.connect(audioDest);
+    void audioCtx.resume();
+    src.start();
+  } catch { /* silent video if WebAudio is unavailable */ }
 
   const stream = new MediaStream([...canvas.captureStream(30).getVideoTracks(), ...audioDest.stream.getAudioTracks()]);
   const mime = ["video/mp4;codecs=avc1", "video/webm;codecs=vp9", "video/webm"].find((m) => MediaRecorder.isTypeSupported(m)) || "";

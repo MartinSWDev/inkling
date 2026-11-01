@@ -1,7 +1,10 @@
-/** Tiny WebAudio paper sounds (synthesised, no assets) + haptics.
+/** Live game sound: the shared kit (design/kit.ts) on a live AudioContext.
  * Sound is off until the first tap (browser policy), then on; toggle persists.
  */
+import { createKit, type Kit } from "./kit";
+
 let ctx: AudioContext | null = null;
+let kit: Kit | null = null;
 let enabled = typeof localStorage !== "undefined" && localStorage.getItem("inkling-sound") === "on";
 let unlocked = false;
 
@@ -23,39 +26,27 @@ function ac(): AudioContext | null {
   if (ctx?.state === "suspended") void ctx.resume();
   return ctx;
 }
-function env(g: GainNode, t: number, peak: number, dur: number) {
-  g.gain.setValueAtTime(0, t);
-  g.gain.linearRampToValueAtTime(peak, t + 0.012);
-  g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
-}
-function noiseBurst(freq: number, dur: number, peak = 0.12) {
-  const c = ac(); if (!c || !enabled || !unlocked) return;
-  const t = c.currentTime;
-  const len = Math.max(1, Math.floor(c.sampleRate * dur));
-  const buf = c.createBuffer(1, len, c.sampleRate);
-  const data = buf.getChannelData(0);
-  for (let i = 0; i < len; i++) data[i] = (Math.random() * 2 - 1) * (1 - i / len);
-  const src = c.createBufferSource(); src.buffer = buf;
-  const f = c.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = freq; f.Q.value = 0.9;
-  const g = c.createGain(); env(g, t, peak, dur);
-  src.connect(f).connect(g).connect(c.destination); src.start(t);
-}
-function tone(freqA: number, freqB: number, dur: number, peak = 0.06, type: OscillatorType = "sine") {
-  const c = ac(); if (!c || !enabled || !unlocked) return;
-  const t = c.currentTime;
-  const o = c.createOscillator(); o.type = type;
-  o.frequency.setValueAtTime(freqA, t);
-  o.frequency.exponentialRampToValueAtTime(Math.max(30, freqB), t + dur);
-  const g = c.createGain(); env(g, t, peak, dur);
-  o.connect(g).connect(c.destination); o.start(t); o.stop(t + dur + 0.05);
+function live(): { kit: Kit; t: number } | null {
+  const c = ac();
+  if (!c || !enabled || !unlocked) return null;
+  if (!kit) kit = createKit(c, c.destination);
+  return { kit, t: c.currentTime };
 }
 
 export const sfx = {
-  thwip: () => noiseBurst(1800, 0.09, 0.1),
-  flick: () => noiseBurst(900, 0.14, 0.08),
-  fold: () => noiseBurst(500, 0.18, 0.07),
-  pop: () => tone(520, 760, 0.09, 0.05, "triangle"),
-  chord: () => { [392, 494, 587].forEach((f, i) => window.setTimeout(() => tone(f, f, 0.5, 0.045, "sine"), i * 70)); },
+  /** Sticker lands: pentatonic pop, `step` = how many are already placed. */
+  land: (step: number) => { const l = live(); if (l) l.kit.pop(l.t, step); },
+  whoosh: () => { const l = live(); if (l) l.kit.whoosh(l.t); },
+  yes: () => { const l = live(); if (l) l.kit.yes(l.t); },
+  no: () => { const l = live(); if (l) l.kit.no(l.t); },
+  marimba: (i: number) => { const l = live(); if (l) l.kit.marimba(l.t, i); },
+  wildcard: () => { const l = live(); if (l) l.kit.wildcard(l.t); },
+  chord: () => { const l = live(); if (l) l.kit.endChord(l.t); },
+  // Legacy gentle UI taps.
+  pop: () => { const l = live(); if (l) l.kit.yes(l.t); },
+  thwip: () => { const l = live(); if (l) l.kit.pop(l.t, 0); },
+  flick: () => { const l = live(); if (l) l.kit.whoosh(l.t); },
+  fold: () => { const l = live(); if (l) l.kit.whoosh(l.t); },
 };
 
 export function buzz(ms = 8) {

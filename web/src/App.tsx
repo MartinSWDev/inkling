@@ -71,6 +71,7 @@ export default function App() {
   const videoGenRef = useRef("");
   const [wildcardFlipped, setWildcardFlipped] = useState(false);
   const [liftStep, setLiftStep] = useState(0);
+  useEffect(() => { if (liftStep > 0) sfx.marimba(liftStep - 1); }, [liftStep]);
   useEffect(() => {
     if (scene.kind !== "reveal" || scene.page !== 0) return;
     setLiftStep(0);
@@ -201,7 +202,7 @@ export default function App() {
       const added = next.find((c) => !roomCodes.includes(c));
       setRoomCodes(next);
       if (added) {
-        setLastAdded(added); sfx.thwip(); buzz();
+        setLastAdded(added); sfx.land(roomCodes.length); buzz();
         window.setTimeout(() => setLastAdded((c) => (c === added ? null : c)), 1600);
       }
     }
@@ -228,7 +229,8 @@ export default function App() {
         .slice(0, Math.max(0, ROUND_CAPS[0] - roomCodes.length)).map((r) => r.code);
       if (adds.length) {
         setRoomCodes([...roomCodes, ...adds]);
-        setLastAdded(adds[0]); sfx.thwip(); buzz();
+        adds.forEach((_, i) => window.setTimeout(() => sfx.land(roomCodes.length + i), i * 140));
+        setLastAdded(adds[0]); buzz();
         window.setTimeout(() => setLastAdded((c) => (c === adds[0] ? null : c)), 1600);
       }
       scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
@@ -242,6 +244,7 @@ export default function App() {
   const [dragT, setDragT] = useState({ x: 0, y: 0, animate: false });
   useEffect(() => { setDragT({ x: 0, y: 0, animate: false }); dragRef.current = null; }, [deckIdx, round]);
   const flick = useCallback((kind: "yes" | "no" | "up") => {
+    sfx.whoosh();
     setDragT((d) => ({ x: kind === "yes" ? 640 : kind === "no" ? -640 : d.x, y: kind === "up" ? -640 : d.y, animate: true }));
     window.setTimeout(() => decide(kind), 170);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -281,7 +284,8 @@ export default function App() {
 
   function decide(kind: "yes" | "no" | "up") {
     if (!current) return;
-    sfx.flick(); if (kind !== "no") buzz();
+    if (kind === "no") sfx.no(); else sfx.yes();
+    if (kind !== "no") buzz();
     const snap = { ...answersRef.current, swipes: [...answersRef.current.swipes, { card_id: current.id, answer: kind }] };
     setAnswers(snap);
     applyAction(snap, false);
@@ -580,7 +584,7 @@ export default function App() {
           </div></div>
           <div className={"page" + (page === 1 ? " on" : "")}><div className="wildwrap">
             {wildcardRow ? (<button className="wildcard" aria-label={wildcardFlipped ? wildcardRow.display_name : "Flip the wildcard card"}
-              onClick={() => { if (!wildcardFlipped) { setWildcardFlipped(true); sfx.thwip(); buzz(); } }}>
+              onClick={() => { if (!wildcardFlipped) { setWildcardFlipped(true); sfx.wildcard(); buzz(); } }}>
               <motion.span className="wildinner" animate={{ rotateY: wildcardFlipped ? 180 : 0 }} transition={{ type: "spring", stiffness: 260, damping: 26 }}>
                 <span className="wildface wildback">?<small className="tapflip">Tap to reveal your wildcard</small></span>
                 <span className="wildface wildfront">
