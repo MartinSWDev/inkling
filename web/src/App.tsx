@@ -322,11 +322,23 @@ export default function App() {
         </div></div>)}
       </section>)}
 
-      {scene.kind === "unfold" && (<section className="unfold" aria-hidden="true">
-        <motion.div className="unfoldwall" initial={{ rotateX: -90, opacity: 0 }} animate={{ rotateX: 0, opacity: 1 }} transition={{ duration: 0.9, ease: "easeOut" }} />
-        {[0, 1, 2, 3, 4].map((i) => (
-          <motion.span key={i} className={"unfoldbit b" + i} initial={{ scale: 0, y: 30, opacity: 0 }}
-            animate={{ scale: 1, y: 0, opacity: 1 }} transition={{ delay: 0.45 + i * 0.13, type: "spring", stiffness: 320, damping: 22 }} />))}
+      {scene.kind === "unfold" && (<section className="unfold3d" aria-hidden="true">
+        {[
+          { key: "floor", clip: "polygon(0% 75%, 100% 75%, 100% 100%, 0% 100%)", from: { rotateX: 68, scale: 0.92, opacity: 0 }, delay: 0, origin: "50% 100%" },
+          { key: "back", clip: "polygon(9% 3%, 91% 3%, 91% 77%, 9% 77%)", from: { rotateX: 80, opacity: 0 }, delay: 0.2, origin: "50% 100%" },
+          { key: "left", clip: "polygon(0% 0%, 11% 0%, 11% 100%, 0% 100%)", from: { rotateY: 70, opacity: 0 }, delay: 0.55, origin: "100% 50%" },
+          { key: "right", clip: "polygon(89% 0%, 100% 0%, 100% 100%, 89% 100%)", from: { rotateY: -70, opacity: 0 }, delay: 0.55, origin: "0% 50%" },
+        ].map((p) => (
+          <motion.div key={p.key} className="uslice" style={{ clipPath: p.clip, transformOrigin: p.origin }}
+            initial={p.from} animate={{ rotateX: 0, rotateY: 0, scale: 1, opacity: 1 }}
+            transition={{ delay: p.delay, type: "spring", stiffness: 220, damping: 28 }}>
+            <img src="/room/room.png" alt="" />
+          </motion.div>))}
+        {assets && (<motion.img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt=""
+          style={{ left: (assets.layout.window.x / 1152 * 100) + "%", top: (assets.layout.window.y / 2048 * 100) + "%",
+            width: (assets.layout.window.w / 1152 * 100) + "%", height: (assets.layout.window.h / 2048 * 100) + "%" }}
+          initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.95, duration: 0.4 }} />)}
+        <motion.div className="ulamp" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05, duration: 0.35 }} />
       </section>)}
 
       {scene.kind === "intro" && (<section className="intro">

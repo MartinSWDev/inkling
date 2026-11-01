@@ -32,7 +32,9 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
   await page.waitForTimeout(1200);
   await shot("01-landing");
   await step("start", async () => { await clickText(/find my subjects|start/i); });
-  await page.waitForTimeout(1800);
+  await page.waitForTimeout(750);
+  await shot("01b-unfold");
+  await page.waitForTimeout(1100);
   await shot("02-intro");
   await step("lets-go", async () => { await clickText(/let's go|lets go|continue/i); });
   await page.waitForTimeout(1400);
