@@ -26,7 +26,7 @@ export type Scene =
 export type FlowEvent =
   | { type: "START" } | { type: "UNFOLDED" } | { type: "GO" }
   | { type: "TITLE_DONE" } | { type: "CONTINUE" } | { type: "OUTRO_DONE" }
-  | { type: "FINALE_TAP" } | { type: "REVEAL_NEXT" } | { type: "REVEAL_PREV" }
+  | { type: "FINALE_TAP" } | { type: "REVEAL_NEXT"; last?: number } | { type: "REVEAL_PREV"; last?: number }
   | { type: "TO_SHARE" } | { type: "RESTART" };
 
 export const initialScene: Scene = { kind: "landing" };
@@ -42,13 +42,13 @@ export function flowReducer(scene: Scene, ev: FlowEvent): Scene {
     case "roundOutro": return ev.type === "OUTRO_DONE" ? { kind: "roundTitle", round: scene.round + 1 } : scene;
     case "finale": return ev.type === "FINALE_TAP" ? { kind: "reveal", page: 0 } : scene;
     case "reveal":
-      if (ev.type === "REVEAL_NEXT") return scene.page >= 3 ? { kind: "share" } : { kind: "reveal", page: scene.page + 1 };
+      if (ev.type === "REVEAL_NEXT") return scene.page >= (ev.last ?? 3) ? { kind: "share" } : { kind: "reveal", page: scene.page + 1 };
       if (ev.type === "REVEAL_PREV") return { kind: "reveal", page: Math.max(0, scene.page - 1) };
       if (ev.type === "TO_SHARE") return { kind: "share" };
       return scene;
     case "share":
       if (ev.type === "RESTART") return { kind: "landing" };
-      if (ev.type === "REVEAL_PREV") return { kind: "reveal", page: 3 };
+      if (ev.type === "REVEAL_PREV") return { kind: "reveal", page: ev.last ?? 3 };
       return scene;
     default: return scene;
   }

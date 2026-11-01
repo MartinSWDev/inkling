@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Keele"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Therapy professionals",
+  "Nursing professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Become a registered nurse caring for patients daily"
+  },
+  {
+   "ref": "ST0995",
+   "title": "Doctor (Degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0995-v2-0",
+   "reason": "Train as a doctor diagnosing and treating illness"
+  },
+  {
+   "ref": "ST0519",
+   "title": "Physiotherapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0519-v2-0",
+   "reason": "Help people move again after injury or illness"
+  },
+  {
+   "ref": "ST0599",
+   "title": "Dietitian",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0599-v2-0",
+   "reason": "Advise on food and nutrition to prevent disease"
+  },
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Use scans and X-rays to see inside bodies"
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Run lab tests to understand disease and diagnosis"
+  }
  ]
 }

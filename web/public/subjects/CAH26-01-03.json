@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Loughborough"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Elementary occupations",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0536",
+   "title": "Chartered town planner (degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0536-v1-0",
+   "reason": "Design towns and cities balancing people, economy and environment"
+  },
+  {
+   "ref": "ST0936",
+   "title": "Town planning assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0936-v1-0",
+   "reason": "Help planners shape neighbourhoods and local communities"
+  },
+  {
+   "ref": "ST0698",
+   "title": "Transport planner (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0698-v1-1",
+   "reason": "Plan transport that connects people to jobs and opportunities"
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Map and analyse data to explain how places work"
+  },
+  {
+   "ref": "ST0331",
+   "title": "Chartered surveyor (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0331-v1-2",
+   "reason": "Manage land and buildings that shape cities and economies"
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Research how society and place affect people's lives"
+  }
  ]
 }

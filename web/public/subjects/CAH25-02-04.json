@@ -130,5 +130,11 @@
    "setting": "coast",
    "town": "Penryn"
   }
- ]
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Teaching professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

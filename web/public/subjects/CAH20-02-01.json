@@ -130,5 +130,48 @@
    "setting": "campus town",
    "town": "Lancaster"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0477",
+   "title": "Academic professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0477-v1-0",
+   "reason": "Research and teach big questions about life and knowledge"
+  },
+  {
+   "ref": "ST0526",
+   "title": "Policy officer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0526-v1-2",
+   "reason": "Debate how we should live and shape fair rules"
+  },
+  {
+   "ref": "ST0934",
+   "title": "Corporate responsibility and sustainability practitioner",
+   "level": 4,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0934-v2-0",
+   "reason": "Decide what's right for business, people and planet"
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Research what people believe, know and why"
+  }
  ]
 }

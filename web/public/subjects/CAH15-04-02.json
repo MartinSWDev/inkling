@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Coventry"
   }
+ ],
+ "jobs": [
+  "Teaching and childcare support occupation",
+  "Teaching professionals",
+  "Welfare professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0088",
+   "title": "Children, young people and families practitioner",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0088-v1-0",
+   "reason": "Support children, young people and families in everyday life and challenges."
+  },
+  {
+   "ref": "ST0087",
+   "title": "Children, young people and families manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0087-v1-0",
+   "reason": "Lead teams supporting vulnerable children, young people and families."
+  },
+  {
+   "ref": "ST0551",
+   "title": "Early years lead practitioner",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0551-v1-1",
+   "reason": "Lead learning and care for babies and young children."
+  },
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Protect and support vulnerable children and families through social work."
+  },
+  {
+   "ref": "ST0905",
+   "title": "Play therapist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0905-v1-0",
+   "reason": "Help children heal through play therapy and creative support."
+  },
+  {
+   "ref": "ST0906",
+   "title": "Youth support worker",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0906-v1-2",
+   "reason": "Run youth clubs and support teenagers to grow and thrive."
+  }
  ]
 }

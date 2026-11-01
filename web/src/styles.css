@@ -245,6 +245,15 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .courselist small{color:var(--muted);display:block}
 .coursehead{font-family:var(--display);font-weight:700;font-size:16px;margin:4px 0 0}
 .settingtag{display:inline-block;margin-top:3px;font-size:11px;font-weight:600;color:var(--accent-ink);background:var(--butter);border:1px solid var(--line);border-radius:99px;padding:1px 7px}
+.sheettabs{display:flex;gap:6px}
+.sheettabs button{flex:1;min-height:44px;border:1px solid var(--line);border-radius:99px;background:transparent;color:var(--muted);font:inherit;font-weight:600;cursor:pointer}
+.sheettabs button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.apprlist li{align-items:flex-start}
+.jobline{display:block;color:var(--teal);font-weight:600;margin-top:2px}
+.handsonlist{display:grid;gap:8px}
+.handsoncard{display:grid;gap:3px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--paper);text-align:left}
+.handsoncard small{color:var(--muted)}
+.handsoncard a{color:var(--teal);font-weight:600}
 .courselist a{color:var(--teal);font-weight:600;white-space:nowrap}
 .explinks{display:flex;gap:12px;align-items:center;margin-top:4px}
 .explinks a{color:var(--teal);font-weight:600}

@@ -10,5 +10,66 @@
    "setting": "city",
    "town": "Kingston upon Thames"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Science, engineering and technology associate professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0586",
+   "title": "Regulatory affairs specialist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0586-v1-1",
+   "reason": "Check medicines and chemicals are safe before people use them"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Test patient samples to find poisons and understand drug effects"
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse blood and tissue to spot toxins and diseases"
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Investigate how pollutants poison soil, water and wildlife"
+  },
+  {
+   "ref": "ST0465",
+   "title": "Risk and safety management professional (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0465-v1-2",
+   "reason": "Assess chemical risks to keep workers and public safe"
+  },
+  {
+   "ref": "ST0550",
+   "title": "Safety, health and environment technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0550-v1-4",
+   "reason": "Monitor workplace chemicals to prevent poisoning and pollution"
+  }
  ]
 }

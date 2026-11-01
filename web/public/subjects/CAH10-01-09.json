@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Huddersfield"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Business and public service associate professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0473",
+   "title": "Science industry process and plant engineer (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0473-v1-1",
+   "reason": "Design and run chemical plants that make fuels and products safely."
+  },
+  {
+   "ref": "ST0289",
+   "title": "Nuclear scientist and nuclear engineer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0289-v1-0",
+   "reason": "Work as a chemical or process engineer in nuclear energy."
+  },
+  {
+   "ref": "ST0659",
+   "title": "Materials process engineer (degree)",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0659-v1-1",
+   "reason": "Create new materials and greener processes for future factories."
+  },
+  {
+   "ref": "ST0023",
+   "title": "Control systems engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0023-v1-2",
+   "reason": "Control automated systems keeping chemical factories safe and efficient."
+  },
+  {
+   "ref": "ST1407",
+   "title": "Process industry manufacturing technician",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1407-v1-0",
+   "reason": "Run chemical and oil-and-gas plants as a process technician."
+  },
+  {
+   "ref": "ST1339",
+   "title": "Bulk storage terminal technician",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1339-v1-0",
+   "reason": "Operate huge fuel and chemical storage terminals safely."
+  }
  ]
 }

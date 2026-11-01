@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Liverpool"
   }
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Elementary occupations",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0488",
+   "title": "Junior animator",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0488-v1-4",
+   "reason": "Create animated images and characters by drawing and digital media."
+  },
+  {
+   "ref": "ST1325",
+   "title": "Junior visual effects - VFX artist or assistant technical director - ATD",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1325-v1-2",
+   "reason": "Make stunning digital images and effects for film and games."
+  },
+  {
+   "ref": "ST0625",
+   "title": "Creative digital design professional (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0625-v1-0",
+   "reason": "Design digital visuals and ideas for apps, brands and campaigns."
+  },
+  {
+   "ref": "ST1371",
+   "title": "Model maker",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1371-v1-0",
+   "reason": "Build physical models and sculptures from drawings to real objects."
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Dream up and draw ad images and ideas that grab attention."
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Analyse and display artworks and objects to tell stories."
+  }
  ]
 }

@@ -10,5 +10,66 @@
    "setting": "campus town",
    "town": "Hatfield"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Finance professionals",
+  "Teaching professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Explore Earth's rocks, energy and chemistry using physics outdoors."
+  },
+  {
+   "ref": "ST0289",
+   "title": "Nuclear scientist and nuclear engineer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0289-v1-0",
+   "reason": "Use physics and chemistry to power the future with nuclear energy."
+  },
+  {
+   "ref": "ST0675",
+   "title": "Materials science technologist (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0675-v1-1",
+   "reason": "Create and test new materials by investigating matter and energy."
+  },
+  {
+   "ref": "ST0473",
+   "title": "Science industry process and plant engineer (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0473-v1-1",
+   "reason": "Run large-scale chemical plants applying physics and chemistry daily."
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soils and the environment through chemistry and physics experiments."
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Run hands-on experiments discovering new physics and chemistry knowledge."
+  }
  ]
 }

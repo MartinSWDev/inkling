@@ -34,5 +34,66 @@
    "setting": "campus town",
    "town": "Oxford"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Sales occupations",
+  "Media professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1490",
+   "title": "Journalist",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1490-v2-0",
+   "reason": "Edit and write content like book and magazine editors do"
+  },
+  {
+   "ref": "ST0625",
+   "title": "Creative digital design professional (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0625-v1-0",
+   "reason": "Design eye-catching layouts for books, magazines and websites"
+  },
+  {
+   "ref": "ST0481",
+   "title": "Digital marketer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0481-v1-0",
+   "reason": "Market books and magazines online to reach more readers"
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Design websites and apps to be enjoyable for readers"
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Create engaging written and visual content for audiences"
+  },
+  {
+   "ref": "ST0309",
+   "title": "Print technician",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0309-v1-2",
+   "reason": "Produce high-quality printed books and magazines professionally"
+  }
  ]
 }

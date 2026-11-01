@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Glasgow"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Elementary occupations",
+  "Teaching professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Turn satellite and location data into maps that explain places."
+  },
+  {
+   "ref": "ST0491",
+   "title": "Geospatial survey technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0491-v1-1",
+   "reason": "Use drones and GPS to survey and map landscapes."
+  },
+  {
+   "ref": "ST0536",
+   "title": "Chartered town planner (degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0536-v1-0",
+   "reason": "Design towns and cities balancing people, places and environment."
+  },
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Explore rocks, landscapes and resources shaping Earth's environments."
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soils that shape landscapes, food and natural environments."
+  },
+  {
+   "ref": "ST0698",
+   "title": "Transport planner (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0698-v1-1",
+   "reason": "Plan how people travel between places sustainably and efficiently."
+  }
  ]
 }

@@ -122,5 +122,66 @@
    "setting": "campus town",
    "town": "Gravesend"
   }
+ ],
+ "jobs": [
+  "Welfare and housing associate professionals",
+  "Caring personal services",
+  "Teaching and childcare support occupation"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Deliver talking therapies to help people manage anxiety and depression"
+  },
+  {
+   "ref": "ST0633",
+   "title": "Arts therapist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0633-v2-0",
+   "reason": "Use art, drama or music to help people express feelings"
+  },
+  {
+   "ref": "ST0905",
+   "title": "Play therapist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0905-v1-0",
+   "reason": "Help children process trauma and big emotions through play"
+  },
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Help people with illness or disability live independently again"
+  },
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Support vulnerable people and families to improve wellbeing and safety"
+  },
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Care for patients' mental and physical health every day"
+  }
  ]
 }

@@ -42,5 +42,57 @@
    "setting": "coast",
    "town": "Fleetwood"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Business and public service associate professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0427",
+   "title": "Marine pilot",
+   "level": 5,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0427-v1-0",
+   "reason": "Guide huge ships safely into port as pilot."
+  },
+  {
+   "ref": "ST0875",
+   "title": "Small vessel chief engineer",
+   "level": 4,
+   "months": 48,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0875-v1-0",
+   "reason": "Keep small ships' engines running perfectly at sea."
+  },
+  {
+   "ref": "ST1333",
+   "title": "Ship\u2019s master \u2013 less than 500 gross tonnage near coastal",
+   "level": 4,
+   "months": 48,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1333-v1-0",
+   "reason": "Captain a small ship and lead its crew."
+  },
+  {
+   "ref": "ST0059",
+   "title": "Boatbuilder",
+   "level": 3,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0059-v1-3",
+   "reason": "Build and repair boats and ships hands-on."
+  },
+  {
+   "ref": "ST0364",
+   "title": "Marine engineer",
+   "level": 3,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0364-v1-1",
+   "reason": "Fix and maintain engines that power boats and ships."
+  }
  ]
 }

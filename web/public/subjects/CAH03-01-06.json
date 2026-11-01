@@ -130,5 +130,39 @@
    "setting": "campus town",
    "town": "Lancaster"
   }
+ ],
+ "jobs": [
+  "Elementary occupations",
+  "Animal care and control services",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0789",
+   "title": "Keeper and aquarist",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0789-v1-0",
+   "reason": "Care for zoo and aquarium animals, learning behaviour and habitats daily"
+  },
+  {
+   "ref": "ST0946",
+   "title": "Vet technician (livestock)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0946-v1-0",
+   "reason": "Support farm animal health and breeding using biology"
+  },
+  {
+   "ref": "ST0397",
+   "title": "Animal care and welfare assistant",
+   "level": 2,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0397-v1-1",
+   "reason": "Look after animals in kennels and catteries, learning welfare and behaviour"
+  }
  ]
 }

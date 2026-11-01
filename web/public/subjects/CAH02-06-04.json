@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Weston-super-Mare"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Quality and regulatory professionals",
+  "Caring personal services"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0550",
+   "title": "Safety, health and environment technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0550-v1-4",
+   "reason": "Monitor workplaces for health, safety and environmental hazards daily"
+  },
+  {
+   "ref": "ST0465",
+   "title": "Risk and safety management professional (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0465-v1-2",
+   "reason": "Manage workplace and public risks to prevent illness and accidents"
+  },
+  {
+   "ref": "ST1418",
+   "title": "Specialist community public health nurse (NMC 2022)",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1418-v2-0",
+   "reason": "Visit communities to prevent illness and support healthy lives"
+  },
+  {
+   "ref": "ST0830",
+   "title": "Health and care intelligence specialist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0830-v1-0",
+   "reason": "Use health data to track disease and improve wellbeing"
+  },
+  {
+   "ref": "ST0998",
+   "title": "Trading standards professional",
+   "level": 6,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0998-v1-1",
+   "reason": "Enforce food and product safety laws protecting public health"
+  },
+  {
+   "ref": "ST0652",
+   "title": "Building control surveyor (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0652-v1-0",
+   "reason": "Ensure homes and workplaces are safe and healthy to use"
+  }
  ]
 }

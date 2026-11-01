@@ -90,5 +90,57 @@
    "setting": "campus town",
    "town": "Elgin"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Therapy professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0685",
+   "title": "Wellbeing and holistic therapist",
+   "level": 3,
+   "months": 20,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0685-v1-1",
+   "reason": "Hands-on massage and holistic therapies boosting wellbeing naturally"
+  },
+  {
+   "ref": "ST0519",
+   "title": "Physiotherapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0519-v2-0",
+   "reason": "Hands-on therapy easing pain and restoring movement daily"
+  },
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Hands-on rehab helping people move and live independently"
+  },
+  {
+   "ref": "ST0493",
+   "title": "Podiatrist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0493-v2-0",
+   "reason": "Hands-on foot care easing pain and improving mobility"
+  },
+  {
+   "ref": "ST0601",
+   "title": "Prosthetist and orthotist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0601-v2-0",
+   "reason": "Fit hands-on devices improving movement and easing pain"
+  }
  ]
 }

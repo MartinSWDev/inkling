@@ -130,5 +130,39 @@
    "setting": "city",
    "town": "Leeds"
   }
+ ],
+ "jobs": [
+  "Media professionals",
+  "Business and public service associate professionals",
+  "Artistic, literary and media occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1490",
+   "title": "Journalist",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1490-v2-0",
+   "reason": "Become a broadcast and digital journalist reporting real news stories."
+  },
+  {
+   "ref": "ST1516",
+   "title": "Junior journalist",
+   "level": 5,
+   "months": 14,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1516-v1-0",
+   "reason": "Learn to find, check and write news stories as a trainee reporter."
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Create stories, videos and posts for social media and websites."
+  }
  ]
 }

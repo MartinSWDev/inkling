@@ -130,5 +130,48 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Design and build apps and websites as a developer."
+  },
+  {
+   "ref": "ST0013",
+   "title": "High integrity software engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0013-v1-2",
+   "reason": "Build ultra-reliable software for planes, cars and critical systems."
+  },
+  {
+   "ref": "ST0119",
+   "title": "Digital and technology solutions professional",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2",
+   "reason": "Earn a degree while working as a software engineer."
+  },
+  {
+   "ref": "ST0128",
+   "title": "Software development technician",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0128-v1-1",
+   "reason": "Learn to code and test apps as a junior developer."
+  }
  ]
 }

@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0698",
+   "title": "Transport planner (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0698-v1-1",
+   "reason": "Plan transport networks that help tourists and commuters get around."
+  },
+  {
+   "ref": "ST0337",
+   "title": "Passenger transport operations manager",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0337-v1-0",
+   "reason": "Manage bus and train services passengers use every day."
+  },
+  {
+   "ref": "ST0039",
+   "title": "Aviation operations manager",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0039-v1-1",
+   "reason": "Oversee airport operations to keep flights moving smoothly."
+  },
+  {
+   "ref": "ST0595",
+   "title": "Air traffic controller",
+   "level": 5,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0595-v1-2",
+   "reason": "Direct aircraft safely, keeping holiday and business flights on schedule."
+  },
+  {
+   "ref": "ST0340",
+   "title": "Travel consultant",
+   "level": 3,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0340-v1-1",
+   "reason": "Plan and sell holidays, flights and trips for customers."
+  },
+  {
+   "ref": "ST0558",
+   "title": "Cabin crew",
+   "level": 3,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0558-v1-1",
+   "reason": "Care for passengers and keep flights safe and welcoming."
+  }
  ]
 }

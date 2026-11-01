@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Liverpool"
   }
+ ],
+ "jobs": [
+  "Natural and social science professionals",
+  "Science, engineering and technology associate professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Test blood and cells to diagnose disease in labs."
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Discover how living things work through lab experiments."
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Use lab science to help doctors treat patients."
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soil life to protect food and ecosystems."
+  },
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Study trees and keep woodlands healthy and thriving."
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Help run lab tests that show how bodies work."
+  }
  ]
 }

@@ -50,5 +50,48 @@
    "setting": "city",
    "town": "Manchester"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Health associate professionals",
+  "Other health professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1431",
+   "title": "Dental nurse",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1431-v2-0",
+   "reason": "Exactly the same job supporting dentists and caring for patients daily"
+  },
+  {
+   "ref": "ST1434",
+   "title": "Orthodontic therapist",
+   "level": 4,
+   "months": 13,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1434-v2-0",
+   "reason": "Help orthodontists straighten teeth with braces, working directly with patients"
+  },
+  {
+   "ref": "ST1433",
+   "title": "Clinical dental technician",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1433-v2-0",
+   "reason": "Make and fit dentures chairside, combining lab skills with patient care"
+  },
+  {
+   "ref": "ST1432",
+   "title": "Dental technician",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1432-v2-0",
+   "reason": "Build crowns, dentures and braces in a lab for dentists to use"
+  }
  ]
 }

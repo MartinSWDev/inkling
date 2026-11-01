@@ -130,5 +130,48 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Health associate professionals",
+  "Medical practitioners"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1432",
+   "title": "Dental technician",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1432-v2-0",
+   "reason": "Design and make crowns, dentures and braces for patients"
+  },
+  {
+   "ref": "ST1433",
+   "title": "Clinical dental technician",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1433-v2-0",
+   "reason": "Make dentures and fit them directly for patients"
+  },
+  {
+   "ref": "ST1434",
+   "title": "Orthodontic therapist",
+   "level": 4,
+   "months": 13,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1434-v2-0",
+   "reason": "Help dentists straighten teeth and improve patients' smiles"
+  },
+  {
+   "ref": "ST1431",
+   "title": "Dental nurse",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1431-v2-0",
+   "reason": "Assist dentists chairside and reassure patients during treatment"
+  }
  ]
 }

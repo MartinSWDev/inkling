@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Northampton"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Nursing professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0586",
+   "title": "Regulatory affairs specialist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0586-v1-1",
+   "reason": "Helps get new medicines approved as safe and effective"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Tests how new drugs and treatments affect patients"
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyses blood and tissue to understand disease and treatments"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Discovers and tests new medicines in the lab"
+  },
+  {
+   "ref": "ST0300",
+   "title": "Pharmacy technician (integrated)",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0300-v2-0",
+   "reason": "Prepares medicines and advises patients on using them safely"
+  },
+  {
+   "ref": "ST1406",
+   "title": "Science manufacturing technician 2023",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1406-v1-0",
+   "reason": "Manufactures medicines in sterile pharmaceutical labs"
+  }
  ]
 }

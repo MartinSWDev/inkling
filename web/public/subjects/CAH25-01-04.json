@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Leeds"
   }
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Elementary occupations",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0696",
+   "title": "Post production technical operator",
+   "level": 4,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0696-v1-1",
+   "reason": "Manage and edit footage on set as a DIT"
+  },
+  {
+   "ref": "ST0940",
+   "title": "Audiovisual technician",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0940-v1-0",
+   "reason": "Set up cameras, lighting and sound for shoots and events"
+  },
+  {
+   "ref": "ST1325",
+   "title": "Junior visual effects - VFX artist or assistant technical director - ATD",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1325-v1-2",
+   "reason": "Create VFX and CGI that bring films to life"
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Direct photo and video shoots for ad campaigns"
+  },
+  {
+   "ref": "ST1318",
+   "title": "Junior grip",
+   "level": 2,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1318-v1-0",
+   "reason": "Move camera rigs and lights on film sets"
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Shoot and edit photos and videos for brands"
+  }
  ]
 }

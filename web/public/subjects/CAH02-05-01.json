@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "Bradford"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Nursing professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Operate X-rays, CT and MRI scanners to spot illness."
+  },
+  {
+   "ref": "ST0620",
+   "title": "Therapeutic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0620-v2-0",
+   "reason": "Use advanced scanners and radiotherapy to plan cancer treatment."
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Develop and test hospital scanners and imaging technology for patients."
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Support scientists running scans and analysing imaging results."
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Help prepare patients and equipment for medical imaging scans."
+  }
  ]
 }

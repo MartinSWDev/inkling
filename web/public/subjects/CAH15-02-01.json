@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Kingston upon Thames"
   }
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Business and public service associate professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0796",
+   "title": "Senior professional economist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0796-v2-0",
+   "reason": "Train as an economist advising government and businesses on money"
+  },
+  {
+   "ref": "ST0502",
+   "title": "Actuary",
+   "level": 7,
+   "months": 39,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0502-v2-0",
+   "reason": "Use maths to predict financial risk for insurers and businesses"
+  },
+  {
+   "ref": "ST0561",
+   "title": "Senior investment and commercial banking professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0561-v1-0",
+   "reason": "Learn senior banking and investment that funds businesses and trade"
+  },
+  {
+   "ref": "ST0884",
+   "title": "Operational research specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0884-v1-2",
+   "reason": "Use data modelling to help organisations make smarter financial decisions"
+  },
+  {
+   "ref": "ST0526",
+   "title": "Policy officer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0526-v1-2",
+   "reason": "Help shape government and business policy on money and resources"
+  },
+  {
+   "ref": "ST0883",
+   "title": "Market research executive",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0883-v1-0",
+   "reason": "Research what people buy and why to guide business strategy"
+  }
  ]
 }

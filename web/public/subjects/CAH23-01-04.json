@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Bristol"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Create exhibitions that mix history, art and philosophy for the public"
+  },
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Preserve historic documents and uncover stories from the past"
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Restore historic art and objects using science and creativity"
+  },
+  {
+   "ref": "ST0769",
+   "title": "Archaeological specialist (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0769-v1-0",
+   "reason": "Analyse artefacts to understand how past societies lived and thought"
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Research big human questions from history, culture and science angles"
+  },
+  {
+   "ref": "ST1490",
+   "title": "Journalist",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1490-v2-0",
+   "reason": "Investigate and write stories exploring history, culture and big ideas"
+  }
  ]
 }

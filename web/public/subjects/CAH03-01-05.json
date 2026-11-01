@@ -42,5 +42,66 @@
    "setting": "countryside",
    "town": "St Austell"
   }
+ ],
+ "jobs": [
+  "Elementary occupations",
+  "Science, engineering and technology associate professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soil health to help plants and crops thrive."
+  },
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Become a tree expert caring for woodlands and urban trees."
+  },
+  {
+   "ref": "ST1427",
+   "title": "Forestry works manager",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1427-v1-0",
+   "reason": "Manage forests sustainably balancing timber, wildlife and climate."
+  },
+  {
+   "ref": "ST1320",
+   "title": "Assistant farm manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1320-v1-1",
+   "reason": "Learn to grow crops sustainably while managing a farm."
+  },
+  {
+   "ref": "ST0226",
+   "title": "Horticulture or landscaping supervisor",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0226-v1-2",
+   "reason": "Grow and care for plants in gardens and parks."
+  },
+  {
+   "ref": "ST0741",
+   "title": "Landscape technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0741-v1-1",
+   "reason": "Design green spaces using plants, soil and climate knowledge."
+  }
  ]
 }

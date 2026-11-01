@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Leeds"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Finance professionals",
+  "Business, research and administrative professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0118",
+   "title": "Data analyst",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0118-v1-1",
+   "reason": "Collect and analyse data to spot trends businesses use daily."
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Build predictive models to find hidden patterns in big datasets."
+  },
+  {
+   "ref": "ST0884",
+   "title": "Operational research specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0884-v1-2",
+   "reason": "Use maths and data to solve big real-world problems."
+  },
+  {
+   "ref": "ST0502",
+   "title": "Actuary",
+   "level": 7,
+   "months": 39,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0502-v2-0",
+   "reason": "Use statistics to predict risk for insurance and finance."
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Design surveys and analyse data to test ideas about society."
+  },
+  {
+   "ref": "ST0883",
+   "title": "Market research executive",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0883-v1-0",
+   "reason": "Analyse survey and sales data to understand what customers want."
+  }
  ]
 }

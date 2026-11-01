@@ -130,5 +130,66 @@
    "setting": null,
    "town": null
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0119",
+   "title": "Digital and technology solutions professional",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2",
+   "reason": "Build software, networks and cyber solutions like an IT degree"
+  },
+  {
+   "ref": "ST0409",
+   "title": "Cyber security technical professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0409-v1-1",
+   "reason": "Protect systems and data from hackers and cyber attacks"
+  },
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Build websites and apps that people use every day"
+  },
+  {
+   "ref": "ST0949",
+   "title": "Applications support lead",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0949-v2-0",
+   "reason": "Fix and support apps so they run smoothly for users"
+  },
+  {
+   "ref": "ST1299",
+   "title": "CNFE - Cellular network field engineer",
+   "level": 4,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1299-v1-1",
+   "reason": "Install and maintain mobile phone and internet networks"
+  },
+  {
+   "ref": "FA0004",
+   "title": "Hardware, network and infrastructure foundation apprenticeship",
+   "level": 2,
+   "months": 8,
+   "degree": false,
+   "url": "",
+   "reason": "Start building networks and supporting computer systems hands-on"
+  }
  ]
 }

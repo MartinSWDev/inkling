@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Birmingham"
   }
+ ],
+ "jobs": [
+  "Natural and social science professionals",
+  "Science, engineering and technology associate professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Test blood and cells to understand disease and health"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Run experiments to discover how living things work"
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Explore soil microbes and plants to protect ecosystems"
+  },
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Study and care for trees and plant life"
+  },
+  {
+   "ref": "ST0995",
+   "title": "Doctor (Degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0995-v2-0",
+   "reason": "Learn how human bodies work to treat patients"
+  },
+  {
+   "ref": "ST0946",
+   "title": "Vet technician (livestock)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0946-v1-0",
+   "reason": "Support animal health and reproduction using biology"
+  }
  ]
 }

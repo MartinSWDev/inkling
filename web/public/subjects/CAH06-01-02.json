@@ -10,5 +10,66 @@
    "setting": "countryside",
    "town": "Cirencester"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Elementary occupations",
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1320",
+   "title": "Assistant farm manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1320-v1-1",
+   "reason": "Run a farm day-to-day, growing crops and raising livestock."
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soil health to help farmers grow better crops."
+  },
+  {
+   "ref": "ST0946",
+   "title": "Vet technician (livestock)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0946-v1-0",
+   "reason": "Support vets keeping farm animals healthy and breeding well."
+  },
+  {
+   "ref": "ST1427",
+   "title": "Forestry works manager",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1427-v1-0",
+   "reason": "Manage woodlands and forests as productive rural landscapes."
+  },
+  {
+   "ref": "ST0226",
+   "title": "Horticulture or landscaping supervisor",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0226-v1-2",
+   "reason": "Grow and care for plants, from crops to green spaces."
+  },
+  {
+   "ref": "ST0467",
+   "title": "Poultry technician",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0467-v1-2",
+   "reason": "Raise healthy chickens and manage egg production professionally."
+  }
  ]
 }

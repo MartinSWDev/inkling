@@ -18,5 +18,66 @@
    "setting": "coast",
    "town": "Peterlee"
   }
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Information technology professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Run real experiments to solve health and environmental problems"
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse blood and cells to diagnose diseases and save lives"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Use biology, chemistry and physics to improve patient treatments"
+  },
+  {
+   "ref": "ST0473",
+   "title": "Science industry process and plant engineer (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0473-v1-1",
+   "reason": "Design safe chemical plants that make everyday products sustainably"
+  },
+  {
+   "ref": "ST0289",
+   "title": "Nuclear scientist and nuclear engineer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0289-v1-0",
+   "reason": "Use physics and chemistry to create clean nuclear energy"
+  },
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Explore rocks, oceans and chemicals to tackle climate challenges"
+  }
  ]
 }

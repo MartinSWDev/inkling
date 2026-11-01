@@ -106,5 +106,66 @@
    "setting": "city",
    "town": "Harrow"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Elementary occupations",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0411",
+   "title": "Project manager (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0411-v1-0",
+   "reason": "Lead projects from idea to delivery with a team."
+  },
+  {
+   "ref": "ST0385",
+   "title": "Operations manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0385-v1-4",
+   "reason": "Manage people and projects to get things done."
+  },
+  {
+   "ref": "ST0809",
+   "title": "Coaching professional",
+   "level": 5,
+   "months": 14,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0809-v1-0",
+   "reason": "Coach others to grow and build your leadership skills."
+  },
+  {
+   "ref": "ST0238",
+   "title": "People professional",
+   "level": 5,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0238-v1-4",
+   "reason": "Help teams work well together and develop."
+  },
+  {
+   "ref": "ST1379",
+   "title": "Learning and skills mentor",
+   "level": 4,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1379-v1-3",
+   "reason": "Mentor people to learn skills and build confidence."
+  },
+  {
+   "ref": "ST0663",
+   "title": "Employability practitioner",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0663-v1-0",
+   "reason": "Support people to build skills for work and life."
+  }
  ]
 }

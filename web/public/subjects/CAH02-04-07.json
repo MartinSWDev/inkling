@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Ormskirk"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Other health professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Earn while you train to become a qualified mental health nurse"
+  },
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Help people with anxiety and depression through talking therapies"
+  },
+  {
+   "ref": "ST0827",
+   "title": "Nursing associate (NMC 2018)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0827-v2-0",
+   "reason": "Support registered nurses caring for people with mental health needs"
+  },
+  {
+   "ref": "ST0633",
+   "title": "Arts therapist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0633-v2-0",
+   "reason": "Use art, music or drama to support mental health recovery"
+  },
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Help people with mental illness rebuild daily life and independence"
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Hands-on care role supporting patients on mental health wards"
+  }
  ]
 }

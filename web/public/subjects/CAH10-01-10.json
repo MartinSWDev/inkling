@@ -34,5 +34,66 @@
    "setting": "city",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0859",
+   "title": "Fire safety engineer",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0859-v1-2",
+   "reason": "Design fire-safe buildings and systems to protect people."
+  },
+  {
+   "ref": "ST0465",
+   "title": "Risk and safety management professional (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0465-v1-2",
+   "reason": "Manage workplace risks to stop accidents before they happen."
+  },
+  {
+   "ref": "ST0746",
+   "title": "Fire safety inspector",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0746-v1-1",
+   "reason": "Inspect buildings for fire dangers and enforce safety standards."
+  },
+  {
+   "ref": "ST1309",
+   "title": "Mine management",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1309-v1-0",
+   "reason": "Run mining operations safely and prevent underground dangers."
+  },
+  {
+   "ref": "ST0473",
+   "title": "Science industry process and plant engineer (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0473-v1-1",
+   "reason": "Keep chemical plants safe as a process safety engineer."
+  },
+  {
+   "ref": "ST0550",
+   "title": "Safety, health and environment technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0550-v1-4",
+   "reason": "Check workplaces daily to keep everyone healthy and safe."
+  }
  ]
 }

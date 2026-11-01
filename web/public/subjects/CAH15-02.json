@@ -130,5 +130,11 @@
    "setting": "campus town",
    "town": "Keele"
   }
- ]
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Business and public service associate professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": []
 }

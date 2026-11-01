@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Hull"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Engineering professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Run experiments to discover how matter and energy work"
+  },
+  {
+   "ref": "ST0856",
+   "title": "Space systems engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0856-v1-1",
+   "reason": "Design satellites and rockets to explore the universe"
+  },
+  {
+   "ref": "ST0289",
+   "title": "Nuclear scientist and nuclear engineer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0289-v1-0",
+   "reason": "Work with atoms and radiation to generate power"
+  },
+  {
+   "ref": "ST0675",
+   "title": "Materials science technologist (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0675-v1-1",
+   "reason": "Invent and test new materials by studying matter"
+  },
+  {
+   "ref": "ST0024",
+   "title": "Electrical and electronic engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0024-v1-3",
+   "reason": "Build electrical systems using physics of energy and circuits"
+  },
+  {
+   "ref": "ST0010",
+   "title": "Aerospace engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0010-v1-1",
+   "reason": "Design aircraft and spacecraft using physics of flight"
+  }
  ]
 }

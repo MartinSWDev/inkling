@@ -130,5 +130,39 @@
    "setting": "campus town",
    "town": "Middlesbrough"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Therapy professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0774",
+   "title": "Dispensing optician",
+   "level": 6,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0774-v2-0",
+   "reason": "Fit glasses, check prescriptions and help people see clearly every day"
+  },
+  {
+   "ref": "ST1272",
+   "title": "Orthoptist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1272-v2-0",
+   "reason": "Diagnose eye movement issues and help kids and adults see properly"
+  },
+  {
+   "ref": "ST0383",
+   "title": "Spectacle technician",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0383-v1-2",
+   "reason": "Build and glaze spectacle lenses that correct vision precisely"
+  }
  ]
 }

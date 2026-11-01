@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0481",
+   "title": "Digital marketer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0481-v1-0",
+   "reason": "Run digital campaigns that help brands reach customers online"
+  },
+  {
+   "ref": "ST0596",
+   "title": "Marketing executive",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0596-v1-0",
+   "reason": "Help brands plan and deliver marketing campaigns"
+  },
+  {
+   "ref": "ST0883",
+   "title": "Market research executive",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0883-v1-0",
+   "reason": "Find out what customers think and why they buy"
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Create eye-catching adverts that sell products and ideas"
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Create social posts and videos that promote brands"
+  },
+  {
+   "ref": "ST0644",
+   "title": "Advertising and media executive",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0644-v1-1",
+   "reason": "Plan where adverts appear to reach the right people"
+  }
  ]
 }

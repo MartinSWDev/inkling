@@ -58,5 +58,11 @@
    "setting": "campus town",
    "town": "Oxford"
   }
- ]
+ ],
+ "jobs": [
+  "Science, engineering and technology associate professionals",
+  "Natural and social science professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

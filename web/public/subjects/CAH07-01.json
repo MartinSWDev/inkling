@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Birmingham"
   }
- ]
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Engineering professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": []
 }

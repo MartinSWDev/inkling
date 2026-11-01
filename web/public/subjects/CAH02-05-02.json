@@ -82,5 +82,66 @@
    "setting": "city",
    "town": "Manchester"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Natural and social science professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Become a healthcare science associate running tests that diagnose illness."
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Train as a clinical scientist leading cutting-edge diagnostic tests and research."
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse blood and tissue samples to help doctors diagnose disease."
+  },
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Use X-rays and scans to spot injuries and illness."
+  },
+  {
+   "ref": "ST0600",
+   "title": "Hearing aid dispenser",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0600-v2-0",
+   "reason": "Test hearing and fit tech that helps people hear again."
+  },
+  {
+   "ref": "ST0218",
+   "title": "Healthcare science assistant",
+   "level": 2,
+   "months": 14,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0218-v1-1",
+   "reason": "Entry-level lab role assisting scientists who diagnose patients."
+  }
  ]
 }

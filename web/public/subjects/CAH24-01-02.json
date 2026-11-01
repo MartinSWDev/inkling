@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "Twickenham"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Managers, directors and senior officials",
+  "Media professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0596",
+   "title": "Marketing executive",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0596-v1-0",
+   "reason": "Plan campaigns that build brands' reputation with the public."
+  },
+  {
+   "ref": "ST0481",
+   "title": "Digital marketer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0481-v1-0",
+   "reason": "Create online and social media campaigns that get organisations noticed."
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Dream up adverts and ideas that shape how people see brands."
+  },
+  {
+   "ref": "ST0644",
+   "title": "Advertising and media executive",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0644-v1-1",
+   "reason": "Work with clients and media to place adverts and share stories."
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Make videos, posts and content that tell an organisation's story."
+  }
  ]
 }

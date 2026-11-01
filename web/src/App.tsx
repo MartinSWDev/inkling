@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useReducer, useRef, useState, type CSS
 import { motion } from "motion/react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
-import { qualifiedSubjects, scoreAnswers } from "./scoring";
+import { handsOnPicks, isPractical, lengthLabel, levelLabel, qualifiedSubjects, scoreAnswers, type Apprenticeship } from "./scoring";
 import { ROUND_CAPS, diverseTop, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
 import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
 import { popUp } from "./design/motion";
@@ -80,7 +80,13 @@ export default function App() {
     return () => { window.clearInterval(iv); window.clearTimeout(stop); };
   }, [scene]);
 
-  const revealPage = scene.kind === "reveal" ? scene.page : scene.kind === "share" ? 4 : 0;
+  // Reveal order: top 3 -> wildcard -> [hands-on routes] -> views -> explore -> share.
+  const practical = isPractical(answers);
+  const viewsPage = practical ? 3 : 2;
+  const explorePage = practical ? 4 : 3;
+  const sharePage = explorePage + 1;
+  const pageCount = sharePage + 1;
+  const revealPage = scene.kind === "reveal" ? scene.page : scene.kind === "share" ? sharePage : 0;
   const page = revealPage;
   const toastTimer = useRef<number>(0);
 
@@ -143,14 +149,21 @@ export default function App() {
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const [tapCode, setTapCode] = useState<string | null>(null);
   const [courseSheet, setCourseSheet] = useState<{ code: string; name: string } | null>(null);
-  const [courseLists, setCourseLists] = useState<Record<string, { title: string; provider: string; url: string; ucas_code: string; setting?: string | null; town?: string | null }[]>>({});
+  const [sheetTab, setSheetTab] = useState<"courses" | "apprenticeships">("courses");
+  type SubjectFile = { courses: { title: string; provider: string; url: string; ucas_code: string; setting?: string | null; town?: string | null }[]; jobs: string[]; apprenticeships: Apprenticeship[] };
+  const [subjectFiles, setSubjectFiles] = useState<Record<string, SubjectFile>>({});
+  const requestedFiles = useRef(new Set<string>());
+  const loadSubjectFile = useCallback((code: string) => {
+    if (requestedFiles.current.has(code)) return;
+    requestedFiles.current.add(code);
+    fetch(`/subjects/${code}.json`).then((r) => r.json())
+      .then((d) => setSubjectFiles((p) => ({ ...p, [code]: { courses: d.courses || [], jobs: d.jobs || [], apprenticeships: d.apprenticeships || [] } })))
+      .catch(() => setSubjectFiles((p) => ({ ...p, [code]: { courses: [], jobs: [], apprenticeships: [] } })));
+  }, []);
   function openCourses(code: string, name: string) {
     setCourseSheet({ code, name });
-    if (!courseLists[code]) {
-      fetch(`/subjects/${code}.json`).then((r) => r.json())
-        .then((d) => setCourseLists((prev) => ({ ...prev, [code]: d.courses || [] })))
-        .catch(() => setCourseLists((prev) => ({ ...prev, [code]: [] })));
-    }
+    setSheetTab("courses");
+    loadSubjectFile(code);
   }
   useEffect(() => { setTapCode(null); }, [scene]);
   const scoresRef = useRef<Record<string, number>>({});
@@ -327,6 +340,18 @@ export default function App() {
   const exploreList = wildcardRow && !top3.some((r) => r.code === wildcardRow.code) ? [...top3, wildcardRow] : top3;
   const plainOf = (code: string) => subjects.find((s) => s.code === code)?.plain;
   const whyOf = (code: string) => subjects.find((s) => s.code === code)?.why_line;
+  // Load per-subject files (courses, graduate jobs, apprenticeships) for the
+  // explore list once the reveal starts.
+  useEffect(() => {
+    if (scene.kind !== "reveal" && scene.kind !== "share") return;
+    for (const r of exploreList) loadSubjectFile(r.code);
+  }, [scene.kind, exploreList, loadSubjectFile]);
+  const handsOn = useMemo(() => {
+    if (!practical) return [];
+    const bySubject: Record<string, Apprenticeship[]> = {};
+    for (const r of exploreList) bySubject[r.code] = subjectFiles[r.code]?.apprenticeships || [];
+    return handsOnPicks(bySubject, exploreList.map((r) => r.code));
+  }, [practical, exploreList, subjectFiles]);
 
   // Pre-render the share video + still in the background once the reveal
   // starts (wildcard is known by then), so Share can fire inside the tap's
@@ -424,6 +449,7 @@ export default function App() {
           <h2>How it works</h2>
           <p className="note">Four quick rounds. Your answers fill a paper room with what you're into, then you see degree subjects worth exploring. Answers stay on your phone; the share link only carries subject codes.</p>
           <p className="note">Course data comes from the UK Discover Uni dataset. Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0.</p>
+          <p className="note">Contains public sector information licensed under the Open Government Licence v3.0. Apprenticeship standards © Skills England.</p>
           <p className="note">Muse Spark Open (open weights, on Baseten) wrote and reviewed the subject cards. Muse Image drew the room, stickers and card art. SAM 3.1 cut out and checked every object. Muse Image paints your room on request.</p>
           <button className="btn alt" onClick={() => setHowOpen(false)}>Close</button>
         </div></div>)}
@@ -566,11 +592,11 @@ export default function App() {
       </div>)}
 
       {(scene.kind === "reveal" || scene.kind === "share") && (<section className="story">
-        <div className="sprog">{[0, 1, 2, 3, 4].map((i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
-        <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV" })} />
-        <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT" })} />
-        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV" })}>Back</button>}
-        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT" })}>{page === 3 ? "Share" : "Next"}</button>}
+        <div className="sprog">{Array.from({ length: pageCount }, (_, i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
+        <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })} />
+        <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })} />
+        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })}>Back</button>}
+        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })}>{page === explorePage ? "Share" : "Next"}</button>}
         <div className="pages">
           <div className={"page" + (page === 0 ? " on" : "")}><div className="top3wrap">
             <h2 className="top3head">Your top 3</h2>
@@ -595,20 +621,31 @@ export default function App() {
               </motion.span>
             </button>) : <div className="pc bottom"><h2>No wildcard this time</h2><p className="note">Everything you got was on a card.</p></div>}
           </div></div>
-          <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><h2>Subjects to explore</h2>
-            <ul className="subjects">{exploreList.map((r) => { return (
+          {practical && (<div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><h2>Hands-on routes</h2>
+            <p className="note">Get paid, train on the job, no tuition fees.</p>
+            <div className="handsonlist">{handsOn.map((a) => (
+              <div key={a.ref} className="handsoncard"><b>{a.title}</b>
+                <small>{levelLabel(a.level)} · {lengthLabel(a.months)}{a.degree ? " · Degree included" : ""}</small>
+                <small>{a.reason}</small>
+                <a href={a.url} target="_blank" rel="noreferrer">Official page</a></div>))}
+              {!handsOn.length && <p className="note">Loading routes…</p>}</div>
+            <p className="note">Apprenticeship standards shown are for England.</p>
+          </div></div>)}
+          <div className={"page" + (page === explorePage ? " on" : "")}><div className="pc bottom"><h2>Subjects to explore</h2>
+            <ul className="subjects">{exploreList.map((r) => { const jobs = subjectFiles[r.code]?.jobs || []; return (
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "A wildcard: it never came up, but it fits your answers." : (plainOf(r.code) || "")}</small>
+                {jobs.length > 0 && <small className="jobline">Graduates often work as: {jobs.map((j) => j.charAt(0).toLowerCase() + j.slice(1)).join(", ")}</small>}
                 <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button></span></div>
                 {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>); })}
             </ul></div></div>
-          <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
+          <div className={"page" + (page === viewsPage ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
             <div className="views swatches">{VIEWS.map((v) => (
               <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>
                 <img src={"/views/" + v.id + "_day.webp"} alt="" />
                 <span>{v.name}</span></button>))}</div>
             <p className="note">It changes the view from your window.</p></div></div>
-          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom sharepc"><h2>Share your room</h2>
+          <div className={"page" + (page === sharePage ? " on" : "")}><div className="pc bottom sharepc"><h2>Share your room</h2>
             <div className="share"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
                 <div className="over"><b>What's your inkling?</b>
@@ -667,8 +704,29 @@ export default function App() {
         <motion.div className="coursesheet" initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 30 }}>
           <div className="pfoot"><h2>{courseSheet.name}</h2>
             <button className="linkbtn" onClick={() => setCourseSheet(null)}>Close</button></div>
-          {(() => {
-            const all = courseLists[courseSheet.code];
+          <div className="sheettabs" role="tablist" aria-label="Routes">
+            <button role="tab" aria-selected={sheetTab === "courses"} className={sheetTab === "courses" ? "on" : ""} onClick={() => setSheetTab("courses")}>University courses</button>
+            <button role="tab" aria-selected={sheetTab === "apprenticeships"} className={sheetTab === "apprenticeships" ? "on" : ""} onClick={() => setSheetTab("apprenticeships")}>Apprenticeships</button>
+          </div>
+          {sheetTab === "apprenticeships" && (() => {
+            const file = subjectFiles[courseSheet.code];
+            if (!file) return <ul className="courselist"><li><small>Loading apprenticeships…</small></li></ul>;
+            const list = file.apprenticeships || [];
+            return (<>
+              <p className="note">Get paid, train on the job, no tuition fees.</p>
+              {!list.length && <ul className="courselist"><li><small>No close apprenticeships for this subject</small></li></ul>}
+              <ul className="courselist apprlist">{list.map((a) => (
+                <li key={a.ref}><div><b>{a.title}</b>
+                  <small>{levelLabel(a.level)} · {lengthLabel(a.months)}</small>
+                  {a.degree && <span className="settingtag">Degree included</span>}
+                  <small>{a.reason}</small></div>
+                  <a href={a.url} target="_blank" rel="noreferrer">Official page</a></li>))}</ul>
+              <p className="note">Apprenticeship standards shown are for England.</p>
+              <p className="note">Contains public sector information licensed under the Open Government Licence v3.0. Apprenticeship standards © Skills England.</p>
+            </>);
+          })()}
+          {sheetTab === "courses" && (() => {
+            const all = subjectFiles[courseSheet.code]?.courses;
             if (!all) return <ul className="courselist"><li><small>Loading courses…</small></li></ul>;
             if (!all.length) return <ul className="courselist"><li><small>No course pages yet for this subject.</small></li></ul>;
             const chosen = { city: "city", coast: "coast", campus: "campus town", countryside: "countryside" }[view] || "campus town";
@@ -686,7 +744,7 @@ export default function App() {
               {elsewhere.length > 0 && (<><h3 className="coursehead">Elsewhere</h3><ul className="courselist">{render(elsewhere)}</ul></>)}
             </>);
           })()}
-          <p className="note">Course data: Discover Uni (HESA), CC BY 4.0. Campus settings tagged by Muse Spark Open from HESA location data.</p>
+          <p className="note">Course data: Discover Uni (HESA), CC BY 4.0. Graduate job data: Discover Uni (HESA). Campus settings tagged by Muse Spark Open from HESA location data.</p>
         </motion.div>
       </div>)}
     </div>

@@ -26,5 +26,30 @@
    "setting": "coast",
    "town": "Inverness"
   }
+ ],
+ "jobs": [
+  "Skilled trades occupations",
+  "Managers, directors and senior officials",
+  "Conservation and environment professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Degree route to become an expert in caring for trees"
+  },
+  {
+   "ref": "ST1427",
+   "title": "Forestry works manager",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1427-v1-0",
+   "reason": "Lead teams planting, managing and protecting forests and woodlands"
+  }
  ]
 }

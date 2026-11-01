@@ -130,5 +130,11 @@
    "setting": "campus town",
    "town": "Lancaster"
   }
- ]
+ ],
+ "jobs": [
+  "Medical practitioners",
+  "Other health professionals",
+  "Health associate professionals"
+ ],
+ "apprenticeships": []
 }

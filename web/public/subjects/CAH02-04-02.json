@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Kingston upon Thames"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Other health professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Train as an adult nurse on the job while earning"
+  },
+  {
+   "ref": "ST0827",
+   "title": "Nursing associate (NMC 2018)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0827-v2-0",
+   "reason": "Support registered nurses caring for adults in hospitals"
+  },
+  {
+   "ref": "ST0582",
+   "title": "Operating department practitioner",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0582-v2-0",
+   "reason": "Care for adults before, during and after surgery"
+  },
+  {
+   "ref": "ST0567",
+   "title": "Paramedic",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0567-v2-0",
+   "reason": "Respond to emergencies treating ill and injured adults"
+  },
+  {
+   "ref": "ST1419",
+   "title": "Community nurse specialist practitioner (NMC 2022)",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1419-v2-0",
+   "reason": "Specialise as a community nurse caring for adults at home"
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Provide hands-on care for adults in hospitals and community"
+  }
  ]
 }

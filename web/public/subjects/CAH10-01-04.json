@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Birmingham"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Science, engineering and technology associate professionals",
+  "Skilled trades occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0010",
+   "title": "Aerospace engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0010-v1-1",
+   "reason": "Design, build and test aircraft and spacecraft for real missions"
+  },
+  {
+   "ref": "ST0856",
+   "title": "Space systems engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0856-v1-1",
+   "reason": "Design and test satellites, rockets and space systems"
+  },
+  {
+   "ref": "ST0107",
+   "title": "Systems engineer (degree)",
+   "level": 7,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0107-v1-2",
+   "reason": "Make all aircraft and spacecraft systems work together perfectly"
+  },
+  {
+   "ref": "ST0588",
+   "title": "Propulsion technician",
+   "level": 4,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0588-v1-0",
+   "reason": "Build and test engines that power aircraft and rockets"
+  },
+  {
+   "ref": "ST0023",
+   "title": "Control systems engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0023-v1-2",
+   "reason": "Create flight control systems that steer aircraft and spacecraft"
+  },
+  {
+   "ref": "ST1313",
+   "title": "Aerospace engineering technician",
+   "level": 3,
+   "months": 48,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1313-v1-1",
+   "reason": "Hands-on building and fixing aircraft using advanced composite materials"
+  }
  ]
 }

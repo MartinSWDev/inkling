@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Information technology professionals",
+  "Business, research and administrative professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0502",
+   "title": "Actuary",
+   "level": 7,
+   "months": 39,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0502-v2-0",
+   "reason": "Use advanced probability and statistics to model financial risk daily."
+  },
+  {
+   "ref": "ST0004",
+   "title": "Actuarial technician",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0004-v2-0",
+   "reason": "Start your actuarial maths career analysing data and pricing risk."
+  },
+  {
+   "ref": "ST0884",
+   "title": "Operational research specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0884-v1-2",
+   "reason": "Solve complex real-world problems using mathematical modelling and optimisation."
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Find patterns in big data using maths, statistics and coding."
+  },
+  {
+   "ref": "ST0118",
+   "title": "Data analyst",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0118-v1-1",
+   "reason": "Turn numbers into insights that help organisations make smarter decisions."
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Apply maths to maps and location data to spot spatial patterns."
+  }
  ]
 }

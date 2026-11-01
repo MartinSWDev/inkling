@@ -130,5 +130,57 @@
    "setting": "campus town",
    "town": "Huddersfield"
   }
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Teaching professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0372",
+   "title": "Building services engineer",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0372-v1-1",
+   "reason": "Become an acoustics engineer shaping how venues sound."
+  },
+  {
+   "ref": "ST0940",
+   "title": "Audiovisual technician",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0940-v1-0",
+   "reason": "Run sound and lighting for concerts and live events."
+  },
+  {
+   "ref": "ST0792",
+   "title": "Junior production coordinator",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0792-v2-0",
+   "reason": "Coordinate audio bookings to keep music shoots running smoothly."
+  },
+  {
+   "ref": "ST0341",
+   "title": "Production assistant - screen and audio",
+   "level": 3,
+   "months": 9,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0341-v2-0",
+   "reason": "Assist with recording audio for music, podcasts and screen."
+  },
+  {
+   "ref": "ST0424",
+   "title": "Broadcast and media systems technical operator",
+   "level": 3,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0424-v1-2",
+   "reason": "Operate sound desks for live broadcasts and streamed gigs."
+  }
  ]
 }

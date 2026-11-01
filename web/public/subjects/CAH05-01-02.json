@@ -82,5 +82,39 @@
    "setting": "city",
    "town": "Bristol"
   }
+ ],
+ "jobs": [
+  "Veterinary nurses",
+  "Veterinarians",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0946",
+   "title": "Vet technician (livestock)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0946-v1-0",
+   "reason": "Help vets keep farm animals healthy and breeding well"
+  },
+  {
+   "ref": "ST0343",
+   "title": "Veterinary nurse",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0343-v1-2",
+   "reason": "Nurse injured pets and horses back to health with vets"
+  },
+  {
+   "ref": "ST0397",
+   "title": "Animal care and welfare assistant",
+   "level": 2,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0397-v1-1",
+   "reason": "Care for pets in kennels and catteries every day"
+  }
  ]
 }

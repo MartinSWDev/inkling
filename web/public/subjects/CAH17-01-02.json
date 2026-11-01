@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Kingston upon Thames"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Finance professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0385",
+   "title": "Operations manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0385-v1-4",
+   "reason": "Learn to run teams and daily business operations smoothly."
+  },
+  {
+   "ref": "ST0596",
+   "title": "Marketing executive",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0596-v1-0",
+   "reason": "Create campaigns that help businesses attract and keep customers."
+  },
+  {
+   "ref": "ST0003",
+   "title": "Professional accounting technician",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0003-v2-0",
+   "reason": "Handle budgets and accounts to manage business money wisely."
+  },
+  {
+   "ref": "ST0411",
+   "title": "Project manager (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0411-v1-0",
+   "reason": "Plan and lead projects to deliver business goals on time."
+  },
+  {
+   "ref": "ST0572",
+   "title": "Sales executive",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0572-v1-1",
+   "reason": "Build client relationships and sell products businesses need."
+  },
+  {
+   "ref": "ST0238",
+   "title": "People professional",
+   "level": 5,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0238-v1-4",
+   "reason": "Support and develop people \u2014 the HR side of business."
+  }
  ]
 }

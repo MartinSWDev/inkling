@@ -42,5 +42,66 @@
    "setting": "coast",
    "town": "Portsmouth"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Health associate professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Carry out medical scans to help doctors spot disease"
+  },
+  {
+   "ref": "ST0620",
+   "title": "Therapeutic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0620-v2-0",
+   "reason": "Give radiotherapy to treat cancer and support patients daily"
+  },
+  {
+   "ref": "ST1272",
+   "title": "Orthoptist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1272-v2-0",
+   "reason": "Eye specialist diagnosing and treating vision and eye-movement issues"
+  },
+  {
+   "ref": "ST0995",
+   "title": "Doctor (Degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0995-v2-0",
+   "reason": "Become a doctor via apprenticeship, then specialise like in cancer care"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Specialist scientist creating tests that diagnose cancer and other illnesses"
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Test blood and tissue samples to diagnose diseases including cancer"
+  }
  ]
 }

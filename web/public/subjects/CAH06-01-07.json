@@ -90,5 +90,66 @@
    "setting": "countryside",
    "town": "Newport"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Other health professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0393",
+   "title": "Dairy technologist",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0393-v1-2",
+   "reason": "Make cheese and yoghurt safe, tasty and consistent every day."
+  },
+  {
+   "ref": "ST0580",
+   "title": "Brewer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0580-v1-2",
+   "reason": "Brew beer scientifically, controlling ingredients, flavour and safety."
+  },
+  {
+   "ref": "ST0599",
+   "title": "Dietitian",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0599-v2-0",
+   "reason": "Advise people how food choices affect health and wellbeing."
+  },
+  {
+   "ref": "ST0529",
+   "title": "Food and drink advanced engineer (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0529-v1-0",
+   "reason": "Engineer factories that make food safely at huge scale."
+  },
+  {
+   "ref": "ST0624",
+   "title": "Food and drink engineer",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0624-v1-1",
+   "reason": "Keep food production lines running safely and efficiently."
+  },
+  {
+   "ref": "ST0196",
+   "title": "Food and drink technical operator",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0196-v1-3",
+   "reason": "Operate machines that turn ingredients into safe packaged food."
+  }
  ]
 }

@@ -34,5 +34,66 @@
    "setting": "campus town",
    "town": "Reading"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Business and public service associate professionals",
+  "Teaching professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Care for archives and records so anyone can find them"
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Choose and explain museum collections for visitors to enjoy"
+  },
+  {
+   "ref": "ST0762",
+   "title": "Information manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0762-v1-0",
+   "reason": "Organise information so people quickly find what they need"
+  },
+  {
+   "ref": "ST0967",
+   "title": "Data protection and information governance practitioner",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0967-v2-0",
+   "reason": "Keep information safe, legal and easy to find and share"
+  },
+  {
+   "ref": "ST1469",
+   "title": "Collections technician",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1469-v1-0",
+   "reason": "Look after museum objects and keep accurate records of them"
+  },
+  {
+   "ref": "ST0396",
+   "title": "Cultural learning and participation officer",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0396-v1-0",
+   "reason": "Help people learn from museums, libraries and cultural collections"
+  }
  ]
 }

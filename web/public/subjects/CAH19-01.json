@@ -130,5 +130,11 @@
    "setting": "campus town",
    "town": "Ormskirk"
   }
- ]
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Business and public service associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

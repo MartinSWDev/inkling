@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0024",
+   "title": "Electrical and electronic engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0024-v1-3",
+   "reason": "Design electrical and electronic systems that power everyday tech"
+  },
+  {
+   "ref": "ST0151",
+   "title": "Embedded electronic systems design and development engineer (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0151-v1-3",
+   "reason": "Build tiny computers inside smart devices and gadgets"
+  },
+  {
+   "ref": "ST0023",
+   "title": "Control systems engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0023-v1-2",
+   "reason": "Make control systems that automate machines and robots"
+  },
+  {
+   "ref": "ST0475",
+   "title": "Electrical power networks engineer",
+   "level": 4,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0475-v1-0",
+   "reason": "Run the power networks bringing electricity to homes"
+  },
+  {
+   "ref": "ST0157",
+   "title": "Electrical power protection and plant commissioning engineer",
+   "level": 4,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0157-v1-0",
+   "reason": "Protect and set up high-voltage power plants safely"
+  },
+  {
+   "ref": "ST0672",
+   "title": "Electro-mechanical engineer",
+   "level": 6,
+   "months": 60,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0672-v1-0",
+   "reason": "Create smart machines mixing electronics and robotics"
+  }
  ]
 }

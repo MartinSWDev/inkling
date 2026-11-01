@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Aberdeen"
   }
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Administrative occupations",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0003",
+   "title": "Professional accounting technician",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0003-v2-0",
+   "reason": "Learn to prepare accounts and support audits for real businesses."
+  },
+  {
+   "ref": "ST1458",
+   "title": "Professional taxation technician",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1458-v2-0",
+   "reason": "Handle tax returns and advise on tax for people and companies."
+  },
+  {
+   "ref": "ST0610",
+   "title": "Internal audit professional",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0610-v1-0",
+   "reason": "Check company finances are accurate and follow rules as auditor."
+  },
+  {
+   "ref": "ST1484",
+   "title": "Internal audit technician",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1484-v2-0",
+   "reason": "Help audit teams test financial records and spot risks early."
+  },
+  {
+   "ref": "ST0869",
+   "title": "Payroll assistant manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0869-v2-0",
+   "reason": "Run payroll so everyone gets paid correctly and on time."
+  },
+  {
+   "ref": "ST0002",
+   "title": "Assistant accountant",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0002-v2-0",
+   "reason": "Start doing bookkeeping and accounts for businesses while you learn."
+  }
  ]
 }

@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Leicester"
   }
- ]
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Other health professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": []
 }

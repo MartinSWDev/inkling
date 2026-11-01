@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "Manchester"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Business and public service associate professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0618",
+   "title": "Speech and language therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0618-v2-0",
+   "reason": "Help people with speech problems using science of sounds and meaning"
+  },
+  {
+   "ref": "ST0600",
+   "title": "Hearing aid dispenser",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0600-v2-0",
+   "reason": "Help people hear sounds clearly so spoken words make sense"
+  },
+  {
+   "ref": "ST0966",
+   "title": "Teacher for the sensory impaired",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0966-v2-0",
+   "reason": "Teach language and communication to deaf children using sign language"
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Design apps and websites so words are clear and easy"
+  },
+  {
+   "ref": "ST1512",
+   "title": "Artificial intelligence (AI) and automation practitioner",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1512-v2-1",
+   "reason": "Build AI that understands, generates and translates human language"
+  }
  ]
 }

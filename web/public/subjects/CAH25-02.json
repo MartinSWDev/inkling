@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "London"
   }
- ]
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Teaching professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

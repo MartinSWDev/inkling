@@ -74,5 +74,66 @@
    "setting": "city",
    "town": "Stoke-on-Trent"
   }
+ ],
+ "jobs": [
+  "Teaching and childcare support occupation",
+  "Teaching professionals",
+  "Welfare and housing associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0905",
+   "title": "Play therapist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0905-v1-0",
+   "reason": "Use play to help children express emotions and track development."
+  },
+  {
+   "ref": "ST0618",
+   "title": "Speech and language therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0618-v2-0",
+   "reason": "Help children learn to talk, listen and communicate as they grow."
+  },
+  {
+   "ref": "ST0551",
+   "title": "Early years lead practitioner",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0551-v1-1",
+   "reason": "Lead nursery teams helping babies and toddlers learn and develop."
+  },
+  {
+   "ref": "ST0088",
+   "title": "Children, young people and families practitioner",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0088-v1-0",
+   "reason": "Support children, teenagers and families through daily life and challenges."
+  },
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Deliver guided therapy to support young people's mental health and wellbeing."
+  },
+  {
+   "ref": "ST1418",
+   "title": "Specialist community public health nurse (NMC 2022)",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1418-v2-0",
+   "reason": "Track children's health and development from birth to school age."
+  }
  ]
 }

@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Teaching and childcare support occupation",
+  "Welfare and housing associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1502",
+   "title": "Teacher - Undergraduate",
+   "level": 6,
+   "months": 45,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1502-v2-0",
+   "reason": "Train to be a qualified teacher while earning a salary."
+  },
+  {
+   "ref": "ST0149",
+   "title": "Learning and skills teacher",
+   "level": 5,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0149-v1-4",
+   "reason": "Teach teenagers and adults in colleges, not just schools."
+  },
+  {
+   "ref": "ST0477",
+   "title": "Academic professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0477-v1-0",
+   "reason": "Teach and support students at university while doing research."
+  },
+  {
+   "ref": "ST1077",
+   "title": "Early years teacher (with EYTS)",
+   "level": 6,
+   "months": 33,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1077-v1-1",
+   "reason": "Lead learning and play for babies to five-year-olds."
+  },
+  {
+   "ref": "ST1379",
+   "title": "Learning and skills mentor",
+   "level": 4,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1379-v1-3",
+   "reason": "Mentor learners one-to-one to help them succeed."
+  },
+  {
+   "ref": "ST0575",
+   "title": "School business professional",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0575-v1-1",
+   "reason": "Help run a school behind the scenes, from budgets to operations."
+  }
  ]
 }

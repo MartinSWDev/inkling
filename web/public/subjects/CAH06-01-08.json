@@ -58,5 +58,66 @@
    "setting": "countryside",
    "town": "Plumpton"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Science, engineering and technology associate professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0529",
+   "title": "Food and drink advanced engineer (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0529-v1-0",
+   "reason": "Engineer large food factories to produce safely and efficiently."
+  },
+  {
+   "ref": "ST0624",
+   "title": "Food and drink engineer",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0624-v1-1",
+   "reason": "Maintain and improve machines that make food and drinks."
+  },
+  {
+   "ref": "ST0393",
+   "title": "Dairy technologist",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0393-v1-2",
+   "reason": "Create dairy products like cheese safely in large factories."
+  },
+  {
+   "ref": "ST0580",
+   "title": "Brewer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0580-v1-2",
+   "reason": "Brew beer and drinks at scale, controlling quality and safety."
+  },
+  {
+   "ref": "ST0196",
+   "title": "Food and drink technical operator",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0196-v1-3",
+   "reason": "Run and improve food production lines and processes daily."
+  },
+  {
+   "ref": "ST0199",
+   "title": "Food and drink process operator",
+   "level": 2,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0199-v1-2",
+   "reason": "Operate factory lines making food and drinks safely every day."
+  }
  ]
 }

@@ -74,5 +74,48 @@
    "setting": "campus town",
    "town": "Coventry"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Business, research and administrative professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0477",
+   "title": "Academic professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0477-v1-0",
+   "reason": "Research and teach Italian language, culture and history."
+  },
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Look after historical documents and literary archives for everyone."
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Create exhibitions sharing Italian art, culture and history."
+  },
+  {
+   "ref": "ST0149",
+   "title": "Learning and skills teacher",
+   "level": 5,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0149-v1-4",
+   "reason": "Teach Italian language and culture to college learners."
+  }
  ]
 }

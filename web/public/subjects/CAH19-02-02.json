@@ -26,5 +26,66 @@
    "setting": "coast",
    "town": "Aberdeen"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Administrative occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Protect and share Gaelic manuscripts, books and historic records"
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Create museum exhibitions that bring Gaelic history and culture alive"
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Repair and preserve artefacts linked to Gaelic heritage"
+  },
+  {
+   "ref": "ST0831",
+   "title": "Historic environment advisor",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0831-v1-0",
+   "reason": "Advise how to protect Scotland's Gaelic historic sites"
+  },
+  {
+   "ref": "ST0396",
+   "title": "Cultural learning and participation officer",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0396-v1-0",
+   "reason": "Lead community workshops exploring Gaelic language and traditions"
+  },
+  {
+   "ref": "ST0149",
+   "title": "Learning and skills teacher",
+   "level": 5,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0149-v1-4",
+   "reason": "Teach Gaelic language, literature and culture to college learners"
+  }
  ]
 }

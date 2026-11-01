@@ -130,5 +130,21 @@
    "setting": "campus town",
    "town": "Chester"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Therapy professionals",
+  "Engineering professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0599",
+   "title": "Dietitian",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0599-v2-0",
+   "reason": "Become a qualified dietitian advising people on food and health"
+  }
  ]
 }

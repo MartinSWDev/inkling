@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Bradford"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Elementary occupations",
+  "Artistic, literary and media occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0625",
+   "title": "Creative digital design professional (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0625-v1-0",
+   "reason": "Design digital graphics, branding and visuals for clients daily"
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Create apps and websites that look great and feel easy"
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Dream up eye-catching ads and visuals for brands"
+  },
+  {
+   "ref": "ST0488",
+   "title": "Junior animator",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0488-v1-4",
+   "reason": "Bring characters and stories to life through animation"
+  },
+  {
+   "ref": "ST1325",
+   "title": "Junior visual effects - VFX artist or assistant technical director - ATD",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1325-v1-2",
+   "reason": "Create stunning visual effects for film, TV and games"
+  },
+  {
+   "ref": "ST1371",
+   "title": "Model maker",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1371-v1-0",
+   "reason": "Build physical and digital models of objects and spaces"
+  }
  ]
 }

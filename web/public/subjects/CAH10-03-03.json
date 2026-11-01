@@ -42,5 +42,66 @@
    "setting": "campus town",
    "town": "York"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Web and multimedia design professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0540",
+   "title": "Fashion and textiles product technologist",
+   "level": 4,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0540-v1-1",
+   "reason": "Test and develop fabrics and clothes for quality, fit and performance."
+  },
+  {
+   "ref": "ST0581",
+   "title": "Textile technical specialist",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0581-v1-1",
+   "reason": "Oversee weaving and textile production to create fabrics correctly."
+  },
+  {
+   "ref": "ST0675",
+   "title": "Materials science technologist (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0675-v1-1",
+   "reason": "Invent and test new plastics, fabrics and sustainable materials."
+  },
+  {
+   "ref": "ST0659",
+   "title": "Materials process engineer (degree)",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0659-v1-1",
+   "reason": "Design factory processes to make polymers and textiles efficiently."
+  },
+  {
+   "ref": "ST0055",
+   "title": "Bespoke cutter and tailor",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0055-v1-2",
+   "reason": "Design and hand-make custom clothes from different fabrics."
+  },
+  {
+   "ref": "ST1328",
+   "title": "Polymer processing technician",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1328-v1-0",
+   "reason": "Mould molten plastic into products like bottles and parts."
+  }
  ]
 }

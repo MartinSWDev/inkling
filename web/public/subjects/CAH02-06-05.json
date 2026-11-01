@@ -130,5 +130,57 @@
    "setting": "coast",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Therapy professionals",
+  "Other health professionals",
+  "Caring personal services"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0519",
+   "title": "Physiotherapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0519-v2-0",
+   "reason": "Train as a physiotherapist while you work and help patients move"
+  },
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Help people regain daily movement and independence after injury"
+  },
+  {
+   "ref": "ST0601",
+   "title": "Prosthetist and orthotist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0601-v2-0",
+   "reason": "Design and fit prosthetics and braces to restore movement"
+  },
+  {
+   "ref": "ST0493",
+   "title": "Podiatrist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0493-v2-0",
+   "reason": "Treat foot and leg problems to keep people walking pain-free"
+  },
+  {
+   "ref": "ST0007",
+   "title": "Lead practitioner in adult care",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0007-v1-2",
+   "reason": "Work as a physiotherapy assistant supporting rehab and recovery daily"
+  }
  ]
 }

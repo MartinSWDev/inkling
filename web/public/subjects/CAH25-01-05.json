@@ -130,5 +130,39 @@
    "setting": "campus town",
    "town": "Grays"
   }
+ ],
+ "jobs": [
+  "Skilled trades occupations",
+  "Elementary occupations",
+  "Artistic, literary and media occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0439",
+   "title": "Jewellery, silversmithing, and allied trades professional",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0439-v1-1",
+   "reason": "Design and make jewellery and silverware by hand"
+  },
+  {
+   "ref": "ST0213",
+   "title": "Hairdressing professional",
+   "level": 2,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0213-v1-2",
+   "reason": "Cut, colour and style hair for real clients"
+  },
+  {
+   "ref": "ST1371",
+   "title": "Model maker",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1371-v1-0",
+   "reason": "Build props and models for film, TV and stage"
+  }
  ]
 }

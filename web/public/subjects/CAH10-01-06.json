@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Leicester"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0601",
+   "title": "Prosthetist and orthotist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0601-v2-0",
+   "reason": "Design and fit artificial limbs that help people walk again"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Develop scanners and implants used by doctors in hospitals"
+  },
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Run medical scanners to help doctors spot and treat illness"
+  },
+  {
+   "ref": "ST0151",
+   "title": "Embedded electronic systems design and development engineer (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0151-v1-3",
+   "reason": "Build tiny electronics inside prosthetics, implants and scanners"
+  },
+  {
+   "ref": "ST0672",
+   "title": "Electro-mechanical engineer",
+   "level": 6,
+   "months": 60,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0672-v1-0",
+   "reason": "Create robotic limbs and smart medical machines for patients"
+  },
+  {
+   "ref": "ST0675",
+   "title": "Materials science technologist (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0675-v1-1",
+   "reason": "Invent new materials to make safer, stronger implants"
+  }
  ]
 }

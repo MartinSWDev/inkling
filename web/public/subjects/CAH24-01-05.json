@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Artistic, literary and media occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1490",
+   "title": "Journalist",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1490-v2-0",
+   "reason": "Create news for TV, online and socials that informs culture"
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Dream up ads and campaigns that influence what people think"
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Make videos, posts and podcasts that build audiences online"
+  },
+  {
+   "ref": "ST0341",
+   "title": "Production assistant - screen and audio",
+   "level": 3,
+   "months": 9,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0341-v2-0",
+   "reason": "Assist making TV shows and podcasts from idea to broadcast"
+  },
+  {
+   "ref": "ST0696",
+   "title": "Post production technical operator",
+   "level": 4,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0696-v1-1",
+   "reason": "Get film and TV footage ready for editing and final cut"
+  },
+  {
+   "ref": "ST0792",
+   "title": "Junior production coordinator",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0792-v2-0",
+   "reason": "Coordinate TV, film and audio projects behind the scenes"
+  }
  ]
 }

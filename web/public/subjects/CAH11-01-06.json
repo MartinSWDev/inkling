@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Liverpool"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Web and multimedia design professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0488",
+   "title": "Junior animator",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0488-v1-4",
+   "reason": "Animate characters and worlds for games and films."
+  },
+  {
+   "ref": "ST1325",
+   "title": "Junior visual effects - VFX artist or assistant technical director - ATD",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1325-v1-2",
+   "reason": "Create CG effects and 3D animation for games and film."
+  },
+  {
+   "ref": "ST1371",
+   "title": "Model maker",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1371-v1-0",
+   "reason": "Build 3D models and characters used inside games."
+  },
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Code games, apps and interactive experiences players use."
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Design how players navigate and interact with games."
+  },
+  {
+   "ref": "ST0625",
+   "title": "Creative digital design professional (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0625-v1-0",
+   "reason": "Combine art, code and storytelling to create digital experiences."
+  }
  ]
 }

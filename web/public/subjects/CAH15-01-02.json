@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Lincoln"
   }
+ ],
+ "jobs": [
+  "Administrative occupations",
+  "Business and public service associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Research how society works and why inequalities happen"
+  },
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Support vulnerable people facing inequality, poverty and social challenges"
+  },
+  {
+   "ref": "ST0526",
+   "title": "Policy officer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0526-v1-2",
+   "reason": "Turn research on fairness into policies that change society"
+  },
+  {
+   "ref": "ST0238",
+   "title": "People professional",
+   "level": 5,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0238-v1-4",
+   "reason": "Make workplaces fairer by championing diversity and inclusion"
+  },
+  {
+   "ref": "ST0878",
+   "title": "Youth justice practitioner",
+   "level": 5,
+   "months": 25,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0878-v1-1",
+   "reason": "Help young people in the justice system rebuild their futures"
+  },
+  {
+   "ref": "ST0088",
+   "title": "Children, young people and families practitioner",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0088-v1-0",
+   "reason": "Support children and families facing tough social challenges together"
+  }
  ]
 }

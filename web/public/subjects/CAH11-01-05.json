@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Southampton"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1512",
+   "title": "Artificial intelligence (AI) and automation practitioner",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1512-v2-1",
+   "reason": "Build AI tools that automate tasks and learn from data"
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Train AI models to spot patterns and predict outcomes"
+  },
+  {
+   "ref": "ST0482",
+   "title": "Digital and technology solutions specialist (integrated degree)",
+   "level": 7,
+   "months": 18,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0482-v1-0",
+   "reason": "Become a data science specialist working with big data and AI"
+  },
+  {
+   "ref": "ST0118",
+   "title": "Data analyst",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0118-v1-1",
+   "reason": "Analyse data to find trends that teach AI systems"
+  },
+  {
+   "ref": "ST1317",
+   "title": "Robotics engineer - degree",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1317-v1-2",
+   "reason": "Design smart robots that learn and make decisions alone"
+  },
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Code the software that powers AI and data systems"
+  }
  ]
 }

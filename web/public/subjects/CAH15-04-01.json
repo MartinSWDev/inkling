@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Welfare professionals",
+  "Welfare and housing associate professionals",
+  "Caring personal services"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Become a qualified social worker while you earn."
+  },
+  {
+   "ref": "ST0088",
+   "title": "Children, young people and families practitioner",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0088-v1-0",
+   "reason": "Support children and families through tough times every day."
+  },
+  {
+   "ref": "ST0087",
+   "title": "Children, young people and families manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0087-v1-0",
+   "reason": "Lead teams protecting and supporting vulnerable children and families."
+  },
+  {
+   "ref": "ST0878",
+   "title": "Youth justice practitioner",
+   "level": 5,
+   "months": 25,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0878-v1-1",
+   "reason": "Help young people leave crime behind and rebuild lives."
+  },
+  {
+   "ref": "ST0008",
+   "title": "Leader in adult care",
+   "level": 5,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0008-v1-2",
+   "reason": "Manage care services supporting vulnerable adults in your community."
+  },
+  {
+   "ref": "ST0494",
+   "title": "Probation service practitioner",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0494-v1-1",
+   "reason": "Support people on probation and keep communities safe."
+  }
  ]
 }

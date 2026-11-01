@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Galashiels"
   }
+ ],
+ "jobs": [
+  "Web and multimedia design professionals",
+  "Sales occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0625",
+   "title": "Creative digital design professional (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0625-v1-0",
+   "reason": "Design digital graphics, branding and visuals for real clients."
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Design apps and websites to look great and work smoothly."
+  },
+  {
+   "ref": "ST0027",
+   "title": "Product design and development engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0027-v1-1",
+   "reason": "Sketch, model and engineer new products from idea to prototype."
+  },
+  {
+   "ref": "ST0540",
+   "title": "Fashion and textiles product technologist",
+   "level": 4,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0540-v1-1",
+   "reason": "Turn fashion drawings into real clothes ready for production."
+  },
+  {
+   "ref": "ST1371",
+   "title": "Model maker",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1371-v1-0",
+   "reason": "Build scale models to test product and interior designs."
+  },
+  {
+   "ref": "ST0044",
+   "title": "Design and construction management (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0044-v1-0",
+   "reason": "Design interiors and buildings and oversee how they're built."
+  }
  ]
 }

@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Cardiff"
   }
+ ],
+ "jobs": [
+  "Legal professionals",
+  "Business and public service associate professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0246",
+   "title": "Solicitor",
+   "level": 7,
+   "months": 72,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0246-v2-0",
+   "reason": "Train as a solicitor, advising clients and arguing cases in court."
+  },
+  {
+   "ref": "ST1389",
+   "title": "Barrister",
+   "level": 7,
+   "months": 72,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1389-v2-0",
+   "reason": "Become a barrister, representing people in court and debating legal arguments."
+  },
+  {
+   "ref": "ST0244",
+   "title": "Chartered legal executive",
+   "level": 6,
+   "months": 60,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0244-v2-1",
+   "reason": "Qualify as a legal executive, handling cases like a solicitor does."
+  },
+  {
+   "ref": "ST1400",
+   "title": "Costs lawyer",
+   "level": 6,
+   "months": 48,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1400-v2-0",
+   "reason": "Specialise in legal costs, settling who pays what after court cases."
+  },
+  {
+   "ref": "ST1311",
+   "title": "Licensed conveyancer or licensed probate practitioner",
+   "level": 6,
+   "months": 56,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1311-v2-0",
+   "reason": "Handle property law and wills, helping people buy homes or manage estates."
+  },
+  {
+   "ref": "ST1476",
+   "title": "Advanced paralegal",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1476-v2-0",
+   "reason": "Work as a senior paralegal, researching law and supporting solicitors daily."
+  }
  ]
 }

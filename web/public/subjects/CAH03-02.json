@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Edinburgh"
   }
- ]
+ ],
+ "jobs": [
+  "Sports and fitness occupations",
+  "Teaching professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": []
 }

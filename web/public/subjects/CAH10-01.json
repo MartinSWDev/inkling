@@ -130,5 +130,11 @@
    "setting": "campus town",
    "town": "Durham"
   }
- ]
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": []
 }

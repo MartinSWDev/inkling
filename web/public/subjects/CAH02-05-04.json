@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Glasgow"
   }
+ ],
+ "jobs": [
+  "Natural and social science professionals",
+  "Other health professionals",
+  "Health associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0995",
+   "title": "Doctor (Degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0995-v2-0",
+   "reason": "Become a doctor learning how bodies work and fail."
+  },
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse blood and tissue samples to diagnose disease."
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Do advanced lab tests to understand and track disease."
+  },
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Take X-rays and scans to see inside the body."
+  },
+  {
+   "ref": "ST0519",
+   "title": "Physiotherapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0519-v2-0",
+   "reason": "Use muscles, bones and movement science to heal people."
+  },
+  {
+   "ref": "ST0889",
+   "title": "Mortuary technician",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0889-v1-1",
+   "reason": "Look after bodies after death and investigate disease causes."
+  }
  ]
 }

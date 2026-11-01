@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Hull"
   }
+ ],
+ "jobs": [
+  "Conservation and environment professionals",
+  "Business and public service associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soils to protect food, water and natural ecosystems."
+  },
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Explore rocks, water and air to understand Earth's environment."
+  },
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Protect trees and woodlands where wildlife and people thrive."
+  },
+  {
+   "ref": "ST1427",
+   "title": "Forestry works manager",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1427-v1-0",
+   "reason": "Manage forests to balance wildlife, people and timber needs."
+  },
+  {
+   "ref": "ST0748",
+   "title": "Sustainability business specialist (integrated degree)",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0748-v1-1",
+   "reason": "Help organisations cut pollution and protect nature sustainably."
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Use satellite and drone data to monitor environmental change."
+  }
  ]
 }

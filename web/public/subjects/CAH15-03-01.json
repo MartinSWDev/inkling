@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Belfast"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0526",
+   "title": "Policy officer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0526-v1-2",
+   "reason": "Help create government policies that shape everyday life."
+  },
+  {
+   "ref": "ST0430",
+   "title": "Regulatory compliance officer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0430-v2-0",
+   "reason": "Make sure organisations follow laws and regulations fairly."
+  },
+  {
+   "ref": "ST0708",
+   "title": "Public sector compliance investigator and officer",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0708-v1-0",
+   "reason": "Investigate rule-breaking in public services for government."
+  },
+  {
+   "ref": "ST0536",
+   "title": "Chartered town planner (degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0536-v1-0",
+   "reason": "Decide how towns and cities grow and serve communities."
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Research society to help politicians make better decisions."
+  },
+  {
+   "ref": "ST0796",
+   "title": "Senior professional economist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0796-v2-0",
+   "reason": "Advise government on economics behind big political choices."
+  }
  ]
 }

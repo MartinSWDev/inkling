@@ -50,5 +50,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Teaching professionals",
+  "Other health professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0393",
+   "title": "Dairy technologist",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0393-v1-2",
+   "reason": "Make dairy like cheese and yoghurt safely at scale"
+  },
+  {
+   "ref": "ST0580",
+   "title": "Brewer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0580-v1-2",
+   "reason": "Brew beer and other drinks professionally"
+  },
+  {
+   "ref": "ST0529",
+   "title": "Food and drink advanced engineer (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0529-v1-0",
+   "reason": "Engineer large factories that make food and drink"
+  },
+  {
+   "ref": "ST0624",
+   "title": "Food and drink engineer",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0624-v1-1",
+   "reason": "Keep food factories running and improve production"
+  },
+  {
+   "ref": "ST1320",
+   "title": "Assistant farm manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1320-v1-1",
+   "reason": "Run a farm producing food for shops"
+  },
+  {
+   "ref": "ST0196",
+   "title": "Food and drink technical operator",
+   "level": 3,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0196-v1-3",
+   "reason": "Operate machines that make food and drink"
+  }
  ]
 }

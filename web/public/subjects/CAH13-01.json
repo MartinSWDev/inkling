@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "London"
   }
- ]
+ ],
+ "jobs": [
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals",
+  "Science, engineering and technology associate professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": []
 }

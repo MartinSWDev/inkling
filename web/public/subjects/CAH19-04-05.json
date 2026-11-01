@@ -50,5 +50,66 @@
    "setting": "city",
    "town": "Birmingham"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Business, research and administrative professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Preserve historical archives including literature and cultural records"
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Create museum exhibitions sharing history, literature and cultures with visitors"
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Repair and protect cultural treasures and historic artefacts for future"
+  },
+  {
+   "ref": "ST0477",
+   "title": "Academic professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0477-v1-0",
+   "reason": "Research and teach Slavic languages, history and literature at university"
+  },
+  {
+   "ref": "ST0490",
+   "title": "Teacher - Postgraduate",
+   "level": 6,
+   "months": 9,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0490-v2-0",
+   "reason": "Teach Russian and Slavic literature, history and culture in schools"
+  },
+  {
+   "ref": "ST1469",
+   "title": "Collections technician",
+   "level": 3,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1469-v1-0",
+   "reason": "Care for museum collections that tell stories of history and culture"
+  }
  ]
 }

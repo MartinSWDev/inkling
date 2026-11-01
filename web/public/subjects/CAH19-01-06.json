@@ -42,5 +42,21 @@
    "setting": "campus town",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Artistic, literary and media occupations",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0966",
+   "title": "Teacher for the sensory impaired",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0966-v2-0",
+   "reason": "Train to teach deaf learners using sign language daily"
+  }
  ]
 }

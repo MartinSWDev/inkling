@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Stirling"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Business and public service associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0119",
+   "title": "Digital and technology solutions professional",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2",
+   "reason": "Build tech solutions to help businesses work smarter, like the degree."
+  },
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Create apps and software that solve real business problems."
+  },
+  {
+   "ref": "ST0118",
+   "title": "Data analyst",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0118-v1-1",
+   "reason": "Analyse data to help businesses make better decisions."
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Turn big data into insights that boost business performance."
+  },
+  {
+   "ref": "ST1512",
+   "title": "Artificial intelligence (AI) and automation practitioner",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1512-v2-1",
+   "reason": "Use AI and automation to make businesses faster and smarter."
+  },
+  {
+   "ref": "ST0964",
+   "title": "Digital product manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0964-v2-0",
+   "reason": "Manage digital products businesses use, from idea to launch."
+  }
  ]
 }

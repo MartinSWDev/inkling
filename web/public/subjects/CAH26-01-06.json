@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Penryn"
   }
+ ],
+ "jobs": [
+  "Natural and social science professionals",
+  "Conservation and environment professionals",
+  "Engineering professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Become a geologist exploring rocks, oceans and how Earth formed"
+  },
+  {
+   "ref": "ST0881",
+   "title": "Geotechnical engineer (integrated degree)",
+   "level": 7,
+   "months": 30,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0881-v1-0",
+   "reason": "Test rocks and soils to design tunnels, dams and foundations"
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Investigate soils and landscapes to tackle climate and food challenges"
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Map oceans, atmosphere and land using satellites and GIS tech"
+  },
+  {
+   "ref": "ST0605",
+   "title": "Mineral products technician",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0605-v1-0",
+   "reason": "Run quarries extracting the rocks and minerals you study"
+  },
+  {
+   "ref": "ST0511",
+   "title": "Mineral and construction product sampling and testing operations",
+   "level": 2,
+   "months": 14,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0511-v1-1",
+   "reason": "Hands-on lab testing of rocks, sands and gravels"
+  }
  ]
 }

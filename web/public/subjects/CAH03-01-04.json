@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Manchester"
   }
+ ],
+ "jobs": [
+  "Natural and social science professionals",
+  "Science, engineering and technology associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse bacteria and cells in hospital labs to diagnose disease"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Lead lab science improving diagnosis and treatment of infections"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Run experiments to discover how cells and microbes fight disease"
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Support scientists testing patient samples for infections and cell changes"
+  },
+  {
+   "ref": "ST0248",
+   "title": "Laboratory technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0248-v1-3",
+   "reason": "Prep and run lab tests on bacteria and cell samples"
+  },
+  {
+   "ref": "ST1406",
+   "title": "Science manufacturing technician 2023",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1406-v1-0",
+   "reason": "Make sterile medicines keeping bacteria out in clean labs"
+  }
  ]
 }

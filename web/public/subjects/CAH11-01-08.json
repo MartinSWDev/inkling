@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Glasgow"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Web and multimedia design professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0409",
+   "title": "Cyber security technical professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0409-v1-1",
+   "reason": "Protect computers and networks from hackers and cyber attacks"
+  },
+  {
+   "ref": "ST1343",
+   "title": "Digital forensic technician",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1343-v1-1",
+   "reason": "Investigate phones and computers to find digital evidence"
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Design apps and websites that are simple and fun to use"
+  },
+  {
+   "ref": "ST0119",
+   "title": "Digital and technology solutions professional",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2",
+   "reason": "Build tech solutions including cyber security and software development"
+  },
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Code mobile and web apps people use every day"
+  },
+  {
+   "ref": "ST0964",
+   "title": "Digital product manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0964-v2-0",
+   "reason": "Plan and manage how digital apps get built for users"
+  }
  ]
 }

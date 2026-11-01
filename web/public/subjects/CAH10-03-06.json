@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Eastbourne"
   }
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Engineering professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0426",
+   "title": "Broadcast and media systems engineer (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0426-v1-1",
+   "reason": "Build and maintain the tech that broadcasts music and audio everywhere."
+  },
+  {
+   "ref": "ST0940",
+   "title": "Audiovisual technician",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0940-v1-0",
+   "reason": "Set up microphones, speakers and screens for live shows and events."
+  },
+  {
+   "ref": "ST0372",
+   "title": "Building services engineer",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0372-v1-1",
+   "reason": "Design studios and venues so sound and acoustics are perfect."
+  },
+  {
+   "ref": "ST0696",
+   "title": "Post production technical operator",
+   "level": 4,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0696-v1-1",
+   "reason": "Handle recorded files and keep editing teams running smoothly."
+  },
+  {
+   "ref": "ST0792",
+   "title": "Junior production coordinator",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0792-v2-0",
+   "reason": "Organise audio talent and schedules to keep productions on track."
+  },
+  {
+   "ref": "ST0424",
+   "title": "Broadcast and media systems technical operator",
+   "level": 3,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0424-v1-2",
+   "reason": "Run sound desks and livestreams for radio, TV and podcasts."
+  }
  ]
 }

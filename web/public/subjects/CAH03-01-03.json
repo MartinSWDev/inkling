@@ -130,5 +130,57 @@
    "setting": "campus town",
    "town": "Norwich"
   }
+ ],
+ "jobs": [
+  "Elementary occupations",
+  "Conservation and environment professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Study soil life that supports plants and habitats."
+  },
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Care for trees and woodlands where wildlife lives."
+  },
+  {
+   "ref": "ST1427",
+   "title": "Forestry works manager",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1427-v1-0",
+   "reason": "Manage forests to protect wildlife and habitats sustainably."
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Map habitats and track environmental change using data."
+  },
+  {
+   "ref": "ST0550",
+   "title": "Safety, health and environment technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0550-v1-4",
+   "reason": "Monitor pollution and protect natural habitats on site."
+  }
  ]
 }

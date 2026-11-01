@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Sheffield"
   }
+ ],
+ "jobs": [
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals",
+  "Managers, directors and senior officials",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0044",
+   "title": "Design and construction management (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0044-v1-0",
+   "reason": "Design and manage building projects using digital tools like BIM"
+  },
+  {
+   "ref": "ST0045",
+   "title": "Construction quantity surveyor (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0045-v1-0",
+   "reason": "Cost building projects and manage budgets as quantity surveyor"
+  },
+  {
+   "ref": "ST0047",
+   "title": "Construction site management (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0047-v1-0",
+   "reason": "Lead construction sites and keep builds safe and on schedule"
+  },
+  {
+   "ref": "ST0331",
+   "title": "Chartered surveyor (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0331-v1-2",
+   "reason": "Survey buildings, advise on costs, value and condition"
+  },
+  {
+   "ref": "ST0652",
+   "title": "Building control surveyor (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0652-v1-0",
+   "reason": "Check buildings meet safety and legal standards on site"
+  },
+  {
+   "ref": "ST0372",
+   "title": "Building services engineer",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0372-v1-1",
+   "reason": "Design heating, lighting and services that make buildings work"
+  }
  ]
 }

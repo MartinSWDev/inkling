@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Oxford"
   }
+ ],
+ "jobs": [
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals",
+  "Business and public service associate professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0536",
+   "title": "Chartered town planner (degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0536-v1-0",
+   "reason": "Become a qualified town planner while earning a salary."
+  },
+  {
+   "ref": "ST0936",
+   "title": "Town planning assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0936-v1-0",
+   "reason": "Support planners with real applications and local development plans."
+  },
+  {
+   "ref": "ST0698",
+   "title": "Transport planner (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0698-v1-1",
+   "reason": "Design transport systems that shape towns and cities."
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Analyse maps and spatial data to plan better places."
+  },
+  {
+   "ref": "ST0491",
+   "title": "Geospatial survey technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0491-v1-1",
+   "reason": "Use drones and GIS to map land for planning."
+  },
+  {
+   "ref": "ST0749",
+   "title": "Historic environment advice assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0749-v1-0",
+   "reason": "Advise on protecting historic buildings and conservation areas."
+  }
  ]
 }

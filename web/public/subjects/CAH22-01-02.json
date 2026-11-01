@@ -130,5 +130,57 @@
    "setting": "campus town",
    "town": "Bedford"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Teaching and childcare support occupation",
+  "Teaching and childcare associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1502",
+   "title": "Teacher - Undergraduate",
+   "level": 6,
+   "months": 45,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1502-v2-0",
+   "reason": "Train as a school teacher while earning a salary."
+  },
+  {
+   "ref": "ST0490",
+   "title": "Teacher - Postgraduate",
+   "level": 6,
+   "months": 9,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0490-v2-0",
+   "reason": "Postgraduate route to become a qualified classroom teacher."
+  },
+  {
+   "ref": "ST0966",
+   "title": "Teacher for the sensory impaired",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0966-v2-0",
+   "reason": "Specialist teacher supporting deaf, blind and multi-sensory impaired pupils."
+  },
+  {
+   "ref": "ST1077",
+   "title": "Early years teacher (with EYTS)",
+   "level": 6,
+   "months": 33,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1077-v1-1",
+   "reason": "Teach and nurture children from birth to age five."
+  },
+  {
+   "ref": "ST0149",
+   "title": "Learning and skills teacher",
+   "level": 5,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0149-v1-4",
+   "reason": "Teach teenagers and adults in colleges and training centres."
+  }
  ]
 }

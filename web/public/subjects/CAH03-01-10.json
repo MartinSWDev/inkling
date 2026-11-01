@@ -130,5 +130,66 @@
    "setting": "countryside",
    "town": "Preston"
   }
+ ],
+ "jobs": [
+  "Science, engineering and technology associate professionals",
+  "Elementary occupations",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse blood and tissue samples to diagnose diseases"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Run lab tests to understand disease and improve treatments"
+  },
+  {
+   "ref": "ST0995",
+   "title": "Doctor (Degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0995-v2-0",
+   "reason": "Learn how the body works to diagnose and treat patients"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Research how bodies work to develop new medicines and cures"
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Help scientists in labs studying health and disease"
+  },
+  {
+   "ref": "ST0248",
+   "title": "Laboratory technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0248-v1-3",
+   "reason": "Set up lab experiments exploring human biology and disease"
+  }
  ]
 }

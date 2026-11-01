@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Egham"
   }
+ ],
+ "jobs": [
+  "Welfare and housing associate professionals",
+  "Caring personal services",
+  "Teaching and childcare support occupation"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Help people manage anxiety and depression with talking therapies"
+  },
+  {
+   "ref": "ST0785",
+   "title": "Human factors specialist",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0785-v1-0",
+   "reason": "Design jobs and tech to fit how people think"
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Make apps and websites work better for real people"
+  },
+  {
+   "ref": "ST0633",
+   "title": "Arts therapist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0633-v2-0",
+   "reason": "Use art, drama or music to improve mental health"
+  },
+  {
+   "ref": "ST0878",
+   "title": "Youth justice practitioner",
+   "level": 5,
+   "months": 25,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0878-v1-1",
+   "reason": "Help young people turn away from crime and rebuild lives"
+  },
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Support vulnerable children and families to stay safe"
+  }
  ]
 }

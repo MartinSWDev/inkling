@@ -10,5 +10,66 @@
    "setting": "city",
    "town": "Birmingham"
   }
+ ],
+ "jobs": [
+  "Administrative occupations",
+  "Natural and social science professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Find and identify rocks, minerals and gemstones out in the field."
+  },
+  {
+   "ref": "ST1309",
+   "title": "Mine management",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1309-v1-0",
+   "reason": "Run mines and quarries that extract minerals safely and efficiently."
+  },
+  {
+   "ref": "ST0605",
+   "title": "Mineral products technician",
+   "level": 5,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0605-v1-0",
+   "reason": "Supervise quarries extracting and testing mineral products for industry."
+  },
+  {
+   "ref": "ST0659",
+   "title": "Materials process engineer (degree)",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0659-v1-1",
+   "reason": "Develop processes to turn raw minerals into useful industrial products."
+  },
+  {
+   "ref": "ST0675",
+   "title": "Materials science technologist (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0675-v1-1",
+   "reason": "Test and develop new uses for minerals and gemstone materials."
+  },
+  {
+   "ref": "ST0439",
+   "title": "Jewellery, silversmithing, and allied trades professional",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0439-v1-1",
+   "reason": "Design and make jewellery using gemstones and precious metals."
+  }
  ]
 }

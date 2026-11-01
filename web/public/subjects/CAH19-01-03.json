@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Nottingham"
   }
- ]
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Business and public service associate professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": []
 }

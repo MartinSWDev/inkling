@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Brighton"
   }
+ ],
+ "jobs": [
+  "Administrative occupations",
+  "Teaching professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Look after art collections and explain what they tell us about history."
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Repair and preserve old paintings, buildings and precious objects for future."
+  },
+  {
+   "ref": "ST0831",
+   "title": "Historic environment advisor",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0831-v1-0",
+   "reason": "Advise how to protect historic buildings and places that shape communities."
+  },
+  {
+   "ref": "ST0749",
+   "title": "Historic environment advice assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0749-v1-0",
+   "reason": "Help protect historic buildings and research their stories for public."
+  },
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Care for historic documents and objects that reveal how people lived."
+  },
+  {
+   "ref": "ST0912",
+   "title": "Stained glass craftsperson",
+   "level": 4,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0912-v1-0",
+   "reason": "Conserve beautiful historic stained glass windows in churches and old buildings."
+  }
  ]
 }

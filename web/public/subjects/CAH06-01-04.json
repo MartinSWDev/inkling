@@ -50,5 +50,66 @@
    "setting": "countryside",
    "town": "Dumfries"
   }
+ ],
+ "jobs": [
+  "Elementary occupations",
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals",
+  "Skilled trades occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0331",
+   "title": "Chartered surveyor (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0331-v1-2",
+   "reason": "Value and manage countryside land, farms and estate buildings."
+  },
+  {
+   "ref": "ST1320",
+   "title": "Assistant farm manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1320-v1-1",
+   "reason": "Run the farming operation on a large country estate."
+  },
+  {
+   "ref": "ST1427",
+   "title": "Forestry works manager",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1427-v1-0",
+   "reason": "Manage estate woodlands from planting to harvesting timber."
+  },
+  {
+   "ref": "ST0410",
+   "title": "Senior and head of facilities management (integrated degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0410-v1-0",
+   "reason": "Run all estate buildings and grounds as head of estates."
+  },
+  {
+   "ref": "ST0922",
+   "title": "Professional arboriculturist (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0922-v1-1",
+   "reason": "Look after trees and woodlands across country estates."
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Improve soil health for farming, forestry and wildlife habitats."
+  }
  ]
 }

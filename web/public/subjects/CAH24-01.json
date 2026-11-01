@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Cardiff"
   }
- ]
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Artistic, literary and media occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

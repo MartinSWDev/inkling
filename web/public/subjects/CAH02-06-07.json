@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Aberdeen"
   }
+ ],
+ "jobs": [
+  "Therapy professionals",
+  "Welfare and housing associate professionals",
+  "Caring personal services"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Help people relearn everyday tasks after illness or injury"
+  },
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Support people with anxiety or depression using talking therapies"
+  },
+  {
+   "ref": "ST0633",
+   "title": "Arts therapist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0633-v2-0",
+   "reason": "Use art, drama or music to help people talk about feelings"
+  },
+  {
+   "ref": "ST0905",
+   "title": "Play therapist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0905-v1-0",
+   "reason": "Help children explore worries and feelings through play"
+  },
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Help vulnerable people and families stay safe and cope daily"
+  },
+  {
+   "ref": "ST0088",
+   "title": "Children, young people and families practitioner",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0088-v1-0",
+   "reason": "Support children and families with practical and emotional challenges"
+  }
  ]
 }

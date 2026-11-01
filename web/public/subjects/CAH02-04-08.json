@@ -130,5 +130,57 @@
    "setting": "campus town",
    "town": "Preston"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Caring personal services",
+  "Welfare and housing associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Become a learning disability nurse via a degree apprenticeship."
+  },
+  {
+   "ref": "ST1419",
+   "title": "Community nurse specialist practitioner (NMC 2022)",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1419-v2-0",
+   "reason": "Specialise as a community learning disabilities nurse supporting families."
+  },
+  {
+   "ref": "ST0827",
+   "title": "Nursing associate (NMC 2018)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0827-v2-0",
+   "reason": "Assist nurses caring for people with learning disabilities daily."
+  },
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Help people with disabilities live independently in everyday life."
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Provide hands-on care and support in hospitals and communities."
+  }
  ]
 }

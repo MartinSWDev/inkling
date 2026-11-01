@@ -14,6 +14,54 @@ export type DeckCardW = { id: string; title: string; terms: Record<string, numbe
 export type PairLike = { id: string; a: { label: string; scores: Record<string, number> }; b: { label: string; scores: Record<string, number> } };
 export type RankedRow = { code: string; display_name: string; score: number; uncertainty: number; direct: number; reasons: string[] };
 
+/** Hands-on card ids (making / fixing / building) in the things deck. */
+export const HANDS_ON_CARDS = new Set(["radio", "sew", "synth", "printer", "bridge"]);
+
+/** True when the player's answers lean practical/hands-on: a yes on a
+ * making/fixing card, the "Make it happen" pair side, or "Some of it
+ * outdoors". Two signals count as a lean (one hands-on yes counts once,
+ * two or more count twice). */
+export function isPractical(answers: AnswersLike): boolean {
+  let signals = 0;
+  const handsYes = (answers.swipes || []).filter((s) => s.answer === "yes" && HANDS_ON_CARDS.has(s.card_id)).length;
+  if (handsYes >= 1) signals += 1;
+  if (handsYes >= 2) signals += 1;
+  if ((answers.pairs || []).some((p) => p.pair_id === "why_vs_make" && p.side === "b")) signals += 1;
+  if ((answers.pairs || []).some((p) => p.pair_id === "indoors_vs_outdoors" && p.side === "b")) signals += 1;
+  return signals >= 2;
+}
+
+export type Apprenticeship = { ref: string; title: string; level: number; months: number; degree: boolean; url: string; reason: string };
+
+/** Up to 3 apprenticeships from the player's top subjects: degree
+ * apprenticeships first, then levels 3-5, then the rest; titles unique. */
+export function handsOnPicks(bySubject: Record<string, Apprenticeship[]>, codes: string[]): Apprenticeship[] {
+  const all: Apprenticeship[] = [];
+  const seen = new Set<string>();
+  for (const code of codes) for (const a of bySubject[code] || []) {
+    if (seen.has(a.title)) continue;
+    seen.add(a.title);
+    all.push(a);
+  }
+  const rank = (a: Apprenticeship) => (a.degree ? 0 : a.level >= 3 && a.level <= 5 ? 1 : 2);
+  return all.sort((x, y) => rank(x) - rank(y)).slice(0, 3);
+}
+
+/** Plain-words label for an apprenticeship level. */
+export function levelLabel(level: number): string {
+  if (level <= 3) return "Hands-on, ~GCSE/A-level standard";
+  if (level <= 5) return "Higher apprenticeship";
+  if (level === 6) return "Degree apprenticeship";
+  return "Master's level";
+}
+
+/** Typical length in plain words, e.g. 60 -> "about 5 years". */
+export function lengthLabel(months: number): string {
+  if (months < 12) return `about ${months} months`;
+  const years = Math.round(months / 12);
+  return years <= 1 ? "about 1 year" : `about ${years} years`;
+}
+
 const MULT: Record<string, number> = { yes: 1, no: -0.5, up: 2 };
 const round3 = (v: number) => Math.round(v * 1000) / 1000;
 

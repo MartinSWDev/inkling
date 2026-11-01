@@ -130,5 +130,21 @@
    "setting": "coast",
    "town": "Swansea"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Teaching professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0618",
+   "title": "Speech and language therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0618-v2-0",
+   "reason": "Help people speak clearly using sounds and grammar daily."
+  }
  ]
 }

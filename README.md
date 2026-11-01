@@ -15,3 +15,7 @@ sh scripts/dev.sh
 Open http://127.0.0.1:5173 in a browser (phone-sized is the design target). The API alone is `uvicorn api.main:app --reload` on port 8000; Vite proxies `/api` to it.
 
 Tests: `.venv/bin/python -m pytest api/tests/ -q`. Room loop check: `.venv/bin/python -m api.room_demo CAH07-01-01 CAH25-02-02`.
+
+## Data attribution
+
+Contains public sector information licensed under the Open Government Licence v3.0. Apprenticeship standards © Skills England.

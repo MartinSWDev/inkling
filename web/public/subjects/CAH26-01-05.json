@@ -10,5 +10,66 @@
    "setting": "coast",
    "town": "Plymouth"
   }
+ ],
+ "jobs": [
+  "Elementary occupations",
+  "Business and public service associate professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Analyse location data and build digital maps as a geospatial analyst."
+  },
+  {
+   "ref": "ST0491",
+   "title": "Geospatial survey technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0491-v1-1",
+   "reason": "Use drones and GIS to make maps and survey places."
+  },
+  {
+   "ref": "ST0536",
+   "title": "Chartered town planner (degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0536-v1-0",
+   "reason": "Use maps and data to design towns for people and environment."
+  },
+  {
+   "ref": "ST0698",
+   "title": "Transport planner (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0698-v1-1",
+   "reason": "Plan transport routes by analysing maps and travel data."
+  },
+  {
+   "ref": "ST0936",
+   "title": "Town planning assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0936-v1-0",
+   "reason": "Help plan towns using maps and data about communities."
+  },
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Map landscapes and analyse earth data to understand environments."
+  }
  ]
 }

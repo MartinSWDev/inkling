@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Cambridge"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0027",
+   "title": "Product design and development engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0027-v1-1",
+   "reason": "Design, prototype and test new products people use daily."
+  },
+  {
+   "ref": "ST0024",
+   "title": "Electrical and electronic engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0024-v1-3",
+   "reason": "Design electronics and power systems for devices and infrastructure."
+  },
+  {
+   "ref": "ST0417",
+   "title": "Civil engineer",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0417-v1-1",
+   "reason": "Design and build bridges, buildings and transport networks."
+  },
+  {
+   "ref": "ST0010",
+   "title": "Aerospace engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0010-v1-1",
+   "reason": "Design, build and test aircraft, spacecraft and flight systems."
+  },
+  {
+   "ref": "ST0025",
+   "title": "Manufacturing engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0025-v1-2",
+   "reason": "Make factories more efficient at building quality products."
+  },
+  {
+   "ref": "ST1317",
+   "title": "Robotics engineer - degree",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1317-v1-2",
+   "reason": "Design and build robots that solve real-world problems."
+  }
  ]
 }

@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Cardiff"
   }
- ]
+ ],
+ "jobs": [
+  "Caring personal services",
+  "Teaching and childcare support occupation",
+  "Welfare and housing associate professionals"
+ ],
+ "apprenticeships": []
 }

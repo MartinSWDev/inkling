@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Ormskirk"
   }
+ ],
+ "jobs": [
+  "Science, engineering and technology associate professionals",
+  "Natural and social science professionals",
+  "Nursing professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Run lab tests on blood and tissue to diagnose diseases"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Senior lab expert inventing and improving tests for patient diagnosis"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Research how diseases develop and trial new lab-based treatments"
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Help biomedical scientists run diagnostic lab tests for patients"
+  },
+  {
+   "ref": "ST0248",
+   "title": "Laboratory technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0248-v1-3",
+   "reason": "Set up lab equipment and run tests to spot diseases"
+  },
+  {
+   "ref": "ST0218",
+   "title": "Healthcare science assistant",
+   "level": 2,
+   "months": 14,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0218-v1-1",
+   "reason": "Assist lab team preparing patient samples for testing"
+  }
  ]
 }

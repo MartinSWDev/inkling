@@ -18,5 +18,66 @@
    "setting": "city",
    "town": "Glasgow"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Skilled trades occupations",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0027",
+   "title": "Product design and development engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0027-v1-1",
+   "reason": "Design new products using composites like modern boat hulls"
+  },
+  {
+   "ref": "ST0107",
+   "title": "Systems engineer (degree)",
+   "level": 7,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0107-v1-2",
+   "reason": "Make complex ship systems work together safely and reliably"
+  },
+  {
+   "ref": "ST0369",
+   "title": "Non-destructive testing engineer (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0369-v1-1",
+   "reason": "Test ships and marine structures without damaging them"
+  },
+  {
+   "ref": "ST0025",
+   "title": "Manufacturing engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0025-v1-2",
+   "reason": "Plan and improve how ships and structures get built"
+  },
+  {
+   "ref": "ST0164",
+   "title": "Engineering design technician",
+   "level": 3,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0164-v1-2",
+   "reason": "Create CAD designs for ship parts and systems"
+  },
+  {
+   "ref": "ST0059",
+   "title": "Boatbuilder",
+   "level": 3,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0059-v1-3",
+   "reason": "Build boats and ships hands-on from technical drawings"
+  }
  ]
 }

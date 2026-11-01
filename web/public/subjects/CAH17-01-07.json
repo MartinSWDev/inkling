@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Aberdeen"
   }
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Administrative occupations",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0472",
+   "title": "Financial services professional",
+   "level": 6,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0472-v1-0",
+   "reason": "Run banking services helping people and businesses manage money"
+  },
+  {
+   "ref": "ST0561",
+   "title": "Senior investment and commercial banking professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0561-v1-0",
+   "reason": "Advise big businesses on investments and commercial banking deals"
+  },
+  {
+   "ref": "ST0502",
+   "title": "Actuary",
+   "level": 7,
+   "months": 39,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0502-v2-0",
+   "reason": "Use maths to predict risk for insurance and pensions"
+  },
+  {
+   "ref": "ST0180",
+   "title": "Investment operations specialist",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0180-v2-0",
+   "reason": "Keep investment trades running smoothly behind the scenes"
+  },
+  {
+   "ref": "ST0003",
+   "title": "Professional accounting technician",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0003-v2-0",
+   "reason": "Handle accounts, budgets and audits for businesses"
+  },
+  {
+   "ref": "ST1458",
+   "title": "Professional taxation technician",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1458-v2-0",
+   "reason": "Help people and businesses pay the right tax"
+  }
  ]
 }

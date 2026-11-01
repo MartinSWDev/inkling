@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Science, engineering and technology associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0672",
+   "title": "Electro-mechanical engineer",
+   "level": 6,
+   "months": 60,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0672-v1-0",
+   "reason": "Build smart machines combining mechanical parts, electronics and robotics."
+  },
+  {
+   "ref": "ST0025",
+   "title": "Manufacturing engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0025-v1-2",
+   "reason": "Improve how factories build machines and products efficiently."
+  },
+  {
+   "ref": "ST0027",
+   "title": "Product design and development engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0027-v1-1",
+   "reason": "Design new machines and products from sketch to prototype."
+  },
+  {
+   "ref": "ST0588",
+   "title": "Propulsion technician",
+   "level": 4,
+   "months": 42,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0588-v1-0",
+   "reason": "Build and test engines and propulsion systems for vehicles."
+  },
+  {
+   "ref": "ST1317",
+   "title": "Robotics engineer - degree",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1317-v1-2",
+   "reason": "Design and build robots and automated moving machines."
+  },
+  {
+   "ref": "ST0023",
+   "title": "Control systems engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0023-v1-2",
+   "reason": "Make machines move accurately by designing control systems."
+  }
  ]
 }

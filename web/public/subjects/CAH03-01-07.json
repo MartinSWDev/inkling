@@ -114,5 +114,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Caring personal services",
+  "Administrative occupations",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Test DNA and genes in labs to diagnose illnesses"
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Run genetics tests that help doctors treat inherited diseases"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Research how genes work and why we inherit traits"
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Assist scientists doing DNA and genetics tests in healthcare"
+  },
+  {
+   "ref": "ST0946",
+   "title": "Vet technician (livestock)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0946-v1-0",
+   "reason": "Improve livestock by using genetics and embryo transfer techniques"
+  },
+  {
+   "ref": "ST0248",
+   "title": "Laboratory technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0248-v1-3",
+   "reason": "Prepare DNA samples and run experiments on genes"
+  }
  ]
 }

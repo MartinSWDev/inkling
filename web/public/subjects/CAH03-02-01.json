@@ -130,5 +130,57 @@
    "setting": "campus town",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Sports and fitness occupations",
+  "Teaching professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0519",
+   "title": "Physiotherapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0519-v2-0",
+   "reason": "Help athletes recover from injury and move better again."
+  },
+  {
+   "ref": "ST0599",
+   "title": "Dietitian",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0599-v2-0",
+   "reason": "Advise athletes on food to train harder and recover faster."
+  },
+  {
+   "ref": "ST0945",
+   "title": "Outdoor learning specialist",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0945-v1-0",
+   "reason": "Lead outdoor adventure sports and coach groups to improve."
+  },
+  {
+   "ref": "ST0093",
+   "title": "Community sport and health officer",
+   "level": 3,
+   "months": 16,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0093-v1-2",
+   "reason": "Run local sport sessions to get communities active and healthy."
+  },
+  {
+   "ref": "ST0479",
+   "title": "Outdoor activity instructor",
+   "level": 3,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0479-v1-1",
+   "reason": "Teach outdoor sports like climbing and keep everyone safe."
+  }
  ]
 }

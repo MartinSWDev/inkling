@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Leeds"
   }
- ]
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Conservation and environment professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

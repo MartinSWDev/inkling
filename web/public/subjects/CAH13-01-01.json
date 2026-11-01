@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Newcastle upon Tyne"
   }
+ ],
+ "jobs": [
+  "Science, engineering and technology associate professionals",
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals",
+  "Engineering professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0533",
+   "title": "Architect (integrated degree)",
+   "level": 7,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0533-v1-1",
+   "reason": "Train as an architect designing real buildings while you earn."
+  },
+  {
+   "ref": "ST0534",
+   "title": "Architectural assistant (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0534-v1-1",
+   "reason": "Work as architectural assistant helping design buildings in practice."
+  },
+  {
+   "ref": "ST0044",
+   "title": "Design and construction management (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0044-v1-0",
+   "reason": "Design buildings digitally as architectural technologist and BIM manager."
+  },
+  {
+   "ref": "ST0652",
+   "title": "Building control surveyor (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0652-v1-0",
+   "reason": "Make sure building designs are safe, legal and pleasant to use."
+  },
+  {
+   "ref": "ST0536",
+   "title": "Chartered town planner (degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0536-v1-0",
+   "reason": "Design towns and neighbourhoods to be useful, sustainable and pleasant."
+  },
+  {
+   "ref": "ST1371",
+   "title": "Model maker",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1371-v1-0",
+   "reason": "Build detailed architectural models that bring building designs to life."
+  }
  ]
 }

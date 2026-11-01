@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Nottingham"
   }
+ ],
+ "jobs": [
+  "Caring personal services",
+  "Welfare and housing associate professionals",
+  "Teaching and childcare support occupation"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0510",
+   "title": "Social worker (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0510-v2-0",
+   "reason": "Support vulnerable people and families to live safer, healthier lives daily."
+  },
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Provide hands-on nursing care in hospitals and communities."
+  },
+  {
+   "ref": "ST1418",
+   "title": "Specialist community public health nurse (NMC 2022)",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1418-v2-0",
+   "reason": "Lead community health projects preventing illness and promoting wellbeing."
+  },
+  {
+   "ref": "ST0830",
+   "title": "Health and care intelligence specialist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0830-v1-0",
+   "reason": "Use health data to spot trends and improve public services."
+  },
+  {
+   "ref": "ST0517",
+   "title": "Occupational therapist",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0517-v2-0",
+   "reason": "Help people regain independence after illness or injury daily."
+  },
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Support people with anxiety and depression to feel better."
+  }
  ]
 }

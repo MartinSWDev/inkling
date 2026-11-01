@@ -42,5 +42,66 @@
    "setting": "city",
    "town": "Edinburgh"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Elementary occupations",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Look after old letters, manuscripts and archives that tell Celtic stories."
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Create museum displays that bring Celtic history and culture to life."
+  },
+  {
+   "ref": "ST0831",
+   "title": "Historic environment advisor",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0831-v1-0",
+   "reason": "Advise how to protect historic Celtic sites and landscapes."
+  },
+  {
+   "ref": "ST0749",
+   "title": "Historic environment advice assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0749-v1-0",
+   "reason": "Help protect historic buildings and Celtic heritage sites."
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Repair and preserve historic objects and artworks for everyone."
+  },
+  {
+   "ref": "ST0769",
+   "title": "Archaeological specialist (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0769-v1-0",
+   "reason": "Uncover and study artefacts from Celtic peoples in the past."
+  }
  ]
 }

@@ -26,5 +26,11 @@
    "setting": "city",
    "town": "Edinburgh"
   }
- ]
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Sales occupations",
+  "Administrative occupations"
+ ],
+ "apprenticeships": []
 }

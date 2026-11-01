@@ -106,5 +106,48 @@
    "setting": "coast",
    "town": "Llanelli"
   }
+ ],
+ "jobs": [
+  "Animal care and control services",
+  "Elementary occupations",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0946",
+   "title": "Vet technician (livestock)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0946-v1-0",
+   "reason": "Support livestock health, fertility and growth on farms."
+  },
+  {
+   "ref": "ST1320",
+   "title": "Assistant farm manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1320-v1-1",
+   "reason": "Help run a farm and care for its animals."
+  },
+  {
+   "ref": "ST0789",
+   "title": "Keeper and aquarist",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0789-v1-0",
+   "reason": "Look after zoo and aquarium animals daily."
+  },
+  {
+   "ref": "ST0058",
+   "title": "Animal technologist",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0058-v1-2",
+   "reason": "Care for lab animals and protect their welfare."
+  }
  ]
 }

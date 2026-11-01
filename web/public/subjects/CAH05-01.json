@@ -130,5 +130,11 @@
    "setting": "countryside",
    "town": "Bishop Burton"
   }
- ]
+ ],
+ "jobs": [
+  "Veterinarians",
+  "Veterinary nurses",
+  "Therapy professionals"
+ ],
+ "apprenticeships": []
 }

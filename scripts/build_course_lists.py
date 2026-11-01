@@ -43,6 +43,9 @@ def main():
                 # A tagged location later in the file beats the provider fallback.
                 if tag and course_setting.get(cid, {}).get("_fallback"):
                     course_setting[cid] = {"setting": tag["setting"], "town": tag.get("town")}
+    # Apprenticeship links per subject (Skills England, OGL v3).
+    appr_path = ROOT / "data" / "subject_apprenticeships.json"
+    appr_by_subject = json.loads(appr_path.read_text()).get("subjects", {}) if appr_path.exists() else {}
     subjects = db.execute("SELECT code, name, level FROM subjects WHERE level >= 2 ORDER BY code").fetchall()
     children: dict[str, list[str]] = {}
     for row in db.execute("SELECT code, parent_code FROM subjects WHERE parent_code IS NOT NULL"):
@@ -108,8 +111,19 @@ def main():
         if not picked:
             empty.append(code)
         total += len(picked)
+        # Top 3 graduate job groups for this subject (weighted by percent).
+        job_rows = db.execute(
+            f"""SELECT j.job, SUM(j.percent) AS w FROM course_jobs j
+                JOIN course_subjects cs ON cs.course_id = j.course_id
+                WHERE cs.cah_code IN ({marks}) GROUP BY j.job ORDER BY w DESC LIMIT 3""", codes).fetchall()
+        def sentence_case(name: str) -> str:
+            words = [w if (w.isupper() and len(w) <= 4) else w.lower() for w in name.split()]
+            text = " ".join(words)
+            return text[:1].upper() + text[1:] if text else text
+        jobs = [sentence_case(r["job"]) for r in job_rows]
         (OUT / f"{code}.json").write_text(json.dumps(
-            {"code": code, "attribution": ATTRIBUTION, "courses": picked}, indent=1))
+            {"code": code, "attribution": ATTRIBUTION, "courses": picked,
+             "jobs": jobs, "apprenticeships": appr_by_subject.get(code, [])}, indent=1))
     print(f"subjects: {len(subjects)}, course entries: {total}, subjects with no courses: {len(empty)} {empty[:8]}")
 
 

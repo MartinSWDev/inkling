@@ -58,5 +58,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Administrative occupations",
+  "Librarians and related professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Repair and preserve historic objects so future generations can enjoy them"
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Care for museum collections and create exhibitions people love"
+  },
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Protect historic records and help people explore their stories"
+  },
+  {
+   "ref": "ST0749",
+   "title": "Historic environment advice assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0749-v1-0",
+   "reason": "Help save historic buildings and advise on protecting them"
+  },
+  {
+   "ref": "ST0831",
+   "title": "Historic environment advisor",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0831-v1-0",
+   "reason": "Advise on protecting historic places, buildings and landscapes"
+  },
+  {
+   "ref": "ST0769",
+   "title": "Archaeological specialist (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0769-v1-0",
+   "reason": "Study archaeological finds to reveal and share hidden histories"
+  }
  ]
 }

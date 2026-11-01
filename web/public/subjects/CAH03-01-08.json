@@ -130,5 +130,66 @@
    "setting": "coast",
    "town": "Belfast"
   }
+ ],
+ "jobs": [
+  "Science, engineering and technology associate professionals",
+  "Natural and social science professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1314",
+   "title": "Biomedical scientist",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1314-v2-0",
+   "reason": "Analyse blood and tissue in labs to diagnose disease."
+  },
+  {
+   "ref": "ST0893",
+   "title": "Clinical scientist",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0893-v1-1",
+   "reason": "Run specialist lab tests to understand diseases and improve treatments."
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Discover how living cells work and develop new medicines."
+  },
+  {
+   "ref": "ST0220",
+   "title": "Healthcare science associate",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0220-v1-1",
+   "reason": "Support lab scientists testing patient samples for vital clues."
+  },
+  {
+   "ref": "ST0248",
+   "title": "Laboratory technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0248-v1-3",
+   "reason": "Prepare and run lab experiments on chemicals and living samples."
+  },
+  {
+   "ref": "ST1406",
+   "title": "Science manufacturing technician 2023",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1406-v1-0",
+   "reason": "Make medicines safely in sterile labs using biology and chemistry."
+  }
  ]
 }

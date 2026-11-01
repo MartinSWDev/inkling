@@ -114,5 +114,66 @@
    "setting": "city",
    "town": "Manchester"
   }
+ ],
+ "jobs": [
+  "Teaching and childcare support occupation",
+  "Business and public service associate professionals",
+  "Administrative occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0568",
+   "title": "Psychological wellbeing practitioner",
+   "level": 6,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0568-v2-0",
+   "reason": "Help people manage thoughts and feelings using proven talking therapies."
+  },
+  {
+   "ref": "ST0785",
+   "title": "Human factors specialist",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0785-v1-0",
+   "reason": "Design products and systems that match how people think and behave."
+  },
+  {
+   "ref": "ST0470",
+   "title": "Digital user experience (UX) professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0470-v1-0",
+   "reason": "Use psychology to make apps and websites easy and engaging."
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Study how groups behave and influence society to guide decisions."
+  },
+  {
+   "ref": "ST0883",
+   "title": "Market research executive",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0883-v1-0",
+   "reason": "Explore why people choose products and how trends spread."
+  },
+  {
+   "ref": "ST0633",
+   "title": "Arts therapist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0633-v2-0",
+   "reason": "Use art and drama to help people express thoughts and heal."
+  }
  ]
 }

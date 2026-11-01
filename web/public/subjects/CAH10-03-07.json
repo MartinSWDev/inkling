@@ -34,5 +34,57 @@
    "setting": "city",
    "town": "Manchester"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0675",
+   "title": "Materials science technologist (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0675-v1-1",
+   "reason": "Create and test new metals, plastics and ceramics for future products."
+  },
+  {
+   "ref": "ST0659",
+   "title": "Materials process engineer (degree)",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0659-v1-1",
+   "reason": "Design better factory processes to make stronger, lighter materials."
+  },
+  {
+   "ref": "ST0369",
+   "title": "Non-destructive testing engineer (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0369-v1-1",
+   "reason": "Find hidden flaws in metals without breaking them using cool tech."
+  },
+  {
+   "ref": "ST1328",
+   "title": "Polymer processing technician",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1328-v1-0",
+   "reason": "Turn plastic pellets into everyday things like bottles and car parts."
+  },
+  {
+   "ref": "ST0566",
+   "title": "Metal casting, foundry and patternmaking technician",
+   "level": 3,
+   "months": 27,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0566-v1-3",
+   "reason": "Pour molten metal and make precise parts for engines and machines."
+  }
  ]
 }

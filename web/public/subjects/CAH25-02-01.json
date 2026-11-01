@@ -130,5 +130,11 @@
    "setting": "campus town",
    "town": "Chichester"
   }
- ]
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Sales occupations",
+  "Teaching and childcare support occupation"
+ ],
+ "apprenticeships": []
 }

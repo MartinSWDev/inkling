@@ -130,5 +130,48 @@
    "setting": "city",
    "town": "Liverpool"
   }
+ ],
+ "jobs": [
+  "Artistic, literary and media occupations",
+  "Elementary occupations",
+  "Teaching professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1490",
+   "title": "Journalist",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1490-v2-0",
+   "reason": "Write and edit real stories for news, TV and online daily."
+  },
+  {
+   "ref": "ST1340",
+   "title": "Advertising creative",
+   "level": 6,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1340-v1-0",
+   "reason": "Write scripts and ideas for adverts, refining them with feedback."
+  },
+  {
+   "ref": "ST1516",
+   "title": "Junior journalist",
+   "level": 5,
+   "months": 14,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1516-v1-0",
+   "reason": "Report, interview and write news stories with editor feedback."
+  },
+  {
+   "ref": "ST0105",
+   "title": "Content creator",
+   "level": 3,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0105-v2-0",
+   "reason": "Write stories, scripts and posts for brands and audiences online."
+  }
  ]
 }

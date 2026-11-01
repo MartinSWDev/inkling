@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Therapy professionals",
+  "Other health professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0948",
+   "title": "Midwife (2019 NMC standards) (Integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0948-v2-0",
+   "reason": "Train to become a qualified midwife while earning a salary."
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Support midwives directly caring for mothers and newborn babies."
+  },
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Hands-on nursing caring for mothers, babies and families on wards."
+  },
+  {
+   "ref": "ST0827",
+   "title": "Nursing associate (NMC 2018)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0827-v2-0",
+   "reason": "Provide hands-on nursing care supporting midwives and nurses daily."
+  },
+  {
+   "ref": "ST1418",
+   "title": "Specialist community public health nurse (NMC 2022)",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1418-v2-0",
+   "reason": "Become a health visitor supporting new mums and babies after birth."
+  }
  ]
 }

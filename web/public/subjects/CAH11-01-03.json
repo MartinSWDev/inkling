@@ -34,5 +34,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals",
+  "Business and public service associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0119",
+   "title": "Digital and technology solutions professional",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2",
+   "reason": "Build tech systems that help businesses use data smartly"
+  },
+  {
+   "ref": "ST0118",
+   "title": "Data analyst",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0118-v1-1",
+   "reason": "Analyse data to find patterns and solve business problems"
+  },
+  {
+   "ref": "ST0762",
+   "title": "Information manager",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0762-v1-0",
+   "reason": "Organise business information so teams can find and use it"
+  },
+  {
+   "ref": "ST0482",
+   "title": "Digital and technology solutions specialist (integrated degree)",
+   "level": 7,
+   "months": 18,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0482-v1-0",
+   "reason": "Master big data and turn insights into smarter decisions"
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Turn massive datasets into answers for real-world problems"
+  },
+  {
+   "ref": "ST0967",
+   "title": "Data protection and information governance practitioner",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0967-v2-0",
+   "reason": "Keep company data safe, legal and easy to use"
+  }
  ]
 }

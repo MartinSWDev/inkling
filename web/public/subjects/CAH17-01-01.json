@@ -130,5 +130,66 @@
    "setting": "countryside",
    "town": "Newport"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0385",
+   "title": "Operations manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0385-v1-4",
+   "reason": "Run daily operations and lead teams to hit business goals"
+  },
+  {
+   "ref": "ST0411",
+   "title": "Project manager (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0411-v1-0",
+   "reason": "Plan, lead and deliver projects on time and budget"
+  },
+  {
+   "ref": "ST0238",
+   "title": "People professional",
+   "level": 5,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0238-v1-4",
+   "reason": "Manage people, hiring and workplace culture in organisations"
+  },
+  {
+   "ref": "ST0596",
+   "title": "Marketing executive",
+   "level": 4,
+   "months": 15,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0596-v1-0",
+   "reason": "Promote products and grow customers for businesses"
+  },
+  {
+   "ref": "ST0003",
+   "title": "Professional accounting technician",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0003-v2-0",
+   "reason": "Handle money, budgets and accounts to keep business healthy"
+  },
+  {
+   "ref": "ST0572",
+   "title": "Sales executive",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0572-v1-1",
+   "reason": "Win customers and sell products to drive business growth"
+  }
  ]
 }

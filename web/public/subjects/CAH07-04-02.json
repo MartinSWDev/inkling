@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Bradford"
   }
+ ],
+ "jobs": [
+  "Science, engineering and technology associate professionals",
+  "Sales occupations",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0769",
+   "title": "Archaeological specialist (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0769-v1-0",
+   "reason": "Lead digs and analyse ancient finds to uncover history"
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Preserve and test ancient artefacts using scientific conservation techniques"
+  },
+  {
+   "ref": "ST0831",
+   "title": "Historic environment advisor",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0831-v1-0",
+   "reason": "Advise on saving heritage sites and historic environments"
+  },
+  {
+   "ref": "ST0749",
+   "title": "Historic environment advice assistant",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0749-v1-0",
+   "reason": "Help protect historic buildings and archaeological sites at risk"
+  },
+  {
+   "ref": "ST1343",
+   "title": "Digital forensic technician",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1343-v1-1",
+   "reason": "Recover digital clues from phones and computers for investigations"
+  },
+  {
+   "ref": "ST0221",
+   "title": "Archaeological technician",
+   "level": 3,
+   "months": 12,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0221-v1-1",
+   "reason": "Dig up ancient sites and record archaeological discoveries hands-on"
+  }
  ]
 }

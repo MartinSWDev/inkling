@@ -50,5 +50,11 @@
    "setting": null,
    "town": null
   }
- ]
+ ],
+ "jobs": [
+  "Teaching professionals",
+  "Administrative occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

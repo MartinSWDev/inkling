@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Edinburgh"
   }
- ]
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": []
 }

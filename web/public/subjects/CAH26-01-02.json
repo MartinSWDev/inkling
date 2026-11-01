@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Loughborough"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Conservation and environment professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1356",
+   "title": "Geoscientist (integrated degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1356-v1-1",
+   "reason": "Study how rivers, coasts and landscapes form and change."
+  },
+  {
+   "ref": "ST1362",
+   "title": "Soil scientist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1362-v1-0",
+   "reason": "Investigate soils that shape landscapes and support wildlife."
+  },
+  {
+   "ref": "ST0957",
+   "title": "Spatial data specialist",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0957-v1-1",
+   "reason": "Map rivers, coasts and climate with satellites and data."
+  },
+  {
+   "ref": "ST0881",
+   "title": "Geotechnical engineer (integrated degree)",
+   "level": 7,
+   "months": 30,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0881-v1-0",
+   "reason": "Test ground and coasts to prevent landslides and floods."
+  },
+  {
+   "ref": "ST0491",
+   "title": "Geospatial survey technician",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0491-v1-1",
+   "reason": "Fly drones to survey rivers, coasts and changing landscapes."
+  },
+  {
+   "ref": "ST1322",
+   "title": "Resilience and emergencies professional",
+   "level": 6,
+   "months": 40,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1322-v1-1",
+   "reason": "Plan how communities survive floods, storms and coastal erosion."
+  }
  ]
 }

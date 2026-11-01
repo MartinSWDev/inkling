@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Therapy professionals",
+  "Other health professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Become a children's nurse caring for sick kids while you earn."
+  },
+  {
+   "ref": "ST0827",
+   "title": "Nursing associate (NMC 2018)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0827-v2-0",
+   "reason": "Support nurses looking after ill babies, children and teenagers daily."
+  },
+  {
+   "ref": "ST0948",
+   "title": "Midwife (2019 NMC standards) (Integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0948-v2-0",
+   "reason": "Care for newborn babies and mums before, during and after birth."
+  },
+  {
+   "ref": "ST0567",
+   "title": "Paramedic",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0567-v2-0",
+   "reason": "Respond to emergencies and treat ill or injured children fast."
+  },
+  {
+   "ref": "ST0582",
+   "title": "Operating department practitioner",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0582-v2-0",
+   "reason": "Help care for children having surgery and keep them safe."
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Assist nurses and midwives caring for babies and children on wards."
+  }
  ]
 }

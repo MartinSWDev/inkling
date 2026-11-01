@@ -130,5 +130,66 @@
    "setting": "campus town",
    "town": "Loughborough"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Managers, directors and senior officials",
+  "Architects, chartered architectural technologists, planning officers, surveyors and construction professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0417",
+   "title": "Civil engineer",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0417-v1-1",
+   "reason": "Design bridges, roads and water systems while earning a salary."
+  },
+  {
+   "ref": "ST0881",
+   "title": "Geotechnical engineer (integrated degree)",
+   "level": 7,
+   "months": 30,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0881-v1-0",
+   "reason": "Design foundations and tunnels that keep big structures standing."
+  },
+  {
+   "ref": "ST0860",
+   "title": "Infrastructure asset management professional",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0860-v1-0",
+   "reason": "Maintain bridges, roads and water systems for the long term."
+  },
+  {
+   "ref": "ST0044",
+   "title": "Design and construction management (degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0044-v1-0",
+   "reason": "Manage design and construction of buildings and infrastructure projects."
+  },
+  {
+   "ref": "ST0047",
+   "title": "Construction site management (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0047-v1-0",
+   "reason": "Run building sites for roads, bridges and major structures."
+  },
+  {
+   "ref": "ST0331",
+   "title": "Chartered surveyor (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0331-v1-2",
+   "reason": "Survey land and buildings to guide construction projects."
+  }
  ]
 }

@@ -74,5 +74,11 @@
    "setting": "city",
    "town": "London"
   }
- ]
+ ],
+ "jobs": [
+  "Finance professionals",
+  "Information technology professionals",
+  "Business, research and administrative professionals"
+ ],
+ "apprenticeships": []
 }

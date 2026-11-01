@@ -26,5 +26,66 @@
    "setting": "campus town",
    "town": "Bath"
   }
+ ],
+ "jobs": [
+  "Engineering professionals",
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0025",
+   "title": "Manufacturing engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0025-v1-2",
+   "reason": "Design and improve how factories make products efficiently."
+  },
+  {
+   "ref": "ST0515",
+   "title": "Manufacturing manager (integrated degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0515-v1-0",
+   "reason": "Run factories and lead teams making products."
+  },
+  {
+   "ref": "ST1317",
+   "title": "Robotics engineer - degree",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1317-v1-2",
+   "reason": "Build and program robots that make products."
+  },
+  {
+   "ref": "ST0672",
+   "title": "Electro-mechanical engineer",
+   "level": 6,
+   "months": 60,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0672-v1-0",
+   "reason": "Build smart machines combining electronics and mechanics."
+  },
+  {
+   "ref": "ST0662",
+   "title": "Automation and controls engineering technician",
+   "level": 4,
+   "months": 48,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0662-v1-1",
+   "reason": "Program automated systems that run production lines."
+  },
+  {
+   "ref": "ST0027",
+   "title": "Product design and development engineer (degree)",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0027-v1-1",
+   "reason": "Design new products ready for efficient manufacturing."
+  }
  ]
 }

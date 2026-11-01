@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "Leicester"
   }
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Nursing professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0586",
+   "title": "Regulatory affairs specialist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0586-v1-1",
+   "reason": "Get new medicines approved as safe and legal"
+  },
+  {
+   "ref": "ST0473",
+   "title": "Science industry process and plant engineer (degree)",
+   "level": 6,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0473-v1-1",
+   "reason": "Design and run factories that mass-produce medicines safely"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Research and test new medicines in the lab"
+  },
+  {
+   "ref": "ST0300",
+   "title": "Pharmacy technician (integrated)",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0300-v2-0",
+   "reason": "Dispense medicines safely and advise patients daily"
+  },
+  {
+   "ref": "ST1406",
+   "title": "Science manufacturing technician 2023",
+   "level": 3,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1406-v1-0",
+   "reason": "Make medicines in sterile labs to strict safety standards"
+  }
  ]
 }

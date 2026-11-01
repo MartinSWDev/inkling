@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "Leeds"
   }
+ ],
+ "jobs": [
+  "Medical practitioners",
+  "Other health professionals",
+  "Artistic, literary and media occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0995",
+   "title": "Doctor (Degree)",
+   "level": 7,
+   "months": 60,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0995-v2-0",
+   "reason": "Train as a doctor while earning, diagnosing and treating patients"
+  },
+  {
+   "ref": "ST0567",
+   "title": "Paramedic",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0567-v2-0",
+   "reason": "Respond to emergencies, diagnosing and treating patients on the front line"
+  },
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Care for patients daily, learning how illness is treated on wards"
+  },
+  {
+   "ref": "ST0619",
+   "title": "Diagnostic radiographer",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0619-v2-0",
+   "reason": "Use X-rays and scans to help doctors diagnose illness"
+  },
+  {
+   "ref": "ST0582",
+   "title": "Operating department practitioner",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0582-v2-0",
+   "reason": "Assist doctors in surgery and anaesthesia, caring for patients"
+  }
  ]
 }

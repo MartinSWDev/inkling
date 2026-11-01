@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Sheffield"
   }
- ]
+ ],
+ "jobs": [
+  "Therapy professionals",
+  "Other health professionals",
+  "Welfare and housing associate professionals"
+ ],
+ "apprenticeships": []
 }

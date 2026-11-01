@@ -130,5 +130,11 @@
    "setting": "coast",
    "town": "Aberdeen"
   }
- ]
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Nursing professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": []
 }

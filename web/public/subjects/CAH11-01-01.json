@@ -130,5 +130,66 @@
    "setting": "city",
    "town": "Coventry"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Science, engineering and technology associate professionals",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0116",
+   "title": "Software developer",
+   "level": 4,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2",
+   "reason": "Build apps and websites by writing code every day."
+  },
+  {
+   "ref": "ST0119",
+   "title": "Digital and technology solutions professional",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2",
+   "reason": "Degree apprenticeship to become a software, data or cyber expert."
+  },
+  {
+   "ref": "ST0409",
+   "title": "Cyber security technical professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0409-v1-1",
+   "reason": "Stop hackers and protect systems using code and problem-solving."
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Turn big data into smart insights with code and maths."
+  },
+  {
+   "ref": "ST1512",
+   "title": "Artificial intelligence (AI) and automation practitioner",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1512-v2-1",
+   "reason": "Create AI tools and automations that make businesses work smarter."
+  },
+  {
+   "ref": "ST0151",
+   "title": "Embedded electronic systems design and development engineer (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0151-v1-3",
+   "reason": "Design the computer brains inside phones, cars and gadgets."
+  }
  ]
 }

@@ -106,5 +106,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Administrative occupations",
+  "Elementary occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0526",
+   "title": "Policy officer",
+   "level": 4,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0526-v1-2",
+   "reason": "Help shape aid and anti-poverty policies for governments and charities."
+  },
+  {
+   "ref": "ST0934",
+   "title": "Corporate responsibility and sustainability practitioner",
+   "level": 4,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0934-v2-0",
+   "reason": "Help businesses trade fairly and protect people and planet."
+  },
+  {
+   "ref": "ST0748",
+   "title": "Sustainability business specialist (integrated degree)",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0748-v1-1",
+   "reason": "Advise firms on sustainable trade that lifts communities out of poverty."
+  },
+  {
+   "ref": "ST0796",
+   "title": "Senior professional economist",
+   "level": 7,
+   "months": 24,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0796-v2-0",
+   "reason": "Use economics to understand poverty and improve aid and trade."
+  },
+  {
+   "ref": "ST1341",
+   "title": "Social researcher",
+   "level": 6,
+   "months": 42,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1341-v1-0",
+   "reason": "Research why poverty happens and whether aid projects actually work."
+  },
+  {
+   "ref": "ST1322",
+   "title": "Resilience and emergencies professional",
+   "level": 6,
+   "months": 40,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1322-v1-1",
+   "reason": "Plan humanitarian aid and recovery when disasters hit vulnerable countries."
+  }
  ]
 }

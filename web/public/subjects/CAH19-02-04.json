@@ -26,5 +26,66 @@
    "setting": "city",
    "town": "Derry"
   }
+ ],
+ "jobs": [
+  "Administrative occupations",
+  "Teaching professionals",
+  "Sales occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0904",
+   "title": "Archivist and records manager",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0904-v1-0",
+   "reason": "Preserve Irish language archives and historic records for future generations"
+  },
+  {
+   "ref": "ST0782",
+   "title": "Curator",
+   "level": 7,
+   "months": 36,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0782-v1-2",
+   "reason": "Curate museum collections sharing Irish culture and history with public"
+  },
+  {
+   "ref": "ST0628",
+   "title": "Cultural heritage conservator (degree)",
+   "level": 7,
+   "months": 54,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0628-v1-1",
+   "reason": "Conserve historic artefacts protecting cultural heritage for communities"
+  },
+  {
+   "ref": "ST0769",
+   "title": "Archaeological specialist (degree)",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0769-v1-0",
+   "reason": "Uncover past through archaeology to understand history and culture"
+  },
+  {
+   "ref": "ST0831",
+   "title": "Historic environment advisor",
+   "level": 7,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0831-v1-0",
+   "reason": "Advise on protecting historic places and cultural landscapes"
+  },
+  {
+   "ref": "ST0149",
+   "title": "Learning and skills teacher",
+   "level": 5,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0149-v1-4",
+   "reason": "Teach Irish language, history or culture in colleges"
+  }
  ]
 }

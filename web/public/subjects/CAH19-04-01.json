@@ -130,5 +130,30 @@
    "setting": "coast",
    "town": "Aberdeen"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Teaching professionals",
+  "Managers, directors and senior officials"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST1502",
+   "title": "Teacher - Undergraduate",
+   "level": 6,
+   "months": 45,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1502-v2-0",
+   "reason": "Train to teach French language and culture in schools."
+  },
+  {
+   "ref": "ST0477",
+   "title": "Academic professional",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0477-v1-0",
+   "reason": "Research and teach French culture, history and literature at university."
+  }
  ]
 }

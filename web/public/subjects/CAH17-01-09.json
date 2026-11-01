@@ -26,5 +26,66 @@
    "setting": "coast",
    "town": "Grimsby"
   }
+ ],
+ "jobs": [
+  "Business and public service associate professionals",
+  "Sales occupations",
+  "Secretarial and related occupations"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0411",
+   "title": "Project manager (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0411-v1-0",
+   "reason": "Lead projects from start to finish on time and budget."
+  },
+  {
+   "ref": "ST0385",
+   "title": "Operations manager",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0385-v1-4",
+   "reason": "Run daily operations and lead teams to hit targets."
+  },
+  {
+   "ref": "ST0556",
+   "title": "Improvement leader",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0556-v1-0",
+   "reason": "Find smarter ways for businesses to work and save money."
+  },
+  {
+   "ref": "ST0548",
+   "title": "Supply chain leadership professional (integrated degree)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0548-v1-0",
+   "reason": "Manage how products move from suppliers to customers efficiently."
+  },
+  {
+   "ref": "ST0238",
+   "title": "People professional",
+   "level": 5,
+   "months": 22,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0238-v1-4",
+   "reason": "Support and develop staff to help organisations perform better."
+  },
+  {
+   "ref": "ST1483",
+   "title": "Production manager",
+   "level": 6,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1483-v2-0",
+   "reason": "Plan and run productions and events smoothly behind the scenes."
+  }
  ]
 }

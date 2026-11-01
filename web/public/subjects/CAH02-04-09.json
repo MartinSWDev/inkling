@@ -18,5 +18,66 @@
    "setting": "city",
    "town": "London"
   }
+ ],
+ "jobs": [
+  "Nursing professionals",
+  "Other health professionals",
+  "Therapy professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0781",
+   "title": "Registered nurse degree (NMC 2018)",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0781-v2-0",
+   "reason": "Become a registered nurse while earning and learning on wards"
+  },
+  {
+   "ref": "ST0582",
+   "title": "Operating department practitioner",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0582-v2-0",
+   "reason": "Help surgical teams care for patients before, during and after operations"
+  },
+  {
+   "ref": "ST0827",
+   "title": "Nursing associate (NMC 2018)",
+   "level": 5,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0827-v2-0",
+   "reason": "Support nurses hands-on with daily patient care and recovery"
+  },
+  {
+   "ref": "ST1419",
+   "title": "Community nurse specialist practitioner (NMC 2022)",
+   "level": 7,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1419-v2-0",
+   "reason": "Specialise as a community nurse supporting patients at home daily"
+  },
+  {
+   "ref": "ST1418",
+   "title": "Specialist community public health nurse (NMC 2022)",
+   "level": 7,
+   "months": 18,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st1418-v2-0",
+   "reason": "Train as health visitor or school nurse supporting families and communities"
+  },
+  {
+   "ref": "ST0217",
+   "title": "Senior healthcare support worker",
+   "level": 3,
+   "months": 24,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0217-v1-6",
+   "reason": "Entry-level hands-on care role supporting patients on wards and community"
+  }
  ]
 }

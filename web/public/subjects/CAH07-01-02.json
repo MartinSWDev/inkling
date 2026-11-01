@@ -130,5 +130,57 @@
    "setting": "city",
    "town": "Newcastle upon Tyne"
   }
+ ],
+ "jobs": [
+  "Information technology professionals",
+  "Engineering professionals",
+  "Natural and social science professionals"
+ ],
+ "apprenticeships": [
+  {
+   "ref": "ST0856",
+   "title": "Space systems engineer",
+   "level": 6,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0856-v1-1",
+   "reason": "Design satellites and missions that explore stars and planets"
+  },
+  {
+   "ref": "ST0585",
+   "title": "Data scientist (integrated degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0585-v1-1",
+   "reason": "Analyse massive telescope data to find patterns in space"
+  },
+  {
+   "ref": "ST0759",
+   "title": "Research scientist",
+   "level": 7,
+   "months": 30,
+   "degree": false,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0759-v1-1",
+   "reason": "Do real scientific research on how the universe works"
+  },
+  {
+   "ref": "ST0107",
+   "title": "Systems engineer (degree)",
+   "level": 7,
+   "months": 48,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0107-v1-2",
+   "reason": "Build and test complex space systems like telescopes"
+  },
+  {
+   "ref": "ST0151",
+   "title": "Embedded electronic systems design and development engineer (degree)",
+   "level": 6,
+   "months": 36,
+   "degree": true,
+   "url": "https://skillsengland.education.gov.uk/apprenticeships/st0151-v1-3",
+   "reason": "Create electronics that power telescopes and space probes"
+  }
  ]
 }

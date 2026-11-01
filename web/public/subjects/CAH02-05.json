@@ -130,5 +130,11 @@
    "setting": "city",
    "town": "Edinburgh"
   }
- ]
+ ],
+ "jobs": [
+  "Other health professionals",
+  "Natural and social science professionals",
+  "Science, engineering and technology associate professionals"
+ ],
+ "apprenticeships": []
 }
