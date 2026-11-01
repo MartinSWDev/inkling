@@ -10,6 +10,10 @@ import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound
 import { makeShareVideo, shareUrl, type ShareData } from "./share";
 import { suggestAliases } from "./aliases";
 import { heartChip, toggleChip } from "./chips";
+import { ArrowLeft, ArrowRight, ArrowUp, Check, ChevronLeft, ChevronRight, Download, ExternalLink, Heart, Link as LinkIcon, Plus, RotateCcw, Share2, Sparkles, Volume2, VolumeX, X } from "lucide-react";
+
+const ICON = { size: 20, strokeWidth: 2 } as const;
+const ICON_SM = { size: 16, strokeWidth: 2 } as const;
 const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "countryside", name: "Countryside" }];
 const SCENES: Record<string, [string, string]> = { sea: ["#1f6f8b", "#8fd0e6"], desk: ["#5a4a7a", "#c9b7e8"], wood: ["#6e4329", "#d9b48f"], night: ["#1c1a3a", "#6b5aa8"], dark: ["#101418", "#2f3a48"], green: ["#2f6b3a", "#a9d9a0"], light: ["#e8dfd0", "#fff8ea"] };
 
@@ -415,10 +419,7 @@ export default function App() {
       </div><div className="topline"><b>{ROUNDS[round - 1].title}</b>
         <button className="soundbtn iconbtn" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
           onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9v6h4l6 4V5L8 9H4z" fill="currentColor" />
-            {soundOn
-              ? <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-              : <path d="M16.5 9.5l5 5m0-5l-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}</svg>
+          {soundOn ? <Volume2 {...ICON} aria-hidden="true" /> : <VolumeX {...ICON} aria-hidden="true" />}
         </button></div></div>)}
       <div className={"toast" + (toast ? "" : " off")}>{toast}</div>
       {fact && scene.kind === "round" && (<motion.div className="factnote" role="status"
@@ -440,10 +441,7 @@ export default function App() {
         <button className="linkbtn" onClick={() => setHowOpen(true)}>How it works</button>
         <button className="soundbtn iconbtn landing-sound" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
           onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9v6h4l6 4V5L8 9H4z" fill="currentColor" />
-            {soundOn
-              ? <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-              : <path d="M16.5 9.5l5 5m0-5l-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}</svg>
+          {soundOn ? <Volume2 {...ICON} aria-hidden="true" /> : <VolumeX {...ICON} aria-hidden="true" />}
         </button>
         {howOpen && (<div className="howsheet" role="dialog" aria-label="How it works"><div className="sheet2">
           <h2>How it works</h2>
@@ -451,7 +449,7 @@ export default function App() {
           <p className="note">Course data comes from the UK Discover Uni dataset. Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0.</p>
           <p className="note">Contains public sector information licensed under the Open Government Licence v3.0. Apprenticeship standards © Skills England.</p>
           <p className="note">Muse Spark Open (open weights, on Baseten) wrote and reviewed the subject cards. Muse Image drew the room, stickers and card art. SAM 3.1 cut out and checked every object. Muse Image paints your room on request.</p>
-          <button className="btn alt" onClick={() => setHowOpen(false)}>Close</button>
+          <button className="btn alt" onClick={() => setHowOpen(false)}><X {...ICON_SM} aria-hidden="true" /> Close</button>
         </div></div>)}
       </section>)}
 
@@ -483,7 +481,7 @@ export default function App() {
             {(["day", "dusk"] as const).map((t) => (
               <button key={t} aria-pressed={viewTime === t} onClick={() => { setViewTime(t); sfx.pop(); }}>
                 <img src={"/views/" + view + "_" + t + ".webp"} alt="" draggable={false} />
-                <span>{viewTime === t ? "✓ " : ""}{t === "day" ? "Day" : "Dusk"}</span>
+                <span className="daylabel">{viewTime === t && <Check {...ICON_SM} aria-hidden="true" />}{t === "day" ? "Day" : "Dusk"}</span>
               </button>))}
           </div>
           <button className="btn alt" onClick={() => { sfx.pop(); buzz(); dispatch({ type: "GO" }); }}>Let's go</button>
@@ -506,13 +504,13 @@ export default function App() {
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
               onClick={(e) => { if ((e.target as HTMLElement).closest(".heart")) return; const nxt = toggleChip(st as "take" | "love" | undefined); const n = { ...picked }; if (nxt) n[chip.id] = nxt; else delete n[chip.id]; sfx.pop(); syncChips(n, typedNames); }}>
               <span>{chip.name}</span>
-              {st && <span className="checkmark" aria-hidden="true">✓</span>}
+              {st && <span className="checkmark" aria-hidden="true"><Check {...ICON_SM} /></span>}
               {confetti === chip.id && (<span className="flecks" aria-hidden="true">{[0, 1, 2, 3, 4, 5].map((i) => (
                 <motion.i key={i} initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
                   animate={{ x: Math.cos(i * 1.05) * 34, y: Math.sin(i * 1.05) * 26 - 8, opacity: 0, scale: 0.5 }}
                   transition={{ duration: 0.55, ease: "easeOut" }} />))}</span>)}
               <span className="heart" role="button" aria-label={"Favourite " + chip.name}
-                onClick={(e) => { e.stopPropagation(); e.preventDefault(); const nxt = heartChip(st as "take" | "love" | undefined); const loving = nxt === "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: nxt }, typedNames, loving); }}>{st === "love" ? "♥" : "♡"}</span>
+                onClick={(e) => { e.stopPropagation(); e.preventDefault(); const nxt = heartChip(st as "take" | "love" | undefined); const loving = nxt === "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: nxt }, typedNames, loving); }}>{st === "love" ? <Heart {...ICON} fill="currentColor" aria-hidden="true" /> : <Heart {...ICON} aria-hidden="true" />}</span>
             </button>);
           })}</div>
           <div>{otherOpen
@@ -524,7 +522,7 @@ export default function App() {
                   {suggestAliases(content.aliases || {}, other, (code) => subjects.find((s) => s.code === code)?.display_name)
                     .map((name) => <button key={name} className="suggestchip" onClick={() => { syncChips(picked, [...typedNames, name]); setOther(""); }}>{name}</button>)}
                 </div>)}</div>)
-            : <button className="linkbtn addanother" onClick={() => setOtherOpen(true)}>+ Add another subject</button>}
+            : <button className="linkbtn addanother" onClick={() => setOtherOpen(true)}><Plus {...ICON_SM} aria-hidden="true" /> Add another subject</button>}
             {typedNames.length > 0 && <p className="hint2">Added: {typedNames.join(", ")}</p>}</div>
           {Object.keys(picked).length + typedNames.length >= 3
             ? <button className="btn alt" onClick={chipsContinue}>Continue</button>
@@ -534,10 +532,10 @@ export default function App() {
         {(round === 2 || round === 4) && (<div className="cardround">
           <div className="qtag">{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</div>
           <div className={"hintrow" + (deckIdx < 2 ? " nudge" : "")} style={{ opacity: deckIdx >= 2 ? 0.4 : 1 }}>
-            <span><span className="harrow hl">←</span> Not for me</span>
+            <span><span className="harrow hl"><ArrowLeft {...ICON_SM} aria-hidden="true" /></span> Not for me</span>
             <span className="hcount">{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</span>
-            {round === 4 && <span><span className="harrow hu">↑</span> Tell me more</span>}
-            <span>Yes <span className="harrow hr">→</span></span>
+            {round === 4 && <span><span className="harrow hu"><ArrowUp {...ICON_SM} aria-hidden="true" /></span> Tell me more</span>}
+            <span>Yes <span className="harrow hr"><ArrowRight {...ICON_SM} aria-hidden="true" /></span></span>
           </div>
           <div className="deck">
             {deck[deckIdx + 1] && <div className="card peek" aria-hidden="true"><CardArt card={deck[deckIdx + 1]} /></div>}
@@ -565,9 +563,9 @@ export default function App() {
               {deckIdx >= ROUNDS[round - 1].min && <button className="btn alt" id="continue" onClick={nextRound}>{round < 4 ? "Continue" : "Build my room"}</button>}
             </div>
             <div className="actions">
-              <button className="no" aria-label="Not for me" onClick={() => decide("no")}>✕</button>
-              <button className="up" aria-label="Need to know" disabled={round !== 4} style={round !== 4 ? { visibility: "hidden" } : undefined} onClick={() => decide("up")}>★</button>
-              <button className="yes" aria-label="Yes" onClick={() => decide("yes")}>✓</button>
+              <button className="no" aria-label="Not for me" onClick={() => decide("no")}><X {...ICON} aria-hidden="true" /></button>
+              <button className="up" aria-label="Need to know" disabled={round !== 4} style={round !== 4 ? { visibility: "hidden" } : undefined} onClick={() => decide("up")}><Sparkles {...ICON} aria-hidden="true" /></button>
+              <button className="yes" aria-label="Yes" onClick={() => decide("yes")}><Check {...ICON} aria-hidden="true" /></button>
             </div>
           </div>
         </div>)}
@@ -595,8 +593,8 @@ export default function App() {
         <div className="sprog">{Array.from({ length: pageCount }, (_, i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
         <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })} />
         <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })} />
-        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })}>Back</button>}
-        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })}>{page === explorePage ? "Share" : "Next"}</button>}
+        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })}><ChevronLeft {...ICON_SM} aria-hidden="true" /> Back</button>}
+        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })}>{page === explorePage ? "Share" : "Next"} <ChevronRight {...ICON_SM} aria-hidden="true" /></button>}
         <div className="pages">
           <div className={"page" + (page === 0 ? " on" : "")}><div className="top3wrap">
             <h2 className="top3head">Your top 3</h2>
@@ -627,7 +625,7 @@ export default function App() {
               <div key={a.ref} className="handsoncard"><b>{a.title}</b>
                 <small>{levelLabel(a.level)} · {lengthLabel(a.months)}{a.degree ? " · Degree included" : ""}</small>
                 <small>{a.reason}</small>
-                <a href={a.url} target="_blank" rel="noreferrer">Official page</a></div>))}
+                <a href={a.url} target="_blank" rel="noreferrer">Official page <ExternalLink {...ICON_SM} aria-hidden="true" /></a></div>))}
               {!handsOn.length && <p className="note">Loading routes…</p>}</div>
             <p className="note">Apprenticeship standards shown are for England.</p>
           </div></div>)}
@@ -672,11 +670,11 @@ export default function App() {
                       try { await navigator.clipboard.writeText("What's your inkling? " + url); } catch { /* clipboard optional */ }
                       tip("Video saved — post it from your phone or upload it to Instagram.");
                     }
-                  }}>{videoStatus === "preparing" ? "Preparing your video…" : "Share video"}</button>
+                  }}><Share2 {...ICON_SM} aria-hidden="true" /> {videoStatus === "preparing" ? "Preparing your video…" : "Share video"}</button>
                   <button className="btn" onClick={async () => {
                     const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
                     try { await navigator.clipboard.writeText(shareUrl(data)); tip("Link copied."); } catch { tip(shareUrl(data)); }
-                  }}>Copy link</button>
+                  }}><LinkIcon {...ICON_SM} aria-hidden="true" /> Copy link</button>
                   <button className="btn" onClick={async () => {
                     if (!assets) return;
                     const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
@@ -691,8 +689,8 @@ export default function App() {
                     } else {
                       download(await composeRoomCanvas(assigned, view, viewTime, assets.layout), "inkling-room.png");
                     }
-                  }}>Share image</button>
-                  <button className="btn ghost" onClick={restart}>Start over</button>
+                  }}><Download {...ICON_SM} aria-hidden="true" /> Share image</button>
+                  <button className="btn ghost" onClick={restart}><RotateCcw {...ICON_SM} aria-hidden="true" /> Start over</button>
                 </div>
                 <p className="note sharehint">{canShareFiles ? "Opens your share sheet — pick Instagram, TikTok or WhatsApp" : "Saves the video — post it from your phone"}</p></div></div>
           </div></div>
@@ -703,7 +701,7 @@ export default function App() {
         <button className="coursescrim" aria-label="Close courses" onClick={() => setCourseSheet(null)} />
         <motion.div className="coursesheet" initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 30 }}>
           <div className="pfoot"><h2>{courseSheet.name}</h2>
-            <button className="linkbtn" onClick={() => setCourseSheet(null)}>Close</button></div>
+            <button className="linkbtn" onClick={() => setCourseSheet(null)}><X {...ICON_SM} aria-hidden="true" /> Close</button></div>
           <div className="sheettabs" role="tablist" aria-label="Routes">
             <button role="tab" aria-selected={sheetTab === "courses"} className={sheetTab === "courses" ? "on" : ""} onClick={() => setSheetTab("courses")}>University courses</button>
             <button role="tab" aria-selected={sheetTab === "apprenticeships"} className={sheetTab === "apprenticeships" ? "on" : ""} onClick={() => setSheetTab("apprenticeships")}>Apprenticeships</button>
@@ -720,7 +718,7 @@ export default function App() {
                   <small>{levelLabel(a.level)} · {lengthLabel(a.months)}</small>
                   {a.degree && <span className="settingtag">Degree included</span>}
                   <small>{a.reason}</small></div>
-                  <a href={a.url} target="_blank" rel="noreferrer">Official page</a></li>))}</ul>
+                  <a href={a.url} target="_blank" rel="noreferrer">Official page <ExternalLink {...ICON_SM} aria-hidden="true" /></a></li>))}</ul>
               <p className="note">Apprenticeship standards shown are for England.</p>
               <p className="note">Contains public sector information licensed under the Open Government Licence v3.0. Apprenticeship standards © Skills England.</p>
             </>);
@@ -737,7 +735,7 @@ export default function App() {
             const render = (list: typeof all) => list.map((c, i) => (
               <li key={c.title + i}><div><b>{c.title}</b><small>{c.provider}</small>
                 {c.setting && <span className="settingtag">{c.setting}{c.town ? " · " + c.town : ""}</span>}</div>
-                <a href={c.url} target="_blank" rel="noreferrer">Course page</a></li>));
+                <a href={c.url} target="_blank" rel="noreferrer">Course page <ExternalLink {...ICON_SM} aria-hidden="true" /></a></li>));
             return (<>
               {inChosen.length > 0 && (<><h3 className="coursehead">{heading}</h3><ul className="courselist">{render(inChosen)}</ul></>)}
               {inChosen.length === 0 && <p className="note">{"No " + adj + " courses for this subject — here are the others."}</p>}

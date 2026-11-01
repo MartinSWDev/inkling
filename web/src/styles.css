@@ -301,4 +301,13 @@ pre{white-space:pre-wrap;word-wrap:break-word;background:var(--paper);border:1px
 .eyebrow{display:none}
 .theme{text-transform:none;letter-spacing:0}
 .topline span{text-transform:none;letter-spacing:.02em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px}
+.backbtn,.nextpill{display:inline-flex;align-items:center;gap:4px}
+.linkbtn{display:inline-flex;align-items:center;gap:5px}
+button svg.lucide,a svg.lucide{flex:none}
+.actions button{display:grid;place-items:center}
+.harrow{display:inline-flex;vertical-align:-3px}
+.daylabel{display:inline-flex;align-items:center;gap:4px}
+.chip .checkmark{display:inline-flex;align-items:center}
+.courselist a,.handsoncard a{display:inline-flex;align-items:center;gap:4px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.sticker-img{animation:none!important}}
