@@ -122,6 +122,25 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
       await step("close course sheet", async () => { await page.getByRole("button", { name: /^close$/i }).click().catch(() => null); await page.waitForTimeout(400); });
     }
   }
+  if (suffix === "") {
+    // Group C verification: probe MediaRecorder mimes, then Share video.
+    const mimes = await page.evaluate(() => ["video/mp4;codecs=avc1", "video/webm;codecs=vp9", "video/webm"]
+      .map((m) => m + "=" + (typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported(m)))).catch(() => []);
+    console.log("MediaRecorder support:", mimes.join(" "));
+    const canFiles = await page.evaluate(() => {
+      try { return !!navigator.canShare && navigator.canShare({ files: [new File([new Blob(["x"])], "t.webm", { type: "video/webm" })] }); }
+      catch { return false; }
+    }).catch(() => false);
+    console.log("navigator.share with files:", canFiles);
+    await step("share video download", async () => {
+      const dl = page.waitForEvent("download", { timeout: 45000 });
+      await page.getByRole("button", { name: /share video/i }).click();
+      const download = await dl;
+      const dest = `${OUT}/share-video-${download.suggestedFilename()}`;
+      await download.saveAs(dest);
+      console.log("share video downloaded:", download.suggestedFilename(), "->", dest);
+    });
+  }
   await page.waitForTimeout(800);
   const videoPath = await page.video()?.path().catch(() => null);
   await context.close();
