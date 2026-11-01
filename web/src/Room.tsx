@@ -97,7 +97,9 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
             style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 5 }}>+1</span>}
           {tapInfo?.code === a.code && (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 6,
-            transform: `translate(${a.x / ROOM_W > 0.68 ? -88 : a.x / ROOM_W < 0.2 ? -12 : -50}%, -112%) rotate(-1deg)` }}>
+            transform: a.x / ROOM_W > 0.68 ? "translate(calc(-100% + 14px), -112%) rotate(-1deg)"
+              : a.x / ROOM_W < 0.2 ? "translate(-14px, -112%) rotate(-1deg)"
+              : "translate(-50%, -112%) rotate(-1deg)" }}>
             <b>{tapInfo.name}</b>{tapInfo.line && <small>{tapInfo.line}</small>}</span>)}
         </span>
       ))}
