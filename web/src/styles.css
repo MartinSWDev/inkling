@@ -61,6 +61,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .deck{position:relative;width:min(100%,300px);height:min(300px,42vh)}
 .card{position:absolute;inset:0;border-radius:18px;background:var(--paper);border:1px solid var(--line);box-shadow:0 14px 40px rgba(20,10,40,.35);display:grid;grid-template-rows:1fr auto;overflow:hidden;touch-action:none;user-select:none;cursor:grab}
 .cardart{position:absolute;inset:0}.cardart svg{width:100%;height:100%;display:block}.cardart img{width:100%;height:100%;object-fit:cover;display:block}
+.card img{-webkit-user-drag:none;pointer-events:none}
+.pcard img,.sticker-img,.sticker-dropshadow{-webkit-user-drag:none}
 .card.swipe{z-index:2;display:block;touch-action:none}
 .card.peek{z-index:1;transform:scale(.96) translateY(12px)}
 .cardtag{position:absolute;top:12px;left:12px;z-index:5;background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);font-family:var(--display);font-weight:700;font-size:18px;line-height:1.1;padding:7px 12px;border:1px solid var(--line);border-radius:8px;transform:rotate(-1deg);box-shadow:var(--paper-shadow-sm);max-width:75%}

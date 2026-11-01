@@ -94,9 +94,10 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
         <span key={a.code}>
           {a.slot !== "wall"
             ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: pct(a.y + a.h - 6, ROOM_H), width: pct(a.w * 0.76, ROOM_W) }} />
-            : <img className="sticker-dropshadow" src={"/stickers/" + a.code + ".webp"} alt=""
+            : <img className="sticker-dropshadow" draggable={false} onDragStart={(e) => e.preventDefault()} src={"/stickers/" + a.code + ".webp"} alt=""
                 style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W) }} />}
           <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) || tapInfo?.code === a.code ? " lifted" : "")}
+            draggable={false} onDragStart={(e) => e.preventDefault()}
             src={"/stickers/" + a.code + ".webp"} alt={onStickerTap ? a.code : ""}
             onClick={onStickerTap ? (e) => { e.stopPropagation(); onStickerTap(a.code); } : undefined}
             style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />

@@ -63,6 +63,10 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
       await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
       await page.mouse.down();
       await page.mouse.move(box.x + box.width / 2 + 160, box.y + box.height / 2, { steps: 12 });
+      await page.waitForTimeout(250);
+      await shot("05b-round2-drag");
+      const tr = await card.evaluate((el) => getComputedStyle(el).transform).catch(() => "");
+      console.log("mid-drag card transform:", tr);
       await page.mouse.up();
       await page.waitForTimeout(700);
     }

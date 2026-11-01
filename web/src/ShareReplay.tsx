@@ -46,7 +46,7 @@ export default function ShareReplay({ code }: { code: string }) {
       {!ended && topShown > 0 && (<div className="top3wrap">
         {data.t.slice(0, topShown).map((c, i) => (
           <motion.div key={c} className="top3card" variants={popUp} custom={i} initial="hidden" animate="shown">
-            <img src={`/stickers/${c}.webp`} alt="" /><div><h3>{nameOf(c)}</h3></div>
+            <img src={`/stickers/${c}.webp`} alt="" draggable={false} onDragStart={(e) => e.preventDefault()} /><div><h3>{nameOf(c)}</h3></div>
           </motion.div>))}
       </div>)}
       {!ended && flipped && data.w && (<div className="wildwrap">

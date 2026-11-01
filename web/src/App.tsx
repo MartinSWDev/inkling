@@ -21,7 +21,7 @@ function heat(roundIdx: number, n: number) {
 function CardArt({ card }: { card: DeckCard }) {
   const [failed, setFailed] = useState(false);
   const [a, b] = SCENES[card.scene] || SCENES.light;
-  if (!failed) return (<div className="cardart"><img src={"/cards/" + card.id + ".webp"} alt="" onError={() => setFailed(true)} /></div>);
+  if (!failed) return (<div className="cardart"><img src={"/cards/" + card.id + ".webp"} alt="" draggable={false} onDragStart={(e) => e.preventDefault()} onError={() => setFailed(true)} /></div>);
   return (<div className="cardart"><svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
     <defs><linearGradient id={"g" + card.id} x1="0" x2="0" y1="0" y2="1"><stop offset="0" stopColor={a} /><stop offset="1" stopColor={b} /></linearGradient></defs>
     <rect width="300" height="200" fill={"url(#g" + card.id + ")"} /><ellipse cx="150" cy="176" rx="90" ry="12" fill="#000" opacity=".15" />
@@ -475,7 +475,7 @@ export default function App() {
           <div className="pairs">
             {(["a", "b"] as const).map((side) => (
               <button key={side} className={"pcard" + (pairPick === side ? " picked" : pairPick ? " dim" : "")} onClick={() => answerPair(pair, side)}>
-                <img src={"/img/" + pair.id + "_" + side + ".jpg"} alt="" />
+                <img src={"/img/" + pair.id + "_" + side + ".jpg"} alt="" draggable={false} onDragStart={(e) => e.preventDefault()} />
                 <span className="lbl"><b>{pair[side].label}</b><small>{pair[side].caption}</small></span>
               </button>
             ))}
@@ -500,7 +500,7 @@ export default function App() {
             <h2 className="top3head">Your top 3</h2>
             {top3.map((r, i) => (
               <motion.div key={r.code} className="top3card" variants={popUp} custom={i} initial="hidden" animate="shown" transition={{ delay: i * 0.25 }}>
-                <img src={"/stickers/" + r.code + ".webp"} alt="" />
+                <img src={"/stickers/" + r.code + ".webp"} alt="" draggable={false} onDragStart={(e) => e.preventDefault()} />
                 <div><h3>{r.display_name}</h3>
                 <p>{plainOf(r.code) || "It kept coming up in your answers."}</p></div>
               </motion.div>))}
@@ -512,7 +512,7 @@ export default function App() {
               <motion.span className="wildinner" animate={{ rotateY: wildcardFlipped ? 180 : 0 }} transition={{ type: "spring", stiffness: 260, damping: 26 }}>
                 <span className="wildface wildback">?<small className="tapflip">Tap to flip</small></span>
                 <span className="wildface wildfront">
-                  <img src={"/stickers/" + wildcardRow.code + ".webp"} alt="" />
+                  <img src={"/stickers/" + wildcardRow.code + ".webp"} alt="" draggable={false} onDragStart={(e) => e.preventDefault()} />
                   <b>{wildcardRow.display_name}</b>
                   <small>{whyOf(wildcardRow.code) || ""}</small>
                   <small>A wildcard: it never came up, but it fits your answers.</small></span>
