@@ -55,6 +55,19 @@ describe("room growth rules", () => {
     expect(growRoom([], {}, rankedOf(ans), qualified, ROUND_CAPS[2])).toEqual([]);
   });
 
+  it("the room never exceeds 7 during the rounds", () => {
+    expect(ROUND_CAPS).toEqual([2, 4, 6, 7]);
+    let room: string[] = [];
+    let prev = scoresOf({});
+    for (const id of ["radio", "rover", "code", "printer", "chart", "fossil", "bridge", "gig", "club", "paint"]) {
+      const ans = { swipes: [{ card_id: id, answer: "yes" }] };
+      room = growRoom(room, prev, rankedOf(ans), qualifiedSubjects(ans, cards, profiles, pairs, decks), ROUND_CAPS[3]);
+      expect(room.length).toBeLessThanOrEqual(7);
+      prev = scoresOf(ans);
+    }
+    expect(room.length).toBe(7);
+  });
+
   it("reveal keeps a floor or bed object when a qualified one exists", () => {
     const ranked = [
       { code: "A", display_name: "A", score: 5, uncertainty: 1, direct: 1, reasons: [] },

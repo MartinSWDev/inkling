@@ -1,6 +1,7 @@
 import type { RankedRow } from "./scoring";
 
-export const ROUND_CAPS = [2, 4, 6, 8];
+/** Round caps during play: max 7 in the room; the wildcard becomes the 8th in the reveal. */
+export const ROUND_CAPS = [2, 4, 6, 7];
 
 /** At most one new object per action: add the biggest qualified riser, or swap out the weakest. */
 export function growRoom(
