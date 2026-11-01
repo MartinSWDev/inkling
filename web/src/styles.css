@@ -101,7 +101,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .card .stamp.up{left:50%;top:48px;bottom:auto;transform:translateX(-50%);color:var(--accent);border-color:var(--accent);background:var(--paper);z-index:6}
 .card .stamp.yes,.card .stamp.no{background:var(--paper);z-index:6}
 .card .qtext{position:absolute;left:0;right:0;top:0;padding:16px 16px 40px;background:linear-gradient(rgba(0,0,0,.55),transparent);color:#fff;font-family:var(--display);font-size:1.35rem;line-height:1.15;pointer-events:none}
-.factnote{position:absolute;left:16px;right:16px;top:calc(82px + env(safe-area-inset-top,0px));z-index:6;background:var(--butter);background-image:url(/paper-grain.png);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--paper-shadow);font-size:14px;pointer-events:none}
+.factnote{position:absolute;left:16px;right:16px;top:calc(118px + env(safe-area-inset-top,0px));z-index:6;background:var(--butter);background-image:url(/paper-grain.png);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--paper-shadow);font-size:14px;pointer-events:none}
 .factnote b{display:block;font-family:var(--display);font-weight:700;font-size:13px}
 .actioncol{display:grid;gap:8px;justify-items:center}
 .continurow{height:48px;display:grid;place-items:center}
