@@ -1,0 +1,66 @@
+{
+ "code": "CAH19-04-08",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "English and American Literature",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/english/english-and-american-literature/",
+   "ucas_code": "A17-D49"
+  },
+  {
+   "title": "American Studies",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/american-studies/ba-american-studies/",
+   "ucas_code": "A36-J66"
+  },
+  {
+   "title": "Global Studies and Latin American Studies (including Placement Year)",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01432/1?coursecode=L992",
+   "ucas_code": ""
+  },
+  {
+   "title": "Spanish, Portuguese and Latin American Studies",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/f881/spanish-portuguese-and-latin-american-studies-ba",
+   "ucas_code": "A27-A07"
+  },
+  {
+   "title": "History and American Studies",
+   "provider": "THE UNIVERSITY OF LEICESTER",
+   "url": "https://le.ac.uk/courses/history-and-american-studies-ba/2027",
+   "ucas_code": "A05-B12"
+  },
+  {
+   "title": "History and Politics of the Americas",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/history-and-politics-americas-ba",
+   "ucas_code": "A39-E13"
+  },
+  {
+   "title": "Comparative Literature and Culture and Spanish & Latin American Studies (5yrs)",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/2011/QR46/comparative-literature-culture-and-spanish-latin-american-studies-5-years/",
+   "ucas_code": "A72-B46"
+  },
+  {
+   "title": "English Literature and American Studies",
+   "provider": "University of Northumbria at Newcastle",
+   "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-literature-and-american-studies-newcastle-uusegl2ast/",
+   "ucas_code": "A52-G04"
+  },
+  {
+   "title": "American Studies (with a study abroad year)",
+   "provider": "University of Sussex",
+   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/american-studies-with-a-study-abroad-year-ba",
+   "ucas_code": "A22-I30"
+  },
+  {
+   "title": "American Studies",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/11806/ba-american-studies-4-years/",
+   "ucas_code": "A39-I08"
+  }
+ ]
+}

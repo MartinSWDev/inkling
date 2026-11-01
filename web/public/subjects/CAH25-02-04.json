@@ -1,0 +1,78 @@
+{
+ "code": "CAH25-02-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Dance",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-dance/",
+   "ucas_code": "A09-F38"
+  },
+  {
+   "title": "Dance",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-dance",
+   "ucas_code": "A03-D05"
+  },
+  {
+   "title": "Commercial Dance",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/commercial-dance",
+   "ucas_code": "A76-B16"
+  },
+  {
+   "title": "Dance & Professional Practice",
+   "provider": "Chichester College Group",
+   "url": "https://www.northbrook.ac.uk/courses/ba-hons-dance-professional-practice/",
+   "ucas_code": "A69-A85"
+  },
+  {
+   "title": "Dance",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/dance-ba-degree/dance-ba-degree.aspx",
+   "ucas_code": "A25-G37"
+  },
+  {
+   "title": "Professional Dance and Musical Theatre",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/professional-dance-musical-theatre-ba-hons",
+   "ucas_code": "A14-G77"
+  },
+  {
+   "title": "Ballet Performance",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.btukschool.com/ba",
+   "ucas_code": ""
+  },
+  {
+   "title": "Dance",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/dance/",
+   "ucas_code": "A05-C62"
+  },
+  {
+   "title": "Dance & Choreography",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/dance-choreography",
+   "ucas_code": "A27-A35"
+  },
+  {
+   "title": "Dance and Performance",
+   "provider": "Halesowen College",
+   "url": "https://www.worcester.ac.uk/courses/dance-and-performance-ba-hons",
+   "ucas_code": "A54-C96"
+  },
+  {
+   "title": "Dance",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/dance/",
+   "ucas_code": "A08-A03"
+  },
+  {
+   "title": "Dance Performance",
+   "provider": "LMA",
+   "url": "https://www.lma.ac.uk/undergraduate/dance-performance",
+   "ucas_code": "A63-D76"
+  }
+ ]
+}

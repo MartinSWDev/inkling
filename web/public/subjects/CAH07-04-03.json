@@ -1,0 +1,42 @@
+{
+ "code": "CAH07-04-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Cosmetic Science",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-cosmetic-science",
+   "ucas_code": "A01-B09"
+  },
+  {
+   "title": "Combined Studies",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/combined-studies-bsc",
+   "ucas_code": "A05-J90"
+  },
+  {
+   "title": "Interdisciplinary Science with Foundation Year",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/3430/interdisciplinary-science-with-foundation-year-bsc",
+   "ucas_code": "A26-H85"
+  },
+  {
+   "title": "Integrated Natural Sciences",
+   "provider": "THE UNIVERSITY OF WARWICK",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/msci-integrated-natural-sciences",
+   "ucas_code": "A51-F13"
+  },
+  {
+   "title": "Health Sciences with Foundation Year",
+   "provider": "UNIVERSITY OF NOTTINGHAM, THE",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Health-Sciences-with-Foundation-Year-BSc-Hons.html",
+   "ucas_code": "A55-F73"
+  },
+  {
+   "title": "Science with Foundation Year",
+   "provider": "University of Portsmouth",
+   "url": "https://www.port.ac.uk/study/courses/bsc-hons-science-with-foundation-year",
+   "ucas_code": "A52-D15"
+  }
+ ]
+}

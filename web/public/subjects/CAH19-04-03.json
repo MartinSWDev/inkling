@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-04-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Beginners' Italian and Czech (with Slovak)",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages",
+   "ucas_code": "A13-C28"
+  },
+  {
+   "title": "Law with Modern Languages (Italian)",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law-and-criminology/law-with-modern-languages-italian/",
+   "ucas_code": "A56-J51"
+  },
+  {
+   "title": "French and Italian",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-italian",
+   "ucas_code": "A72-I79"
+  },
+  {
+   "title": "Italian",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/i990/italian-ba",
+   "ucas_code": "A26-I35"
+  },
+  {
+   "title": "Italian",
+   "provider": "THE UNIVERSITY OF LIVERPOOL",
+   "url": "https://www.liverpool.ac.uk/courses/italian-ba-hons/2027",
+   "ucas_code": "A42-C68"
+  },
+  {
+   "title": "English and Italian",
+   "provider": "THE UNIVERSITY OF WARWICK",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-italian",
+   "ucas_code": "A20-B83"
+  },
+  {
+   "title": "Bulgarian and Italian",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/bulgarian-and-italian-ba",
+   "ucas_code": "B58-E21"
+  },
+  {
+   "title": "Ancient History/Italian",
+   "provider": "UNIVERSITY OF GLASGOW",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/ancienthistory/",
+   "ucas_code": "A46-H53"
+  },
+  {
+   "title": "International Politics and Modern Languages (Italian)",
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHPL-AKB71",
+   "ucas_code": ""
+  },
+  {
+   "title": "French and Italian",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/RR13",
+   "ucas_code": "A14-I89"
+  },
+  {
+   "title": "Ancient History and Italian",
+   "provider": "University of St Andrews",
+   "url": "https://www.st-andrews.ac.uk/subjects/ancient-history/ancient-history-ma/",
+   "ucas_code": "A28-G95"
+  },
+  {
+   "title": "Business and Management with Italian (with a year abroad)",
+   "provider": "University of York",
+   "url": "https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-italian-abroad/",
+   "ucas_code": "A75-E36"
+  }
+ ]
+}

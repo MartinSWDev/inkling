@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Ethical Hacking",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/",
+   "ucas_code": "A06-B24"
+  },
+  {
+   "title": "Software Engineering (with integrated year in industry)",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?XRDQQK",
+   "ucas_code": "A22-H34"
+  },
+  {
+   "title": "Computer Science for Cyber Security",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/computer-science-for-cyber-security",
+   "ucas_code": "A40-I04"
+  },
+  {
+   "title": "Cyber Security",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security",
+   "ucas_code": "A41-A80"
+  },
+  {
+   "title": "Cybersecurity",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/cybersecurity-bsc",
+   "ucas_code": "A48-E30"
+  },
+  {
+   "title": "Cyber Security",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-cyber-security/",
+   "ucas_code": "A59-J95"
+  },
+  {
+   "title": "Computer Science for Cybersecurity",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/computer-science-for-cybersecurity",
+   "ucas_code": "A74-H21"
+  },
+  {
+   "title": "Computer Networks and Security",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/computer-networks-and-security-bsc-hons-2027-28",
+   "ucas_code": "A14-C94"
+  },
+  {
+   "title": "Cyber Security Management",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-cyber-security-management-1",
+   "ucas_code": "A11-H67"
+  },
+  {
+   "title": "Cyber Security",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-cyber-security",
+   "ucas_code": "A47-B78"
+  },
+  {
+   "title": "Cyber Security",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/london/course/cyber-security-bsc",
+   "ucas_code": "A52-I22"
+  },
+  {
+   "title": "Computer Science with Cyber Security",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/computer-science-foundation",
+   "ucas_code": "A59-C45"
+  }
+ ]
+}

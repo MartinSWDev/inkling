@@ -1,0 +1,78 @@
+{
+ "code": "CAH07-04-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Forensic Sciences",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
+   "ucas_code": "A06-B29"
+  },
+  {
+   "title": "Crime and Investigative Studies",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/crime-and-investigative-studies",
+   "ucas_code": "A14-A05"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-forensic-science/",
+   "ucas_code": "A68-E33"
+  },
+  {
+   "title": "Forensic Investigation",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-forensic-investigation-2",
+   "ucas_code": "A11-H87"
+  },
+  {
+   "title": "Criminology and Forensic Studies",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-criminology",
+   "ucas_code": "A57-C35"
+  },
+  {
+   "title": "Forensic Investigation",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/forensic-investigation-bsc",
+   "ucas_code": "A39-B35"
+  },
+  {
+   "title": "Applied Criminology with Forensic Investigation",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/applied-criminology-with-forensic-investigation",
+   "ucas_code": "A19-C86"
+  },
+  {
+   "title": "Archaeology and Heritage Science",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/archaeology-and-heritage-science-bsc",
+   "ucas_code": "A76-I86"
+  },
+  {
+   "title": "Biological and Forensic Sciences",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/biological-and-forensic-science-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-G39"
+  },
+  {
+   "title": "Computer and Digital Forensics",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/computing_&_cyber_security/bsc_(hons)_computer_and_digital_forensics.cfm",
+   "ucas_code": "A31-E46"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/forensic-science/forensic-science-bsc-msci-degree.aspx",
+   "ucas_code": "A25-G98"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/forensic-science-bsc-hons",
+   "ucas_code": "A14-F77"
+  }
+ ]
+}

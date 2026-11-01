@@ -102,6 +102,14 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
     });
     await page.waitForTimeout(1200);
     await shot(`11-reveal-${p}`);
+    if (p === 2) {
+      await step("course sheet", async () => {
+        await page.getByRole("button", { name: /see courses/i }).first().click();
+        await page.waitForTimeout(900);
+      });
+      await shot("11-reveal-2-courses");
+      await step("close course sheet", async () => { await page.getByRole("button", { name: /^close$/i }).click().catch(() => null); await page.waitForTimeout(400); });
+    }
   }
   await page.waitForTimeout(800);
   const videoPath = await page.video()?.path().catch(() => null);

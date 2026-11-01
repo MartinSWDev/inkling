@@ -1,0 +1,78 @@
+{
+ "code": "CAH03-01-10",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Human Biosciences",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/human-biosciences-bsc-hons-2027-28",
+   "ucas_code": "A75-B30"
+  },
+  {
+   "title": "Medical Science",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-medical-science-0",
+   "ucas_code": "A51-A28"
+  },
+  {
+   "title": "Medical Biology",
+   "provider": "Burnley College",
+   "url": "https://www.burnley.ac.uk/course/?code=a6025",
+   "ucas_code": "A60-E01"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/human-biology",
+   "ucas_code": "A39-E77"
+  },
+  {
+   "title": "Applied Biosciences",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
+   "ucas_code": "A38-G37"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/human-biology",
+   "ucas_code": "A65-A80"
+  },
+  {
+   "title": "Human Biology with Foundation Year",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/humanbiologyandpsychology/",
+   "ucas_code": "A03-G10"
+  },
+  {
+   "title": "Anatomy, Developmental & Human Biology",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/anatomy-developmental-and-human-biology-bsc",
+   "ucas_code": "A27-F82"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/47024-human-biology-bsc-hons",
+   "ucas_code": "A73-E09"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/human-biology/#variant",
+   "ucas_code": "A18-C64"
+  },
+  {
+   "title": "Biomedical & Pharmaceutical Sciences",
+   "provider": "Luminate Education Group",
+   "url": "https://ucleeds.ac.uk/courses/undergraduate-courses/biomedical-and-pharmaceutical-science-bsc-hons/",
+   "ucas_code": "A74-F42"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/human-biology-bsc-b100/",
+   "ucas_code": "A28-C43"
+  }
+ ]
+}

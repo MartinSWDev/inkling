@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Games Development and Futures (2 Year)",
+   "provider": "ACM",
+   "url": "https://www.acm.ac.uk/courses/higher-education/game-development/",
+   "ucas_code": "A45-F53"
+  },
+  {
+   "title": "Games Art and Design",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/course/games-art-and-design",
+   "ucas_code": "A69-B27"
+  },
+  {
+   "title": "Computer Game Applications Development",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+   "ucas_code": "A06-B18"
+  },
+  {
+   "title": "Computer Games Art",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-art",
+   "ucas_code": "A13-J91"
+  },
+  {
+   "title": "Game Arts & Animation",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
+   "ucas_code": "A16-E66"
+  },
+  {
+   "title": "Computer Science with Game Design",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/i103-computer-science-with-game-design-bsc-hons",
+   "ucas_code": "A54-I38"
+  },
+  {
+   "title": "Games Development",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-games-development/",
+   "ucas_code": "A58-A75"
+  },
+  {
+   "title": "Game Design",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/game-design-ba-hons-2027-28",
+   "ucas_code": "A72-B39"
+  },
+  {
+   "title": "Computer Animation and Visual Effects",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-computer-animation-visual-effects",
+   "ucas_code": "A70-B94"
+  },
+  {
+   "title": "Games Design",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/games-design-ba",
+   "ucas_code": "A19-J54"
+  },
+  {
+   "title": "3D Game Art",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-3d-game-art",
+   "ucas_code": "A58-D31"
+  },
+  {
+   "title": "Game Art",
+   "provider": "Burnley College",
+   "url": "https://www.burnley.ac.uk/course/?code=a7032",
+   "ucas_code": "A68-F76"
+  }
+ ]
+}

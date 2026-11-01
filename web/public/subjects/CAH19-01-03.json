@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "English Literature",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?H3XD2C",
+   "ucas_code": "A22-F59"
+  },
+  {
+   "title": "Anthropology and English Literature",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-english-literature",
+   "ucas_code": "A06-C81"
+  },
+  {
+   "title": "Drama and English Literature",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-english-literature",
+   "ucas_code": "A14-A10"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/english-language-and-literature-ba",
+   "ucas_code": "A30-B65"
+  },
+  {
+   "title": "Applied Humanities (Accelerated degree)",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/applied-humanities-ba-hons/full-time/",
+   "ucas_code": "A53-J42"
+  },
+  {
+   "title": "English Language And English Literature",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons",
+   "ucas_code": "A34-C93"
+  },
+  {
+   "title": "Art and English Literature",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-english-literature",
+   "ucas_code": "A15-D66"
+  },
+  {
+   "title": "Creative Writing and English Literature",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-english-literature/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Creative Writing and English",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/english/creative-writing-and-english",
+   "ucas_code": "A24-D48"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
+   "ucas_code": "A14-D22"
+  },
+  {
+   "title": "English and History",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/courses/english-and-history-ba",
+   "ucas_code": "A77-I78"
+  },
+  {
+   "title": "English and Creative Writing",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.nptcgroup.ac.uk/courses/ba-hons-english-and-creative-writing/",
+   "ucas_code": "A74-C99"
+  }
+ ]
+}

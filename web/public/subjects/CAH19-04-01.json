@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-04-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biochemistry with French for Science",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biochemistry-language/#OptionA",
+   "ucas_code": "A15-C42"
+  },
+  {
+   "title": "English and Modern Languages with a Year Abroad",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/english-and-modern-languages-with-a-year-abroad-ba",
+   "ucas_code": "A55-A96"
+  },
+  {
+   "title": "Business Management and French",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-business-management-and-french/september-2027/",
+   "ucas_code": "A65-H58"
+  },
+  {
+   "title": "International Business (with French)",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/nottingham-business-school/ug/ba-hons-international-business-with-french",
+   "ucas_code": "A38-E14"
+  },
+  {
+   "title": "Linguistics with French",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/q1r1/",
+   "ucas_code": "A27-C31"
+  },
+  {
+   "title": "Classics and French",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classics-and-modern-languages",
+   "ucas_code": "A30-E87"
+  },
+  {
+   "title": "French",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
+   "ucas_code": "A48-B00"
+  },
+  {
+   "title": "Accounting with French",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/accounting-major-french-bsc-n4r1/",
+   "ucas_code": "A28-B22"
+  },
+  {
+   "title": "Law with Modern Languages (French)",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law-and-criminology/law-with-modern-languages-french/",
+   "ucas_code": "A56-J49"
+  },
+  {
+   "title": "International Business with French",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-international-business-with-french/full-time",
+   "ucas_code": "A17-J49"
+  },
+  {
+   "title": "French and German",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-german",
+   "ucas_code": "A72-I63"
+  },
+  {
+   "title": "European Studies with French",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG00154/1?coursecode=R9R1",
+   "ucas_code": ""
+  }
+ ]
+}

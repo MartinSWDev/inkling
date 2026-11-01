@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Web Development and Security",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?MDT84J",
+   "ucas_code": "A74-F63"
+  },
+  {
+   "title": "Computing",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/computing",
+   "ucas_code": "A67-B15"
+  },
+  {
+   "title": "Computing",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/bsc-hons-computing",
+   "ucas_code": ""
+  },
+  {
+   "title": "Computing and Information Technology",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/computing-information-technology-bsc-hons-2027-28",
+   "ucas_code": "A14-C96"
+  },
+  {
+   "title": "Computing",
+   "provider": "Burnley College",
+   "url": "https://www.burnley.ac.uk/course/?title=BSc-(Hons)-Computing&code=A7303",
+   "ucas_code": "A75-I58"
+  },
+  {
+   "title": "Cloud Computing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/cloud-computing/?term=2027-28",
+   "ucas_code": "A59-C58"
+  },
+  {
+   "title": "Information Technology",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/computing_&_cyber_security/bsc_(hons)_information_technology.cfm",
+   "ucas_code": "A31-F43"
+  },
+  {
+   "title": "Applied Computing",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/applied-computing-bsc/applied-computing-bsc.aspx",
+   "ucas_code": "A60-H74"
+  },
+  {
+   "title": "Computing",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11COMPTN",
+   "ucas_code": "A26-C78"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/computer-science",
+   "ucas_code": "A21-B12"
+  },
+  {
+   "title": "Technology with Foundation",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/foundation/technology-with-foundation",
+   "ucas_code": "A76-J99"
+  },
+  {
+   "title": "Computing",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/computing---bsc-hons/",
+   "ucas_code": "A06-J33"
+  }
+ ]
+}

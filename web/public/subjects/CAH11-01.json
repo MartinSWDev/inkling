@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Games Development and Futures (2 Year)",
+   "provider": "ACM",
+   "url": "https://www.acm.ac.uk/courses/higher-education/game-development/",
+   "ucas_code": "A45-F53"
+  },
+  {
+   "title": "Games Art and Design",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/course/games-art-and-design",
+   "ucas_code": "A69-B27"
+  },
+  {
+   "title": "Computer Game Applications Development",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+   "ucas_code": "A06-B18"
+  },
+  {
+   "title": "Accounting and Finance and Computing",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?B7SZAS",
+   "ucas_code": "A57-B01"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/artificial-intelligence",
+   "ucas_code": "A52-B01"
+  },
+  {
+   "title": "Applied Computer Science",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/applied-computer-science-west-anglia",
+   "ucas_code": "A13-J98"
+  },
+  {
+   "title": "Computing",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/bsc-hons-computing",
+   "ucas_code": ""
+  },
+  {
+   "title": "Game Arts & Animation",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
+   "ucas_code": "A16-E66"
+  },
+  {
+   "title": "Artificial Intelligence and Robotics",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/ai-and-robotics-bsc",
+   "ucas_code": "A71-H67"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Asu London Centre for Advanced Learning",
+   "url": "https://asu-london.ac.uk/courses/undergraduate/computer-science/",
+   "ucas_code": "A76-G72"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/computer-science-bsc-hons/computer-science-bsc-hons/",
+   "ucas_code": "A51-C75"
+  },
+  {
+   "title": "Biology With Biotechnology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons",
+   "ucas_code": "A34-B36"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "code": "CAH23-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Politics And International Relations",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-politics-and-international-relations",
+   "ucas_code": "A21-D90"
+  },
+  {
+   "title": "Combined Honours",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/y001/",
+   "ucas_code": "A27-B37"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/combined-honours/ba-combined-honours/",
+   "ucas_code": "A70-G73"
+  },
+  {
+   "title": "Business Management and Economics",
+   "provider": "University of Derby",
+   "url": "https://www.derby.ac.uk/undergraduate/joint-honours-courses/business-management-and-economics-ba-hons/",
+   "ucas_code": "A69-F11"
+  },
+  {
+   "title": "Interdisciplinary Futures",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/FIA1",
+   "ucas_code": "A66-J28"
+  },
+  {
+   "title": "Business with Foundation Year",
+   "provider": "University of Portsmouth",
+   "url": "https://www.port.ac.uk/study/courses/business-with-foundation-year-london",
+   "ucas_code": "A74-H26"
+  },
+  {
+   "title": "Graphic Communication",
+   "provider": "West Suffolk College",
+   "url": "https://universitycentre.easterneducationgroup.ac.uk/ba-hons-graphic-communication",
+   "ucas_code": "A59-C83"
+  }
+ ]
+}

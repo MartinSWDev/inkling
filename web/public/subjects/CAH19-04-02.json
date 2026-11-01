@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-04-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biochemistry with German for Science",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biochemistry-language/#OptionB",
+   "ucas_code": "A15-C43"
+  },
+  {
+   "title": "European Studies (German pathway) with a year abroad",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/european-studies-german-pathway-with-a-year-abroad-ba",
+   "ucas_code": "A27-G36"
+  },
+  {
+   "title": "Linguistics with German",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/q1r2/",
+   "ucas_code": "A27-C32"
+  },
+  {
+   "title": "Classics and German",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classics-and-modern-languages",
+   "ucas_code": "A30-E88"
+  },
+  {
+   "title": "French and German",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
+   "ucas_code": "A48-B00"
+  },
+  {
+   "title": "International Business with German",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/international-business-major-german-bsc-n2r2",
+   "ucas_code": "A28-C45"
+  },
+  {
+   "title": "Law with Modern Languages (German)",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law-and-criminology/law-with-modern-languages-german/",
+   "ucas_code": "A56-J50"
+  },
+  {
+   "title": "French and German",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-german",
+   "ucas_code": "A72-I63"
+  },
+  {
+   "title": "European Studies with German",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG00155/1?coursecode=R9R2",
+   "ucas_code": ""
+  },
+  {
+   "title": "German Studies and Computing",
+   "provider": "THE UNIVERSITY OF LANCASTER",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/german-studies-and-computing-bsc-hons-gr42/",
+   "ucas_code": "B58-G00"
+  },
+  {
+   "title": "German",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/340/german-ba",
+   "ucas_code": "A26-H25"
+  },
+  {
+   "title": "German",
+   "provider": "THE UNIVERSITY OF LIVERPOOL",
+   "url": "https://www.liverpool.ac.uk/courses/german-ba-hons/2027",
+   "ucas_code": "A02-I60"
+  }
+ ]
+}

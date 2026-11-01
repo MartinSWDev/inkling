@@ -165,6 +165,15 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .replaywild{pointer-events:none}
 .wildface.static{position:relative;transform:none}
 .replayend{z-index:9}
+.courselink{color:var(--teal);font-weight:600;text-decoration:underline;padding:6px 0}
+.coursesheetwrap{position:absolute;inset:0;z-index:12}
+.coursescrim{position:absolute;inset:0;background:rgba(30,24,48,.4);border:0;width:100%}
+.coursesheet{position:absolute;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));max-height:62%;overflow:auto;background:var(--paper);background-image:url(/paper-grain.png);border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:var(--paper-shadow);display:grid;gap:10px}
+.coursesheet h2{font-family:var(--display);font-weight:900;font-size:22px;margin:0}
+.courselist{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.courselist li{display:flex;justify-content:space-between;gap:10px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--paper)}
+.courselist small{color:var(--muted);display:block}
+.courselist a{color:var(--teal);font-weight:600;white-space:nowrap}
 .explinks{display:flex;gap:12px;align-items:center;margin-top:4px}
 .explinks a{color:var(--teal);font-weight:600}
 .story{position:absolute;inset:0;z-index:6}

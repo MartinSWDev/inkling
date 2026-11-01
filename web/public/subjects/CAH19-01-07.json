@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-01-07",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Linguistics And Modern Languages",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/q3r8-linguistics-and-modern-languages-ba-hons",
+   "ucas_code": "A62-B69"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/english-language-and-applied-linguistics-ug/ba-english-language-and-linguistics",
+   "ucas_code": "A15-E12"
+  },
+  {
+   "title": "English and Linguistics",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/linguistics-and-language-french-german-italian-japanese-spanish/english-and-linguistics",
+   "ucas_code": "A65-H71"
+  },
+  {
+   "title": "English Language",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/english-language-with-a-foundation-year-ba",
+   "ucas_code": "A77-I60"
+  },
+  {
+   "title": "English Language and TESOL",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/english-language-and-tesol-ba-hons",
+   "ucas_code": "A14-F57"
+  },
+  {
+   "title": "English Language & Linguistics",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/english-language-and-linguistics-ba",
+   "ucas_code": "A27-G27"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-english-language-and-linguistics/september-2027/",
+   "ucas_code": "A65-H73"
+  },
+  {
+   "title": "Communications and Linguistics",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-communication-and-society-and-linguistics",
+   "ucas_code": "A38-E41"
+  },
+  {
+   "title": "Cognitive Science",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/c859/",
+   "ucas_code": "A74-A60"
+  },
+  {
+   "title": "Beginners' Italian and Linguistics",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages-and-linguistics",
+   "ucas_code": "A00-A17"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/english-language-and-linguistics",
+   "ucas_code": "A42-F34"
+  },
+  {
+   "title": "English and Linguistics",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/english-linguistics-ba-qq31/",
+   "ucas_code": "A28-C04"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-04-09",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Business and Management / French",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?F9JXT8",
+   "ucas_code": "A74-H53"
+  },
+  {
+   "title": "Modern Languages with Translation",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/modern-languages-with-translation",
+   "ucas_code": "A66-J79"
+  },
+  {
+   "title": "Creative Writing And Modern Languages",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/w8r8-creative-writing-and-modern-languages-ba-hons",
+   "ucas_code": "A62-B67"
+  },
+  {
+   "title": "International Business and Management with a Modern Language",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-international-business-and-management-with-modern-language",
+   "ucas_code": "A58-B16"
+  },
+  {
+   "title": "Art History and Language (French, German, Italian, Japanese, Spanish)",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history/art-history-and-language-french-german-italian-japanese-spanish",
+   "ucas_code": "A65-H26"
+  },
+  {
+   "title": "English Literature and a Modern Language",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-and-a-modern-language-ba",
+   "ucas_code": "A71-H22"
+  },
+  {
+   "title": "Education Studies with Languages",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/education-studies-with-mandarin-ba-hons-degree/education-studies-with-mandarin.aspx",
+   "ucas_code": "A25-G57"
+  },
+  {
+   "title": "International Business with Language",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/international-business-language-ba-hons",
+   "ucas_code": "A14-G19"
+  },
+  {
+   "title": "Modern European Languages and History",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/rv92/",
+   "ucas_code": "A07-H39"
+  },
+  {
+   "title": "Literary Studies with Creative Writing",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/study/ba-lit-studies-creative-writing",
+   "ucas_code": "A62-C47"
+  },
+  {
+   "title": "Applied Modern Languages and Translating: French/Spanish",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/applied-modern-languages-and-translating",
+   "ucas_code": "A05-J41"
+  },
+  {
+   "title": "Comparative Literature",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/comparative-literature-ba",
+   "ucas_code": "A27-G01"
+  }
+ ]
+}

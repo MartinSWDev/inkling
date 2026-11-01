@@ -1,0 +1,78 @@
+{
+ "code": "CAH01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Medical Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/medical-science",
+   "ucas_code": "A06-D80"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/medicine",
+   "ucas_code": "A46-D23"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/medicine-mbchb",
+   "ucas_code": "A41-H82"
+  },
+  {
+   "title": "Medical Sciences",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons",
+   "ucas_code": "A34-G25"
+  },
+  {
+   "title": "Medical Science",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/medical-sciences-ug/bsc-medical-science",
+   "ucas_code": "A55-D55"
+  },
+  {
+   "title": "Sport and Exercise Therapy and Rehabilitation",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-sport-and-exercise-therapy-and-rehabilitation",
+   "ucas_code": "A60-D86"
+  },
+  {
+   "title": "Bachelor of Medicine Bachelor of Surgery",
+   "provider": "Brighton and Sussex Medical School",
+   "url": "http://www.bsms.ac.uk/undergraduate/our-course",
+   "ucas_code": "A17-H57"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/Medicine-MBBS",
+   "ucas_code": "A55-I19"
+  },
+  {
+   "title": "Medicine",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/medicine",
+   "ucas_code": "A75-B13"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/dental-surgery-bds",
+   "ucas_code": "A27-I68"
+  },
+  {
+   "title": "Dental Hygiene",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/bsc_(hons)_dental_hygiene.cfm",
+   "ucas_code": "A31-E83"
+  },
+  {
+   "title": "Clinical Science",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/clinical-science-1",
+   "ucas_code": "A72-G06"
+  }
+ ]
+}

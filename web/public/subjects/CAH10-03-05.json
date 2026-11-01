@@ -1,0 +1,72 @@
+{
+ "code": "CAH10-03-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biotechnology",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/biotechnology-msci-bsc-hons/?term=2027-28",
+   "ucas_code": "A75-F69"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/biotechnology/",
+   "ucas_code": "A05-C27"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36142-biotechnology-bsc-hons",
+   "ucas_code": "A52-G97"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/biosciences/biotechnology",
+   "ucas_code": "A73-F27"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01128/1?coursecode=C110",
+   "ucas_code": "A68-J96"
+  },
+  {
+   "title": "Biological Sciences (Biotechnology with Enterprise)",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/g377/biological-sciences-biotechnology-with-enterprise-bsc",
+   "ucas_code": "A26-E87"
+  },
+  {
+   "title": "Biochemistry and Biotechnology",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-biochemistry-and-biotechnology",
+   "ucas_code": "A24-B27"
+  },
+  {
+   "title": "Molecular & Cellular Biology with Biotechnology",
+   "provider": "UNIVERSITY OF GLASGOW",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/biotechnology/",
+   "ucas_code": "A24-J62"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "UNIVERSITY OF NOTTINGHAM, THE",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Biotechnology-BSc-Hons.html",
+   "ucas_code": "A00-E06"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "University of Northumbria at Newcastle",
+   "url": "https://www.northumbria.ac.uk/course/UUSBOT1",
+   "ucas_code": "A75-G38"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10114/msci-biotechnology/",
+   "ucas_code": "A20-G09"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Artificial Intelligence and Robotics",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?2V5QLZ",
+   "ucas_code": "A22-E53"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/artificial-intelligence",
+   "ucas_code": "A52-B01"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/artificial-intelligence",
+   "ucas_code": "A52-E46"
+  },
+  {
+   "title": "Artificial Intelligence and Robotics",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/ai-and-robotics-bsc",
+   "ucas_code": "A71-H67"
+  },
+  {
+   "title": "Engineering with Artificial Intelligence",
+   "provider": "Asu London Centre for Advanced Learning",
+   "url": "https://asu-london.ac.uk/courses/undergraduate/engineering-with-artificial-intelligence/",
+   "ucas_code": "A68-B97"
+  },
+  {
+   "title": "Computer Science with AI",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/computer-science-with-ai",
+   "ucas_code": "A74-A25"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/artificial-intelligence-bsc-hons-2027-28",
+   "ucas_code": "A75-F55"
+  },
+  {
+   "title": "Business Computing with Analytics",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-computing-analytics-0",
+   "ucas_code": "A66-I18"
+  },
+  {
+   "title": "Computer Science with Artificial Intelligence",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-computer-science",
+   "ucas_code": "A53-G58"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/artificial-intelligence-bsc",
+   "ucas_code": "A50-D02"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/artificial-intelligence-msci",
+   "ucas_code": "A77-I43"
+  },
+  {
+   "title": "Computer Science & Artificial Intelligence",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/computer-science-and-artificial-intelligence",
+   "ucas_code": "A69-G28"
+  }
+ ]
+}

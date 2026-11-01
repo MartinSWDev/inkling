@@ -1,0 +1,78 @@
+{
+ "code": "CAH03-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Ecology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?N4SD66",
+   "ucas_code": "A22-F36"
+  },
+  {
+   "title": "Biodiversity and Wildlife Conservation",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/biodiversity-and-wildlife-conservation",
+   "ucas_code": "A73-A34"
+  },
+  {
+   "title": "Marine Biology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c160-marine-biology-bsc-hons",
+   "ucas_code": "A34-F86"
+  },
+  {
+   "title": "Ecology & Wildlife Conservation with Foundation Year",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/ecology-ug/bsc-ecology-and-wildlife-conservation-with-foundation",
+   "ucas_code": "A43-B41"
+  },
+  {
+   "title": "Wildlife Conservation",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-wildlife-conservation/",
+   "ucas_code": "A57-H40"
+  },
+  {
+   "title": "Animal Behaviour & Wildlife Conservation",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-animal-behaviour-and-wildlife-conservation",
+   "ucas_code": "A65-H50"
+  },
+  {
+   "title": "Ecology and Wildlife Conservation",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-ecology-wildlife-conservation-3",
+   "ucas_code": "A11-H71"
+  },
+  {
+   "title": "Wildlife Ecology & Conservation Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/wildlife-ecology-conservation-science",
+   "ucas_code": "A19-E80"
+  },
+  {
+   "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://blackmountainscollege.uk/study/higher-education/",
+   "ucas_code": "A67-C51"
+  },
+  {
+   "title": "Animal Behaviour Welfare and Conservation",
+   "provider": "Coastland College",
+   "url": "https://www.coastland.ac.uk/courses/find-your-course/bsc-hons-in-animal-behaviour-welfare-and-conservation-top-up/",
+   "ucas_code": "A72-H96"
+  },
+  {
+   "title": "Ecology and Conservation",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/ecology-conservation-bsc/?term=2027-28",
+   "ucas_code": "A73-J46"
+  },
+  {
+   "title": "Wildlife, Ecology and Conservation Science",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/wecs",
+   "ucas_code": "A43-E38"
+  }
+ ]
+}

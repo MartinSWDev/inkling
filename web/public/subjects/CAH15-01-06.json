@@ -1,0 +1,54 @@
+{
+ "code": "CAH15-01-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Modern Languages, Communication and Cultures (Beginner Pathway)",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/modern-languages-communication-culture",
+   "ucas_code": "A63-G87"
+  },
+  {
+   "title": "Languages and Global Cultures",
+   "provider": "THE UNIVERSITY OF LANCASTER",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/languages-and-global-cultures-ba-hons-r811/",
+   "ucas_code": "A74-B60"
+  },
+  {
+   "title": "Cultural and Media Studies",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/g641/cultural-and-media-studies-ba",
+   "ucas_code": "A26-F74"
+  },
+  {
+   "title": "Culture, Environment and Social Change",
+   "provider": "THE UNIVERSITY OF WESTMINSTER",
+   "url": "https://www.westminster.ac.uk/culture-environment-and-social-change-ba",
+   "ucas_code": "A67-C50"
+  },
+  {
+   "title": "Scottish Ethnology",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/V910",
+   "ucas_code": "A15-B50"
+  },
+  {
+   "title": "Digital Society Media and Culture",
+   "provider": "University of Kent (Part of London and South East University Group)",
+   "url": "https://www.kent.ac.uk/courses/undergraduate/2027/6545/digital-society-media-culture",
+   "ucas_code": "A73-J70"
+  },
+  {
+   "title": "Culture and Heritage",
+   "provider": "University of the Highlands and Islands",
+   "url": "https://www.uhi.ac.uk/en/courses/ba-hons-culture-and-heritage/",
+   "ucas_code": "A16-D83"
+  },
+  {
+   "title": "Cultural, Creative and Media Industries",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/21695/ba-cultural-creative-and-media-industries/",
+   "ucas_code": "A68-J38"
+  }
+ ]
+}

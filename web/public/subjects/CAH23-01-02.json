@@ -1,0 +1,78 @@
+{
+ "code": "CAH23-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Business, Enterprise and Entrepreneurship",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-enterprise-and-entrepreneurship",
+   "ucas_code": "A06-B81"
+  },
+  {
+   "title": "Business Management (Entrepreneurship and Innovation)",
+   "provider": "Amity Global Education Ltd",
+   "url": "https://www.amity.ac.uk/6n102",
+   "ucas_code": "A52-I72"
+  },
+  {
+   "title": "Business Enterprise and Innovation",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/business-enterprise-innovation-bsc/",
+   "ucas_code": "B55-G76"
+  },
+  {
+   "title": "Applied Management",
+   "provider": "BPP University",
+   "url": "https://www.bpp.com/leadership-and-management/bsc-applied-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Business and Entrepreneurship",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/business-and-entrepreneurship-bsc-hons-2027-28",
+   "ucas_code": "A75-F26"
+  },
+  {
+   "title": "Business Management (Innovation and Entrepreneurship)",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/business-management-innovation-entrepreneurship-bsc",
+   "ucas_code": "A68-B33"
+  },
+  {
+   "title": "Business and Management (Entrepreneurship)",
+   "provider": "Cardiff Metropolitan University",
+   "url": "http://www.cardiffmet.ac.uk/management/courses/Pages/Business-and-Management-(with-specialist-pathways)-BA-(Hons).aspx",
+   "ucas_code": "A53-C82"
+  },
+  {
+   "title": "Theology and MInistry with Entrepreneurship",
+   "provider": "Christ the Redeemer College",
+   "url": "https://christredeemer.ac.uk/bachelor-of-arts-in-theology-and-ministry-with-entrepreneurship/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Entrepreneurship and Innovation",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/entrepreneurship-and-innovation-ba-hons",
+   "ucas_code": ""
+  },
+  {
+   "title": "Business Studies with Entrepreneurship",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/business-studies-entrepreneurship",
+   "ucas_code": "A17-F47"
+  },
+  {
+   "title": "Business Management with Entrepreneurship",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-business-management-with-entrepreneurship-undergraduate-fulltime",
+   "ucas_code": "A25-C23"
+  },
+  {
+   "title": "Business Entrepreneurship & Innovation",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/business-entrepreneurship-bsc",
+   "ucas_code": "A69-E18"
+  }
+ ]
+}

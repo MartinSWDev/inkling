@@ -1,0 +1,30 @@
+{
+ "code": "CAH19-02-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Cymraeg (i fyfyrwyr iaith gyntaf ac ail iaith)",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?FXNBWK",
+   "ucas_code": "A22-F09"
+  },
+  {
+   "title": "Childhood and Youth Studies and Welsh",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x321-childhood-and-youth-studies-and-welsh-ba-hons",
+   "ucas_code": "A34-B16"
+  },
+  {
+   "title": "Law and Welsh",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/law-and-welsh-llb",
+   "ucas_code": "A27-J96"
+  },
+  {
+   "title": "Cymraeg, Cyfryngau a Chysylltiadau Cyhoeddus (Welsh, Media and Public Relations)",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/media-comms-journalism-pr/ba-welsh-media-public-relations-first-language/",
+   "ucas_code": "A37-A98"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "code": "CAH13-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Landscape Architecture",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/landscape-architecture-ba-hons-2027-28",
+   "ucas_code": "A14-D59"
+  },
+  {
+   "title": "Horticulture (Garden and Landscape Design)",
+   "provider": "Cornwall College",
+   "url": "https://www.cornwall.ac.uk/courses/bsc-hons-horticulture-garden-landscape-design-degree/",
+   "ucas_code": "A53-A99"
+  },
+  {
+   "title": "Landscape Architecture",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/landscape-architecture-ba-hons",
+   "ucas_code": "A14-G22"
+  },
+  {
+   "title": "Garden Design",
+   "provider": "Inchbald School of Design",
+   "url": "https://www.inchbald.co.uk/courses/garden-design/ba-hons-garden-design",
+   "ucas_code": ""
+  },
+  {
+   "title": "Landscape Architecture and Design",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/landscapearchitectureanddesign",
+   "ucas_code": "A10-I04"
+  },
+  {
+   "title": "Urban Landscape Architecture",
+   "provider": "RAVENSBOURNE UNIVERSITY LONDON",
+   "url": "https://www.ravensbourne.ac.uk/study/undergraduate/ba-hons-urban-landscape-architecture",
+   "ucas_code": "A42-G14"
+  },
+  {
+   "title": "Landscape Architecture",
+   "provider": "Reaseheath College",
+   "url": "https://ucreaseheath.ac.uk/ucr-courses/bsc-hons-in-landscape-architecture/",
+   "ucas_code": "A16-E31"
+  },
+  {
+   "title": "Architecture and Landscape",
+   "provider": "THE UNIVERSITY OF SHEFFIELD",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/architecture-and-landscape-ba",
+   "ucas_code": "A35-D57"
+  },
+  {
+   "title": "Landscape Architecture",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/K310",
+   "ucas_code": "A71-F71"
+  },
+  {
+   "title": "Landscape Architecture",
+   "provider": "University of Gloucestershire",
+   "url": "https://www.glos.ac.uk/courses/course/LAA-BA-Landscape-Architecture/",
+   "ucas_code": "A31-C05"
+  }
+ ]
+}

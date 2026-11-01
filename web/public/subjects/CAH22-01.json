@@ -1,0 +1,78 @@
+{
+ "code": "CAH22-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Childhood Studies",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?QJ7UK5",
+   "ucas_code": "A74-D66"
+  },
+  {
+   "title": "Criminology and Education Studies",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/criminology-and-education-studies",
+   "ucas_code": "A06-C25"
+  },
+  {
+   "title": "Education with Inclusive Practice",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/education-with-inclusive-practice",
+   "ucas_code": "A74-F38"
+  },
+  {
+   "title": "Early Childhood Studies",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/early-childhood-studies/full-time/",
+   "ucas_code": "A15-G87"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba",
+   "ucas_code": "A48-B80"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/education-ug/ba-education-studies",
+   "ucas_code": "A15-E11"
+  },
+  {
+   "title": "Biology and Education Studies",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-biology-and-education/",
+   "ucas_code": "A09-E43"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/education-studies-ba-hons-2027-28",
+   "ucas_code": "A14-D13"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Bishop Auckland College",
+   "url": "https://bacoll.ac.uk/course/bsc-hons-education-studies-l6-top-up/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Blackburn College",
+   "url": "https://blackburn.ac.uk/find-a-course/education-and-teaching/education-and-teaching/education-studies-ba-hons",
+   "ucas_code": "A05-E30"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Boston College",
+   "url": "https://www.boston.ac.uk/courses/find-a-course/area/teaching/education-studies-ba-hons-top-up-level-6/",
+   "ucas_code": "A73-D90"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/level-6-ba-hons-education-studies/",
+   "ucas_code": "A11-I76"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-04-07",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/nursing-mental-health-nursing/",
+   "ucas_code": "A00-A16"
+  },
+  {
+   "title": "Nursing (Mental Health)",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?2GBNDJ",
+   "ucas_code": "A62-H43"
+  },
+  {
+   "title": "Nursing (Mental Health)",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/mental-health-nursing",
+   "ucas_code": "A06-E02"
+  },
+  {
+   "title": "Nursing (Adult and Mental Health)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-mental-health",
+   "ucas_code": "A72-G00"
+  },
+  {
+   "title": "Nursing Studies (Registered Nurse Mental Health Nursing)",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/nursing-studies-registered-nurse-mental-health-nursing-bsc",
+   "ucas_code": "A71-F67"
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/mental-health-nursing/full-time/",
+   "ucas_code": "A65-F91"
+  },
+  {
+   "title": "Nursing (Mental Health) [Pre-registration Nursing]",
+   "provider": "BPP University",
+   "url": "https://www.bpp.com/nursing-and-healthcare/bsc-nursing-mental-health",
+   "ucas_code": ""
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b762-mental-health-nursing-bn-hons",
+   "ucas_code": "A41-F28"
+  },
+  {
+   "title": "Adult and Mental Health Nursing (Dual Award)",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/nursing-adult-mental-health-dual-msci-2027-28",
+   "ucas_code": "B70-B63"
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-mental-health-nursing-1",
+   "ucas_code": "A11-I09"
+  },
+  {
+   "title": "Nursing (Mental Health)",
+   "provider": "Brunel University of London",
+   "url": "http://www.brunel.ac.uk/study/undergraduate/nursing-mental-health-bsc",
+   "ucas_code": "A62-B20"
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-mental-health-nursing",
+   "ucas_code": "A03-D58"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH22-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Primary Teacher Education (Campus-Based)",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/primary-teacher-education-campus-based/",
+   "ucas_code": "A06-E18"
+  },
+  {
+   "title": "Primary Education with Qualified Teacher Status (QTS)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/primary-education-with-qts",
+   "ucas_code": "A68-F41"
+  },
+  {
+   "title": "Primary Education (3-11) with rec. for QTS",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/ba-hons-primary-education-3-11-with-recommendation-for-qts/full-time/",
+   "ucas_code": "A63-F60"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba",
+   "ucas_code": "A48-B80"
+  },
+  {
+   "title": "Primary Education (Generalist)",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/education-ug/ba-qts-primary-education",
+   "ucas_code": "A51-D26"
+  },
+  {
+   "title": "Primary Education with QTS with Foundation Year",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/primary-education-with-qts-ba-hons-2027-28",
+   "ucas_code": "A45-I05"
+  },
+  {
+   "title": "Primary Education with QTS",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/level-6-ba-hons-primary-education-with-qts/",
+   "ucas_code": "A76-C15"
+  },
+  {
+   "title": "Primary Education with Qualified Teacher Status",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/primary-education-qts-ba",
+   "ucas_code": "A45-A21"
+  },
+  {
+   "title": "Animal Science",
+   "provider": "CITY COLLEGE NORWICH",
+   "url": "https://he.ccn.ac.uk/courses/all-courses/course/bsc-hons-animal-science",
+   "ucas_code": "A62-E76"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/primary-education",
+   "ucas_code": "A19-H69"
+  },
+  {
+   "title": "Primary Education (3-11 Age Range) with Qualified Teacher Status (Welsh Programme)",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-primary-education-with-qualified-teacher-status/",
+   "ucas_code": "A56-G45"
+  },
+  {
+   "title": "Primary Education (with QTS)",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/initial_teacher_training/ba_(hons)_primary_education_(with_qts).cfm",
+   "ucas_code": "A67-D39"
+  }
+ ]
+}

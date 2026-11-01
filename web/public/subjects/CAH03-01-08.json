@@ -1,0 +1,78 @@
+{
+ "code": "CAH03-01-08",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biochemistry",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?AHNAQF",
+   "ucas_code": "A22-E61"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc",
+   "ucas_code": "A41-I42"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-biochemistry",
+   "ucas_code": "A15-D73"
+  },
+  {
+   "title": "Biomedicine with Advanced Pathways",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/biomedicine/biomedicine-with-advanced-pathways",
+   "ucas_code": "A43-B06"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/courses/biomedical-science-bsc",
+   "ucas_code": "A77-E64"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/biochemistry",
+   "ucas_code": "A63-D13"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/biochemistry-with-a-foundation-year-bsc",
+   "ucas_code": "A77-J13"
+  },
+  {
+   "title": "Applied Biosciences",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
+   "ucas_code": "A38-G37"
+  },
+  {
+   "title": "Applied Biomedical Science",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/applied-biomedical-science-bsc-hons",
+   "ucas_code": "A14-E48"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/biochemistry",
+   "ucas_code": "A65-A72"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/c702/",
+   "ucas_code": "A67-A36"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-biochemistry",
+   "ucas_code": "A45-C99"
+  }
+ ]
+}

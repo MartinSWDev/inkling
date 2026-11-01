@@ -1,0 +1,24 @@
+{
+ "code": "CAH06-01-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Conservation with Forestry",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons",
+   "ucas_code": "A34-C14"
+  },
+  {
+   "title": "Forest Management",
+   "provider": "THE UNIVERSITY OF CUMBRIA",
+   "url": "https://tinyurl.com/yxh4egkz",
+   "ucas_code": "A05-I52"
+  },
+  {
+   "title": "Forest Management",
+   "provider": "University of the Highlands and Islands",
+   "url": "https://www.uhi.ac.uk/en/courses/bsc-hons-forest-management/",
+   "ucas_code": "A16-E08"
+  }
+ ]
+}

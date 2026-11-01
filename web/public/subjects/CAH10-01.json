@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Civil and Environmental Engineering",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
+   "ucas_code": "A06-B16"
+  },
+  {
+   "title": "Artificial Intelligence and Robotics",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?2V5QLZ",
+   "ucas_code": "A22-E53"
+  },
+  {
+   "title": "Automotive Engineering with Electric Vehicles",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/automotive-engineering",
+   "ucas_code": "A66-J25"
+  },
+  {
+   "title": "Biomedical Engineering",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-engineering",
+   "ucas_code": "A71-C91"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
+   "ucas_code": "A75-F87"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Asu London Centre for Advanced Learning",
+   "url": "https://asu-london.ac.uk/courses/undergraduate/electrical-and-electronic-engineering/",
+   "ucas_code": "A76-G77"
+  },
+  {
+   "title": "Engineering (Aerospace Engineering)",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://www.blackpool.ac.uk/course/ET1HE603",
+   "ucas_code": "A50-D27"
+  },
+  {
+   "title": "Computer Systems Engineering",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/h612-computer-systems-engineering-beng-hons",
+   "ucas_code": "A34-C08"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/architectural-engineering-ug/beng-architectural-engineering",
+   "ucas_code": "A54-B32"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/civil-engineering-beng-2027-28",
+   "ucas_code": "A14-C86"
+  },
+  {
+   "title": "Design Engineering",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-design-engineering-0",
+   "ucas_code": "A11-H69"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Brunel University of London",
+   "url": "http://www.brunel.ac.uk/study/undergraduate/Aerospace-Engineering-BEng",
+   "ucas_code": "A19-I41"
+  }
+ ]
+}

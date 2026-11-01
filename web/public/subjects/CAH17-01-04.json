@@ -1,0 +1,78 @@
+{
+ "code": "CAH17-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Communication Design and Strategy",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/course/communication-design-strategy",
+   "ucas_code": "A69-B28"
+  },
+  {
+   "title": "Accounting and Finance / Business and Management",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
+   "ucas_code": "A51-B78"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/business-management",
+   "ucas_code": "A13-J78"
+  },
+  {
+   "title": "Project Management",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/bsc-project-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Transformational Leadership",
+   "provider": "BPP University",
+   "url": "https://www.bpp.com/leadership-and-management/bsc-transformational-leadership",
+   "ucas_code": ""
+  },
+  {
+   "title": "Accounting and Management",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons",
+   "ucas_code": "A62-E10"
+  },
+  {
+   "title": "Accounting and Management",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-accounting-and-management",
+   "ucas_code": "A15-D48"
+  },
+  {
+   "title": "Business with Management",
+   "provider": "Blackburn College",
+   "url": "https://blackburn.ac.uk/find-a-course/business/business/business-with-management-ba-hons",
+   "ucas_code": "A05-D96"
+  },
+  {
+   "title": "Business",
+   "provider": "Boston College",
+   "url": "https://www.boston.ac.uk/courses/find-a-course/area/business/business-management-ba-hons-top-up-level-6/",
+   "ucas_code": "A73-C91"
+  },
+  {
+   "title": "Economics and Management",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/economics-and-management-bsc",
+   "ucas_code": "A19-J17"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Buckinghamshire New University",
+   "url": "https://dghe.ac.uk/course/ba-hons-business-management",
+   "ucas_code": "A61-H45"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Burnley College",
+   "url": "https://www.burnley.ac.uk/course/?code=a7393",
+   "ucas_code": "A75-I63"
+  }
+ ]
+}

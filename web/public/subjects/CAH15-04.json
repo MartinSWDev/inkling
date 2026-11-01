@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Early Childhood Studies",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/early-childhood-studies",
+   "ucas_code": "A06-C39"
+  },
+  {
+   "title": "Early Childhood Studies (Graduate Practitioner)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+   "ucas_code": "A14-A13"
+  },
+  {
+   "title": "Health and Care Management",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Counselling and Working with Children, Young People & Families",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
+   "ucas_code": "A15-G80"
+  },
+  {
+   "title": "Social Work",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://www.blackpool.ac.uk/course/sm1he0009",
+   "ucas_code": "B70-C98"
+  },
+  {
+   "title": "Childhood And Youth Studies",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x314-childhood-and-youth-studies-welsh-medium-course-ba-hons",
+   "ucas_code": "A34-B14"
+  },
+  {
+   "title": "Health and Social Care Management with Foundation Year",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ify-health-social-care-management-london/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/health-and-social-care-with-professional-practice",
+   "ucas_code": "A69-G38"
+  },
+  {
+   "title": "Early Childhood Studies (with Graduate Practitioner Competencies)",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/early-childhood-studies-ba-hons-2027-28",
+   "ucas_code": "A14-D10"
+  },
+  {
+   "title": "Social Work",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-social-work",
+   "ucas_code": "A11-I35"
+  },
+  {
+   "title": "Social Work",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-social-work/",
+   "ucas_code": "A11-J07"
+  },
+  {
+   "title": "Childhood Studies with Early Years",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-childhood-studies-early-years",
+   "ucas_code": "A67-J28"
+  }
+ ]
+}

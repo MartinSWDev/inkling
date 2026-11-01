@@ -1,0 +1,42 @@
+{
+ "code": "CAH06-01-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Fitness, Nutrition and Health",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
+   "ucas_code": "A06-B25"
+  },
+  {
+   "title": "Nutrition and Food Management",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/nutrition-and-food-management",
+   "ucas_code": "A49-A91"
+  },
+  {
+   "title": "Food Business Management",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBFDBUS",
+   "ucas_code": "A66-F46"
+  },
+  {
+   "title": "Brewing and Distilling",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
+   "ucas_code": "A05-J54"
+  },
+  {
+   "title": "Food and Nutrition",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/food-and-nutrition/bsc-honours-food-and-nutrition/full-time",
+   "ucas_code": "A17-J05"
+  },
+  {
+   "title": "Food Business and Innovation",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-food-business-and-innovation-ft-c",
+   "ucas_code": "A16-I24"
+  }
+ ]
+}

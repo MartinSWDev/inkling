@@ -1,0 +1,78 @@
+{
+ "code": "CAH16-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Business Management with Law",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/business-management-with-law/",
+   "ucas_code": "A59-C06"
+  },
+  {
+   "title": "Business Law",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?RGGD97",
+   "ucas_code": "A22-E77"
+  },
+  {
+   "title": "Business and Law",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-and-law",
+   "ucas_code": "A55-B48"
+  },
+  {
+   "title": "Commercial Law",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/commercial-law",
+   "ucas_code": "A76-G31"
+  },
+  {
+   "title": "Law",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/law-degrees/llb-hons",
+   "ucas_code": ""
+  },
+  {
+   "title": "Law",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/law-llb",
+   "ucas_code": "A30-C16"
+  },
+  {
+   "title": "Law",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/law-llb-hons/full-time/",
+   "ucas_code": "A51-C32"
+  },
+  {
+   "title": "Criminal Law",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/m212-criminal-law-llb-hons",
+   "ucas_code": "A62-B68"
+  },
+  {
+   "title": "Law",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/law-ug/llb-law",
+   "ucas_code": "A15-E97"
+  },
+  {
+   "title": "Business and Management (Law) with Integrated Foundation Year",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/about-us/networks/educational-partners/william-college/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Law",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/law",
+   "ucas_code": "A24-E00"
+  },
+  {
+   "title": "Criminology, Policing and Investigation",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/criminology-policing-and-investigation-ba-hons-2027-28",
+   "ucas_code": "A14-D04"
+  }
+ ]
+}

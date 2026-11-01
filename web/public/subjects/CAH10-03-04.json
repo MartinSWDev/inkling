@@ -1,0 +1,36 @@
+{
+ "code": "CAH10-03-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Marine Engineering",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://fleetwoodnautical.blackpool.ac.uk/course/mh1he95",
+   "ucas_code": ""
+  },
+  {
+   "title": "Naval Architecture and Marine Engineering",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/h515/",
+   "ucas_code": "A70-C50"
+  },
+  {
+   "title": "Marine Engineering",
+   "provider": "Southampton Solent University",
+   "url": "https://www.solent.ac.uk/courses/undergraduate/marine-engineering-beng/2027/beng-hons-marine-engineering-3-years-2027",
+   "ucas_code": ""
+  },
+  {
+   "title": "Civil and Coastal Engineering",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/beng-civil-and-coastal-engineering",
+   "ucas_code": "A29-H47"
+  },
+  {
+   "title": "Maritime Engineering",
+   "provider": "University of Southampton",
+   "url": "https://www.southampton.ac.uk/courses/maritime-engineering-degree-beng",
+   "ucas_code": "A23-F03"
+  }
+ ]
+}

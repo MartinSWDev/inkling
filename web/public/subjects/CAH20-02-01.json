@@ -1,0 +1,78 @@
+{
+ "code": "CAH20-02-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Anthropology and Philosophy",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-philosophy",
+   "ucas_code": "A06-B57"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
+   "ucas_code": "A14-A81"
+  },
+  {
+   "title": "Applied Humanities (Accelerated degree)",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/applied-humanities-ba-hons/full-time/",
+   "ucas_code": "A53-J42"
+  },
+  {
+   "title": "Philosophy, Ethics and Religion",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/v5v6-philosophy-ethics-and-religion-ba-hons",
+   "ucas_code": "A62-B59"
+  },
+  {
+   "title": "Art and Philosophy",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-philosophy",
+   "ucas_code": "A15-D70"
+  },
+  {
+   "title": "Creative Writing and Philosophy and Ethics",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-philosophy-and-ethics/",
+   "ucas_code": "A09-F27"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/philosophy",
+   "ucas_code": "A24-E12"
+  },
+  {
+   "title": "English Literature and Philosophy",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-and-philosophy-ba",
+   "ucas_code": "A27-J11"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/philosophy-ba/?term=2027-28",
+   "ucas_code": "A65-J88"
+  },
+  {
+   "title": "English Literature and Philosophy",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/qv35/",
+   "ucas_code": "A07-G93"
+  },
+  {
+   "title": "Politics, Philosophy, and Economics",
+   "provider": "GOLDSMITHS' COLLEGE",
+   "url": "http://www.gold.ac.uk/ug/ba-politics-philosophy-economics/",
+   "ucas_code": "A17-C43"
+  },
+  {
+   "title": "English and Philosophy",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/englishandphilosophy/",
+   "ucas_code": "A74-F12"
+  }
+ ]
+}

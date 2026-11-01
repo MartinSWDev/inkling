@@ -1,0 +1,78 @@
+{
+ "code": "CAH24-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Journalism and Language (French, German, Italian, Japanese, Spanish)",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/journalism-and-media/journalism-and-language-french-german-italian-japanese-spanish",
+   "ucas_code": "A65-H63"
+  },
+  {
+   "title": "English and Journalism",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/english-and-journalism-ba-hons-2027-28",
+   "ucas_code": "A14-D20"
+  },
+  {
+   "title": "Multimedia Journalism",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-multimedia-journalism",
+   "ucas_code": "A11-I12"
+  },
+  {
+   "title": "Journalism (Communication)",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/journalism-communication-ba",
+   "ucas_code": "A60-I35"
+  },
+  {
+   "title": "Journalism",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/journalism",
+   "ucas_code": "A13-I15"
+  },
+  {
+   "title": "English Literature, Journalism and Media",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-journalism-media-ba",
+   "ucas_code": "A27-J88"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/journalism-ba-hons/?term=2027-28",
+   "ucas_code": "A38-H92"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/media_&_journalism/ba_(hons)_journalism.cfm",
+   "ucas_code": "A31-F56"
+  },
+  {
+   "title": "Journalism",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/journalism-ba-degree/journalism-ba-degree.aspx",
+   "ucas_code": "A25-H34"
+  },
+  {
+   "title": "Journalism with Content Creation",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/journalism-content-creation",
+   "ucas_code": "A41-A65"
+  },
+  {
+   "title": "Fashion Journalism",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-journalism",
+   "ucas_code": "A01-E45"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-journalism-undergraduate-fulltime",
+   "ucas_code": "A25-D01"
+  }
+ ]
+}

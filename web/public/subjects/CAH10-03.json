@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Audio and Music Technology",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/audio-and-music-technology",
+   "ucas_code": "A13-J59"
+  },
+  {
+   "title": "Business and Supply Chain Management",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc",
+   "ucas_code": "A45-E33"
+  },
+  {
+   "title": "Marine Engineering",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://fleetwoodnautical.blackpool.ac.uk/course/mh1he95",
+   "ucas_code": ""
+  },
+  {
+   "title": "Engineering",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/h607-engineering-beng",
+   "ucas_code": ""
+  },
+  {
+   "title": "Garment Technology",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
+   "ucas_code": ""
+  },
+  {
+   "title": "Music (Production)",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/music-production-ba",
+   "ucas_code": "A60-I38"
+  },
+  {
+   "title": "Audio and Music Production",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-audio-and-music-production",
+   "ucas_code": "A72-G41"
+  },
+  {
+   "title": "Sound Design",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/sound-design-ba",
+   "ucas_code": "A39-C66"
+  },
+  {
+   "title": "Prop Making and Special Effects",
+   "provider": "Chichester College Group",
+   "url": "https://www.northbrook.ac.uk/courses/ba-hons-prop-making-special-effects/",
+   "ucas_code": "A69-C27"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/biotechnology-msci-bsc-hons/?term=2027-28",
+   "ucas_code": "A75-F69"
+  },
+  {
+   "title": "Audio Software Engineering",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/audio-software-engineering",
+   "ucas_code": "A66-F24"
+  },
+  {
+   "title": "Music Production and Creative Recording",
+   "provider": "EAST SUSSEX COLLEGE",
+   "url": "https://adult.escg.ac.uk/courses/performing-arts/music/music-production-and-creative-recording-ba-hons-uea-101666/",
+   "ucas_code": "A69-B76"
+  }
+ ]
+}

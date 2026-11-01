@@ -1,0 +1,78 @@
+{
+ "code": "CAH03-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?FF3VHG",
+   "ucas_code": "A22-E63"
+  },
+  {
+   "title": "Biology",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/biology",
+   "ucas_code": "A70-H20"
+  },
+  {
+   "title": "Biology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c100-biology-bsc-hons",
+   "ucas_code": "A34-B34"
+  },
+  {
+   "title": "Biology",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-biology/",
+   "ucas_code": "A09-E36"
+  },
+  {
+   "title": "Biology",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/biosciences/bsc_(hons)_biology.cfm",
+   "ucas_code": "A31-D98"
+  },
+  {
+   "title": "Biology",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/biology-mbiol",
+   "ucas_code": "A14-G14"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/biological-sciences-c103/",
+   "ucas_code": "A07-G26"
+  },
+  {
+   "title": "Biology",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/bio",
+   "ucas_code": "A75-H57"
+  },
+  {
+   "title": "Biology",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/biology/",
+   "ucas_code": "A05-C26"
+  },
+  {
+   "title": "Biological Science",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/biological-sciences",
+   "ucas_code": "A21-A78"
+  },
+  {
+   "title": "Biological Sciences (Biology)",
+   "provider": "Halesowen College",
+   "url": "https://www.worcester.ac.uk/courses/biological-biology-bsc-hons",
+   "ucas_code": "A11-E41"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biological-sciences/",
+   "ucas_code": "A15-C50"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH25-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Communication Design and Strategy",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/course/communication-design-strategy",
+   "ucas_code": "A69-B28"
+  },
+  {
+   "title": "Computer Arts",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+   "ucas_code": "A06-B17"
+  },
+  {
+   "title": "Graphic Design",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/graphic-design-ba",
+   "ucas_code": "A50-E69"
+  },
+  {
+   "title": "Animation and Illustration",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/animation-and-illustration",
+   "ucas_code": "A14-A46"
+  },
+  {
+   "title": "Fashion Design",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design",
+   "ucas_code": "A16-E78"
+  },
+  {
+   "title": "Engineering and Physical Sciences Foundation Programme: Product Design and Innovation",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/product-design-and-innovation-foundation",
+   "ucas_code": "A71-I78"
+  },
+  {
+   "title": "Creative Technologies",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/gw49-creative-technologies-bsc-hons",
+   "ucas_code": "A34-C29"
+  },
+  {
+   "title": "Art and Graphic Design",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-graphic-design",
+   "ucas_code": "B60-I57"
+  },
+  {
+   "title": "Fashion Design",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-fashion-design/",
+   "ucas_code": "A09-G22"
+  },
+  {
+   "title": "Digital Media 3-year, full-time",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/digital-media",
+   "ucas_code": "A73-C81"
+  },
+  {
+   "title": "Costume Design and Practice",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
+   "ucas_code": ""
+  },
+  {
+   "title": "Product Design",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-product-design",
+   "ucas_code": "A11-I27"
+  }
+ ]
+}

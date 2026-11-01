@@ -1,0 +1,42 @@
+{
+ "code": "CAH01-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Radiotherapy and Oncology",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11RADONC",
+   "ucas_code": "A26-D57"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Diagnostic-Radiography-BSc-Hons",
+   "ucas_code": "A74-D81"
+  },
+  {
+   "title": "Therapeutic Radiography and Oncology",
+   "provider": "THE UNIVERSITY OF LIVERPOOL",
+   "url": "https://www.liverpool.ac.uk/courses/therapeutic-radiography-and-oncology-bsc-hons/2027",
+   "ucas_code": "A03-B64"
+  },
+  {
+   "title": "Cancer Sciences",
+   "provider": "UNIVERSITY OF NOTTINGHAM, THE",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Cancer-Sciences-MSci-Hons.html",
+   "ucas_code": "A47-C24"
+  },
+  {
+   "title": "Diagnostic Radiography and Medical Imaging",
+   "provider": "University of Portsmouth",
+   "url": "https://www.port.ac.uk/study/courses/bsc-hons-diagnostic-radiography-and-medical-imaging",
+   "ucas_code": "A18-H92"
+  },
+  {
+   "title": "Optometry with Independent Prescribing",
+   "provider": "University of the Highlands and Islands",
+   "url": "https://www.uhi.ac.uk/en/courses/moptom-optometry-with-independent-prescribing/",
+   "ucas_code": "A71-J91"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Business Information Technology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?KRVNF6",
+   "ucas_code": "A22-E74"
+  },
+  {
+   "title": "Artificial Intelligence and Data Science",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/artificial-intelligence-and-data-science",
+   "ucas_code": "A62-C95"
+  },
+  {
+   "title": "Business Analytics",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc",
+   "ucas_code": "A51-A19"
+  },
+  {
+   "title": "Biology With Biotechnology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons",
+   "ucas_code": "A34-B36"
+  },
+  {
+   "title": "Business and Management (Data Analytics and Digital Business)",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-business-and-management-data-analytics-and-digital-business",
+   "ucas_code": "A57-E28"
+  },
+  {
+   "title": "Mathematics and Data Science",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/mathematics-and-data-science",
+   "ucas_code": "A74-B30"
+  },
+  {
+   "title": "Data Science with Foundation Year",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-data-science",
+   "ucas_code": "A52-H14"
+  },
+  {
+   "title": "Computer and Data Science",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computer-and-data-science/",
+   "ucas_code": "A49-H60"
+  },
+  {
+   "title": "Data Science",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/data-science-mscibsc/?term=2027-28",
+   "ucas_code": "A38-I11"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/artificial-intelligence-bsc-degree/artificial-intelligence-bsc-hons.aspx",
+   "ucas_code": "A25-H23"
+  },
+  {
+   "title": "Cyber Security & Digital Forensics",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/cyber-security-and-digital-forensics-bsc-hons",
+   "ucas_code": "A14-F08"
+  },
+  {
+   "title": "Biomedical Informatics",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/biomedical-informatics",
+   "ucas_code": "A65-A84"
+  }
+ ]
+}

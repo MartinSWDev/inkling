@@ -1,0 +1,48 @@
+{
+ "code": "CAH19-04-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Beginners' Italian and Czech (with Slovak)",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages",
+   "ucas_code": "A13-C28"
+  },
+  {
+   "title": "French and Russian",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
+   "ucas_code": "A48-B00"
+  },
+  {
+   "title": "French and Russian",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-russian",
+   "ucas_code": "A72-I82"
+  },
+  {
+   "title": "Bulgarian and Czech",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/bulgarian-and-czech-ba",
+   "ucas_code": "A49-A68"
+  },
+  {
+   "title": "Business & Management/Russian",
+   "provider": "UNIVERSITY OF GLASGOW",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/businessmanagement/",
+   "ucas_code": "A24-E88"
+  },
+  {
+   "title": "Chinese and Russian",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/BR37",
+   "ucas_code": "A14-I17"
+  },
+  {
+   "title": "Arabic and Comparative Literature and Russian",
+   "provider": "University of St Andrews",
+   "url": "https://www.st-andrews.ac.uk/subjects/arabic/arabic-ma/",
+   "ucas_code": "A28-H67"
+  }
+ ]
+}

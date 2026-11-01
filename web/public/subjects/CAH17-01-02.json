@@ -1,0 +1,78 @@
+{
+ "code": "CAH17-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Accounting and Finance / Business and Management",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
+   "ucas_code": "A51-B78"
+  },
+  {
+   "title": "Business and Entrepreneurship",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/global-business-and-entrepreneurship",
+   "ucas_code": "A68-D72"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Amity Global Education Ltd",
+   "url": "https://www.amity.ac.uk/6n101",
+   "ucas_code": "A52-G67"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/business-economics",
+   "ucas_code": "A76-I21"
+  },
+  {
+   "title": "Business Computing and IT",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
+   "ucas_code": "A30-B27"
+  },
+  {
+   "title": "Banking with Financial Technology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n312-banking-with-financial-technology-fintech-bsc-hons",
+   "ucas_code": "A58-F84"
+  },
+  {
+   "title": "Accounting and Business",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-accounting-and-business",
+   "ucas_code": "A15-D45"
+  },
+  {
+   "title": "Business Management and Criminology",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
+   "ucas_code": "A43-E18"
+  },
+  {
+   "title": "Economics and Business",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/economics/economics-and-business",
+   "ucas_code": "A24-D54"
+  },
+  {
+   "title": "Business and Entrepreneurship",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/business-and-entrepreneurship-bsc-hons-2027-28",
+   "ucas_code": "A75-F26"
+  },
+  {
+   "title": "Business with Management",
+   "provider": "Blackburn College",
+   "url": "https://blackburn.ac.uk/find-a-course/business/business/business-with-management-ba-hons",
+   "ucas_code": "A05-D96"
+  },
+  {
+   "title": "Business Management with Entrepreneurship",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/business-management-with-entrepreneurship-bsc",
+   "ucas_code": "A69-D98"
+  }
+ ]
+}

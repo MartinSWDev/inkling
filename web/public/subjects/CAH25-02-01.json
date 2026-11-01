@@ -1,0 +1,78 @@
+{
+ "code": "CAH25-02-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Dance (Performance and Screen)",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/course/ba-hons-movement-dance-creative-practice",
+   "ucas_code": "A75-B34"
+  },
+  {
+   "title": "Music Performance",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/music-performance",
+   "ucas_code": "A62-I21"
+  },
+  {
+   "title": "Commercial Dance",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/commercial-dance",
+   "ucas_code": "A76-B16"
+  },
+  {
+   "title": "Theatre and Performance",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/theatre-and-performance",
+   "ucas_code": "A19-H35"
+  },
+  {
+   "title": "Inclusive Performance",
+   "provider": "Chicken Shed Theatre Company",
+   "url": "https://www.chickenshed.org.uk/education/ba-hons-inclusive-performance-top-up",
+   "ucas_code": ""
+  },
+  {
+   "title": "Musical Theatre Performance",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.creativeacademy.org/courses/bahons-dance-musical-t-p",
+   "ucas_code": "A73-D36"
+  },
+  {
+   "title": "Performing Arts",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-performing-arts",
+   "ucas_code": "A01-G65"
+  },
+  {
+   "title": "Fine Art - Sculpture And Environmental Art",
+   "provider": "Glasgow School of Art.",
+   "url": "https://www.gsa.ac.uk/undergraduate-degrees/sculpture-environmental-art",
+   "ucas_code": "A15-G54"
+  },
+  {
+   "title": "Acting",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/acting-ba",
+   "ucas_code": "A69-E24"
+  },
+  {
+   "title": "Theatre and Performance",
+   "provider": "London Metropolitan University",
+   "url": "https://www.londonmet.ac.uk/courses/undergraduate/theatre-and-performance---ba-hons/",
+   "ucas_code": "A57-C99"
+  },
+  {
+   "title": "Performance (Acting)",
+   "provider": "Mountview Academy of Theatre Arts",
+   "url": "https://www.mountview.org.uk/courses/course/ba-hons-performance-acting/",
+   "ucas_code": ""
+  },
+  {
+   "title": "International Acting Practices (with Placement)",
+   "provider": "ROSE BRUFORD COLLEGE OF THEATRE AND PERFORMANCE",
+   "url": "https://www.bruford.ac.uk/study/undergraduate-courses/international-acting-practices-ba-hons/",
+   "ucas_code": "A07-B10"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-06-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Dispensing Optician (Registerable Award)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/dispensing-optician-registerable-award",
+   "ucas_code": ""
+  },
+  {
+   "title": "Optometry",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/optometry-moptom",
+   "ucas_code": "A30-C34"
+  },
+  {
+   "title": "Ophthalmic Dispensing",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/bsc-hons-ophthalmic-dispensing/",
+   "ucas_code": "A11-I97"
+  },
+  {
+   "title": "Optometry",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/optometry",
+   "ucas_code": "A13-I34"
+  },
+  {
+   "title": "Optometry",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/master-of-optometry",
+   "ucas_code": "A67-F20"
+  },
+  {
+   "title": "Optometry",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/moptom_(hons)_optometry.cfm",
+   "ucas_code": "A70-F37"
+  },
+  {
+   "title": "Optometry",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/optometry/optometry.aspx",
+   "ucas_code": "A76-I20"
+  },
+  {
+   "title": "Ophthalmic Dispensing",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/14OPHDIS",
+   "ucas_code": "A75-D37"
+  },
+  {
+   "title": "Initial Year For Extended Degree Science - Optometry",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/initial-year-for-extended-degree-in-science-optometry2",
+   "ucas_code": "A44-I12"
+  },
+  {
+   "title": "Optometry",
+   "provider": "THE UNIVERSITY OF BRADFORD",
+   "url": "https://www.bradford.ac.uk/courses/ug/master-of-optometry/",
+   "ucas_code": "A68-E69"
+  },
+  {
+   "title": "Optometry",
+   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Optometry-MOptom",
+   "ucas_code": "A71-A40"
+  },
+  {
+   "title": "Optometry",
+   "provider": "THE UNIVERSITY OF LEICESTER",
+   "url": "https://le.ac.uk/courses/optometry-moptom/2027",
+   "ucas_code": "A75-G88"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH05-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Bioveterinary Science",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-bioveterinary-science",
+   "ucas_code": "A17-A62"
+  },
+  {
+   "title": "Veterinary Medicine and Surgery",
+   "provider": "Harper and Keele Veterinary School",
+   "url": "https://www.harperkeelevetschool.ac.uk/about/429/introduction/",
+   "ucas_code": "A53-E71"
+  },
+  {
+   "title": "Veterinary Physiotherapy",
+   "provider": "Plumpton College",
+   "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-veterinary-physiotherapy-bachelors-degree-494/",
+   "ucas_code": "A62-H74"
+  },
+  {
+   "title": "Veterinary Biosciences",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/veterinary-biosciences-bsc-d300",
+   "ucas_code": "A76-B36"
+  },
+  {
+   "title": "Veterinary Science",
+   "provider": "Scotland's Rural College",
+   "url": "https://www.sruc.ac.uk/course-catalogue/veterinary-science/bvsci-veterinary-science/",
+   "ucas_code": "A69-J87"
+  },
+  {
+   "title": "Foundation to Veterinary Science (Year 0)",
+   "provider": "THE UNIVERSITY OF LIVERPOOL",
+   "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-veterinary-science-year-0/2027",
+   "ucas_code": "A02-I28"
+  },
+  {
+   "title": "Veterinary Medicine and Science",
+   "provider": "THE UNIVERSITY OF SURREY",
+   "url": "https://www.surrey.ac.uk/undergraduate/veterinary-medicine-and-science/2027",
+   "ucas_code": "A36-G20"
+  },
+  {
+   "title": "Bachelor of Veterinary Medicine",
+   "provider": "The Royal Veterinary College",
+   "url": "https://www.rvc.ac.uk/study/undergraduate/bachelor-of-veterinary-medicine",
+   "ucas_code": "A07-C58"
+  },
+  {
+   "title": "Veterinary Medicine and Surgery",
+   "provider": "UNIVERSITY OF GLASGOW",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/veterinarymedicine/",
+   "ucas_code": "A25-B33"
+  },
+  {
+   "title": "Veterinary Medicine and Surgery",
+   "provider": "UNIVERSITY OF LANCASHIRE",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/veterinary-medicine-surgery-bvms",
+   "ucas_code": "A66-D90"
+  },
+  {
+   "title": "Veterinary Medicine and Surgery including a Gateway Year",
+   "provider": "UNIVERSITY OF NOTTINGHAM, THE",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Veterinary-Medicine-and-Surgery-including-a-Gateway-Year-BVM-BVS-with-BVMedSci-BVMBVS.html",
+   "ucas_code": "A00-H57"
+  },
+  {
+   "title": "Gateway to Veterinary Science",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/vet-science/bvsc-gateway-to-veterinary-science/",
+   "ucas_code": "A15-I37"
+  }
+ ]
+}

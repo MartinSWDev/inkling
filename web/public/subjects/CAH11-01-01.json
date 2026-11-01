@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Accounting and Finance and Computing",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?B7SZAS",
+   "ucas_code": "A57-B01"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/computer-science",
+   "ucas_code": "A06-C09"
+  },
+  {
+   "title": "Applied Computer Science",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/applied-computer-science-west-anglia",
+   "ucas_code": "A13-J98"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/computer-science-bsc",
+   "ucas_code": "A30-B42"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Asu London Centre for Advanced Learning",
+   "url": "https://asu-london.ac.uk/courses/undergraduate/computer-science/",
+   "ucas_code": "A76-G72"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/computer-science-bsc-hons/computer-science-bsc-hons/",
+   "ucas_code": "A51-C75"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/g400-computer-science-bsc-hons",
+   "ucas_code": "A34-C05"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/computer-science-ug/bsc-computer-science",
+   "ucas_code": "A15-D97"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-computer-science-/",
+   "ucas_code": "A74-J50"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/computing",
+   "ucas_code": "A73-J93"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/business-management-ba-hons-2027-28",
+   "ucas_code": "B62-B12"
+  },
+  {
+   "title": "Networking and Cyber Security",
+   "provider": "Blackburn College",
+   "url": "https://blackburn.ac.uk/find-a-course/digital/computer-science/networking-and-cyber-security-bsc-hons",
+   "ucas_code": "A60-E20"
+  }
+ ]
+}

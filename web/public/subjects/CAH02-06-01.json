@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-06-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Paramedic Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/paramedic-science",
+   "ucas_code": "A06-E08"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/operating-department-practice",
+   "ucas_code": "A14-A71"
+  },
+  {
+   "title": "Paramedic Science",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/paramedic-science-bsc-hons/full-time/",
+   "ucas_code": "A67-H92"
+  },
+  {
+   "title": "Physician Associate Studies",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/medical-sciences-ug/mpas-physician-associate-studies",
+   "ucas_code": "A55-E17"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/operating-department-practice-bsc-hons-2027-28",
+   "ucas_code": "A14-D96"
+  },
+  {
+   "title": "Healthcare Studies",
+   "provider": "Bishop Auckland College",
+   "url": "https://bacoll.ac.uk/course/bsc-hons-healthcare-studies-l6-top-up/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Equine Therapy and Rehabilitation",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-equine-therapy-and-rehabilitation",
+   "ucas_code": "A17-A90"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-operating-department-practice",
+   "ucas_code": "A11-I18"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-operating-department-practice",
+   "ucas_code": "A46-H74"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/operating-department-practice-bsc",
+   "ucas_code": "A39-C30"
+  },
+  {
+   "title": "Paramedic Science",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/paramedic-science",
+   "ucas_code": "A75-A85"
+  },
+  {
+   "title": "Health and Lifestyle Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
+   "ucas_code": ""
+  }
+ ]
+}

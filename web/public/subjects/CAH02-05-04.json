@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-05-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Healthcare Science (Physiological Sciences)",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/healthcare-science",
+   "ucas_code": "A75-B11"
+  },
+  {
+   "title": "Human Biosciences",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/human-biosciences-bsc/?term=2027-28",
+   "ucas_code": "A38-H48"
+  },
+  {
+   "title": "Human Anatomy",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/humananatomy/",
+   "ucas_code": "A74-C21"
+  },
+  {
+   "title": "Anatomy, Developmental & Human Biology",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/anatomy-developmental-and-human-biology-bsc",
+   "ucas_code": "A27-F82"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/psychology/#variant",
+   "ucas_code": "A18-D65"
+  },
+  {
+   "title": "Human Physiology",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-human-physiology/september-2027/",
+   "ucas_code": "A32-A76"
+  },
+  {
+   "title": "Healthcare Science (Cardiac Physiology)",
+   "provider": "Middlesex University",
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/healthcare-science-cardiac-physiology",
+   "ucas_code": "A22-C97"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/human-biology-bsc-b100/",
+   "ucas_code": "A28-C43"
+  },
+  {
+   "title": "Healthcare Science (Cardiac Physiology)",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/healthcare-science-cardiac-physiology-bsc-hons/",
+   "ucas_code": "A37-C26"
+  },
+  {
+   "title": "Clinical Sciences",
+   "provider": "THE UNIVERSITY OF BRADFORD",
+   "url": "https://www.bradford.ac.uk/courses/ug/clinical-sciences-bsc/",
+   "ucas_code": "A11-C58"
+  },
+  {
+   "title": "Applied Biomedical Science (NHS placement)",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG00039/3?coursecode=B991",
+   "ucas_code": "A51-B86"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Pharmacy-MPharm",
+   "ucas_code": "A13-G91"
+  }
+ ]
+}

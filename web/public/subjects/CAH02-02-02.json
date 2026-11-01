@@ -1,0 +1,12 @@
+{
+ "code": "CAH02-02-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Pharmaceutical Science",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/pharmaceutical-science-mpharm/",
+   "ucas_code": "A08-C20"
+  }
+ ]
+}

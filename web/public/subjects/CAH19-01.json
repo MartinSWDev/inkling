@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Creative Writing",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "http://aub.ac.uk/courses/ba/creative-writing/",
+   "ucas_code": "A38-F96"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?5AJ377",
+   "ucas_code": "A22-E99"
+  },
+  {
+   "title": "Anthropology and English Literature",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-english-literature",
+   "ucas_code": "A06-C81"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/creative-writing",
+   "ucas_code": "A63-E29"
+  },
+  {
+   "title": "English Language",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/english-language-ba",
+   "ucas_code": "A30-B61"
+  },
+  {
+   "title": "Applied Humanities (Accelerated degree)",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/applied-humanities-ba-hons/full-time/",
+   "ucas_code": "A53-J42"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/w801-creative-writing-ba-hons",
+   "ucas_code": "A72-B52"
+  },
+  {
+   "title": "Art and Creative Writing",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-creative-writing",
+   "ucas_code": "A53-J40"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing/",
+   "ucas_code": "A09-F16"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/creative-writing",
+   "ucas_code": "A24-D47"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/creative-writing-ba-hons-2027-28",
+   "ucas_code": "A75-C23"
+  },
+  {
+   "title": "Creative Writing",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/creative-writing-ba",
+   "ucas_code": "A19-J09"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "code": "CAH02-04-09",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Operating Department Practice",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/operating-department-practice-bsc-hons-2027-28",
+   "ucas_code": "A14-D96"
+  },
+  {
+   "title": "Operating Department Practitioner",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/operating-department-practitioner-bsc-hons",
+   "ucas_code": "A62-B28"
+  },
+  {
+   "title": "Nursing (Adult)",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG00315/1?coursecode=B740",
+   "ucas_code": ""
+  }
+ ]
+}

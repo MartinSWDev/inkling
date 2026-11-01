@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-01-07",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Civil and Environmental Engineering",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
+   "ucas_code": "A06-B16"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/civil-engineering-beng",
+   "ucas_code": "A13-J87"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng",
+   "ucas_code": "A55-H45"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/architectural-engineering-ug/beng-architectural-engineering",
+   "ucas_code": "A54-B32"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/civil-engineering-beng-2027-28",
+   "ucas_code": "A14-C86"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/civil-engineering-beng",
+   "ucas_code": "A66-D27"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-civil-engineering",
+   "ucas_code": "A71-E74"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/architecture-barch",
+   "ucas_code": "A58-D42"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/civil-engineering",
+   "ucas_code": "A72-B73"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/architectural-engineering",
+   "ucas_code": "A70-I13"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/architectural-engineering-beng",
+   "ucas_code": "A27-H72"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/architectural-engineering-beng/?term=2027-28",
+   "ucas_code": "A38-G60"
+  }
+ ]
+}

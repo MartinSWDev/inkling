@@ -1,0 +1,78 @@
+{
+ "code": "CAH03-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Microbiology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?UJJUHX",
+   "ucas_code": "A22-G90"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-microbiology",
+   "ucas_code": "A15-F01"
+  },
+  {
+   "title": "Clinical Science with Immunopathology",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/study/undergraduate",
+   "ucas_code": ""
+  },
+  {
+   "title": "Applied Microbiology",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bsc-hons-applied-microbiology-undergraduate-fulltime",
+   "ucas_code": "A25-C12"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/microbiology/",
+   "ucas_code": "A15-D37"
+  },
+  {
+   "title": "Microbiology and Immunology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/microbiologyandimmunology/",
+   "ucas_code": "A67-A65"
+  },
+  {
+   "title": "Microbiology and Molecular Biology",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-microbiology-and-molecular-biology-with-option-to-study-overseas/september-2027/",
+   "ucas_code": "A32-A36"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-microbiology",
+   "ucas_code": "A38-E65"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/microbiology-bsc-c500/",
+   "ucas_code": "A28-C81"
+  },
+  {
+   "title": "Microbiology and Immunology",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/medicine/microbiology-and-immunology-bsc",
+   "ucas_code": "A71-I08"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/microbiology-bsc",
+   "ucas_code": "A74-I95"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "THE UNIVERSITY OF EAST ANGLIA",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-microbiology/2027-28/sep",
+   "ucas_code": "A60-I01"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH26-01-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Environmental Earth Science",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?L79NU3",
+   "ucas_code": "A22-F63"
+  },
+  {
+   "title": "Geological Oceanography",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/f650-geological-oceanography-bsc-hons",
+   "ucas_code": "A34-E25"
+  },
+  {
+   "title": "Meteorology and Climate",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/meteorology-and-climate-ug/bsc-meteorology-and-climate",
+   "ucas_code": "A02-J90"
+  },
+  {
+   "title": "Environmental Geoscience",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/environmental-geoscience",
+   "ucas_code": "A71-I84"
+  },
+  {
+   "title": "Environmental Geoscience",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/environmental-geoscience-bsc",
+   "ucas_code": "A55-H16"
+  },
+  {
+   "title": "Geography and Environmental Hazards",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/geography-and-environmental-hazards-bsc/?term=2027-28",
+   "ucas_code": "A38-H35"
+  },
+  {
+   "title": "Climate Science",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/f645/",
+   "ucas_code": "A59-I75"
+  },
+  {
+   "title": "Earth and Planetary Science",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/earth-planetary-science-msci/",
+   "ucas_code": "A48-D54"
+  },
+  {
+   "title": "Geology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geology",
+   "ucas_code": "A40-B90"
+  },
+  {
+   "title": "Earth Sciences (4 years)",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/earth-sciences-geology",
+   "ucas_code": "A30-F05"
+  },
+  {
+   "title": "Earth and Climate Science",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/earth-and-climate-science/",
+   "ucas_code": "A00-J01"
+  },
+  {
+   "title": "Earth, Climate and Environmental Change",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/earth-sciences/earth-climate-and-environmental-change/",
+   "ucas_code": "A56-J27"
+  }
+ ]
+}

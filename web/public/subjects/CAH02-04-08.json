@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-04-08",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Learning Disability Nursing",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b763-learning-disability-nursing-bn-hons",
+   "ucas_code": "A41-F26"
+  },
+  {
+   "title": "Adult and Learning Disabilities Nursing (Dual Award)",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/nursing-adult-learning-disability-dual-msci-2027-28",
+   "ucas_code": "B67-F56"
+  },
+  {
+   "title": "Learning Disabilities Nursing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/learning-disabilities-nursing-bsc-hons/?term=2027-28",
+   "ucas_code": "A71-I13"
+  },
+  {
+   "title": "Nursing Studies (Learning Disabilities) (Pre-Registration)",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Nursing_Studies_(Learning_Disabilities).cfm",
+   "ucas_code": "A31-F76"
+  },
+  {
+   "title": "Nursing with Registration (Learning Disability)",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-learning-disability-degree/nursing-with-registration-learning-disability-bsc-hons.aspx",
+   "ucas_code": "A25-H60"
+  },
+  {
+   "title": "Learning Disabilities Nursing",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/learning-disabilities-nursing",
+   "ucas_code": "A50-I05"
+  },
+  {
+   "title": "Learning Disabilities Nursing & Social Work",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/learning-disabilities-nursing-and-social-work/",
+   "ucas_code": "A05-D03"
+  },
+  {
+   "title": "Nursing Learning Disabilities",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bn-nursing-learning-disabilities-undergraduate-fulltime",
+   "ucas_code": "A25-D37"
+  },
+  {
+   "title": "Nursing Studies (Learning Disability)",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11NSLDIS",
+   "ucas_code": "A26-D38"
+  },
+  {
+   "title": "Nursing (Learning Disabilities)",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/learning-disability-nursing",
+   "ucas_code": "A21-D55"
+  },
+  {
+   "title": "Children's and Learning Disabilities Nursing",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/children-and-learning-disabilities-nursing-msci/",
+   "ucas_code": "A71-D56"
+  },
+  {
+   "title": "Nursing (Learning Disabilities)",
+   "provider": "Leeds Trinity University",
+   "url": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-learning-disabilities/",
+   "ucas_code": "A67-F71"
+  }
+ ]
+}

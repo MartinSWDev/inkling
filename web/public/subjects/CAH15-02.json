@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Accounting and Finance / Economics",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?WDJMAX",
+   "ucas_code": "A51-B77"
+  },
+  {
+   "title": "Accounting and Economics",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/accounting-and-economics",
+   "ucas_code": "A06-B40"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/business-economics-bsc/",
+   "ucas_code": "A75-D85"
+  },
+  {
+   "title": "Economics",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons",
+   "ucas_code": "A62-E11"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/economics-ug/bsc-business-economics",
+   "ucas_code": "A15-D81"
+  },
+  {
+   "title": "Economics",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-economics/",
+   "ucas_code": "B57-I87"
+  },
+  {
+   "title": "Accounting and Economics",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/accounting",
+   "ucas_code": "A76-G26"
+  },
+  {
+   "title": "Economics",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/economics-bsc-hons-2027-28",
+   "ucas_code": "A14-D12"
+  },
+  {
+   "title": "Business and Management (Economics)",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-economics-0",
+   "ucas_code": "A54-E02"
+  },
+  {
+   "title": "Economics",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/economics-bsc",
+   "ucas_code": "A19-J12"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/business-economics",
+   "ucas_code": "A76-E07"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/business-economics",
+   "ucas_code": "A66-E82"
+  }
+ ]
+}

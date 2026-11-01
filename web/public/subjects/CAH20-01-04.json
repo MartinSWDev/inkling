@@ -1,0 +1,54 @@
+{
+ "code": "CAH20-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Cultural Heritage: Libraries, Archives and Museums",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?SJDXCA",
+   "ucas_code": "A54-I59"
+  },
+  {
+   "title": "Heritage, Archaeology And History",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/vv41-heritage-archaeology-and-history-ba-hons",
+   "ucas_code": "A34-E88"
+  },
+  {
+   "title": "Conservation: Books & Paper",
+   "provider": "City and Guilds of London Art School",
+   "url": "https://www.cityandguildsartschool.ac.uk/ba-hons-conservation-books-paper/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Art History, Heritage and Museum Studies",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01435/1?coursecode=VV40",
+   "ucas_code": "A60-G11"
+  },
+  {
+   "title": "Cultural and Creative Industries",
+   "provider": "UNIVERSITY OF NOTTINGHAM, THE",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/cultural-and-creative-industries-ba-hons.html",
+   "ucas_code": "A70-J48"
+  },
+  {
+   "title": "Conservation of Cultural Heritage",
+   "provider": "University of Lincoln",
+   "url": "https://www.lincoln.ac.uk/home/course/conconub/",
+   "ucas_code": "A33-J52"
+  },
+  {
+   "title": "History and Heritage",
+   "provider": "University of Stirling",
+   "url": "https://www.stir.ac.uk/courses/ug/history/",
+   "ucas_code": "A66-E94"
+  },
+  {
+   "title": "Heritage and Archaeology",
+   "provider": "University of York",
+   "url": "https://www.york.ac.uk/study/undergraduate/courses/ba-archaeology-heritage/",
+   "ucas_code": "A75-H04"
+  }
+ ]
+}

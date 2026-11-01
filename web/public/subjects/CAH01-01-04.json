@@ -1,0 +1,78 @@
+{
+ "code": "CAH01-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Dental Surgery",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/dental-surgery-bds",
+   "ucas_code": "A27-I68"
+  },
+  {
+   "title": "Dental Hygiene",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/bsc_(hons)_dental_hygiene.cfm",
+   "ucas_code": "A31-E83"
+  },
+  {
+   "title": "Dental Hygiene and Dental Therapy",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/idht",
+   "ucas_code": "A67-F91"
+  },
+  {
+   "title": "Oral Health Sciences",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/14ORLSCI",
+   "ucas_code": "A26-D47"
+  },
+  {
+   "title": "Dental Therapy & Hygiene",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/dental-therapy-and-hygiene-bsc",
+   "ucas_code": "A56-A44"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/a206/",
+   "ucas_code": "A27-B65"
+  },
+  {
+   "title": "Dental Therapy and Hygiene",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/dental-therapy-and-hygiene/",
+   "ucas_code": "A49-E06"
+  },
+  {
+   "title": "Dentistry",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/dentistry-bds-a200/",
+   "ucas_code": "A28-B85"
+  },
+  {
+   "title": "Dentistry",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/med/dental-surgery.aspx",
+   "ucas_code": "A04-I14"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "THE UNIVERSITY OF EAST ANGLIA",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bds-dental-surgery/2027-28/sep",
+   "ucas_code": "B58-C03"
+  },
+  {
+   "title": "Dental Hygiene and Therapy",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01664/2?coursecode=B752",
+   "ucas_code": ""
+  },
+  {
+   "title": "Dental Hygiene and Dental Therapy",
+   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Dental-Hygiene-and-Dental-Therapy-BSc-Hons",
+   "ucas_code": "A74-D11"
+  }
+ ]
+}

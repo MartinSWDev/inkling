@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-06-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Osteopathy",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/osteopathy",
+   "ucas_code": "A14-A75"
+  },
+  {
+   "title": "Osteopathic Medicine",
+   "provider": "British College Of Osteopathic Medicine",
+   "url": "https://www.eso.ac.uk/courses/undergraduate/bschonsosteopathicmedicine/",
+   "ucas_code": "A73-A04"
+  },
+  {
+   "title": "Podiatry",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-podiatry/",
+   "ucas_code": "A08-G67"
+  },
+  {
+   "title": "Chiropractic",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/chiropractic-msci/?term=2027-28",
+   "ucas_code": "A77-D47"
+  },
+  {
+   "title": "Performance in Musical Theatre",
+   "provider": "De Montfort University",
+   "url": "https://ppacademy.co.uk/ba-hons-performance-in-musical-theatre/",
+   "ucas_code": "A46-A65"
+  },
+  {
+   "title": "Podiatry",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11PODTRY",
+   "ucas_code": "A26-D52"
+  },
+  {
+   "title": "Acupuncture",
+   "provider": "Health Sciences University",
+   "url": "https://www.acupuncturecollege.org.uk/bsc-hons-acupuncture-degree",
+   "ucas_code": ""
+  },
+  {
+   "title": "Chiropractic",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/chiropractic#overview",
+   "ucas_code": "A40-J75"
+  },
+  {
+   "title": "Sports and Exercise Therapy",
+   "provider": "Loughborough College",
+   "url": "https://www.loucoll.ac.uk/undergraduate-study/courses/bsc-hons-in-sport-and-exercise-therapy",
+   "ucas_code": "A52-I64"
+  },
+  {
+   "title": "Podiatry",
+   "provider": "New College Durham",
+   "url": "https://www.newcollegedurham.ac.uk/courses/podiatry/bsc-hons-podiatry",
+   "ucas_code": "A09-I35"
+  },
+  {
+   "title": "Acupuncture (Weekday based) - Full-time",
+   "provider": "Northern College of Acupuncture",
+   "url": "https://nca.ac.uk/acupuncture-courses",
+   "ucas_code": ""
+  },
+  {
+   "title": "Osteopathic Medicine",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/osteopathic-medicine-degree/",
+   "ucas_code": "A03-H51"
+  }
+ ]
+}

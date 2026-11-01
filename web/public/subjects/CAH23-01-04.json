@@ -1,0 +1,78 @@
+{
+ "code": "CAH23-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Liberal Arts",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/liberal-arts",
+   "ucas_code": "A70-B46"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/liberal-arts",
+   "ucas_code": "A55-A80"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/liberal-arts-ba",
+   "ucas_code": "A27-G68"
+  },
+  {
+   "title": "Interdisciplinary Problems and Methods (BASc)",
+   "provider": "London Interdisciplinary School",
+   "url": "https://www.lis.ac.uk/undergraduate-degree/course-content",
+   "ucas_code": "A69-G71"
+  },
+  {
+   "title": "Theology and Liberal Arts",
+   "provider": "London School of Theology",
+   "url": "https://lst.ac.uk/home/courses/undergraduate-programmes/theology-liberal-arts/",
+   "ucas_code": "A69-D33"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-liberal-arts/september-2027/",
+   "ucas_code": "B60-E94"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/liberal-arts",
+   "ucas_code": "A62-I33"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/liberal-arts-mlibarts-y300/",
+   "ucas_code": "A42-J94"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/liberal-arts/liberal-arts/",
+   "ucas_code": "A17-E33"
+  },
+  {
+   "title": "Global Liberal Arts",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-global-liberal-arts",
+   "ucas_code": "A13-A23"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "St Mary's University College",
+   "url": "https://www.stmarys-belfast.ac.uk/study/liberal-arts/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/liberal-arts/liberal-arts",
+   "ucas_code": "A72-D73"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH07-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Chemistry",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/chemistry-ug/bsc-chemistry",
+   "ucas_code": "A15-D83"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/chemistry-bsc",
+   "ucas_code": "A27-I31"
+  },
+  {
+   "title": "Pharmaceutical Science",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/pharmaceutical-science-bsc-hons-msci/?term=2027-28",
+   "ucas_code": "A75-G01"
+  },
+  {
+   "title": "Pharmaceutical Science",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/pharmacy_&_pharmaceutical_sciences/bsc_(hons)_pharmaceutical_science.cfm",
+   "ucas_code": "A31-F85"
+  },
+  {
+   "title": "Pharmaceutical & Cosmetic Science",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/pharmaceutical-cosmetic-science-bsc-hons-degree/pharmaceutical-cosmetic-science-bsc.aspx",
+   "ucas_code": "A25-H63"
+  },
+  {
+   "title": "Biology and Chemistry",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/biology-and-chemistry-cf11/",
+   "ucas_code": "A75-C47"
+  },
+  {
+   "title": "Cosmetic Science with Integrated Foundation Year",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-cosmetic-science",
+   "ucas_code": "A54-J57"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/chemistry-bsc",
+   "ucas_code": "B56-H37"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/chemistry-bsc/",
+   "ucas_code": "A15-C75"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/chemistry/",
+   "ucas_code": "A39-J64"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/chemistry-bsc",
+   "ucas_code": "A27-F91"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/chemistry-bsc/",
+   "ucas_code": "A07-J34"
+  }
+ ]
+}

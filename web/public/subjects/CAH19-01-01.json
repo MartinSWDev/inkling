@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Drama and English",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?R7B425",
+   "ucas_code": "A57-G39"
+  },
+  {
+   "title": "English",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/english",
+   "ucas_code": "A70-B45"
+  },
+  {
+   "title": "English and Sociology",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/english-and-sociology-bsc",
+   "ucas_code": "A67-B57"
+  },
+  {
+   "title": "English",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/english-ba-hons/full-time/",
+   "ucas_code": "A15-G92"
+  },
+  {
+   "title": "English and Creative Writing",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/english-and-creative-writing-ba-hons-2027-28",
+   "ucas_code": "A14-D18"
+  },
+  {
+   "title": "English",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/english-ba",
+   "ucas_code": "A19-J37"
+  },
+  {
+   "title": "English",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/english",
+   "ucas_code": "A13-H90"
+  },
+  {
+   "title": "English Literature and Creative Writing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/english-and-creative-writing-ba-hons/?term=2027-28",
+   "ucas_code": "A38-G97"
+  },
+  {
+   "title": "English and Creative Writing",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/English_&_Creative_Writing/BA_(Hons)_English_and_Creative_Writing.cfm",
+   "ucas_code": "A31-F01"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/english-language-and-literature-ba-hons",
+   "ucas_code": "A14-F58"
+  },
+  {
+   "title": "English with Creative Writing and Film",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/study/subject-areas/media-communications-english-and-journalism/english",
+   "ucas_code": "A17-G21"
+  },
+  {
+   "title": "English: Creative and Professional Writing",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-english-creative-professional-writing",
+   "ucas_code": "A01-D62"
+  }
+ ]
+}

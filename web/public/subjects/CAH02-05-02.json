@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-05-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Healthcare Science (Audiology)",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc",
+   "ucas_code": "A30-B94"
+  },
+  {
+   "title": "Biomedical and Healthcare Engineering",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/biomedical-and-healthcare-engineering",
+   "ucas_code": "A65-E70"
+  },
+  {
+   "title": "Healthcare Science (Life Sciences)",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-healthcare-science/",
+   "ucas_code": "A08-G51"
+  },
+  {
+   "title": "Healthcare Science (Audiology)",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/healthcare-science-audiology-bsc-hons-degree/healthcare-science-audiology-bsc-hons.aspx",
+   "ucas_code": "A39-F49"
+  },
+  {
+   "title": "Healthcare Science (Audiology)",
+   "provider": "Middlesex University",
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/healthcare-science-audiology",
+   "ucas_code": "A22-C96"
+  },
+  {
+   "title": "Sport Rehabilitation and Conditioning",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/sport-rehabilitation-degree/",
+   "ucas_code": "A55-I72"
+  },
+  {
+   "title": "Healthcare Science (Audiology)",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/healthcare-science-audiology-bsc-hons/",
+   "ucas_code": "A37-C25"
+  },
+  {
+   "title": "Applied Biomedical Science",
+   "provider": "THE UNIVERSITY OF BRADFORD",
+   "url": "https://www.bradford.ac.uk/courses/ug/applied-biomedical-science-bsc/",
+   "ucas_code": "A74-A32"
+  },
+  {
+   "title": "Audiology",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/j568/audiology-bsc",
+   "ucas_code": "A26-H50"
+  },
+  {
+   "title": "Medical Biology",
+   "provider": "The Growth Company Limited",
+   "url": "https://www.bolton.ac.uk/course/BES005-F-UOB-SX/2027-28",
+   "ucas_code": "A09-C34"
+  },
+  {
+   "title": "Audiology",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/audiology-bsc",
+   "ucas_code": "A62-A64"
+  },
+  {
+   "title": "Biomedical Science with Foundation Year",
+   "provider": "UNIVERSITY OF SALFORD, THE",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/biomedical-science-with-foundation-year",
+   "ucas_code": "A48-D60"
+  }
+ ]
+}

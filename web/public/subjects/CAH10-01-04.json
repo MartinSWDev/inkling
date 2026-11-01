@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
+   "ucas_code": "A75-F87"
+  },
+  {
+   "title": "Engineering (Aerospace Engineering)",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://www.blackpool.ac.uk/course/ET1HE603",
+   "ucas_code": "A50-D27"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Brunel University of London",
+   "url": "http://www.brunel.ac.uk/study/undergraduate/Aerospace-Engineering-BEng",
+   "ucas_code": "A19-I41"
+  },
+  {
+   "title": "Aviation Management with Logistics",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-aviation-management",
+   "ucas_code": "A55-F34"
+  },
+  {
+   "title": "Aeronautical Engineering",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/aeronautical-engineering-beng",
+   "ucas_code": "A38-J59"
+  },
+  {
+   "title": "Aeronautical Engineering",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
+   "ucas_code": "A72-B68"
+  },
+  {
+   "title": "Aviation Management",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-aviation-management/",
+   "ucas_code": "A50-H49"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/aerospace-systems-engineering-beng-hons/?term=2027-28",
+   "ucas_code": "A59-E62"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/engineering_&_construction/MEng_(Hons)_Aerospace_Engineering.cfm",
+   "ucas_code": "A31-D87"
+  },
+  {
+   "title": "Aeronautical Engineering",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/aeronautical-engineering-beng-meng-degree/aeronautical-engineering-beng-meng-degree.aspx",
+   "ucas_code": "A50-G35"
+  },
+  {
+   "title": "Aviation Management with Commercial Pilot Licence",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/air-transport-management-fatpl",
+   "ucas_code": "A60-A21"
+  },
+  {
+   "title": "Engineering (Aerospace Engineering) (top-up)",
+   "provider": "East Lancashire Learning Group",
+   "url": "https://arc.eastlancslearning.ac.uk/course/beng-hons-engineering-aerospace-engineering-top-up-full-time-allarc/",
+   "ucas_code": "A71-H04"
+  }
+ ]
+}

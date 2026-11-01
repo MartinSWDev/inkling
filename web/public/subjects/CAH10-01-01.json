@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Engineering Management",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management/",
+   "ucas_code": "A73-F57"
+  },
+  {
+   "title": "Design Engineering",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/design-engineering-beng",
+   "ucas_code": "A30-B52"
+  },
+  {
+   "title": "Engineering with Artificial Intelligence",
+   "provider": "Asu London Centre for Advanced Learning",
+   "url": "https://asu-london.ac.uk/courses/undergraduate/engineering-with-artificial-intelligence/",
+   "ucas_code": "A68-B97"
+  },
+  {
+   "title": "Design Engineering",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-design-engineering-0",
+   "ucas_code": "A11-H69"
+  },
+  {
+   "title": "Design",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/design-bsc-mdes",
+   "ucas_code": "A62-J67"
+  },
+  {
+   "title": "Engineering Design",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-engineering-design",
+   "ucas_code": "A68-J41"
+  },
+  {
+   "title": "General Engineering (with a foundation year)",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/courses/undergraduate/study/engineering",
+   "ucas_code": ""
+  },
+  {
+   "title": "Mechanical and Design Engineering",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/mechanical-and-design-engineering",
+   "ucas_code": "A65-D98"
+  },
+  {
+   "title": "General Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/general-engineering-beng",
+   "ucas_code": "A52-A05"
+  },
+  {
+   "title": "Engineering",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/engineering-foundation-year-foundation-programme",
+   "ucas_code": "A27-I97"
+  },
+  {
+   "title": "Automotive and Transport Design",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/automotive-and-transport-design-mdesba-hons/?term=2027-28",
+   "ucas_code": "A38-G32"
+  },
+  {
+   "title": "Engineering (Aeronautical)",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/h411/",
+   "ucas_code": "A58-F91"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH01-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Medical Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/medical-science",
+   "ucas_code": "A06-D80"
+  },
+  {
+   "title": "Medical Sciences",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons",
+   "ucas_code": "A34-G25"
+  },
+  {
+   "title": "Medical Science",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/medical-sciences-ug/bsc-medical-science",
+   "ucas_code": "A55-D55"
+  },
+  {
+   "title": "Medical Sciences",
+   "provider": "Halesowen College",
+   "url": "https://www.worcester.ac.uk/courses/medical-sciences-bsc-hons",
+   "ucas_code": "A59-B41"
+  },
+  {
+   "title": "Medical Science and Innovation",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medical-science-innovation/",
+   "ucas_code": "B55-E78"
+  },
+  {
+   "title": "Medical Science",
+   "provider": "Middlesex University",
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/medical-science",
+   "ucas_code": "A61-C74"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
+   "ucas_code": "A30-G06"
+  },
+  {
+   "title": "Biomedical Sciences",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/j415/biomedical-sciences-bsc",
+   "ucas_code": "A26-J05"
+  },
+  {
+   "title": "Clinical Sciences",
+   "provider": "THE UNIVERSITY OF LEICESTER",
+   "url": "https://le.ac.uk/courses/clinical-sciences-bsc/2027",
+   "ucas_code": "A58-A34"
+  },
+  {
+   "title": "Health and Medical Sciences",
+   "provider": "THE UNIVERSITY OF WARWICK",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-health-medical-sciences",
+   "ucas_code": "A51-H48"
+  },
+  {
+   "title": "Applied Medical Sciences",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/applied-medical-sciences-bsc",
+   "ucas_code": "A23-J15"
+  },
+  {
+   "title": "Medical Sciences",
+   "provider": "UNIVERSITY OF LANCASHIRE",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/medical-sciences-bsc",
+   "ucas_code": "A02-D49"
+  }
+ ]
+}

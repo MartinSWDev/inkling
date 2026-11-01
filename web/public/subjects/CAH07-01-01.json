@@ -1,0 +1,78 @@
+{
+ "code": "CAH07-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Engineering Physics",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?9TNKU5",
+   "ucas_code": "A22-F56"
+  },
+  {
+   "title": "Physics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/physics-bsc",
+   "ucas_code": "A28-A70"
+  },
+  {
+   "title": "Acoustics",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/acoustics",
+   "ucas_code": "A75-F75"
+  },
+  {
+   "title": "Chemistry and Physics",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/chemistry-and-physics-ff13/",
+   "ucas_code": "A75-C49"
+  },
+  {
+   "title": "Astrophysics With Space Science",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/mphys-hons-astrophysics-with-space-science",
+   "ucas_code": "A59-A34"
+  },
+  {
+   "title": "Engineering with Foundation",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/foundation/engineering-with-foundation",
+   "ucas_code": "A76-J96"
+  },
+  {
+   "title": "Chemistry with Molecular Physics",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/chemistry-molecular-physics/",
+   "ucas_code": "A15-C84"
+  },
+  {
+   "title": "Physics",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/physics",
+   "ucas_code": "A03-H05"
+  },
+  {
+   "title": "Physics",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/physics-bsc",
+   "ucas_code": "A27-H06"
+  },
+  {
+   "title": "Engineering Physics",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/engineering-physics-bsc/#variant",
+   "ucas_code": "A18-C21"
+  },
+  {
+   "title": "Mathematics and Physics",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-physics-and-mathematics",
+   "ucas_code": "A41-B26"
+  },
+  {
+   "title": "Physics",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/f300/",
+   "ucas_code": "A27-C89"
+  }
+ ]
+}

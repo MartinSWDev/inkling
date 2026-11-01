@@ -1,0 +1,36 @@
+{
+ "code": "CAH19-01-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "British Sign Language (Interpreting, Translating and Applied Language Studies)",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/british-sign-language-interpreting-translating-and-applied-language",
+   "ucas_code": "A05-J55"
+  },
+  {
+   "title": "Scottish Language & Literature",
+   "provider": "UNIVERSITY OF GLASGOW",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/scottishliterature/",
+   "ucas_code": "A25-A62"
+  },
+  {
+   "title": "British Sign Language & Deaf Studies (with Foundation Year)",
+   "provider": "UNIVERSITY OF LANCASHIRE",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/british-sign-language-deaf-studies-ba-foundation",
+   "ucas_code": "A02-A12"
+  },
+  {
+   "title": "British Sign Language (Deaf Studies)",
+   "provider": "University of Wolverhampton",
+   "url": "https://www.wlv.ac.uk/courses/BA-Hons-British-Sign-Language-Deaf-Studies",
+   "ucas_code": "A66-B33"
+  },
+  {
+   "title": "British Sign Language, Deaf Studies and Linguistics",
+   "provider": "York St John University",
+   "url": "https://www.yorksj.ac.uk/courses/undergraduate/british-sign-language/bsl-deaf-studies-and-linguistics-ba-hons/",
+   "ucas_code": "A46-C40"
+  }
+ ]
+}

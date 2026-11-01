@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Criminology",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
+   "ucas_code": "A00-A05"
+  },
+  {
+   "title": "Criminology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?QA6VFH",
+   "ucas_code": "A22-F07"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology",
+   "ucas_code": "A06-B51"
+  },
+  {
+   "title": "Criminology",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/criminology",
+   "ucas_code": "A14-A06"
+  },
+  {
+   "title": "Criminology and Psychology",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology-psychology",
+   "ucas_code": ""
+  },
+  {
+   "title": "Criminology",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/criminology-bsc",
+   "ucas_code": "A72-D09"
+  },
+  {
+   "title": "Criminology",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/criminology-ba-hons/full-time/",
+   "ucas_code": "A15-G82"
+  },
+  {
+   "title": "Professional Policing",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://www.blackpool.ac.uk/course/TH1HE0005",
+   "ucas_code": "A58-D28"
+  },
+  {
+   "title": "Childhood And Youth Studies And Sociology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x316-childhood-and-youth-studies-and-sociology-welsh-medium-course-ba-hons",
+   "ucas_code": "A34-B15"
+  },
+  {
+   "title": "Archaeology and Anthropology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/archaeology-ug/ba-archaeology-and-anthropology",
+   "ucas_code": "A51-E15"
+  },
+  {
+   "title": "Business Management and Criminology",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
+   "ucas_code": "A43-E18"
+  },
+  {
+   "title": "Criminology and Criminal Justice",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/criminology-and-criminal-justice",
+   "ucas_code": "A24-D49"
+  }
+ ]
+}

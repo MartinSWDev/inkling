@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-04-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Education with Spanish",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?XHSF2U",
+   "ucas_code": "A74-D57"
+  },
+  {
+   "title": "Biochemistry with Spanish for Science",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biochemistry-language/#OptionC",
+   "ucas_code": "A15-C49"
+  },
+  {
+   "title": "European Studies (Spanish pathway) with a year abroad",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/european-studies-spanish-pathway-with-a-year-abroad-ba",
+   "ucas_code": "A27-G35"
+  },
+  {
+   "title": "Business Management and Spanish",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-business-management-and-spanish/september-2027/",
+   "ucas_code": "A65-H59"
+  },
+  {
+   "title": "International Business (with Spanish)",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/nottingham-business-school/ug/ba-hons-international-business-with-spanish",
+   "ucas_code": "A38-E16"
+  },
+  {
+   "title": "Linguistics with Spanish",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/q1r4/",
+   "ucas_code": "A27-C34"
+  },
+  {
+   "title": "Beginners' Italian and Portuguese",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages",
+   "ucas_code": "A12-B88"
+  },
+  {
+   "title": "French and Spanish",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
+   "ucas_code": "A48-B00"
+  },
+  {
+   "title": "Accounting with Spanish",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/accounting-major-spanish-bsc-n4r4/#overview",
+   "ucas_code": "A28-B23"
+  },
+  {
+   "title": "Law with Modern Languages (Spanish)",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law-and-criminology/law-with-modern-languages-spanish/",
+   "ucas_code": "A56-J52"
+  },
+  {
+   "title": "International Business with Spanish",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-international-business-with-spanish/full-time",
+   "ucas_code": "A17-J51"
+  },
+  {
+   "title": "French and Portuguese",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-portuguese",
+   "ucas_code": "A72-I81"
+  }
+ ]
+}

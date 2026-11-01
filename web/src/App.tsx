@@ -113,6 +113,16 @@ export default function App() {
   const [confetti, setConfetti] = useState<string | null>(null);
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const [tapCode, setTapCode] = useState<string | null>(null);
+  const [courseSheet, setCourseSheet] = useState<{ code: string; name: string } | null>(null);
+  const [courseLists, setCourseLists] = useState<Record<string, { title: string; provider: string; url: string; ucas_code: string }[]>>({});
+  function openCourses(code: string, name: string) {
+    setCourseSheet({ code, name });
+    if (!courseLists[code]) {
+      fetch(`/subjects/${code}.json`).then((r) => r.json())
+        .then((d) => setCourseLists((prev) => ({ ...prev, [code]: d.courses || [] })))
+        .catch(() => setCourseLists((prev) => ({ ...prev, [code]: [] })));
+    }
+  }
   useEffect(() => { setTapCode(null); }, [scene]);
   const scoresRef = useRef<Record<string, number>>({});
   const qualifiedAll = useMemo(() => {
@@ -479,7 +489,7 @@ export default function App() {
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "Never on a card. It scored from everything around it." : (r.reasons.length ? "Because of: " + r.reasons.join(" · ") : "")}</small>
                 {exploreOpen === r.code && subj?.plain && <small>{subj.plain}</small>}
-                <span className="explinks"><a href={"https://www.discoveruni.gov.uk/search/?q=" + encodeURIComponent(r.display_name)} target="_blank" rel="noreferrer">See courses</a>
+                <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button>
                 {subj?.plain && <button className="linkbtn" onClick={() => setExploreOpen(exploreOpen === r.code ? null : r.code)}>What's it like?</button>}</span></div>
                 {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>); })}
             </ul></div></div>
@@ -529,6 +539,23 @@ export default function App() {
           </div></div>
         </div>
       </section>)}
+
+      {courseSheet && (<div className="coursesheetwrap">
+        <button className="coursescrim" aria-label="Close courses" onClick={() => setCourseSheet(null)} />
+        <motion.div className="coursesheet" initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 30 }}>
+          <div className="pfoot"><h2>{courseSheet.name}</h2>
+            <button className="linkbtn" onClick={() => setCourseSheet(null)}>Close</button></div>
+          <ul className="courselist">
+            {(courseLists[courseSheet.code] || []).map((c, i) => (
+              <li key={i}><div><b>{c.title}</b><small>{c.provider}</small></div>
+                <a href={c.url} target="_blank" rel="noreferrer">Course page</a></li>))}
+            {courseLists[courseSheet.code] && courseLists[courseSheet.code].length === 0 &&
+              <li><small>No course pages yet for this subject.</small></li>}
+            {!courseLists[courseSheet.code] && <li><small>Loading courses…</small></li>}
+          </ul>
+          <p className="note">Course data: Discover Uni (HESA), CC BY 4.0</p>
+        </motion.div>
+      </div>)}
     </div>
   );
 }

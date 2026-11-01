@@ -1,0 +1,78 @@
+{
+ "code": "CAH04-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Criminology and Criminal Psychology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?H339LR",
+   "ucas_code": "A53-J13"
+  },
+  {
+   "title": "Psychology with Forensic and Criminal Perspectives",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/psychology-with-forensic-and-criminal-perspectives-bsc-hons/full-time/",
+   "ucas_code": "A41-F75"
+  },
+  {
+   "title": "Psychology with Forensic Psychology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c813-psychology-with-forensic-psychology-bsc-hons",
+   "ucas_code": "A52-D35"
+  },
+  {
+   "title": "Applied Psychology (Clinical)",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/psychology-ug/msci-applied-psychology-clinical",
+   "ucas_code": "A15-D59"
+  },
+  {
+   "title": "Business Psychology",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-psychology/",
+   "ucas_code": "A62-D92"
+  },
+  {
+   "title": "Business Psychology",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/business-psychology",
+   "ucas_code": ""
+  },
+  {
+   "title": "Psychology with Forensic Investigation",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-psychology-forensic-investigation",
+   "ucas_code": "A50-C29"
+  },
+  {
+   "title": "Psychology (Sport, Health and Exercise)",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/psychology-sport-health-and-exercise-bsc",
+   "ucas_code": "A20-A26"
+  },
+  {
+   "title": "Forensic Psychology",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-forensic-psychology",
+   "ucas_code": "A68-A72"
+  },
+  {
+   "title": "Psychology with Forensic Applications",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/psychology-with-forensic-applications-bsc",
+   "ucas_code": "A75-J70"
+  },
+  {
+   "title": "Psychology (Sport & Exercise Studies)",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/psychology-sport-exercise-studies",
+   "ucas_code": "A19-H71"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/psychology-with-a-professional-placement-bsc",
+   "ucas_code": "A28-A93"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH06-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Agriculture with Animal Science",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?KNXPZT",
+   "ucas_code": "A22-E42"
+  },
+  {
+   "title": "Equine Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/equine-science",
+   "ucas_code": "A06-C98"
+  },
+  {
+   "title": "Animal Management (Pet Behaviour and Welfare)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/animal-management-pet-behaviour-and-welfare",
+   "ucas_code": "A71-J72"
+  },
+  {
+   "title": "Animal BioScience",
+   "provider": "Askham Bryan College",
+   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-animal-bioscience-with-management/",
+   "ucas_code": "A29-J62"
+  },
+  {
+   "title": "Zoology With Animal Behaviour",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c3d3-zoology-with-animal-behaviour-bsc-hons",
+   "ucas_code": "A34-I28"
+  },
+  {
+   "title": "Bioveterinary Sciences",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/bioveterinary-sciences-ug/bsc-bioveterinary-sciences",
+   "ucas_code": "A68-F96"
+  },
+  {
+   "title": "Animal Behaviour & Wildlife Conservation",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-animal-behaviour-and-wildlife-conservation",
+   "ucas_code": "A65-H50"
+  },
+  {
+   "title": "Animal Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/animal-science",
+   "ucas_code": "A41-D45"
+  },
+  {
+   "title": "Bloodstock and Equine Performance Management",
+   "provider": "Capel Manor College",
+   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-bloodstock-equine-performance-management",
+   "ucas_code": "A74-A62"
+  },
+  {
+   "title": "Animal Behaviour Welfare and Conservation",
+   "provider": "Coastland College",
+   "url": "https://www.coastland.ac.uk/courses/find-your-course/bsc-hons-in-animal-behaviour-welfare-and-conservation-top-up/",
+   "ucas_code": "A72-H96"
+  },
+  {
+   "title": "Agriculture with Livestock Production Science",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDAAGLPS",
+   "ucas_code": "A30-H06"
+  },
+  {
+   "title": "Animal Behaviour and Training (Clinical)",
+   "provider": "Hartpury University",
+   "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-animal-behaviour-and-training-clinical/",
+   "ucas_code": "A69-G80"
+  }
+ ]
+}

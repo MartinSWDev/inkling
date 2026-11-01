@@ -1,0 +1,72 @@
+{
+ "code": "CAH19-04-07",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Arabic",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/asian-and-middle-eastern-studies/arabic",
+   "ucas_code": "A30-E64"
+  },
+  {
+   "title": "Arabic",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-arabic",
+   "ucas_code": "A12-J48"
+  },
+  {
+   "title": "Arabic, Islamic, Middle Eastern and North African Studies",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/j555/arabic-islamic-middle-eastern-and-north-african-studies-ba",
+   "ucas_code": "A65-B51"
+  },
+  {
+   "title": "Arabic and English",
+   "provider": "THE UNIVERSITY OF WESTMINSTER",
+   "url": "https://www.westminster.ac.uk/arabic-and-english-ba",
+   "ucas_code": "A71-B87"
+  },
+  {
+   "title": "Islamic Studies with Arabic",
+   "provider": "The Markfield Institute of Higher Education",
+   "url": "https://www.mihe.ac.uk/courses/islamic-studies-with-arabic",
+   "ucas_code": ""
+  },
+  {
+   "title": "Bulgarian and Hebrew",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/bulgarian-and-hebrew-ba",
+   "ucas_code": "B58-E19"
+  },
+  {
+   "title": "Asian and Middle Eastern Studies",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/asian-middle-eastern-studies-ba-hons",
+   "ucas_code": "A25-D74"
+  },
+  {
+   "title": "Arabic and Ancient Greek",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/QQK7",
+   "ucas_code": "A14-H25"
+  },
+  {
+   "title": "Arabic and Islamic Studies",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/marabic-arab-and-islamic-studies/",
+   "ucas_code": "A32-J51"
+  },
+  {
+   "title": "Ancient History and Persian",
+   "provider": "University of St Andrews",
+   "url": "https://www.st-andrews.ac.uk/subjects/ancient-history/ancient-history-ma/",
+   "ucas_code": "A28-H00"
+  },
+  {
+   "title": "Middle Eastern Studies",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/07729/ba-middle-eastern-studies/",
+   "ucas_code": "A20-I76"
+  }
+ ]
+}

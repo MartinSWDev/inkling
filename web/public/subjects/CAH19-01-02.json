@@ -1,0 +1,78 @@
+{
+ "code": "CAH19-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "English Language and Communication",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/english-language-and-communication",
+   "ucas_code": "A70-B09"
+  },
+  {
+   "title": "English Language",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/english-language-ba",
+   "ucas_code": "A30-B61"
+  },
+  {
+   "title": "English Language And English Literature",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons",
+   "ucas_code": "A34-C93"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/english-language-and-applied-linguistics-ug/ba-english-language-and-linguistics",
+   "ucas_code": "A15-E12"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
+   "ucas_code": "A14-D22"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-linguistics-ba",
+   "ucas_code": "A27-I99"
+  },
+  {
+   "title": "Creative Writing and English Language",
+   "provider": "Halesowen College",
+   "url": "https://www.worcester.ac.uk/courses/creative-writing-and-english-language-ba-hons.aspx",
+   "ucas_code": "A11-F44"
+  },
+  {
+   "title": "English Language & Linguistics",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/english-language-and-linguistics-ba",
+   "ucas_code": "A27-G27"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/english-language-and-linguistics",
+   "ucas_code": "A67-E92"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/english-language-and-linguistics",
+   "ucas_code": "A42-F34"
+  },
+  {
+   "title": "English with Integrated Foundation Year",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/english/english-with-integrated-foundation-year/",
+   "ucas_code": "A52-H58"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/english-language-tesol-applied-linguistics/english-language-and-linguistics/",
+   "ucas_code": "A76-H43"
+  }
+ ]
+}

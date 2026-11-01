@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biomedical Science",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
+   "ucas_code": "A06-B11"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?4Q42VK",
+   "ucas_code": "A71-D68"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/biomedical-science",
+   "ucas_code": "A06-B74"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-science",
+   "ucas_code": "A13-J64"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc",
+   "ucas_code": "A30-B17"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons",
+   "ucas_code": "A53-B68"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-biomedical-science",
+   "ucas_code": "A15-D78"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-biomedical-science/",
+   "ucas_code": "A65-I25"
+  },
+  {
+   "title": "Biomedicine",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/biomedicine",
+   "ucas_code": "A24-D35"
+  },
+  {
+   "title": "Biomedical Sciences",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/biomedical-science-bsc-hons-2027-28",
+   "ucas_code": "A14-C62"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-biomedical-science-0",
+   "ucas_code": "A51-A27"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bucks.ac.uk/courses/undergraduate/bsc-hons-diagnostic-radiography",
+   "ucas_code": "A73-F04"
+  }
+ ]
+}

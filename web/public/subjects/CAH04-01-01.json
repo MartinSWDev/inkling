@@ -1,0 +1,78 @@
+{
+ "code": "CAH04-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Psychology",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
+   "ucas_code": "A00-B18"
+  },
+  {
+   "title": "Marketing and Psychology",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?9PZ2FD",
+   "ucas_code": "A57-G58"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/psychology",
+   "ucas_code": "A06-E19"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/psychology",
+   "ucas_code": "A14-A89"
+  },
+  {
+   "title": "Criminology and Psychology",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology-psychology",
+   "ucas_code": ""
+  },
+  {
+   "title": "Psychology",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/psychology-bsc",
+   "ucas_code": "A30-C43"
+  },
+  {
+   "title": "Psychology",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/psychology-bsc-hons/full-time/",
+   "ucas_code": "A15-H12"
+  },
+  {
+   "title": "Childhood and Youth Studies and Psychology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x319-childhood-and-youth-studies-and-psychology-ba-hons",
+   "ucas_code": "A34-B74"
+  },
+  {
+   "title": "Art and Psychology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-psychology",
+   "ucas_code": "A15-D71"
+  },
+  {
+   "title": "Criminology and Psychology",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-criminology-and-psychology/",
+   "ucas_code": "A09-F36"
+  },
+  {
+   "title": "Criminology and Psychological Studies",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/criminology-psychological-studies",
+   "ucas_code": "A76-E10"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/psychology-bsc-hons-2027-28",
+   "ucas_code": "A14-E06"
+  }
+ ]
+}

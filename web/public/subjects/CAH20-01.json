@@ -1,0 +1,78 @@
+{
+ "code": "CAH20-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Art History",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?JNXE6Y",
+   "ucas_code": "A22-E51"
+  },
+  {
+   "title": "Anthropology and History",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-history",
+   "ucas_code": "A06-B54"
+  },
+  {
+   "title": "History",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/history",
+   "ucas_code": "A14-A44"
+  },
+  {
+   "title": "History",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/history-ba",
+   "ucas_code": "A69-H48"
+  },
+  {
+   "title": "Applied Humanities (Accelerated degree)",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/applied-humanities-ba-hons/full-time/",
+   "ucas_code": "A53-J42"
+  },
+  {
+   "title": "Heritage, Archaeology And History",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/vv41-heritage-archaeology-and-history-ba-hons",
+   "ucas_code": "A34-E88"
+  },
+  {
+   "title": "Ancient History",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/ancient-history-ug/ba-ancient-history",
+   "ucas_code": "A15-D54"
+  },
+  {
+   "title": "Education and History",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-education-and-history/",
+   "ucas_code": "A09-F91"
+  },
+  {
+   "title": "Ancient History and Archaeology",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/ancient-history-and-archaeology",
+   "ucas_code": "A47-D74"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-archaeology",
+   "ucas_code": "A11-H50"
+  },
+  {
+   "title": "English and History",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/courses/english-and-history-ba",
+   "ucas_code": "A77-I78"
+  },
+  {
+   "title": "History",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/history",
+   "ucas_code": "A41-J02"
+  }
+ ]
+}

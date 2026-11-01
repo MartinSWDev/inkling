@@ -1,0 +1,78 @@
+{
+ "code": "CAH25-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Animation Production",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "http://aub.ac.uk/courses/ba/ba-animation-production/",
+   "ucas_code": "A38-F90"
+  },
+  {
+   "title": "Computer Arts",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+   "ucas_code": "A06-B17"
+  },
+  {
+   "title": "Creative Writing and Film and Television Studies",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?TJ45FE",
+   "ucas_code": "A22-F01"
+  },
+  {
+   "title": "Film",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/film",
+   "ucas_code": "A06-D02"
+  },
+  {
+   "title": "Animation and Illustration",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/animation-and-illustration",
+   "ucas_code": "A14-A46"
+  },
+  {
+   "title": "Craft & Material Practices",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/ba-hons-craft-material-practices/overview",
+   "ucas_code": "A16-E64"
+  },
+  {
+   "title": "Engineering and Physical Sciences Foundation Programme: Product Design and Innovation",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/product-design-and-innovation-foundation",
+   "ucas_code": "A71-I78"
+  },
+  {
+   "title": "Creative Technologies",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/gw49-creative-technologies-bsc-hons",
+   "ucas_code": "A34-C29"
+  },
+  {
+   "title": "Art",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art",
+   "ucas_code": "A57-D57"
+  },
+  {
+   "title": "Creative Arts Practice",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-creative-arts-practice/",
+   "ucas_code": "A09-E98"
+  },
+  {
+   "title": "Digital Media 3-year, full-time",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/digital-media",
+   "ucas_code": "A73-C81"
+  },
+  {
+   "title": "Art and Design",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/art-and-design-ba-hons-2027-28",
+   "ucas_code": "B68-J42"
+  }
+ ]
+}

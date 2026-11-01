@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-03-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Drama and Theatre / International Relations",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?NLTD6B",
+   "ucas_code": "A59-J13"
+  },
+  {
+   "title": "Anthropology and International Relations",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-international-relations",
+   "ucas_code": "A06-B56"
+  },
+  {
+   "title": "Law with International Relations",
+   "provider": "Anglia Ruskin University",
+   "url": "https://london.aru.ac.uk/courses/llb-hons-law-with-international-relations",
+   "ucas_code": ""
+  },
+  {
+   "title": "Business and International Relations",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc",
+   "ucas_code": "A30-B22"
+  },
+  {
+   "title": "Professional Policing",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://www.blackpool.ac.uk/course/TH1HE0005",
+   "ucas_code": "A58-D28"
+  },
+  {
+   "title": "Law with Politics",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/m1l2-law-with-politics-llb-hons",
+   "ucas_code": "A54-I46"
+  },
+  {
+   "title": "English Literature and Politics",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/english-literature-ug/ba-english-literature-and-politics",
+   "ucas_code": "A15-E20"
+  },
+  {
+   "title": "Criminology and Politics",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-criminology-and-politics/",
+   "ucas_code": "A60-A25"
+  },
+  {
+   "title": "Global Politics and International Relations",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/politics/global-politics-and-international-relations",
+   "ucas_code": "A24-D69"
+  },
+  {
+   "title": "Public Services",
+   "provider": "Boston College",
+   "url": "https://www.boston.ac.uk/find-a-course/view-all-courses/public-services-bsc-hons-top-up-level-6",
+   "ucas_code": "A73-G40"
+  },
+  {
+   "title": "International Politics",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/international-politics-bsc",
+   "ucas_code": "A19-J63"
+  },
+  {
+   "title": "History and Politics",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/history-and-politics",
+   "ucas_code": "A54-E24"
+  }
+ ]
+}

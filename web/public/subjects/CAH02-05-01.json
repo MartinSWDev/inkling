@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-05-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b821-diagnostic-radiography-bsc-hons",
+   "ucas_code": "A34-C74"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/diagnostic-radiography-bsc-hons-2027-28",
+   "ucas_code": "A14-D07"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bucks.ac.uk/courses/undergraduate/bsc-hons-diagnostic-radiography",
+   "ucas_code": "A73-F04"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/radiography-diagnostic-imaging",
+   "ucas_code": "A13-I37"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/diagnostic-radiography",
+   "ucas_code": "A19-E24"
+  },
+  {
+   "title": "Diagnostic Radiography and Imaging",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/diagnostic-radiography-and-imaging-bsc",
+   "ucas_code": "A53-D63"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/diagnostic-radiography-bsc-msci/?term=2027-28",
+   "ucas_code": "A71-H78"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Diagnostic_Radiography.cfm",
+   "ucas_code": "A31-E87"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/diagnostic-radiography-bsc-hons/diagnostic-radiography-bsc-hons.aspx",
+   "ucas_code": "A48-E77"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/dgr",
+   "ucas_code": "A30-D49"
+  },
+  {
+   "title": "Diagnostic Imaging",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11DIAGIM",
+   "ucas_code": "A26-C81"
+  },
+  {
+   "title": "Diagnostic Radiography And Imaging",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-diagnostic-radiography-and-imaging",
+   "ucas_code": "A21-B37"
+  }
+ ]
+}

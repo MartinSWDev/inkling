@@ -1,0 +1,78 @@
+{
+ "code": "CAH06-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Fitness, Nutrition and Health",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
+   "ucas_code": "A06-B25"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?R85VW8",
+   "ucas_code": "A22-E37"
+  },
+  {
+   "title": "Equine Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/equine-science",
+   "ucas_code": "A06-C98"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
+   "ucas_code": "A71-J33"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Askham Bryan College",
+   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-agriculture/",
+   "ucas_code": "A29-J56"
+  },
+  {
+   "title": "Conservation with Forestry",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons",
+   "ucas_code": "A34-C14"
+  },
+  {
+   "title": "Agricultural Business Management",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/agriculture-ug/bsc-agricultural-business-management",
+   "ucas_code": "A15-D50"
+  },
+  {
+   "title": "Animal Behaviour & Wildlife Conservation",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-animal-behaviour-and-wildlife-conservation",
+   "ucas_code": "A65-H50"
+  },
+  {
+   "title": "Wildlife and Conservation",
+   "provider": "CITY COLLEGE NORWICH",
+   "url": "https://he.ccn.ac.uk/courses/all-courses/course/bsc-hons-wildlife-and-conservation",
+   "ucas_code": "A62-E74"
+  },
+  {
+   "title": "Animal Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/animal-science",
+   "ucas_code": "A41-D45"
+  },
+  {
+   "title": "Agricultural Business Management",
+   "provider": "Capel Manor College",
+   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agricultural-business-management",
+   "ucas_code": "A66-D45"
+  },
+  {
+   "title": "Food Science and Nutrition",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-food-science-and-nutrition/",
+   "ucas_code": "A66-D78"
+  }
+ ]
+}

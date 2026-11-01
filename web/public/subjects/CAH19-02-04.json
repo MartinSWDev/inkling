@@ -1,0 +1,24 @@
+{
+ "code": "CAH19-02-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Anthropology and Irish",
+   "provider": "Queen's University Belfast",
+   "url": "http://www.qub.ac.uk/courses/undergraduate/anthropology-irish-ba-ql56/",
+   "ucas_code": "A28-C55"
+  },
+  {
+   "title": "Irish Studies",
+   "provider": "THE UNIVERSITY OF LIVERPOOL",
+   "url": "https://www.liverpool.ac.uk/courses/irish-studies-ba-hons/2027",
+   "ucas_code": "A02-J31"
+  },
+  {
+   "title": "Business Studies with Irish",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-global-business-with-irish-mg-ft",
+   "ucas_code": "A69-E79"
+  }
+ ]
+}

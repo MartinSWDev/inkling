@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Society Science",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/ll39-society-science-ba",
+   "ucas_code": "B63-I05"
+  },
+  {
+   "title": "Creative Writing and Philosophy and Ethics",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-philosophy-and-ethics/",
+   "ucas_code": "A09-F27"
+  },
+  {
+   "title": "Psychosocial Studies",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/psychosocial-studies",
+   "ucas_code": "A24-E18"
+  },
+  {
+   "title": "Health and Social Science",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
+   "ucas_code": "A03-D32"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "CITY COLLEGE NORWICH",
+   "url": "https://he.ccn.ac.uk/courses/all-courses/course/ba-hons-social-sciences",
+   "ucas_code": "A74-E29"
+  },
+  {
+   "title": "Applied Criminology with Forensic Investigation",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/applied-criminology-with-forensic-investigation",
+   "ucas_code": "A19-C86"
+  },
+  {
+   "title": "Human and Social Sciences",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/human-and-social-sciences-bsc",
+   "ucas_code": "A27-J65"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/social-sciences",
+   "ucas_code": "A72-D92"
+  },
+  {
+   "title": "Combined Social Sciences",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/lmv0/",
+   "ucas_code": "A07-G59"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-social-sciences-undergraduate-fulltime",
+   "ucas_code": "A25-D52"
+  },
+  {
+   "title": "Social and Community Work",
+   "provider": "GOLDSMITHS' COLLEGE",
+   "url": "https://www.gold.ac.uk/ug/ba-social-community-work/",
+   "ucas_code": "A59-C31"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/12SOCSCI",
+   "ucas_code": "A26-D60"
+  }
+ ]
+}

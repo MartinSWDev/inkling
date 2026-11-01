@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-01-09",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Chemical Engineering",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng",
+   "ucas_code": "A30-B32"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/chemical-engineering-beng",
+   "ucas_code": "A44-E97"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/chemical-engineering-beng",
+   "ucas_code": "A47-G96"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/engineering_&_construction/MEng_(Hons)_Chemical_Engineering.cfm",
+   "ucas_code": "A31-E25"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/chemical-engineering-beng-hons",
+   "ucas_code": "A45-D57"
+  },
+  {
+   "title": "Energy & Environmental Engineering",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bengbeng-hons-energy-and-environmental-engineering-undergraduate-fulltime",
+   "ucas_code": "A25-C64"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/chemical-engineering-beng",
+   "ucas_code": "A05-J59"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/chemical-engineering/",
+   "ucas_code": "A15-C72"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/chemicalengineering/",
+   "ucas_code": "A76-C31"
+  },
+  {
+   "title": "Degree in Decommissioning and Waste Management",
+   "provider": "LAKES COLLEGE WEST CUMBRIA",
+   "url": "https://www.lcwc.ac.uk/NHDEG08",
+   "ucas_code": ""
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/beng-hons-chemical-engineering#overview",
+   "ucas_code": "A55-I07"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Loughborough University",
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/chemical-engineering-meng/",
+   "ucas_code": "A18-B47"
+  }
+ ]
+}

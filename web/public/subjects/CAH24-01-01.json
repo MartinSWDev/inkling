@@ -1,0 +1,66 @@
+{
+ "code": "CAH24-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Museum Studies and Archaeology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/archaeology-ug/ba-museum-studies-and-archaeology",
+   "ucas_code": "A15-F03"
+  },
+  {
+   "title": "Art History with Curating",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history/art-history-with-curating",
+   "ucas_code": "A65-H28"
+  },
+  {
+   "title": "Information Technology Management for Business",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/information-technology-management-for-business/#default",
+   "ucas_code": "A18-C73"
+  },
+  {
+   "title": "Art History",
+   "provider": "Regent's University",
+   "url": "https://www.regents.ac.uk/undergraduate/liberal-arts/ba-hons-art-history",
+   "ucas_code": "A66-H52"
+  },
+  {
+   "title": "Business Analytics",
+   "provider": "Robert Gordon University",
+   "url": "https://www.rgu.ac.uk/study/courses/bsc-hons-business-analytics",
+   "ucas_code": "A69-I83"
+  },
+  {
+   "title": "Data Science",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/computing/bsc-honours-data-science/full-time",
+   "ucas_code": ""
+  },
+  {
+   "title": "History of Art with Gallery and Museum Studies",
+   "provider": "THE UNIVERSITY OF EAST ANGLIA",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-history-of-art-with-gallery-and-museum-studies/2027-28/sep",
+   "ucas_code": "A36-H35"
+  },
+  {
+   "title": "Physics with Data Science",
+   "provider": "THE UNIVERSITY OF LEICESTER",
+   "url": "https://le.ac.uk/courses/physics-with-data-science-bsc/2027",
+   "ucas_code": "A73-G07"
+  },
+  {
+   "title": "Information Management for Business",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/information-management-business-bsc",
+   "ucas_code": "A24-A22"
+  },
+  {
+   "title": "Graphic and Communication Design",
+   "provider": "York College",
+   "url": "https://www.yorkcollege.ac.uk/study/ba-hons-graphic-design-communication-2",
+   "ucas_code": "A03-J70"
+  }
+ ]
+}

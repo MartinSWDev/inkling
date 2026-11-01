@@ -1,0 +1,78 @@
+{
+ "code": "CAH13-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Building Surveying",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/building-surveying",
+   "ucas_code": "A55-A60"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/building-surveying",
+   "ucas_code": "A13-J71"
+  },
+  {
+   "title": "Construction Project Management",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+   "ucas_code": "A30-B51"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/surveying-and-construction-ug/bsc-building-surveying",
+   "ucas_code": "A15-D79"
+  },
+  {
+   "title": "Construction Management with Integrated Foundation Year (Global Banking School) Birmingham",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/about-us/networks/educational-partners/global-banking-school/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Construction Management",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/construction-management-bsc-hons-2027-28",
+   "ucas_code": "A14-C99"
+  },
+  {
+   "title": "Building Services Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/building-services-engineering",
+   "ucas_code": "A70-I15"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/building-surveying-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-G42"
+  },
+  {
+   "title": "Quantity Surveying & Construction",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/quantity-surveying-and-construction-bsc-degree/quantity-surveying-and-construction-bsc-degree.aspx",
+   "ucas_code": "A58-E32"
+  },
+  {
+   "title": "Construction Management",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/construction-management-bsc-hons",
+   "ucas_code": "A14-F15"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/bsc-building-surveying",
+   "ucas_code": "A56-C82"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bsc-hons-building-surveying-undergraduate-fulltime",
+   "ucas_code": "A51-D89"
+  }
+ ]
+}

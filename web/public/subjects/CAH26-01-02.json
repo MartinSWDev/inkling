@@ -1,0 +1,78 @@
+{
+ "code": "CAH26-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Business and Climate Change",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?JWRCFD",
+   "ucas_code": "A56-E89"
+  },
+  {
+   "title": "Geography",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/f800-geography-bsc-hons",
+   "ucas_code": "A34-E20"
+  },
+  {
+   "title": "Geography (Human and Physical)",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/geography-ug/bsc-human-and-physical-geography",
+   "ucas_code": "A00-A14"
+  },
+  {
+   "title": "Environment, Culture and Communication",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/environment-culture-and-communication",
+   "ucas_code": "A71-J99"
+  },
+  {
+   "title": "Environmental Geography",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/environmental-geography-bsc",
+   "ucas_code": "A55-H15"
+  },
+  {
+   "title": "Education Studies - Geography",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/x1f8/",
+   "ucas_code": "A07-G83"
+  },
+  {
+   "title": "Geography",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/geography-bsc",
+   "ucas_code": "A43-E22"
+  },
+  {
+   "title": "Geography (Human and Physical)",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyhumanandphysicalwithintegratedmasters/",
+   "ucas_code": "B63-H68"
+  },
+  {
+   "title": "Geography and Environmental Science",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/geography-bsc",
+   "ucas_code": "A27-G49"
+  },
+  {
+   "title": "Climate Resilience and Artificial Intelligence",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/study/undergraduate/climate-resilience-and-artificial-intelligence-bsc-hons",
+   "ucas_code": "A76-I99"
+  },
+  {
+   "title": "Geography",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/geography-bsc",
+   "ucas_code": "A57-E51"
+  },
+  {
+   "title": "Climate and Environment Sciences",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36836-climate-and-environment-sciences-bsc-hons",
+   "ucas_code": "A55-D30"
+  }
+ ]
+}

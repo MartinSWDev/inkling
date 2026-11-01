@@ -1,0 +1,78 @@
+{
+ "code": "CAH20-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Art History",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?JNXE6Y",
+   "ucas_code": "A22-E51"
+  },
+  {
+   "title": "Anthropology and History of Art",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-history-of-art",
+   "ucas_code": "A06-B55"
+  },
+  {
+   "title": "Art and History of Art",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-history-of-art",
+   "ucas_code": "A15-D69"
+  },
+  {
+   "title": "Art History",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history",
+   "ucas_code": "A65-H22"
+  },
+  {
+   "title": "History of Art",
+   "provider": "Courtauld Institute of Art",
+   "url": "http://courtauld.ac.uk/study/undergraduate/ba-history-of-art",
+   "ucas_code": "A20-A91"
+  },
+  {
+   "title": "Curating",
+   "provider": "GOLDSMITHS' COLLEGE",
+   "url": "http://www.gold.ac.uk/ug/ba-curating/",
+   "ucas_code": "A17-B96"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Glasgow School of Art.",
+   "url": "https://www.gsa.ac.uk/undergraduate-degrees/architecture-barch",
+   "ucas_code": "A15-G51"
+  },
+  {
+   "title": "Interaction Design",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/interaction-design/",
+   "ucas_code": "A70-J60"
+  },
+  {
+   "title": "Fine Art and Art History",
+   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-fine-art-and-art-history/september-2027/",
+   "ucas_code": "A31-I95"
+  },
+  {
+   "title": "History of Art",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/history-of-art",
+   "ucas_code": "A30-F74"
+  },
+  {
+   "title": "Art History",
+   "provider": "Regent's University",
+   "url": "https://www.regents.ac.uk/undergraduate/liberal-arts/ba-hons-art-history",
+   "ucas_code": "A66-H52"
+  },
+  {
+   "title": "Arts and Visual Cultures",
+   "provider": "Richmond, The American International University in London",
+   "url": "https://www.richmond.ac.uk/undergraduate-programmes/ba-arts-and-visual-cultures/",
+   "ucas_code": "A07-C22"
+  }
+ ]
+}

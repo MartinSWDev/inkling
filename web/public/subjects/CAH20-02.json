@@ -1,0 +1,78 @@
+{
+ "code": "CAH20-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Anthropology and Philosophy",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-philosophy",
+   "ucas_code": "A06-B57"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
+   "ucas_code": "A14-A81"
+  },
+  {
+   "title": "Theology and Christian Leadership",
+   "provider": "Assemblies of God Incorporated",
+   "url": "https://www.missiodei.ac.uk/courses/ug-courses/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Applied Humanities (Accelerated degree)",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/applied-humanities-ba-hons/full-time/",
+   "ucas_code": "A53-J42"
+  },
+  {
+   "title": "Modern Languages And Philosophy, Ethics And Religion",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons",
+   "ucas_code": "A62-B61"
+  },
+  {
+   "title": "Art and Philosophy",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-philosophy",
+   "ucas_code": "A15-D70"
+  },
+  {
+   "title": "Creative Writing and Philosophy and Ethics",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-philosophy-and-ethics/",
+   "ucas_code": "A09-F27"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/philosophy",
+   "ucas_code": "A24-E12"
+  },
+  {
+   "title": "Theology",
+   "provider": "Birmingham Christian College",
+   "url": "https://bccoll.ac.uk/courses/ba/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Theology, Ministry and Mission",
+   "provider": "Bristol Baptist College",
+   "url": "https://www.bristol-baptist.ac.uk/undergraduate/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Theology, Philosophy & Religion",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/theology-philosophy-and-religion",
+   "ucas_code": "A19-I18"
+  },
+  {
+   "title": "English Literature and Philosophy",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-and-philosophy-ba",
+   "ucas_code": "A27-J11"
+  }
+ ]
+}

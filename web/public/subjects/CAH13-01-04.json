@@ -1,0 +1,78 @@
+{
+ "code": "CAH13-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Sustainable Urban Design and Planning",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/sustainable-urban-design-planning-foundation-year",
+   "ucas_code": "B70-E78"
+  },
+  {
+   "title": "Real Estate Development and Planning",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/real-estate-and-planning-ug/bsc-real-estate-development-and-planning",
+   "ucas_code": "A71-F40"
+  },
+  {
+   "title": "Human Geography and Planning",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/geography-human-and-planning-bsc",
+   "ucas_code": "A27-J41"
+  },
+  {
+   "title": "Aviation Management",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/aviation-management-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-G34"
+  },
+  {
+   "title": "Housing Studies",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/housing-studies",
+   "ucas_code": "A52-B03"
+  },
+  {
+   "title": "Urban And Environmental Planning",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/ba-hons-urban-environmental-planning#overview",
+   "ucas_code": "A12-C65"
+  },
+  {
+   "title": "Urban Planning",
+   "provider": "Loughborough University",
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/urban-planning-mplan/#variant",
+   "ucas_code": "A52-C07"
+  },
+  {
+   "title": "Architecture and Urban Planning",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/k190/",
+   "ucas_code": "A27-A83"
+  },
+  {
+   "title": "European Planning",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/european-planning-mplan-k490/",
+   "ucas_code": "A28-C15"
+  },
+  {
+   "title": "Shipping and Port Management",
+   "provider": "Southampton Solent University",
+   "url": "https://www.solent.ac.uk/courses/undergraduate/shipping-and-port-management-bsc/2027/bsc-hons-shipping-and-port-management-3-years-2027",
+   "ucas_code": "A35-C44"
+  },
+  {
+   "title": "Geography and Urban & Regional Planning with Year Abroad",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geography-planning-abroad.aspx",
+   "ucas_code": "A67-H44"
+  },
+  {
+   "title": "Urban Sustainability Studies",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01651/1?coursecode=K441",
+   "ucas_code": "A76-E93"
+  }
+ ]
+}

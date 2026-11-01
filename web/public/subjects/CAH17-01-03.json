@@ -1,0 +1,78 @@
+{
+ "code": "CAH17-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Creative Direction",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/course/creative-direction",
+   "ucas_code": "A69-B32"
+  },
+  {
+   "title": "Digital Marketing and Business Management",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
+   "ucas_code": "A59-C03"
+  },
+  {
+   "title": "Digital Marketing",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?NLFPNL",
+   "ucas_code": "A57-A93"
+  },
+  {
+   "title": "Business and Marketing Management",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-and-marketing-management",
+   "ucas_code": "A06-B80"
+  },
+  {
+   "title": "Business Management (Marketing)",
+   "provider": "Amity Global Education Ltd",
+   "url": "https://www.amity.ac.uk/6n105",
+   "ucas_code": "A52-I75"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/marketing",
+   "ucas_code": "A62-D03"
+  },
+  {
+   "title": "Digital Marketing",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/marketing-degree/bsc-hons-digital-marketing",
+   "ucas_code": ""
+  },
+  {
+   "title": "Digital Marketing",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/",
+   "ucas_code": "A75-D84"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n501-marketing-bsc-hons",
+   "ucas_code": "A34-F99"
+  },
+  {
+   "title": "Business and Management (Marketing)",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/business-and-management-accounting-and-finance-ug/bsc-business-and-management-marketing",
+   "ucas_code": "A58-B54"
+  },
+  {
+   "title": "Fashion Marketing and Management",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-fashion-marketing-and-management/",
+   "ucas_code": "A48-C14"
+  },
+  {
+   "title": "Business with Marketing",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/business-marketing-ba-hons-2027-28",
+   "ucas_code": "A14-C68"
+  }
+ ]
+}

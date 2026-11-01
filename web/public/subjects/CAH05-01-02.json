@@ -1,0 +1,78 @@
+{
+ "code": "CAH05-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Animal Therapy, Rehabilitation and Performance",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/animal-therapy-rehabilitation-and-performance",
+   "ucas_code": "A76-C23"
+  },
+  {
+   "title": "Animal Science",
+   "provider": "CITY COLLEGE NORWICH",
+   "url": "https://he.ccn.ac.uk/courses/all-courses/course/bsc-hons-animal-science",
+   "ucas_code": "A62-E76"
+  },
+  {
+   "title": "Veterinary Bioscience",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDNVETBS",
+   "ucas_code": "A30-H26"
+  },
+  {
+   "title": "Equine Veterinary Nursing",
+   "provider": "Hartpury University",
+   "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-equine-veterinary-nursing",
+   "ucas_code": "A52-I39"
+  },
+  {
+   "title": "Bioveterinary Science",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/bioveterinaryscience/",
+   "ucas_code": "A69-E08"
+  },
+  {
+   "title": "Veterinary Nursing (CAW - Huntingdon)",
+   "provider": "Middlesex University",
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/veterinary-nursing-bsc-honours/",
+   "ucas_code": "A72-I95"
+  },
+  {
+   "title": "Veterinary Physiotherapy",
+   "provider": "Plumpton College",
+   "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-veterinary-physiotherapy-bachelors-degree-494/",
+   "ucas_code": "A62-H74"
+  },
+  {
+   "title": "Veterinary Nursing",
+   "provider": "Reaseheath College",
+   "url": "https://ucreaseheath.ac.uk/ucr-courses/bsc-hons-veterinary-nursing/",
+   "ucas_code": "A52-E02"
+  },
+  {
+   "title": "Veterinary Nursing",
+   "provider": "Scotland's Rural College",
+   "url": "https://www.sruc.ac.uk/study-with-us/find-apply-for-your-course/course-catalogue/veterinary-nursing/bsc-hons-veterinary-nursing/",
+   "ucas_code": "A46-D33"
+  },
+  {
+   "title": "Veterinary Biosciences",
+   "provider": "THE UNIVERSITY OF SURREY",
+   "url": "https://www.surrey.ac.uk/undergraduate/veterinary-biosciences/2027",
+   "ucas_code": "A36-G19"
+  },
+  {
+   "title": "Veterinary Nursing",
+   "provider": "The Royal Veterinary College",
+   "url": "https://www.rvc.ac.uk/study/undergraduate/bsc-veterinary-nursing",
+   "ucas_code": "A07-C60"
+  },
+  {
+   "title": "Veterinary Biosciences",
+   "provider": "UNIVERSITY OF GLASGOW",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/veterinarybiosciences/",
+   "ucas_code": "A25-B31"
+  }
+ ]
+}

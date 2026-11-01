@@ -1,0 +1,78 @@
+{
+ "code": "CAH10-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Electro-Mechanical Engineering",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/electro-mechanical-engineering-beng/",
+   "ucas_code": "A50-I82"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/mechanical-engineering-beng",
+   "ucas_code": "A14-A61"
+  },
+  {
+   "title": "Engineering and Physical Sciences Foundation Programme: Mechanical Engineering",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/mechanical-engineering-foundation",
+   "ucas_code": "A71-H46"
+  },
+  {
+   "title": "Engineering (Mechanical Engineering)",
+   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
+   "url": "https://www.blackpool.ac.uk/course/ET1HE606",
+   "ucas_code": "A43-C33"
+  },
+  {
+   "title": "Engineering",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/h607-engineering-beng",
+   "ucas_code": ""
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/mechanical-engineering-beng-2027-28",
+   "ucas_code": "A75-D86"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/beng-hons-mechanical-engineering-2",
+   "ucas_code": "A42-J91"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Brunel University of London",
+   "url": "http://www.brunel.ac.uk/study/undergraduate/Mechanical-Engineering-BEng",
+   "ucas_code": "A19-J86"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bucks.ac.uk/courses/undergraduate/beng-hons-mechanical-engineering",
+   "ucas_code": "A72-I76"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/mechanical-engineering-beng",
+   "ucas_code": "A39-B85"
+  },
+  {
+   "title": "Energy and Sustainability Engineering",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/energy-and-sustainability-engineering",
+   "ucas_code": "A65-E78"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/mechanical-engineering",
+   "ucas_code": "A52-A02"
+  }
+ ]
+}

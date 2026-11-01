@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-06-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Physiotherapy",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/physiotherapy",
+   "ucas_code": "A06-E13"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/physiotherapy/full-time/",
+   "ucas_code": "A65-F92"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-physiotherapy",
+   "ucas_code": "A11-I25"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/physiotherapy-bsc",
+   "ucas_code": "A20-A12"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-physiotherapy",
+   "ucas_code": "A64-I42"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/physiotherapy",
+   "ucas_code": "A75-B26"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/physiotherapy",
+   "ucas_code": "A45-C48"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/physiotherapy-bsc",
+   "ucas_code": "A53-D62"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/physiotherapy-bsc-hons/?term=2027-28",
+   "ucas_code": "A71-H83"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Physiotherapy.cfm",
+   "ucas_code": "A31-F88"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/physiotherapy-bsc-hons",
+   "ucas_code": "A67-I46"
+  },
+  {
+   "title": "Physiotherapy",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/phy",
+   "ucas_code": "A61-J79"
+  }
+ ]
+}

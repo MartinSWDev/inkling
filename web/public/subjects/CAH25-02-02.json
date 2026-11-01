@@ -1,0 +1,78 @@
+{
+ "code": "CAH25-02-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Creative Industries Futures (2 Year)",
+   "provider": "ACM",
+   "url": "https://www.acm.ac.uk/?s=creative+industries+futures",
+   "ucas_code": "A66-F85"
+  },
+  {
+   "title": "Musical Theatre",
+   "provider": "ARTS EDUCATIONAL SCHOOLS(THE)",
+   "url": "https://artsed.co.uk/course/undergraduate/undergraduate-musical-theatre/?course-guide",
+   "ucas_code": ""
+  },
+  {
+   "title": "Music Production",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/music-production",
+   "ucas_code": "A62-H00"
+  },
+  {
+   "title": "English Literature and Music",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/32n6-english-literature-and-music-ba-hons",
+   "ucas_code": "A34-D18"
+  },
+  {
+   "title": "Commercial Music Specialised",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-commercial-music/",
+   "ucas_code": "A09-E94"
+  },
+  {
+   "title": "Jazz",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/bmus-honours-jazz-2027-28",
+   "ucas_code": ""
+  },
+  {
+   "title": "Music and Sound Production",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-music-sound-production",
+   "ucas_code": "A50-A24"
+  },
+  {
+   "title": "(Top-up) Music for the Creative Industries",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/level-6-ba-hons-top-up-music-for-the-creative-industries/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Music",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/music-ba",
+   "ucas_code": "A20-A08"
+  },
+  {
+   "title": "Audio and Music Production",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-audio-and-music-production",
+   "ucas_code": "A72-G41"
+  },
+  {
+   "title": "Music Production",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/music-production-ba",
+   "ucas_code": "A39-C08"
+  },
+  {
+   "title": "Music Performance with Production",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/music-performance-with-production",
+   "ucas_code": "A69-E83"
+  }
+ ]
+}

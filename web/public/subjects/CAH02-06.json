@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Psychology with Counselling",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?MDYDQS",
+   "ucas_code": "A51-B06"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/nutrition",
+   "ucas_code": "A06-E04"
+  },
+  {
+   "title": "Dispensing Optician (Registerable Award)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/dispensing-optician-registerable-award",
+   "ucas_code": ""
+  },
+  {
+   "title": "Psychology with Counselling and Mental Health",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-counselling",
+   "ucas_code": ""
+  },
+  {
+   "title": "Optometry",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/optometry-moptom",
+   "ucas_code": "A30-C34"
+  },
+  {
+   "title": "Counselling and Working with Children, Young People & Families",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
+   "ucas_code": "A15-G80"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-nutrition",
+   "ucas_code": "A54-I49"
+  },
+  {
+   "title": "Food with Nutrition",
+   "provider": "Bath Spa University",
+   "url": "http://www.bathspa.ac.uk/courses/ug-food-with-nutrition/",
+   "ucas_code": "A09-G34"
+  },
+  {
+   "title": "Psychological Studies with Counselling",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/psychological-studies-counselling",
+   "ucas_code": "A76-D53"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/operating-department-practice-bsc-hons-2027-28",
+   "ucas_code": "A14-D96"
+  },
+  {
+   "title": "Healthcare Studies",
+   "provider": "Bishop Auckland College",
+   "url": "https://bacoll.ac.uk/course/bsc-hons-healthcare-studies-l6-top-up/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Equine Therapy and Rehabilitation",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-equine-therapy-and-rehabilitation",
+   "ucas_code": "A17-A90"
+  }
+ ]
+}

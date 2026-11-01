@@ -1,0 +1,78 @@
+{
+ "code": "CAH20-02-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Theology and Christian Leadership",
+   "provider": "Assemblies of God Incorporated",
+   "url": "https://www.missiodei.ac.uk/courses/ug-courses/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Philosophy, Religion and Ethics",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/theology-ba-hons/full-time/",
+   "ucas_code": "A51-C14"
+  },
+  {
+   "title": "Modern Languages And Philosophy, Ethics And Religion",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons",
+   "ucas_code": "A62-B61"
+  },
+  {
+   "title": "Theology",
+   "provider": "Birmingham Christian College",
+   "url": "https://bccoll.ac.uk/courses/ba/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Theology, Ministry and Mission",
+   "provider": "Bristol Baptist College",
+   "url": "https://www.bristol-baptist.ac.uk/undergraduate/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Theology, Philosophy & Religion",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/theology-philosophy-and-religion",
+   "ucas_code": "A19-I18"
+  },
+  {
+   "title": "Religion, Philosophy and Ethics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/religion-philosophy-ethics-ba",
+   "ucas_code": "A28-A66"
+  },
+  {
+   "title": "Theology and MInistry with Entrepreneurship",
+   "provider": "Christ the Redeemer College",
+   "url": "https://christredeemer.ac.uk/bachelor-of-arts-in-theology-and-ministry-with-entrepreneurship/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Theology and Mission",
+   "provider": "Cliff College",
+   "url": "https://www.cliffcollege.ac.uk/courses/undergrad-postgrad/ba-theology-and-mission",
+   "ucas_code": "A67-B18"
+  },
+  {
+   "title": "Philosophy and Theology",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/vv56/",
+   "ucas_code": "A07-H51"
+  },
+  {
+   "title": "Theology Ministry and Mission",
+   "provider": "Emmanuel Theological College",
+   "url": "https://emmanueltheologicalcollege.org.uk/undergraduate-study/",
+   "ucas_code": ""
+  },
+  {
+   "title": "\"Religion, Philosophy & Ethics\"",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/religion-philosophy-and-ethics-ba",
+   "ucas_code": "A27-H22"
+  }
+ ]
+}

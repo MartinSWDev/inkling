@@ -1,0 +1,42 @@
+{
+ "code": "CAH10-03-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Garment Technology",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
+   "ucas_code": ""
+  },
+  {
+   "title": "Fashion Design and Technology",
+   "provider": "Loughborough University",
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/fashion-design-technology/",
+   "ucas_code": "A62-D56"
+  },
+  {
+   "title": "Costume Production",
+   "provider": "ROSE BRUFORD COLLEGE OF THEATRE AND PERFORMANCE",
+   "url": "https://www.bruford.ac.uk/study/undergraduate-courses/costume-production/",
+   "ucas_code": "A07-B08"
+  },
+  {
+   "title": "Costume with Textiles",
+   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Costume-with-Textiles-BA-Hons",
+   "ucas_code": "A13-F75"
+  },
+  {
+   "title": "Sustainable Fashion",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/j391/sustainable-fashion-ba",
+   "ucas_code": "A61-C66"
+  },
+  {
+   "title": "Fashion Design and Garment Technology",
+   "provider": "York College",
+   "url": "https://www.yorkcollege.ac.uk/study/ba-hons-fashion-design-garment-technology",
+   "ucas_code": "A03-J69"
+  }
+ ]
+}

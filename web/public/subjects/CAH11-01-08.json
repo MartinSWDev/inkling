@@ -1,0 +1,78 @@
+{
+ "code": "CAH11-01-08",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Computer Science",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-science/",
+   "ucas_code": "A69-G68"
+  },
+  {
+   "title": "Cyber Security and Digital Forensics",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-and-digital-forensics",
+   "ucas_code": "A68-D10"
+  },
+  {
+   "title": "Computing",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-computing",
+   "ucas_code": "A11-H66"
+  },
+  {
+   "title": "Cloud and Network Computing",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/london/course/cloud-and-network-computing-bsc",
+   "ucas_code": "A70-B42"
+  },
+  {
+   "title": "Creative Intelligence & Innovation",
+   "provider": "Cambridge School of Visual and Performing Arts",
+   "url": "https://www.csvpa.com/course/ba-hons-creative-intelligence-innovation/",
+   "ucas_code": "A73-E93"
+  },
+  {
+   "title": "Cyber Security & Computer Forensics",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/computer-security-and-computer-forensics",
+   "ucas_code": "A19-D92"
+  },
+  {
+   "title": "Computing with Creative Design",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computing-with-creative-design/",
+   "ucas_code": "A49-H59"
+  },
+  {
+   "title": "3D Animation and Visual Effects",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/3d-animation-and-visual-effects/3d-animation-visual-effects.aspx",
+   "ucas_code": "A75-F28"
+  },
+  {
+   "title": "Creative Computing",
+   "provider": "Escape Studios",
+   "url": "https://www.escapestudios.ac.uk/courses/undergraduate/creative-computing",
+   "ucas_code": "B74-F90"
+  },
+  {
+   "title": "Digital Design",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11DIGDES",
+   "ucas_code": "A54-A92"
+  },
+  {
+   "title": "Immersive Systems: 3d Modelling",
+   "provider": "Glasgow School of Art.",
+   "url": "https://www.gsa.ac.uk/undergraduate-degrees/3d-modelling",
+   "ucas_code": "A41-J30"
+  },
+  {
+   "title": "Digital Arts For Animation, Games And Immersion",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-digital-arts-for-animation-games-immersion",
+   "ucas_code": "A69-E50"
+  }
+ ]
+}

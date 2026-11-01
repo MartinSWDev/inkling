@@ -1,0 +1,78 @@
+{
+ "code": "CAH24-01-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Content Creation with Marketing",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://aub.ac.uk/ba-hons-content-creation-with-marketing",
+   "ucas_code": "A73-E50"
+  },
+  {
+   "title": "Creative Writing and Film and Television Studies",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?TJ45FE",
+   "ucas_code": "A22-F01"
+  },
+  {
+   "title": "Anthropology and Communication, Media and Culture",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-communication-media-and-cultu",
+   "ucas_code": "A06-B52"
+  },
+  {
+   "title": "Live Visual Design and Production",
+   "provider": "Academy of Live Technology Ltd",
+   "url": "https://www.academyoflivetechnology.com/courses/production-park/live-visual-design-and-production",
+   "ucas_code": "A62-H39"
+  },
+  {
+   "title": "Drama and Film",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-film",
+   "ucas_code": "A14-A11"
+  },
+  {
+   "title": "Content Creation",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-content-creation",
+   "ucas_code": "A76-E75"
+  },
+  {
+   "title": "Digital Media and Communication",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/digital-media-and-communication-ba/",
+   "ucas_code": "A75-D83"
+  },
+  {
+   "title": "Creative Arts",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/wpq0-creative-studies-ba-hons",
+   "ucas_code": "A71-J15"
+  },
+  {
+   "title": "Digital Media and Communication",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/english-language-and-applied-linguistics-ug/ba-digital-media-and-communication",
+   "ucas_code": "A76-A20"
+  },
+  {
+   "title": "Business Management and Media Communications",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-media-communications/",
+   "ucas_code": "A09-E71"
+  },
+  {
+   "title": "Digital Media 3-year, full-time",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/digital-media",
+   "ucas_code": "A73-C81"
+  },
+  {
+   "title": "Film and Screenwriting",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/film-and-screenwriting-ba-hons-2027-28",
+   "ucas_code": "A46-C05"
+  }
+ ]
+}

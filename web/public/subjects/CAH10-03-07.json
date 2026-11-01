@@ -1,0 +1,48 @@
+{
+ "code": "CAH10-03-07",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Engineering",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/h607-engineering-beng",
+   "ucas_code": ""
+  },
+  {
+   "title": "Materials Science (4 years)",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/materials-science",
+   "ucas_code": "A30-G00"
+  },
+  {
+   "title": "Materials Science",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/materials-science-and-engineering",
+   "ucas_code": "A47-I67"
+  },
+  {
+   "title": "Materials Science and Engineering",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/i984/materials-science-and-engineering-beng",
+   "ucas_code": "A57-E69"
+  },
+  {
+   "title": "Materials Science and Engineering",
+   "provider": "THE UNIVERSITY OF SHEFFIELD",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/materials-science-and-engineering-meng",
+   "ucas_code": "A35-F94"
+  },
+  {
+   "title": "Natural Sciences",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/natural-sciences-ba-hons-msci",
+   "ucas_code": "A25-D98"
+  },
+  {
+   "title": "Materials Science",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/12959/bsc-meng-materials-science-with-an-integrated-foundation-year/",
+   "ucas_code": "A55-C09"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH03-01-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Biological Sciences",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/biological-sciences",
+   "ucas_code": "A06-B71"
+  },
+  {
+   "title": "Biomedicine",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/biomedicine-bsc",
+   "ucas_code": "A30-B07"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-biological-sciences",
+   "ucas_code": "A15-D74"
+  },
+  {
+   "title": "Biochemistry 3-year full-time",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/biochemistry",
+   "ucas_code": "B68-J43"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-biological-sciences-2",
+   "ucas_code": "A11-H53"
+  },
+  {
+   "title": "Sport and Exercise Science",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/sport-exercise-science-bsc",
+   "ucas_code": "A39-C68"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/biochemistry-bsc",
+   "ucas_code": "A27-H89"
+  },
+  {
+   "title": "Applied Biosciences with foundation year",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cul/course-structure/hnc-hnd-degree/science/?term=2027-28&type=foundation",
+   "ucas_code": "A66-G93"
+  },
+  {
+   "title": "Bio-Sciences",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/bio-sciences",
+   "ucas_code": "A65-A88"
+  },
+  {
+   "title": "Biological Science",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bsc-hons-biological-science-undergraduate-fulltime",
+   "ucas_code": "A50-D84"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11BGLSCI",
+   "ucas_code": "A56-C29"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/biological-sciences",
+   "ucas_code": "A75-F41"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "code": "CAH26-01-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Environmental Science with GIS and Data Science",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/bsc-environmental-science-with-gis-and-data-science",
+   "ucas_code": "B68-H12"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH20-01-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Ancient History",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/ancient-history-ug/ba-ancient-history",
+   "ucas_code": "A15-D54"
+  },
+  {
+   "title": "Classical Studies",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/classical-studies",
+   "ucas_code": "A24-D40"
+  },
+  {
+   "title": "Ancient History",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/v110/",
+   "ucas_code": "A07-G06"
+  },
+  {
+   "title": "Classical Studies with English",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/classical-studies-with-english-ba",
+   "ucas_code": "A27-F99"
+  },
+  {
+   "title": "Ancient History",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/v110/",
+   "ucas_code": "A27-A76"
+  },
+  {
+   "title": "Asian and Middle Eastern Studies and Classics",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classics-and-asian-and-middle-eastern-studies",
+   "ucas_code": "A30-G17"
+  },
+  {
+   "title": "Classical Studies",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/classics/classical-studies/",
+   "ucas_code": "A17-C74"
+  },
+  {
+   "title": "Ancient History",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/classics-ancient-history-egyptology/ba-ancient-history/",
+   "ucas_code": "A36-J76"
+  },
+  {
+   "title": "Classics and Ancient History",
+   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/caha/classical-lit-civ.aspx",
+   "ucas_code": "A04-I01"
+  },
+  {
+   "title": "Language Studies with Latin American Studies",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01412/1?coursecode=R106",
+   "ucas_code": "A58-G73"
+  },
+  {
+   "title": "Ancient History and History",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/g676/ancient-history-and-history-ba",
+   "ucas_code": "A26-E28"
+  },
+  {
+   "title": "Ancient History",
+   "provider": "THE UNIVERSITY OF LEICESTER",
+   "url": "https://le.ac.uk/courses/ancient-history-ba/2027",
+   "ucas_code": "A05-A05"
+  }
+ ]
+}

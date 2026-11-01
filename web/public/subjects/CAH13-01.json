@@ -1,0 +1,78 @@
+{
+ "code": "CAH13-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Architecture",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "http://aub.ac.uk/courses/ba/ba-architecture/",
+   "ucas_code": "A38-F91"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/architecture",
+   "ucas_code": "A06-B67"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/architecture",
+   "ucas_code": "A13-J58"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Architectural Association School of Architecture",
+   "url": "https://www.aaschool.ac.uk/academicprogrammes",
+   "ucas_code": ""
+  },
+  {
+   "title": "Construction Project Management",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+   "ucas_code": "A30-B51"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/architecture-ug/bsc-architecture",
+   "ucas_code": "A15-D64"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-architecture/",
+   "ucas_code": "A62-B31"
+  },
+  {
+   "title": "Architectural Technology",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/architectural-technology-bsc-hons-2027-28",
+   "ucas_code": "A14-C54"
+  },
+  {
+   "title": "Architectural Design and Technology",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-architectural-design-and-technology",
+   "ucas_code": "A57-C38"
+  },
+  {
+   "title": "Building Services Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/building-services-engineering",
+   "ucas_code": "A70-I15"
+  },
+  {
+   "title": "Architectural Design and Technology",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-architectural-design-and-technology/",
+   "ucas_code": "A08-G00"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/architectural-studies-bsc",
+   "ucas_code": "A27-H80"
+  }
+ ]
+}

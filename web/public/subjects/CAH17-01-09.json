@@ -1,0 +1,24 @@
+{
+ "code": "CAH17-01-09",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Business Management",
+   "provider": "Farnborough College of Technology",
+   "url": "https://www.ucfarnborough.ac.uk/course/ba-hons-business-management/N201/",
+   "ucas_code": "A24-C69"
+  },
+  {
+   "title": "Business Management with Accounting",
+   "provider": "Tec Partnership",
+   "url": "https://grimsby.ac.uk/course-detail/ba-hons-business-management-with-accounting/",
+   "ucas_code": "A74-C90"
+  },
+  {
+   "title": "Business with Decision Analytics",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/NN12",
+   "ucas_code": "A14-H73"
+  }
+ ]
+}

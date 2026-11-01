@@ -1,0 +1,78 @@
+{
+ "code": "CAH09-01-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Mathematical Modelling",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?WRGT23",
+   "ucas_code": "A60-A47"
+  },
+  {
+   "title": "Mathematics and Statistics with Data Science",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/mathematics-ug/bsc-mathematics-and-statistics-with-data-science",
+   "ucas_code": "A01-E81"
+  },
+  {
+   "title": "Financial Mathematics",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/financial-mathematics-bsc",
+   "ucas_code": "A19-J49"
+  },
+  {
+   "title": "Data Analytics and Actuarial Science",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/data-analytics-and-actuarial-science",
+   "ucas_code": "A52-E17"
+  },
+  {
+   "title": "Data Science",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-data-science",
+   "ucas_code": "A63-B28"
+  },
+  {
+   "title": "Actuarial Science",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/actuarial-science",
+   "ucas_code": "A05-J38"
+  },
+  {
+   "title": "Mathematics with Statistics",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mathematics-statistics/",
+   "ucas_code": "A15-D30"
+  },
+  {
+   "title": "Mathematics with Statistics",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/mathematics-with-statistics-bsc",
+   "ucas_code": "A27-G77"
+  },
+  {
+   "title": "Mathematics with Statistics",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/mathematics-with-statistics/#variant",
+   "ucas_code": "A18-D10"
+  },
+  {
+   "title": "Mathematics with Statistics",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-mathematics-with-statistics",
+   "ucas_code": "A56-I27"
+  },
+  {
+   "title": "Mathematics and Statistics",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/gg13/",
+   "ucas_code": "A27-C53"
+  },
+  {
+   "title": "Mathematics/Mathematics and Statistics",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+   "ucas_code": "A30-G01"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH17-01-06",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Events Management",
+   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "url": "https://ukmc.ac.uk/course-details/ba-hons-event-management-with-foundation-year",
+   "ucas_code": ""
+  },
+  {
+   "title": "Sport and Management",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-management/",
+   "ucas_code": "A06-B38"
+  },
+  {
+   "title": "Events Management",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/events-management",
+   "ucas_code": "A68-H39"
+  },
+  {
+   "title": "Business Management and Events",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/events-management",
+   "ucas_code": "A14-A25"
+  },
+  {
+   "title": "International Hospitality and Tourism Management",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/bsc-hons-hospitality-tourism-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Tourism Management",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n832-tourism-management-bsc-hons",
+   "ucas_code": "A62-E20"
+  },
+  {
+   "title": "Sports Management",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-sports-management/",
+   "ucas_code": "A65-I42"
+  },
+  {
+   "title": "Culinary Industry Management",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/culinary-industry-management",
+   "ucas_code": "A24-D50"
+  },
+  {
+   "title": "Events Management",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/events-management-ba-hons-2027-28",
+   "ucas_code": "A41-G95"
+  },
+  {
+   "title": "E-Sports Digital Technologies",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-e-sports-digital-technologies",
+   "ucas_code": "A71-E85"
+  },
+  {
+   "title": "Aviation Management",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-aviation-management",
+   "ucas_code": "A03-C67"
+  },
+  {
+   "title": "Business Management (Events)",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/business-management-events-bsc",
+   "ucas_code": "A68-B28"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/nursing-mental-health-nursing/",
+   "ucas_code": "A00-A16"
+  },
+  {
+   "title": "Nursing (Adult)",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?AN2VZ9",
+   "ucas_code": "A62-H42"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/midwifery/",
+   "ucas_code": "A06-D81"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/midwifery",
+   "ucas_code": "A14-A66"
+  },
+  {
+   "title": "Nursing Studies (Registered Nurse Adult Nursing)",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/nursing-studies-registered-nurse-adult-nursing-bsc",
+   "ucas_code": "A67-C71"
+  },
+  {
+   "title": "Adult Nursing",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/adult-nursing/full-time/",
+   "ucas_code": "A65-F90"
+  },
+  {
+   "title": "Nursing (Adult) [Pre-registration Nursing]",
+   "provider": "BPP University",
+   "url": "https://www.bpp.com/nursing-and-healthcare/bsc-nursing-adult",
+   "ucas_code": ""
+  },
+  {
+   "title": "Adult Nursing",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b741-adult-nursing-bn-hons",
+   "ucas_code": "A41-F24"
+  },
+  {
+   "title": "Adult Nursing",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/nursing-adult-bsc-hons-2027-28",
+   "ucas_code": "B69-J98"
+  },
+  {
+   "title": "Adult Nursing",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-adult-nursing-5",
+   "ucas_code": "A11-H45"
+  },
+  {
+   "title": "Nursing (Adult)",
+   "provider": "Brunel University of London",
+   "url": "http://www.brunel.ac.uk/study/undergraduate/nursing-adult-bsc",
+   "ucas_code": "A62-B18"
+  },
+  {
+   "title": "Adult Nursing with Foundation Year",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-adult-nursing",
+   "ucas_code": "A67-H06"
+  }
+ ]
+}

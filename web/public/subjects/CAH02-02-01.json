@@ -1,0 +1,78 @@
+{
+ "code": "CAH02-02-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Pharmaceutical Science",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/pharmaceutical-science",
+   "ucas_code": "A14-A79"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/pharmacology-bsc",
+   "ucas_code": "A75-F22"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/b200-pharmacology-bsc-hons",
+   "ucas_code": "A66-F27"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/medical-sciences-ug/bsc-pharmacology",
+   "ucas_code": "A55-E21"
+  },
+  {
+   "title": "Clinical Pharmacology",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/clinical-pharmacology",
+   "ucas_code": "A75-B02"
+  },
+  {
+   "title": "Medical Pharmacology",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/medical-pharmacology-bsc",
+   "ucas_code": "A28-A32"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/pharmacology-bsc/?term=2027-28",
+   "ucas_code": "A38-I18"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/pharmacy_&_pharmaceutical_sciences/bsc_(hons)_pharmacology.cfm",
+   "ucas_code": "A76-F56"
+  },
+  {
+   "title": "Pharmaceutical Sciences",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/pharmaceutical-sciences-bsc-hons",
+   "ucas_code": "A14-G62"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/pharmacology",
+   "ucas_code": "A55-I82"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11PHARMY",
+   "ucas_code": "A26-D49"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/pharmacology/",
+   "ucas_code": "A68-E75"
+  }
+ ]
+}

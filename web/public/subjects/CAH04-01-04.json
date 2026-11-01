@@ -1,0 +1,78 @@
+{
+ "code": "CAH04-01-04",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Psychology With Clinical And Health Psychology",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c880-psychology-with-clinical-and-health-psychology-bsc-hons",
+   "ucas_code": "A34-H09"
+  },
+  {
+   "title": "Clinical Psychology",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-clinical-psychology",
+   "ucas_code": "A47-B00"
+  },
+  {
+   "title": "Psychology with Clinical Psychology",
+   "provider": "GOLDSMITHS' COLLEGE",
+   "url": "http://www.gold.ac.uk/ug/bsc-clinical-psychology/",
+   "ucas_code": "A17-C47"
+  },
+  {
+   "title": "Psychology (Clinical Psychology)",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/psychology-clinical#overview",
+   "ucas_code": "A12-C40"
+  },
+  {
+   "title": "Psychology (Mental Health)",
+   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-mental-health",
+   "ucas_code": "A52-B77"
+  },
+  {
+   "title": "Psychology (Clinical and Mental Health)",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/undergraduate-courses/psychology-clinical-and-mental-health/",
+   "ucas_code": "A19-A52"
+  },
+  {
+   "title": "Psychosocial and Psychoanalytic Studies",
+   "provider": "THE UNIVERSITY OF ESSEX",
+   "url": "https://www.essex.ac.uk/courses/UG01035/1?coursecode=C890",
+   "ucas_code": "A32-I50"
+  },
+  {
+   "title": "Clinical and Community Psychology",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-clinical-and-community-psychology",
+   "ucas_code": "A24-B41"
+  },
+  {
+   "title": "Neuropsychology",
+   "provider": "UNIVERSITY OF LANCASHIRE",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/neuropsychology-bsc-hons",
+   "ucas_code": "A02-D95"
+  },
+  {
+   "title": "Psychology (Clinical Application) with Integrated Foundation Year",
+   "provider": "UNIVERSITY OF NORTHAMPTON, THE",
+   "url": "https://www.northampton.ac.uk/courses/psychology-clinical-application-bsc-hons/",
+   "ucas_code": "A76-B19"
+  },
+  {
+   "title": "Psychology with Health",
+   "provider": "University College Birmingham",
+   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/psychology-with-health-bsc-hons/",
+   "ucas_code": "A71-F96"
+  },
+  {
+   "title": "Applied Psychology (Clinical)",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-applied-psychology/",
+   "ucas_code": "A32-J50"
+  }
+ ]
+}

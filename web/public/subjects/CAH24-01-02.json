@@ -1,0 +1,78 @@
+{
+ "code": "CAH24-01-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Marketing with Advertising and Public Relations",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/marketing-advertising-and-public-relations-ba-hons-2027-28",
+   "ucas_code": "A14-D70"
+  },
+  {
+   "title": "Marketing Communications with Public Relations",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-marketing-communications-public-relations",
+   "ucas_code": "A58-D39"
+  },
+  {
+   "title": "Communication, PR and Advertising",
+   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/communication-pr-advertising",
+   "ucas_code": "A67-I97"
+  },
+  {
+   "title": "Marketing and Public Relations",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/ug/marketing/?term=2027-28",
+   "ucas_code": "A38-I70"
+  },
+  {
+   "title": "Advertising and Public Relations",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/advertising-and-public-relations",
+   "ucas_code": "A17-F26"
+  },
+  {
+   "title": "Marketing and Public Relations",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/marketing-public-relations-ba",
+   "ucas_code": "A52-J72"
+  },
+  {
+   "title": "Business with Media Communications",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36709-business-with-media-communications-bsc-hons",
+   "ucas_code": "A10-J76"
+  },
+  {
+   "title": "Advertising, Marketing Communications and Public Relations",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/advertising-marketing-communications-and-public-relations---ba-hons/",
+   "ucas_code": "A06-I95"
+  },
+  {
+   "title": "Digital Marketing and Public Relations",
+   "provider": "Queen Margaret University, Edinburgh",
+   "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/ba-hons-digital-marketing-and-public-relations-2027-entry",
+   "ucas_code": "A69-A69"
+  },
+  {
+   "title": "Advertising and Public Relations",
+   "provider": "Richmond, The American International University in London",
+   "url": "https://www.richmond.ac.uk/undergraduate-programmes/ba-advertising-and-public-relations/",
+   "ucas_code": "A07-C25"
+  },
+  {
+   "title": "Journalism, Public Relations with Media",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/media-pr-and-journalism/ba-honours-journalism-public-relations-with-media",
+   "ucas_code": ""
+  },
+  {
+   "title": "Communications",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/communications-ba",
+   "ucas_code": "A71-H19"
+  }
+ ]
+}

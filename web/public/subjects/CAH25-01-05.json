@@ -1,0 +1,78 @@
+{
+ "code": "CAH25-01-05",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Craft & Material Practices",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/ba-hons-craft-material-practices/overview",
+   "ucas_code": "A16-E64"
+  },
+  {
+   "title": "Horology",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/horology-ba-hons-2027-28",
+   "ucas_code": "A14-D47"
+  },
+  {
+   "title": "Creative Arts",
+   "provider": "Boston College",
+   "url": "https://www.boston.ac.uk/courses/find-a-course/area/art-and-design/creative-arts-ba-hons-top-up-level-6/",
+   "ucas_code": "A73-D89"
+  },
+  {
+   "title": "Art and Design",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-art-and-design/",
+   "ucas_code": "A11-J14"
+  },
+  {
+   "title": "Art and Design",
+   "provider": "Burnley College",
+   "url": "https://www.burnley.ac.uk/course/?code=a6029",
+   "ucas_code": "A60-J93"
+  },
+  {
+   "title": "Creative Arts (Contemporary Art and Design Practice) Top Up",
+   "provider": "Calderdale College",
+   "url": "https://www.calderdale.ac.uk/courses/ba-hons-top-up-contemporary-art-design-practice/",
+   "ucas_code": "A17-B35"
+  },
+  {
+   "title": "Artist Designer: Maker",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-artist-designer-maker/",
+   "ucas_code": "A08-G01"
+  },
+  {
+   "title": "Makeup & Hair for Theatre & Media",
+   "provider": "Chichester College Group",
+   "url": "https://www.northbrook.ac.uk/courses/ba-hons-makeup-and-hair-for-theatre-and-media/",
+   "ucas_code": "A69-B25"
+  },
+  {
+   "title": "Carving: Architectural Stone",
+   "provider": "City and Guilds of London Art School",
+   "url": "https://www.cityandguildsartschool.ac.uk/architectural-stone/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Design Crafts",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/design-crafts-ba-degree/design-crafts-ba-degree.aspx",
+   "ucas_code": "A25-G41"
+  },
+  {
+   "title": "Silversmithing And Jewellery",
+   "provider": "Glasgow School of Art.",
+   "url": "https://www.gsa.ac.uk/undergraduate-degrees/silversmithing-jewellery",
+   "ucas_code": "A15-G61"
+  },
+  {
+   "title": "Artist Blacksmithing",
+   "provider": "Hereford College of Arts",
+   "url": "https://www.hca.ac.uk/course/artist-blacksmithing",
+   "ucas_code": "A34-A75"
+  }
+ ]
+}

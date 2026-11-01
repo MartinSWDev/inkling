@@ -1,0 +1,18 @@
+{
+ "code": "CAH07-04-01",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Initial Year For Extended Degree In Science - Physical Sciences - Nhc",
+   "provider": "HERTFORD REGIONAL COLLEGE",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/initial-year-for-extended-degree-in-science-physical-sciences",
+   "ucas_code": "A21-C71"
+  },
+  {
+   "title": "Interdisciplinary Science with Foundation Year",
+   "provider": "THE UNIVERSITY OF LEEDS",
+   "url": "https://courses.leeds.ac.uk/202728/3430/interdisciplinary-science-with-foundation-year-bsc",
+   "ucas_code": "A26-H85"
+  }
+ ]
+}

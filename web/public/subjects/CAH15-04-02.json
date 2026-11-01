@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-04-02",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Early Childhood Studies",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/early-childhood-studies",
+   "ucas_code": "A06-C39"
+  },
+  {
+   "title": "Early Childhood Studies (Graduate Practitioner)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+   "ucas_code": "A14-A13"
+  },
+  {
+   "title": "Childhood And Youth Studies",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x314-childhood-and-youth-studies-welsh-medium-course-ba-hons",
+   "ucas_code": "A34-B14"
+  },
+  {
+   "title": "Early Childhood Studies (with Graduate Practitioner Competencies)",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/early-childhood-studies-ba-hons-2027-28",
+   "ucas_code": "A14-D10"
+  },
+  {
+   "title": "Childhood Studies with Early Years",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-childhood-studies-early-years",
+   "ucas_code": "A67-J28"
+  },
+  {
+   "title": "Early Years Top Up",
+   "provider": "Calderdale College",
+   "url": "https://www.calderdale.ac.uk/courses/childhood-studies-early-years-pathway-ba-hons-top-up/",
+   "ucas_code": "A17-B33"
+  },
+  {
+   "title": "Early Childhood Studies",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/early-childhood-studies",
+   "ucas_code": "A19-E60"
+  },
+  {
+   "title": "Early Years Education and Professional Practice with Early Years Practitioner Status (EYPS)",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-early-years-education-and-professional-practice-with-eyps/",
+   "ucas_code": "A55-F49"
+  },
+  {
+   "title": "Theology and Mission (Children, Youth and Family Ministry)",
+   "provider": "Cliff College",
+   "url": "https://www.cliffcollege.ac.uk/courses/undergrad-postgrad/ba-theology-and-mission",
+   "ucas_code": "A67-G62"
+  },
+  {
+   "title": "Childhood, Youth and Education Studies",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/childhood-youth-and-education-studies-ba-hons/?term=2027-28",
+   "ucas_code": "A38-G58"
+  },
+  {
+   "title": "Childhood",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/chd",
+   "ucas_code": "A59-I99"
+  },
+  {
+   "title": "Childhood Studies",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-studies",
+   "ucas_code": "A01-B67"
+  }
+ ]
+}

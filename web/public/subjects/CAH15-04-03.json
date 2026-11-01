@@ -1,0 +1,78 @@
+{
+ "code": "CAH15-04-03",
+ "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
+ "courses": [
+  {
+   "title": "Health, Wellbeing and Social Care",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/health-wellbeing-and-social-care-with-foundation",
+   "ucas_code": "A67-H67"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/health-and-social-care-london",
+   "ucas_code": "A42-C31"
+  },
+  {
+   "title": "Health and Care Management",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "url": "https://www.newman.ac.uk/course/health-and-social-care-bsc-hons/full-time/",
+   "ucas_code": "A15-G98"
+  },
+  {
+   "title": "Health And Social Care",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons",
+   "ucas_code": "A34-E64"
+  },
+  {
+   "title": "Health and Social Care Management with Foundation Year",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ify-health-social-care-management-london/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/health-and-social-care-with-professional-practice",
+   "ucas_code": "A69-G38"
+  },
+  {
+   "title": "Health and Social Science",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
+   "ucas_code": "A03-D32"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/health-social-care-bsc",
+   "ucas_code": "A39-B53"
+  },
+  {
+   "title": "Community, Public Health and Social Care Top Up",
+   "provider": "Calderdale College",
+   "url": "https://www.calderdale.ac.uk/courses/community-public-health-and-social-care-ba-hons-top-up/",
+   "ucas_code": "A17-B32"
+  },
+  {
+   "title": "Health and Lifestyle Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/hnd--bsc-health-and-social-care/",
+   "ucas_code": "A08-G50"
+  }
+ ]
+}
