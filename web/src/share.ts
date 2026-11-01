@@ -164,26 +164,31 @@ export async function makeShareVideo(opts: {
       ctx.translate(-tw / 2, -52); paper(0, 0, tw, 84, 16);
       ctx.fillStyle = "#2A2238"; ctx.fillText(label, 28, 56); ctx.restore();
     }
-    // Top-3 cards stack up over the lower third (3.5-8.6s).
+    // Top-3 cards (3.5-8.6s): identical cards on a fixed grid in the lower
+    // third — same x, width and height, evenly spaced; sticker in a fixed
+    // square on the left, name vertically centred beside it.
     if (t >= 3.5 && t < 8.6) {
       const shown = moment >= 0 ? moment + 1 : 3;
-      for (let j = shown - 1; j >= 0; j--) {
+      const cardW = W - 88, cardH = 168, cardX = 44, gap = 20;
+      const gridTop = H - 96 - (cardH * 3 + gap * 2);
+      for (let j = 0; j < shown; j++) {
         const subj = opts.top[j]; if (!subj) continue;
         const start = 3.5 + j * 1.16;
         const p = Math.min(1, Math.max(0, (t - start) / 0.35));
         if (p <= 0) continue;
-        const depth = shown - 1 - j;
-        const cardW = (W - 88) * (1 - depth * 0.05);
-        const cardH = 178, x = (W - cardW) / 2, y = H - 330 - depth * 186 + (1 - p) * 340;
-        ctx.save(); ctx.globalAlpha = Math.min(1, p + 0.2) * (1 - depth * 0.12);
+        const x = cardX, y = gridTop + j * (cardH + gap) + (1 - p) * 36;
+        ctx.save(); ctx.globalAlpha = p;
         paper(x, y, cardW, cardH, 26);
         const img = stickerImgs.get(subj.code);
-        if (img) ctx.drawImage(img, x + 26, y + 27, 124, 124);
-        const { lines, size } = fitName(ctx, subj.name, cardW - 240, 76);
+        if (img) {
+          const box = 124, bx = x + 22, by = y + (cardH - box) / 2;
+          const s = Math.min(box / img.width, box / img.height);
+          ctx.drawImage(img, bx + (box - img.width * s) / 2, by + (box - img.height * s) / 2, img.width * s, img.height * s);
+        }
+        const { lines, size } = fitName(ctx, subj.name, cardW - 196, 76);
         ctx.fillStyle = "#2A2238"; ctx.font = `900 ${size}px Fraunces, Georgia, serif`;
-        lines.forEach((line, li) => ctx.fillText(line, x + 178, y + 72 + li * (size * 1.08)));
-        ctx.fillStyle = "#6c6280"; ctx.font = "600 27px Figtree, Arial";
-        ctx.fillText("in your top 3", x + 178, y + cardH - 22);
+        const blockH = lines.length * size * 1.08;
+        lines.forEach((line, li) => ctx.fillText(line, x + 168, y + cardH / 2 - blockH / 2 + size * 0.82 + li * (size * 1.08)));
         ctx.restore();
       }
     }
@@ -202,7 +207,10 @@ export async function makeShareVideo(opts: {
         ctx.fillStyle = "#2A2238"; ctx.font = `900 ${size}px Fraunces, Georgia, serif`;
         lines.forEach((line, li) => ctx.fillText(line, 0, 60 + li * (size * 1.08)));
         ctx.fillStyle = "#5a3600"; ctx.font = "700 36px Figtree, Arial";
-        ctx.fillText("★ wildcard", 0, 300);
+        ctx.fillText("wildcard", 16, 300);
+        ctx.save(); ctx.translate(-88, 288); ctx.beginPath();
+        for (let s = 0; s < 10; s++) { const r = s % 2 ? 9 : 20, a = -Math.PI / 2 + s * Math.PI / 5; ctx[s ? "lineTo" : "moveTo"](Math.cos(a) * r, Math.sin(a) * r); }
+        ctx.closePath(); ctx.fillStyle = "#e59a2c"; ctx.fill(); ctx.restore();
       }
       ctx.restore(); ctx.textAlign = "left";
       // Sparkles.
