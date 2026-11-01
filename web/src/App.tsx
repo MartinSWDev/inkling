@@ -344,7 +344,7 @@ export default function App() {
         <button className="btn alt bigbtn" onClick={() => { unlock(); sfx.pop(); dispatch({ type: "START" }); }}>Find my subjects</button>
         <p className="smallprint">Takes about 3 minutes · free · no sign-up</p>
         <button className="musetag" onClick={() => setHowOpen(true)}>Built with Meta Muse</button>
-        <p className="smallprint">Built with UK course data from Discover Uni</p>
+        <p className="smallprint">Course data from Discover Uni</p>
         <button className="linkbtn" onClick={() => setHowOpen(true)}>How it works</button>
         <button className="soundbtn iconbtn landing-sound" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
           onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>
