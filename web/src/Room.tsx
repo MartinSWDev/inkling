@@ -37,8 +37,10 @@ export function assignStickers(codes: string[], stickers: Record<string, Sticker
       const fit = Math.min(spot.max[0] / entry.w, spot.max[1] / entry.h);
       const scale = Math.min(fit * (SCALE[entry.size] ?? 0.8) * boost, fit);
       const w = entry.w * scale, h = entry.h * scale;
+      // Desk stickers must sit wholly on the desk top (its right edge is ~x 1105).
+      const maxX = entry.slot === "desk" ? Math.min(ROOM_W - w, 1105 - w) : ROOM_W - w;
       const cand: Assigned = { code, spot: name,
-        x: Math.max(0, Math.min(ROOM_W - w, spot.anchor[0] - w / 2)),
+        x: Math.max(0, Math.min(maxX, spot.anchor[0] - w / 2)),
         y: Math.max(0, Math.min(ROOM_H - h, spot.anchor[1] - h - (entry.slot === "floor" ? floorLift : 0))),
         w, h, z: spot.z, slot: entry.slot };
       if (placed.some((p) => overlap(cand, p) > 0.5)) continue;

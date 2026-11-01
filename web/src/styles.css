@@ -13,7 +13,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);z-index:0;isolation:isolate;pointer-events:none}
 .room-wrap *{pointer-events:none}
 .room-stack{position:absolute;inset:0}
-.app[data-mode="swipe"] .room-wrap > .room-stack{transform:scale(1.02) translateY(-1%)}
+.app[data-mode="swipe"] .room-wrap > .room-stack{transform:scale(1.05) translateY(-7%)}
 .room-stack.band{position:absolute;left:0;top:0}
 .room-stack .view-img{position:absolute;object-fit:cover}
 .room-stack .room-top{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -92,7 +92,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .chip.loved{background:var(--round-accent);color:var(--ink);border-color:var(--ink)}
 .chip .checkmark{font-weight:700;margin-left:auto;margin-right:26px}
 .chip .heart{position:absolute;right:5px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:99px;border:0;background:transparent;color:inherit;display:none;place-items:center;cursor:pointer;font-size:18px}
-.chip[aria-pressed="true"] .heart{display:grid}.chip.loved .heart{color:#b03060}
+.chip .heart{display:grid;opacity:.35}
+.chip[aria-pressed="true"] .heart{opacity:1}.chip.loved .heart{color:#b03060;opacity:1}
 .other{display:flex;gap:8px;align-items:center}
 .other input{flex:1;min-width:0;font:inherit;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:11px 12px}
 .sheet2 .btn{justify-self:center;min-width:220px}
@@ -106,6 +107,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .pcard.picked{border-color:var(--accent)}
 .pcard.dim{opacity:0;transform:rotateX(70deg) scale(.94);transform-origin:50% 100%}
 .plusflag{position:absolute;background:var(--butter);color:var(--ink);font-size:12px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--line);transform:rotate(-4deg) translate(-30%,-120%);box-shadow:var(--paper-shadow-sm);animation:popin .35s cubic-bezier(.2,.9,.3,1.3) both;pointer-events:none}
+.outroskip{position:absolute;inset:0;z-index:7;background:none;border:0;cursor:pointer}
 .outrotag{position:absolute;left:0;right:0;top:calc(88px + env(safe-area-inset-top,0px));z-index:8;display:grid;place-items:center;background:none;border:0;cursor:pointer}
 .outrotag span{background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);font-family:var(--display);font-weight:700;font-size:22px;padding:12px 18px;border-radius:12px;border:1px solid var(--line);box-shadow:var(--paper-shadow);transform:rotate(-1deg)}
 .sticker-img.wiggle{animation:wiggle .7s ease-in-out}
@@ -153,7 +155,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .nextpill{position:absolute;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;border-radius:99px;padding:12px 22px}
 .finale-next{position:absolute}
 .backbtn{position:absolute;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;font:inherit;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:11px 18px;min-height:48px;cursor:pointer;box-shadow:var(--paper-shadow-sm)}
-.finale{position:absolute;inset:0;z-index:8;display:grid;place-items:end center;padding-bottom:18%}
+.finale{position:absolute;inset:0;z-index:8;display:grid;place-items:start center;padding-top:calc(78px + env(safe-area-inset-top,0px))}
 .finale .finaletag{background:var(--paper);background-image:url(/paper-grain.png);font-family:var(--display);font-weight:900;font-size:30px;color:var(--ink);padding:14px 22px;border-radius:14px;border:1px solid var(--line);box-shadow:var(--paper-shadow);transform:rotate(-1deg)}
 .finale .finalehint{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;color:#fff;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .lampwarm{position:absolute;inset:0;background:rgba(255,150,60,.14);mix-blend-mode:multiply;pointer-events:none;z-index:2}

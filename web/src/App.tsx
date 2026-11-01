@@ -79,7 +79,11 @@ export default function App() {
   useEffect(() => {
     if (scene.kind === "unfold") { const t = window.setTimeout(() => dispatch({ type: "UNFOLDED" }), 1400); return () => window.clearTimeout(t); }
     if (scene.kind === "roundTitle") { const t = window.setTimeout(() => dispatch({ type: "TITLE_DONE" }), 1250); return () => window.clearTimeout(t); }
-    if (scene.kind === "roundOutro") { const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), 1700); return () => window.clearTimeout(t); }
+    if (scene.kind === "roundOutro") {
+      const added = roomCodes.length - roundStartCount;
+      const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), added >= 1 ? 1150 : 30);
+      return () => window.clearTimeout(t);
+    }
   }, [scene.kind]);
   // Preload room layers, common stickers, card art and views while the landing is shown.
   useEffect(() => {
@@ -304,6 +308,7 @@ export default function App() {
       </div>
       {tapCode && <button className="tagcatcher" aria-label="Close sticker tag" onClick={() => setTapCode(null)} />}
 
+      {scene.kind === "roundOutro" && (<button className="outroskip" aria-label="Continue" onClick={() => dispatch({ type: "OUTRO_DONE" })} />)}
       {scene.kind === "roundOutro" && roomCodes.length - roundStartCount >= 1 && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
         <motion.span initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 380, damping: 20 }}>
           {"+" + (roomCodes.length - roundStartCount) + " in your room"}
