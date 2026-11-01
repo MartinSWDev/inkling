@@ -13,7 +13,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);z-index:0;isolation:isolate;pointer-events:none}
 .room-wrap *{pointer-events:none}
 .room-stack{position:absolute;inset:0}
-.app[data-mode="swipe"] .room-wrap > .room-stack{transform:scale(1.05) translateY(-2.5%)}
+.app[data-mode="swipe"] .room-wrap > .room-stack{transform:scale(1.02) translateY(-1%)}
 .room-stack.band{position:absolute;left:0;top:0}
 .room-stack .view-img{position:absolute;object-fit:cover}
 .room-stack .room-top{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -36,7 +36,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .seg.done i{width:100%;background:#4fb37a}
 .seg em.mintick{position:absolute;top:-3px;bottom:-3px;width:3px;background:#fff;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
 .app[data-mode="swipe"] .overlay{top:auto;max-height:52%;padding-top:8px;overflow:auto;align-content:start;transition:transform .3s ease}
-.app[data-mode="swipe"] .overlay.dip{transform:translateY(40px)}
+.app[data-mode="swipe"] .overlay.dip{transform:translateY(46%)}
 .app[data-mode="swipe"] .deck{height:min(205px,24svh)}
 .app[data-mode="swipe"] .sheet2{max-height:100%}
 .topline{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}

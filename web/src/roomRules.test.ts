@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { qualifiedSubjects, scoreAnswers } from "./scoring";
-import { ROUND_CAPS, ensureFloorOrBed, growRoom } from "./roomRules";
+import { ROUND_CAPS, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
 
 const load = (p: string) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
 const cards = load("../../data/subject_cards.json").cards;
@@ -79,13 +79,28 @@ describe("room growth rules", () => {
     expect(ensureFloorOrBed(["A", "F"], ranked, new Set(["A", "F"]), (c) => slots[c])).toEqual(["A", "F"]);
   });
 
-  it("a full room swaps out only the weakest for a bigger riser", () => {
+  it("during rounds a placed object never leaves, even at the cap", () => {
     const ranked = [
       { code: "NEW", display_name: "New", score: 9, uncertainty: 1, direct: 1, reasons: [] },
       { code: "A", display_name: "A", score: 5, uncertainty: 1, direct: 1, reasons: [] },
       { code: "B", display_name: "B", score: 1, uncertainty: 1, direct: 1, reasons: [] },
     ];
-    const next = growRoom(["A", "B"], { A: 5, B: 1 }, ranked, new Set(["NEW", "A", "B"]), 2);
-    expect(next).toEqual(["A", "NEW"]);
+    expect(growRoom(["A", "B"], { A: 5, B: 1 }, ranked, new Set(["NEW", "A", "B"]), 2)).toEqual(["A", "B"]);
+    expect(growRoom(["A"], { A: 5 }, ranked, new Set(["NEW", "A", "B"]), 2)).toEqual(["A", "NEW"]);
+  });
+
+  it("reveal puts every result in the room, swapping only non-results", () => {
+    const ranked = [
+      { code: "T1", display_name: "T1", score: 9, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "W", display_name: "W", score: 8, uncertainty: 1, direct: 0, reasons: [] },
+      { code: "A", display_name: "A", score: 5, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "B", display_name: "B", score: 1, uncertainty: 1, direct: 1, reasons: [] },
+    ];
+    const full = ["A", "B", "C1", "C2", "C3", "C4", "C5", "C6"];
+    const out = ensureResults(full, ["T1", "W"], ranked);
+    expect(out.length).toBe(8);
+    expect(out).toContain("T1");
+    expect(out).toContain("W");
+    expect(ensureResults(["A"], ["T1"], ranked)).toEqual(["A", "T1"]);
   });
 });

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
 import { qualifiedSubjects, scoreAnswers } from "./scoring";
-import { ROUND_CAPS, ensureFloorOrBed, growRoom } from "./roomRules";
+import { ROUND_CAPS, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
 import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
@@ -134,19 +134,21 @@ export default function App() {
   }, [answers, content, subjects]);
   const displayCodes = useMemo(() => {
     if (phase !== "reveal" || !assets) return roomCodes;
-    let codes = ensureFloorOrBed(roomCodes, ranked, qualifiedAll, (c) => assets.stickers[c]?.slot);
-    if (wildcardFlipped && surprise && !codes.includes(surprise)) codes = [...codes.slice(-7), surprise];
+    const topCodes = ranked.filter((r) => r.score > 0 && r.code !== surprise).slice(0, 3).map((r) => r.code);
+    const results = [...topCodes, ...(wildcardFlipped && surprise ? [surprise] : [])];
+    let codes = ensureResults(roomCodes, results, ranked);
+    codes = ensureFloorOrBed(codes, ranked, qualifiedAll, (c) => assets.stickers[c]?.slot, results);
     return codes;
   }, [phase, assets, roomCodes, ranked, qualifiedAll, wildcardFlipped, surprise]);
   const assigned = useMemo(
-    () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.25 : 1, scene.kind === "round" ? 150 : 0) : []),
-    [assets, displayCodes, phase, scene.kind]);
+    () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.35 : 1.2, 0) : []),
+    [assets, displayCodes, phase]);
   useEffect(() => {
     if (!lastAdded) return;
     const a = assigned.find((x) => x.code === lastAdded);
-    if (a && (a.y + a.h) / 2048 > 0.46) {
+    if (a) {
       setDip(true);
-      const t = window.setTimeout(() => setDip(false), 650);
+      const t = window.setTimeout(() => setDip(false), 720);
       return () => window.clearTimeout(t);
     }
   }, [lastAdded, assigned]);
