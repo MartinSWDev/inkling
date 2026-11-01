@@ -1,0 +1,4224 @@
+{
+ "summary": {
+  "students": 200,
+  "hit3": 0.365,
+  "hit5": 0.515,
+  "family3": 0.44,
+  "hit3_excluding_no_idea": 0.375,
+  "median_answers_to_settle": 27,
+  "answers_per_game": 42,
+  "subjects_ever_in_top3": 62
+ },
+ "students": [
+  {
+   "id": "s00-1",
+   "first_name": "Mia",
+   "certainty": "knows",
+   "suits": [
+    "CAH13-01-01",
+    "CAH13-01-02"
+   ],
+   "paper": "blueprint",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s00-2",
+   "first_name": "Ethan",
+   "certainty": "torn",
+   "suits": [
+    "CAH13-01-04",
+    "CAH13-01-03"
+   ],
+   "paper": "blueprint",
+   "top3": [
+    "CAH10-01-01",
+    "CAH13-01-04",
+    "CAH10-01-02"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 38,
+   "answers": 43
+  },
+  {
+   "id": "s00-3",
+   "first_name": "Priya",
+   "certainty": "knows",
+   "suits": [
+    "CAH09-01-01",
+    "CAH09-01-03"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH15-02-01",
+    "CAH11-01-01",
+    "CAH09-01-03"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 14,
+   "answers": 43
+  },
+  {
+   "id": "s00-4",
+   "first_name": "Callum",
+   "certainty": "knows",
+   "suits": [
+    "CAH06-01-03",
+    "CAH06-01-02"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s00-5",
+   "first_name": "Ellie",
+   "certainty": "torn",
+   "suits": [
+    "CAH06-01-07",
+    "CAH06-01-06"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s00-6",
+   "first_name": "Mohammed",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-03-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH20-02-01"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 42
+  },
+  {
+   "id": "s00-7",
+   "first_name": "Sophie",
+   "certainty": "torn",
+   "suits": [
+    "CAH06-01-05",
+    "CAH06-01-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s00-8",
+   "first_name": "James",
+   "certainty": "knows",
+   "suits": [
+    "CAH09-01-02",
+    "CAH09-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH11-01-01",
+    "CAH11-01-04",
+    "CAH11-01-05"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s00-9",
+   "first_name": "Grace",
+   "certainty": "no idea",
+   "suits": [
+    "CAH06-01-08",
+    "CAH06-01-07"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-03",
+    "CAH03-01-06",
+    "CAH03-01-05"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s00-10",
+   "first_name": "Alfie",
+   "certainty": "torn",
+   "suits": [
+    "CAH13-01-02",
+    "CAH13-01-01"
+   ],
+   "paper": "blueprint",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s00-11",
+   "first_name": "Niamh",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-03-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 43
+  },
+  {
+   "id": "s00-12",
+   "first_name": "Lewis",
+   "certainty": "knows",
+   "suits": [
+    "CAH06-01-04",
+    "CAH06-01-03"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-03",
+    "CAH03-01-06",
+    "CAH06-01-01"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": true,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s00-13",
+   "first_name": "Zara",
+   "certainty": "torn",
+   "suits": [
+    "CAH09-01-03",
+    "CAH09-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH09-01-03",
+    "CAH09-01-02",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 43
+  },
+  {
+   "id": "s00-14",
+   "first_name": "Ben",
+   "certainty": "no idea",
+   "suits": [
+    "CAH13-01-04",
+    "CAH15-03-01"
+   ],
+   "paper": "blueprint",
+   "top3": [
+    "CAH15-02-01",
+    "CAH13-01-04",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 42
+  },
+  {
+   "id": "s00-15",
+   "first_name": "Chloe",
+   "certainty": "torn",
+   "suits": [
+    "CAH09-01-01",
+    "CAH13-01-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s00-16",
+   "first_name": "Ryan",
+   "certainty": "knows",
+   "suits": [
+    "CAH06-01-01",
+    "CAH06-01-06"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s00-17",
+   "first_name": "Freya",
+   "certainty": "no idea",
+   "suits": [
+    "CAH06-01-05",
+    "CAH06-01-02"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s00-18",
+   "first_name": "Yusuf",
+   "certainty": "knows",
+   "suits": [
+    "CAH13-01-01",
+    "CAH13-01-04"
+   ],
+   "paper": "blueprint",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH13-01-01"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 38,
+   "answers": 43
+  },
+  {
+   "id": "s00-19",
+   "first_name": "Megan",
+   "certainty": "no idea",
+   "suits": [
+    "CAH06-01-06",
+    "CAH15-03-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH15-02-01"
+   ],
+   "wildcard": "CAH22-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 30,
+   "answers": 41
+  },
+  {
+   "id": "s00-20",
+   "first_name": "Oliver",
+   "certainty": "torn",
+   "suits": [
+    "CAH09-01-03",
+    "CAH15-03-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH15-02-01",
+    "CAH15-03-01",
+    "CAH09-01-03"
+   ],
+   "wildcard": "CAH17-01-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 42
+  },
+  {
+   "id": "s01-1",
+   "first_name": "Olivia",
+   "certainty": "torn",
+   "suits": [
+    "CAH26-01-02",
+    "CAH26-01-04"
+   ],
+   "paper": "map",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-2",
+   "first_name": "Callum",
+   "certainty": "knows",
+   "suits": [
+    "CAH03-02-01",
+    "CAH02-06-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-04",
+    "CAH04-01-01",
+    "CAH04-01-03"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-3",
+   "first_name": "Megan",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-04-02",
+    "CAH02-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-4",
+   "first_name": "Ethan",
+   "certainty": "knows",
+   "suits": [
+    "CAH01-01-02",
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-04"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-5",
+   "first_name": "Aisha",
+   "certainty": "torn",
+   "suits": [
+    "CAH01-01-04",
+    "CAH02-06-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-6",
+   "first_name": "Jake",
+   "certainty": "knows",
+   "suits": [
+    "CAH03-02-01",
+    "CAH02-06-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH05-01-02",
+    "CAH02-04-01",
+    "CAH02-04-02"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-7",
+   "first_name": "Isla",
+   "certainty": "torn",
+   "suits": [
+    "CAH26-01-06",
+    "CAH26-01-04",
+    "CAH26-01-02"
+   ],
+   "paper": "map",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH05-01-01"
+   ],
+   "wildcard": "CAH22-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-8",
+   "first_name": "Rhys",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-06-05",
+    "CAH03-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-01",
+    "CAH02-04-02",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-9",
+   "first_name": "Priya",
+   "certainty": "torn",
+   "suits": [
+    "CAH01-01-01",
+    "CAH02-02-01",
+    "CAH02-05-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-10",
+   "first_name": "Tyler",
+   "certainty": "no idea",
+   "suits": [
+    "CAH02-06-01",
+    "CAH03-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 44
+  },
+  {
+   "id": "s01-11",
+   "first_name": "Sophie",
+   "certainty": "knows",
+   "suits": [
+    "CAH26-01-03",
+    "CAH26-01-01"
+   ],
+   "paper": "map",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-12",
+   "first_name": "Eilidh",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-06-07",
+    "CAH02-04-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 22,
+   "answers": 42
+  },
+  {
+   "id": "s01-13",
+   "first_name": "Mohammed",
+   "certainty": "torn",
+   "suits": [
+    "CAH03-02-01",
+    "CAH02-06-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH02-04-01",
+    "CAH02-04-02"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-14",
+   "first_name": "Cerys",
+   "certainty": "knows",
+   "suits": [
+    "CAH26-01-04",
+    "CAH26-01-02"
+   ],
+   "paper": "map",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-15",
+   "first_name": "Leo",
+   "certainty": "no idea",
+   "suits": [
+    "CAH03-02-01",
+    "CAH02-06-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-16",
+   "first_name": "Yasmin",
+   "certainty": "knows",
+   "suits": [
+    "CAH01-01-04",
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH03-01-04"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-17",
+   "first_name": "Finlay",
+   "certainty": "torn",
+   "suits": [
+    "CAH26-01-06",
+    "CAH26-01-02"
+   ],
+   "paper": "map",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-18",
+   "first_name": "Chloe",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-06-02",
+    "CAH02-06-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-04",
+    "CAH02-04-02",
+    "CAH02-04-01"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s01-19",
+   "first_name": "Conor",
+   "certainty": "no idea",
+   "suits": [
+    "CAH03-02-01",
+    "CAH26-01-01",
+    "CAH02-06-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s01-20",
+   "first_name": "Grace",
+   "certainty": "no idea",
+   "suits": [
+    "CAH26-01-04",
+    "CAH26-01-01",
+    "CAH26-01-06"
+   ],
+   "paper": "map",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-1",
+   "first_name": "Oliver",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-01-01",
+    "CAH07-01-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH11-01-01"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-2",
+   "first_name": "Eilidh",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-02-02",
+    "CAH19-02-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH19-02-04"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-3",
+   "first_name": "Mohammed",
+   "certainty": "knows",
+   "suits": [
+    "CAH17-01-01",
+    "CAH17-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-02-01",
+    "CAH17-01-07",
+    "CAH17-01-08"
+   ],
+   "wildcard": "CAH10-03-01",
+   "hit3": false,
+   "hit5": true,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-4",
+   "first_name": "Grace",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-04-02",
+    "CAH02-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH05-01-02",
+    "CAH02-04-01"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 30,
+   "answers": 42
+  },
+  {
+   "id": "s02-5",
+   "first_name": "Ethan",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-01-02",
+    "CAH07-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-6",
+   "first_name": "Skye",
+   "certainty": "no idea",
+   "suits": [
+    "CAH17-01-01",
+    "CAH17-01-04"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH25-02-02",
+    "CAH25-02-03",
+    "CAH25-02-01"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s02-7",
+   "first_name": "Rhys",
+   "certainty": "knows",
+   "suits": [
+    "CAH19-02-03",
+    "CAH19-02-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH19-04-01"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-8",
+   "first_name": "Amara",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-04-04",
+    "CAH02-04-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH05-01-02",
+    "CAH02-04-01"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 33,
+   "answers": 42
+  },
+  {
+   "id": "s02-9",
+   "first_name": "Jack",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-01-01",
+    "CAH07-01-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-10",
+   "first_name": "Sophie",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-01-01",
+    "CAH07-01-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s02-11",
+   "first_name": "Conor",
+   "certainty": "torn",
+   "suits": [
+    "CAH17-01-01",
+    "CAH17-01-03"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH24-01-05",
+    "CAH15-02-01",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s02-12",
+   "first_name": "Megan",
+   "certainty": "no idea",
+   "suits": [
+    "CAH19-02-01",
+    "CAH19-02-03"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH19-01-07",
+    "CAH20-01-01",
+    "CAH19-02-04"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": true,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s02-13",
+   "first_name": "Liam",
+   "certainty": "knows",
+   "suits": [
+    "CAH17-01-01",
+    "CAH17-01-04"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-02-01",
+    "CAH17-01-07",
+    "CAH17-01-01"
+   ],
+   "wildcard": "CAH06-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 42,
+   "answers": 42
+  },
+  {
+   "id": "s02-14",
+   "first_name": "Isla",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-04-02",
+    "CAH02-04-05"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s02-15",
+   "first_name": "Freya",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-04-04",
+    "CAH02-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-04",
+    "CAH03-01-06"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-16",
+   "first_name": "Callum",
+   "certainty": "no idea",
+   "suits": [
+    "CAH07-01-01",
+    "CAH07-01-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-17",
+   "first_name": "Cerys",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-02-01",
+    "CAH19-02-03"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-18",
+   "first_name": "Ava",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-04-05",
+    "CAH02-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-02",
+    "CAH04-01-04"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s02-19",
+   "first_name": "Yusuf",
+   "certainty": "no idea",
+   "suits": [
+    "CAH17-01-01",
+    "CAH17-01-07"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-02-01",
+    "CAH24-01-05",
+    "CAH24-01-04"
+   ],
+   "wildcard": "CAH06-01-04",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s02-20",
+   "first_name": "Maisie",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-01-01",
+    "CAH17-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-1",
+   "first_name": "Maya",
+   "certainty": "knows",
+   "suits": [
+    "CAH25-01-04",
+    "CAH25-01-02"
+   ],
+   "paper": "watercolour",
+   "top3": [
+    "CAH24-01-05",
+    "CAH24-01-04",
+    "CAH25-01-04"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 34,
+   "answers": 42
+  },
+  {
+   "id": "s05-2",
+   "first_name": "Ewan",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-02-02",
+    "CAH19-01-05"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH19-01-07",
+    "CAH25-02-02",
+    "CAH19-02-04"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s05-3",
+   "first_name": "Aisha",
+   "certainty": "knows",
+   "suits": [
+    "CAH20-02-01",
+    "CAH20-02-02"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH04-01-01",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-4",
+   "first_name": "Callum",
+   "certainty": "no idea",
+   "suits": [
+    "CAH25-02-03",
+    "CAH25-02-01"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH19-01-07",
+    "CAH25-02-01",
+    "CAH25-02-02"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 12,
+   "answers": 42
+  },
+  {
+   "id": "s05-5",
+   "first_name": "Ffion",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-02-03",
+    "CAH25-01-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH25-01-02",
+    "CAH19-01-07",
+    "CAH25-01-03"
+   ],
+   "wildcard": "CAH25-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 12,
+   "answers": 42
+  },
+  {
+   "id": "s05-6",
+   "first_name": "Yusuf",
+   "certainty": "knows",
+   "suits": [
+    "CAH19-04-02",
+    "CAH19-04-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH19-01-07",
+    "CAH04-01-01",
+    "CAH20-01-01"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s05-7",
+   "first_name": "Isla",
+   "certainty": "torn",
+   "suits": [
+    "CAH25-01-03",
+    "CAH20-02-01"
+   ],
+   "paper": "watercolour",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s05-8",
+   "first_name": "Alex",
+   "certainty": "knows",
+   "suits": [
+    "CAH25-02-02"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH25-02-02",
+    "CAH19-01-07",
+    "CAH19-02-04"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 35,
+   "answers": 41
+  },
+  {
+   "id": "s05-9",
+   "first_name": "Ellie",
+   "certainty": "no idea",
+   "suits": [
+    "CAH19-04-03",
+    "CAH25-01-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH25-01-02"
+   ],
+   "wildcard": "CAH19-01-03",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-10",
+   "first_name": "Sean",
+   "certainty": "torn",
+   "suits": [
+    "CAH20-02-01",
+    "CAH19-01-03"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH20-02-01"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 38,
+   "answers": 42
+  },
+  {
+   "id": "s05-11",
+   "first_name": "Zara",
+   "certainty": "knows",
+   "suits": [
+    "CAH25-01-04",
+    "CAH25-01-02"
+   ],
+   "paper": "watercolour",
+   "top3": [
+    "CAH25-01-04",
+    "CAH25-01-02",
+    "CAH25-01-03"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 34,
+   "answers": 42
+  },
+  {
+   "id": "s05-12",
+   "first_name": "Alistair",
+   "certainty": "knows",
+   "suits": [
+    "CAH19-02-02",
+    "CAH20-02-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH05-01-01"
+   ],
+   "wildcard": "CAH19-01-03",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s05-13",
+   "first_name": "Sofia",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-04-04",
+    "CAH19-04-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH25-01-03",
+    "CAH25-01-02",
+    "CAH19-04-04"
+   ],
+   "wildcard": "CAH25-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 34,
+   "answers": 41
+  },
+  {
+   "id": "s05-14",
+   "first_name": "Jayden",
+   "certainty": "torn",
+   "suits": [
+    "CAH25-01-04",
+    "CAH25-01-05"
+   ],
+   "paper": "watercolour",
+   "top3": [
+    "CAH19-01-07",
+    "CAH04-01-01",
+    "CAH19-04-04"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-15",
+   "first_name": "Chloe",
+   "certainty": "no idea",
+   "suits": [
+    "CAH19-04-06",
+    "CAH19-04-09"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH25-01-02",
+    "CAH25-01-05",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH25-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-16",
+   "first_name": "Rhys",
+   "certainty": "knows",
+   "suits": [
+    "CAH20-02-01",
+    "CAH25-02-02"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH19-01-07",
+    "CAH04-01-01",
+    "CAH19-04-04"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-17",
+   "first_name": "Grace",
+   "certainty": "torn",
+   "suits": [
+    "CAH25-02-04",
+    "CAH25-02-03"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-04",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s05-18",
+   "first_name": "Daniel",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-04-05",
+    "CAH19-04-09"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH19-04-04",
+    "CAH19-04-01",
+    "CAH19-04-02"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s05-19",
+   "first_name": "Hannah",
+   "certainty": "knows",
+   "suits": [
+    "CAH19-01-07",
+    "CAH19-04-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH19-01-07",
+    "CAH19-04-01",
+    "CAH19-04-02"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 2,
+   "answers": 41
+  },
+  {
+   "id": "s05-20",
+   "first_name": "Mohammed",
+   "certainty": "no idea",
+   "suits": [
+    "CAH25-01-03",
+    "CAH20-02-02"
+   ],
+   "paper": "watercolour",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s03-1",
+   "first_name": "Olivia",
+   "certainty": "knows",
+   "suits": [
+    "CAH03-01-02",
+    "CAH03-01-07",
+    "CAH03-01-04"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 42
+  },
+  {
+   "id": "s03-2",
+   "first_name": "Callum",
+   "certainty": "torn",
+   "suits": [
+    "CAH11-01-01",
+    "CAH11-01-06"
+   ],
+   "paper": "printout",
+   "top3": [
+    "CAH11-01-01",
+    "CAH11-01-04",
+    "CAH11-01-05"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 15,
+   "answers": 43
+  },
+  {
+   "id": "s03-3",
+   "first_name": "Megan",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-04-02",
+    "CAH15-04-01",
+    "CAH02-06-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s03-4",
+   "first_name": "James",
+   "certainty": "no idea",
+   "suits": [
+    "CAH24-01-05",
+    "CAH24-01-04",
+    "CAH24-01-03"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH24-01-05",
+    "CAH24-01-04",
+    "CAH24-01-02"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 41,
+   "answers": 42
+  },
+  {
+   "id": "s03-5",
+   "first_name": "Aisha",
+   "certainty": "knows",
+   "suits": [
+    "CAH11-01-01",
+    "CAH11-01-05"
+   ],
+   "paper": "printout",
+   "top3": [
+    "CAH10-01-01",
+    "CAH11-01-01",
+    "CAH10-01-02"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 24,
+   "answers": 42
+  },
+  {
+   "id": "s03-6",
+   "first_name": "Eilidh",
+   "certainty": "torn",
+   "suits": [
+    "CAH03-01-03",
+    "CAH26-01-04",
+    "CAH03-01-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 43
+  },
+  {
+   "id": "s03-7",
+   "first_name": "Daniel",
+   "certainty": "torn",
+   "suits": [
+    "CAH11-01-02",
+    "CAH11-01-03",
+    "CAH11-01-07"
+   ],
+   "paper": "printout",
+   "top3": [
+    "CAH11-01-01",
+    "CAH11-01-04",
+    "CAH11-01-05"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s03-8",
+   "first_name": "Sophie",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-04-02",
+    "CAH02-04-07",
+    "CAH04-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-04",
+    "CAH04-01-02",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 33,
+   "answers": 42
+  },
+  {
+   "id": "s03-9",
+   "first_name": "Rhys",
+   "certainty": "no idea",
+   "suits": [
+    "CAH24-01-05",
+    "CAH24-01-02",
+    "CAH25-01-04"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH25-01-01",
+    "CAH25-01-04",
+    "CAH25-01-02"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 7,
+   "answers": 42
+  },
+  {
+   "id": "s03-10",
+   "first_name": "Niamh",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-06-01",
+    "CAH02-06-02",
+    "CAH02-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 23,
+   "answers": 42
+  },
+  {
+   "id": "s03-11",
+   "first_name": "Ethan",
+   "certainty": "knows",
+   "suits": [
+    "CAH03-01-08",
+    "CAH02-02-01",
+    "CAH02-05-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s03-12",
+   "first_name": "Isla",
+   "certainty": "torn",
+   "suits": [
+    "CAH24-01-04",
+    "CAH24-01-03",
+    "CAH24-01-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-03",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s03-13",
+   "first_name": "Zara",
+   "certainty": "knows",
+   "suits": [
+    "CAH11-01-06",
+    "CAH11-01-01",
+    "CAH11-01-04"
+   ],
+   "paper": "printout",
+   "top3": [
+    "CAH11-01-01",
+    "CAH11-01-04",
+    "CAH11-01-06"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 42
+  },
+  {
+   "id": "s03-14",
+   "first_name": "Alfie",
+   "certainty": "no idea",
+   "suits": [
+    "CAH24-01-04",
+    "CAH24-01-05",
+    "CAH24-01-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH19-01-07",
+    "CAH24-01-05",
+    "CAH24-01-04"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 41,
+   "answers": 42
+  },
+  {
+   "id": "s03-15",
+   "first_name": "Ffion",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-04-01",
+    "CAH02-06-07",
+    "CAH15-04-03"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-04",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s03-16",
+   "first_name": "Joshua",
+   "certainty": "torn",
+   "suits": [
+    "CAH11-01-04",
+    "CAH11-01-05",
+    "CAH11-01-01"
+   ],
+   "paper": "printout",
+   "top3": [
+    "CAH11-01-01",
+    "CAH11-01-04",
+    "CAH10-01-01"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 3,
+   "answers": 42
+  },
+  {
+   "id": "s03-17",
+   "first_name": "Aoife",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-06-01",
+    "CAH02-06-04",
+    "CAH15-04-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s03-18",
+   "first_name": "Chloe",
+   "certainty": "no idea",
+   "suits": [
+    "CAH03-01-01",
+    "CAH04-01-01",
+    "CAH26-01-04"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s03-19",
+   "first_name": "Thomas",
+   "certainty": "knows",
+   "suits": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH06-01-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 40
+  },
+  {
+   "id": "s03-20",
+   "first_name": "Lewis",
+   "certainty": "knows",
+   "suits": [
+    "CAH11-01-04",
+    "CAH11-01-05",
+    "CAH11-01-01"
+   ],
+   "paper": "printout",
+   "top3": [
+    "CAH10-01-01",
+    "CAH11-01-01",
+    "CAH10-01-02"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 25,
+   "answers": 43
+  },
+  {
+   "id": "s04-1",
+   "first_name": "Emily",
+   "certainty": "knows",
+   "suits": [
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-04",
+    "CAH03-01-08",
+    "CAH02-05-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-2",
+   "first_name": "Callum",
+   "certainty": "torn",
+   "suits": [
+    "CAH10-03-02",
+    "CAH10-03-07"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s04-3",
+   "first_name": "Megan",
+   "certainty": "knows",
+   "suits": [
+    "CAH19-01-03",
+    "CAH19-01-05"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH04-01-01",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-4",
+   "first_name": "James",
+   "certainty": "no idea",
+   "suits": [
+    "CAH23-01-01",
+    "CAH23-01-04"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH20-01-03"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 44
+  },
+  {
+   "id": "s04-5",
+   "first_name": "Aisha",
+   "certainty": "torn",
+   "suits": [
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-6",
+   "first_name": "Oliver",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-01-01",
+    "CAH19-01-07"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH15-03-01",
+    "CAH19-01-07",
+    "CAH15-02-01"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 35,
+   "answers": 42
+  },
+  {
+   "id": "s04-7",
+   "first_name": "Sophie",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-03-03"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH25-01-02",
+    "CAH25-01-05",
+    "CAH25-01-03"
+   ],
+   "wildcard": "CAH25-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s04-8",
+   "first_name": "Ethan",
+   "certainty": "no idea",
+   "suits": [
+    "CAH23-01-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH20-01-03"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s04-9",
+   "first_name": "Lily",
+   "certainty": "knows",
+   "suits": [
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH05-01-02",
+    "CAH02-04-02",
+    "CAH05-01-01"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-10",
+   "first_name": "Mohammed",
+   "certainty": "torn",
+   "suits": [
+    "CAH10-03-02",
+    "CAH10-03-07"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH11-01-01",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-11",
+   "first_name": "Grace",
+   "certainty": "knows",
+   "suits": [
+    "CAH19-01-02",
+    "CAH19-01-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH04-01-01"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-12",
+   "first_name": "Thomas",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-03-05",
+    "CAH10-03-07"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-04"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s04-13",
+   "first_name": "Poppy",
+   "certainty": "torn",
+   "suits": [
+    "CAH23-01-01",
+    "CAH23-01-03"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH20-01-01"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-14",
+   "first_name": "Daniel",
+   "certainty": "torn",
+   "suits": [
+    "CAH19-01-03"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH04-01-01",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-15",
+   "first_name": "Chloe",
+   "certainty": "no idea",
+   "suits": [
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH05-01-02"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-16",
+   "first_name": "Harry",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-03-04",
+    "CAH10-03-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-17",
+   "first_name": "Isla",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-03-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH10-03-01",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-18",
+   "first_name": "Alfie",
+   "certainty": "torn",
+   "suits": [
+    "CAH01-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s04-19",
+   "first_name": "Zara",
+   "certainty": "no idea",
+   "suits": [
+    "CAH23-01-01",
+    "CAH23-01-04"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH04-01-01",
+    "CAH25-01-01",
+    "CAH25-01-04"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s04-20",
+   "first_name": "Jacob",
+   "certainty": "torn",
+   "suits": [
+    "CAH10-03-06",
+    "CAH10-03-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s07-1",
+   "first_name": "Olivia",
+   "certainty": "torn",
+   "suits": [
+    "CAH15-01-02",
+    "CAH04-01-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH04-01-01",
+    "CAH19-01-07",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 41,
+   "answers": 42
+  },
+  {
+   "id": "s07-2",
+   "first_name": "Mohammed",
+   "certainty": "knows",
+   "suits": [
+    "CAH05-01-01",
+    "CAH06-01-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s07-3",
+   "first_name": "Sophie",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-01-04",
+    "CAH15-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-03-01",
+    "CAH20-01-01",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-4",
+   "first_name": "Jack",
+   "certainty": "no idea",
+   "suits": [
+    "CAH04-01-01",
+    "CAH04-01-04"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-04",
+    "CAH04-01-02",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 41,
+   "answers": 42
+  },
+  {
+   "id": "s07-5",
+   "first_name": "Amelia",
+   "certainty": "torn",
+   "suits": [
+    "CAH05-01-01",
+    "CAH05-01-02"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-6",
+   "first_name": "Ethan",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-01-03",
+    "CAH15-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH15-01-02"
+   ],
+   "wildcard": "CAH22-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 41,
+   "answers": 42
+  },
+  {
+   "id": "s07-7",
+   "first_name": "Isla",
+   "certainty": "knows",
+   "suits": [
+    "CAH05-01-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s07-8",
+   "first_name": "Alfie",
+   "certainty": "torn",
+   "suits": [
+    "CAH04-01-01",
+    "CAH15-01-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-07",
+    "CAH02-04-01"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s07-9",
+   "first_name": "Mia",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-01-04",
+    "CAH15-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-10",
+   "first_name": "Noah",
+   "certainty": "knows",
+   "suits": [
+    "CAH05-01-02",
+    "CAH06-01-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-11",
+   "first_name": "Grace",
+   "certainty": "no idea",
+   "suits": [
+    "CAH15-01-03",
+    "CAH15-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-05"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-12",
+   "first_name": "Charlie",
+   "certainty": "torn",
+   "suits": [
+    "CAH04-01-03",
+    "CAH04-01-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-13",
+   "first_name": "Lily",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-03-01",
+    "CAH15-02-01",
+    "CAH15-01-02"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 40,
+   "answers": 41
+  },
+  {
+   "id": "s07-14",
+   "first_name": "Harry",
+   "certainty": "torn",
+   "suits": [
+    "CAH05-01-01",
+    "CAH04-01-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-15",
+   "first_name": "Emily",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-01-04",
+    "CAH04-01-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH04-01-01",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 41,
+   "answers": 42
+  },
+  {
+   "id": "s07-16",
+   "first_name": "Thomas",
+   "certainty": "no idea",
+   "suits": [
+    "CAH15-01-03",
+    "CAH04-01-04"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s07-17",
+   "first_name": "Ellie",
+   "certainty": "knows",
+   "suits": [
+    "CAH05-01-01"
+   ],
+   "paper": "kraft",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s07-18",
+   "first_name": "Lewis",
+   "certainty": "torn",
+   "suits": [
+    "CAH04-01-02",
+    "CAH15-01-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-02",
+    "CAH04-01-04"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 27,
+   "answers": 42
+  },
+  {
+   "id": "s07-19",
+   "first_name": "Chloe",
+   "certainty": "no idea",
+   "suits": [
+    "CAH15-01-02",
+    "CAH15-01-04"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH01-01-02",
+    "CAH24-01-05",
+    "CAH02-04-04"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s07-20",
+   "first_name": "Daniel",
+   "certainty": "knows",
+   "suits": [
+    "CAH04-01-01",
+    "CAH04-01-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-02",
+    "CAH04-01-04"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 27,
+   "answers": 42
+  },
+  {
+   "id": "s06-1",
+   "first_name": "Olivia",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-02-01",
+    "CAH07-04-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-05-03",
+    "CAH03-01-04",
+    "CAH03-01-08"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-2",
+   "first_name": "Callum",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-02-01",
+    "CAH07-04-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s06-3",
+   "first_name": "Megan",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-04-02",
+    "CAH07-04-03"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH07-04-02",
+    "CAH02-04-07",
+    "CAH02-04-02"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 29,
+   "answers": 41
+  },
+  {
+   "id": "s06-4",
+   "first_name": "James",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-02-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH15-02-01",
+    "CAH09-01-03",
+    "CAH17-01-07"
+   ],
+   "wildcard": "CAH17-01-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 3,
+   "answers": 42
+  },
+  {
+   "id": "s06-5",
+   "first_name": "Aisha",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-02-01",
+    "CAH15-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH15-02-01",
+    "CAH09-01-03",
+    "CAH17-01-07"
+   ],
+   "wildcard": "CAH17-01-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 2,
+   "answers": 42
+  },
+  {
+   "id": "s06-6",
+   "first_name": "Rhys",
+   "certainty": "no idea",
+   "suits": [
+    "CAH07-04-04",
+    "CAH07-02-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH03-01-08",
+    "CAH03-01-04",
+    "CAH02-05-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-7",
+   "first_name": "Sophie",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-04-02"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH03-01-08",
+    "CAH03-01-04",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s06-8",
+   "first_name": "Ewan",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-02-01",
+    "CAH15-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH15-02-01",
+    "CAH15-03-01",
+    "CAH09-01-03"
+   ],
+   "wildcard": "CAH17-01-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 25,
+   "answers": 43
+  },
+  {
+   "id": "s06-9",
+   "first_name": "Chloe",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-02-01",
+    "CAH07-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-10",
+   "first_name": "Daniel",
+   "certainty": "torn",
+   "suits": [
+    "CAH15-02-01",
+    "CAH15-03-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH15-02-01",
+    "CAH15-03-01",
+    "CAH09-01-03"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 2,
+   "answers": 42
+  },
+  {
+   "id": "s06-11",
+   "first_name": "Grace",
+   "certainty": "no idea",
+   "suits": [
+    "CAH07-04-03",
+    "CAH07-02-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-12",
+   "first_name": "Mohammed",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-02-01",
+    "CAH07-04-04"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-13",
+   "first_name": "Isla",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-02-01",
+    "CAH07-04-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s06-14",
+   "first_name": "Ethan",
+   "certainty": "knows",
+   "suits": [
+    "CAH15-02-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH11-01-01",
+    "CAH15-02-01",
+    "CAH09-01-03"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 42
+  },
+  {
+   "id": "s06-15",
+   "first_name": "Ffion",
+   "certainty": "torn",
+   "suits": [
+    "CAH07-02-01",
+    "CAH15-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH15-02-01",
+    "CAH02-04-02",
+    "CAH02-04-06"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 42
+  },
+  {
+   "id": "s06-16",
+   "first_name": "Jack",
+   "certainty": "no idea",
+   "suits": [
+    "CAH07-04-02",
+    "CAH07-04-03"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH03-01-08",
+    "CAH02-05-03",
+    "CAH03-01-04"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s06-17",
+   "first_name": "Yasmin",
+   "certainty": "torn",
+   "suits": [
+    "CAH15-02-01",
+    "CAH07-02-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH15-03-01",
+    "CAH02-04-05",
+    "CAH02-04-02"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-18",
+   "first_name": "Alistair",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-02-01",
+    "CAH07-04-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH11-01-01",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s06-19",
+   "first_name": "Ellie",
+   "certainty": "no idea",
+   "suits": [
+    "CAH07-04-04",
+    "CAH07-02-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s06-20",
+   "first_name": "Thomas",
+   "certainty": "torn",
+   "suits": [
+    "CAH15-02-01",
+    "CAH15-03-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH15-02-01",
+    "CAH15-03-01",
+    "CAH17-01-07"
+   ],
+   "wildcard": "CAH17-01-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 23,
+   "answers": 42
+  },
+  {
+   "id": "s08-1",
+   "first_name": "Chloe",
+   "certainty": "knows",
+   "suits": [
+    "CAH22-01-01",
+    "CAH20-01-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH20-01-03"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 2,
+   "answers": 42
+  },
+  {
+   "id": "s08-2",
+   "first_name": "Mohammed",
+   "certainty": "knows",
+   "suits": [
+    "CAH16-01-01",
+    "CAH15-01-02"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH15-02-01"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s08-3",
+   "first_name": "Eilidh",
+   "certainty": "torn",
+   "suits": [
+    "CAH20-01-01",
+    "CAH20-01-03",
+    "CAH20-01-04"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH20-01-03",
+    "CAH20-01-04"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 43
+  },
+  {
+   "id": "s08-4",
+   "first_name": "Rhys",
+   "certainty": "no idea",
+   "suits": [
+    "CAH22-01-02",
+    "CAH20-01-01",
+    "CAH15-04-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH19-02-04"
+   ],
+   "wildcard": "CAH19-01-03",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 42
+  },
+  {
+   "id": "s08-5",
+   "first_name": "Aoife",
+   "certainty": "torn",
+   "suits": [
+    "CAH16-01-01",
+    "CAH20-01-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH15-02-01"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 31,
+   "answers": 42
+  },
+  {
+   "id": "s08-6",
+   "first_name": "Daniel",
+   "certainty": "knows",
+   "suits": [
+    "CAH07-04-02",
+    "CAH20-01-03"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH20-01-01",
+    "CAH20-01-03",
+    "CAH20-01-04"
+   ],
+   "wildcard": "CAH19-01-03",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 30,
+   "answers": 42
+  },
+  {
+   "id": "s08-7",
+   "first_name": "Maisie",
+   "certainty": "knows",
+   "suits": [
+    "CAH22-01-01",
+    "CAH15-04-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH03-01-06"
+   ],
+   "wildcard": "CAH23-01-01",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s08-8",
+   "first_name": "Callum",
+   "certainty": "torn",
+   "suits": [
+    "CAH16-01-01",
+    "CAH15-03-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-03-01",
+    "CAH15-02-01",
+    "CAH20-01-01"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 30,
+   "answers": 42
+  },
+  {
+   "id": "s08-9",
+   "first_name": "Seren",
+   "certainty": "knows",
+   "suits": [
+    "CAH20-01-01",
+    "CAH20-01-05",
+    "CAH20-01-03"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH19-02-04"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 43
+  },
+  {
+   "id": "s08-10",
+   "first_name": "Conor",
+   "certainty": "no idea",
+   "suits": [
+    "CAH20-01-01",
+    "CAH20-01-04",
+    "CAH26-01-01"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH20-01-03"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 42
+  },
+  {
+   "id": "s08-11",
+   "first_name": "Alex",
+   "certainty": "torn",
+   "suits": [
+    "CAH16-01-01",
+    "CAH22-01-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s08-12",
+   "first_name": "Priya",
+   "certainty": "knows",
+   "suits": [
+    "CAH16-01-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH15-03-01",
+    "CAH15-02-01",
+    "CAH16-01-01"
+   ],
+   "wildcard": "CAH17-01-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 37,
+   "answers": 41
+  },
+  {
+   "id": "s08-13",
+   "first_name": "Finlay",
+   "certainty": "knows",
+   "suits": [
+    "CAH20-01-03",
+    "CAH20-01-04",
+    "CAH07-04-02"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH03-01-06",
+    "CAH20-01-01",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 43
+  },
+  {
+   "id": "s08-14",
+   "first_name": "Isla",
+   "certainty": "torn",
+   "suits": [
+    "CAH20-01-02",
+    "CAH20-01-04",
+    "CAH20-01-01"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH20-01-03",
+    "CAH20-01-02"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 2,
+   "answers": 42
+  },
+  {
+   "id": "s08-15",
+   "first_name": "Jamal",
+   "certainty": "no idea",
+   "suits": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH16-01-01"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH01-01-02",
+    "CAH02-04-04",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 38,
+   "answers": 42
+  },
+  {
+   "id": "s08-16",
+   "first_name": "Elin",
+   "certainty": "torn",
+   "suits": [
+    "CAH16-01-01",
+    "CAH22-01-01",
+    "CAH20-01-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-07",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 30,
+   "answers": 42
+  },
+  {
+   "id": "s08-17",
+   "first_name": "Thomas",
+   "certainty": "knows",
+   "suits": [
+    "CAH20-01-03",
+    "CAH20-01-01"
+   ],
+   "paper": "parchment",
+   "top3": [
+    "CAH20-01-01",
+    "CAH20-01-03",
+    "CAH20-01-04"
+   ],
+   "wildcard": "CAH19-01-03",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 1,
+   "answers": 41
+  },
+  {
+   "id": "s08-18",
+   "first_name": "Ellie",
+   "certainty": "knows",
+   "suits": [
+    "CAH22-01-02",
+    "CAH15-04-02"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH04-01-04",
+    "CAH04-01-03",
+    "CAH04-01-01"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s08-19",
+   "first_name": "Jake",
+   "certainty": "no idea",
+   "suits": [
+    "CAH16-01-01",
+    "CAH20-01-01",
+    "CAH15-03-01"
+   ],
+   "paper": "legal",
+   "top3": [
+    "CAH20-01-01",
+    "CAH15-03-01",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH15-01-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 31,
+   "answers": 42
+  },
+  {
+   "id": "s08-20",
+   "first_name": "Hannah",
+   "certainty": "torn",
+   "suits": [
+    "CAH22-01-01",
+    "CAH20-01-01"
+   ],
+   "paper": "lined",
+   "top3": [
+    "CAH20-01-01",
+    "CAH04-01-01",
+    "CAH15-03-01"
+   ],
+   "wildcard": "CAH01-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 32,
+   "answers": 43
+  },
+  {
+   "id": "s09-1",
+   "first_name": "Maya",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-02-01",
+    "CAH02-02-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH02-04-02",
+    "CAH02-04-01",
+    "CAH02-04-07"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-2",
+   "first_name": "Callum",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-01-02",
+    "CAH10-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 3,
+   "answers": 43
+  },
+  {
+   "id": "s09-3",
+   "first_name": "Ffion",
+   "certainty": "knows",
+   "suits": [
+    "CAH25-02-04",
+    "CAH25-02-01"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH25-02-02",
+    "CAH25-02-01",
+    "CAH25-02-03"
+   ],
+   "wildcard": "CAH02-04-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 18,
+   "answers": 42
+  },
+  {
+   "id": "s09-4",
+   "first_name": "Conor",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-02-02",
+    "CAH02-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-03",
+    "CAH03-01-02"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-5",
+   "first_name": "Ellie",
+   "certainty": "knows",
+   "suits": [
+    "CAH02-02-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-6",
+   "first_name": "Yusuf",
+   "certainty": "torn",
+   "suits": [
+    "CAH10-01-08",
+    "CAH10-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 3,
+   "answers": 42
+  },
+  {
+   "id": "s09-7",
+   "first_name": "Skye",
+   "certainty": "knows",
+   "suits": [
+    "CAH25-02-02",
+    "CAH25-02-01"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH25-02-02",
+    "CAH25-02-01",
+    "CAH25-02-03"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 35,
+   "answers": 43
+  },
+  {
+   "id": "s09-8",
+   "first_name": "Rhys",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-01-07"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": true,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-9",
+   "first_name": "Chloe",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-02-01",
+    "CAH07-02-01"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-08",
+    "CAH03-01-04",
+    "CAH02-05-03"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-10",
+   "first_name": "Ava",
+   "certainty": "knows",
+   "suits": [
+    "CAH25-02-03",
+    "CAH25-02-01"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH20-01-01",
+    "CAH19-01-03",
+    "CAH19-01-07"
+   ],
+   "wildcard": "CAH15-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-11",
+   "first_name": "Ethan",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-01-04",
+    "CAH10-01-01"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 3,
+   "answers": 42
+  },
+  {
+   "id": "s09-12",
+   "first_name": "Grace",
+   "certainty": "torn",
+   "suits": [
+    "CAH02-02-03",
+    "CAH02-02-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-13",
+   "first_name": "Liam",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-01-09",
+    "CAH10-01-06"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH13-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": true,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-14",
+   "first_name": "Sophie",
+   "certainty": "torn",
+   "suits": [
+    "CAH25-02-04",
+    "CAH25-02-01"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH04-01-01",
+    "CAH04-01-04",
+    "CAH04-01-02"
+   ],
+   "wildcard": "CAH02-06-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 41
+  },
+  {
+   "id": "s09-15",
+   "first_name": "Alfie",
+   "certainty": "knows",
+   "suits": [
+    "CAH10-01-02",
+    "CAH10-01-03"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH10-01-02",
+    "CAH10-01-08"
+   ],
+   "wildcard": "CAH07-02-01",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 4,
+   "answers": 42
+  },
+  {
+   "id": "s09-16",
+   "first_name": "Niamh",
+   "certainty": "torn",
+   "suits": [
+    "CAH25-02-03",
+    "CAH02-02-03"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH03-01-06",
+    "CAH03-01-02",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-17",
+   "first_name": "Oliver",
+   "certainty": "no idea",
+   "suits": [
+    "CAH10-01-01",
+    "CAH10-01-08"
+   ],
+   "paper": "graph",
+   "top3": [
+    "CAH10-01-01",
+    "CAH11-01-01",
+    "CAH10-01-02"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 5,
+   "answers": 42
+  },
+  {
+   "id": "s09-18",
+   "first_name": "Zara",
+   "certainty": "no idea",
+   "suits": [
+    "CAH02-02-01",
+    "CAH02-02-02"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH03-01-02",
+    "CAH03-01-06",
+    "CAH03-01-03"
+   ],
+   "wildcard": "CAH03-01-07",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  },
+  {
+   "id": "s09-19",
+   "first_name": "Daniel",
+   "certainty": "no idea",
+   "suits": [
+    "CAH25-02-01",
+    "CAH25-02-02"
+   ],
+   "paper": "manuscript",
+   "top3": [
+    "CAH25-02-02",
+    "CAH25-02-03",
+    "CAH25-02-01"
+   ],
+   "wildcard": "CAH25-02-04",
+   "hit3": true,
+   "hit5": true,
+   "family3": true,
+   "settled_after": 6,
+   "answers": 42
+  },
+  {
+   "id": "s09-20",
+   "first_name": "Mia",
+   "certainty": "no idea",
+   "suits": [
+    "CAH02-02-02",
+    "CAH02-02-03"
+   ],
+   "paper": "lab",
+   "top3": [
+    "CAH04-01-01",
+    "CAH09-01-03",
+    "CAH19-04-04"
+   ],
+   "wildcard": "CAH11-01-02",
+   "hit3": false,
+   "hit5": false,
+   "family3": false,
+   "settled_after": null,
+   "answers": 42
+  }
+ ]
+}
