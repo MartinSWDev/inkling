@@ -10,6 +10,7 @@ import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound
 import { makeShareVideo, shareUrl, type ShareData } from "./share";
 import { suggestAliases } from "./aliases";
 import { heartChip, toggleChip } from "./chips";
+import AppMenu from "./Menu";
 import { ArrowLeft, ArrowRight, ArrowUp, Check, ChevronLeft, ChevronRight, Download, ExternalLink, Heart, Link as LinkIcon, Plus, RotateCcw, Share2, Sparkles, Volume2, VolumeX, X } from "lucide-react";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
@@ -433,6 +434,7 @@ export default function App() {
         transition={{ type: "spring", stiffness: 380, damping: 20 }}>
         <b>Did you know?</b>{fact}</motion.div>)}
 
+      {scene.kind === "landing" && <AppMenu path="/" />}
       {scene.kind === "landing" && (<section className="landing">
         <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }}>
           <img className="miniview" src={"/views/" + view + "_" + viewTime + ".webp"} alt="" />

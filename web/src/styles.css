@@ -319,3 +319,18 @@ button svg.lucide,a svg.lucide{flex:none}
 @keyframes rainfall{0%{transform:translate3d(0,-6vh,0) rotate(0deg)}25%{transform:translate3d(1.6vw,28vh,0) rotate(calc(var(--rain-rot,8deg)*.5))}50%{transform:translate3d(-1.4vw,58vh,0) rotate(var(--rain-rot,8deg))}75%{transform:translate3d(1.6vw,88vh,0) rotate(calc(var(--rain-rot,8deg)*.5))}100%{transform:translate3d(0,122vh,0) rotate(0deg)}}
 @media(prefers-reduced-motion:reduce){.stickerrain{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.sticker-img{animation:none!important}}
+/* App menu (prompts/14 A) */
+.appmenu{position:absolute;left:12px;top:calc(12px + env(safe-area-inset-top,0px));z-index:20}
+.simhead .appmenu{left:16px;top:18px}
+.menubtn{background:var(--paper);border:1px solid var(--line);box-shadow:var(--paper-shadow-sm);cursor:pointer}
+.menuscrimwrap{position:fixed;inset:0;z-index:60}
+.menuscrim{position:absolute;inset:0;background:rgba(30,24,48,.35);border:0;cursor:pointer}
+.menusheet{position:absolute;left:0;top:0;bottom:0;width:min(300px,84vw);background:var(--paper);background-image:url(/paper-grain.png);border-right:1px solid var(--line);box-shadow:var(--paper-shadow);padding:16px;display:flex;flex-direction:column;gap:8px;animation:menuslide .28s cubic-bezier(.2,.9,.3,1) both}
+@keyframes menuslide{from{transform:translateX(-100%)}to{transform:translateX(0)}}
+@media(prefers-reduced-motion:reduce){.menusheet{animation:none}}
+.menuhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.menuword{font-family:var(--display);font-weight:900;font-size:24px;transform:rotate(-2deg)}
+.menuitem{font:inherit;font-weight:600;color:var(--ink);text-decoration:none;padding:13px 12px;border:1px solid var(--line);border-radius:12px;background:var(--paper);display:flex;justify-content:space-between;align-items:center;min-height:48px}
+.menuitem.on{border-color:var(--ink)}
+.menuitem.disabled{color:var(--muted);cursor:not-allowed}
+.soontag{font-size:11px;font-weight:700;color:var(--accent-ink);background:var(--butter);border:1px solid var(--line);border-radius:99px;padding:2px 8px}

@@ -1,0 +1,7 @@
+/* Simulation page (prompts/14): a scrolling page, not the phone-frame game. */
+.simpage{height:100svh;background:#F3EDE4;color:var(--ink);font-family:var(--body);overflow-y:auto}
+.simhead{position:relative;max-width:1200px;margin:0 auto;padding:18px 16px 6px 76px}
+.simhead h1{font-family:var(--display);font-weight:900;font-size:34px;margin:0}
+.simmain{max-width:1200px;margin:0 auto;padding:12px 16px 48px;display:grid;gap:18px}
+.simcard{background:var(--paper);background-image:url(/paper-grain.png);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--paper-shadow-sm)}
+.simcard h2{font-family:var(--display);font-weight:900;font-size:24px;margin:0 0 8px}
