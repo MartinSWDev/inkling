@@ -88,7 +88,7 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
   await step("build room", async () => { await clickText(/build my room|continue|see my subjects/i); });
   await page.waitForTimeout(2500);
   await shot("10-finale-or-reveal");
-  await step("finale tap", async () => { await page.locator(".finale").click().catch(() => null); });
+  await step("finale tap", async () => { await page.getByRole("button", { name: /see my subjects/i }).click().catch(() => null); });
   await page.waitForTimeout(1500);
   await shot("11-reveal-0-top3");
   for (let p = 1; p <= 5; p++) {
@@ -98,7 +98,9 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
       await shot("11-reveal-2-wildcard");
     }
     await step("reveal page " + p, async () => {
-      await page.locator(".zone.right").click({ force: true }).catch(() => page.mouse.click(vp.width - 50, vp.height / 2));
+      const next = page.locator(".nextpill").first();
+      if (await next.count()) await next.click().catch(() => null);
+      else await page.locator(".zone.right").click({ force: true }).catch(() => page.mouse.click(vp.width - 50, vp.height / 2));
     });
     await page.waitForTimeout(1200);
     await shot(`11-reveal-${p}`);

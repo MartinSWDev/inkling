@@ -140,7 +140,10 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .intro .sheet2{text-align:center;justify-items:center;padding:22px 18px}
 .intro h1{font-family:var(--display);font-weight:400;font-size:3rem;margin:0;line-height:1}
 .intro .lede{font-size:1.15rem;margin:0;max-width:30ch}
-.finale{position:absolute;inset:0;z-index:8;background:none;border:0;cursor:pointer;display:grid;place-items:end center;padding-bottom:18%}
+.nextpill{position:absolute;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;border-radius:99px;padding:12px 22px}
+.finale-next{position:absolute}
+.backbtn{position:absolute;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;font:inherit;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:11px 18px;min-height:48px;cursor:pointer;box-shadow:var(--paper-shadow-sm)}
+.finale{position:absolute;inset:0;z-index:8;display:grid;place-items:end center;padding-bottom:18%}
 .finale .finaletag{background:var(--paper);background-image:url(/paper-grain.png);font-family:var(--display);font-weight:900;font-size:30px;color:var(--ink);padding:14px 22px;border-radius:14px;border:1px solid var(--line);box-shadow:var(--paper-shadow);transform:rotate(-1deg)}
 .finale .finalehint{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;color:#fff;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .lampwarm{position:absolute;inset:0;background:rgba(255,150,60,.14);mix-blend-mode:multiply;pointer-events:none;z-index:2}

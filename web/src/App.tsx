@@ -455,15 +455,17 @@ export default function App() {
         </div>)}
       </div>)}
 
-      {scene.kind === "finale" && (<button className="finale" aria-label="See your subjects" onClick={() => { sfx.chord(); dispatch({ type: "FINALE_TAP" }); }}>
+      {scene.kind === "finale" && (<div className="finale">
         <motion.span className="finaletag" initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 20 }}>This is your room.</motion.span>
-        <span className="finalehint">Tap anywhere to see your subjects</span>
-      </button>)}
+        <button className="btn alt nextpill finale-next" onClick={() => { sfx.chord(); dispatch({ type: "FINALE_TAP" }); }}>See my subjects</button>
+      </div>)}
 
       {(scene.kind === "reveal" || scene.kind === "share") && (<section className="story">
         <div className="sprog">{[0, 1, 2, 3, 4].map((i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
         <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV" })} />
         <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT" })} />
+        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV" })}>Back</button>}
+        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT" })}>{page === 3 ? "Share" : "Next"}</button>}
         <div className="pages">
           <div className={"page" + (page === 0 ? " on" : "")}><div className="top3wrap">
             {top3.map((r, i) => (

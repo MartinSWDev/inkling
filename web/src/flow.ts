@@ -46,7 +46,10 @@ export function flowReducer(scene: Scene, ev: FlowEvent): Scene {
       if (ev.type === "REVEAL_PREV") return { kind: "reveal", page: Math.max(0, scene.page - 1) };
       if (ev.type === "TO_SHARE") return { kind: "share" };
       return scene;
-    case "share": return ev.type === "RESTART" ? { kind: "landing" } : scene;
+    case "share":
+      if (ev.type === "RESTART") return { kind: "landing" };
+      if (ev.type === "REVEAL_PREV") return { kind: "reveal", page: 3 };
+      return scene;
     default: return scene;
   }
 }
