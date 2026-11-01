@@ -564,7 +564,7 @@ export default function App() {
             <div className="views swatches">{VIEWS.map((v) => (
               <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>
                 <img src={"/views/" + v.id + "_day.webp"} alt="" />
-                <span>{v.id === view ? "✓ " : ""}{v.name}</span></button>))}</div>
+                <span>{v.name}</span></button>))}</div>
             <p className="note">It changes the view from your window.</p></div></div>
           <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><h2>Share your room</h2>
             <div className="share"><div className="phone">
