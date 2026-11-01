@@ -4,7 +4,7 @@ export type PairSide = { label: string; caption: string; scores: Record<string, 
 export type Pair = { id: string; a: PairSide; b: PairSide };
 export type Ranked = { code: string; display_name: string; score: number; uncertainty: number; direct: number; reasons: string[] };
 export type Subject = {
-  code: string; display_name: string; name: string; keywords: string[]; neighbours: string[];
+  code: string; display_name: string; name: string; plain?: string; why_line?: string; keywords: string[]; neighbours: string[];
   slot: string; object: string; profile: Record<string, number> | null; course_count: number;
 };
 export type Answers = {

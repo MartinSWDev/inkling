@@ -50,8 +50,8 @@ const pct = (v: number, total: number) => (v / total * 100) + "%";
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
 
-export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null }: {
-  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null;
+export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, liftCodes = [] }: {
+  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null; liftCodes?: string[];
 }) {
   const [layout, setLayout] = useState<Layout | null>(null);
   const stackRef = useRef<HTMLDivElement>(null);
@@ -89,7 +89,7 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
             ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: pct(a.y + a.h - 6, ROOM_H), width: pct(a.w * 0.76, ROOM_W) }} />
             : <img className="sticker-dropshadow" src={"/stickers/" + a.code + ".webp"} alt=""
                 style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H) }} />}
-          <img className={"sticker-img" + (celebrate ? " wiggle" : "")} src={"/stickers/" + a.code + ".webp"} alt=""
+          <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) ? " lifted" : "")} src={"/stickers/" + a.code + ".webp"} alt=""
             style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 5 }}>+1</span>}
         </span>

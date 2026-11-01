@@ -47,11 +47,12 @@ export default function App() {
   const [fact, setFact] = useState<string | null>(null);
   const [toast, setToast] = useState("");
   const [subjects, setSubjects] = useState<Subject[]>([]);
-  const [page, setPage] = useState(0);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
-  const [selfie, setSelfie] = useState<string | null>(null);
-  const [stats, setStats] = useState({ things: [0, 0], questions: [0, 0] });
+  const [wildcardFlipped, setWildcardFlipped] = useState(false);
+  const [exploreOpen, setExploreOpen] = useState<string | null>(null);
+  const revealPage = scene.kind === "reveal" ? scene.page : scene.kind === "share" ? 4 : 0;
+  const page = revealPage;
   const toastTimer = useRef<number>(0);
 
   useEffect(() => {
@@ -114,8 +115,10 @@ export default function App() {
   }, [answers, content, subjects]);
   const displayCodes = useMemo(() => {
     if (phase !== "reveal" || !assets) return roomCodes;
-    return ensureFloorOrBed(roomCodes, ranked, qualifiedAll, (c) => assets.stickers[c]?.slot);
-  }, [phase, assets, roomCodes, ranked, qualifiedAll]);
+    let codes = ensureFloorOrBed(roomCodes, ranked, qualifiedAll, (c) => assets.stickers[c]?.slot);
+    if (wildcardFlipped && surprise && !codes.includes(surprise)) codes = [...codes.slice(-7), surprise];
+    return codes;
+  }, [phase, assets, roomCodes, ranked, qualifiedAll, wildcardFlipped, surprise]);
   const assigned = useMemo(
     () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.25 : 1) : []),
     [assets, displayCodes, phase]);
@@ -205,8 +208,6 @@ export default function App() {
     const snap = { ...answersRef.current, swipes: [...answersRef.current.swipes, { card_id: current.id, answer: kind }] };
     setAnswers(snap);
     applyAction(snap, false);
-    const key = round === 2 ? "things" : "questions";
-    setStats((s) => ({ ...s, [key]: [s[key][0] + 1, s[key][1] + (kind === "no" ? 0 : 1)] }));
     if (round === 4 && kind !== "no" && current.fact) {
       setFact(current.fact); window.setTimeout(() => setFact(null), 2600);
     }
@@ -232,7 +233,7 @@ export default function App() {
   function restart() {
     setRoomCodes([]); scoresRef.current = {};
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
-    setPage(0); setSelfie(null); setStats({ things: [0, 0], questions: [0, 0] });
+    setWildcardFlipped(false); setExploreOpen(null);
     dispatch({ type: "RESTART" });
   }
 
@@ -242,11 +243,9 @@ export default function App() {
     if (sur && !top.some((r) => r.code === sur.code)) return [...top.slice(0, 4), sur];
     return top;
   })();
-  const doer = stats.things[0] ? stats.things[1] / stats.things[0] : 0;
-  const wonder = stats.questions[0] ? stats.questions[1] / stats.questions[0] : 0;
-  const doerText = Math.abs(doer - wonder) < 0.15
-    ? "A bit of both: you like doing things and wondering about them."
-    : doer > wonder ? "You're more of a doer than a wonderer." : "You're more of a wonderer than a doer.";
+  const top3 = revealList.filter((r) => r.code !== surprise).slice(0, 3);
+  const wildcardRow = surprise ? ranked.find((r) => r.code === surprise) : undefined;
+  const exploreList = revealList.slice(0, 4);
 
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
@@ -256,7 +255,9 @@ export default function App() {
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
-        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={scene.kind === "round"} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null} />
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={scene.kind === "round"} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
+          liftCodes={scene.kind === "reveal" && page === 0 ? top3.map((r) => r.code) : []} />
+        {scene.kind === "finale" && <span className="lampwarm" aria-hidden="true" />}
       </div>
 
       {scene.kind === "roundOutro" && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
@@ -391,31 +392,49 @@ export default function App() {
         </div>)}
       </div>)}
 
-      {phase === "reveal" && (<section className="story">
-        <div className="sprog">{[0, 1, 2, 3, 4, 5].map((i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
-        <button className="zone left" aria-label="Back" onClick={() => setPage(Math.max(0, page - 1))} />
-        <button className="zone right" aria-label="Next" onClick={() => setPage(Math.min(5, page + 1))} />
+      {scene.kind === "finale" && (<button className="finale" aria-label="See your subjects" onClick={() => { sfx.chord(); dispatch({ type: "FINALE_TAP" }); }}>
+        <motion.span className="finaletag" initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 20 }}>This is your room.</motion.span>
+        <span className="finalehint">Tap anywhere to see your subjects</span>
+      </button>)}
+
+      {(scene.kind === "reveal" || scene.kind === "share") && (<section className="story">
+        <div className="sprog">{[0, 1, 2, 3, 4].map((i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
+        <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV" })} />
+        <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT" })} />
         <div className="pages">
-          <div className={"page" + (page === 0 ? " on" : "")}><div className="pc roomcap"><p className="eyebrow">Your room</p>
-            <h2>{assigned.length} thing{assigned.length === 1 ? "" : "s"} landed. Here's your room.</h2><p className="note">Tap the right side to continue, left to go back.</p></div></div>
-          <div className={"page" + (page === 1 ? " on" : "")}><div className="pc mid big"><p className="eyebrow">You're into</p>
-            <h2>{revealList.slice(0, 3).map((r) => r.display_name.toLowerCase()).join(", ") || "not sure yet"}</h2><p className="note">{doerText}</p></div></div>
-          <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Subjects to explore</p>
-            <ul className="subjects">{revealList.map((r) => (
+          <div className={"page" + (page === 0 ? " on" : "")}><div className="top3wrap">
+            {top3.map((r, i) => (
+              <motion.div key={r.code} className="top3card" variants={popUp} custom={i} initial="hidden" animate="shown" transition={{ delay: i * 0.25 }}>
+                <img src={"/stickers/" + r.code + ".webp"} alt="" />
+                <div><h3>{r.display_name}</h3>
+                <p>{r.reasons.length ? "Because of: " + r.reasons.join(" · ") : "It kept coming up in your answers."}</p></div>
+              </motion.div>))}
+            {!top3.length && <div className="pc bottom"><h2>Not sure yet</h2><p className="note">Play a few more cards to fill this in.</p></div>}
+          </div></div>
+          <div className={"page" + (page === 1 ? " on" : "")}><div className="wildwrap">
+            {wildcardRow ? (<button className="wildcard" aria-label={wildcardFlipped ? wildcardRow.display_name : "Flip the wildcard card"}
+              onClick={() => { if (!wildcardFlipped) { setWildcardFlipped(true); sfx.thwip(); buzz(); } }}>
+              <motion.span className="wildinner" animate={{ rotateY: wildcardFlipped ? 180 : 0 }} transition={{ type: "spring", stiffness: 260, damping: 26 }}>
+                <span className="wildface wildback">?</span>
+                <span className="wildface wildfront"><b>{wildcardRow.display_name}</b>
+                  <small>Never on a card — it scored from everything around it.</small></span>
+              </motion.span>
+            </button>) : <div className="pc bottom"><h2>No wildcard this time</h2><p className="note">Everything you got was on a card.</p></div>}
+          </div></div>
+          <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><h2>Subjects to explore</h2>
+            <ul className="subjects">{exploreList.map((r) => { const subj = subjects.find((s) => s.code === r.code); return (
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "Never on a card. It scored from everything around it." : (r.reasons.length ? "Because of: " + r.reasons.join(" · ") : "")}</small>
-                <a href={"https://www.discoveruni.gov.uk/search/?q=" + encodeURIComponent(r.display_name)} target="_blank" rel="noreferrer">See courses on Discover Uni</a></div>
-                {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>))}
+                {exploreOpen === r.code && subj?.plain && <small>{subj.plain}</small>}
+                <span className="explinks"><a href={"https://www.discoveruni.gov.uk/search/?q=" + encodeURIComponent(r.display_name)} target="_blank" rel="noreferrer">See courses</a>
+                {subj?.plain && <button className="linkbtn" onClick={() => setExploreOpen(exploreOpen === r.code ? null : r.code)}>What's it like?</button>}</span></div>
+                {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>); })}
             </ul></div></div>
-          <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Where do you see yourself studying?</p><h2>Pick a view</h2>
+          <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
             <div className="views">{VIEWS.map((v) => <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>{v.name}</button>)}</div>
             <div className="views" style={{ marginTop: 8 }}>{["day", "dusk"].map((t) => <button key={t} aria-pressed={t === viewTime} onClick={() => setViewTime(t)}>{t === "day" ? "Day" : "Dusk"}</button>)}</div>
             <p className="note">It changes your window, and later helps suggest places to study.</p></div></div>
-          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Put yourself in it</p><h2>Add a selfie</h2>
-            <input type="file" accept="image/*" onChange={(e) => { const f = e.target.files?.[0]; if (!f) return; const rd = new FileReader(); rd.onload = () => setSelfie(String(rd.result)); rd.readAsDataURL(f); }} />
-            {selfie && <img src={selfie} alt="Your selfie" style={{ width: 72, height: 72, objectFit: "cover", borderRadius: 99 }} />}
-            <p className="note">Stays in your browser here. In the real build SAM 3.1 cuts you out and Muse Image repaints you in the room's style.</p></div></div>
-          <div className={"page" + (page === 5 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Share</p>
+          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Share</p>
             <div className="share"><div className="phone"><RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
               <div className="over"><b>got an inkling?</b>made with Inkling</div></div>
               <div><p style={{ fontStyle: "italic", margin: "0 0 6px" }}>"my inkling: {revealList.slice(0, 2).map((r) => r.display_name.toLowerCase()).join(" + ") || "still working it out"}. got an inkling?"</p>

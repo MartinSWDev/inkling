@@ -42,7 +42,7 @@ export function flowReducer(scene: Scene, ev: FlowEvent): Scene {
     case "roundOutro": return ev.type === "OUTRO_DONE" ? { kind: "roundTitle", round: scene.round + 1 } : scene;
     case "finale": return ev.type === "FINALE_TAP" ? { kind: "reveal", page: 0 } : scene;
     case "reveal":
-      if (ev.type === "REVEAL_NEXT") return scene.page >= 4 ? { kind: "share" } : { kind: "reveal", page: scene.page + 1 };
+      if (ev.type === "REVEAL_NEXT") return scene.page >= 3 ? { kind: "share" } : { kind: "reveal", page: scene.page + 1 };
       if (ev.type === "REVEAL_PREV") return { kind: "reveal", page: Math.max(0, scene.page - 1) };
       if (ev.type === "TO_SHARE") return { kind: "share" };
       return scene;
