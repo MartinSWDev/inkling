@@ -165,6 +165,10 @@ async function run(browser: Browser, name: string, ctxOpts: object) {
   await shot("11b-wildcard-flipped");
   await scan(page, name, "wildcard");
   await step("to views", next);
+  // Hands-on routes page sits between wildcard and views when practical.
+  await step("hands-on if present", async () => {
+    if (await page.getByRole("heading", { name: /hands-on routes/i }).count()) { await shot("11c-handson"); await next(); }
+  });
   await shot("12-views");
   await step("pick coast", async () => { await page.getByRole("button", { name: /coast/i }).first().tap({ timeout: 5000 }); await page.waitForTimeout(500); });
   await shot("12b-views-coast");
@@ -202,11 +206,15 @@ async function run(browser: Browser, name: string, ctxOpts: object) {
   await context.close();
 }
 
+const DEVICES: [string, object][] = [
+  ["iphone13", { ...devices["iPhone 13"], colorScheme: "light" }],
+  ["iphone-se", { ...devices["iPhone SE"], colorScheme: "light" }],
+  ["pixel7", { ...devices["Pixel 7"], colorScheme: "light" }],
+  ["desktop", { viewport: { width: 1280, height: 800 }, hasTouch: true, colorScheme: "light" }],
+];
+const only = process.env.DEVICE;
 const browser = await chromium.launch();
-await run(browser, "iphone13", { ...devices["iPhone 13"], colorScheme: "light" });
-await run(browser, "iphone-se", { ...devices["iPhone SE"], colorScheme: "light" });
-await run(browser, "pixel7", { ...devices["Pixel 7"], colorScheme: "light" });
-await run(browser, "desktop", { viewport: { width: 1280, height: 800 }, hasTouch: true, colorScheme: "light" });
+for (const [name, opts] of DEVICES) if (!only || only === name) await run(browser, name, opts);
 await browser.close();
 console.log(failures.length ? `\nMOBILE CHECK: ${failures.length} failure(s)` : "\nMOBILE CHECK: all checks passed");
 for (const f of failures) console.log(" -", f);
