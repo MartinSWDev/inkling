@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Pause, Play, RotateCcw, Shuffle, Volume2, VolumeX, X } from "lucide-react";
 import AppMenu from "./Menu";
 import SimScene from "./SimScene";
-import { loadSnapshot, type SimSnapshot, type SimStudent } from "./simData";
+import { BUILDINGS, PAPER_COLOURS, loadSnapshot, type SimSnapshot, type SimStudent } from "./simData";
 import { setSoundEnabled, unlock } from "./design/sound";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
@@ -115,6 +115,72 @@ export default function Simulation() {
 }
 
 function Results({ snap, onPick }: { snap: SimSnapshot; onPick: (s: SimStudent) => void }) {
-  void onPick;
-  return null;
+  const sm = snap.summary;
+  const arrivals = Object.entries(sm.arrivals_by_paper)
+    .map(([paper, n]) => ({ paper: paper as keyof typeof BUILDINGS, n }))
+    .sort((a, b) => b.n - a.n);
+  const maxArr = Math.max(1, ...arrivals.map((a) => a.n));
+  const hits = snap.students.filter((s) => s.hit3).slice(0, 4);
+  const misses = snap.students.filter((s) => !s.hit3).slice(0, 2);
+  const examples = [...hits, ...misses];
+  const name = (code: string) => snap.subjects[code] || code;
+  return (
+    <>
+      <section aria-label="Headline results">
+        <div className="results-grid">
+          <div className="simcard"><p className="bignum">{pct(sm.hit3)}</p><p className="note">Top 3 included a subject they&apos;d suit</p></div>
+          <div className="simcard"><p className="bignum">{pct(sm.hit5)}</p><p className="note">…in their top 5</p></div>
+          <div className="simcard"><p className="bignum">{pct(sm.family3)}</p><p className="note">Right subject family in top 3</p></div>
+          <div className="simcard"><p className="bignum">{sm.median_answers_to_settle ?? "—"}</p><p className="note">Answers before the top 3 settled (median)</p></div>
+          <div className="simcard"><p className="bignum">{sm.subjects_ever_in_top3} of {sm.total_subjects}</p><p className="note">Different subjects reached</p></div>
+          <div className="simcard"><p className="bignum">{sm.students}</p><p className="note">Simulated students</p></div>
+        </div>
+      </section>
+
+      <section className="simcard" aria-label="Arrivals per building">
+        <h2>Where they ended up</h2>
+        <div className="bars">
+          {arrivals.map(({ paper, n }) => (
+            <div className="bar-row" key={paper}>
+              <span>{BUILDINGS[paper] || paper}</span>
+              <span className="bar-track"><span className="bar-fill" style={{ display: "block", width: (n / maxArr * 100) + "%", background: PAPER_COLOURS[paper] || "#c9b8e8" }} /></span>
+              <span>{n}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="simcard" aria-label="Knowing versus no idea">
+        <h2>“No idea” versus “I know”</h2>
+        <p>Students who&apos;d say they have no idea ({sm.no_idea_count}): <b className="bignum" style={{ fontSize: 28 }}>{pct(sm.hit3_no_idea)}</b> got a suited subject in their top 3.</p>
+        <p>Students who know what they like ({sm.knows_count}): <b className="bignum" style={{ fontSize: 28 }}>{pct(sm.hit3_knows)}</b></p>
+      </section>
+
+      <section className="simcard">
+        <h2>How this works</h2>
+        <p>200 students were written and played by Muse Spark Open (Meta&apos;s open-weights model, on Baseten). Each student answers every card in character; the real Inkling scoring code then ranks subjects for them. Each persona&apos;s ground truth — the subjects they&apos;d genuinely suit — was written before they played.</p>
+        <p className="note">These are simulated students, so this measures whether Inkling&apos;s questions and scoring are consistent with a student&apos;s stated interests — not a study of real students.</p>
+      </section>
+
+      <section className="simcard">
+        <h2>Run it yourself</h2>
+        <pre className="simcmd">python scripts/simulate_students.py --limit 20{"\n"}python scripts/simulate_students.py{"\n"}python scripts/export_sim_snapshot.py</pre>
+        <p className="note">This page replays a fixed snapshot, so it costs nothing to view. No live calls are made.</p>
+      </section>
+
+      <section aria-label="Example students">
+        <h2 style={{ fontFamily: "var(--display)", fontWeight: 900 }}>Example students</h2>
+        <div className="examplegrid">
+          {examples.map((s) => (
+            <button key={s.id} className="simcard examplecard" onClick={() => { onPick(s); window.scrollTo({ top: 0, behavior: "smooth" }); document.querySelector(".simpage")?.scrollTo({ top: 0, behavior: "smooth" }); }}>
+              <b>{s.first_name}, {s.age}</b> · {s.where}<br />
+              <span className="note">{s.enjoys}</span><br />
+              <span>Top 3: {s.top3.map(name).join(" · ")}</span><br />
+              <span className={"hitbadge " + (s.hit3 ? "hit" : "miss")}>{s.hit3 ? "Hit" : "Miss"}</span>
+            </button>
+          ))}
+        </div>
+      </section>
+    </>
+  );
 }
