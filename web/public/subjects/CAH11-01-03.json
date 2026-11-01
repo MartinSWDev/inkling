@@ -9,70 +9,46 @@
    "ucas_code": "A22-E74"
   },
   {
-   "title": "Artificial Intelligence and Data Science",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/artificial-intelligence-and-data-science",
-   "ucas_code": "A62-C95"
-  },
-  {
-   "title": "Business Analytics",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/business-analytics-bsc",
-   "ucas_code": "A51-A19"
-  },
-  {
-   "title": "Biology With Biotechnology",
+   "title": "Computer Information Systems",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons",
-   "ucas_code": "A34-B36"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/i110-computer-information-systems-bsc-hons",
+   "ucas_code": "A34-C03"
   },
   {
-   "title": "Business and Management (Data Analytics and Digital Business)",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-business-and-management-data-analytics-and-digital-business",
-   "ucas_code": "A57-E28"
+   "title": "Information Technology",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Information-Technology-BSc-Hons",
+   "ucas_code": "A46-G25"
   },
   {
-   "title": "Mathematics and Data Science",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/mathematics-and-data-science",
-   "ucas_code": "A74-B30"
+   "title": "Central & East European Studies/Digital Media & Information Studies",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/digitalmedia/",
+   "ucas_code": "A24-F38"
   },
   {
-   "title": "Data Science with Foundation Year",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-data-science",
-   "ucas_code": "A52-H14"
+   "title": "Business Management and Information Systems",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/488/GN54/business-management-and-information-systems/",
+   "ucas_code": "A33-D96"
   },
   {
-   "title": "Computer and Data Science",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computer-and-data-science/",
-   "ucas_code": "A49-H60"
+   "title": "Information Technology",
+   "provider": "University of Derby",
+   "url": "https://www.derby.ac.uk/undergraduate/computing-courses/information-technology-bsc-hons/",
+   "ucas_code": "A41-E49"
   },
   {
-   "title": "Data Science",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/data-science-mscibsc/?term=2027-28",
-   "ucas_code": "A38-I11"
-  },
-  {
-   "title": "Artificial Intelligence",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/artificial-intelligence-bsc-degree/artificial-intelligence-bsc-hons.aspx",
-   "ucas_code": "A25-H23"
-  },
-  {
-   "title": "Cyber Security & Digital Forensics",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/cyber-security-and-digital-forensics-bsc-hons",
-   "ucas_code": "A14-F08"
-  },
-  {
-   "title": "Biomedical Informatics",
+   "title": "Information Technology",
    "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/biomedical-informatics",
-   "ucas_code": "A65-A84"
+   "url": "https://www.uwl.ac.uk/course/undergraduate/information-technology",
+   "ucas_code": "A17-G55"
+  },
+  {
+   "title": "Information, Data and Society",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/information-data-and-society-bsc",
+   "ucas_code": "A68-E93"
   }
  ]
 }

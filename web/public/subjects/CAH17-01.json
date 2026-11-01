@@ -3,76 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Communication Design and Strategy",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "https://aub.ac.uk/course/communication-design-strategy",
-   "ucas_code": "A69-B28"
-  },
-  {
-   "title": "Accounting and Finance",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/bsc-accounting-and-finance/",
-   "ucas_code": "A76-I43"
-  },
-  {
-   "title": "Accounting and Finance",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?73D9YL",
-   "ucas_code": "A22-E35"
-  },
-  {
-   "title": "Accounting and Economics",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/accounting-and-economics",
-   "ucas_code": "A06-B40"
-  },
-  {
-   "title": "Business Management",
-   "provider": "Amity Global Education Ltd",
-   "url": "https://www.amity.ac.uk/6n101",
-   "ucas_code": "A52-G67"
-  },
-  {
-   "title": "Accounting and Finance",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/accounting-and-finance",
-   "ucas_code": "A13-J47"
-  },
-  {
-   "title": "Accounting and Finance",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/finance-degrees/bsc-accounting-finance",
+   "title": "Events Management",
+   "provider": "Arts University Bournemouth, The",
+   "url": "https://ukmc.ac.uk/course-details/ba-hons-event-management-with-foundation-year",
    "ucas_code": ""
   },
   {
-   "title": "Equine Science Management",
-   "provider": "Askham Bryan College",
-   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-equine-science-with-management/",
-   "ucas_code": "A29-J75"
+   "title": "Accounting and Finance with Business Analytics",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
+   "ucas_code": "A59-B44"
   },
   {
-   "title": "Accounting and Finance",
+   "title": "Accounting and Finance / Business and Management",
+   "provider": "Aberystwyth University",
+   "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
+   "ucas_code": "A51-B78"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/business-economics",
+   "ucas_code": "A76-I21"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Business Computing and IT",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc",
-   "ucas_code": "A30-B02"
+   "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
+   "ucas_code": "A30-B27"
   },
   {
-   "title": "Business and Management",
-   "provider": "Asu London Centre for Advanced Learning",
-   "url": "https://asu-london.ac.uk/courses/undergraduate/business-and-management/",
-   "ucas_code": "A76-G73"
+   "title": "Business Management",
+   "provider": "Birmingham Newman University",
+   "url": "https://www.newman.ac.uk/course/business-management-ba-hons/full-time/",
+   "ucas_code": "A15-G78"
   },
   {
-   "title": "BA Top Up Degree in Events Management (September Start)",
-   "provider": "BARNET & SOUTHGATE COLLEGE",
-   "url": "https://www.barnetsouthgate.ac.uk/higher-education-courses/ba-top-up-degree-in-events-management-september-start",
-   "ucas_code": "A61-C11"
+   "title": "Applied Management",
+   "provider": "BPP University",
+   "url": "https://www.bpp.com/leadership-and-management/bsc-applied-management",
+   "ucas_code": ""
   },
   {
-   "title": "Accounting and Finance",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/accounting-and-finance-ba-hons/full-time/",
-   "ucas_code": "A15-G73"
+   "title": "Accounting and Management",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons",
+   "ucas_code": "A62-E10"
+  },
+  {
+   "title": "Business Management and Criminology",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
+   "ucas_code": "A43-E18"
   }
  ]
 }

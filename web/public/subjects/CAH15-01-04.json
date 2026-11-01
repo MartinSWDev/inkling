@@ -4,18 +4,6 @@
  "courses": [
   {
    "title": "Anthropology",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology",
-   "ucas_code": "A06-B51"
-  },
-  {
-   "title": "Archaeology and Anthropology",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/archaeology-ug/ba-archaeology-and-anthropology",
-   "ucas_code": "A51-E15"
-  },
-  {
-   "title": "Anthropology",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/anthropology-bsc",
    "ucas_code": "A19-I45"
@@ -25,12 +13,6 @@
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/l601/",
    "ucas_code": "A07-G12"
-  },
-  {
-   "title": "Anthropology",
-   "provider": "GOLDSMITHS' COLLEGE",
-   "url": "http://www.gold.ac.uk/ug/integrated-degree-anthropology/",
-   "ucas_code": "A17-B81"
   },
   {
    "title": "Forensic Anthropology",
@@ -45,16 +27,10 @@
    "ucas_code": "A30-E66"
   },
   {
-   "title": "Anthropology and History",
-   "provider": "Pembrokeshire College",
-   "url": "https://www.uwtsd.ac.uk/programme-courses/undergraduate/philosophy-theology-and-religious-studies/anthropology-and-history",
-   "ucas_code": "A06-G92"
-  },
-  {
-   "title": "Anthropolgy and Sociology",
+   "title": "Anthropology",
    "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/anthropology-sociology-ba/#course",
-   "ucas_code": "A76-D96"
+   "url": "http://www.qub.ac.uk/courses/undergraduate/anthropology-ba-l600/",
+   "ucas_code": "A41-E95"
   },
   {
    "title": "Creative Arts and Social Anthropology",
@@ -63,16 +39,28 @@
    "ucas_code": "A73-H08"
   },
   {
-   "title": "Anthropology and Law",
-   "provider": "THE LONDON SCHOOL OF ECONOMICS AND POLITICAL SCIENCE",
-   "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/ba-anthropology-and-law",
-   "ucas_code": "A32-C25"
-  },
-  {
    "title": "Social Anthropology",
-   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/dasa/social-anthropology.aspx",
    "ucas_code": "A65-J95"
+  },
+  {
+   "title": "Forensic Anthropology",
+   "provider": "The University Of Bradford",
+   "url": "https://www.bradford.ac.uk/courses/ug/forensic-anthropology/",
+   "ucas_code": "A11-C85"
+  },
+  {
+   "title": "Archaeology, Anthropology and Art History",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-archaeology-anthropology-and-art-history/2027-28/sep",
+   "ucas_code": "A36-G34"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/419/L600/anthropology/",
+   "ucas_code": "A33-D29"
   }
  ]
 }

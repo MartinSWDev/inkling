@@ -21,18 +21,6 @@
    "ucas_code": ""
   },
   {
-   "title": "Sport and Exercise Therapy and Rehabilitation",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-sport-and-exercise-therapy-and-rehabilitation",
-   "ucas_code": "A60-D86"
-  },
-  {
-   "title": "Bachelor of Medicine Bachelor of Surgery",
-   "provider": "Brighton and Sussex Medical School",
-   "url": "http://www.bsms.ac.uk/undergraduate/our-course",
-   "ucas_code": "A17-H57"
-  },
-  {
    "title": "Medicine",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/Medicine-MBBS",
@@ -40,7 +28,7 @@
   },
   {
    "title": "Medicine",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/medicine",
    "ucas_code": "A75-B13"
   },
@@ -51,18 +39,6 @@
    "ucas_code": "A28-A33"
   },
   {
-   "title": "Clinical Science",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/clinical-science-1",
-   "ucas_code": "A72-G06"
-  },
-  {
-   "title": "Bachelor of Medicine / Bachelor of Surgery",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/mbchb-medicine",
-   "ucas_code": "A48-A16"
-  },
-  {
    "title": "Bachelor Of Medicine Bachelor Of Surgery",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/medicine/",
@@ -70,9 +46,21 @@
   },
   {
    "title": "Medicine",
-   "provider": "Hull York Medical School",
-   "url": "https://www.hyms.ac.uk/medicine/mbbs-medicine",
-   "ucas_code": "A19-A72"
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/medicine/",
+   "ucas_code": "A03-G70"
+  },
+  {
+   "title": "Medicine and Surgery",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/a100/",
+   "ucas_code": "A27-C71"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
+   "ucas_code": "A30-G06"
   }
  ]
 }

@@ -9,12 +9,6 @@
    "ucas_code": "A22-F59"
   },
   {
-   "title": "Anthropology and English Literature",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-english-literature",
-   "ucas_code": "A06-C81"
-  },
-  {
    "title": "Drama and English Literature",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-english-literature",
@@ -27,22 +21,10 @@
    "ucas_code": "A30-B65"
   },
   {
-   "title": "Applied Humanities (Accelerated degree)",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/applied-humanities-ba-hons/full-time/",
-   "ucas_code": "A53-J42"
-  },
-  {
    "title": "English Language And English Literature",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons",
    "ucas_code": "A34-C93"
-  },
-  {
-   "title": "Art and English Literature",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-english-literature",
-   "ucas_code": "A15-D66"
   },
   {
    "title": "Creative Writing and English Literature",
@@ -71,8 +53,14 @@
   {
    "title": "English and Creative Writing",
    "provider": "Cardiff Metropolitan University",
-   "url": "https://www.nptcgroup.ac.uk/courses/ba-hons-english-and-creative-writing/",
-   "ucas_code": "A74-C99"
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-english-and-creative-writing/",
+   "ucas_code": "A63-C08"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-literature-ba",
+   "ucas_code": "A27-J00"
   }
  ]
 }

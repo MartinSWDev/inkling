@@ -3,76 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Creative Industries Futures (2 Year)",
-   "provider": "ACM",
-   "url": "https://www.acm.ac.uk/?s=creative+industries+futures",
-   "ucas_code": "A66-F85"
-  },
-  {
-   "title": "Acting",
-   "provider": "ARTS EDUCATIONAL SCHOOLS(THE)",
-   "url": "https://artsed.co.uk/course/undergraduate/undergraduate-acting/?course-guide",
-   "ucas_code": ""
-  },
-  {
-   "title": "Acting",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "http://aub.ac.uk/courses/ba/ba-acting",
-   "ucas_code": "A38-F89"
-  },
-  {
-   "title": "Creative Writing and Drama and Theatre Studies",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?TBHWBQ",
-   "ucas_code": "A22-F00"
-  },
-  {
-   "title": "Live Events Production",
-   "provider": "Academy of Live Technology Ltd",
-   "url": "https://www.academyoflivetechnology.com/courses/production-park/ba-hons-live-events-production",
-   "ucas_code": "A62-H37"
-  },
-  {
-   "title": "Acting",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/acting",
-   "ucas_code": "A63-E30"
-  },
-  {
-   "title": "Costume Production",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/ba-hons-costume-production/overview",
-   "ucas_code": "A16-E74"
-  },
-  {
-   "title": "English Literature and Drama",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/qw34-english-literature-and-drama-ba-hons",
-   "ucas_code": "A69-I88"
-  },
-  {
-   "title": "Acting & Performance",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/film-and-television-ug/ba-acting-and-performance",
-   "ucas_code": "A75-F21"
-  },
-  {
-   "title": "Acting",
+   "title": "Musical Theatre Brighton Academy of Performing Arts",
    "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-acting/",
-   "ucas_code": "A09-E28"
+   "url": "https://www.bathspa.ac.uk/about-us/networks/educational-partners/the-brighton-academy/",
+   "ucas_code": "A69-J68"
   },
   {
-   "title": "Theatre Studies with Foundation Year",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/theatre-studies",
-   "ucas_code": "A74-D85"
+   "title": "Arts and Festivals Management",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx",
+   "ucas_code": "A25-F98"
   },
   {
-   "title": "Acting",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/acting-ba-hons-2027-28",
+   "title": "Technical Theatre Arts",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/technical-theatre-arts",
+   "ucas_code": "A68-G83"
+  },
+  {
+   "title": "Performing Arts",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/performingarts",
+   "ucas_code": "A10-I19"
+  },
+  {
+   "title": "Creative Arts and Music",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
+   "ucas_code": "A73-G99"
+  },
+  {
+   "title": "Theatre and Performing",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/theatre-and-performing-ba-hons-w440/",
+   "ucas_code": "A25-I69"
+  },
+  {
+   "title": "Creative Arts & Industries / Music",
+   "provider": "University Of Glasgow",
+   "url": "https://www.gla.ac.uk/undergraduate/degrees/creativeartsindustries/",
+   "ucas_code": "A76-J87"
+  },
+  {
+   "title": "Performing Arts (Stella Mann",
+   "provider": "University Of Northampton, The",
+   "url": "https://www.stellamanncollege.co.uk/our-courses/",
    "ucas_code": ""
+  },
+  {
+   "title": "Performing Arts",
+   "provider": "University Centre Peterborough",
+   "url": "https://www.ucp.ac.uk/courses/ba-hons-acting-for-stage-and-screen/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Psychology and Theatre Arts",
+   "provider": "University of Derby",
+   "url": "https://www.derby.ac.uk/undergraduate/joint-honours-courses/psychology-theatre-arts-ba-hons/",
+   "ucas_code": "A70-E90"
   }
  ]
 }

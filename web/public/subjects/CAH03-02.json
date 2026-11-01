@@ -3,22 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Physical Activity and Health",
+   "title": "Sport and Exercise",
    "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/physical-activity-and-health/",
-   "ucas_code": "A68-E65"
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
+   "ucas_code": "A06-B37"
   },
   {
    "title": "Sport and Exercise Science",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?RSEWA4",
    "ucas_code": "A22-H47"
-  },
-  {
-   "title": "Sport and Exercise Science",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/sport-and-exercise-science",
-   "ucas_code": "A06-E33"
   },
   {
    "title": "Applied Sport Science",
@@ -28,7 +22,7 @@
   },
   {
    "title": "Sport Coaching",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/sport-coaching-bsc-hons/full-time/",
    "ucas_code": "A66-C07"
   },
@@ -51,28 +45,22 @@
    "ucas_code": "A14-E22"
   },
   {
-   "title": "Sports Coaching",
-   "provider": "Bishop Auckland College",
-   "url": "https://bacoll.ac.uk/course/bsc-hons-sports-coaching-l6-top-up/",
-   "ucas_code": ""
-  },
-  {
-   "title": "Sport and Exercise Therapy and Rehabilitation",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-sport-and-exercise-therapy-and-rehabilitation",
-   "ucas_code": "A60-D86"
-  },
-  {
-   "title": "Sport Fitness & Wellbeing",
-   "provider": "Boston College",
-   "url": "https://www.boston.ac.uk/find-a-course/view-all-courses/sport-fitness-and-wellbeing-bsc-hons-top-up-level-6",
-   "ucas_code": "A73-D91"
-  },
-  {
    "title": "Sport Coaching",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-sport-coaching",
    "ucas_code": "A55-C17"
+  },
+  {
+   "title": "Sport, Health & Exercise Sciences with Business Studies with Placement Year",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/sport-health-and-exercise-sciences-with-business-studies-bsc",
+   "ucas_code": "A20-A37"
+  },
+  {
+   "title": "Sport and Exercise Science",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-sport-and-exercise-science",
+   "ucas_code": "A03-D83"
   }
  ]
 }

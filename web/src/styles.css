@@ -163,7 +163,22 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .sticktag b{font-family:var(--display);font-weight:700;font-size:16px;display:block;line-height:1.1}
 .sticktag small{color:var(--muted);font-size:12.5px;display:block;margin-top:2px;line-height:1.3}
 .tagcatcher{position:absolute;inset:0;z-index:3;background:none;border:0;padding:0;cursor:default}
-.top3wrap{position:absolute;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:grid;gap:10px;pointer-events:auto}
+.top3wrap{position:absolute;left:16px;right:16px;bottom:calc(78px + env(safe-area-inset-bottom,0px));display:grid;gap:10px;pointer-events:auto}
+.top3head{font-family:var(--display);font-weight:900;font-size:28px;color:#fff;text-shadow:0 2px 8px rgba(20,10,40,.55);margin:0}
+.story .pc.bottom{bottom:calc(74px + env(safe-area-inset-bottom,0px))}
+.tapflip{font-family:var(--body);font-weight:600;font-size:14px;color:var(--muted);display:block}
+.wildfront img{width:110px;height:110px;object-fit:contain}
+.sticker-img.lifted{filter:drop-shadow(0 0 14px rgba(243,217,139,.95)) drop-shadow(0 10px 10px rgba(30,24,48,.35))}
+.views.swatches{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.views.swatches button{display:grid;gap:5px;padding:7px;text-align:left}
+.views.swatches img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;display:block}
+.views button[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.segcontrol{display:flex;background:var(--paper);border:1px solid var(--line);border-radius:99px;padding:3px;gap:3px;margin-top:8px}
+.segcontrol button{flex:1;font:inherit;border:0;border-radius:99px;padding:9px;background:transparent;color:var(--ink);cursor:pointer;min-height:44px}
+.segcontrol button[aria-pressed="true"]{background:var(--ink);color:var(--paper);font-weight:600}
+.phone .over b{font-size:17px;line-height:1.15}
+.phone .over span{display:block;font-size:10.5px;margin-top:3px;line-height:1.3}
+.phone{width:150px;height:auto;aspect-ratio:9/16}
 .top3card{display:flex;gap:12px;align-items:center;background:var(--paper);background-image:url(/paper-grain.png);border:1px solid var(--line);border-radius:14px;padding:10px 12px;box-shadow:var(--paper-shadow)}
 .top3card img{width:58px;height:58px;object-fit:contain}
 .top3card h3{font-family:var(--display);font-weight:900;font-size:22px;margin:0;line-height:1.05}

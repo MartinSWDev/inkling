@@ -18,6 +18,23 @@ export function growRoom(
   return [...prev, candidates[0].code];
 }
 
+/** Top 3 with diversity: at most one subject per CAH level-2 parent, unless
+ * the next distinct subject scores less than 70% of the duplicate. */
+export function diverseTop(ranked: RankedRow[], parentOf: (code: string) => string, n = 3): RankedRow[] {
+  const pool = ranked.filter((r) => r.score > 0);
+  const chosen: RankedRow[] = [];
+  for (let i = 0; i < pool.length && chosen.length < n; i++) {
+    const cand = pool[i];
+    if (chosen.some((c) => parentOf(c.code) === parentOf(cand.code))) {
+      const nextDistinct = pool.slice(i + 1).find((r) => !chosen.some((c) => parentOf(c.code) === parentOf(r.code))
+        && parentOf(r.code) !== parentOf(cand.code));
+      if (nextDistinct && nextDistinct.score >= 0.7 * cand.score) continue;
+    }
+    chosen.push(cand);
+  }
+  return chosen;
+}
+
 /** Reveal: make sure every result subject is in the room, swapping out the
  * weakest non-result objects (never exceeding 8). */
 export function ensureResults(room: string[], resultCodes: string[], ranked: RankedRow[]): string[] {

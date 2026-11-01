@@ -3,28 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Business and Management / French",
+   "title": "Creative Writing and Modern Languages",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?F9JXT8",
-   "ucas_code": "A74-H53"
-  },
-  {
-   "title": "Modern Languages with Translation",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/modern-languages-with-translation",
-   "ucas_code": "A66-J79"
+   "url": "http://www.aber.ac.uk/courses/?28RCXK",
+   "ucas_code": "A74-H55"
   },
   {
    "title": "Creative Writing And Modern Languages",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/w8r8-creative-writing-and-modern-languages-ba-hons",
    "ucas_code": "A62-B67"
-  },
-  {
-   "title": "International Business and Management with a Modern Language",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-international-business-and-management-with-modern-language",
-   "ucas_code": "A58-B16"
   },
   {
    "title": "Art History and Language (French, German, Italian, Japanese, Spanish)",
@@ -45,22 +33,10 @@
    "ucas_code": "A25-G57"
   },
   {
-   "title": "International Business with Language",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/international-business-language-ba-hons",
-   "ucas_code": "A14-G19"
-  },
-  {
    "title": "Modern European Languages and History",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/rv92/",
    "ucas_code": "A07-H39"
-  },
-  {
-   "title": "Literary Studies with Creative Writing",
-   "provider": "East Coast College",
-   "url": "http://www.uos.ac.uk/study/ba-lit-studies-creative-writing",
-   "ucas_code": "A62-C47"
   },
   {
    "title": "Applied Modern Languages and Translating: French/Spanish",
@@ -69,10 +45,22 @@
    "ucas_code": "A05-J41"
   },
   {
-   "title": "Comparative Literature",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/comparative-literature-ba",
-   "ucas_code": "A27-G01"
+   "title": "Business Management (with a modern language)",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-business-management-with-a-modern-language/september-2027/",
+   "ucas_code": "A65-I43"
+  },
+  {
+   "title": "Modern Languages, Translation and Interpreting",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/r9q9/",
+   "ucas_code": "A27-C77"
+  },
+  {
+   "title": "Geography with a Language",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/geography-language-bsc-f8rx/#overview",
+   "ucas_code": "A28-C34"
   }
  ]
 }

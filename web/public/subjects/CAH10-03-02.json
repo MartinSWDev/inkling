@@ -3,18 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Engineering",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/h607-engineering-beng",
-   "ucas_code": ""
-  },
-  {
-   "title": "Biomaterials and Tissue Engineering",
-   "provider": "Imperial College London",
-   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biomaterials-tissue-engineering-meng/",
-   "ucas_code": "A15-C60"
-  },
-  {
    "title": "Automotive Materials",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/automotive-materials-beng/",
@@ -34,27 +22,27 @@
   },
   {
    "title": "Materials Science and Engineering",
-   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/metallurgy-materials/materials-science-engineering-meng.aspx",
    "ucas_code": "A04-J00"
   },
   {
    "title": "Materials Science and Engineering",
-   "provider": "THE UNIVERSITY OF LEEDS",
+   "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i984/materials-science-and-engineering-beng",
    "ucas_code": "A57-E69"
   },
   {
    "title": "Materials Science and Engineering",
-   "provider": "THE UNIVERSITY OF SHEFFIELD",
+   "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/materials-science-and-engineering-meng",
    "ucas_code": "A35-F94"
   },
   {
-   "title": "Mechanical Engineering / Manufacturing with Industrial Placement Year",
-   "provider": "University of Southampton",
-   "url": "https://www.southampton.ac.uk/courses/mechanical-engineering-manufacturing-degree-meng",
-   "ucas_code": "A70-E34"
+   "title": "Biomaterials and Tissue Engineering",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biomaterials-tissue-engineering-meng/",
+   "ucas_code": "A15-C60"
   }
  ]
 }

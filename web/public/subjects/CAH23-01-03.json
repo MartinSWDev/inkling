@@ -9,6 +9,12 @@
    "ucas_code": "A75-C26"
   },
   {
+   "title": "Education with Humanities",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/education-with-humanities-ba",
+   "ucas_code": "A73-B47"
+  },
+  {
    "title": "Liberal Arts",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/la00/",
@@ -16,7 +22,7 @@
   },
   {
    "title": "Film & TV and History",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-film-and-tv-and-history",
    "ucas_code": "A38-D34"
   },
@@ -27,34 +33,10 @@
    "ucas_code": "A76-B40"
   },
   {
-   "title": "Social Sciences, Arts & Humanities with Foundation Year",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba/bsc-social-sciences-arts-and-humanities-foundation-year",
-   "ucas_code": "A51-C86"
-  },
-  {
-   "title": "Global Communication with Business Management with a Foundation Year",
-   "provider": "THE UNIVERSITY OF EAST ANGLIA",
-   "url": "https://www.uea.ac.uk/course/undergraduate/ba-global-communication-with-business-management-with-a-foundation-year/2027-28/sep",
-   "ucas_code": "A36-H38"
-  },
-  {
-   "title": "Arts and Humanities with Foundation Year",
-   "provider": "THE UNIVERSITY OF LEEDS",
-   "url": "https://courses.leeds.ac.uk/202728/g294/arts-and-humanities-with-foundation-year-ba",
-   "ucas_code": "A26-E62"
-  },
-  {
    "title": "Arabic and International Communication",
-   "provider": "THE UNIVERSITY OF WESTMINSTER",
+   "provider": "The University Of Westminster",
    "url": "https://www.westminster.ac.uk/arabic-and-international-communication-ba",
    "ucas_code": "A19-A80"
-  },
-  {
-   "title": "Education with Humanities",
-   "provider": "UNIVERSITY OF LANCASHIRE",
-   "url": "https://www.lancashire.ac.uk/undergraduate/courses/education-with-humanities-ba",
-   "ucas_code": "A73-B47"
   },
   {
    "title": "Philosophy, Politics, Ethics",

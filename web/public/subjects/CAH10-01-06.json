@@ -15,14 +15,8 @@
    "ucas_code": "A30-B16"
   },
   {
-   "title": "Biomedical Engineering",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biomedical-engineering-ug/beng-biomedical-engineering",
-   "ucas_code": "A15-D77"
-  },
-  {
    "title": "Biomedical and Healthcare Engineering",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/biomedical-and-healthcare-engineering",
    "ucas_code": "A65-E70"
   },
@@ -31,12 +25,6 @@
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/biomedical-engineering-beng",
    "ucas_code": "A51-J21"
-  },
-  {
-   "title": "Dental Technology",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-dental-technology/",
-   "ucas_code": "A08-G23"
   },
   {
    "title": "Medical Engineering",
@@ -51,12 +39,6 @@
    "ucas_code": "A76-D26"
   },
   {
-   "title": "Biomaterials and Tissue Engineering",
-   "provider": "Imperial College London",
-   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biomaterials-tissue-engineering-meng/",
-   "ucas_code": "A15-C60"
-  },
-  {
    "title": "Bioengineering (Regenerative Medicine)",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/bioengineeringregenerativemedicine/",
@@ -64,15 +46,21 @@
   },
   {
    "title": "Biomedical Engineering",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/biomedical-engineering-beng",
-   "ucas_code": "A27-F87"
-  },
-  {
-   "title": "Biomedical Engineering",
    "provider": "London Metropolitan University",
    "url": "https://www.londonmet.ac.uk/courses/undergraduate/biomedical-engineering---beng-hons/",
    "ucas_code": "A72-G34"
+  },
+  {
+   "title": "Biomedical Engineering",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/bioengineering-beng/#variant",
+   "ucas_code": "A18-B30"
+  },
+  {
+   "title": "Biomedical Engineering",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/beng-biomedical-engineering/september-2027/",
+   "ucas_code": "A61-C04"
   }
  ]
 }

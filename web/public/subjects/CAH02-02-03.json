@@ -16,21 +16,9 @@
   },
   {
    "title": "Pharmacy",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/pharmacy-ug/mpharm-pharmacy",
-   "ucas_code": "A15-F08"
-  },
-  {
-   "title": "Pharmacy",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/pharmacy-mpharm",
    "ucas_code": "A28-A63"
-  },
-  {
-   "title": "Pharmacy",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/pharmacy_&_pharmaceutical_sciences/mpharm_(hons)_pharmacy.cfm",
-   "ucas_code": "A72-H92"
   },
   {
    "title": "Pharmacy",
@@ -40,39 +28,39 @@
   },
   {
    "title": "Pharmacy",
-   "provider": "East Coast College",
-   "url": "http://www.uos.ac.uk/phm",
-   "ucas_code": "A76-A94"
-  },
-  {
-   "title": "Pharmacy",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/mpharm-pharmacy",
-   "ucas_code": "A01-G66"
-  },
-  {
-   "title": "Pharmaceutical Science",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/pharmaceutical-science",
-   "ucas_code": "A21-D60"
-  },
-  {
-   "title": "Pharmaceutical Science",
    "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/pharmaceuticalscience/",
-   "ucas_code": "A03-G93"
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/pharmacy",
+   "ucas_code": "A03-G94"
   },
   {
    "title": "Pharmacy",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/pharmacy-mpharm",
-   "ucas_code": "A27-H01"
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/pharmacy/",
+   "ucas_code": "A08-C29"
   },
   {
-   "title": "Pharmaceutical Science",
-   "provider": "Kingston University",
-   "url": "https://www.kingston.ac.uk/undergraduate/courses/pharmaceutical-science-mpharm/",
-   "ucas_code": "A08-C20"
+   "title": "Pharmacy",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/35577-pharmacy-mpharm",
+   "ucas_code": "A11-B22"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/b230/",
+   "ucas_code": "A27-C85"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/pharmacy-mpharm-b230/",
+   "ucas_code": "A28-C97"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "Robert Gordon University",
+   "url": "https://www.rgu.ac.uk/study/courses/mpharm-pharmacy",
+   "ucas_code": "A03-J33"
   }
  ]
 }

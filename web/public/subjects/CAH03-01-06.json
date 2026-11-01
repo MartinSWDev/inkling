@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Animal Behaviour",
+   "title": "Zoology",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?7HUXJN",
-   "ucas_code": "A22-E45"
+   "url": "http://www.aber.ac.uk/courses/?5FNN6Q",
+   "ucas_code": "A22-H57"
   },
   {
    "title": "Zoology",
@@ -15,46 +15,10 @@
    "ucas_code": "A14-B13"
   },
   {
-   "title": "Animal BioScience",
-   "provider": "Askham Bryan College",
-   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-animal-bioscience-with-management/",
-   "ucas_code": "A29-J62"
-  },
-  {
    "title": "Marine Biology And Zoology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/cc13-marine-biology-and-zoology-bsc-hons",
    "ucas_code": "A34-F92"
-  },
-  {
-   "title": "Zoology",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/zoology-ug/bsc-zoology",
-   "ucas_code": "A15-F36"
-  },
-  {
-   "title": "Animal Behaviour & Wildlife Conservation",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-animal-behaviour-and-wildlife-conservation",
-   "ucas_code": "A65-H50"
-  },
-  {
-   "title": "Zoology",
-   "provider": "CITY COLLEGE NORWICH",
-   "url": "https://he.ccn.ac.uk/courses/all-courses/course/bsc-hons-zoology",
-   "ucas_code": "A62-E73"
-  },
-  {
-   "title": "Applied Marine Zoology",
-   "provider": "Cornwall College",
-   "url": "https://www.cornwall.ac.uk/courses/bsc-hons-applied-marine-zoology-degree-2/",
-   "ucas_code": "A11-J49"
-  },
-  {
-   "title": "Biological Sciences (Zoology)",
-   "provider": "Halesowen College",
-   "url": "https://www.worcester.ac.uk/courses/biology-zoology-bsc-hons",
-   "ucas_code": "A11-E08"
   },
   {
    "title": "Applied Zoology",
@@ -69,10 +33,34 @@
    "ucas_code": "A75-G61"
   },
   {
-   "title": "Animal Behaviour",
+   "title": "Zoology",
    "provider": "Liverpool John Moores University",
-   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/31243-animal-behaviour-bsc-hons",
-   "ucas_code": "A10-J52"
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30990-zoology-bsc-hons",
+   "ucas_code": "A11-B53"
+  },
+  {
+   "title": "Zoology",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-zoology/september-2027/",
+   "ucas_code": "A45-E31"
+  },
+  {
+   "title": "Zoology",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-zoology",
+   "ucas_code": "A56-G80"
+  },
+  {
+   "title": "Marine Zoology",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/c350/",
+   "ucas_code": "A27-C47"
+  },
+  {
+   "title": "Zoology",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/zoology",
+   "ucas_code": "A42-I37"
   }
  ]
 }

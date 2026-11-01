@@ -4,13 +4,7 @@
  "courses": [
   {
    "title": "Physiotherapy",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/physiotherapy",
-   "ucas_code": "A06-E13"
-  },
-  {
-   "title": "Physiotherapy",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/physiotherapy/full-time/",
    "ucas_code": "A65-F92"
   },
@@ -34,7 +28,7 @@
   },
   {
    "title": "Physiotherapy",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/physiotherapy",
    "ucas_code": "A75-B26"
   },
@@ -58,21 +52,15 @@
   },
   {
    "title": "Physiotherapy",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Physiotherapy.cfm",
-   "ucas_code": "A31-F88"
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11PHYSIO",
+   "ucas_code": "A26-D50"
   },
   {
    "title": "Physiotherapy",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/physiotherapy-bsc-hons",
-   "ucas_code": "A67-I46"
-  },
-  {
-   "title": "Physiotherapy",
-   "provider": "East Coast College",
-   "url": "http://www.uos.ac.uk/phy",
-   "ucas_code": "A61-J79"
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/physiotherapy",
+   "ucas_code": "A03-H08"
   }
  ]
 }

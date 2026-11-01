@@ -3,34 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Environmental Management and Sustainability",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
-   "ucas_code": "A73-F56"
-  },
-  {
-   "title": "Cymraeg a Daearyddiaeth",
+   "title": "Geography",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?4QYYV6",
-   "ucas_code": "A22-F10"
-  },
-  {
-   "title": "Conservation with Forestry",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons",
-   "ucas_code": "A34-C14"
-  },
-  {
-   "title": "Environmental Management and Sustainability",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/environment-ug/bsc-environmental-management",
-   "ucas_code": "A15-E27"
-  },
-  {
-   "title": "Environment and Sustainability",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/environment-and-sustainability",
-   "ucas_code": "A57-B36"
+   "url": "http://www.aber.ac.uk/courses/?TD6VK4",
+   "ucas_code": "A22-F94"
   },
   {
    "title": "History and Human Geography",
@@ -39,40 +15,52 @@
    "ucas_code": "A77-I84"
   },
   {
-   "title": "Environment and Sustainability",
-   "provider": "Capel Manor College",
-   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-ba-environment-sustainability",
-   "ucas_code": "A69-E63"
-  },
-  {
-   "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://blackmountainscollege.uk/study/higher-education/",
-   "ucas_code": "A67-C51"
-  },
-  {
    "title": "Human Geography",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/human-geography-bsc",
    "ucas_code": "A27-J40"
   },
   {
-   "title": "Applied Zoology and Conservation",
-   "provider": "Cornwall College",
-   "url": "https://www.cornwall.ac.uk/financial-support/university-financial-support/",
-   "ucas_code": "A11-J54"
-  },
-  {
-   "title": "Sustainability and Environmental Management",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/sustainability-and-environmental-management-bsc-hons/?term=2027-28",
-   "ucas_code": "A73-J47"
-  },
-  {
    "title": "Geography",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/l700/",
    "ucas_code": "A07-H07"
+  },
+  {
+   "title": "Geography (Human and Physical)",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyhumanandphysicalwithintegratedmasters/",
+   "ucas_code": "B63-H68"
+  },
+  {
+   "title": "Geography",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/geography-bsc",
+   "ucas_code": "A57-E51"
+  },
+  {
+   "title": "Geography",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/geography-bsc/#variant",
+   "ucas_code": "A18-C41"
+  },
+  {
+   "title": "Human Geography",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-human-geography-with-option-to-study-overseas/september-2027/",
+   "ucas_code": "A31-J41"
+  },
+  {
+   "title": "Geography",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/l701/",
+   "ucas_code": "A27-C14"
+  },
+  {
+   "title": "Geography",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/geography",
+   "ucas_code": "A30-F41"
   }
  ]
 }

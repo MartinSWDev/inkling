@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { qualifiedSubjects, scoreAnswers } from "./scoring";
-import { ROUND_CAPS, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
+import { ROUND_CAPS, diverseTop, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
 
 const load = (p: string) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
 const cards = load("../../data/subject_cards.json").cards;
@@ -87,6 +87,16 @@ describe("room growth rules", () => {
     ];
     expect(growRoom(["A", "B"], { A: 5, B: 1 }, ranked, new Set(["NEW", "A", "B"]), 2)).toEqual(["A", "B"]);
     expect(growRoom(["A"], { A: 5 }, ranked, new Set(["NEW", "A", "B"]), 2)).toEqual(["A", "NEW"]);
+  });
+
+  it("top 3 keeps at most one subject per CAH level-2 parent", () => {
+    const row = (code: string, score: number) => ({ code, display_name: code, score, uncertainty: 1, direct: 1, reasons: [] });
+    const ranked = [row("CAH10-01-01", 10), row("CAH10-01-02", 9), row("CAH07-01-01", 8), row("CAH03-01-02", 7)];
+    const parentOf = (c: string) => c.split("-").slice(0, 2).join("-");
+    expect(diverseTop(ranked, parentOf).map((r) => r.code)).toEqual(["CAH10-01-01", "CAH07-01-01", "CAH03-01-02"]);
+    // ...unless the next distinct subject scores under 70% of the duplicate
+    const weak = [row("CAH10-01-01", 10), row("CAH10-01-02", 9), row("CAH07-01-01", 6), row("CAH03-01-02", 5)];
+    expect(diverseTop(weak, parentOf).map((r) => r.code)).toEqual(["CAH10-01-01", "CAH10-01-02", "CAH07-01-01"]);
   });
 
   it("reveal puts every result in the room, swapping only non-results", () => {

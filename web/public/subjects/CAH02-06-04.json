@@ -27,24 +27,6 @@
    "ucas_code": "A08-G38"
   },
   {
-   "title": "Public Health",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/public-health-bsc-hons",
-   "ucas_code": "A14-G81"
-  },
-  {
-   "title": "Public Health",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/public-health",
-   "ucas_code": "A17-G39"
-  },
-  {
-   "title": "Pharmaceutical Science with Regulatory Affairs",
-   "provider": "Kingston University",
-   "url": "https://www.kingston.ac.uk/undergraduate/courses/pharmaceutical-science-regulatory-bsc/",
-   "ucas_code": "A50-F63"
-  },
-  {
    "title": "Environmental Health",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/33261-environmental-health-bsc-hons",
@@ -58,13 +40,13 @@
   },
   {
    "title": "Public Health and Population Studies",
-   "provider": "THE UNIVERSITY OF BRADFORD",
+   "provider": "The University Of Bradford",
    "url": "https://www.bradford.ac.uk/courses/ug/public-health-population-studies-bsc/",
    "ucas_code": "A39-E20"
   },
   {
    "title": "Public Health",
-   "provider": "THE UNIVERSITY OF WESTMINSTER",
+   "provider": "The University Of Westminster",
    "url": "https://www.westminster.ac.uk/public-health-bsc-honours",
    "ucas_code": "A68-D61"
   },
@@ -73,6 +55,12 @@
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-public-health",
    "ucas_code": "A24-C39"
+  },
+  {
+   "title": "Public Health",
+   "provider": "University Of Lancashire",
+   "url": "https://london.uclan.ac.uk/our-courses/bsc-hons-public-health",
+   "ucas_code": ""
   }
  ]
 }

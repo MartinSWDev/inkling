@@ -15,14 +15,8 @@
    "ucas_code": "A30-C34"
   },
   {
-   "title": "Ophthalmic Dispensing",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/bsc-hons-ophthalmic-dispensing/",
-   "ucas_code": "A11-I97"
-  },
-  {
    "title": "Optometry",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/optometry",
    "ucas_code": "A13-I34"
   },
@@ -31,12 +25,6 @@
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/master-of-optometry",
    "ucas_code": "A67-F20"
-  },
-  {
-   "title": "Optometry",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/moptom_(hons)_optometry.cfm",
-   "ucas_code": "A70-F37"
   },
   {
    "title": "Optometry",
@@ -51,28 +39,28 @@
    "ucas_code": "A75-D37"
   },
   {
-   "title": "Initial Year For Extended Degree Science - Optometry",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/initial-year-for-extended-degree-in-science-optometry2",
-   "ucas_code": "A44-I12"
-  },
-  {
    "title": "Optometry",
-   "provider": "THE UNIVERSITY OF BRADFORD",
+   "provider": "The University Of Bradford",
    "url": "https://www.bradford.ac.uk/courses/ug/master-of-optometry/",
    "ucas_code": "A68-E69"
   },
   {
    "title": "Optometry",
-   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Optometry-MOptom",
    "ucas_code": "A71-A40"
   },
   {
    "title": "Optometry",
-   "provider": "THE UNIVERSITY OF LEICESTER",
+   "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/optometry-moptom/2027",
    "ucas_code": "A75-G88"
+  },
+  {
+   "title": "Orthoptics",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/orthoptics-bsc-hons/2027",
+   "ucas_code": "A03-A86"
   }
  ]
 }

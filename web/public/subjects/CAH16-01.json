@@ -15,12 +15,6 @@
    "ucas_code": "A22-E77"
   },
   {
-   "title": "Business and Law",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-and-law",
-   "ucas_code": "A55-B48"
-  },
-  {
    "title": "Commercial Law",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/commercial-law",
@@ -40,7 +34,7 @@
   },
   {
    "title": "Law",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/law-llb-hons/full-time/",
    "ucas_code": "A51-C32"
   },
@@ -51,16 +45,10 @@
    "ucas_code": "A62-B68"
   },
   {
-   "title": "Law",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/law-ug/llb-law",
-   "ucas_code": "A15-E97"
-  },
-  {
-   "title": "Business and Management (Law) with Integrated Foundation Year",
+   "title": "Criminology and Law",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/about-us/networks/educational-partners/william-college/",
-   "ucas_code": ""
+   "url": "https://www.bathspa.ac.uk/courses/ug-criminology-and-law/",
+   "ucas_code": "A60-A28"
   },
   {
    "title": "Law",

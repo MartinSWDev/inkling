@@ -16,12 +16,6 @@
   },
   {
    "title": "Biomedical Science",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/biomedical-science",
-   "ucas_code": "A06-B74"
-  },
-  {
-   "title": "Biomedical Science",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-science",
    "ucas_code": "A13-J64"
@@ -40,21 +34,9 @@
   },
   {
    "title": "Biomedical Science",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-biomedical-science",
-   "ucas_code": "A15-D78"
-  },
-  {
-   "title": "Biomedical Science",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-biomedical-science/",
    "ucas_code": "A65-I25"
-  },
-  {
-   "title": "Biomedicine",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/biomedicine",
-   "ucas_code": "A24-D35"
   },
   {
    "title": "Biomedical Sciences",
@@ -70,9 +52,15 @@
   },
   {
    "title": "Biomedical Science",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/biomedical-science-bsc-msci",
-   "ucas_code": "A38-J81"
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/biomedical-science",
+   "ucas_code": "A75-A84"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/biomedical-science",
+   "ucas_code": "A55-D32"
   }
  ]
 }

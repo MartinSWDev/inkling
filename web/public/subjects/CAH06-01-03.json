@@ -16,33 +16,9 @@
   },
   {
    "title": "Agriculture",
-   "provider": "Askham Bryan College",
-   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-agriculture/",
-   "ucas_code": "A29-J56"
-  },
-  {
-   "title": "Agricultural Business Management",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/agriculture-ug/bsc-agricultural-business-management",
-   "ucas_code": "A15-D50"
-  },
-  {
-   "title": "Agricultural Business Management",
-   "provider": "Capel Manor College",
-   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agricultural-business-management",
-   "ucas_code": "A66-D45"
-  },
-  {
-   "title": "Animal Behaviour Welfare and Conservation",
-   "provider": "Coastland College",
-   "url": "https://www.coastland.ac.uk/courses/find-your-course/bsc-hons-in-animal-behaviour-welfare-and-conservation-top-up/",
-   "ucas_code": "A72-H96"
-  },
-  {
-   "title": "Agribusiness Management",
    "provider": "Harper Adams University",
-   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBABMGT",
-   "ucas_code": "A30-G84"
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDAAGCLT",
+   "ucas_code": "A30-G95"
   },
   {
    "title": "Agriculture",
@@ -52,27 +28,39 @@
   },
   {
    "title": "Agriculture",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-agriculture",
    "ucas_code": "A52-A25"
   },
   {
-   "title": "Agri-Business Management",
+   "title": "Agriculture",
    "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/n280/",
-   "ucas_code": "A27-A73"
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/d400/",
+   "ucas_code": "A27-A74"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Askham Bryan College",
+   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-agriculture/",
+   "ucas_code": "A29-J56"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/agriculture-ug/bsc-agriculture",
+   "ucas_code": "A15-D52"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Capel Manor College",
+   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agriculture",
+   "ucas_code": "A11-B56"
   },
   {
    "title": "Agriculture",
    "provider": "Pembrokeshire College",
    "url": "https://www.csgcc.ac.uk/en",
    "ucas_code": ""
-  },
-  {
-   "title": "Agricultural Sciences",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/agricultural-sciences-bsc-d700",
-   "ucas_code": "A76-B41"
   }
  ]
 }

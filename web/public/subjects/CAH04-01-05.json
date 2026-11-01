@@ -3,18 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Criminology and Criminal Psychology",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/criminology-and-criminal-psychology-bsc-hons",
-   "ucas_code": "A14-F24"
-  },
-  {
-   "title": "Applied Psychosocial and Psychotherapy Studies",
-   "provider": "GOLDSMITHS' COLLEGE",
-   "url": "http://www.gold.ac.uk/ug/ba-psychosocial-studies/",
-   "ucas_code": "A17-C52"
-  },
-  {
    "title": "Social Psychology",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/socialpsychology",
@@ -22,7 +10,7 @@
   },
   {
    "title": "Psychology (Cognition and Neuroscience)",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-cognition-and-neuroscience",
    "ucas_code": "A73-A15"
   },
@@ -33,46 +21,46 @@
    "ucas_code": "A69-I24"
   },
   {
-   "title": "Music Psychology in Practice",
-   "provider": "SAE Institute Ltd",
-   "url": "https://www.icmp.ac.uk/course/ba-hons-music-psychology-in-practice",
-   "ucas_code": "A76-I91"
-  },
-  {
    "title": "Cognitive Psychology",
-   "provider": "THE UNIVERSITY OF EAST ANGLIA",
+   "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-cognitive-psychology/2027-28/sep",
    "ucas_code": "A36-G67"
   },
   {
    "title": "Criminology with Social Psychology",
-   "provider": "THE UNIVERSITY OF ESSEX",
+   "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00092/1?coursecode=L3C8",
    "ucas_code": "A32-E66"
   },
   {
-   "title": "Psychology and Crime Foundation Pathway leading to a  Degree",
-   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
-   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Psychology-and-Crime-Foundation-Pathway-leading-to-a-BSc-Hons-Degree",
-   "ucas_code": "A74-C67"
+   "title": "Psychology with Criminology",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Psychology-with-Criminology-BSc-Hons",
+   "ucas_code": "A13-H06"
   },
   {
    "title": "Music and Music Psychology",
-   "provider": "THE UNIVERSITY OF LEEDS",
+   "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i566/music-and-music-psychology-ba",
    "ucas_code": "A73-D53"
   },
   {
    "title": "Psychology with Cognitive Neuroscience",
-   "provider": "THE UNIVERSITY OF LEICESTER",
+   "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/psychology-with-cognitive-neuroscience-bsc/2027",
    "ucas_code": "A05-C05"
   },
   {
-   "title": "Cognitive and Clinical Neuroscience",
-   "provider": "THE UNIVERSITY OF WESTMINSTER",
-   "url": "http://www.westminster.ac.uk/cognitive-and-clinical-neuroscience-bsc",
-   "ucas_code": "A19-B11"
+   "title": "Psychology and Cognitive Neuroscience",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Psychology-and-Cognitive-Neuroscience-BSc-Hons.html",
+   "ucas_code": "A00-H29"
+  },
+  {
+   "title": "Psychology with Education",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology-with-early-childhood-studies",
+   "ucas_code": "A74-A69"
   }
  ]
 }

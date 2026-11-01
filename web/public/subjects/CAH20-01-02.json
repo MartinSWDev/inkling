@@ -9,40 +9,10 @@
    "ucas_code": "A22-E51"
   },
   {
-   "title": "Anthropology and History of Art",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-history-of-art",
-   "ucas_code": "A06-B55"
-  },
-  {
-   "title": "Art and History of Art",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-history-of-art",
-   "ucas_code": "A15-D69"
-  },
-  {
    "title": "Art History",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history",
    "ucas_code": "A65-H22"
-  },
-  {
-   "title": "History of Art",
-   "provider": "Courtauld Institute of Art",
-   "url": "http://courtauld.ac.uk/study/undergraduate/ba-history-of-art",
-   "ucas_code": "A20-A91"
-  },
-  {
-   "title": "Curating",
-   "provider": "GOLDSMITHS' COLLEGE",
-   "url": "http://www.gold.ac.uk/ug/ba-curating/",
-   "ucas_code": "A17-B96"
-  },
-  {
-   "title": "Architecture",
-   "provider": "Glasgow School of Art.",
-   "url": "https://www.gsa.ac.uk/undergraduate-degrees/architecture-barch",
-   "ucas_code": "A15-G51"
   },
   {
    "title": "Interaction Design",
@@ -52,7 +22,7 @@
   },
   {
    "title": "Fine Art and Art History",
-   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-fine-art-and-art-history/september-2027/",
    "ucas_code": "A31-I95"
   },
@@ -69,10 +39,28 @@
    "ucas_code": "A66-H52"
   },
   {
-   "title": "Arts and Visual Cultures",
-   "provider": "Richmond, The American International University in London",
-   "url": "https://www.richmond.ac.uk/undergraduate-programmes/ba-arts-and-visual-cultures/",
-   "ucas_code": "A07-C22"
+   "title": "Comparative Literature and Culture with History of Art and Visual Culture",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-with-history-of-art-and-visual-culture/",
+   "ucas_code": "A17-C94"
+  },
+  {
+   "title": "Arabic and History of Art",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-arabic-and",
+   "ucas_code": "A12-J49"
+  },
+  {
+   "title": "History of Art",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/histart/history-art.aspx",
+   "ucas_code": "A04-I76"
+  },
+  {
+   "title": "Archaeology, Anthropology and Art History",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-archaeology-anthropology-and-art-history/2027-28/sep",
+   "ucas_code": "A36-G34"
   }
  ]
 }

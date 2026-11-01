@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Medical Science",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/medical-science",
-   "ucas_code": "A06-D80"
-  },
-  {
    "title": "Medicine",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/medicine",
@@ -21,28 +15,10 @@
    "ucas_code": "A41-H82"
   },
   {
-   "title": "Medical Sciences",
+   "title": "Medicine",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons",
-   "ucas_code": "A34-G25"
-  },
-  {
-   "title": "Medical Science",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/medical-sciences-ug/bsc-medical-science",
-   "ucas_code": "A55-D55"
-  },
-  {
-   "title": "Sport and Exercise Therapy and Rehabilitation",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-sport-and-exercise-therapy-and-rehabilitation",
-   "ucas_code": "A60-D86"
-  },
-  {
-   "title": "Bachelor of Medicine Bachelor of Surgery",
-   "provider": "Brighton and Sussex Medical School",
-   "url": "http://www.bsms.ac.uk/undergraduate/our-course",
-   "ucas_code": "A17-H57"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/a103-medicine-bmbs",
+   "ucas_code": ""
   },
   {
    "title": "Medicine",
@@ -52,27 +28,39 @@
   },
   {
    "title": "Medicine",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/medicine",
    "ucas_code": "A75-B13"
   },
   {
-   "title": "Dental Surgery",
+   "title": "Medicine",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/dental-surgery-bds",
-   "ucas_code": "A27-I68"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/medicine-mbbch",
+   "ucas_code": "A28-A33"
   },
   {
-   "title": "Dental Hygiene",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/bsc_(hons)_dental_hygiene.cfm",
-   "ucas_code": "A31-E83"
+   "title": "Bachelor Of Medicine Bachelor Of Surgery",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/medicine/",
+   "ucas_code": "A53-I60"
   },
   {
-   "title": "Clinical Science",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/clinical-science-1",
-   "ucas_code": "A72-G06"
+   "title": "Medicine",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/medicine/",
+   "ucas_code": "A03-G70"
+  },
+  {
+   "title": "Medicine and Surgery",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/a100/",
+   "ucas_code": "A27-C71"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
+   "ucas_code": "A30-G06"
   }
  ]
 }

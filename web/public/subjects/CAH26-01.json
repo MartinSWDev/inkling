@@ -9,28 +9,16 @@
    "ucas_code": "A73-F56"
   },
   {
-   "title": "Business and Climate Change",
+   "title": "Computer Science/Physical Geography",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?JWRCFD",
-   "ucas_code": "A56-E89"
+   "url": "http://www.aber.ac.uk/courses/?HU4RSM",
+   "ucas_code": "A22-E90"
   },
   {
-   "title": "Anthropology and Geography",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-geography",
-   "ucas_code": "A06-B53"
-  },
-  {
-   "title": "Conservation with Forestry",
+   "title": "Environmental Conservation",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons",
-   "ucas_code": "A34-C14"
-  },
-  {
-   "title": "Environmental Management and Sustainability",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/environment-ug/bsc-environmental-management",
-   "ucas_code": "A15-E27"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/d447-environmental-conservation-bsc-hons",
+   "ucas_code": "A34-D34"
   },
   {
    "title": "Education and Geography",
@@ -39,10 +27,10 @@
    "ucas_code": "A09-F88"
   },
   {
-   "title": "Environment and Sustainability",
+   "title": "Environmental Geoscience",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/environment-and-sustainability",
-   "ucas_code": "A57-B36"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/environmental-geoscience",
+   "ucas_code": "A71-I84"
   },
   {
    "title": "Environmental Science",
@@ -63,16 +51,16 @@
    "ucas_code": "A19-G01"
   },
   {
-   "title": "Environment and Sustainability",
-   "provider": "Capel Manor College",
-   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-ba-environment-sustainability",
-   "ucas_code": "A69-E63"
+   "title": "Environmental Geography",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/environmental-geography-bsc",
+   "ucas_code": "A55-H15"
   },
   {
-   "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://blackmountainscollege.uk/study/higher-education/",
-   "ucas_code": "A67-C51"
+   "title": "Environmental Science",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/environmental-science-bsc/?term=2027-28",
+   "ucas_code": "A73-J45"
   }
  ]
 }

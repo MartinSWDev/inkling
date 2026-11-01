@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Politics And International Relations",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-politics-and-international-relations",
-   "ucas_code": "A21-D90"
-  },
-  {
    "title": "Combined Honours",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/y001/",
@@ -33,10 +27,10 @@
    "ucas_code": "A66-J28"
   },
   {
-   "title": "Business with Foundation Year",
-   "provider": "University of Portsmouth",
-   "url": "https://www.port.ac.uk/study/courses/business-with-foundation-year-london",
-   "ucas_code": "A74-H26"
+   "title": "Politics And International Relations",
+   "provider": "Hertford Regional College",
+   "url": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-politics-and-international-relations",
+   "ucas_code": "A21-D90"
   },
   {
    "title": "Graphic Communication",

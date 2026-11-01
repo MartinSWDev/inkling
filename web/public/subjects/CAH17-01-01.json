@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Fashion Management and Strategy",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "provider": "Arts University Bournemouth, The",
    "url": "https://aub.ac.uk/course/bsc-hons-fashion-management-and-strategy",
    "ucas_code": "A73-E47"
   },
@@ -13,12 +13,6 @@
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
    "ucas_code": "A76-I54"
-  },
-  {
-   "title": "Business Management and Geography",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-management-and-geography",
-   "ucas_code": "A57-H50"
   },
   {
    "title": "Law with Business Management",
@@ -33,46 +27,40 @@
    "ucas_code": ""
   },
   {
-   "title": "Equine Science Management",
-   "provider": "Askham Bryan College",
-   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-equine-science-with-management/",
-   "ucas_code": "A29-J75"
-  },
-  {
-   "title": "Foundation Programme: Business and Management",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/business-management-foundation",
-   "ucas_code": "B58-A08"
-  },
-  {
-   "title": "Business and Management",
-   "provider": "Asu London Centre for Advanced Learning",
-   "url": "https://asu-london.ac.uk/courses/undergraduate/business-and-management/",
-   "ucas_code": "A76-G73"
-  },
-  {
-   "title": "BA Top Up Degree in Events Management (September Start)",
-   "provider": "BARNET & SOUTHGATE COLLEGE",
-   "url": "https://www.barnetsouthgate.ac.uk/higher-education-courses/ba-top-up-degree-in-events-management-september-start",
-   "ucas_code": "A61-C11"
-  },
-  {
    "title": "Business Management",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/business-management-ba-hons/full-time/",
    "ucas_code": "A15-G78"
-  },
-  {
-   "title": "Business Management",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/th1he0015",
-   "ucas_code": "A76-C08"
   },
   {
    "title": "Applied Management",
    "provider": "BPP University",
    "url": "https://www.bpp.com/leadership-and-management/bsc-applied-management",
    "ucas_code": ""
+  },
+  {
+   "title": "Business Management and Criminology",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
+   "ucas_code": "A43-E18"
+  },
+  {
+   "title": "Bioscience with Management",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/bioscience-with-management",
+   "ucas_code": ""
+  },
+  {
+   "title": "Business Management",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/business-management-ba-hons-2027-28",
+   "ucas_code": "A14-C79"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-2",
+   "ucas_code": "A54-D94"
   }
  ]
 }

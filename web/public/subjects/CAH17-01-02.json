@@ -9,18 +9,6 @@
    "ucas_code": "A51-B78"
   },
   {
-   "title": "Business and Entrepreneurship",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/global-business-and-entrepreneurship",
-   "ucas_code": "A68-D72"
-  },
-  {
-   "title": "Business Management",
-   "provider": "Amity Global Education Ltd",
-   "url": "https://www.amity.ac.uk/6n101",
-   "ucas_code": "A52-G67"
-  },
-  {
    "title": "Business Economics",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/business-economics",
@@ -33,16 +21,10 @@
    "ucas_code": "A30-B27"
   },
   {
-   "title": "Banking with Financial Technology",
+   "title": "Business Data Analytics",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/n312-banking-with-financial-technology-fintech-bsc-hons",
-   "ucas_code": "A58-F84"
-  },
-  {
-   "title": "Accounting and Business",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-accounting-and-business",
-   "ucas_code": "A15-D45"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n313-business-data-analytics-bsc-hons",
+   "ucas_code": "A68-B75"
   },
   {
    "title": "Business Management and Criminology",
@@ -63,16 +45,22 @@
    "ucas_code": "A75-F26"
   },
   {
-   "title": "Business with Management",
-   "provider": "Blackburn College",
-   "url": "https://blackburn.ac.uk/find-a-course/business/business/business-with-management-ba-hons",
-   "ucas_code": "A05-D96"
-  },
-  {
    "title": "Business Management with Entrepreneurship",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/business-management-with-entrepreneurship-bsc",
    "ucas_code": "A69-D98"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-business-management",
+   "ucas_code": "A03-C84"
+  },
+  {
+   "title": "Business Analytics",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/business-analytics",
+   "ucas_code": "A69-J39"
   }
  ]
 }

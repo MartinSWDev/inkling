@@ -3,20 +3,14 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Business Analytics",
-   "provider": "THE UNIVERSITY OF LANCASTER",
-   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/business-analytics-bsc-hons-n2n1/",
-   "ucas_code": "A25-I31"
-  },
-  {
-   "title": "Business Management with Business Analytics",
-   "provider": "THE UNIVERSITY OF SURREY",
-   "url": "https://www.surrey.ac.uk/undergraduate/business-management-business-analytics/2027",
-   "ucas_code": "A68-I19"
+   "title": "Mathematics, Operational Research, Statistics and Economics (MORSE)",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/mathematics-operational-research-statistics-and-economics-morse-bsc-hons-gln0/",
+   "ucas_code": "A26-A47"
   },
   {
    "title": "Mathematics, Operational Research, Statistics and Economics (MORSE)",
-   "provider": "THE UNIVERSITY OF WARWICK",
+   "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/mmorse-morse",
    "ucas_code": "A20-D10"
   },

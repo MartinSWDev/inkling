@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Nursing (Children's)",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/childrens-nursing",
-   "ucas_code": "A06-E00"
-  },
-  {
    "title": "Nursing (Adult and Children)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-children",
@@ -39,14 +33,8 @@
    "ucas_code": "A62-B19"
   },
   {
-   "title": "Nursing Practice (Child)",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/nursing-practice-child-bsc",
-   "ucas_code": "A39-C25"
-  },
-  {
    "title": "Children's Nursing",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/childrens-nursing",
    "ucas_code": "A13-H61"
   },
@@ -69,10 +57,10 @@
    "ucas_code": "A71-H95"
   },
   {
-   "title": "Nursing Studies (Child) (Pre-Registration)",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Nursing_Studies_(Child).cfm",
-   "ucas_code": "A31-F75"
+   "title": "Nursing with Registration (Child Nursing)",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-child-nursing-degree/nursing-with-registration-child-nursing-bsc-hons.aspx",
+   "ucas_code": "A25-H59"
   }
  ]
 }

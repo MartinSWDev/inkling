@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Creative Writing",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "provider": "Arts University Bournemouth, The",
    "url": "http://aub.ac.uk/courses/ba/creative-writing/",
    "ucas_code": "A38-F96"
   },
@@ -13,12 +13,6 @@
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?5AJ377",
    "ucas_code": "A22-E99"
-  },
-  {
-   "title": "English Literature with Creative Writing",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/english-literature-with-creative-writing",
-   "ucas_code": "A06-C80"
   },
   {
    "title": "Creative Writing",
@@ -31,12 +25,6 @@
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/w801-creative-writing-ba-hons",
    "ucas_code": "A72-B52"
-  },
-  {
-   "title": "Art and Creative Writing",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-creative-writing",
-   "ucas_code": "A53-J40"
   },
   {
    "title": "Creative Writing",
@@ -63,16 +51,16 @@
    "ucas_code": "A19-J09"
   },
   {
-   "title": "English and Creative Writing",
-   "provider": "Burnley College",
-   "url": "https://www.burnley.ac.uk/course/?code=a6026",
-   "ucas_code": "A75-I57"
-  },
-  {
    "title": "Creative Writing",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/creative-writing",
    "ucas_code": "A19-D99"
+  },
+  {
+   "title": "English and Creative Writing",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.nptcgroup.ac.uk/courses/ba-hons-english-and-creative-writing/",
+   "ucas_code": "A74-C99"
   }
  ]
 }

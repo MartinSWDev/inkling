@@ -9,10 +9,10 @@
    "ucas_code": "A06-B29"
   },
   {
-   "title": "Crime and Investigative Studies",
+   "title": "Forensic Science",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/crime-and-investigative-studies",
-   "ucas_code": "A14-A05"
+   "url": "https://www.aru.ac.uk/study/undergraduate/forensic-science",
+   "ucas_code": "A14-A40"
   },
   {
    "title": "Forensic Science",
@@ -33,22 +33,10 @@
    "ucas_code": "A57-C35"
   },
   {
-   "title": "Forensic Investigation",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/forensic-investigation-bsc",
-   "ucas_code": "A39-B35"
-  },
-  {
    "title": "Applied Criminology with Forensic Investigation",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/applied-criminology-with-forensic-investigation",
    "ucas_code": "A19-C86"
-  },
-  {
-   "title": "Archaeology and Heritage Science",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/archaeology-and-heritage-science-bsc",
-   "ucas_code": "A76-I86"
   },
   {
    "title": "Biological and Forensic Sciences",
@@ -57,22 +45,22 @@
    "ucas_code": "A38-G39"
   },
   {
-   "title": "Computer and Digital Forensics",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/computing_&_cyber_security/bsc_(hons)_computer_and_digital_forensics.cfm",
-   "ucas_code": "A31-E46"
-  },
-  {
    "title": "Forensic Science",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/forensic-science/forensic-science-bsc-msci-degree.aspx",
    "ucas_code": "A25-G98"
   },
   {
-   "title": "Forensic Science",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/forensic-science-bsc-hons",
-   "ucas_code": "A14-F77"
+   "title": "Forensic Investigation",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11FRSINV",
+   "ucas_code": "A26-D00"
+  },
+  {
+   "title": "Forensic Biology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/forensicbiology/",
+   "ucas_code": "A73-G78"
   }
  ]
 }

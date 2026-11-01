@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Games Development and Futures (2 Year)",
-   "provider": "ACM",
-   "url": "https://www.acm.ac.uk/courses/higher-education/game-development/",
-   "ucas_code": "A45-F53"
-  },
-  {
-   "title": "Games Art and Design",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "https://aub.ac.uk/course/games-art-and-design",
-   "ucas_code": "A69-B27"
-  },
-  {
-   "title": "Computer Game Applications Development",
+   "title": "Computing",
    "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
-   "ucas_code": "A06-B18"
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
+   "ucas_code": "A06-B20"
   },
   {
    "title": "Accounting and Finance and Computing",
@@ -27,16 +15,10 @@
    "ucas_code": "A57-B01"
   },
   {
-   "title": "Artificial Intelligence",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/artificial-intelligence",
-   "ucas_code": "A52-B01"
-  },
-  {
-   "title": "Applied Computer Science",
+   "title": "Computing",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/applied-computer-science-west-anglia",
-   "ucas_code": "A13-J98"
+   "url": "https://www.aru.ac.uk/study/undergraduate/computing",
+   "ucas_code": "A67-B15"
   },
   {
    "title": "Computing",
@@ -45,34 +27,40 @@
    "ucas_code": ""
   },
   {
-   "title": "Game Arts & Animation",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
-   "ucas_code": "A16-E66"
-  },
-  {
-   "title": "Artificial Intelligence and Robotics",
+   "title": "Business Computing and IT",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/ai-and-robotics-bsc",
-   "ucas_code": "A71-H67"
+   "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
+   "ucas_code": "A30-B27"
   },
   {
-   "title": "Computer Science",
-   "provider": "Asu London Centre for Advanced Learning",
-   "url": "https://asu-london.ac.uk/courses/undergraduate/computer-science/",
-   "ucas_code": "A76-G72"
+   "title": "Creative Computing Specialised",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-creative-computing/",
+   "ucas_code": "A65-I74"
   },
   {
-   "title": "Computer Science",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/computer-science-bsc-hons/computer-science-bsc-hons/",
-   "ucas_code": "A51-C75"
+   "title": "Business Computing",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/business-computing",
+   "ucas_code": "A69-G31"
   },
   {
-   "title": "Biology With Biotechnology",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons",
-   "ucas_code": "A34-B36"
+   "title": "Computing and Information Technology",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/computing-information-technology-bsc-hons-2027-28",
+   "ucas_code": "A14-C96"
+  },
+  {
+   "title": "Business Computing with Analytics",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-computing-analytics-0",
+   "ucas_code": "A66-I18"
+  },
+  {
+   "title": "Business Computing",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/business-computing-bsc",
+   "ucas_code": "A19-I77"
   }
  ]
 }

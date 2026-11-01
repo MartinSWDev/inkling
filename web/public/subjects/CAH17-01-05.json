@@ -9,10 +9,10 @@
    "ucas_code": "A03-C44"
   },
   {
-   "title": "Foundation Programme: Human Resources and Business Management",
+   "title": "Human Resources and Business Management",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/human-resource-business-management-foundation",
-   "ucas_code": "B58-A09"
+   "url": "https://www.aston.ac.uk/study/courses/human-resources-and-business-management-bsc",
+   "ucas_code": "A30-B96"
   },
   {
    "title": "Management with Human Resource Management",
@@ -25,12 +25,6 @@
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/human-resource-management-ba-hons-2027-28",
    "ucas_code": "A14-D49"
-  },
-  {
-   "title": "Business Management (Human Resource Management)",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/business-management-human-resource-management-bsc",
-   "ucas_code": "A68-B31"
   },
   {
    "title": "Human Resource Management",
@@ -57,22 +51,16 @@
    "ucas_code": "A25-H19"
   },
   {
-   "title": "Business Psychology",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/business-psychology-bsc-hons",
-   "ucas_code": "A14-E82"
+   "title": "Business Management with Human Resource Management",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-business-management-with-human-resource-management-undergraduate-fulltime",
+   "ucas_code": "A25-C28"
   },
   {
-   "title": "Human Resource Management",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/human-resource-management",
-   "ucas_code": "A17-G52"
-  },
-  {
-   "title": "Business and Human Resource Management",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-human-resource-management",
-   "ucas_code": "A01-B25"
+   "title": "Business Management with Human Resources",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/businessmanagementwithhumanresources/",
+   "ucas_code": "A03-E60"
   }
  ]
 }

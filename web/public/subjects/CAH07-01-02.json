@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Astrophysics",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?CJZ7C4",
-   "ucas_code": "A22-E55"
-  },
-  {
    "title": "Planetary Science with Astronomy",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/planetary-science-with-astronomy",
    "ucas_code": "A76-D54"
-  },
-  {
-   "title": "Astrophysics",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/astrophysics-bsc",
-   "ucas_code": "A27-H81"
   },
   {
    "title": "Physics and Astronomy",
@@ -27,52 +15,34 @@
    "ucas_code": "A07-H58"
   },
   {
-   "title": "Astrophysics",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/astrophysics",
-   "ucas_code": "A21-A64"
+   "title": "Physics with Astronomy",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/physics-with-astronomy-bsc-hons/2027",
+   "ucas_code": "A03-B14"
   },
   {
-   "title": "Earth and Planetary Science",
-   "provider": "Imperial College London",
-   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/earth-planetary-science-msci/",
-   "ucas_code": "A48-D54"
+   "title": "Physics with Astronomy",
+   "provider": "The University Of Surrey",
+   "url": "https://www.surrey.ac.uk/undergraduate/physics-astronomy/2027",
+   "ucas_code": "A36-F81"
   },
   {
-   "title": "Astrophysics",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/astrophysicswithintegratedmasters/",
-   "ucas_code": "A70-C19"
+   "title": "Astronomy/Mathematics",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/astronomy/",
+   "ucas_code": "A24-E75"
   },
   {
-   "title": "Physics with Astrophysics",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
-   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-physics-with-astrophysics",
-   "ucas_code": "A38-E85"
+   "title": "Astronomy Space Science and Astrophysics",
+   "provider": "University of Kent (Part of London and South East University Group)",
+   "url": "https://www.kent.ac.uk/courses/undergraduate/2027/67/astronomy-space-science-and-astrophysics-bsc",
+   "ucas_code": "A08-I10"
   },
   {
-   "title": "Physics with Astrophysics",
-   "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/f3f5/",
-   "ucas_code": "A54-I67"
-  },
-  {
-   "title": "Physics with Astro-Physics",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/physics-astrophysics-bsc-f3f5/",
-   "ucas_code": "A28-D02"
-  },
-  {
-   "title": "Astrophysics",
-   "provider": "Royal Holloway, University of London",
-   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/physics/astrophysics-msci/",
-   "ucas_code": "A17-C69"
-  },
-  {
-   "title": "Astrophysics",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/biosciences-geography-physics/physics/bsc-astrophysics/",
-   "ucas_code": "A71-F55"
+   "title": "Physics with Astronomy",
+   "provider": "University of Southampton",
+   "url": "https://www.southampton.ac.uk/courses/physics-with-astronomy-degree-mphys",
+   "ucas_code": "A23-E78"
   }
  ]
 }

@@ -9,22 +9,10 @@
    "ucas_code": "A57-H45"
   },
   {
-   "title": "Psychological Studies (Child Development and Education) 3-year full-time",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/psychological-studies-child-development-and-education",
-   "ucas_code": "B72-F39"
-  },
-  {
    "title": "Psychology in Education",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-psychology-education",
    "ucas_code": "A70-H68"
-  },
-  {
-   "title": "Psychology and Child Development",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/psychology-child-development-bsc",
-   "ucas_code": "A39-C49"
   },
   {
    "title": "Education, Psychology and Special Educational Needs",
@@ -37,18 +25,6 @@
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/cas/psychology-with-education-bsc-hons/?term=2027-28",
    "ucas_code": "A75-F85"
-  },
-  {
-   "title": "Psychology with Educational Practice",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/psychology-educational-practice",
-   "ucas_code": "A72-D96"
-  },
-  {
-   "title": "Psychology With Educational Perspectives With Stem Foundation Year",
-   "provider": "Edge Hill University",
-   "url": "https://www.edgehill.ac.uk/course/stem-foundation-year/",
-   "ucas_code": "A76-F32"
   },
   {
    "title": "Psychology in Education",
@@ -70,9 +46,21 @@
   },
   {
    "title": "Educational Psychology",
-   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-educational-psychology/september-2027/",
    "ucas_code": "A48-C10"
+  },
+  {
+   "title": "Psychology and Education",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/study/undergraduate-courses/psychology-and-education/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Psychology, Lifespan and Developmental Psychology",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/psychology/psychology-lifespan-and-developmental-psychology/",
+   "ucas_code": "A17-F01"
   }
  ]
 }

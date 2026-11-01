@@ -3,16 +3,40 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Craft & Material Practices",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/ba-hons-craft-material-practices/overview",
-   "ucas_code": "A16-E64"
+   "title": "Artist Designer: Maker",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-artist-designer-maker/",
+   "ucas_code": "A08-G01"
   },
   {
-   "title": "Horology",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/horology-ba-hons-2027-28",
-   "ucas_code": "A14-D47"
+   "title": "Design Crafts",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/design-crafts-ba-degree/design-crafts-ba-degree.aspx",
+   "ucas_code": "A25-G41"
+  },
+  {
+   "title": "3d Design And Craft",
+   "provider": "Leeds Arts University",
+   "url": "https://www.leeds-art.ac.uk/courses/ba-hons-3d-design-and-craft",
+   "ucas_code": "A76-B10"
+  },
+  {
+   "title": "Make-Up and Hair Design",
+   "provider": "Southampton Solent University",
+   "url": "https://www.solent.ac.uk/courses/undergraduate/make-up-and-hair-design-ba/2027/ba-hons-make-up-and-hair-design-3-years-2027",
+   "ucas_code": "A53-B16"
+  },
+  {
+   "title": "Graphic Design",
+   "provider": "University College Birmingham",
+   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/graphic-design-ba-hons-fda/",
+   "ucas_code": "A71-G02"
+  },
+  {
+   "title": "Make-Up and Hair Design",
+   "provider": "University for the Creative Arts",
+   "url": "https://www.uca.ac.uk/study/courses/ba-make-up-hair-design/",
+   "ucas_code": "A46-G14"
   },
   {
    "title": "Creative Arts",
@@ -37,42 +61,6 @@
    "provider": "Calderdale College",
    "url": "https://www.calderdale.ac.uk/courses/ba-hons-top-up-contemporary-art-design-practice/",
    "ucas_code": "A17-B35"
-  },
-  {
-   "title": "Artist Designer: Maker",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-artist-designer-maker/",
-   "ucas_code": "A08-G01"
-  },
-  {
-   "title": "Makeup & Hair for Theatre & Media",
-   "provider": "Chichester College Group",
-   "url": "https://www.northbrook.ac.uk/courses/ba-hons-makeup-and-hair-for-theatre-and-media/",
-   "ucas_code": "A69-B25"
-  },
-  {
-   "title": "Carving: Architectural Stone",
-   "provider": "City and Guilds of London Art School",
-   "url": "https://www.cityandguildsartschool.ac.uk/architectural-stone/",
-   "ucas_code": ""
-  },
-  {
-   "title": "Design Crafts",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/design-crafts-ba-degree/design-crafts-ba-degree.aspx",
-   "ucas_code": "A25-G41"
-  },
-  {
-   "title": "Silversmithing And Jewellery",
-   "provider": "Glasgow School of Art.",
-   "url": "https://www.gsa.ac.uk/undergraduate-degrees/silversmithing-jewellery",
-   "ucas_code": "A15-G61"
-  },
-  {
-   "title": "Artist Blacksmithing",
-   "provider": "Hereford College of Arts",
-   "url": "https://www.hca.ac.uk/course/artist-blacksmithing",
-   "ucas_code": "A34-A75"
   }
  ]
 }

@@ -15,12 +15,6 @@
    "ucas_code": "A62-H43"
   },
   {
-   "title": "Nursing (Mental Health)",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/mental-health-nursing",
-   "ucas_code": "A06-E02"
-  },
-  {
    "title": "Nursing (Adult and Mental Health)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-mental-health",
@@ -34,7 +28,7 @@
   },
   {
    "title": "Mental Health Nursing",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/mental-health-nursing/full-time/",
    "ucas_code": "A65-F91"
   },
@@ -67,12 +61,6 @@
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/nursing-mental-health-bsc",
    "ucas_code": "A62-B20"
-  },
-  {
-   "title": "Mental Health Nursing",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-mental-health-nursing",
-   "ucas_code": "A03-D58"
   }
  ]
 }

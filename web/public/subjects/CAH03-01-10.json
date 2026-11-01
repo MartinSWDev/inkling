@@ -9,16 +9,16 @@
    "ucas_code": "A75-B30"
   },
   {
+   "title": "Applied Biosciences",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
+   "ucas_code": "A38-G37"
+  },
+  {
    "title": "Medical Science",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-medical-science-0",
    "ucas_code": "A51-A28"
-  },
-  {
-   "title": "Medical Biology",
-   "provider": "Burnley College",
-   "url": "https://www.burnley.ac.uk/course/?code=a6025",
-   "ucas_code": "A60-E01"
   },
   {
    "title": "Human Biology",
@@ -27,28 +27,10 @@
    "ucas_code": "A39-E77"
   },
   {
-   "title": "Applied Biosciences",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
-   "ucas_code": "A38-G37"
-  },
-  {
-   "title": "Human Biology",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/human-biology",
-   "ucas_code": "A65-A80"
-  },
-  {
-   "title": "Human Biology with Foundation Year",
+   "title": "Psychology with Human Biology",
    "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/humanbiologyandpsychology/",
-   "ucas_code": "A03-G10"
-  },
-  {
-   "title": "Anatomy, Developmental & Human Biology",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/anatomy-developmental-and-human-biology-bsc",
-   "ucas_code": "A27-F82"
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/psychologywithhumanbiology/",
+   "ucas_code": "A73-H15"
   },
   {
    "title": "Human Biology",
@@ -63,16 +45,22 @@
    "ucas_code": "A18-C64"
   },
   {
-   "title": "Biomedical & Pharmaceutical Sciences",
-   "provider": "Luminate Education Group",
-   "url": "https://ucleeds.ac.uk/courses/undergraduate-courses/biomedical-and-pharmaceutical-science-bsc-hons/",
-   "ucas_code": "A74-F42"
-  },
-  {
    "title": "Human Biology",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/human-biology-bsc-b100/",
    "ucas_code": "A28-C43"
+  },
+  {
+   "title": "Biomedicine and Health Science",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/biosciences-and-chemistry/bsc-honours-biomedicine-and-health-science/full-time",
+   "ucas_code": "A17-J36"
+  },
+  {
+   "title": "Evolutionary Anthropology",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/evolutionary-anthropology-bsc-hons/2027",
+   "ucas_code": "A02-I08"
   }
  ]
 }

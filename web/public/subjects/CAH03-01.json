@@ -3,76 +3,46 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Animal Behaviour",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?7HUXJN",
-   "ucas_code": "A22-E45"
-  },
-  {
-   "title": "Biodiversity and Wildlife Conservation",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/biodiversity-and-wildlife-conservation",
-   "ucas_code": "A73-A34"
-  },
-  {
-   "title": "Biology",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/biology",
-   "ucas_code": "A70-H20"
-  },
-  {
-   "title": "Animal BioScience",
-   "provider": "Askham Bryan College",
-   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-animal-bioscience-with-management/",
-   "ucas_code": "A29-J62"
-  },
-  {
-   "title": "Biochemistry",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc",
-   "ucas_code": "A41-I42"
-  },
-  {
-   "title": "Biology",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/c100-biology-bsc-hons",
-   "ucas_code": "A34-B34"
-  },
-  {
-   "title": "Biochemistry",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-biochemistry",
-   "ucas_code": "A15-D73"
-  },
-  {
-   "title": "Biology",
-   "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-biology/",
-   "ucas_code": "A09-E36"
-  },
-  {
-   "title": "Biochemistry 3-year full-time",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/biochemistry",
-   "ucas_code": "B68-J43"
-  },
-  {
    "title": "Human Biosciences",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/human-biosciences-bsc-hons-2027-28",
    "ucas_code": "A75-B30"
   },
   {
-   "title": "Animal Behaviour & Wildlife Conservation",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-animal-behaviour-and-wildlife-conservation",
-   "ucas_code": "A65-H50"
+   "title": "Medical Biosciences",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/courses/medical-biosciences-bsc",
+   "ucas_code": "A77-E68"
   },
   {
-   "title": "Biological Sciences",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-biological-sciences-2",
-   "ucas_code": "A11-H53"
+   "title": "Applied Biosciences",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
+   "ucas_code": "A38-G37"
+  },
+  {
+   "title": "Biosciences",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/c107/",
+   "ucas_code": "A07-G33"
+  },
+  {
+   "title": "Veterinary Biosciences",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/veterinary-biosciences-bsc-d300",
+   "ucas_code": "A76-B36"
+  },
+  {
+   "title": "Medical Biosciences (Biochemistry)",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/medical-biosciences-biochemistry-mbiolsci/2027",
+   "ucas_code": "A52-I24"
+  },
+  {
+   "title": "Biological Sciences (Human Biosciences)",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/biological-sciences-human-biosciences",
+   "ucas_code": "A50-J94"
   }
  ]
 }

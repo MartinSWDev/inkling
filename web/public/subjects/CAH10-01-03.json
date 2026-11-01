@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Artificial Intelligence and Robotics",
+   "title": "Robotics and Embedded Systems Engineering",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?2V5QLZ",
-   "ucas_code": "A22-E53"
-  },
-  {
-   "title": "Automotive Engineering with Electric Vehicles",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/automotive-engineering",
-   "ucas_code": "A66-J25"
+   "url": "http://www.aber.ac.uk/courses/?A3FMLL",
+   "ucas_code": "A22-H25"
   },
   {
    "title": "Mechatronics and Robotics Engineering",
@@ -21,58 +15,52 @@
    "ucas_code": "A68-D15"
   },
   {
-   "title": "Engineering with Mechatronics Systems",
-   "provider": "Asu London Centre for Advanced Learning",
-   "url": "https://asu-london.ac.uk/courses/undergraduate/engineering-with-mechatronics-systems/",
-   "ucas_code": "A75-E43"
-  },
-  {
-   "title": "Engineering (Automotive Engineering)",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/ET1HE0001",
-   "ucas_code": "A74-C52"
-  },
-  {
-   "title": "Garment Technology",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
-   "ucas_code": ""
-  },
-  {
-   "title": "Mechatronics and Robotics",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/beng-hons-mechatronics-robotics",
-   "ucas_code": "A72-H88"
-  },
-  {
    "title": "Automotive Engineering",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/Automotive-Engineering-BEng",
    "ucas_code": "A19-I49"
   },
   {
-   "title": "Fashion Design",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-fashion-design",
-   "ucas_code": "A03-D10"
-  },
-  {
-   "title": "Artificial Intelligence",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/artificial-intelligence-bsc",
-   "ucas_code": "A50-D02"
-  },
-  {
-   "title": "Product Design",
+   "title": "Robotics Engineering",
    "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba--bsc-product-design/",
-   "ucas_code": "A08-G72"
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/beng--meng-robotics-engineering/",
+   "ucas_code": "A53-E84"
   },
   {
    "title": "Automotive Engineering",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/automotive-engineering-mengbeng-hons/?term=2027-28",
    "ucas_code": "A38-G33"
+  },
+  {
+   "title": "Automotive Engineering",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/automotive-engineering/automotive-engineering.aspx",
+   "ucas_code": "A76-D24"
+  },
+  {
+   "title": "Automotive Engineering",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDEAUTEN",
+   "ucas_code": "A30-H24"
+  },
+  {
+   "title": "Mechatronic Engineering",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/mechatronicengineering/",
+   "ucas_code": "A76-C37"
+  },
+  {
+   "title": "Mechanical Engineering (Automotive)",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/mechanical-engineering-beng/",
+   "ucas_code": "A45-E12"
+  },
+  {
+   "title": "Automotive Engineering",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/automotive-engineering-beng/#variant",
+   "ucas_code": "A18-B13"
   }
  ]
 }

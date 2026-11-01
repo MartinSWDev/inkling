@@ -3,34 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Wildlife Conservation",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?Y6L34V",
-   "ucas_code": "A72-G98"
-  },
-  {
    "title": "Environmental Management and Sustainability",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/environment-ug/bsc-environmental-management",
    "ucas_code": "A15-E27"
   },
   {
-   "title": "Wildlife and Conservation",
-   "provider": "CITY COLLEGE NORWICH",
-   "url": "https://he.ccn.ac.uk/courses/all-courses/course/bsc-hons-wildlife-and-conservation",
-   "ucas_code": "A62-E74"
-  },
-  {
    "title": "Rural Land and Business Management",
    "provider": "Plumpton College",
    "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-rural-business-land-management/",
    "ucas_code": "A70-C16"
-  },
-  {
-   "title": "Wildlife Ecology and Conservation",
-   "provider": "SPARSHOLT COLLEGE",
-   "url": "https://www.sparsholt.ac.uk/courses/bsc-hons-wildlife-ecology-and-conservation-degree-full-time/",
-   "ucas_code": "A12-A45"
   },
   {
    "title": "Wildlife and Conservation Management",

@@ -3,58 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Theology and Christian Leadership",
-   "provider": "Assemblies of God Incorporated",
-   "url": "https://www.missiodei.ac.uk/courses/ug-courses/",
-   "ucas_code": ""
-  },
-  {
-   "title": "Philosophy, Religion and Ethics",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/theology-ba-hons/full-time/",
-   "ucas_code": "A51-C14"
-  },
-  {
-   "title": "Modern Languages And Philosophy, Ethics And Religion",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons",
-   "ucas_code": "A62-B61"
-  },
-  {
-   "title": "Theology",
-   "provider": "Birmingham Christian College",
-   "url": "https://bccoll.ac.uk/courses/ba/",
-   "ucas_code": ""
-  },
-  {
-   "title": "Theology, Ministry and Mission",
-   "provider": "Bristol Baptist College",
-   "url": "https://www.bristol-baptist.ac.uk/undergraduate/",
-   "ucas_code": ""
-  },
-  {
    "title": "Theology, Philosophy & Religion",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/theology-philosophy-and-religion",
    "ucas_code": "A19-I18"
-  },
-  {
-   "title": "Religion, Philosophy and Ethics",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/religion-philosophy-ethics-ba",
-   "ucas_code": "A28-A66"
-  },
-  {
-   "title": "Theology and MInistry with Entrepreneurship",
-   "provider": "Christ the Redeemer College",
-   "url": "https://christredeemer.ac.uk/bachelor-of-arts-in-theology-and-ministry-with-entrepreneurship/",
-   "ucas_code": ""
-  },
-  {
-   "title": "Theology and Mission",
-   "provider": "Cliff College",
-   "url": "https://www.cliffcollege.ac.uk/courses/undergrad-postgrad/ba-theology-and-mission",
-   "ucas_code": "A67-B18"
   },
   {
    "title": "Philosophy and Theology",
@@ -63,16 +15,52 @@
    "ucas_code": "A07-H51"
   },
   {
-   "title": "Theology Ministry and Mission",
-   "provider": "Emmanuel Theological College",
-   "url": "https://emmanueltheologicalcollege.org.uk/undergraduate-study/",
-   "ucas_code": ""
+   "title": "Education Studies And Theology Philosophy And Ethics",
+   "provider": "Lincoln Bishop University",
+   "url": "https://www.lincolnbishop.ac.uk/courses/education-studies-and-theology-philosophy-ethics",
+   "ucas_code": "A31-A79"
   },
   {
-   "title": "\"Religion, Philosophy & Ethics\"",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/religion-philosophy-and-ethics-ba",
-   "ucas_code": "A27-H22"
+   "title": "Education and Religion Theology & Spirituality",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/education/educationandreligiontheologyspirituality/",
+   "ucas_code": "B64-A26"
+  },
+  {
+   "title": "Philosophy and Theology",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-and-theology",
+   "ucas_code": "A30-G33"
+  },
+  {
+   "title": "Theology, Mission and Practice",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/undergraduate-courses/theology-mission-and-practice/",
+   "ucas_code": "A19-A41"
+  },
+  {
+   "title": "Theology and Religion",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/thr/theology.aspx",
+   "ucas_code": "A04-J87"
+  },
+  {
+   "title": "Religion, Theology and Society",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j939/religion-theology-and-society-ba",
+   "ucas_code": "A27-A21"
+  },
+  {
+   "title": "Archaeology/Theology & Religious Studies",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/archaeology/",
+   "ucas_code": "A24-E72"
+  },
+  {
+   "title": "Philosophy and Theology",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Philosophy-and-Theology-BA-Jt-Hons.html",
+   "ucas_code": "A00-G98"
   }
  ]
 }

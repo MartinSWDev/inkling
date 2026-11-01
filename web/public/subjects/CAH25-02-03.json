@@ -3,40 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Acting",
-   "provider": "ARTS EDUCATIONAL SCHOOLS(THE)",
-   "url": "https://artsed.co.uk/course/undergraduate/undergraduate-acting/?course-guide",
-   "ucas_code": ""
-  },
-  {
-   "title": "Acting",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "http://aub.ac.uk/courses/ba/ba-acting",
-   "ucas_code": "A38-F89"
-  },
-  {
    "title": "Creative Writing and Drama and Theatre Studies",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?TBHWBQ",
    "ucas_code": "A22-F00"
   },
   {
-   "title": "Live Events Production",
-   "provider": "Academy of Live Technology Ltd",
-   "url": "https://www.academyoflivetechnology.com/courses/production-park/ba-hons-live-events-production",
-   "ucas_code": "A62-H37"
-  },
-  {
-   "title": "Acting",
+   "title": "Drama",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/acting",
-   "ucas_code": "A63-E30"
-  },
-  {
-   "title": "Costume Production",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/ba-hons-costume-production/overview",
-   "ucas_code": "A16-E74"
+   "url": "https://www.aru.ac.uk/study/undergraduate/drama",
+   "ucas_code": "A14-A09"
   },
   {
    "title": "English Literature and Drama",
@@ -45,34 +21,46 @@
    "ucas_code": "A69-I88"
   },
   {
-   "title": "Acting & Performance",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/film-and-television-ug/ba-acting-and-performance",
-   "ucas_code": "A75-F21"
-  },
-  {
-   "title": "Acting",
+   "title": "Creative Writing and Drama",
    "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-acting/",
-   "ucas_code": "A09-E28"
+   "url": "https://www.bathspa.ac.uk/courses/ug-creative-writing-and-drama/",
+   "ucas_code": "A09-F18"
   },
   {
-   "title": "Theatre Studies with Foundation Year",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/theatre-studies",
-   "ucas_code": "A74-D85"
+   "title": "Creative Writing and Drama",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/creative-writing-drama/creative-writing-and-drama.aspx",
+   "ucas_code": "A73-B45"
   },
   {
-   "title": "Acting",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/acting-ba-hons-2027-28",
-   "ucas_code": ""
+   "title": "Drama",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/drama/",
+   "ucas_code": "A05-C64"
   },
   {
-   "title": "Make-up with Special Effects for the Creative Industries",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-make-up-with-special-effects-for-the-creative-industries/",
-   "ucas_code": "A11-I95"
+   "title": "Dance and Drama",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/dance-and-drama/",
+   "ucas_code": "A08-A04"
+  },
+  {
+   "title": "Acting and Drama",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/acting/actinganddrama/",
+   "ucas_code": "A70-F56"
+  },
+  {
+   "title": "Drama and Contemporary Performance",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-drama-and-contemporary-performance/september-2027/",
+   "ucas_code": "A47-I62"
+  },
+  {
+   "title": "Drama",
+   "provider": "Queen Margaret University, Edinburgh",
+   "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/ba-hons-drama-2027-entry",
+   "ucas_code": "A08-E99"
   }
  ]
 }

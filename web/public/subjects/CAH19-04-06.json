@@ -3,76 +3,40 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Japanese Studies",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/japanese-studies",
-   "ucas_code": "A06-D52"
-  },
-  {
-   "title": "Japanese Studies",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/japanese-studies",
-   "ucas_code": "A52-F43"
-  },
-  {
-   "title": "Modern Chinese",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/modern-chinese-ba-4-years",
-   "ucas_code": "A71-G96"
-  },
-  {
-   "title": "English Literature with Mandarin",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/english-literature-with-modern-languages-ba-degree/english-literature-with-modern-languages-ba-degree.aspx",
-   "ucas_code": "A25-G78"
-  },
-  {
-   "title": "Chinese Studies",
-   "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/t102/",
-   "ucas_code": "A07-G49"
-  },
-  {
-   "title": "Chinese Studies OR Japanese Studies",
-   "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/tt12/",
-   "ucas_code": "A27-B19"
-  },
-  {
    "title": "Asian and Middle Eastern Studies and Classics",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classics-and-asian-and-middle-eastern-studies",
    "ucas_code": "A30-G17"
   },
   {
-   "title": "Sinology",
-   "provider": "Pembrokeshire College",
-   "url": "https://www.uwtsd.ac.uk/programme-courses/undergraduate/philosophy-theology-and-religious-studies/sinology-full-time",
-   "ucas_code": ""
-  },
-  {
-   "title": "International Business with Mandarin",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/international-business-major-mandarin-bsc-n1r9",
-   "ucas_code": "A28-C46"
-  },
-  {
-   "title": "Chinese",
+   "title": "Creative Arts and East Asian Studies",
    "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-chinese",
-   "ucas_code": "A12-J57"
+   "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
+   "ucas_code": "A73-G89"
   },
   {
-   "title": "International Relations and Chinese",
-   "provider": "THE LONDON SCHOOL OF ECONOMICS AND POLITICAL SCIENCE",
-   "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-relations-and-chinese",
-   "ucas_code": "A47-I07"
+   "title": "East Asian Studies",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j762/east-asian-studies-ba",
+   "ucas_code": "A26-E63"
   },
   {
-   "title": "Modern Language with a Foundation Year",
-   "provider": "THE UNIVERSITY OF EAST ANGLIA",
-   "url": "https://www.uea.ac.uk/course/undergraduate/ba-modern-language-with-a-foundation-year/2027-28/sep",
-   "ucas_code": "A36-H84"
+   "title": "East Asian Studies",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/east-asian-studies-ba",
+   "ucas_code": "A35-E45"
+  },
+  {
+   "title": "Asian and Middle Eastern Studies",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/asian-middle-eastern-studies-ba-hons",
+   "ucas_code": "A25-D74"
+  },
+  {
+   "title": "East Asian Studies",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/09735/ba-east-asian-studies/",
+   "ucas_code": "A20-G74"
   }
  ]
 }

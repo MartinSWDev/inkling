@@ -9,18 +9,6 @@
    "ucas_code": "A22-E35"
   },
   {
-   "title": "Economics, Finance and International Business",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/economics-finance-and-international-business",
-   "ucas_code": "A06-C47"
-  },
-  {
-   "title": "Business Management (Finance)",
-   "provider": "Amity Global Education Ltd",
-   "url": "https://www.amity.ac.uk/6n103",
-   "ucas_code": "A52-I73"
-  },
-  {
    "title": "Banking, Finance and FinTech",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/banking-and-finance",
@@ -40,7 +28,7 @@
   },
   {
    "title": "Accounting and Finance",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/accounting-and-finance-ba-hons/full-time/",
    "ucas_code": "A15-G73"
   },
@@ -58,12 +46,6 @@
   },
   {
    "title": "Accounting and Finance",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/business-and-management-accounting-and-finance-ug/bsc-accounting-and-finance",
-   "ucas_code": "A15-D46"
-  },
-  {
-   "title": "Accounting and Finance",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/accounting/accounting-and-finance",
    "ucas_code": "A65-H08"
@@ -73,6 +55,12 @@
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/business-finance-bsc-hons-2027-28",
    "ucas_code": "A14-C77"
+  },
+  {
+   "title": "Accounting and Finance",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-accounting-finance-2",
+   "ucas_code": "A11-H41"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Computer Science (with integrated year in industry)",
+   "title": "Electrical and Electronic Engineering",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?QDDKMK",
-   "ucas_code": "A69-B95"
+   "url": "http://www.aber.ac.uk/courses/?Y5UH9G",
+   "ucas_code": "A69-B92"
   },
   {
    "title": "Electronic and Electrical Engineering",
@@ -19,18 +19,6 @@
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng",
    "ucas_code": "A30-B55"
-  },
-  {
-   "title": "Electrical and Electronic Engineering",
-   "provider": "Asu London Centre for Advanced Learning",
-   "url": "https://asu-london.ac.uk/courses/undergraduate/electrical-and-electronic-engineering/",
-   "ucas_code": "A76-G77"
-  },
-  {
-   "title": "Engineering (Electrical and Electronic Engineering)",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/ET1HE604",
-   "ucas_code": "A57-J16"
   },
   {
    "title": "Computer Systems Engineering",
@@ -58,21 +46,21 @@
   },
   {
    "title": "Electrical and Electronic Engineering",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/electrical-electronic-engineering-beng",
-   "ucas_code": "A39-A82"
-  },
-  {
-   "title": "Electrical and Electronic Engineering",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/electrical-electronic-biomedical-engineering",
    "ucas_code": "A72-B74"
   },
   {
-   "title": "Creative Arts (Music Production) Top Up",
-   "provider": "Calderdale College",
-   "url": "https://www.calderdale.ac.uk/courses/sound-music-technology-ba-hons/",
-   "ucas_code": "A57-C71"
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/beng--meng-electrical-and-electronic-engineering/",
+   "ucas_code": "A71-F49"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/electrical-and-electronic-engineering-beng",
+   "ucas_code": "A27-I93"
   }
  ]
 }

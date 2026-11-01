@@ -9,40 +9,16 @@
    "ucas_code": "A75-F87"
   },
   {
-   "title": "Engineering (Aerospace Engineering)",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/ET1HE603",
-   "ucas_code": "A50-D27"
-  },
-  {
    "title": "Aerospace Engineering",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/Aerospace-Engineering-BEng",
    "ucas_code": "A19-I41"
   },
   {
-   "title": "Aviation Management with Logistics",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-aviation-management",
-   "ucas_code": "A55-F34"
-  },
-  {
    "title": "Aeronautical Engineering",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/aeronautical-engineering-beng",
-   "ucas_code": "A38-J59"
-  },
-  {
-   "title": "Aeronautical Engineering",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
    "ucas_code": "A72-B68"
-  },
-  {
-   "title": "Aviation Management",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-aviation-management/",
-   "ucas_code": "A50-H49"
   },
   {
    "title": "Aerospace Engineering",
@@ -51,28 +27,40 @@
    "ucas_code": "A59-E62"
   },
   {
-   "title": "Aerospace Engineering",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/engineering_&_construction/MEng_(Hons)_Aerospace_Engineering.cfm",
-   "ucas_code": "A31-D87"
-  },
-  {
    "title": "Aeronautical Engineering",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/aeronautical-engineering-beng-meng-degree/aeronautical-engineering-beng-meng-degree.aspx",
    "ucas_code": "A50-G35"
   },
   {
-   "title": "Aviation Management with Commercial Pilot Licence",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/air-transport-management-fatpl",
-   "ucas_code": "A60-A21"
+   "title": "Aerospace Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/aerospace-engineering",
+   "ucas_code": "A67-A42"
   },
   {
-   "title": "Engineering (Aerospace Engineering) (top-up)",
-   "provider": "East Lancashire Learning Group",
-   "url": "https://arc.eastlancslearning.ac.uk/course/beng-hons-engineering-aerospace-engineering-top-up-full-time-allarc/",
-   "ucas_code": "A71-H04"
+   "title": "Aerospace Engineering",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/aerospace-engineering/",
+   "ucas_code": "A07-I77"
+  },
+  {
+   "title": "Aeronautical Engineering",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/aeronautical-engineering-beng/#variant",
+   "ucas_code": "A18-B03"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/beng-aerospace-engineering/september-2027/",
+   "ucas_code": "B58-D18"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/beng-hons-aerospace-engineering",
+   "ucas_code": "A67-A95"
   }
  ]
 }

@@ -16,12 +16,6 @@
   },
   {
    "title": "Environmental Science",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/environment-ug/bsc-environmental-science",
-   "ucas_code": "A15-E30"
-  },
-  {
-   "title": "Environmental Science",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-environmental-science/",
    "ucas_code": "A09-G20"
@@ -39,40 +33,34 @@
    "ucas_code": "A66-I13"
   },
   {
-   "title": "Environment and Sustainability with Professional Placement Year",
-   "provider": "Capel Manor College",
-   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-ba-environment-sustainability-placement",
-   "ucas_code": "A69-J86"
-  },
-  {
    "title": "Environmental Science",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/environmental-science-bsc/?term=2027-28",
    "ucas_code": "A73-J45"
   },
   {
-   "title": "Geography With Stem Foundation Year",
-   "provider": "Edge Hill University",
-   "url": "https://www.edgehill.ac.uk/course/stem-foundation-year/",
-   "ucas_code": "A63-B15"
-  },
-  {
-   "title": "Environmental Sciences and Sustainability",
-   "provider": "Farnborough College of Technology",
-   "url": "https://www.ucfarnborough.ac.uk/course/bsc-hons-environmental-studies-and-sustainability/BES1/",
-   "ucas_code": "A63-G79"
-  },
-  {
-   "title": "Environmental Management And Ecology",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-environmental-management-and-ecology",
-   "ucas_code": "A21-C06"
-  },
-  {
    "title": "Environmental Science",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/environmentalscience/",
    "ucas_code": "A03-F43"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/environmental-science/",
+   "ucas_code": "A08-A63"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36753-environmental-science-bsc-hons",
+   "ucas_code": "A66-D74"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/foundation-year-science-and-engineering-degrees-with-a-foundation-year-chemistry-route/september-2027/",
+   "ucas_code": "A31-I69"
   }
  ]
 }

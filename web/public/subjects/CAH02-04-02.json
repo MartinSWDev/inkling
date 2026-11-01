@@ -9,12 +9,6 @@
    "ucas_code": "A62-H42"
   },
   {
-   "title": "Nursing (Adult)",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/adult-nursing",
-   "ucas_code": "A06-D96"
-  },
-  {
    "title": "Nursing (Adult and Children)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-children",
@@ -22,7 +16,7 @@
   },
   {
    "title": "Adult Nursing",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/adult-nursing/full-time/",
    "ucas_code": "A65-F90"
   },
@@ -57,22 +51,16 @@
    "ucas_code": "A62-B18"
   },
   {
-   "title": "Adult Nursing with Foundation Year",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-adult-nursing",
-   "ucas_code": "A67-H06"
-  },
-  {
-   "title": "Nursing Practice (Adult)",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/nursing-practice-adult-bsc",
-   "ucas_code": "A39-C23"
-  },
-  {
    "title": "Adult Nursing",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/adult-nursing",
    "ucas_code": "A13-H44"
+  },
+  {
+   "title": "Nursing (Adult)",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/adult-nursing",
+   "ucas_code": "A19-H27"
   }
  ]
 }

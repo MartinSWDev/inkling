@@ -3,28 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Electro-Mechanical Engineering",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/electro-mechanical-engineering-beng/",
-   "ucas_code": "A50-I82"
-  },
-  {
    "title": "Mechanical Engineering",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/mechanical-engineering-beng",
    "ucas_code": "A14-A61"
   },
   {
-   "title": "Engineering and Physical Sciences Foundation Programme: Mechanical Engineering",
+   "title": "Mechanical Engineering",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/mechanical-engineering-foundation",
-   "ucas_code": "A71-H46"
-  },
-  {
-   "title": "Engineering (Mechanical Engineering)",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/ET1HE606",
-   "ucas_code": "A43-C33"
+   "url": "https://www.aston.ac.uk/study/courses/mechanical-engineering-beng",
+   "ucas_code": "A30-C30"
   },
   {
    "title": "Engineering",
@@ -57,14 +45,8 @@
    "ucas_code": "A72-I76"
   },
   {
-   "title": "Mechanical Engineering",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/mechanical-engineering-beng",
-   "ucas_code": "A39-B85"
-  },
-  {
    "title": "Energy and Sustainability Engineering",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/energy-and-sustainability-engineering",
    "ucas_code": "A65-E78"
   },
@@ -73,6 +55,12 @@
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/mechanical-engineering",
    "ucas_code": "A52-A02"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/mechanical-engineering-beng",
+   "ucas_code": "A28-A15"
   }
  ]
 }

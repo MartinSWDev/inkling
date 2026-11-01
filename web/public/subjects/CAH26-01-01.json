@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Anthropology and Geography",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-geography",
-   "ucas_code": "A06-B53"
-  },
-  {
    "title": "Geography",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l700-geography-ba-hons",
@@ -57,22 +51,16 @@
    "ucas_code": "A05-C90"
   },
   {
-   "title": "Geography",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-geography",
-   "ucas_code": "A21-C26"
-  },
-  {
-   "title": "Geography",
-   "provider": "Halesowen College",
-   "url": "https://www.worcester.ac.uk/courses/geography-bsc-hons.html",
-   "ucas_code": "A11-H02"
-  },
-  {
    "title": "Geography, Society and Environment",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/geography-society-and-environment",
    "ucas_code": "A06-A26"
+  },
+  {
+   "title": "Environmental Science and Geography",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/environmentalscienceandgeography/",
+   "ucas_code": "A03-F45"
   }
  ]
 }

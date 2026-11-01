@@ -3,46 +3,22 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Animation Production",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "http://aub.ac.uk/courses/ba/ba-animation-production/",
-   "ucas_code": "A38-F90"
+   "title": "Commercial Photography",
+   "provider": "Arts University Bournemouth, The",
+   "url": "http://aub.ac.uk/courses/ba/ba-commercial-photography/",
+   "ucas_code": "A38-F92"
   },
   {
-   "title": "Creative Writing and Film and Television Studies",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?TJ45FE",
-   "ucas_code": "A22-F01"
-  },
-  {
-   "title": "Film",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/film",
-   "ucas_code": "A06-D02"
-  },
-  {
-   "title": "Film and Television Production",
+   "title": "Photography",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/film-and-television-production",
-   "ucas_code": "A70-C40"
+   "url": "https://www.aru.ac.uk/study/undergraduate/photography",
+   "ucas_code": "A14-A83"
   },
   {
-   "title": "Film & Screen Arts",
+   "title": "Photography",
    "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-film-screen-arts",
-   "ucas_code": "A16-E82"
-  },
-  {
-   "title": "Film and Drama",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/p43w-film-and-drama-ba-hons",
-   "ucas_code": "A69-I91"
-  },
-  {
-   "title": "Art and Film",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art-and-film",
-   "ucas_code": "A15-D67"
+   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-photography",
+   "ucas_code": "A16-E98"
   },
   {
    "title": "Fashion Photography",
@@ -51,28 +27,40 @@
    "ucas_code": "A57-H35"
   },
   {
-   "title": "Digital Animation",
+   "title": "Photography",
    "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/digital-animation-ba-hons-2027-28",
-   "ucas_code": "A60-H60"
+   "url": "http://www.bcu.ac.uk/courses/photography-ba-hons-2027-28",
+   "ucas_code": "A14-D98"
   },
   {
-   "title": "Film",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-film-3",
-   "ucas_code": "A11-H80"
+   "title": "Photography",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-photography",
+   "ucas_code": "A52-H11"
   },
   {
-   "title": "Film and Media Production for the Creative Industries (Top-up)",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/level-6-ba-hons-top-up-film-and-media-production/",
-   "ucas_code": "A69-A82"
+   "title": "Photography",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/photography",
+   "ucas_code": "A19-H40"
   },
   {
-   "title": "Film Production",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/film-production-ba",
-   "ucas_code": "A45-E61"
+   "title": "Photography",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-photography/",
+   "ucas_code": "A53-E57"
+  },
+  {
+   "title": "Photography",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/photography-ba-hons/?term=2027-28",
+   "ucas_code": "A38-I33"
+  },
+  {
+   "title": "Photography and Video",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/photography-ba-degree/photography-ba-degree.aspx",
+   "ucas_code": "A25-H65"
   }
  ]
 }

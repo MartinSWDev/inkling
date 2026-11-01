@@ -9,18 +9,6 @@
    "ucas_code": "A34-H09"
   },
   {
-   "title": "Clinical Psychology",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-clinical-psychology",
-   "ucas_code": "A47-B00"
-  },
-  {
-   "title": "Psychology with Clinical Psychology",
-   "provider": "GOLDSMITHS' COLLEGE",
-   "url": "http://www.gold.ac.uk/ug/bsc-clinical-psychology/",
-   "ucas_code": "A17-C47"
-  },
-  {
    "title": "Psychology (Clinical Psychology)",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/psychology-clinical#overview",
@@ -28,7 +16,7 @@
   },
   {
    "title": "Psychology (Mental Health)",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-mental-health",
    "ucas_code": "A52-B77"
   },
@@ -39,12 +27,6 @@
    "ucas_code": "A19-A52"
   },
   {
-   "title": "Psychosocial and Psychoanalytic Studies",
-   "provider": "THE UNIVERSITY OF ESSEX",
-   "url": "https://www.essex.ac.uk/courses/UG01035/1?coursecode=C890",
-   "ucas_code": "A32-I50"
-  },
-  {
    "title": "Clinical and Community Psychology",
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-clinical-and-community-psychology",
@@ -52,15 +34,15 @@
   },
   {
    "title": "Neuropsychology",
-   "provider": "UNIVERSITY OF LANCASHIRE",
+   "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/neuropsychology-bsc-hons",
    "ucas_code": "A02-D95"
   },
   {
-   "title": "Psychology (Clinical Application) with Integrated Foundation Year",
-   "provider": "UNIVERSITY OF NORTHAMPTON, THE",
+   "title": "Psychology (Clinical Applications)",
+   "provider": "University Of Northampton, The",
    "url": "https://www.northampton.ac.uk/courses/psychology-clinical-application-bsc-hons/",
-   "ucas_code": "A76-B19"
+   "ucas_code": "A76-B12"
   },
   {
    "title": "Psychology with Health",
@@ -73,6 +55,12 @@
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-applied-psychology/",
    "ucas_code": "A32-J50"
+  },
+  {
+   "title": "Psychology (Clinical and Health Contexts)",
+   "provider": "University of Gloucestershire",
+   "url": "https://www.glos.ac.uk/courses/course/PCO-BSc-Psychology/",
+   "ucas_code": ""
   }
  ]
 }

@@ -3,34 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Animal BioScience",
-   "provider": "Askham Bryan College",
-   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-animal-bioscience-with-management/",
-   "ucas_code": "A29-J62"
-  },
-  {
    "title": "Natural Sciences",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/natural-sciences",
    "ucas_code": "A69-H36"
   },
   {
-   "title": "Biology and Chemistry",
-   "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/biology-and-chemistry-msci-cf12/",
-   "ucas_code": "A75-C48"
-  },
-  {
    "title": "Natural Sciences",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/natural-sciences",
-   "ucas_code": "A69-G59"
-  },
-  {
-   "title": "Interdisciplinary Problems and Methods (BASc)",
-   "provider": "London Interdisciplinary School",
-   "url": "https://www.lis.ac.uk/undergraduate-degree/course-content",
-   "ucas_code": "A69-G71"
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/cfg0/",
+   "ucas_code": "A07-H46"
   },
   {
    "title": "Natural Sciences",
@@ -40,39 +22,45 @@
   },
   {
    "title": "Natural Sciences",
-   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/nat-sci",
    "ucas_code": "A72-I13"
   },
   {
    "title": "Natural Sciences",
-   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Natural-Sciences-BSc-Hons",
    "ucas_code": "A60-D50"
   },
   {
    "title": "Natural Sciences",
-   "provider": "THE UNIVERSITY OF LANCASTER",
+   "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/natural-sciences-bsc-hons-gfc0/",
    "ucas_code": "A26-A57"
   },
   {
    "title": "Natural Sciences",
-   "provider": "THE UNIVERSITY OF LEEDS",
+   "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/f440/natural-sciences-bsc-mnatsc",
    "ucas_code": "A26-J29"
   },
   {
    "title": "Natural Sciences",
-   "provider": "UCL",
-   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/natural-sciences-bsc",
-   "ucas_code": "A24-A62"
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Natural-Sciences-BSc-Hons.html",
+   "ucas_code": "A00-G50"
   },
   {
    "title": "Natural Sciences",
-   "provider": "UNIVERSITY OF NOTTINGHAM, THE",
-   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Natural-Sciences-BSc-Hons.html",
-   "ucas_code": "A00-G50"
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/USCH-AFB23",
+   "ucas_code": "A65-D85"
+  },
+  {
+   "title": "Natural Sciences",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-natural-sciences/",
+   "ucas_code": "A33-B90"
   }
  ]
 }

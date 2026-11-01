@@ -3,46 +3,28 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Drama and Theatre / International Relations",
+   "title": "Economics and Politics",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?NLTD6B",
-   "ucas_code": "A59-J13"
+   "url": "http://www.aber.ac.uk/courses/?3K5MXP",
+   "ucas_code": "A57-C17"
   },
   {
-   "title": "Anthropology and International Relations",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-international-relations",
-   "ucas_code": "A06-B56"
-  },
-  {
-   "title": "Law with International Relations",
+   "title": "Law with Politics and International Relations",
    "provider": "Anglia Ruskin University",
-   "url": "https://london.aru.ac.uk/courses/llb-hons-law-with-international-relations",
-   "ucas_code": ""
+   "url": "https://www.aru.ac.uk/study/undergraduate/law-with-politics-and-international-relations",
+   "ucas_code": "A76-G36"
   },
   {
-   "title": "Business and International Relations",
+   "title": "Economics and Politics",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/business-and-international-relations-bsc",
-   "ucas_code": "A30-B22"
-  },
-  {
-   "title": "Professional Policing",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/TH1HE0005",
-   "ucas_code": "A58-D28"
+   "url": "https://www.aston.ac.uk/study/courses/economics-and-politics-bsc",
+   "ucas_code": "A30-C37"
   },
   {
    "title": "Law with Politics",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/m1l2-law-with-politics-llb-hons",
    "ucas_code": "A54-I46"
-  },
-  {
-   "title": "English Literature and Politics",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/english-literature-ug/ba-english-literature-and-politics",
-   "ucas_code": "A15-E20"
   },
   {
    "title": "Criminology and Politics",
@@ -57,12 +39,6 @@
    "ucas_code": "A24-D69"
   },
   {
-   "title": "Public Services",
-   "provider": "Boston College",
-   "url": "https://www.boston.ac.uk/find-a-course/view-all-courses/public-services-bsc-hons-top-up-level-6",
-   "ucas_code": "A73-G40"
-  },
-  {
    "title": "International Politics",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/international-politics-bsc",
@@ -70,9 +46,21 @@
   },
   {
    "title": "History and Politics",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/history-and-politics",
    "ucas_code": "A54-E24"
+  },
+  {
+   "title": "Politics & International Relations",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/politics-and-international-relations",
+   "ucas_code": "A65-C17"
+  },
+  {
+   "title": "Politics and International Relations",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-politics-and-international-relations/",
+   "ucas_code": "A74-H42"
   }
  ]
 }

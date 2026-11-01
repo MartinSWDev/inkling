@@ -3,18 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Creative Industries Futures (2 Year)",
-   "provider": "ACM",
-   "url": "https://www.acm.ac.uk/?s=creative+industries+futures",
-   "ucas_code": "A66-F85"
-  },
-  {
-   "title": "Musical Theatre",
-   "provider": "ARTS EDUCATIONAL SCHOOLS(THE)",
-   "url": "https://artsed.co.uk/course/undergraduate/undergraduate-musical-theatre/?course-guide",
-   "ucas_code": ""
-  },
-  {
    "title": "Music Production",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/music-production",
@@ -33,9 +21,9 @@
    "ucas_code": "A09-E94"
   },
   {
-   "title": "Jazz",
+   "title": "Music",
    "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/bmus-honours-jazz-2027-28",
+   "url": "http://www.bcu.ac.uk/courses/music-bmus-honours-2027-28",
    "ucas_code": ""
   },
   {
@@ -43,12 +31,6 @@
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-music-sound-production",
    "ucas_code": "A50-A24"
-  },
-  {
-   "title": "(Top-up) Music for the Creative Industries",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/level-6-ba-hons-top-up-music-for-the-creative-industries/",
-   "ucas_code": ""
   },
   {
    "title": "Music",
@@ -63,16 +45,22 @@
    "ucas_code": "A72-G41"
   },
   {
-   "title": "Music Production",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/music-production-ba",
-   "ucas_code": "A39-C08"
-  },
-  {
    "title": "Music Performance with Production",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/music-performance-with-production",
    "ucas_code": "A69-E83"
+  },
+  {
+   "title": "Music Production",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/music-production",
+   "ucas_code": "A19-H20"
+  },
+  {
+   "title": "Music",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/music-bmus",
+   "ucas_code": "A28-A41"
   }
  ]
 }

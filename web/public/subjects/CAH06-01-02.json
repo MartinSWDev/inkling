@@ -3,16 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Agriculture",
-   "provider": "Capel Manor College",
-   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agriculture",
-   "ucas_code": "A11-B56"
-  },
-  {
    "title": "Applied Data Science",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDQAPDAS",
    "ucas_code": "A70-E09"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Capel Manor College",
+   "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agriculture",
+   "ucas_code": "A11-B56"
   }
  ]
 }

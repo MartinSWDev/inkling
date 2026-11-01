@@ -9,18 +9,6 @@
    "ucas_code": "A22-F89"
   },
   {
-   "title": "Genomics with Bioinformatics",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/genomics-bioinformatics",
-   "ucas_code": "A65-A76"
-  },
-  {
-   "title": "Molecular Genetics",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/molecular-genetics-bsc",
-   "ucas_code": "A27-G85"
-  },
-  {
    "title": "Medical Genetics",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/medical-genetics",
@@ -40,39 +28,39 @@
   },
   {
    "title": "Molecular Biology and Genetics",
-   "provider": "THE UNIVERSITY OF EAST ANGLIA",
+   "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-molecular-biology-and-genetics/2027-28/sep",
    "ucas_code": "A36-H89"
   },
   {
-   "title": "Applied Biomedical Science (NHS placement)",
-   "provider": "THE UNIVERSITY OF ESSEX",
-   "url": "https://www.essex.ac.uk/courses/UG00039/3?coursecode=B991",
-   "ucas_code": "A51-B86"
-  },
-  {
    "title": "Medical Genetics",
-   "provider": "THE UNIVERSITY OF HUDDERSFIELD",
+   "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Medical-Genetics-BSc-Hons",
    "ucas_code": "A13-G69"
   },
   {
    "title": "Genetics",
-   "provider": "THE UNIVERSITY OF LEEDS",
+   "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/3360/genetics-bsc",
    "ucas_code": "A26-H08"
   },
   {
    "title": "Biological Sciences (Genetics)",
-   "provider": "THE UNIVERSITY OF LEICESTER",
+   "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/biological-sciences-genetics-bsc/2027",
    "ucas_code": "A05-A18"
   },
   {
    "title": "Genetics",
-   "provider": "UNIVERSITY OF GLASGOW",
+   "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/genetics/",
    "ucas_code": "A24-I04"
+  },
+  {
+   "title": "Genetics",
+   "provider": "University of Sussex",
+   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/genetics-bsc",
+   "ucas_code": "A22-J31"
   }
  ]
 }

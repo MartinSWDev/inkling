@@ -9,16 +9,10 @@
    "ucas_code": "A22-E49"
   },
   {
-   "title": "Engineering and Physical Sciences Foundation Programme: Mathematics",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/mathematics-foundation",
-   "ucas_code": "A71-H49"
-  },
-  {
    "title": "Mathematics",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/mathematics-ug/bsc-mathematics",
-   "ucas_code": "A01-E95"
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/mathematics-bsc",
+   "ucas_code": "A30-C23"
   },
   {
    "title": "Mathematics and Computer Science",
@@ -34,7 +28,7 @@
   },
   {
    "title": "Mathematics",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/mathematics",
    "ucas_code": "A13-I19"
   },
@@ -45,22 +39,10 @@
    "ucas_code": "A27-J26"
   },
   {
-   "title": "Data Science",
+   "title": "Mathematics",
    "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/data-science-mscibsc/?term=2027-28",
-   "ucas_code": "A41-D92"
-  },
-  {
-   "title": "Financial Mathematics",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/financial-mathematics-bsc-hons",
-   "ucas_code": "A14-F74"
-  },
-  {
-   "title": "Mathematics and Computing",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/mathematics-and-computing",
-   "ucas_code": "A68-F86"
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/mathematics-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-I10"
   },
   {
    "title": "Chemistry and Mathematics",
@@ -69,10 +51,16 @@
    "ucas_code": "A75-C51"
   },
   {
-   "title": "Mathematics Education",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-mathematics-education-qts",
-   "ucas_code": "A01-G03"
+   "title": "Mathematics",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/mathematics-bsc",
+   "ucas_code": "A06-A59"
+  },
+  {
+   "title": "Chemistry with Mathematics",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/chemistrywithmathematics/",
+   "ucas_code": "A73-H03"
   }
  ]
 }

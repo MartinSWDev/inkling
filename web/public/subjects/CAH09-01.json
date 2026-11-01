@@ -3,76 +3,58 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Applied Mathematics/Pure Mathematics",
+   "title": "Mathematical Modelling",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?VHVG4Y",
-   "ucas_code": "A22-E49"
+   "url": "http://www.aber.ac.uk/courses/?WRGT23",
+   "ucas_code": "A60-A47"
   },
   {
-   "title": "Engineering and Physical Sciences Foundation Programme: Mathematics",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/mathematics-foundation",
-   "ucas_code": "A71-H49"
+   "title": "Mathematical Physics",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/mathematical-physics",
+   "ucas_code": "A63-F66"
   },
   {
-   "title": "Mathematics",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/mathematics-ug/bsc-mathematics",
-   "ucas_code": "A01-E95"
+   "title": "Mathematical Sciences",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/mathematical-sciences---bsc-hons/",
+   "ucas_code": "A07-A16"
   },
   {
-   "title": "Mathematics and Computer Science",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/mathematics-and-computer-science",
-   "ucas_code": "A74-A87"
+   "title": "Mathematical Sciences",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematical-sciences-bsc",
+   "ucas_code": "A76-A37"
   },
   {
-   "title": "Financial Mathematics",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/financial-mathematics-bsc",
-   "ucas_code": "A19-J49"
+   "title": "Mathematical Physics with a Year Abroad",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/mathematical-physics-with-a-year-abroad-mmath-hons/2027",
+   "ucas_code": "A53-I02"
   },
   {
-   "title": "Data Analytics and Actuarial Science",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
-   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/data-analytics-and-actuarial-science",
-   "ucas_code": "A52-E17"
+   "title": "Mathematical Physics",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Mathematical-Physics-BSc-Hons.html",
+   "ucas_code": ""
   },
   {
-   "title": "Financial Mathematics",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/financial-mathematics-bsc",
-   "ucas_code": "A27-J26"
+   "title": "Mathematical Biology",
+   "provider": "University of Dundee",
+   "url": "https://www.dundee.ac.uk/undergraduate/mathematical-biology-bsc",
+   "ucas_code": "A16-B73"
   },
   {
-   "title": "Data Science",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/data-science-mscibsc/?term=2027-28",
-   "ucas_code": "A41-D92"
+   "title": "Mathematical Physics",
+   "provider": "University of Southampton",
+   "url": "https://www.southampton.ac.uk/courses/mathematical-physics-degree-mmath",
+   "ucas_code": "A23-D80"
   },
   {
-   "title": "Financial Mathematics",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/engsci/financial-mathematics-bsc-hons",
-   "ucas_code": "A14-F74"
-  },
-  {
-   "title": "Mathematics and Computing",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/mathematics-and-computing",
-   "ucas_code": "A68-F86"
-  },
-  {
-   "title": "Chemistry and Mathematics",
-   "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/chemistry-and-mathematics-fg11/",
-   "ucas_code": "A75-C51"
-  },
-  {
-   "title": "Mathematics Education",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-mathematics-education-qts",
-   "ucas_code": "A01-G03"
+   "title": "Mathematics with Applied Mathematics/Mathematical Physics",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mathematics-applied-physics/",
+   "ucas_code": "A15-D28"
   }
  ]
 }

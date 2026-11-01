@@ -3,28 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Nutrition",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/nutrition",
-   "ucas_code": "A06-E04"
-  },
-  {
-   "title": "Nutrition",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-nutrition",
-   "ucas_code": "A54-I49"
-  },
-  {
    "title": "Food with Nutrition",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-food-with-nutrition/",
    "ucas_code": "A09-G34"
-  },
-  {
-   "title": "Sport and Exercise Science",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-sport-exercise-science",
-   "ucas_code": "A55-C18"
   },
   {
    "title": "Human Nutrition and Dietetics",
@@ -39,24 +21,6 @@
    "ucas_code": "A71-H80"
   },
   {
-   "title": "Nutrition",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/food_&_nutrition/BSc_(Hons)_Nutrition.cfm",
-   "ucas_code": "A31-F12"
-  },
-  {
-   "title": "Nutrition and Food Management",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/nutrition-and-food-management",
-   "ucas_code": "A49-A91"
-  },
-  {
-   "title": "Nutrition and Human Health",
-   "provider": "East Coast College",
-   "url": "http://www.uos.ac.uk/nhh",
-   "ucas_code": "A30-E13"
-  },
-  {
    "title": "Nutrition & Health",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/nutrition-and-health/",
@@ -69,10 +33,34 @@
    "ucas_code": "A26-D01"
   },
   {
+   "title": "Sport and Exercise Science (Nutrition)",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/sport-exercise-science-nutrition/",
+   "ucas_code": "A08-C10"
+  },
+  {
    "title": "Dietetics",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/dietetics",
-   "ucas_code": "A21-B38"
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/BSC_dietetics",
+   "ucas_code": "A10-H62"
+  },
+  {
+   "title": "Dietetics",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/dietetics---bsc-hons/",
+   "ucas_code": "A46-A02"
+  },
+  {
+   "title": "Sport and Exercise Nutrition",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-sport-and-exercise-nutrition/september-2027/",
+   "ucas_code": "A32-B29"
+  },
+  {
+   "title": "Sport Science, Health and Nutrition",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-sport-science-health-nutrition",
+   "ucas_code": "A38-D25"
   }
  ]
 }

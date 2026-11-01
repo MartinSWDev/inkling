@@ -22,7 +22,7 @@
   },
   {
    "title": "English",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/english-ba-hons/full-time/",
    "ucas_code": "A15-G92"
   },
@@ -40,7 +40,7 @@
   },
   {
    "title": "English",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/english",
    "ucas_code": "A13-H90"
   },
@@ -51,28 +51,16 @@
    "ucas_code": "A38-G97"
   },
   {
-   "title": "English and Creative Writing",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/English_&_Creative_Writing/BA_(Hons)_English_and_Creative_Writing.cfm",
-   "ucas_code": "A31-F01"
+   "title": "English",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/english/",
+   "ucas_code": "A05-C76"
   },
   {
-   "title": "English Language and Literature",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/english-language-and-literature-ba-hons",
-   "ucas_code": "A14-F58"
-  },
-  {
-   "title": "English with Creative Writing and Film",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/study/subject-areas/media-communications-english-and-journalism/english",
-   "ucas_code": "A17-G21"
-  },
-  {
-   "title": "English: Creative and Professional Writing",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-english-creative-professional-writing",
-   "ucas_code": "A01-D62"
+   "title": "Acting & English",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-acting-and-english-undergraduate-fulltime",
+   "ucas_code": "A25-C08"
   }
  ]
 }

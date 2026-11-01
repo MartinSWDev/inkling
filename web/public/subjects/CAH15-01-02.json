@@ -3,46 +3,28 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Criminology",
+   "title": "Criminology and Sociology",
    "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology/",
-   "ucas_code": "A00-A05"
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
+   "ucas_code": "A63-B09"
   },
   {
-   "title": "Criminology",
+   "title": "Criminology and Sociology",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?QA6VFH",
-   "ucas_code": "A22-F07"
+   "url": "http://www.aber.ac.uk/courses/?DVQRS7",
+   "ucas_code": "A54-E06"
   },
   {
-   "title": "Anthropology and Sociology",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology-and-sociology",
-   "ucas_code": "A06-B60"
-  },
-  {
-   "title": "Criminology",
+   "title": "Criminology and Sociology",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/criminology",
-   "ucas_code": "A14-A06"
+   "url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-sociology",
+   "ucas_code": "A14-A07"
   },
   {
-   "title": "Criminology and Psychology",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology-psychology",
-   "ucas_code": ""
-  },
-  {
-   "title": "Criminology",
+   "title": "English and Sociology",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/criminology-bsc",
-   "ucas_code": "A72-D09"
-  },
-  {
-   "title": "Criminology",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/criminology-ba-hons/full-time/",
-   "ucas_code": "A15-G82"
+   "url": "https://www.aston.ac.uk/study/courses/english-and-sociology-bsc",
+   "ucas_code": "A67-B57"
   },
   {
    "title": "Childhood And Youth Studies And Sociology",
@@ -51,28 +33,34 @@
    "ucas_code": "A34-B15"
   },
   {
-   "title": "Criminology",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/law-ug/bsc-criminology",
-   "ucas_code": "A66-I63"
-  },
-  {
-   "title": "Business Management and Criminology",
+   "title": "Criminology and Sociology",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
-   "ucas_code": "A43-E18"
+   "url": "http://www.bathspa.ac.uk/courses/ug-criminology-and-sociology/",
+   "ucas_code": "A09-F37"
   },
   {
-   "title": "Criminology and Criminal Justice",
+   "title": "Sociology and Criminology",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/criminology-and-criminal-justice",
-   "ucas_code": "A24-D49"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/sociology/sociology-and-criminology",
+   "ucas_code": "A65-G69"
   },
   {
-   "title": "Criminology",
+   "title": "Sociology",
    "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/criminology-ba-hons-2027-28",
-   "ucas_code": "A14-D02"
+   "url": "https://www.bcu.ac.uk/courses/sociology-bsc-hons-2027-28",
+   "ucas_code": "A14-E17"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-sociology",
+   "ucas_code": "A11-I37"
+  },
+  {
+   "title": "Anthropology and Sociology",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/anthropology-and-sociology-bsc",
+   "ucas_code": "A19-I46"
   }
  ]
 }

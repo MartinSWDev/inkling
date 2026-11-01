@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Animation Production",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "http://aub.ac.uk/courses/ba/ba-animation-production/",
-   "ucas_code": "A38-F90"
+   "title": "Communication Design and Strategy",
+   "provider": "Arts University Bournemouth, The",
+   "url": "https://aub.ac.uk/course/communication-design-strategy",
+   "ucas_code": "A69-B28"
   },
   {
    "title": "Computer Arts",
@@ -21,28 +21,22 @@
    "ucas_code": "A22-F01"
   },
   {
-   "title": "Film",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/film",
-   "ucas_code": "A06-D02"
-  },
-  {
-   "title": "Animation and Illustration",
+   "title": "Fashion Design",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/animation-and-illustration",
-   "ucas_code": "A14-A46"
+   "url": "https://www.aru.ac.uk/study/undergraduate/fashion-design",
+   "ucas_code": "A14-A27"
   },
   {
-   "title": "Craft & Material Practices",
+   "title": "Fashion Design",
    "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/ba-hons-craft-material-practices/overview",
-   "ucas_code": "A16-E64"
+   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design",
+   "ucas_code": "A16-E78"
   },
   {
-   "title": "Engineering and Physical Sciences Foundation Programme: Product Design and Innovation",
+   "title": "Product Design and Innovation",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/product-design-and-innovation-foundation",
-   "ucas_code": "A71-I78"
+   "url": "https://www.aston.ac.uk/study/courses/product-design-and-innovation-bsc",
+   "ucas_code": "A30-B97"
   },
   {
    "title": "Creative Technologies",
@@ -51,28 +45,22 @@
    "ucas_code": "A34-C29"
   },
   {
-   "title": "Art",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art",
-   "ucas_code": "A57-D57"
-  },
-  {
    "title": "Creative Arts Practice",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-creative-arts-practice/",
    "ucas_code": "A09-E98"
   },
   {
-   "title": "Digital Media 3-year, full-time",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/digital-media",
-   "ucas_code": "A73-C81"
-  },
-  {
    "title": "Art and Design",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/art-and-design-ba-hons-2027-28",
    "ucas_code": "B68-J42"
+  },
+  {
+   "title": "Product Design",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-product-design",
+   "ucas_code": "A11-I27"
   }
  ]
 }

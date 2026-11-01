@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Creative Direction",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "https://aub.ac.uk/course/creative-direction",
-   "ucas_code": "A69-B32"
+   "title": "Media, Marketing and Advertising",
+   "provider": "Arts University Bournemouth, The",
+   "url": "https://aub.ac.uk/course/ba-hons-media-marketing-and-advertising",
+   "ucas_code": "A73-F06"
   },
   {
    "title": "Digital Marketing and Business Management",
@@ -19,18 +19,6 @@
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?NLFPNL",
    "ucas_code": "A57-A93"
-  },
-  {
-   "title": "Business and Marketing Management",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-and-marketing-management",
-   "ucas_code": "A06-B80"
-  },
-  {
-   "title": "Business Management (Marketing)",
-   "provider": "Amity Global Education Ltd",
-   "url": "https://www.amity.ac.uk/6n105",
-   "ucas_code": "A52-I75"
   },
   {
    "title": "Marketing",
@@ -57,12 +45,6 @@
    "ucas_code": "A34-F99"
   },
   {
-   "title": "Business and Management (Marketing)",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/business-and-management-accounting-and-finance-ug/bsc-business-and-management-marketing",
-   "ucas_code": "A58-B54"
-  },
-  {
    "title": "Fashion Marketing and Management",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-fashion-marketing-and-management/",
@@ -73,6 +55,12 @@
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/business-marketing-ba-hons-2027-28",
    "ucas_code": "A14-C68"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-marketing",
+   "ucas_code": "A11-I05"
   }
  ]
 }

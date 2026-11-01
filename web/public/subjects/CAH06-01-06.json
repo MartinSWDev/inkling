@@ -3,28 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Fitness, Nutrition and Health",
+   "title": "Food and Consumer Science",
    "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/fitness-nutrition-and-health/",
-   "ucas_code": "A06-B25"
-  },
-  {
-   "title": "Nutrition and Food Management",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/nutrition-and-food-management",
-   "ucas_code": "A49-A91"
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
+   "ucas_code": "A06-B26"
   },
   {
    "title": "Food Business Management",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBFDBUS",
    "ucas_code": "A66-F46"
-  },
-  {
-   "title": "Brewing and Distilling",
-   "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
-   "ucas_code": "A05-J54"
   },
   {
    "title": "Food and Nutrition",
@@ -37,6 +25,12 @@
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/bsc-food-business-and-innovation-ft-c",
    "ucas_code": "A16-I24"
+  },
+  {
+   "title": "Nutrition and Food Management",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/nutrition-and-food-management",
+   "ucas_code": "A49-A91"
   }
  ]
 }

@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Psychology with Counselling",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?MDYDQS",
-   "ucas_code": "A51-B06"
-  },
-  {
-   "title": "Nutrition",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/nutrition",
-   "ucas_code": "A06-E04"
-  },
-  {
-   "title": "Dispensing Optician (Registerable Award)",
+   "title": "Public Health",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/dispensing-optician-registerable-award",
-   "ucas_code": ""
+   "url": "https://www.aru.ac.uk/study/undergraduate/public-health",
+   "ucas_code": "A14-A91"
   },
   {
    "title": "Psychology with Counselling and Mental Health",
@@ -27,52 +15,52 @@
    "ucas_code": ""
   },
   {
-   "title": "Optometry",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/optometry-moptom",
-   "ucas_code": "A30-C34"
+   "title": "Counselling, Mental Health and Wellbeing",
+   "provider": "Birmingham Newman University",
+   "url": "https://www.newman.ac.uk/course/counselling-mental-health-and-wellbeing-ba-hons/full-time",
+   "ucas_code": "A56-G74"
   },
   {
-   "title": "Counselling and Working with Children, Young People & Families",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
-   "ucas_code": "A15-G80"
-  },
-  {
-   "title": "Nutrition",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-nutrition",
-   "ucas_code": "A54-I49"
-  },
-  {
-   "title": "Food with Nutrition",
-   "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-food-with-nutrition/",
-   "ucas_code": "A09-G34"
-  },
-  {
-   "title": "Psychological Studies with Counselling",
+   "title": "Public Health 3-year, full-time",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/psychological-studies-counselling",
-   "ucas_code": "A76-D53"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/public-health",
+   "ucas_code": "B63-A07"
   },
   {
-   "title": "Operating Department Practice",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/operating-department-practice-bsc-hons-2027-28",
-   "ucas_code": "A14-D96"
+   "title": "Public Health",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-public-health",
+   "ucas_code": "A49-C57"
   },
   {
-   "title": "Healthcare Studies",
-   "provider": "Bishop Auckland College",
-   "url": "https://bacoll.ac.uk/course/bsc-hons-healthcare-studies-l6-top-up/",
+   "title": "Health and Lifestyle Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
    "ucas_code": ""
   },
   {
-   "title": "Equine Therapy and Rehabilitation",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-equine-therapy-and-rehabilitation",
-   "ucas_code": "A17-A90"
+   "title": "Environmental Health",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-environmental-health/",
+   "ucas_code": "A08-G38"
+  },
+  {
+   "title": "Nutrition and Health",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/nutrition-and-health-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-I27"
+  },
+  {
+   "title": "Nutrition & Health",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/nutrition-and-health/",
+   "ucas_code": "A05-D20"
+  },
+  {
+   "title": "Counselling and Mental Health",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/counsellingmentalhealth",
+   "ucas_code": "A44-C65"
   }
  ]
 }

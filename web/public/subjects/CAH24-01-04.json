@@ -28,7 +28,7 @@
   },
   {
    "title": "Journalism",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/journalism",
    "ucas_code": "A13-I15"
   },
@@ -46,33 +46,21 @@
   },
   {
    "title": "Journalism",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/media_&_journalism/ba_(hons)_journalism.cfm",
-   "ucas_code": "A31-F56"
-  },
-  {
-   "title": "Journalism",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/journalism-ba-degree/journalism-ba-degree.aspx",
    "ucas_code": "A25-H34"
-  },
-  {
-   "title": "Journalism with Content Creation",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/journalism-content-creation",
-   "ucas_code": "A41-A65"
-  },
-  {
-   "title": "Fashion Journalism",
-   "provider": "East Durham College",
-   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-journalism",
-   "ucas_code": "A01-E45"
   },
   {
    "title": "Journalism",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/ba-hons-journalism-undergraduate-fulltime",
    "ucas_code": "A25-D01"
+  },
+  {
+   "title": "Journalism & Creative Writing",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/journalism-creative-writing",
+   "ucas_code": "A63-F48"
   }
  ]
 }

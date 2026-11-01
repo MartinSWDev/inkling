@@ -16,33 +16,15 @@
   },
   {
    "title": "Commercial Dance",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/commercial-dance",
    "ucas_code": "A76-B16"
-  },
-  {
-   "title": "Dance & Professional Practice",
-   "provider": "Chichester College Group",
-   "url": "https://www.northbrook.ac.uk/courses/ba-hons-dance-professional-practice/",
-   "ucas_code": "A69-A85"
   },
   {
    "title": "Dance",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/dance-ba-degree/dance-ba-degree.aspx",
    "ucas_code": "A25-G37"
-  },
-  {
-   "title": "Professional Dance and Musical Theatre",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/professional-dance-musical-theatre-ba-hons",
-   "ucas_code": "A14-G77"
-  },
-  {
-   "title": "Ballet Performance",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.btukschool.com/ba",
-   "ucas_code": ""
   },
   {
    "title": "Dance",
@@ -57,22 +39,28 @@
    "ucas_code": "A27-A35"
   },
   {
-   "title": "Dance and Performance",
-   "provider": "Halesowen College",
-   "url": "https://www.worcester.ac.uk/courses/dance-and-performance-ba-hons",
-   "ucas_code": "A54-C96"
-  },
-  {
    "title": "Dance",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/dance/",
    "ucas_code": "A08-A03"
   },
   {
-   "title": "Dance Performance",
-   "provider": "LMA",
-   "url": "https://www.lma.ac.uk/undergraduate/dance-performance",
-   "ucas_code": "A63-D76"
+   "title": "Business Management and Dance",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/businessmanagement/businessmanagementanddance/",
+   "ucas_code": "B61-H19"
+  },
+  {
+   "title": "Dance",
+   "provider": "Roehampton University",
+   "url": "http://www.roehampton.ac.uk/undergraduate-courses/dance/",
+   "ucas_code": "A18-J92"
+  },
+  {
+   "title": "Dance",
+   "provider": "The University Of Chichester",
+   "url": "http://www.chi.ac.uk/ba-hons-dance",
+   "ucas_code": "A23-G65"
   }
  ]
 }

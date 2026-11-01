@@ -3,34 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Media, Journalism and Publishing",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/media-journalism-and-publishing",
-   "ucas_code": "A50-I77"
-  },
-  {
-   "title": "Content Creation",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-content-creation",
-   "ucas_code": "A76-E75"
-  },
-  {
    "title": "Creative Writing and Publishing",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-publishing/",
    "ucas_code": "A48-C66"
-  },
-  {
-   "title": "Fashion Business and Promotion",
-   "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/fashion-business-promotion-ba-hons-2027-28",
-   "ucas_code": "A14-D28"
-  },
-  {
-   "title": "Content Creation and Online Marketing",
-   "provider": "SAE Institute Ltd",
-   "url": "https://www.sae.edu/gbr/courses/ba-bsc-hons-content-creation-online-marketing/",
-   "ucas_code": "A65-F42"
   },
   {
    "title": "English and Publishing",
@@ -43,6 +19,12 @@
    "provider": "University of the Arts, London",
    "url": "https://www.arts.ac.uk/subjects/journalism-pr-media-and-publishing/undergraduate/ba-hons-journalism-and-publishing-lcc",
    "ucas_code": "A76-A84"
+  },
+  {
+   "title": "Media, Journalism and Publishing",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/media-journalism-and-publishing",
+   "ucas_code": "A50-I77"
   }
  ]
 }

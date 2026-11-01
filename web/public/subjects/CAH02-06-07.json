@@ -9,12 +9,6 @@
    "ucas_code": "A51-B06"
   },
   {
-   "title": "Occupational Therapy",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/occupational-therapy",
-   "ucas_code": "A06-E05"
-  },
-  {
    "title": "Psychology with Counselling and Mental Health",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-counselling",
@@ -22,7 +16,7 @@
   },
   {
    "title": "Counselling and Working with Children, Young People & Families",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
    "ucas_code": "A15-G80"
   },
@@ -39,22 +33,10 @@
    "ucas_code": "A54-A43"
   },
   {
-   "title": "Integrative Counselling Practice",
-   "provider": "Bishop Auckland College",
-   "url": "https://bacoll.ac.uk/course/ba-hons-integrative-counselling-practice/",
-   "ucas_code": ""
-  },
-  {
    "title": "Occupational Therapy",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-occupational-therapy-1",
    "ucas_code": "A11-I17"
-  },
-  {
-   "title": "Counselling and Psychology in Community Settings",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-counselling-and-psychology-in-community-settings/",
-   "ucas_code": "A11-I71"
   },
   {
    "title": "Occupational Therapy",
@@ -69,10 +51,16 @@
    "ucas_code": "A47-B76"
   },
   {
-   "title": "Psychology, Psychotherapy and Counselling",
-   "provider": "Burnley College",
-   "url": "https://www.burnley.ac.uk/course/?code=A5773",
-   "ucas_code": "A54-B67"
+   "title": "Occupational Therapy",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/occupational-therapy",
+   "ucas_code": "A75-A82"
+  },
+  {
+   "title": "Occupational Therapy",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/occupational-therapy",
+   "ucas_code": "A19-H30"
   }
  ]
 }

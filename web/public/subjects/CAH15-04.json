@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Early Childhood Studies",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/early-childhood-studies",
-   "ucas_code": "A06-C39"
-  },
-  {
-   "title": "Early Childhood Studies (Graduate Practitioner)",
+   "title": "Health and Social Care",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
-   "ucas_code": "A14-A13"
+   "url": "https://www.aru.ac.uk/study/undergraduate/health-and-social-care-london",
+   "ucas_code": "A42-C31"
   },
   {
    "title": "Health and Care Management",
@@ -21,28 +15,16 @@
    "ucas_code": ""
   },
   {
-   "title": "Counselling and Working with Children, Young People & Families",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
-   "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
-   "ucas_code": "A15-G80"
+   "title": "Health and Social Care",
+   "provider": "Birmingham Newman University",
+   "url": "https://www.newman.ac.uk/course/health-and-social-care-bsc-hons/full-time/",
+   "ucas_code": "A15-G98"
   },
   {
-   "title": "Social Work",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/sm1he0009",
-   "ucas_code": "B70-C98"
-  },
-  {
-   "title": "Childhood And Youth Studies",
+   "title": "Health And Social Care",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/x314-childhood-and-youth-studies-welsh-medium-course-ba-hons",
-   "ucas_code": "A34-B14"
-  },
-  {
-   "title": "Health and Social Care Management with Foundation Year",
-   "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ify-health-social-care-management-london/",
-   "ucas_code": ""
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons",
+   "ucas_code": "A34-E64"
   },
   {
    "title": "Health and Social Care",
@@ -51,10 +33,10 @@
    "ucas_code": "A69-G38"
   },
   {
-   "title": "Early Childhood Studies (with Graduate Practitioner Competencies)",
+   "title": "Social Work",
    "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/early-childhood-studies-ba-hons-2027-28",
-   "ucas_code": "A14-D10"
+   "url": "http://www.bcu.ac.uk/courses/social-work-bsc-hons-2027-28",
+   "ucas_code": "A14-E16"
   },
   {
    "title": "Social Work",
@@ -63,16 +45,22 @@
    "ucas_code": "A11-I35"
   },
   {
-   "title": "Social Work",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-social-work/",
-   "ucas_code": "A11-J07"
+   "title": "Health and Social Science",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
+   "ucas_code": "A03-D32"
   },
   {
-   "title": "Childhood Studies with Early Years",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-childhood-studies-early-years",
-   "ucas_code": "A67-J28"
+   "title": "Health and Lifestyle Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/hnd--bsc-health-and-social-care/",
+   "ucas_code": "A08-G50"
   }
  ]
 }

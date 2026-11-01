@@ -16,12 +16,6 @@
   },
   {
    "title": "Psychology",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/psychology",
-   "ucas_code": "A06-E19"
-  },
-  {
-   "title": "Psychology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/psychology",
    "ucas_code": "A14-A89"
@@ -40,7 +34,7 @@
   },
   {
    "title": "Psychology",
-   "provider": "BIRMINGHAM NEWMAN UNIVERSITY",
+   "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/psychology-bsc-hons/full-time/",
    "ucas_code": "A15-H12"
   },
@@ -49,12 +43,6 @@
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/x319-childhood-and-youth-studies-and-psychology-ba-hons",
    "ucas_code": "A34-B74"
-  },
-  {
-   "title": "Applied Psychology (Clinical)",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/psychology-ug/msci-applied-psychology-clinical",
-   "ucas_code": "A15-D59"
   },
   {
    "title": "Business Psychology",

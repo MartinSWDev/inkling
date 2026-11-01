@@ -21,12 +21,6 @@
    "ucas_code": "A34-C93"
   },
   {
-   "title": "English Language and Linguistics",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/english-language-and-applied-linguistics-ug/ba-english-language-and-linguistics",
-   "ucas_code": "A15-E12"
-  },
-  {
    "title": "English Language and Literature",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
@@ -39,20 +33,8 @@
    "ucas_code": "A27-I99"
   },
   {
-   "title": "Creative Writing and English Language",
-   "provider": "Halesowen College",
-   "url": "https://www.worcester.ac.uk/courses/creative-writing-and-english-language-ba-hons.aspx",
-   "ucas_code": "A11-F44"
-  },
-  {
-   "title": "English Language & Linguistics",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/english-language-and-linguistics-ba",
-   "ucas_code": "A27-G27"
-  },
-  {
    "title": "English Language and Linguistics",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/english-language-and-linguistics",
    "ucas_code": "A67-E92"
   },
@@ -63,16 +45,22 @@
    "ucas_code": "A42-F34"
   },
   {
-   "title": "English with Integrated Foundation Year",
-   "provider": "Royal Holloway, University of London",
-   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/english/english-with-integrated-foundation-year/",
-   "ucas_code": "A52-H58"
-  },
-  {
    "title": "English Language and Linguistics",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/english-language-tesol-applied-linguistics/english-language-and-linguistics/",
    "ucas_code": "A76-H43"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/english/english-lang.aspx",
+   "ucas_code": "A04-I40"
+  },
+  {
+   "title": "Modern Languages and Linguistics",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00296/1?coursecode=RQ91",
+   "ucas_code": "A32-H80"
   }
  ]
 }

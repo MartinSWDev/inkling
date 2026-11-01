@@ -3,26 +3,14 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Biochemistry with French for Science",
-   "provider": "Imperial College London",
-   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biochemistry-language/#OptionA",
-   "ucas_code": "A15-C42"
-  },
-  {
-   "title": "English and Modern Languages with a Year Abroad",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/english-and-modern-languages-with-a-year-abroad-ba",
-   "ucas_code": "A55-A96"
-  },
-  {
    "title": "Business Management and French",
-   "provider": "MANCHESTER METROPOLITAN UNIVERSITY",
+   "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-business-management-and-french/september-2027/",
    "ucas_code": "A65-H58"
   },
   {
    "title": "International Business (with French)",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/nottingham-business-school/ug/ba-hons-international-business-with-french",
    "ucas_code": "A38-E14"
   },
@@ -64,13 +52,13 @@
   },
   {
    "title": "French and German",
-   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-german",
    "ucas_code": "A72-I63"
   },
   {
    "title": "European Studies with French",
-   "provider": "THE UNIVERSITY OF ESSEX",
+   "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00154/1?coursecode=R9R1",
    "ucas_code": ""
   }

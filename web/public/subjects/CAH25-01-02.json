@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Fine Art",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "provider": "Arts University Bournemouth, The",
    "url": "http://aub.ac.uk/courses/ba/ba-fine-art/",
    "ucas_code": "A38-G03"
   },
@@ -13,12 +13,6 @@
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?GJDUV8",
    "ucas_code": "A22-F02"
-  },
-  {
-   "title": "Fine Art",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/fine-art",
-   "ucas_code": "A06-D08"
   },
   {
    "title": "Fine Art",
@@ -31,12 +25,6 @@
    "provider": "Arts University Plymouth",
    "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fine-art",
    "ucas_code": "A16-E84"
-  },
-  {
-   "title": "Art",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/art-ug/ba-art",
-   "ucas_code": "A57-D57"
   },
   {
    "title": "Fine Art",
@@ -58,21 +46,21 @@
   },
   {
    "title": "Fine Art",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/fine-art-ba",
-   "ucas_code": "A39-B25"
-  },
-  {
-   "title": "Fine Art",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-fine-art/",
    "ucas_code": "A08-G43"
   },
   {
    "title": "Fine Art",
-   "provider": "City and Guilds of London Art School",
-   "url": "https://www.cityandguildsartschool.ac.uk/ba-fine-art/",
-   "ucas_code": ""
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/fine-art-ba-hons/?term=2027-28",
+   "ucas_code": "A38-H21"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/fine-art-ba-degree/fine-art-ba-degree.aspx",
+   "ucas_code": "A25-G95"
   }
  ]
 }

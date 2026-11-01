@@ -9,12 +9,6 @@
    "ucas_code": "A51-B77"
   },
   {
-   "title": "Accounting and Economics",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/accounting-and-economics",
-   "ucas_code": "A06-B40"
-  },
-  {
    "title": "Business Economics",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-economics-bsc/",
@@ -25,12 +19,6 @@
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons",
    "ucas_code": "A62-E11"
-  },
-  {
-   "title": "Business Economics",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/economics-ug/bsc-business-economics",
-   "ucas_code": "A15-D81"
   },
   {
    "title": "Economics",
@@ -64,7 +52,7 @@
   },
   {
    "title": "Business Economics",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/business-economics",
    "ucas_code": "A76-E07"
   },

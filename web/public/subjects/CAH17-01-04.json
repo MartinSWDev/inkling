@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Communication Design and Strategy",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
-   "url": "https://aub.ac.uk/course/communication-design-strategy",
-   "ucas_code": "A69-B28"
-  },
-  {
    "title": "Accounting and Finance / Business and Management",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
@@ -27,34 +21,10 @@
    "ucas_code": ""
   },
   {
-   "title": "Transformational Leadership",
-   "provider": "BPP University",
-   "url": "https://www.bpp.com/leadership-and-management/bsc-transformational-leadership",
-   "ucas_code": ""
-  },
-  {
    "title": "Accounting and Management",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons",
    "ucas_code": "A62-E10"
-  },
-  {
-   "title": "Accounting and Management",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-accounting-and-management",
-   "ucas_code": "A15-D48"
-  },
-  {
-   "title": "Business with Management",
-   "provider": "Blackburn College",
-   "url": "https://blackburn.ac.uk/find-a-course/business/business/business-with-management-ba-hons",
-   "ucas_code": "A05-D96"
-  },
-  {
-   "title": "Business",
-   "provider": "Boston College",
-   "url": "https://www.boston.ac.uk/courses/find-a-course/area/business/business-management-ba-hons-top-up-level-6/",
-   "ucas_code": "A73-C91"
   },
   {
    "title": "Economics and Management",
@@ -69,10 +39,28 @@
    "ucas_code": "A61-H45"
   },
   {
+   "title": "Business Management with Social Purpose",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/business-management-with-social-purpose",
+   "ucas_code": "A58-C56"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/business-management",
+   "ucas_code": "A19-D28"
+  },
+  {
+   "title": "Business Management and Leadership",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cul/course-structure/hnc-hnd-degree/management/?term=2027-28",
+   "ucas_code": "A38-G55"
+  },
+  {
    "title": "Business and Management",
-   "provider": "Burnley College",
-   "url": "https://www.burnley.ac.uk/course/?code=a7393",
-   "ucas_code": "A75-I63"
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/business/courses/business-and-management-n201/",
+   "ucas_code": "A07-G34"
   }
  ]
 }

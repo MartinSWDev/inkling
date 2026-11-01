@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Information Technology for Business",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/information-technology-for-business",
-   "ucas_code": "A59-G99"
-  },
-  {
    "title": "Business Computing and IT",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
@@ -51,28 +45,22 @@
    "ucas_code": "A08-G13"
   },
   {
-   "title": "Information Technology Management",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/information-technology-management-bsc/?term=2027-28",
-   "ucas_code": "A38-H54"
-  },
-  {
    "title": "Business Data Analytics",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/business-data-analytics-bsc/business-data-analytics-bsc.aspx",
    "ucas_code": "A60-H73"
   },
   {
-   "title": "Business Computing",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/business-computing",
-   "ucas_code": "A75-F08"
+   "title": "Business Technology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/businesstechnology/",
+   "ucas_code": "A73-H45"
   },
   {
-   "title": "Business And Fintech",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-business-and-fintech",
-   "ucas_code": "A75-C16"
+   "title": "Business Management and Analytics",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/37103-business-management-and-analytics-bsc-hons",
+   "ucas_code": "B57-E25"
   }
  ]
 }

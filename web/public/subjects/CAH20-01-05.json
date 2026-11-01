@@ -3,34 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Ancient History",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/Subject-area/ancient-history-ug/ba-ancient-history",
-   "ucas_code": "A15-D54"
-  },
-  {
-   "title": "Classical Studies",
+   "title": "Classics",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/classical-studies",
-   "ucas_code": "A24-D40"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/classics",
+   "ucas_code": "A24-D41"
   },
   {
-   "title": "Ancient History",
+   "title": "Classics",
    "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/v110/",
-   "ucas_code": "A07-G06"
-  },
-  {
-   "title": "Classical Studies with English",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/classical-studies-with-english-ba",
-   "ucas_code": "A27-F99"
-  },
-  {
-   "title": "Ancient History",
-   "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/v110/",
-   "ucas_code": "A27-A76"
+   "url": "https://www.durham.ac.uk/study/courses/q801/",
+   "ucas_code": "A07-G55"
   },
   {
    "title": "Asian and Middle Eastern Studies and Classics",
@@ -39,40 +21,46 @@
    "ucas_code": "A30-G17"
   },
   {
-   "title": "Classical Studies",
+   "title": "Classics",
    "provider": "Royal Holloway, University of London",
-   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/classics/classical-studies/",
-   "ucas_code": "A17-C74"
-  },
-  {
-   "title": "Ancient History",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/classics-ancient-history-egyptology/ba-ancient-history/",
-   "ucas_code": "A36-J76"
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/classics/classics/",
+   "ucas_code": "A17-C81"
   },
   {
    "title": "Classics and Ancient History",
-   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/caha/classical-lit-civ.aspx",
    "ucas_code": "A04-I01"
   },
   {
-   "title": "Language Studies with Latin American Studies",
-   "provider": "THE UNIVERSITY OF ESSEX",
-   "url": "https://www.essex.ac.uk/courses/UG01412/1?coursecode=R106",
-   "ucas_code": "A58-G73"
+   "title": "Classics",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/classics-ba-hons/2027",
+   "ucas_code": "A02-G65"
   },
   {
-   "title": "Ancient History and History",
-   "provider": "THE UNIVERSITY OF LEEDS",
-   "url": "https://courses.leeds.ac.uk/202728/g676/ancient-history-and-history-ba",
-   "ucas_code": "A26-E28"
+   "title": "Classics",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-classics",
+   "ucas_code": "A20-B55"
   },
   {
-   "title": "Ancient History",
-   "provider": "THE UNIVERSITY OF LEICESTER",
-   "url": "https://le.ac.uk/courses/ancient-history-ba/2027",
-   "ucas_code": "A05-A05"
+   "title": "Archaeology/Classics",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/archaeology/",
+   "ucas_code": "A24-E49"
+  },
+  {
+   "title": "Classics",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Classics-BA-Hons.html",
+   "ucas_code": "A00-E40"
+  },
+  {
+   "title": "Classics",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/classics/ba-classics/",
+   "ucas_code": "A15-H80"
   }
  ]
 }

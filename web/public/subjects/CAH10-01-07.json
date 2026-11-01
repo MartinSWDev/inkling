@@ -21,12 +21,6 @@
    "ucas_code": "A55-H45"
   },
   {
-   "title": "Architectural Engineering",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/architectural-engineering-ug/beng-architectural-engineering",
-   "ucas_code": "A54-B32"
-  },
-  {
    "title": "Civil Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/civil-engineering-beng-2027-28",
@@ -45,14 +39,8 @@
    "ucas_code": "A71-E74"
   },
   {
-   "title": "Architecture",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/architecture-barch",
-   "ucas_code": "A58-D42"
-  },
-  {
    "title": "Civil Engineering",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/civil-engineering",
    "ucas_code": "A72-B73"
   },

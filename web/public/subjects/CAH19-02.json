@@ -9,58 +9,16 @@
    "ucas_code": "A22-E78"
   },
   {
-   "title": "Childhood and Youth Studies and Welsh",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/x321-childhood-and-youth-studies-and-welsh-ba-hons",
-   "ucas_code": "A34-B16"
-  },
-  {
-   "title": "Law and Welsh",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/law-and-welsh-llb",
-   "ucas_code": "A27-J96"
-  },
-  {
-   "title": "Celtic Studies",
-   "provider": "Pembrokeshire College",
-   "url": "https://www.uwtsd.ac.uk/programme-courses/undergraduate/history-and-archaeology/celtic-studies-full-time-full-time-distance",
-   "ucas_code": ""
-  },
-  {
-   "title": "Anthropology and Irish",
-   "provider": "Queen's University Belfast",
-   "url": "http://www.qub.ac.uk/courses/undergraduate/anthropology-irish-ba-ql56/",
-   "ucas_code": "A28-C55"
-  },
-  {
-   "title": "Cymraeg, Cyfryngau a Chysylltiadau Cyhoeddus (Welsh, Media and Public Relations)",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/media-comms-journalism-pr/ba-welsh-media-public-relations-first-language/",
-   "ucas_code": "A37-A98"
-  },
-  {
-   "title": "Irish Studies",
-   "provider": "THE UNIVERSITY OF LIVERPOOL",
-   "url": "https://www.liverpool.ac.uk/courses/irish-studies-ba-hons/2027",
-   "ucas_code": "A02-J31"
-  },
-  {
    "title": "Ancient History/ Celtic Studies",
-   "provider": "UNIVERSITY OF GLASGOW",
+   "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/ancienthistory/",
    "ucas_code": "A46-H46"
   },
   {
-   "title": "Business Studies with Irish",
-   "provider": "Ulster University",
-   "url": "https://www.ulster.ac.uk/course/bsc-global-business-with-irish-mg-ft",
-   "ucas_code": "A69-E79"
-  },
-  {
-   "title": "Anthropology and Gaelic",
+   "title": "Archaeology and Celtic & Anglo-Saxon Studies",
    "provider": "University of Aberdeen",
-   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/426/LQ65/anthropology-and-gaelic-studies/",
-   "ucas_code": "A33-D36"
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/498/5V6Q/archaeology-and-celtic-anglo-saxon-studies/",
+   "ucas_code": "A33-D52"
   },
   {
    "title": "Anglo-Saxon, Norse and Celtic",
@@ -73,6 +31,12 @@
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/Q500",
    "ucas_code": "A14-H78"
+  },
+  {
+   "title": "Celtic Studies",
+   "provider": "Pembrokeshire College",
+   "url": "https://www.uwtsd.ac.uk/programme-courses/undergraduate/history-and-archaeology/celtic-studies-full-time-full-time-distance",
+   "ucas_code": ""
   }
  ]
 }

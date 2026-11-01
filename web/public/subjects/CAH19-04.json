@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Business and Management / French",
+   "title": "Creative Writing and Modern Languages",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?F9JXT8",
-   "ucas_code": "A74-H53"
-  },
-  {
-   "title": "Japanese Studies",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/japanese-studies",
-   "ucas_code": "A06-D52"
+   "url": "http://www.aber.ac.uk/courses/?28RCXK",
+   "ucas_code": "A74-H55"
   },
   {
    "title": "Creative Writing And Modern Languages",
@@ -21,22 +15,16 @@
    "ucas_code": "A62-B67"
   },
   {
-   "title": "International Business and Management with a Modern Language",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/business-and-management-accounting-and-finance-ug/bsc-international-business-and-management-with-modern-language",
-   "ucas_code": "A58-B16"
-  },
-  {
-   "title": "Art History and Language (French, German, Italian, Japanese, Spanish)",
+   "title": "Languages and Language Teaching (French, German, Italian, Japanese, Spanish)",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history/art-history-and-language-french-german-italian-japanese-spanish",
-   "ucas_code": "A65-H26"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/linguistics-and-language-french-german-italian-japanese-spanish/languages-and-language-teaching",
+   "ucas_code": "A65-G88"
   },
   {
-   "title": "English Literature and a Modern Language",
+   "title": "Modern Languages",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-and-a-modern-language-ba",
-   "ucas_code": "A71-H22"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/modern-languages-ba",
+   "ucas_code": "A71-F78"
   },
   {
    "title": "Education Studies with Languages",
@@ -45,22 +33,10 @@
    "ucas_code": "A25-G57"
   },
   {
-   "title": "International Business with Language",
-   "provider": "Doreen Bird College of Performing Arts Ltd.",
-   "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/international-business-language-ba-hons",
-   "ucas_code": "A14-G19"
-  },
-  {
-   "title": "Chinese Studies",
+   "title": "Modern European Languages and History",
    "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/t102/",
-   "ucas_code": "A07-G49"
-  },
-  {
-   "title": "Literary Studies with Creative Writing",
-   "provider": "East Coast College",
-   "url": "http://www.uos.ac.uk/study/ba-lit-studies-creative-writing",
-   "ucas_code": "A62-C47"
+   "url": "https://www.durham.ac.uk/study/courses/rv92/",
+   "ucas_code": "A07-H39"
   },
   {
    "title": "Applied Modern Languages and Translating: French/Spanish",
@@ -69,10 +45,22 @@
    "ucas_code": "A05-J41"
   },
   {
-   "title": "Biochemistry with French for Science",
-   "provider": "Imperial College London",
-   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biochemistry-language/#OptionA",
-   "ucas_code": "A15-C42"
+   "title": "Modern Languages",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/t901/",
+   "ucas_code": "A27-C74"
+  },
+  {
+   "title": "Modern Languages with Business",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/modern-languages-business-ba/",
+   "ucas_code": "B68-G45"
+  },
+  {
+   "title": "Law with Modern Languages (French)",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law-and-criminology/law-with-modern-languages-french/",
+   "ucas_code": "A56-J49"
   }
  ]
 }

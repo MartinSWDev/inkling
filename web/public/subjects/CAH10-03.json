@@ -9,52 +9,10 @@
    "ucas_code": "A13-J59"
   },
   {
-   "title": "Business and Supply Chain Management",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/business-and-supply-chain-management-bsc",
-   "ucas_code": "A45-E33"
-  },
-  {
-   "title": "Marine Engineering",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://fleetwoodnautical.blackpool.ac.uk/course/mh1he95",
-   "ucas_code": ""
-  },
-  {
-   "title": "Engineering",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/h607-engineering-beng",
-   "ucas_code": ""
-  },
-  {
    "title": "Garment Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
    "ucas_code": ""
-  },
-  {
-   "title": "Music (Production)",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/music-production-ba",
-   "ucas_code": "A60-I38"
-  },
-  {
-   "title": "Audio and Music Production",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-audio-and-music-production",
-   "ucas_code": "A72-G41"
-  },
-  {
-   "title": "Sound Design",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/sound-design-ba",
-   "ucas_code": "A39-C66"
-  },
-  {
-   "title": "Prop Making and Special Effects",
-   "provider": "Chichester College Group",
-   "url": "https://www.northbrook.ac.uk/courses/ba-hons-prop-making-special-effects/",
-   "ucas_code": "A69-C27"
   },
   {
    "title": "Biotechnology",
@@ -63,16 +21,46 @@
    "ucas_code": "A75-F69"
   },
   {
-   "title": "Audio Software Engineering",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/audio-software-engineering",
-   "ucas_code": "A66-F24"
+   "title": "Biotechnology",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/biotechnology/",
+   "ucas_code": "A05-C27"
   },
   {
-   "title": "Music Production and Creative Recording",
-   "provider": "EAST SUSSEX COLLEGE",
-   "url": "https://adult.escg.ac.uk/courses/performing-arts/music/music-production-and-creative-recording-ba-hons-uea-101666/",
-   "ucas_code": "A69-B76"
+   "title": "Audio Technology",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11ADTECH",
+   "ucas_code": "A26-C63"
+  },
+  {
+   "title": "Music Technology",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/musictechnology",
+   "ucas_code": "A10-I16"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36142-biotechnology-bsc-hons",
+   "ucas_code": "A52-G97"
+  },
+  {
+   "title": "Automotive Materials",
+   "provider": "Loughborough University",
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/automotive-materials-beng/",
+   "ucas_code": "A18-B21"
+  },
+  {
+   "title": "Materials Science (4 years)",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/materials-science",
+   "ucas_code": "A30-G00"
+  },
+  {
+   "title": "Materials Science",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/materials-science-and-engineering",
+   "ucas_code": "A47-I67"
   }
  ]
 }

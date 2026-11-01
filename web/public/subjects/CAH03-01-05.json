@@ -9,20 +9,8 @@
    "ucas_code": "A22-H11"
   },
   {
-   "title": "Horticulture (Plant Science)",
-   "provider": "Cornwall College",
-   "url": "https://www.cornwall.ac.uk/courses/bsc-hons-horticulture-plant-science-degree/",
-   "ucas_code": "A53-B21"
-  },
-  {
-   "title": "Woodland Ecology and Conservation (with integrated foundation year)",
-   "provider": "THE UNIVERSITY OF CUMBRIA",
-   "url": "https://tinyurl.com/y85k62up",
-   "ucas_code": "A57-B03"
-  },
-  {
    "title": "Molecular & Cellular Biology with Plant Science",
-   "provider": "UNIVERSITY OF GLASGOW",
+   "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/plantscience/",
    "ucas_code": "A24-J63"
   },
@@ -37,6 +25,12 @@
    "provider": "University of Bristol",
    "url": "http://www.bristol.ac.uk/study/undergraduate/2027/biological-sciences/msci-plant-sciences/",
    "ucas_code": "A49-I09"
+  },
+  {
+   "title": "Horticulture (Plant Science)",
+   "provider": "Cornwall College",
+   "url": "https://www.cornwall.ac.uk/courses/bsc-hons-horticulture-plant-science-degree/",
+   "ucas_code": "A53-B21"
   }
  ]
 }

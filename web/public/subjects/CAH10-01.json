@@ -9,16 +9,10 @@
    "ucas_code": "A06-B16"
   },
   {
-   "title": "Artificial Intelligence and Robotics",
+   "title": "Electrical and Electronic Engineering",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?2V5QLZ",
-   "ucas_code": "A22-E53"
-  },
-  {
-   "title": "Automotive Engineering with Electric Vehicles",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/automotive-engineering",
-   "ucas_code": "A66-J25"
+   "url": "http://www.aber.ac.uk/courses/?Y5UH9G",
+   "ucas_code": "A69-B92"
   },
   {
    "title": "Biomedical Engineering",
@@ -33,28 +27,10 @@
    "ucas_code": "A75-F87"
   },
   {
-   "title": "Electrical and Electronic Engineering",
-   "provider": "Asu London Centre for Advanced Learning",
-   "url": "https://asu-london.ac.uk/courses/undergraduate/electrical-and-electronic-engineering/",
-   "ucas_code": "A76-G77"
-  },
-  {
-   "title": "Engineering (Aerospace Engineering)",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/ET1HE603",
-   "ucas_code": "A50-D27"
-  },
-  {
    "title": "Computer Systems Engineering",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/h612-computer-systems-engineering-beng-hons",
    "ucas_code": "A34-C08"
-  },
-  {
-   "title": "Architectural Engineering",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/architectural-engineering-ug/beng-architectural-engineering",
-   "ucas_code": "A54-B32"
   },
   {
    "title": "Civil Engineering",
@@ -73,6 +49,18 @@
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/Aerospace-Engineering-BEng",
    "ucas_code": "A19-I41"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-civil-engineering",
+   "ucas_code": "A71-E74"
+  },
+  {
+   "title": "Aeronautical Engineering",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
+   "ucas_code": "A72-B68"
   }
  ]
 }

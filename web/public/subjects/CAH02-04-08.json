@@ -21,22 +21,10 @@
    "ucas_code": "A71-I13"
   },
   {
-   "title": "Nursing Studies (Learning Disabilities) (Pre-Registration)",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Nursing_Studies_(Learning_Disabilities).cfm",
-   "ucas_code": "A31-F76"
-  },
-  {
    "title": "Nursing with Registration (Learning Disability)",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-learning-disability-degree/nursing-with-registration-learning-disability-bsc-hons.aspx",
    "ucas_code": "A25-H60"
-  },
-  {
-   "title": "Learning Disabilities Nursing",
-   "provider": "Drama Studio London Limited",
-   "url": "https://www.uwl.ac.uk/course/undergraduate/learning-disabilities-nursing",
-   "ucas_code": "A50-I05"
   },
   {
    "title": "Learning Disabilities Nursing & Social Work",
@@ -57,12 +45,6 @@
    "ucas_code": "A26-D38"
   },
   {
-   "title": "Nursing (Learning Disabilities)",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/learning-disability-nursing",
-   "ucas_code": "A21-D55"
-  },
-  {
    "title": "Children's and Learning Disabilities Nursing",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/children-and-learning-disabilities-nursing-msci/",
@@ -73,6 +55,12 @@
    "provider": "Leeds Trinity University",
    "url": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-learning-disabilities/",
    "ucas_code": "A67-F71"
+  },
+  {
+   "title": "Learning Disabilities Nursing",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-learning-disability-nursing#overview",
+   "ucas_code": "A12-C07"
   }
  ]
 }

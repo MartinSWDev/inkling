@@ -3,40 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Food Technology with Bioprocessing",
-   "provider": "Basingstoke College of Technology",
-   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-food-technology-with-bioprocessing",
-   "ucas_code": "A15-E45"
-  },
-  {
    "title": "Food Business Management",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBFDBUS",
    "ucas_code": "A66-F46"
   },
   {
-   "title": "Brewing and Distilling",
-   "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
-   "ucas_code": "A05-J54"
-  },
-  {
-   "title": "Baking Science and Technology",
-   "provider": "London South Bank University",
-   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-baking-science-and-technology#overview",
-   "ucas_code": "A60-I37"
-  },
-  {
    "title": "Artisan Food Production",
-   "provider": "NOTTINGHAM TRENT UNIVERSITY",
+   "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-artisan-food-production",
    "ucas_code": "A69-H43"
-  },
-  {
-   "title": "Viticulture, Oenology & Business Management",
-   "provider": "Plumpton College",
-   "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-viticulture-oenology-bachelors-degree-192/",
-   "ucas_code": "A76-J05"
   },
   {
    "title": "Food Science and Nutrition",
@@ -45,10 +21,10 @@
    "ucas_code": "A28-C20"
   },
   {
-   "title": "Culinary Arts Management",
-   "provider": "University College Birmingham",
-   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/culinary-arts-management-ba-hons-fda/",
-   "ucas_code": "A22-H75"
+   "title": "Food Technology with Bioprocessing",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-food-technology-with-bioprocessing",
+   "ucas_code": "A15-E45"
   }
  ]
 }

@@ -16,19 +16,13 @@
   },
   {
    "title": "French and Russian",
-   "provider": "THE UNIVERSITY OF BIRMINGHAM",
+   "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-russian",
    "ucas_code": "A72-I82"
   },
   {
-   "title": "Bulgarian and Czech",
-   "provider": "UCL",
-   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/bulgarian-and-czech-ba",
-   "ucas_code": "A49-A68"
-  },
-  {
    "title": "Business & Management/Russian",
-   "provider": "UNIVERSITY OF GLASGOW",
+   "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/businessmanagement/",
    "ucas_code": "A24-E88"
   },
@@ -43,6 +37,12 @@
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/arabic/arabic-ma/",
    "ucas_code": "A28-H67"
+  },
+  {
+   "title": "Bulgarian and Czech",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/bulgarian-and-czech-ba",
+   "ucas_code": "A49-A68"
   }
  ]
 }

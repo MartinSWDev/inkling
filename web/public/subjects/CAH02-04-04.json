@@ -4,12 +4,6 @@
  "courses": [
   {
    "title": "Midwifery",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/midwifery/",
-   "ucas_code": "A06-D81"
-  },
-  {
-   "title": "Midwifery",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/midwifery",
    "ucas_code": "A14-A66"
@@ -34,13 +28,7 @@
   },
   {
    "title": "Midwifery",
-   "provider": "Burton and South Derbyshire College",
-   "url": "https://www.staffs.ac.uk/course/midwifery-bmid",
-   "ucas_code": "A39-B98"
-  },
-  {
-   "title": "Midwifery",
-   "provider": "CITY ST GEORGE'S, UNIVERSITY OF LONDON",
+   "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/midwifery",
    "ucas_code": "A13-I29"
   },
@@ -63,16 +51,16 @@
    "ucas_code": "A71-H79"
   },
   {
-   "title": "Midwifery (Pre-Registration)",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/BSc_(Hons)_Midwifery.cfm",
-   "ucas_code": "A31-F72"
-  },
-  {
    "title": "Midwifery",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/midwifery-bsc-hons-degree/midwifery-bsc-hons.aspx",
    "ucas_code": "A25-H55"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/midwifery/",
+   "ucas_code": "A05-D11"
   }
  ]
 }

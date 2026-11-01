@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Fire Engineering",
-   "provider": "UNIVERSITY OF LANCASHIRE",
+   "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/fire-engineering-beng",
    "ucas_code": "A02-C08"
   },
@@ -19,12 +19,6 @@
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/beng-mining-engineering/",
    "ucas_code": "A73-D24"
-  },
-  {
-   "title": "Occupational Health & Safety",
-   "provider": "University of the West of Scotland",
-   "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/occupational-safety-health/",
-   "ucas_code": "A50-G18"
   }
  ]
 }

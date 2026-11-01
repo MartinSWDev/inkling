@@ -3,42 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Intelligence and International Security",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?C6FMAE",
-   "ucas_code": "A72-J09"
-  },
-  {
-   "title": "Law with Criminal Justice",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/law-with-criminal-justice",
-   "ucas_code": "A76-G34"
-  },
-  {
-   "title": "Professional Policing",
-   "provider": "BLACKPOOL AND THE FYLDE COLLEGE",
-   "url": "https://www.blackpool.ac.uk/course/TH1HE0005",
-   "ucas_code": "A58-D28"
-  },
-  {
-   "title": "Criminology",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/m943-criminology-ba",
-   "ucas_code": "B63-I03"
-  },
-  {
-   "title": "Law with Criminal Justice",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/law-llb-hons-2027-28",
-   "ucas_code": "A14-D63"
-  },
-  {
-   "title": "Countering Terrorism & Extremism",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/countering-terrorism-and-extremism",
-   "ucas_code": "A39-E86"
-  },
-  {
    "title": "Sociology and Social Policy",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-sociology-and-social-policy/",
@@ -51,28 +15,52 @@
    "ucas_code": "A40-A66"
   },
   {
-   "title": "Public Health",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/public-health-bsc/?term=2027-28",
-   "ucas_code": "A71-H88"
+   "title": "Criminology and Social Policy",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/criminology-social-policy-ba-ml94/#course",
+   "ucas_code": "A28-B83"
   },
   {
-   "title": "Criminal Investigation and Policing Studies",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/criminal-investigation-policing-ba-hons-degree/criminal-investigation-with-policing-studies-ba-hons.aspx",
-   "ucas_code": "A25-G34"
+   "title": "Criminology and Social Policy",
+   "provider": "Swansea University",
+   "url": "http://www.swansea.ac.uk/undergraduate/courses/law/bsccriminologysocialpolicy/",
+   "ucas_code": "A37-A96"
   },
   {
-   "title": "Criminology",
-   "provider": "Edge Hill University",
-   "url": "https://www.edgehill.ac.uk/course/criminology-ba/",
-   "ucas_code": "A05-C58"
+   "title": "Policy, Politics and Economics",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/social-policy/policy-politics-economics.aspx",
+   "ucas_code": "A04-J59"
   },
   {
-   "title": "Criminology and Criminal Justice",
-   "provider": "GOLDSMITHS' COLLEGE",
-   "url": "http://www.gold.ac.uk/ug/bsc-criminology-criminal-justice",
-   "ucas_code": "A76-G44"
+   "title": "Social Policy, Sociology & Crime",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j476/social-policy-sociology-crime-bsc",
+   "ucas_code": "A62-H36"
+  },
+  {
+   "title": "Criminology with Social Policy",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/criminology-with-social-policy-ba-hons/2027",
+   "ucas_code": "A44-J77"
+  },
+  {
+   "title": "Celtic Civilisation/Social & Public Policy",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/celticcivilisation/",
+   "ucas_code": "A24-F19"
+  },
+  {
+   "title": "Social Policy",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-social-policy-ft-jn",
+   "ucas_code": "A16-J34"
+  },
+  {
+   "title": "Social Policy",
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHSP-AFB32",
+   "ucas_code": "A65-E43"
   }
  ]
 }

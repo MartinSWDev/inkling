@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Creative Direction",
-   "provider": "ARTS UNIVERSITY BOURNEMOUTH, THE",
+   "provider": "Arts University Bournemouth, The",
    "url": "https://aub.ac.uk/course/creative-direction",
    "ucas_code": "A69-B32"
   },
@@ -21,34 +21,10 @@
    "ucas_code": "B68-J42"
   },
   {
-   "title": "Creative Industries",
-   "provider": "Blackburn College",
-   "url": "https://blackburn.ac.uk/find-a-course/creative-arts/creative-industries/creative-industries-ba-hons",
-   "ucas_code": "A76-D48"
-  },
-  {
-   "title": "Fashion",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-fashion/",
-   "ucas_code": "A11-I78"
-  },
-  {
-   "title": "Creative Intelligence & Innovation",
-   "provider": "Cambridge School of Visual and Performing Arts",
-   "url": "https://www.csvpa.com/course/ba-hons-creative-intelligence-innovation/",
-   "ucas_code": "A73-E93"
-  },
-  {
    "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
    "provider": "Cardiff Metropolitan University",
    "url": "https://blackmountainscollege.uk/study/higher-education/",
    "ucas_code": "A67-C51"
-  },
-  {
-   "title": "Visual Art",
-   "provider": "East Coast College",
-   "url": "http://www.uos.ac.uk/lvar",
-   "ucas_code": "A63-H64"
   },
   {
    "title": "Interactive Media Design",
@@ -57,22 +33,34 @@
    "ucas_code": "B58-B79"
   },
   {
-   "title": "Digital Arts For Animation, Games And Immersion",
-   "provider": "HERTFORD REGIONAL COLLEGE",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-digital-arts-for-animation-games-immersion",
-   "ucas_code": "A69-E50"
+   "title": "Creative Arts and Africa and Black Diaspora",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
+   "ucas_code": "A73-G86"
   },
   {
-   "title": "Digital Games Art",
-   "provider": "LMA",
-   "url": "https://www.lma.ac.uk/undergraduate/games-art",
-   "ucas_code": "A63-D71"
+   "title": "Creative Media Arts",
+   "provider": "The University Of Westminster",
+   "url": "https://www.westminster.ac.uk/creative-media-arts-ba",
+   "ucas_code": "A72-A55"
   },
   {
-   "title": "Marketing Communications",
-   "provider": "Leeds Arts University",
-   "url": "https://www.leeds-art.ac.uk/courses/ba-hons-marketing-communications",
-   "ucas_code": "A30-A93"
+   "title": "Creative Arts & Industries / Digital Media & Information Studies",
+   "provider": "University Of Glasgow",
+   "url": "https://www.gla.ac.uk/undergraduate/degrees/creativeartsindustries/",
+   "ucas_code": "A76-J89"
+  },
+  {
+   "title": "Creative Digital Design",
+   "provider": "University Centre Peterborough",
+   "url": "https://www.ucp.ac.uk/courses/ba-hons-creative-digital-design/",
+   "ucas_code": "A62-H54"
+  },
+  {
+   "title": "Art and Design",
+   "provider": "University of Bedfordshire",
+   "url": "https://www.beds.ac.uk/courses/art-and-design",
+   "ucas_code": "A10-D37"
   }
  ]
 }
