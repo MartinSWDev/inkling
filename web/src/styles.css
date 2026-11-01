@@ -5,7 +5,7 @@
 :root{--bg:#1E1830;--paper:#FBF6EE;--ink:#2A2238;--muted:#6c6280;--line:#ddd2c2;--accent:#e59a2c;--accent-ink:#5a3600;--lilac:#C9B8E8;--peach:#F6C9A8;--sage:#B9CDB0;--butter:#F3D98B;--round-accent:#C9B8E8;--teal:#3f8f88;--no:#c75a5a;--yes:#4f9a6a;--wall:#dcd0ee;--wall2:#cbbde3;--floor:#c98e63;--glass:rgba(251,246,238,.92);--scrim:rgba(43,35,64,.35);--paper-shadow:0 1px 0 rgba(42,34,56,.16),0 18px 36px rgba(30,24,48,.18);--paper-shadow-sm:0 1px 0 rgba(42,34,56,.16),0 8px 18px rgba(30,24,48,.16);--display:"Fraunces","Georgia",serif;--body:"Figtree","Helvetica Neue",Arial,sans-serif}
 :root{color-scheme:light}
 *{box-sizing:border-box}[hidden]{display:none!important}html,body,#root{height:100%}
-body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28),transparent 70%),var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.4;overflow:hidden}
+body{margin:0;background:#F3EDE4;color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.4;overflow:hidden}
 .sheet2,.pc,.card,.paperlabel,.pcard .lbl{background-image:url(/paper-grain.png);background-size:128px}
 .app{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(100vw,calc((100svh - 48px)*9/16));height:min(calc(100svh - 48px),calc(100vw*16/9));overflow:hidden;overscroll-behavior:none;background:var(--wall2)}
 @media(max-width:640px){.app{width:100vw;height:100svh}}
@@ -312,4 +312,9 @@ button svg.lucide,a svg.lucide{flex:none}
 .daylabel{display:inline-flex;align-items:center;gap:4px}
 .chip .checkmark{display:inline-flex;align-items:center}
 .courselist a,.handsoncard a{display:inline-flex;align-items:center;gap:4px}
+.stickerrain{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+@media(max-width:699px){.stickerrain{display:none}}
+.rainsticker{position:absolute;top:-14vh;opacity:.85;animation-name:rainfall;animation-timing-function:linear;animation-iteration-count:infinite;will-change:transform}
+@keyframes rainfall{0%{transform:translate3d(0,-6vh,0) rotate(0deg)}25%{transform:translate3d(1.6vw,28vh,0) rotate(calc(var(--rain-rot,8deg)*.5))}50%{transform:translate3d(-1.4vw,58vh,0) rotate(var(--rain-rot,8deg))}75%{transform:translate3d(1.6vw,88vh,0) rotate(calc(var(--rain-rot,8deg)*.5))}100%{transform:translate3d(0,122vh,0) rotate(0deg)}}
+@media(prefers-reduced-motion:reduce){.stickerrain{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.sticker-img{animation:none!important}}

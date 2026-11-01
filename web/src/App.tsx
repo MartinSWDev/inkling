@@ -34,6 +34,28 @@ function CardArt({ card }: { card: DeckCard }) {
   </svg></div>);
 }
 
+function StickerRain() {
+  const [items, setItems] = useState<{ code: string; left: number; size: number; dur: number; delay: number; rot: number }[]>([]);
+  useEffect(() => {
+    fetch("/stickers/stickers.json").then((r) => r.json())
+      .then((list: { code: string }[]) => {
+        const pool = [...list].sort(() => Math.random() - 0.5).slice(0, 12);
+        setItems(pool.map((s, i) => ({
+          code: s.code,
+          // Keep the rain in the empty space beside the centred phone frame.
+          left: i % 2 === 0 ? 2 + Math.random() * 30 : 68 + Math.random() * 28,
+          size: 44 + Math.random() * 34, dur: 8 + Math.random() * 6,
+          delay: -Math.random() * 14, rot: -14 + Math.random() * 28,
+        })));
+      }).catch(() => null);
+  }, []);
+  if (!items.length) return null;
+  return (<div className="stickerrain" aria-hidden="true">{items.map((it) => (
+    <img key={it.code} className="rainsticker" src={"/stickers/" + it.code + ".webp"} alt="" draggable={false}
+      style={{ left: it.left + "vw", width: it.size, animationDuration: it.dur + "s", animationDelay: it.delay + "s", "--rain-rot": it.rot + "deg" } as CSSProperties} />
+  ))}</div>);
+}
+
 export default function App() {
   const [content, setContent] = useState<Awaited<ReturnType<typeof fetchContent>> | null>(null);
   const [scene, dispatch] = useReducer(flowReducer, initialScene);
@@ -369,7 +391,8 @@ export default function App() {
   const pair = content.pairs[pairIdx];
 
   const inGame = scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro";
-  return (
+  return (<>
+    {scene.kind === "landing" && <StickerRain />}
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
@@ -728,6 +751,6 @@ export default function App() {
           <p className="note">Course data: Discover Uni (HESA), CC BY 4.0. Graduate job data: Discover Uni (HESA). Campus settings tagged by Muse Spark Open from HESA location data.</p>
         </motion.div>
       </div>)}
-    </div>
+    </div></>
   );
 }
