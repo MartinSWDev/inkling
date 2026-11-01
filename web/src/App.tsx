@@ -353,12 +353,13 @@ export default function App() {
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
               onClick={() => { const n = { ...picked }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; sfx.pop(); syncChips(n, typedNames); }}>
               <span>{chip.name}</span>
+              {st && <span className="checkmark" aria-hidden="true">✓</span>}
               {confetti === chip.id && (<span className="flecks" aria-hidden="true">{[0, 1, 2, 3, 4, 5].map((i) => (
                 <motion.i key={i} initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
                   animate={{ x: Math.cos(i * 1.05) * 34, y: Math.sin(i * 1.05) * 26 - 8, opacity: 0, scale: 0.5 }}
                   transition={{ duration: 0.55, ease: "easeOut" }} />))}</span>)}
               <span className="heart" role="button" aria-label={"Love " + chip.name}
-                onClick={(e) => { e.stopPropagation(); const loving = picked[chip.id] !== "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: loving ? "love" : "take" }, typedNames, loving); }}>♥</span>
+                onClick={(e) => { e.stopPropagation(); const loving = picked[chip.id] !== "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: loving ? "love" : "take" }, typedNames, loving); }}>{st === "love" ? "♥" : "♡"}</span>
             </button>);
           })}</div>
           <div><p className="hint2" style={{ marginBottom: 6 }}>Something else?</p>
