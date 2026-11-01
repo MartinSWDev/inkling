@@ -63,7 +63,7 @@ export default function App() {
     const stop = window.setTimeout(() => window.clearInterval(iv), 2200);
     return () => { window.clearInterval(iv); window.clearTimeout(stop); };
   }, [scene]);
-  const [exploreOpen, setExploreOpen] = useState<string | null>(null);
+
   const revealPage = scene.kind === "reveal" ? scene.page : scene.kind === "share" ? 4 : 0;
   const page = revealPage;
   const toastTimer = useRef<number>(0);
@@ -279,7 +279,7 @@ export default function App() {
   function restart() {
     setRoomCodes([]); scoresRef.current = {};
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
-    setWildcardFlipped(false); setExploreOpen(null);
+    setWildcardFlipped(false);
     dispatch({ type: "RESTART" });
   }
 
@@ -339,7 +339,10 @@ export default function App() {
         <b>Did you know?</b>{fact}</motion.div>)}
 
       {scene.kind === "landing" && (<section className="landing">
-        <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }} />
+        <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }}>
+          <img className="miniview" src="/views/campus_day.webp" alt="" />
+          <img className="miniroom" src="/room/room.png" alt="" />
+        </motion.div>
         <h1 className="wordmark">Inkling</h1>
         <p className="lede">Not sure what to study? Find the degree subjects that fit you.</p>
         <button className="btn alt bigbtn" onClick={() => { unlock(); sfx.pop(); dispatch({ type: "START" }); }}>Find my subjects</button>
@@ -411,7 +414,7 @@ export default function App() {
                 <motion.i key={i} initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
                   animate={{ x: Math.cos(i * 1.05) * 34, y: Math.sin(i * 1.05) * 26 - 8, opacity: 0, scale: 0.5 }}
                   transition={{ duration: 0.55, ease: "easeOut" }} />))}</span>)}
-              <span className="heart" role="button" aria-label={"Love " + chip.name}
+              <span className="heart" role="button" aria-label={"Favourite " + chip.name}
                 onClick={(e) => { e.stopPropagation(); const loving = picked[chip.id] !== "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: loving ? "love" : "take" }, typedNames, loving); }}>{st === "love" ? "♥" : "♡"}</span>
             </button>);
           })}</div>
@@ -517,12 +520,10 @@ export default function App() {
             </button>) : <div className="pc bottom"><h2>No wildcard this time</h2><p className="note">Everything you got was on a card.</p></div>}
           </div></div>
           <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><h2>Subjects to explore</h2>
-            <ul className="subjects">{exploreList.map((r) => { const subj = subjects.find((s) => s.code === r.code); return (
+            <ul className="subjects">{exploreList.map((r) => { return (
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "A wildcard: it never came up, but it fits your answers." : (plainOf(r.code) || "")}</small>
-                {exploreOpen === r.code && subj?.why_line && <small>{subj.why_line}</small>}
-                <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button>
-                {subj?.why_line && <button className="linkbtn" onClick={() => setExploreOpen(exploreOpen === r.code ? null : r.code)}>What's it like?</button>}</span></div>
+                <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button></span></div>
                 {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>); })}
             </ul></div></div>
           <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
@@ -532,7 +533,7 @@ export default function App() {
                 <span>{v.id === view ? "✓ " : ""}{v.name}</span></button>))}</div>
             <div className="segcontrol" role="group" aria-label="Time of day">
               {["day", "dusk"].map((t) => <button key={t} aria-pressed={t === viewTime} onClick={() => setViewTime(t)}>{t === "day" ? "Day" : "Dusk"}</button>)}</div>
-            <p className="note">It changes your window, and later helps suggest places to study.</p></div></div>
+            <p className="note">It changes the view from your window.</p></div></div>
           <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><h2>Share your room</h2>
             <div className="share"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
