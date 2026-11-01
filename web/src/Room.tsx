@@ -86,7 +86,7 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
   return (
     <div className={"room-stack" + (band ? " band" : "")} ref={stackRef} style={bandStyle}>
       <img className="view-img" src={"/views/" + viewId + "_" + viewTime + ".webp"} alt=""
-        style={{ left: pct(win.x, ROOM_W), top: pct(win.y, ROOM_H), width: pct(win.w, ROOM_W), height: pct(win.h, ROOM_H) }} />
+        style={{ left: pct(win.x - win.w * 0.14, ROOM_W), top: pct(win.y - win.h * 0.1, ROOM_H), width: pct(win.w * 1.28, ROOM_W), height: pct(win.h * 1.28, ROOM_H) }} />
       <img className="room-top" src="/room/room.png" alt="Your room" />
       {[...assigned].sort((a, b) => a.z - b.z).map((a, ai) => (
         <span key={a.code}>
@@ -121,7 +121,7 @@ export async function composeRoomCanvas(assigned: Assigned[], viewId: string, vi
   const ctx = canvas.getContext("2d")!;
   const k = 1080 / ROOM_W;
   const view = await loadImg("/views/" + viewId + "_" + viewTime + ".webp");
-  ctx.drawImage(view, layout.window.x * k, layout.window.y * k, layout.window.w * k, layout.window.h * k);
+  ctx.drawImage(view, (layout.window.x - layout.window.w * 0.14) * k, (layout.window.y - layout.window.h * 0.1) * k, layout.window.w * 1.28 * k, layout.window.h * 1.28 * k);
   ctx.drawImage(await loadImg("/room/room.png"), 0, 0, 1080, 1920);
   for (const a of [...assigned].sort((x, y) => x.z - y.z)) {
     const img = await loadImg("/stickers/" + a.code + ".webp");

@@ -355,10 +355,10 @@ export default function App() {
 
       {scene.kind === "unfold" && (<section className="unfold3d" aria-hidden="true">
         {[
-          { key: "floor", clip: "polygon(0% 74.6%, 100% 74.6%, 100% 100%, 0% 100%)", from: { rotateX: 68, scale: 0.92, opacity: 0 }, delay: 0, origin: "50% 100%" },
-          { key: "back", clip: "polygon(0% 0%, 100% 0%, 91.4% 9%, 91.4% 77.4%, 8.6% 77.4%, 8.6% 9%)", from: { rotateX: 80, opacity: 0 }, delay: 0.2, origin: "50% 100%" },
-          { key: "left", clip: "polygon(0% 0%, 11.5% 0%, 11.5% 100%, 0% 100%)", from: { rotateY: 70, opacity: 0 }, delay: 0.55, origin: "100% 50%" },
-          { key: "right", clip: "polygon(88.5% 0%, 100% 0%, 100% 100%, 88.5% 100%)", from: { rotateY: -70, opacity: 0 }, delay: 0.55, origin: "0% 50%" },
+          { key: "floor", clip: "polygon(0% 74.6%, 100% 74.6%, 100% 100%, 0% 100%)", from: { rotateX: 68, scale: 0.92, opacity: 0.45 }, delay: 0, origin: "50% 100%" },
+          { key: "back", clip: "polygon(0% 0%, 100% 0%, 91.4% 9%, 91.4% 77.4%, 8.6% 77.4%, 8.6% 9%)", from: { rotateX: 55, opacity: 0.25 }, delay: 0.2, origin: "50% 100%" },
+          { key: "left", clip: "polygon(0% 0%, 11.5% 0%, 11.5% 100%, 0% 100%)", from: { rotateY: 45, opacity: 0.25 }, delay: 0.55, origin: "100% 50%" },
+          { key: "right", clip: "polygon(88.5% 0%, 100% 0%, 100% 100%, 88.5% 100%)", from: { rotateY: -45, opacity: 0.25 }, delay: 0.55, origin: "0% 50%" },
         ].map((p) => (
           <motion.div key={p.key} className="uslice" style={{ clipPath: p.clip, transformOrigin: p.origin }}
             initial={p.from} animate={{ rotateX: 0, rotateY: 0, scale: 1, opacity: 1 }}
@@ -368,7 +368,7 @@ export default function App() {
         {assets && (<motion.img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt=""
           style={{ left: (assets.layout.window.x / 1152 * 100) + "%", top: (assets.layout.window.y / 2048 * 100) + "%",
             width: (assets.layout.window.w / 1152 * 100) + "%", height: (assets.layout.window.h / 2048 * 100) + "%" }}
-          initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.95, duration: 0.4 }} />)}
+          initial={{ opacity: 0.9 }} animate={{ opacity: 1 }} transition={{ delay: 0, duration: 0.3 }} />)}
         <motion.div className="ulamp" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05, duration: 0.35 }} />
       </section>)}
 
