@@ -25,7 +25,7 @@ function overlap(a: Assigned, b: Assigned) {
   return (iw * ih) / Math.min(a.w * a.h, b.w * b.h);
 }
 
-export function assignStickers(codes: string[], stickers: Record<string, StickerEntry>, layout: Layout, boost = 1): Assigned[] {
+export function assignStickers(codes: string[], stickers: Record<string, StickerEntry>, layout: Layout, boost = 1, floorLift = 0): Assigned[] {
   const placed: Assigned[] = [];
   const used = new Set<string>();
   for (const code of codes) {
@@ -35,7 +35,8 @@ export function assignStickers(codes: string[], stickers: Record<string, Sticker
     for (const [name, spot] of Object.entries(layout.spots)) {
       if (spot.slot !== entry.slot || used.has(name)) continue;
       const scale = Math.min(spot.max[0] / entry.w, spot.max[1] / entry.h) * (SCALE[entry.size] ?? 0.8) * boost;
-      const cand: Assigned = { code, spot: name, x: spot.anchor[0] - (entry.w * scale) / 2, y: spot.anchor[1] - entry.h * scale,
+      const cand: Assigned = { code, spot: name, x: spot.anchor[0] - (entry.w * scale) / 2,
+        y: spot.anchor[1] - entry.h * scale - (entry.slot === "floor" ? floorLift : 0),
         w: entry.w * scale, h: entry.h * scale, z: spot.z, slot: entry.slot };
       if (placed.some((p) => overlap(cand, p) > 0.5)) continue;
       placed.push(cand); used.add(name); done = true; break;
@@ -88,9 +89,9 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
           {a.slot !== "wall"
             ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: pct(a.y + a.h - 6, ROOM_H), width: pct(a.w * 0.76, ROOM_W) }} />
             : <img className="sticker-dropshadow" src={"/stickers/" + a.code + ".webp"} alt=""
-                style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H) }} />}
+                style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W) }} />}
           <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) ? " lifted" : "")} src={"/stickers/" + a.code + ".webp"} alt=""
-            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), height: pct(a.h, ROOM_H), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined }} />
+            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 5 }}>+1</span>}
         </span>
       ))}

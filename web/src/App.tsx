@@ -107,6 +107,7 @@ export default function App() {
   const surprise = live?.surprise ?? null;
   const [roomCodes, setRoomCodes] = useState<string[]>([]);
   const [lastAdded, setLastAdded] = useState<string | null>(null);
+  const [dip, setDip] = useState(false);
   const [confetti, setConfetti] = useState<string | null>(null);
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const scoresRef = useRef<Record<string, number>>({});
@@ -124,8 +125,17 @@ export default function App() {
     return codes;
   }, [phase, assets, roomCodes, ranked, qualifiedAll, wildcardFlipped, surprise]);
   const assigned = useMemo(
-    () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.25 : 1) : []),
-    [assets, displayCodes, phase]);
+    () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.25 : 1, scene.kind === "round" ? 150 : 0) : []),
+    [assets, displayCodes, phase, scene.kind]);
+  useEffect(() => {
+    if (!lastAdded) return;
+    const a = assigned.find((x) => x.code === lastAdded);
+    if (a && (a.y + a.h) / 2048 > 0.46) {
+      setDip(true);
+      const t = window.setTimeout(() => setDip(false), 650);
+      return () => window.clearTimeout(t);
+    }
+  }, [lastAdded, assigned]);
 
   function nextRound() {
     setDeckIdx(0);
@@ -259,7 +269,7 @@ export default function App() {
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
-        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} band={scene.kind === "round"} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
           liftCodes={scene.kind === "reveal" && page === 0 ? top3.map((r) => r.code) : []} />
         {scene.kind === "finale" && <span className="lampwarm" aria-hidden="true" />}
       </div>
@@ -325,7 +335,7 @@ export default function App() {
         </motion.span>
       </button>)}
 
-      {scene.kind === "round" && (<div className="overlay">
+      {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "")}>
         {round === 1 && (<div className="sheet2">
           <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {

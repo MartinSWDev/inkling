@@ -12,11 +12,12 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);z-index:0;isolation:isolate;pointer-events:none}
 .room-wrap *{pointer-events:none}
 .room-stack{position:absolute;inset:0}
-.app[data-mode="swipe"] .room-wrap{bottom:auto;height:55%}
+.app[data-mode="swipe"] .room-wrap > .room-stack{transform:scale(1.05) translateY(-2.5%)}
 .room-stack.band{position:absolute;left:0;top:0}
 .room-stack .view-img{position:absolute;object-fit:cover}
 .room-stack .room-top{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.room-stack .sticker-img{position:absolute;animation:popin .45s cubic-bezier(.2,.9,.3,1.3) both}
+.room-stack .sticker-img{position:absolute;height:auto;animation:popin .45s cubic-bezier(.2,.9,.3,1.3) both}
+.room-stack .sticker-dropshadow{height:auto}
 .room-stack .sticker-shadow{position:absolute;height:12px;background:rgba(30,20,40,.25);border-radius:50%;filter:blur(4px)}
 .room-stack .sticker-dropshadow{position:absolute;filter:brightness(0);opacity:.28;mix-blend-mode:multiply}
 .room-stack .dusk-wash{position:absolute;inset:0;background:rgba(255,140,60,.22);mix-blend-mode:multiply;pointer-events:none}
@@ -33,7 +34,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .seg i{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:99px;transition:width .45s;background:linear-gradient(90deg,#5b8fd6,#4fb37a 35%,#e5c23c 60%,#e59a2c 80%,#d9534f);background-size:400% 100%}
 .seg.done i{width:100%;background:#4fb37a}
 .seg em.mintick{position:absolute;top:-3px;bottom:-3px;width:3px;background:#fff;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
-.app[data-mode="swipe"] .overlay{top:55%;padding-top:8px;overflow:auto;align-content:start}
+.app[data-mode="swipe"] .overlay{top:auto;max-height:52%;padding-top:8px;overflow:auto;align-content:start;transition:transform .3s ease}
+.app[data-mode="swipe"] .overlay.dip{transform:translateY(40px)}
 .app[data-mode="swipe"] .deck{height:min(220px,26svh)}
 .app[data-mode="swipe"] .sheet2{max-height:100%}
 .topline{display:flex;justify-content:space-between;align-items:baseline;margin-top:6px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}
