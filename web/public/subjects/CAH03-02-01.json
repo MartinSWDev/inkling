@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Sport and Exercise",
+   "title": "Sport and Exercise Science",
    "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
-   "ucas_code": "A06-B37"
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise-science/",
+   "ucas_code": "A68-E66"
   },
   {
    "title": "Sport and Exercise Science",
@@ -15,28 +15,22 @@
    "ucas_code": "A22-H47"
   },
   {
-   "title": "Applied Sport Science",
+   "title": "Sport and Exercise Science",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/applied-sport-science",
-   "ucas_code": "A74-A48"
+   "url": "https://www.aru.ac.uk/study/undergraduate/sport-and-exercise-science",
+   "ucas_code": "A14-B07"
   },
   {
-   "title": "Sport Coaching",
+   "title": "Sport and Exercise Science",
    "provider": "Birmingham Newman University",
-   "url": "https://www.newman.ac.uk/course/sport-coaching-bsc-hons/full-time/",
-   "ucas_code": "A66-C07"
+   "url": "https://www.newman.ac.uk/course/sport-and-exercise-science-bsc-hons/full-time/",
+   "ucas_code": "A15-H21"
   },
   {
-   "title": "Adventure Sport Science",
+   "title": "Sport And Exercise Science",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/c611-adventure-sport-science-bsc-hons",
-   "ucas_code": "A51-I48"
-  },
-  {
-   "title": "Sport and Exercise Nutrition",
-   "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-sport-and-exercise-nutrition/",
-   "ucas_code": "A65-I04"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c616-sport-and-exercise-science-bsc-hons",
+   "ucas_code": "A62-B57"
   },
   {
    "title": "Sport and Exercise Science",
@@ -45,22 +39,28 @@
    "ucas_code": "A14-E22"
   },
   {
-   "title": "Sport Coaching",
+   "title": "Sport and Exercise Science",
    "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-sport-coaching",
-   "ucas_code": "A55-C17"
-  },
-  {
-   "title": "Sport, Health & Exercise Sciences with Business Studies with Placement Year",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/sport-health-and-exercise-sciences-with-business-studies-bsc",
-   "ucas_code": "A20-A37"
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-sport-exercise-science",
+   "ucas_code": "A55-C18"
   },
   {
    "title": "Sport and Exercise Science",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-sport-and-exercise-science",
    "ucas_code": "A03-D83"
+  },
+  {
+   "title": "Sport & Exercise Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/sport-and-exercise-science",
+   "ucas_code": "A19-I08"
+  },
+  {
+   "title": "Sport and Exercise Science",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-sport-and-exercise-science/",
+   "ucas_code": "A08-G79"
   }
  ]
 }

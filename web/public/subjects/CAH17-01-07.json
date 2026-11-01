@@ -3,64 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Accounting and Finance",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?73D9YL",
-   "ucas_code": "A22-E35"
-  },
-  {
-   "title": "Banking, Finance and FinTech",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/banking-and-finance",
-   "ucas_code": "A76-H93"
-  },
-  {
-   "title": "Accounting and Finance",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/finance-degrees/bsc-accounting-finance",
-   "ucas_code": ""
-  },
-  {
-   "title": "Accounting and Finance",
+   "title": "Finance",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/accounting-and-finance-bsc",
-   "ucas_code": "A30-B02"
+   "url": "https://www.aston.ac.uk/study/courses/finance-bsc",
+   "ucas_code": "A30-B74"
   },
   {
-   "title": "Accounting and Finance",
-   "provider": "Birmingham Newman University",
-   "url": "https://www.newman.ac.uk/course/accounting-and-finance-ba-hons/full-time/",
-   "ucas_code": "A15-G73"
-  },
-  {
-   "title": "Accounting and Finance",
-   "provider": "BPP University",
-   "url": "https://www.bpp.com/accountancy-and-tax/bsc-accounting-and-finance",
-   "ucas_code": ""
-  },
-  {
-   "title": "Accounting And Finance",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/nn4h-accounting-and-finance-bsc-hons",
-   "ucas_code": "A34-A99"
-  },
-  {
-   "title": "Accounting and Finance",
+   "title": "Finance",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/accounting/accounting-and-finance",
-   "ucas_code": "A65-H08"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/finance",
+   "ucas_code": "A65-G52"
   },
   {
-   "title": "Business Finance",
-   "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/business-finance-bsc-hons-2027-28",
-   "ucas_code": "A14-C77"
-  },
-  {
-   "title": "Accounting and Finance",
+   "title": "Finance",
    "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-accounting-finance-2",
-   "ucas_code": "A11-H41"
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-finance",
+   "ucas_code": "A55-F48"
+  },
+  {
+   "title": "Finance",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/finance",
+   "ucas_code": "A13-H92"
+  },
+  {
+   "title": "Finance",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/business/courses/finance-n305/september-2027/#overview",
+   "ucas_code": "B59-D07"
+  },
+  {
+   "title": "Finance",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/finance",
+   "ucas_code": "A06-A20"
+  },
+  {
+   "title": "Finance",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/finance-and-management/",
+   "ucas_code": "A46-A15"
+  },
+  {
+   "title": "Finance",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/n300/",
+   "ucas_code": "A73-H81"
+  },
+  {
+   "title": "Finance",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/som/accounting-finance/bsc-finance/",
+   "ucas_code": "A37-B83"
+  },
+  {
+   "title": "Finance",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00167/1?coursecode=N300",
+   "ucas_code": "A32-F66"
   }
  ]
 }

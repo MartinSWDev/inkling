@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Automotive Materials",
+   "title": "Materials Science and Engineering",
    "provider": "Loughborough University",
-   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/automotive-materials-beng/",
-   "ucas_code": "A18-B21"
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/materials-science-engineering-beng/",
+   "ucas_code": "A18-C89"
   },
   {
    "title": "Materials Science and Engineering",
@@ -39,10 +39,10 @@
    "ucas_code": "A35-F94"
   },
   {
-   "title": "Biomaterials and Tissue Engineering",
+   "title": "Materials Science and Engineering",
    "provider": "Imperial College London",
-   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biomaterials-tissue-engineering-meng/",
-   "ucas_code": "A15-C60"
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/materials-science-engineering-beng/",
+   "ucas_code": "A15-D16"
   }
  ]
 }

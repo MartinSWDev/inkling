@@ -69,7 +69,7 @@ function zscores(profiles: Record<string, Record<string, number>>) {
 
 export function scoreAnswers(
   answers: AnswersLike, cards: CardLike[], profiles: Record<string, Record<string, number>>,
-  pairsData: PairLike[], decks: DeckLike,
+  pairsData: PairLike[], decks: DeckLike, aliases: Record<string, Record<string, number>> = {},
 ): { ranked: RankedRow[]; surprise: string | null; room: string[] } {
   const byCode: Record<string, CardLike> = Object.fromEntries(cards.map((c) => [c.code, c]));
   const state: State = {
@@ -85,6 +85,28 @@ export function scoreAnswers(
     if (chip) apply(state, byCode, expandTerms(Object.fromEntries(chip.terms.map((t) => [t, 0.6])), cards), pick.state === "love" ? 1 : 0.4, chip.name);
   }
   for (const name of answers.typed || []) {
+    // Spark Open alias index first (exact, then fuzzy like the client lookup);
+    // the matched {code: weight} map applies like a chip at weight 0.4.
+    const q = name.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+    let matched = aliases[q];
+    if (!matched && q.length > 5) {
+      let bestD = 3;
+      for (const key of Object.keys(aliases)) {
+        if (key.length <= 5 || Math.abs(key.length - q.length) > 2) continue;
+        let dPrev = Array.from({ length: key.length + 1 }, (_, i) => i);
+        for (let i = 1; i <= q.length; i++) {
+          const cur = [i];
+          for (let j = 1; j <= key.length; j++) cur.push(Math.min(dPrev[j] + 1, cur[j - 1] + 1, dPrev[j - 1] + (q[i - 1] === key[j - 1] ? 0 : 1)));
+          dPrev = cur;
+        }
+        if (dPrev[key.length] < bestD) { bestD = dPrev[key.length]; matched = aliases[key]; }
+      }
+    }
+    if (matched) {
+      const w: Record<string, number> = {};
+      for (const [code, weight] of Object.entries(matched)) if (code in byCode) w[code] = Math.min(weight, 0.9);
+      if (Object.keys(w).length) { apply(state, byCode, w, 0.4, name); continue; }
+    }
     const w = expandTerms({ [name.toLowerCase()]: 0.6 }, cards);
     if (Object.keys(w).length) apply(state, byCode, w, 0.4, name);
   }

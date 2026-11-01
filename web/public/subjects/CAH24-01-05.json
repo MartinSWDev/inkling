@@ -3,64 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Media, Marketing and Advertising",
-   "provider": "Arts University Bournemouth, The",
-   "url": "https://aub.ac.uk/course/ba-hons-media-marketing-and-advertising",
-   "ucas_code": "A73-F06"
-  },
-  {
-   "title": "International Relations and Media",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?NDUUZ7",
-   "ucas_code": "A59-J30"
-  },
-  {
-   "title": "Film and Media",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/film-and-media",
-   "ucas_code": "A14-A30"
-  },
-  {
-   "title": "Fashion Media & Marketing",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-media-marketing",
-   "ucas_code": "A16-E80"
-  },
-  {
-   "title": "Digital Media and Communication",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/digital-media-and-communication-ba/",
-   "ucas_code": "A75-D83"
-  },
-  {
-   "title": "Film and Media",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/p340-film-and-media-ba",
-   "ucas_code": "B64-C57"
-  },
-  {
-   "title": "Business Management and Media Communications",
+   "title": "Media Communications",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-media-communications/",
-   "ucas_code": "A09-E71"
+   "url": "http://www.bathspa.ac.uk/courses/ug-media-communications/",
+   "ucas_code": "A09-G64"
   },
   {
-   "title": "Digital Media 3-year, full-time",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/digital-media",
-   "ucas_code": "A73-C81"
-  },
-  {
-   "title": "Media Production",
+   "title": "Media and Communication",
    "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/media-production-ba-hons-2027-28",
-   "ucas_code": "A47-G65"
+   "url": "http://www.bcu.ac.uk/courses/media-and-communication-ba-hons-2027-28",
+   "ucas_code": "A14-D79"
   },
   {
    "title": "Communication and Media",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-communication-media",
    "ucas_code": "A11-H62"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/media-and-communications-bsc",
+   "ucas_code": "A69-D76"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/media-communications",
+   "ucas_code": "A67-I95"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-media-and-communications/",
+   "ucas_code": "A53-E64"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/media-and-communications-ba-hons/?term=2027-28",
+   "ucas_code": "A38-I16"
+  },
+  {
+   "title": "Media and Communication",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/media-and-communication-ba-degree/media-and-communication-ba-degree.aspx",
+   "ucas_code": "A25-H48"
+  },
+  {
+   "title": "Media and Communication",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-media-and-communication-undergraduate-fulltime",
+   "ucas_code": "A53-H61"
+  },
+  {
+   "title": "Media and Communication",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/12MDIACM",
+   "ucas_code": "A26-D27"
   }
  ]
 }

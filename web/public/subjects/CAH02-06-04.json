@@ -39,12 +39,6 @@
    "ucas_code": "A22-C77"
   },
   {
-   "title": "Public Health and Population Studies",
-   "provider": "The University Of Bradford",
-   "url": "https://www.bradford.ac.uk/courses/ug/public-health-population-studies-bsc/",
-   "ucas_code": "A39-E20"
-  },
-  {
    "title": "Public Health",
    "provider": "The University Of Westminster",
    "url": "https://www.westminster.ac.uk/public-health-bsc-honours",
@@ -61,6 +55,12 @@
    "provider": "University Of Lancashire",
    "url": "https://london.uclan.ac.uk/our-courses/bsc-hons-public-health",
    "ucas_code": ""
+  },
+  {
+   "title": "Environmental Health",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-environmental-health-ft-jtn",
+   "ucas_code": "A16-I50"
   }
  ]
 }

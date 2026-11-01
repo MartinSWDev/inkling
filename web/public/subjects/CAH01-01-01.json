@@ -15,18 +15,6 @@
    "ucas_code": "A61-C74"
   },
   {
-   "title": "Biomedical Sciences",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/j415/biomedical-sciences-bsc",
-   "ucas_code": "A26-J05"
-  },
-  {
-   "title": "Health and Medical Sciences",
-   "provider": "The University Of Warwick",
-   "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-health-medical-sciences",
-   "ucas_code": "A51-H48"
-  },
-  {
    "title": "Medical Sciences",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/medical-sciences-bsc",
@@ -61,6 +49,18 @@
    "provider": "Halesowen College",
    "url": "https://www.worcester.ac.uk/courses/medical-sciences-bsc-hons",
    "ucas_code": "A59-B41"
+  },
+  {
+   "title": "Health and Medical Sciences",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-health-medical-sciences",
+   "ucas_code": "A51-H48"
+  },
+  {
+   "title": "Medical Science and Innovation",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medical-science-innovation/",
+   "ucas_code": "B55-E78"
   }
  ]
 }

@@ -9,58 +9,58 @@
    "ucas_code": "A22-F59"
   },
   {
-   "title": "Drama and English Literature",
+   "title": "English Literature",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-english-literature",
-   "ucas_code": "A14-A10"
+   "url": "https://www.aru.ac.uk/study/undergraduate/english-literature",
+   "ucas_code": "A14-A24"
   },
   {
-   "title": "English Language and Literature",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/english-language-and-literature-ba",
-   "ucas_code": "A30-B65"
-  },
-  {
-   "title": "English Language And English Literature",
+   "title": "English Literature",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons",
-   "ucas_code": "A34-C93"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/8h25-english-literature-ba-hons",
+   "ucas_code": "A34-D08"
   },
   {
-   "title": "Creative Writing and English Literature",
+   "title": "English Literature",
    "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-english-literature/",
-   "ucas_code": ""
+   "url": "http://www.bathspa.ac.uk/courses/ug-english-literature/",
+   "ucas_code": "A09-G07"
   },
   {
-   "title": "Creative Writing and English",
+   "title": "English",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/english/creative-writing-and-english",
-   "ucas_code": "A24-D48"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/english",
+   "ucas_code": "A24-D57"
   },
   {
-   "title": "English Language and Literature",
+   "title": "English Literature",
    "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
-   "ucas_code": "A14-D22"
+   "url": "http://www.bcu.ac.uk/courses/english-literature-ba-hons-2027-28",
+   "ucas_code": "A14-D23"
   },
   {
-   "title": "English and History",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/courses/english-and-history-ba",
-   "ucas_code": "A77-I78"
-  },
-  {
-   "title": "English and Creative Writing",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-english-and-creative-writing/",
-   "ucas_code": "A63-C08"
-  },
-  {
-   "title": "English Language and Literature",
+   "title": "English Literature",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-literature-ba",
-   "ucas_code": "A27-J00"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-ba",
+   "ucas_code": "A27-J04"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/english-literature-ba/?term=2027-28",
+   "ucas_code": "A49-D61"
+  },
+  {
+   "title": "English Literature",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/english-literature-ba-degree/english-literature-ba-degree.aspx",
+   "ucas_code": "A25-G65"
+  },
+  {
+   "title": "English",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/q301/",
+   "ucas_code": "A07-G94"
   }
  ]
 }

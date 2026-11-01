@@ -27,22 +27,16 @@
    "ucas_code": "A11-H87"
   },
   {
-   "title": "Criminology and Forensic Studies",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-criminology",
-   "ucas_code": "A57-C35"
-  },
-  {
-   "title": "Applied Criminology with Forensic Investigation",
+   "title": "Forensic Investigation",
    "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/applied-criminology-with-forensic-investigation",
-   "ucas_code": "A19-C86"
+   "url": "https://www.canterbury.ac.uk/study-here/courses/forensic-investigation",
+   "ucas_code": "A19-F88"
   },
   {
-   "title": "Biological and Forensic Sciences",
+   "title": "Forensic Science",
    "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/biological-and-forensic-science-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-G39"
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/forensic-science-bsc-hons/?term=2027-28",
+   "ucas_code": "A65-J90"
   },
   {
    "title": "Forensic Science",
@@ -57,10 +51,16 @@
    "ucas_code": "A26-D00"
   },
   {
-   "title": "Forensic Biology",
+   "title": "Forensic Science",
    "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/forensicbiology/",
-   "ucas_code": "A73-G78"
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/forensicscience/",
+   "ucas_code": "A03-F69"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/forensic-science/",
+   "ucas_code": "A08-A86"
   }
  ]
 }

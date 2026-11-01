@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Communication Design and Strategy",
+   "title": "Fashion",
    "provider": "Arts University Bournemouth, The",
-   "url": "https://aub.ac.uk/course/communication-design-strategy",
-   "ucas_code": "A69-B28"
-  },
-  {
-   "title": "Game Design and Production",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
-   "ucas_code": "A06-B30"
+   "url": "https://aub.ac.uk/course/ba-hons-fashion",
+   "ucas_code": "A38-F99"
   },
   {
    "title": "Fashion Design",
@@ -27,12 +21,6 @@
    "ucas_code": "A16-E78"
   },
   {
-   "title": "Product Design and Innovation",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/product-design-and-innovation-bsc",
-   "ucas_code": "A30-B97"
-  },
-  {
    "title": "Product Design",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/w240-product-design-english-medium-bsc-hons",
@@ -45,10 +33,10 @@
    "ucas_code": "A09-G22"
   },
   {
-   "title": "Costume Design and Practice",
+   "title": "Fashion Design",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
-   "ucas_code": ""
+   "ucas_code": "A14-D29"
   },
   {
    "title": "Product Design",
@@ -57,10 +45,22 @@
    "ucas_code": "A11-I27"
   },
   {
-   "title": "Digital Design",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/digital-design-bsc",
-   "ucas_code": "A19-J10"
+   "title": "Fashion Design",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-fashion-design",
+   "ucas_code": "A03-D10"
+  },
+  {
+   "title": "Graphic Design",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/graphic-design",
+   "ucas_code": "A19-G10"
+  },
+  {
+   "title": "Fashion Design",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-fashion-design/",
+   "ucas_code": "A08-G41"
   }
  ]
 }

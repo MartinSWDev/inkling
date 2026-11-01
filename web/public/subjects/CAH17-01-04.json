@@ -3,34 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Accounting and Finance / Business and Management",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
-   "ucas_code": "A51-B78"
-  },
-  {
    "title": "Business Management",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/business-management",
    "ucas_code": "A13-J78"
   },
   {
-   "title": "Project Management",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/bsc-project-management",
-   "ucas_code": ""
-  },
-  {
-   "title": "Accounting and Management",
+   "title": "Business Management",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons",
-   "ucas_code": "A62-E10"
-  },
-  {
-   "title": "Economics and Management",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/economics-and-management-bsc",
-   "ucas_code": "A19-J17"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons",
+   "ucas_code": "A55-J86"
   },
   {
    "title": "Business Management",
@@ -39,28 +21,46 @@
    "ucas_code": "A61-H45"
   },
   {
-   "title": "Business Management with Social Purpose",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/business-management-with-social-purpose",
-   "ucas_code": "A58-C56"
-  },
-  {
    "title": "Business Management",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/business-management",
    "ucas_code": "A19-D28"
   },
   {
-   "title": "Business Management and Leadership",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/cul/course-structure/hnc-hnd-degree/management/?term=2027-28",
-   "ucas_code": "A38-G55"
-  },
-  {
    "title": "Business and Management",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/business/courses/business-and-management-n201/",
    "ucas_code": "A07-G34"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/baba-hons-business-management-undergraduate-fulltime",
+   "ucas_code": "A25-C18"
+  },
+  {
+   "title": "Management",
+   "provider": "Loughborough University",
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/management/",
+   "ucas_code": "A50-D93"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Regent's University",
+   "url": "https://www.regents.ac.uk/undergraduate/business/ba-hons-business-and-management-new-model",
+   "ucas_code": "A66-H55"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/management/business-and-management/",
+   "ucas_code": "A17-C72"
+  },
+  {
+   "title": "Management",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/bsc-management",
+   "ucas_code": "A13-B91"
   }
  ]
 }

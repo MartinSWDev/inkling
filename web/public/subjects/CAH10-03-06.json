@@ -9,10 +9,16 @@
    "ucas_code": "A13-J59"
   },
   {
-   "title": "Audio Technology",
-   "provider": "Glasgow Caledonian University",
-   "url": "http://www.gcu.ac.uk/kis/11ADTECH",
-   "ucas_code": "A26-C63"
+   "title": "Sound Engineering",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/sound-engineering-bsc-hons-2027-28",
+   "ucas_code": "A75-B43"
+  },
+  {
+   "title": "Audio and Music Production",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-audio-and-music-production",
+   "ucas_code": "A72-G41"
   },
   {
    "title": "Music Technology",
@@ -21,16 +27,40 @@
    "ucas_code": "A10-I16"
   },
   {
-   "title": "Live Sound, Lighting And Performance Technology",
-   "provider": "Hertford Regional College",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-live-sound-lighting-and-performance-technology",
-   "ucas_code": "A46-D38"
+   "title": "Audio and Music Production",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/32551-audio-and-music-production-bsc-hons",
+   "ucas_code": "A10-J63"
   },
   {
-   "title": "Sound Technology",
-   "provider": "The Liverpool Institute For Performing Arts",
-   "url": "https://lipa.ac.uk/courses/undergraduate-courses/ba-hons-sound-technology/",
-   "ucas_code": "A33-D18"
+   "title": "Sound Eng & Aud Prod CCT",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/art-and-design/ug/bsc-hons-sound-engineering-and-audio-production",
+   "ucas_code": "A67-C90"
+  },
+  {
+   "title": "Audio Engineering",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/audio-engineering-bsc-j930/",
+   "ucas_code": "A28-B43"
+  },
+  {
+   "title": "Music and Sound Production",
+   "provider": "Ravensbourne University London",
+   "url": "https://www.ravensbourne.ac.uk/study/undergraduate/ba-hons-music-and-sound-production",
+   "ucas_code": "A69-B10"
+  },
+  {
+   "title": "Creative Music Production",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Creative-Music-Production-BA-Hons",
+   "ucas_code": "A44-D38"
+  },
+  {
+   "title": "Music and Sound Recording",
+   "provider": "The University Of Surrey",
+   "url": "https://www.surrey.ac.uk/undergraduate/music-and-sound-recording-tonmeister/2027",
+   "ucas_code": "A36-F62"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Anthropology and Irish",
+   "title": "Irish",
    "provider": "Queen's University Belfast",
-   "url": "http://www.qub.ac.uk/courses/undergraduate/anthropology-irish-ba-ql56/",
-   "ucas_code": "A28-C55"
+   "url": "https://www.qub.ac.uk/courses/undergraduate/irish-ba-q504/",
+   "ucas_code": "A28-C53"
   },
   {
    "title": "Irish Studies",
@@ -15,10 +15,10 @@
    "ucas_code": "A02-J31"
   },
   {
-   "title": "Business Studies with Irish",
+   "title": "Irish Language and Literature",
    "provider": "Ulster University",
-   "url": "https://www.ulster.ac.uk/course/bsc-global-business-with-irish-mg-ft",
-   "ucas_code": "A69-E79"
+   "url": "https://www.ulster.ac.uk/course/ba-irish-language-literature-ft-dld",
+   "ucas_code": "A16-I78"
   }
  ]
 }

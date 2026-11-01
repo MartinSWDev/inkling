@@ -3,16 +3,22 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Food Science and Innovation",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDGFDSIN",
+   "ucas_code": "A66-F48"
+  },
+  {
    "title": "Food and Consumer Science",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
    "ucas_code": "A06-B26"
   },
   {
-   "title": "Food Business Management",
-   "provider": "Harper Adams University",
-   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBFDBUS",
-   "ucas_code": "A66-F46"
+   "title": "Brewing and Distilling",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
+   "ucas_code": "A05-J54"
   },
   {
    "title": "Food and Nutrition",

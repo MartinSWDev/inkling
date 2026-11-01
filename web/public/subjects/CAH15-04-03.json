@@ -9,12 +9,6 @@
    "ucas_code": "A42-C31"
   },
   {
-   "title": "Health and Care Management",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management",
-   "ucas_code": ""
-  },
-  {
    "title": "Health and Social Care",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/health-and-social-care-bsc-hons/full-time/",
@@ -39,12 +33,6 @@
    "ucas_code": "A03-D32"
   },
   {
-   "title": "Health and Lifestyle Science",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
-   "ucas_code": ""
-  },
-  {
    "title": "Health and Social Care",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/hnd--bsc-health-and-social-care/",
@@ -61,6 +49,18 @@
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/health-and-wellbeing-in-society-ba-hons-degree/health-and-wellbeing-in-society-bsc-hons.aspx",
    "ucas_code": "A25-H07"
+  },
+  {
+   "title": "Integrated Health And Social Care",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/integrated-health-and-social-care/",
+   "ucas_code": "A69-J22"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/health-and-social-care/",
+   "ucas_code": "A74-A78"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Initial Year For Extended Degree In Science - Physical Sciences - Nhc",
+   "title": "Physics",
    "provider": "Hertford Regional College",
-   "url": "https://www.herts.ac.uk/courses/undergraduate/initial-year-for-extended-degree-in-science-physical-sciences",
-   "ucas_code": "A21-C71"
+   "url": "https://www.herts.ac.uk/courses/physics",
+   "ucas_code": "A21-D87"
   }
  ]
 }

@@ -9,10 +9,34 @@
    "ucas_code": "A22-F36"
   },
   {
-   "title": "Marine Biology",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/c160-marine-biology-bsc-hons",
-   "ucas_code": "A34-F86"
+   "title": "Ecology and Environmental Biology",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00102/1?coursecode=C520",
+   "ucas_code": "A64-C22"
+  },
+  {
+   "title": "Environmental Biology",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Environmental-Biology-BSc-Hons.html",
+   "ucas_code": "A00-F31"
+  },
+  {
+   "title": "Ecology",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/548/D430/ecology/",
+   "ucas_code": "A33-E44"
+  },
+  {
+   "title": "Ecology and Environmental Biology",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/ecology-environmental-biology/",
+   "ucas_code": "A15-D00"
+  },
+  {
+   "title": "Wildlife Conservation",
+   "provider": "Bath Spa University",
+   "url": "https://www.bathspa.ac.uk/courses/ug-wildlife-conservation/",
+   "ucas_code": "A57-H40"
   },
   {
    "title": "Ecology and Wildlife Conservation",
@@ -27,40 +51,16 @@
    "ucas_code": "A19-E80"
   },
   {
-   "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://blackmountainscollege.uk/study/higher-education/",
-   "ucas_code": "A67-C51"
-  },
-  {
    "title": "Ecology and Conservation",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/ecology-conservation-bsc/?term=2027-28",
    "ucas_code": "A73-J46"
   },
   {
-   "title": "Ecology And Conservation",
-   "provider": "Edge Hill University",
-   "url": "https://www.edgehill.ac.uk/course/ecology-and-conservation/",
-   "ucas_code": "A05-C71"
-  },
-  {
-   "title": "Animal & Conservation Biology",
-   "provider": "Edinburgh Napier University",
-   "url": "https://www.napier.ac.uk/courses/bsc-hons-animal-and-conservation-biology-undergraduate-fulltime",
-   "ucas_code": "A25-C10"
-  },
-  {
    "title": "Wildlife Conservation and Ecology",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDLWLDCE",
    "ucas_code": "A30-H65"
-  },
-  {
-   "title": "Marine Biology",
-   "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/marine-biology",
-   "ucas_code": "A06-A53"
   }
  ]
 }

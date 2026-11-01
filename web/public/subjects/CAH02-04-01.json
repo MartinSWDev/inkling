@@ -3,6 +3,24 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Nursing",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/nursing-degree/",
+   "ucas_code": "A69-I49"
+  },
+  {
+   "title": "Nursing",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/nursing-bn-hons/2027",
+   "ucas_code": "A03-A82"
+  },
+  {
+   "title": "Nursing",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-nursing/",
+   "ucas_code": "A41-A56"
+  },
+  {
    "title": "Nursing Studies (Registered Nurse Adult Nursing)",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/nursing-studies-registered-nurse-adult-nursing-bsc",
@@ -15,34 +33,16 @@
    "ucas_code": "A59-D71"
   },
   {
-   "title": "Nursing",
-   "provider": "Plymouth Marjon University",
-   "url": "https://www.marjon.ac.uk/courses/nursing-degree/",
-   "ucas_code": "A69-I49"
-  },
-  {
    "title": "Nursing (Adult)",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00315/1?coursecode=B740",
    "ucas_code": ""
   },
   {
-   "title": "Nursing",
-   "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/nursing-bn-hons/2027",
-   "ucas_code": "A03-A82"
-  },
-  {
    "title": "Nursing - Adult",
    "provider": "University Centre Somerset College Group",
    "url": "https://www.somerset.ac.uk/courses/detail/nursing-adult-bsc-hons/",
    "ucas_code": "A62-G74"
-  },
-  {
-   "title": "Nursing",
-   "provider": "University of Exeter",
-   "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-nursing/",
-   "ucas_code": "A41-A56"
   },
   {
    "title": "Adult Nursing",

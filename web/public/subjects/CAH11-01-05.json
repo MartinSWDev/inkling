@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Artificial Intelligence and Robotics",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?2V5QLZ",
-   "ucas_code": "A22-E53"
-  },
-  {
    "title": "Artificial Intelligence",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/artificial-intelligence",
    "ucas_code": "A52-E46"
-  },
-  {
-   "title": "Artificial Intelligence and Robotics",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/ai-and-robotics-bsc",
-   "ucas_code": "A71-H67"
   },
   {
    "title": "Artificial Intelligence",
@@ -27,40 +15,52 @@
    "ucas_code": "A75-F55"
   },
   {
-   "title": "Data Science and Artificial Intelligence",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-data-science-artificial-intelligence",
-   "ucas_code": "A66-I20"
-  },
-  {
-   "title": "Computer Science with Artificial Intelligence",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-computer-science",
-   "ucas_code": "A53-G58"
-  },
-  {
    "title": "Artificial Intelligence",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/artificial-intelligence-msci",
    "ucas_code": "A77-I43"
   },
   {
-   "title": "Computer Science & Artificial Intelligence",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/computer-science-and-artificial-intelligence",
-   "ucas_code": "A69-G28"
+   "title": "Artificial Intelligence",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/study/undergraduate/artificial-intelligence-bsc-hons",
+   "ucas_code": "A75-J02"
   },
   {
-   "title": "Computer Science and Artificial Intelligence",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computer-science-and-artificial-intelligence/",
-   "ucas_code": "A74-J53"
+   "title": "Artificial Intelligence",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/artificialintelligencebsc/",
+   "ucas_code": "A51-C37"
   },
   {
-   "title": "Computer Science with Artificial Intelligence",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-with-artificial-intelligence-msci-bsc-hons/?term=2027-28",
-   "ucas_code": "A57-D03"
+   "title": "Artificial Intelligence",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG01499/1?coursecode=I400",
+   "ucas_code": "A64-C18"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/artificial-intelligence-bsc-meng-hons?option=foundation-year&start=2027",
+   "ucas_code": "A64-I24"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/artificial-intelligence-bsc/2027",
+   "ucas_code": "A76-A69"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "University Of Glasgow",
+   "url": "https://www.gla.ac.uk/undergraduate/degrees/artificial-intelligence/",
+   "ucas_code": "A75-E50"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/beng-artificial-intelligence-ft-magee",
+   "ucas_code": "A48-D09"
   }
  ]
 }

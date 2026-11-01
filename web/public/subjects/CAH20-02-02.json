@@ -3,40 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Theology, Philosophy & Religion",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/theology-philosophy-and-religion",
-   "ucas_code": "A19-I18"
-  },
-  {
-   "title": "Philosophy and Theology",
+   "title": "Theology and Religion",
    "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/vv56/",
-   "ucas_code": "A07-H51"
+   "url": "https://www.durham.ac.uk/study/courses/v616/",
+   "ucas_code": "A07-H78"
   },
   {
-   "title": "Education Studies And Theology Philosophy And Ethics",
-   "provider": "Lincoln Bishop University",
-   "url": "https://www.lincolnbishop.ac.uk/courses/education-studies-and-theology-philosophy-ethics",
-   "ucas_code": "A31-A79"
-  },
-  {
-   "title": "Education and Religion Theology & Spirituality",
-   "provider": "Liverpool Hope University",
-   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/education/educationandreligiontheologyspirituality/",
-   "ucas_code": "B64-A26"
-  },
-  {
-   "title": "Philosophy and Theology",
+   "title": "Theology and Religion",
    "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-and-theology",
-   "ucas_code": "A30-G33"
-  },
-  {
-   "title": "Theology, Mission and Practice",
-   "provider": "Roehampton University",
-   "url": "https://www.roehampton.ac.uk/undergraduate-courses/theology-mission-and-practice/",
-   "ucas_code": "A19-A41"
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/theology-and-religion",
+   "ucas_code": "A30-G79"
   },
   {
    "title": "Theology and Religion",
@@ -45,22 +21,46 @@
    "ucas_code": "A04-J87"
   },
   {
-   "title": "Religion, Theology and Society",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/j939/religion-theology-and-society-ba",
-   "ucas_code": "A27-A21"
-  },
-  {
-   "title": "Archaeology/Theology & Religious Studies",
+   "title": "Theology",
    "provider": "University Of Glasgow",
-   "url": "http://www.gla.ac.uk/undergraduate/degrees/archaeology/",
-   "ucas_code": "A24-E72"
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/theologyreligiousstudies/",
+   "ucas_code": "A25-B17"
   },
   {
-   "title": "Philosophy and Theology",
-   "provider": "University Of Nottingham, The",
-   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Philosophy-and-Theology-BA-Jt-Hons.html",
-   "ucas_code": "A00-G98"
+   "title": "Theology and Religion",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/535/V605/theology-and-religious-studies/",
+   "ucas_code": "A33-H42"
+  },
+  {
+   "title": "Religion and Theology",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/religion-theology/ba-religion-and-theology/",
+   "ucas_code": "A15-J50"
+  },
+  {
+   "title": "Theology, Religion, and Philosophy of Religion",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/theology-religion-philosophy-of-religion-ba-hons",
+   "ucas_code": "A25-E01"
+  },
+  {
+   "title": "Theology and Religious Studies",
+   "provider": "University of Chester",
+   "url": "https://www.chester.ac.uk/study/course-search/theology-and-religious-studies-ba-hons/?studyMode=102223",
+   "ucas_code": "A10-D01"
+  },
+  {
+   "title": "Divinity",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/V600",
+   "ucas_code": "A14-H49"
+  },
+  {
+   "title": "Religion, Culture and Society",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/ba-religion-culture-and-society/",
+   "ucas_code": "A71-I40"
   }
  ]
 }

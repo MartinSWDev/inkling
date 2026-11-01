@@ -15,40 +15,16 @@
    "ucas_code": "A32-A76"
   },
   {
-   "title": "Healthcare Science (Cardiac Physiology)",
+   "title": "Medical Physiology",
    "provider": "Middlesex University",
-   "url": "https://www.mdx.ac.uk/courses/undergraduate/healthcare-science-cardiac-physiology",
-   "ucas_code": "A22-C97"
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/medical-physiology-bsc",
+   "ucas_code": "A52-A58"
   },
   {
-   "title": "Healthcare Science (Cardiac Physiology)",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/healthcare-science-cardiac-physiology-bsc-hons/",
-   "ucas_code": "A37-C26"
-  },
-  {
-   "title": "Healthcare Science (Cardiac Physiology)",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/i104/healthcare-science-cardiac-physiology-bsc",
-   "ucas_code": "A26-H51"
-  },
-  {
-   "title": "Biological Sciences (Physiology with Pharmacology)",
+   "title": "Medical Physiology",
    "provider": "The University Of Leicester",
-   "url": "https://le.ac.uk/courses/biological-sciences-physiology-with-pharmacology-bsc/2027",
-   "ucas_code": "A05-A21"
-  },
-  {
-   "title": "Anatomy and Human Biology",
-   "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/anatomy-and-human-biology-bsc-hons/2027",
-   "ucas_code": "A02-F65"
-  },
-  {
-   "title": "Pharmacology and Physiology",
-   "provider": "The University Of Westminster",
-   "url": "https://www.westminster.ac.uk/pharmacology-and-physiology-bsc",
-   "ucas_code": "A19-B89"
+   "url": "https://le.ac.uk/courses/medical-physiology-bsc/2027",
+   "ucas_code": "A05-B66"
   },
   {
    "title": "Medical Physiology",
@@ -57,10 +33,34 @@
    "ucas_code": "A24-C17"
   },
   {
-   "title": "Anatomy",
-   "provider": "University Of Glasgow",
-   "url": "http://www.gla.ac.uk/undergraduate/degrees/anatomy/",
-   "ucas_code": "A24-E39"
+   "title": "Physiology",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/826/B120/physiology/",
+   "ucas_code": "A33-H09"
+  },
+  {
+   "title": "Physiological Science",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/physiology/msci-physiological-science/",
+   "ucas_code": "A53-F07"
+  },
+  {
+   "title": "Medical Physiology",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/medical-physiology-bsc",
+   "ucas_code": "A27-G78"
+  },
+  {
+   "title": "Medical Physiology",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00643/bsc-medical-physiology/",
+   "ucas_code": "A20-J24"
+  },
+  {
+   "title": "Healthcare Science (Physiological Sciences)",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/healthcare-science",
+   "ucas_code": "A75-B11"
   }
  ]
 }

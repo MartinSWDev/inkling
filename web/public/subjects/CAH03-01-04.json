@@ -9,24 +9,6 @@
    "ucas_code": "A22-G90"
   },
   {
-   "title": "Applied Microbiology",
-   "provider": "Edinburgh Napier University",
-   "url": "https://www.napier.ac.uk/courses/bsc-hons-applied-microbiology-undergraduate-fulltime",
-   "ucas_code": "A25-C12"
-  },
-  {
-   "title": "Microbiology and Immunology",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/microbiologyandimmunology/",
-   "ucas_code": "A67-A65"
-  },
-  {
-   "title": "Microbiology and Molecular Biology",
-   "provider": "Manchester Metropolitan University",
-   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-microbiology-and-molecular-biology-with-option-to-study-overseas/september-2027/",
-   "ucas_code": "A32-A36"
-  },
-  {
    "title": "Microbiology",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-microbiology",
@@ -37,12 +19,6 @@
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/microbiology-bsc-c500/",
    "ucas_code": "A28-C81"
-  },
-  {
-   "title": "Microbiology and Immunology",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/medicine/microbiology-and-immunology-bsc",
-   "ucas_code": "A71-I08"
   },
   {
    "title": "Microbiology",
@@ -57,10 +33,34 @@
    "ucas_code": "A60-I01"
   },
   {
-   "title": "Biology (Molecular and Cellular)",
-   "provider": "The University Of Huddersfield",
-   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Biology-Molecular-and-Cellular-BSc-Hons",
-   "ucas_code": "A13-F36"
+   "title": "Microbiology",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/3500/microbiology-bsc",
+   "ucas_code": "A26-J14"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/microbiology/",
+   "ucas_code": "A24-J58"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "University of Dundee",
+   "url": "https://www.dundee.ac.uk/undergraduate/microbiology",
+   "ucas_code": "A16-B92"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "University of Southampton",
+   "url": "https://www.southampton.ac.uk/courses/microbiology-masters-msci",
+   "ucas_code": "A76-F26"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "University of Strathclyde",
+   "url": "http://www.strath.ac.uk/c/KIS0000013#whythiscourse",
+   "ucas_code": "A35-J98"
   }
  ]
 }

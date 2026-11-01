@@ -15,18 +15,6 @@
    "ucas_code": "A66-F27"
   },
   {
-   "title": "Clinical Pharmacology",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/clinical-pharmacology",
-   "ucas_code": "A75-B02"
-  },
-  {
-   "title": "Medical Pharmacology",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/medical-pharmacology-bsc",
-   "ucas_code": "A28-A32"
-  },
-  {
    "title": "Pharmacology",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls/pharmacology-bsc/?term=2027-28",
@@ -61,6 +49,18 @@
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-pharmacology",
    "ucas_code": "A38-E71"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/pharmacology/",
+   "ucas_code": "A01-A31"
+  },
+  {
+   "title": "Pharmacology",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/pharmacology-bsc-hons-b210/",
+   "ucas_code": "A71-F36"
   }
  ]
 }

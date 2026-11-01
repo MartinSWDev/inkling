@@ -3,64 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "English Language and Communication",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/english-language-and-communication",
-   "ucas_code": "A70-B09"
-  },
-  {
    "title": "English Language",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/english-language-ba",
    "ucas_code": "A30-B61"
   },
   {
-   "title": "English Language And English Literature",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons",
-   "ucas_code": "A34-C93"
+   "title": "English Language",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/english-language-ba-hons-q304/",
+   "ucas_code": "A25-I91"
   },
   {
-   "title": "English Language and Literature",
-   "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
-   "ucas_code": "A14-D22"
+   "title": "English Language",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/english-language-ba-hons/2027",
+   "ucas_code": "A02-H49"
   },
   {
-   "title": "English Language and Linguistics",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-linguistics-ba",
-   "ucas_code": "A27-I99"
+   "title": "English Language",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/englishlanguage/",
+   "ucas_code": "A24-H18"
   },
   {
-   "title": "English Language and Linguistics",
-   "provider": "Nottingham Trent University",
-   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/english-language-and-linguistics",
-   "ucas_code": "A67-E92"
+   "title": "English Language",
+   "provider": "University Of Salford, The",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/english-language",
+   "ucas_code": "A28-F66"
   },
   {
-   "title": "English Language and Linguistics",
-   "provider": "Queen Mary University of London",
-   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/english-language-and-linguistics",
-   "ucas_code": "A42-F34"
+   "title": "English Language",
+   "provider": "University of Chester",
+   "url": "https://www.chester.ac.uk/study/course-search/english-language-ba-hons/",
+   "ucas_code": "A10-A18"
   },
   {
-   "title": "English Language and Linguistics",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/english-language-tesol-applied-linguistics/english-language-and-linguistics/",
-   "ucas_code": "A76-H43"
+   "title": "English Language",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/Q302",
+   "ucas_code": "A14-I70"
   },
   {
-   "title": "English Language and Linguistics",
-   "provider": "The University Of Birmingham",
-   "url": "https://www.birmingham.ac.uk/undergraduate/courses/english/english-lang.aspx",
-   "ucas_code": "A04-I40"
+   "title": "English Language",
+   "provider": "University of Northumbria at Newcastle",
+   "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-language-uuslan1/",
+   "ucas_code": "A74-G72"
   },
   {
-   "title": "Modern Languages and Linguistics",
-   "provider": "The University Of Essex",
-   "url": "https://www.essex.ac.uk/courses/UG00296/1?coursecode=RQ91",
-   "ucas_code": "A32-H80"
+   "title": "English Language",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00212/ba-english-language/",
+   "ucas_code": "A20-G91"
+  },
+  {
+   "title": "English Language and Communication",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/english-language-and-communication",
+   "ucas_code": "A70-B09"
   }
  ]
 }

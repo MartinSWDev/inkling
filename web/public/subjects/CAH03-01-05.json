@@ -9,6 +9,12 @@
    "ucas_code": "A22-H11"
   },
   {
+   "title": "Plant Sciences",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/biological-sciences/msci-plant-sciences/",
+   "ucas_code": "A49-I09"
+  },
+  {
    "title": "Molecular & Cellular Biology with Plant Science",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/plantscience/",
@@ -19,12 +25,6 @@
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/828/CD27/plant-and-soil-science/",
    "ucas_code": "A33-H11"
-  },
-  {
-   "title": "Plant Sciences",
-   "provider": "University of Bristol",
-   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/biological-sciences/msci-plant-sciences/",
-   "ucas_code": "A49-I09"
   },
   {
    "title": "Horticulture (Plant Science)",

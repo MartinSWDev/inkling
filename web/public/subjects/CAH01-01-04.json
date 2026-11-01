@@ -3,6 +3,18 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Dental Surgery",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/dental-surgery-bds",
+   "ucas_code": "A27-I68"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/a206/",
+   "ucas_code": "A27-B65"
+  },
+  {
    "title": "Dentistry",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/dentistry",
@@ -21,34 +33,34 @@
    "ucas_code": "A04-I14"
   },
   {
+   "title": "Dental Surgery",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bds-dental-surgery/2027-28/sep",
+   "ucas_code": "B58-C03"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j926/dental-surgery-bchd",
+   "ucas_code": "A26-F86"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/dental-surgery-bds/2027",
+   "ucas_code": "A02-H01"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/dental-surgery-bds",
+   "ucas_code": "A35-E41"
+  },
+  {
    "title": "Dentistry",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/dentistry/",
    "ucas_code": "A24-G39"
-  },
-  {
-   "title": "Dentistry",
-   "provider": "University of Bristol",
-   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/dentistry/bds-dentistry/",
-   "ucas_code": "A15-H95"
-  },
-  {
-   "title": "Dentistry",
-   "provider": "University of Dundee",
-   "url": "https://www.dundee.ac.uk/undergraduate/dentistry",
-   "ucas_code": "A16-A40"
-  },
-  {
-   "title": "Dentistry",
-   "provider": "King's College London",
-   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/dentistry-bds",
-   "ucas_code": "A27-G12"
-  },
-  {
-   "title": "Dentistry",
-   "provider": "Xaverian College",
-   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00398/bds-dentistry-first-year-entry/",
-   "ucas_code": "A20-G62"
   }
  ]
 }

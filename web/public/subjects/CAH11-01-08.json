@@ -3,40 +3,52 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Computing",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
-   "ucas_code": "A06-B20"
-  },
-  {
-   "title": "Cyber Security and Forensic Computing",
+   "title": "Cyber Security and Digital Forensics",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-with-forensic-computing",
-   "ucas_code": "A66-C13"
+   "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-and-digital-forensics",
+   "ucas_code": "A68-D10"
   },
   {
-   "title": "Computing",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-computing",
-   "ucas_code": "A11-H66"
+   "title": "Cyber Security and Digital Forensics",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/cyber-security-computer-forensics/",
+   "ucas_code": "A08-A00"
   },
   {
-   "title": "Computing with Creative Design",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computing-with-creative-design/",
-   "ucas_code": "A49-H59"
+   "title": "Cyber Security",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/cyber-security-bsc/",
+   "ucas_code": "A59-C64"
   },
   {
-   "title": "Acting with Diploma in Creative Computing",
+   "title": "Cyber Security and Digital Forensics",
+   "provider": "Middlesex University",
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/cyber-security-digital-forensics",
+   "ucas_code": "A52-C95"
+  },
+  {
+   "title": "User Experience Design",
    "provider": "Norwich University of the Arts",
-   "url": "https://www.norwichuni.ac.uk/study-at-norwich/courses/ba-hons-acting/",
-   "ucas_code": "A68-G03"
+   "url": "https://www.norwichuni.ac.uk/study-at-norwich/courses/bsc-hons-user-experience-design/",
+   "ucas_code": "A53-H87"
   },
   {
-   "title": "Computing and Creative Design",
-   "provider": "Robert Gordon University",
-   "url": "https://www.rgu.ac.uk/study/courses/bsc-hons-computing-and-creative-design",
-   "ucas_code": "A59-A07"
+   "title": "Cyber Security",
+   "provider": "The University Of Lancaster",
+   "url": "https://ua92.ac.uk/courses/cyber-security-bsc-hons/",
+   "ucas_code": "A67-C40"
+  },
+  {
+   "title": "Interaction Design",
+   "provider": "Glasgow School of Art.",
+   "url": "https://www.gsa.ac.uk/undergraduate-degrees/interaction-design",
+   "ucas_code": "A15-G57"
+  },
+  {
+   "title": "Digital Design",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11DIGDES",
+   "ucas_code": "A54-A92"
   },
   {
    "title": "Computing Science with Cyber Security",
@@ -49,18 +61,6 @@
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/creative-computing-bsc/2027",
    "ucas_code": "A51-D16"
-  },
-  {
-   "title": "Cloud Computing",
-   "provider": "The University of East London Higher Education Corporation",
-   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-cloud-computing",
-   "ucas_code": "A58-E79"
-  },
-  {
-   "title": "Creative Computing",
-   "provider": "University Of Salford, The",
-   "url": "https://www.salford.ac.uk/courses/undergraduate/creative-computing",
-   "ucas_code": "A64-I10"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Applied Mathematics/Pure Mathematics",
+   "title": "Mathematics",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?VHVG4Y",
-   "ucas_code": "A22-E49"
+   "url": "http://www.aber.ac.uk/courses/?AWSMAD",
+   "ucas_code": "A22-G74"
   },
   {
    "title": "Mathematics",
@@ -15,16 +15,10 @@
    "ucas_code": "A30-C23"
   },
   {
-   "title": "Mathematics and Computer Science",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/mathematics-and-computer-science",
-   "ucas_code": "A74-A87"
-  },
-  {
-   "title": "Financial Mathematics",
+   "title": "Mathematics",
    "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/financial-mathematics-bsc",
-   "ucas_code": "A19-J49"
+   "url": "https://www.brunel.ac.uk/study/undergraduate/mathematics-bsc",
+   "ucas_code": "A19-J72"
   },
   {
    "title": "Mathematics",
@@ -33,10 +27,10 @@
    "ucas_code": "A13-I19"
   },
   {
-   "title": "Financial Mathematics",
+   "title": "Mathematics",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/financial-mathematics-bsc",
-   "ucas_code": "A27-J26"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/mathematics-bsc",
+   "ucas_code": "A28-A02"
   },
   {
    "title": "Mathematics",
@@ -45,10 +39,10 @@
    "ucas_code": "A38-I10"
   },
   {
-   "title": "Chemistry and Mathematics",
+   "title": "Mathematics",
    "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/chemistry-and-mathematics-fg11/",
-   "ucas_code": "A75-C51"
+   "url": "https://www.durham.ac.uk/study/courses/g100/",
+   "ucas_code": "A07-H33"
   },
   {
    "title": "Mathematics",
@@ -57,10 +51,16 @@
    "ucas_code": "A06-A59"
   },
   {
-   "title": "Chemistry with Mathematics",
+   "title": "Mathematics",
    "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/chemistrywithmathematics/",
-   "ucas_code": "A73-H03"
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/mathematics/",
+   "ucas_code": "A03-G54"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30197-mathematics-bsc-hons",
+   "ucas_code": "A11-A86"
   }
  ]
 }

@@ -9,12 +9,6 @@
    "ucas_code": "A14-A99"
   },
   {
-   "title": "Counselling and Working with Children, Young People & Families",
-   "provider": "Birmingham Newman University",
-   "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
-   "ucas_code": "A15-G80"
-  },
-  {
    "title": "Social Work",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/social-work-bsc-hons-2027-28",
@@ -57,10 +51,16 @@
    "ucas_code": "A25-H81"
   },
   {
-   "title": "Adult Nursing & Social Work",
+   "title": "Social Work",
    "provider": "Edge Hill University",
-   "url": "https://www.edgehill.ac.uk/course/adult-nursing-and-social-work/",
-   "ucas_code": "A05-C22"
+   "url": "https://www.edgehill.ac.uk/course/social-work/",
+   "ucas_code": "A05-D61"
+  },
+  {
+   "title": "Social Work",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/12SOCWRK",
+   "ucas_code": "A26-D62"
   }
  ]
 }

@@ -3,34 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Drama and English",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?R7B425",
-   "ucas_code": "A57-G39"
-  },
-  {
    "title": "English",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/english",
    "ucas_code": "A70-B45"
   },
   {
-   "title": "English and Sociology",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/english-and-sociology-bsc",
-   "ucas_code": "A67-B57"
-  },
-  {
    "title": "English",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/english-ba-hons/full-time/",
    "ucas_code": "A15-G92"
-  },
-  {
-   "title": "English and Creative Writing",
-   "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/english-and-creative-writing-ba-hons-2027-28",
-   "ucas_code": "A14-D18"
   },
   {
    "title": "English",
@@ -45,22 +27,40 @@
    "ucas_code": "A13-H90"
   },
   {
-   "title": "English Literature and Creative Writing",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/english-and-creative-writing-ba-hons/?term=2027-28",
-   "ucas_code": "A38-G97"
-  },
-  {
    "title": "English",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/english/",
    "ucas_code": "A05-C76"
   },
   {
-   "title": "Acting & English",
+   "title": "English",
    "provider": "Edinburgh Napier University",
-   "url": "https://www.napier.ac.uk/courses/ba-hons-acting-and-english-undergraduate-fulltime",
-   "ucas_code": "A25-C08"
+   "url": "https://www.napier.ac.uk/courses/ba-hons-english-undergraduate-fulltime",
+   "ucas_code": "A25-C66"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36045-english-literature-ba-hons",
+   "ucas_code": "A11-A47"
+  },
+  {
+   "title": "English",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/english/#default",
+   "ucas_code": "A18-C25"
+  },
+  {
+   "title": "English",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-english/september-2027/",
+   "ucas_code": "A31-I20"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/q300/",
+   "ucas_code": "A27-B90"
   }
  ]
 }

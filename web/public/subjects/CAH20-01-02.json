@@ -15,18 +15,6 @@
    "ucas_code": "A65-H22"
   },
   {
-   "title": "Interaction Design",
-   "provider": "Kingston University",
-   "url": "https://www.kingston.ac.uk/undergraduate/courses/interaction-design/",
-   "ucas_code": "A70-J60"
-  },
-  {
-   "title": "Fine Art and Art History",
-   "provider": "Manchester Metropolitan University",
-   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-fine-art-and-art-history/september-2027/",
-   "ucas_code": "A31-I95"
-  },
-  {
    "title": "History of Art",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/history-of-art",
@@ -39,28 +27,40 @@
    "ucas_code": "A66-H52"
   },
   {
-   "title": "Comparative Literature and Culture with History of Art and Visual Culture",
-   "provider": "Royal Holloway, University of London",
-   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-with-history-of-art-and-visual-culture/",
-   "ucas_code": "A17-C94"
-  },
-  {
-   "title": "Arabic and History of Art",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-arabic-and",
-   "ucas_code": "A12-J49"
-  },
-  {
    "title": "History of Art",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/histart/history-art.aspx",
    "ucas_code": "A04-I76"
   },
   {
-   "title": "Archaeology, Anthropology and Art History",
+   "title": "History of Art",
    "provider": "The University Of East Anglia",
-   "url": "https://www.uea.ac.uk/course/undergraduate/ba-archaeology-anthropology-and-art-history/2027-28/sep",
-   "ucas_code": "A36-G34"
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-history-of-art/2027-28/sep",
+   "ucas_code": "A36-H31"
+  },
+  {
+   "title": "Art History",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00021/1?coursecode=V314",
+   "ucas_code": "A32-D93"
+  },
+  {
+   "title": "History of Art",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/380/history-of-art-ba",
+   "ucas_code": "A26-H75"
+  },
+  {
+   "title": "History of Art",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-history-art",
+   "ucas_code": "A20-C50"
+  },
+  {
+   "title": "History of Art",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/historyofart/",
+   "ucas_code": "A24-I50"
   }
  ]
 }

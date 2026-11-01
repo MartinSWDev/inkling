@@ -9,12 +9,6 @@
    "ucas_code": "A30-B94"
   },
   {
-   "title": "Biomedical and Healthcare Engineering",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/biomedical-and-healthcare-engineering",
-   "ucas_code": "A65-E70"
-  },
-  {
    "title": "Healthcare Science (Life Sciences)",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-healthcare-science/",
@@ -39,10 +33,10 @@
    "ucas_code": "A37-C25"
   },
   {
-   "title": "Artificial Intelligence in Healthcare",
-   "provider": "University of Derby",
-   "url": "https://www.derby.ac.uk/undergraduate/artificial-intelligence-courses/artificial-intelligence-healthcare-bsc-hons/",
-   "ucas_code": "A70-E84"
+   "title": "Audiology",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j568/audiology-bsc",
+   "ucas_code": "A26-H50"
   },
   {
    "title": "Healthcare Science (Ophthalmic Imaging)",
@@ -55,6 +49,12 @@
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/cardiac-physiology-healthcare-science-degree-bsc",
    "ucas_code": "A23-D51"
+  },
+  {
+   "title": "Audiology",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/audiology-bsc",
+   "ucas_code": "A62-A64"
   },
   {
    "title": "Healthcare Science (Audiology)",

@@ -3,34 +3,22 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Creative Writing and Drama and Theatre Studies",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?TBHWBQ",
-   "ucas_code": "A22-F00"
-  },
-  {
    "title": "Drama",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/drama",
    "ucas_code": "A14-A09"
   },
   {
-   "title": "English Literature and Drama",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/qw34-english-literature-and-drama-ba-hons",
-   "ucas_code": "A69-I88"
-  },
-  {
-   "title": "Creative Writing and Drama",
+   "title": "Drama",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-creative-writing-and-drama/",
-   "ucas_code": "A09-F18"
+   "url": "http://www.bathspa.ac.uk/courses/ug-drama/",
+   "ucas_code": "A09-F52"
   },
   {
-   "title": "Creative Writing and Drama",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/creative-writing-drama/creative-writing-and-drama.aspx",
-   "ucas_code": "A73-B45"
+   "title": "Theatre",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/theatre-ba",
+   "ucas_code": "A20-A45"
   },
   {
    "title": "Drama",
@@ -39,28 +27,40 @@
    "ucas_code": "A05-C64"
   },
   {
-   "title": "Dance and Drama",
+   "title": "Drama",
    "provider": "Kingston University",
-   "url": "https://www.kingston.ac.uk/undergraduate/courses/dance-and-drama/",
-   "ucas_code": "A08-A04"
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/drama/",
+   "ucas_code": "A08-A08"
   },
   {
-   "title": "Acting and Drama",
-   "provider": "Liverpool Hope University",
-   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/acting/actinganddrama/",
-   "ucas_code": "A70-F56"
-  },
-  {
-   "title": "Drama and Contemporary Performance",
-   "provider": "Manchester Metropolitan University",
-   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-drama-and-contemporary-performance/september-2027/",
-   "ucas_code": "A47-I62"
+   "title": "Theatre and Performance",
+   "provider": "London Metropolitan University",
+   "url": "https://www.londonmet.ac.uk/courses/undergraduate/theatre-and-performance---ba-hons/",
+   "ucas_code": "A57-C99"
   },
   {
    "title": "Drama",
    "provider": "Queen Margaret University, Edinburgh",
    "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/ba-hons-drama-2027-entry",
    "ucas_code": "A08-E99"
+  },
+  {
+   "title": "Theatre and Performance",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/Theatre-and-Performance",
+   "ucas_code": "A75-A48"
+  },
+  {
+   "title": "Drama",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/drama-ba-w400/",
+   "ucas_code": "A28-B87"
+  },
+  {
+   "title": "Drama",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-drama/2027-28/sep",
+   "ucas_code": "A36-G81"
   }
  ]
 }

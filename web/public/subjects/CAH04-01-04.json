@@ -9,6 +9,18 @@
    "ucas_code": "A34-H09"
   },
   {
+   "title": "Psychology with Health",
+   "provider": "University College Birmingham",
+   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/psychology-with-health-bsc-hons/",
+   "ucas_code": "A71-F96"
+  },
+  {
+   "title": "Psychology (Clinical and Health Contexts)",
+   "provider": "University of Gloucestershire",
+   "url": "https://www.glos.ac.uk/courses/course/PCO-BSc-Psychology/",
+   "ucas_code": ""
+  },
+  {
    "title": "Psychology (Clinical Psychology)",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/psychology-clinical#overview",
@@ -33,10 +45,10 @@
    "ucas_code": "A24-B41"
   },
   {
-   "title": "Neuropsychology",
+   "title": "Psychology (Clinical and Mental Health)",
    "provider": "University Of Lancashire",
-   "url": "https://www.lancashire.ac.uk/undergraduate/courses/neuropsychology-bsc-hons",
-   "ucas_code": "A02-D95"
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/clinical-psychology-bsc",
+   "ucas_code": "A48-F08"
   },
   {
    "title": "Psychology (Clinical Applications)",
@@ -45,22 +57,10 @@
    "ucas_code": "A76-B12"
   },
   {
-   "title": "Psychology with Health",
-   "provider": "University College Birmingham",
-   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/psychology-with-health-bsc-hons/",
-   "ucas_code": "A71-F96"
-  },
-  {
    "title": "Applied Psychology (Clinical)",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-applied-psychology/",
    "ucas_code": "A32-J50"
-  },
-  {
-   "title": "Psychology (Clinical and Health Contexts)",
-   "provider": "University of Gloucestershire",
-   "url": "https://www.glos.ac.uk/courses/course/PCO-BSc-Psychology/",
-   "ucas_code": ""
   }
  ]
 }

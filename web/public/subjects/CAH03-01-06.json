@@ -15,16 +15,10 @@
    "ucas_code": "A14-B13"
   },
   {
-   "title": "Marine Biology And Zoology",
+   "title": "Zoology",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/cc13-marine-biology-and-zoology-bsc-hons",
-   "ucas_code": "A34-F92"
-  },
-  {
-   "title": "Applied Zoology",
-   "provider": "Harper Adams University",
-   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDDAPZLG",
-   "ucas_code": "A41-D77"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/c300-zoology-bsc-hons",
+   "ucas_code": "A34-I27"
   },
   {
    "title": "Zoology",
@@ -51,16 +45,22 @@
    "ucas_code": "A56-G80"
   },
   {
-   "title": "Marine Zoology",
+   "title": "Zoology",
    "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/c350/",
-   "ucas_code": "A27-C47"
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/c300/",
+   "ucas_code": "A27-D10"
   },
   {
    "title": "Zoology",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/zoology",
    "ucas_code": "A42-I37"
+  },
+  {
+   "title": "Zoology",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/zoology-bsc-c300/",
+   "ucas_code": "A28-D41"
   }
  ]
 }

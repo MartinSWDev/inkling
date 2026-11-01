@@ -9,10 +9,10 @@
    "ucas_code": "A34-E21"
   },
   {
-   "title": "Education and Geography",
+   "title": "Geography",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-education-and-geography/",
-   "ucas_code": "A09-F88"
+   "url": "http://www.bathspa.ac.uk/courses/ug-geography/",
+   "ucas_code": "A09-G35"
   },
   {
    "title": "Geography",
@@ -51,16 +51,16 @@
    "ucas_code": "A05-C90"
   },
   {
-   "title": "Geography, Society and Environment",
-   "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/geography-society-and-environment",
-   "ucas_code": "A06-A26"
+   "title": "Geography",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/geography/",
+   "ucas_code": "A08-B01"
   },
   {
-   "title": "Environmental Science and Geography",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/environmentalscienceandgeography/",
-   "ucas_code": "A03-F45"
+   "title": "Geography",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-geography",
+   "ucas_code": "A38-D71"
   }
  ]
 }

@@ -15,12 +15,6 @@
    "ucas_code": "A03-D05"
   },
   {
-   "title": "Commercial Dance",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/commercial-dance",
-   "ucas_code": "A76-B16"
-  },
-  {
    "title": "Dance",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/dance-ba-degree/dance-ba-degree.aspx",
@@ -33,22 +27,10 @@
    "ucas_code": "A05-C62"
   },
   {
-   "title": "Dance & Choreography",
-   "provider": "Falmouth University",
-   "url": "http://www.falmouth.ac.uk/study/undergraduate/dance-choreography",
-   "ucas_code": "A27-A35"
-  },
-  {
    "title": "Dance",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/dance/",
    "ucas_code": "A08-A03"
-  },
-  {
-   "title": "Business Management and Dance",
-   "provider": "Liverpool Hope University",
-   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/businessmanagement/businessmanagementanddance/",
-   "ucas_code": "B61-H19"
   },
   {
    "title": "Dance",
@@ -61,6 +43,24 @@
    "provider": "The University Of Chichester",
    "url": "http://www.chi.ac.uk/ba-hons-dance",
    "ucas_code": "A23-G65"
+  },
+  {
+   "title": "Dance",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://uel.ac.uk/undergraduate/courses/ba-hons-dance",
+   "ucas_code": "A24-B59"
+  },
+  {
+   "title": "Dance",
+   "provider": "University Of Salford, The",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/dance",
+   "ucas_code": "A28-F56"
+  },
+  {
+   "title": "Dance",
+   "provider": "University of Gloucestershire",
+   "url": "https://www.glos.ac.uk/courses/course/DAN-BA-Dance/",
+   "ucas_code": "A31-B62"
   }
  ]
 }

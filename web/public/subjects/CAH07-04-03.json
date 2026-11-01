@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Combined Studies",
-   "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/combined-studies-bsc",
-   "ucas_code": "A05-J90"
-  },
-  {
    "title": "Integrated Natural Sciences",
    "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/msci-integrated-natural-sciences",

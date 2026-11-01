@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "British Sign Language (Interpreting, Translating and Applied Language Studies)",
-   "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/british-sign-language-interpreting-translating-and-applied-language",
-   "ucas_code": "A05-J55"
-  },
-  {
    "title": "Scottish Language & Literature",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/scottishliterature/",
@@ -31,6 +25,12 @@
    "provider": "York St John University",
    "url": "https://www.yorksj.ac.uk/courses/undergraduate/british-sign-language/bsl-deaf-studies-and-linguistics-ba-hons/",
    "ucas_code": "A46-C40"
+  },
+  {
+   "title": "British Sign Language (Interpreting, Translating and Applied Language Studies)",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/british-sign-language-interpreting-translating-and-applied-language",
+   "ucas_code": "A05-J55"
   }
  ]
 }

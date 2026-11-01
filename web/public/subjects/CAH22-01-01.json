@@ -3,28 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Cymraeg/Education",
+   "title": "Education",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?LKVXA3",
-   "ucas_code": "A74-D60"
+   "url": "http://www.aber.ac.uk/courses/?TPMGET",
+   "ucas_code": "A74-D54"
   },
   {
-   "title": "Education with Inclusive Practice",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/education-with-inclusive-practice",
-   "ucas_code": "A74-F38"
-  },
-  {
-   "title": "Education and SEND",
-   "provider": "Birmingham Newman University",
-   "url": "https://www.newman.ac.uk/course/education-and-send/full-time/",
-   "ucas_code": "A67-A72"
-  },
-  {
-   "title": "Biology and Education Studies",
+   "title": "Education",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-biology-and-education/",
-   "ucas_code": "A09-E43"
+   "url": "https://www.bathspa.ac.uk/courses/ug-education/",
+   "ucas_code": "A68-G55"
   },
   {
    "title": "Education Studies",
@@ -45,22 +33,34 @@
    "ucas_code": "A19-E84"
   },
   {
-   "title": "Early Years Education and Professional Practice with Early Years Practitioner Status (EYPS) (Bilingual)",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-early-years-education-and-professional-practice-with-eyps/",
-   "ucas_code": "A55-F50"
-  },
-  {
    "title": "Education",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/education-bsc",
    "ucas_code": "A40-A58"
   },
   {
-   "title": "Primary Education and Teaching Studies",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/primary-education/?term=2027-28",
-   "ucas_code": "A41-H36"
+   "title": "Education Studies",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/education-studies-ba-hons-degree/education-studies-ba-hons.aspx",
+   "ucas_code": "A25-G52"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/x301/",
+   "ucas_code": "A07-G90"
+  },
+  {
+   "title": "Education",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/education-2026/",
+   "ucas_code": "A05-C72"
+  },
+  {
+   "title": "Education",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/education/",
+   "ucas_code": "A03-F15"
   }
  ]
 }

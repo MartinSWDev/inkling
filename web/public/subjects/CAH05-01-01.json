@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Veterinary Biosciences",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/veterinary-biosciences-bsc-d300",
-   "ucas_code": "A76-B36"
-  },
-  {
    "title": "Veterinary Science",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/veterinary-science-bvsc/2027",
@@ -33,16 +27,16 @@
    "ucas_code": "A66-D90"
   },
   {
-   "title": "Veterinary Medicine and Surgery including a Gateway Year",
+   "title": "Veterinary Medicine and Veterinary Surgery",
    "provider": "University Of Nottingham, The",
-   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Veterinary-Medicine-and-Surgery-including-a-Gateway-Year-BVM-BVS-with-BVMedSci-BVMBVS.html",
-   "ucas_code": "A00-H57"
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Veterinary-Medicine-and-Surgery-BVM-BVS-with-BVMedSci-BVMBVS.html",
+   "ucas_code": "A00-H56"
   },
   {
-   "title": "Gateway to Veterinary Science",
+   "title": "Veterinary Science",
    "provider": "University of Bristol",
-   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/vet-science/bvsc-gateway-to-veterinary-science/",
-   "ucas_code": "A15-I37"
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/vet-science/bvsc-veterinary-science/",
+   "ucas_code": "A15-J83"
   },
   {
    "title": "Veterinary Medicine",
@@ -57,10 +51,16 @@
    "ucas_code": "A15-C12"
   },
   {
-   "title": "Bioveterinary Science",
-   "provider": "Bishop Burton College",
-   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-bioveterinary-science",
-   "ucas_code": "A17-A62"
+   "title": "Veterinary Medicine and Surgery",
+   "provider": "Harper and Keele Veterinary School",
+   "url": "https://www.harperkeelevetschool.ac.uk/about/429/introduction/",
+   "ucas_code": "A53-E71"
+  },
+  {
+   "title": "Veterinary Science",
+   "provider": "Scotland's Rural College",
+   "url": "https://www.sruc.ac.uk/course-catalogue/veterinary-science/bvsci-veterinary-science/",
+   "ucas_code": "A69-J87"
   }
  ]
 }

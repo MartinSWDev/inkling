@@ -9,10 +9,16 @@
    "ucas_code": "A13-J71"
   },
   {
-   "title": "Building Services Engineering",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/building-services-engineering",
-   "ucas_code": "A70-I15"
+   "title": "Construction Project Management",
+   "provider": "Aston University",
+   "url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
+   "ucas_code": "A30-B51"
+  },
+  {
+   "title": "Construction Management",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/construction-management-bsc-hons-2027-28",
+   "ucas_code": "A14-C99"
   },
   {
    "title": "Building Surveying",
@@ -33,34 +39,28 @@
    "ucas_code": "A26-C66"
   },
   {
+   "title": "Construction Project Management",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/construction-project-management",
+   "ucas_code": "A06-A01"
+  },
+  {
    "title": "Building Surveying",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/building-surveying/",
    "ucas_code": "A07-J28"
   },
   {
-   "title": "Building Services Engineering",
+   "title": "Building Surveying",
    "provider": "Leeds Beckett University",
-   "url": "http://courses.leedsbeckett.ac.uk/buildingservicesengineering_beng",
-   "ucas_code": "A10-H30"
+   "url": "http://courses.leedsbeckett.ac.uk/buildingsurveying",
+   "ucas_code": "A10-H31"
   },
   {
    "title": "Building Surveying",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30176-building-surveying-bsc-hons",
    "ucas_code": "A10-J75"
-  },
-  {
-   "title": "Building Surveying",
-   "provider": "London Metropolitan University",
-   "url": "https://www.londonmet.ac.uk/courses/undergraduate/building-surveying-including-foundation-year---bsc-hons/",
-   "ucas_code": "A71-F97"
-  },
-  {
-   "title": "Building Surveying",
-   "provider": "London South Bank University",
-   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-building-surveying#overview",
-   "ucas_code": "A12-A83"
   }
  ]
 }

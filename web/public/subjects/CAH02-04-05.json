@@ -3,28 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Nursing (Adult and Children)",
+   "title": "Nursing (Children)",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-children",
-   "ucas_code": "A72-F99"
+   "url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+   "ucas_code": "A14-A69"
   },
   {
    "title": "Children's Nursing",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b732-childrens-nursing-bn-hons",
    "ucas_code": "A41-F27"
-  },
-  {
-   "title": "Adult and Children's Nursing (Dual Award)",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/nursing-adult-child-dual-msci-2027-28",
-   "ucas_code": "B67-G22"
-  },
-  {
-   "title": "Children's and Young People's Nursing",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-childrens-young-peoples-nursing",
-   "ucas_code": "A11-H59"
   },
   {
    "title": "Nursing (Child Health)",
@@ -61,6 +49,18 @@
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-child-nursing-degree/nursing-with-registration-child-nursing-bsc-hons.aspx",
    "ucas_code": "A25-H59"
+  },
+  {
+   "title": "Nursing (Child)",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/nursing-child/",
+   "ucas_code": "A05-D17"
+  },
+  {
+   "title": "Nursing Child Health",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bn-nursing-child-undergraduate-fulltime",
+   "ucas_code": "A25-D32"
   }
  ]
 }

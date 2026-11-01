@@ -3,16 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Accounting and Finance / Economics",
+   "title": "Economics",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?WDJMAX",
-   "ucas_code": "A51-B77"
+   "url": "http://www.aber.ac.uk/courses/?BVES87",
+   "ucas_code": "A22-F38"
   },
   {
-   "title": "Business Economics",
+   "title": "Economics",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/business-economics-bsc/",
-   "ucas_code": "A75-D85"
+   "url": "https://www.aston.ac.uk/study/courses/economics-bsc",
+   "ucas_code": "A50-H47"
   },
   {
    "title": "Economics",
@@ -27,10 +27,10 @@
    "ucas_code": "B57-I87"
   },
   {
-   "title": "Accounting and Economics",
+   "title": "Economics",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/accounting",
-   "ucas_code": "A76-G26"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/economics",
+   "ucas_code": "A24-D53"
   },
   {
    "title": "Economics",
@@ -39,10 +39,10 @@
    "ucas_code": "A14-D12"
   },
   {
-   "title": "Business and Management (Economics)",
+   "title": "Economics",
    "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-economics-0",
-   "ucas_code": "A54-E02"
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-economics",
+   "ucas_code": "A11-H72"
   },
   {
    "title": "Economics",
@@ -51,16 +51,16 @@
    "ucas_code": "A19-J12"
   },
   {
-   "title": "Business Economics",
+   "title": "Economics",
    "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/business-economics",
-   "ucas_code": "A76-E07"
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/economics-ba",
+   "ucas_code": "A76-E08"
   },
   {
-   "title": "Business Economics",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/business-economics",
-   "ucas_code": "A66-E82"
+   "title": "Economics",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-economics/",
+   "ucas_code": "A08-G27"
   }
  ]
 }

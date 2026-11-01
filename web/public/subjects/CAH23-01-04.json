@@ -39,12 +39,6 @@
    "ucas_code": "A17-E33"
   },
   {
-   "title": "Global Liberal Arts",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-global-liberal-arts",
-   "ucas_code": "A13-A23"
-  },
-  {
    "title": "Liberal Arts",
    "provider": "St Mary's University College",
    "url": "https://www.stmarys-belfast.ac.uk/study/liberal-arts/",
@@ -61,6 +55,12 @@
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-liberal-arts/2027-28/sep",
    "ucas_code": "A56-J57"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00239/1?coursecode=V900",
+   "ucas_code": "A32-H10"
   }
  ]
 }

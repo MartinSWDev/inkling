@@ -15,12 +15,6 @@
    "ucas_code": "A41-I42"
   },
   {
-   "title": "Biomedical Science (Biochemistry)",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/courses/biomedical-science-biochemistry-bsc",
-   "ucas_code": "A77-E66"
-  },
-  {
    "title": "Biochemistry",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/biochemistry",
@@ -61,6 +55,12 @@
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/31900-biochemistry-bsc-hons",
    "ucas_code": "A10-J65"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/biochemistry---bsc-hons/",
+   "ucas_code": "A06-J03"
   }
  ]
 }

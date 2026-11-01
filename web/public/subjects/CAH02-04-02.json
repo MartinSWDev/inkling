@@ -9,22 +9,16 @@
    "ucas_code": "A62-H42"
   },
   {
-   "title": "Nursing (Adult and Children)",
+   "title": "Nursing (Adult)",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-children",
-   "ucas_code": "A72-F99"
+   "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult",
+   "ucas_code": "A14-A68"
   },
   {
    "title": "Adult Nursing",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/adult-nursing/full-time/",
    "ucas_code": "A65-F90"
-  },
-  {
-   "title": "Nursing (Adult) [Pre-registration Nursing]",
-   "provider": "BPP University",
-   "url": "https://www.bpp.com/nursing-and-healthcare/bsc-nursing-adult",
-   "ucas_code": ""
   },
   {
    "title": "Adult Nursing",
@@ -61,6 +55,12 @@
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/adult-nursing",
    "ucas_code": "A19-H27"
+  },
+  {
+   "title": "Adult Nursing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/adult-nursing/?term=2027-28",
+   "ucas_code": "A71-G98"
   }
  ]
 }

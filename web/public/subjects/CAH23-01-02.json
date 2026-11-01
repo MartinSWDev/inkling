@@ -3,10 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "AI and Robotics with Diploma in Creative Professional Development",
-   "provider": "Norwich University of the Arts",
-   "url": "https://norwichuni.ac.uk/courses/find-your-course/bsc-hons-ai-robotics/",
-   "ucas_code": "B65-I75"
+   "title": "Business and Entrepreneurship",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/business-and-entrepreneurship-bsc-hons-2027-28",
+   "ucas_code": "A75-F26"
+  },
+  {
+   "title": "Management, Entrepreneurship and Innovation",
+   "provider": "Newcastle University",
+   "url": "https://www.ncl.ac.uk/undergraduate/degrees/n310/",
+   "ucas_code": "B66-H31"
+  },
+  {
+   "title": "Business and Entrepreneurship",
+   "provider": "Regent's University",
+   "url": "https://www.regents.ac.uk/undergraduate/business/ba-hons-business-and-entrepreneurship-new-model",
+   "ucas_code": "A66-G50"
+  },
+  {
+   "title": "Business and Entrepreneurship",
+   "provider": "University Of Lancashire",
+   "url": "https://lancashire.ac.uk/undergraduate/courses/business-entrepreneurship-ba",
+   "ucas_code": "A76-B13"
+  },
+  {
+   "title": "Business and Entrepreneurship",
+   "provider": "University of Northumbria at Newcastle",
+   "url": "https://www.northumbria.ac.uk/course/UUSBER1",
+   "ucas_code": "A68-D85"
+  },
+  {
+   "title": "Business, Enterprise and Entrepreneurship",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/business-enterprise-and-entrepreneurship",
+   "ucas_code": "A06-B81"
+  },
+  {
+   "title": "Management (Innovation, Strategy and Entrepreneurship)",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/11242/bsc-management-innovation-strategy-and-entrepreneurship-with-industrial---professional-experience/",
+   "ucas_code": "A20-I26"
+  },
+  {
+   "title": "Business Management with Entrepreneurship",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-business-management-with-entrepreneurship-undergraduate-fulltime",
+   "ucas_code": "A25-C23"
+  },
+  {
+   "title": "Business Management and Entrepreneurship",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/business-management-and-entrepreneurship/",
+   "ucas_code": "A45-I92"
+  },
+  {
+   "title": "Business Management and Entrepreneurship",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/undergraduate-courses/business-management-and-entrepreneurship/",
+   "ucas_code": "A18-J76"
   }
  ]
 }

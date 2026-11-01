@@ -21,12 +21,6 @@
    "ucas_code": "A62-B31"
   },
   {
-   "title": "Architecture RIBA Part 1",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/architecture-barch-hons-2027-28",
-   "ucas_code": "B59-E06"
-  },
-  {
    "title": "Architecture",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-architecture/",
@@ -61,6 +55,12 @@
    "provider": "Leeds Beckett University",
    "url": "https://www.leedsbeckett.ac.uk/courses/architecture-ba/",
    "ucas_code": "A75-I97"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30132-architecture-ba-hons",
+   "ucas_code": "A10-J61"
   }
  ]
 }

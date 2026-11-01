@@ -8,6 +8,7 @@ import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
 import { makeShareVideo, shareUrl, type ShareData } from "./share";
+import { suggestAliases } from "./aliases";
 const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "countryside", name: "Countryside" }];
 const SCENES: Record<string, [string, string]> = { sea: ["#1f6f8b", "#8fd0e6"], desk: ["#5a4a7a", "#c9b7e8"], wood: ["#6e4329", "#d9b48f"], night: ["#1c1a3a", "#6b5aa8"], dark: ["#101418", "#2f3a48"], green: ["#2f6b3a", "#a9d9a0"], light: ["#e8dfd0", "#fff8ea"] };
 
@@ -113,7 +114,7 @@ export default function App() {
     const profiles: Record<string, Record<string, number>> = {};
     for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
     return scoreAnswers(answers, subjects, profiles, content.pairs,
-      { chips: content.chips, things: content.things, questions: content.questions });
+      { chips: content.chips, things: content.things, questions: content.questions }, content.aliases || {});
   }, [answers, content, subjects]);
   const ranked = live?.ranked ?? [];
   const surprise = live?.surprise ?? null;
@@ -177,7 +178,7 @@ export default function App() {
     const profiles: Record<string, Record<string, number>> = {};
     for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
     const decks = { chips: content.chips, things: content.things, questions: content.questions };
-    const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks);
+    const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks, content.aliases || {});
     if (round > 1 || heart) {
       const qualified = qualifiedSubjects(snap, subjects, profiles, content.pairs, decks);
       const next = growRoom(roomCodes, scoresRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]);
@@ -418,7 +419,11 @@ export default function App() {
             ? (<div className="other"><input value={other} list="other-list" placeholder="Type a subject" autoComplete="off" autoFocus
                 onChange={(e) => setOther(e.target.value)}
                 onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { syncChips(picked, [...typedNames, other.trim()]); setOther(""); } }} />
-                <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist></div>)
+                <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist>
+                {other.trim().length >= 2 && (<div className="suggestrow">
+                  {suggestAliases(content.aliases || {}, other, (code) => subjects.find((s) => s.code === code)?.display_name)
+                    .map((name) => <button key={name} className="suggestchip" onClick={() => { syncChips(picked, [...typedNames, name]); setOther(""); }}>{name}</button>)}
+                </div>)}</div>)
             : <button className="linkbtn addanother" onClick={() => setOtherOpen(true)}>+ Add another subject</button>}
             {typedNames.length > 0 && <p className="hint2">Added: {typedNames.join(", ")}</p>}</div>
           {Object.keys(picked).length + typedNames.length >= 3

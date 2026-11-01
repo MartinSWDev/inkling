@@ -39,12 +39,6 @@
    "ucas_code": "A76-D26"
   },
   {
-   "title": "Bioengineering (Regenerative Medicine)",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/bioengineeringregenerativemedicine/",
-   "ucas_code": "A57-G77"
-  },
-  {
    "title": "Biomedical Engineering",
    "provider": "London Metropolitan University",
    "url": "https://www.londonmet.ac.uk/courses/undergraduate/biomedical-engineering---beng-hons/",
@@ -61,6 +55,12 @@
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/beng-biomedical-engineering/september-2027/",
    "ucas_code": "A61-C04"
+  },
+  {
+   "title": "Biomedical Engineering",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/beng-hons-biomedical-engineering",
+   "ucas_code": "A38-C13"
   }
  ]
 }

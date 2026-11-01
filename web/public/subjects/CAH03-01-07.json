@@ -9,46 +9,22 @@
    "ucas_code": "A22-F89"
   },
   {
-   "title": "Medical Genetics",
-   "provider": "Queen Mary University of London",
-   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/medical-genetics",
-   "ucas_code": "A42-I39"
-  },
-  {
    "title": "Genetics",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/biological-sciences/genetics/",
    "ucas_code": "A58-E47"
   },
   {
-   "title": "Biochemistry and Genetics",
+   "title": "Genetics",
    "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/medicine/biochemistry-and-genetics-bsc-hons/",
-   "ucas_code": "A36-J92"
-  },
-  {
-   "title": "Molecular Biology and Genetics",
-   "provider": "The University Of East Anglia",
-   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-molecular-biology-and-genetics/2027-28/sep",
-   "ucas_code": "A36-H89"
-  },
-  {
-   "title": "Medical Genetics",
-   "provider": "The University Of Huddersfield",
-   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Medical-Genetics-BSc-Hons",
-   "ucas_code": "A13-G69"
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/medicine/genetics-bsc-hons/",
+   "ucas_code": "A37-B95"
   },
   {
    "title": "Genetics",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/3360/genetics-bsc",
    "ucas_code": "A26-H08"
-  },
-  {
-   "title": "Biological Sciences (Genetics)",
-   "provider": "The University Of Leicester",
-   "url": "https://le.ac.uk/courses/biological-sciences-genetics-bsc/2027",
-   "ucas_code": "A05-A18"
   },
   {
    "title": "Genetics",
@@ -61,6 +37,30 @@
    "provider": "University of Sussex",
    "url": "https://www.sussex.ac.uk/study/undergraduate/courses/genetics-bsc",
    "ucas_code": "A22-J31"
+  },
+  {
+   "title": "Genetics",
+   "provider": "University of York",
+   "url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-genetics/",
+   "ucas_code": "A30-J14"
+  },
+  {
+   "title": "Genetics",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10120/msci-genetics/",
+   "ucas_code": "A20-H32"
+  },
+  {
+   "title": "Medical Genetics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/medical-genetics",
+   "ucas_code": "A42-I39"
+  },
+  {
+   "title": "Molecular Biology and Genetics",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-molecular-biology-and-genetics/2027-28/sep",
+   "ucas_code": "A36-H89"
   }
  ]
 }

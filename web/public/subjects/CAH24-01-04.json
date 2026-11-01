@@ -3,40 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Journalism and Language (French, German, Italian, Japanese, Spanish)",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/journalism-and-media/journalism-and-language-french-german-italian-japanese-spanish",
-   "ucas_code": "A65-H63"
-  },
-  {
-   "title": "English and Journalism",
+   "title": "Journalism",
    "provider": "Birmingham City University",
-   "url": "http://www.bcu.ac.uk/courses/english-and-journalism-ba-hons-2027-28",
-   "ucas_code": "A14-D20"
-  },
-  {
-   "title": "Multimedia Journalism",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-multimedia-journalism",
-   "ucas_code": "A11-I12"
-  },
-  {
-   "title": "Journalism (Communication)",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/journalism-communication-ba",
-   "ucas_code": "A60-I35"
+   "url": "http://www.bcu.ac.uk/courses/journalism-ba-hons-2027-28",
+   "ucas_code": "A45-H51"
   },
   {
    "title": "Journalism",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/journalism",
    "ucas_code": "A13-I15"
-  },
-  {
-   "title": "English Literature, Journalism and Media",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-journalism-media-ba",
-   "ucas_code": "A27-J88"
   },
   {
    "title": "Journalism",
@@ -57,10 +33,34 @@
    "ucas_code": "A25-D01"
   },
   {
-   "title": "Journalism & Creative Writing",
-   "provider": "Falmouth University",
-   "url": "http://www.falmouth.ac.uk/study/undergraduate/journalism-creative-writing",
-   "ucas_code": "A63-F48"
+   "title": "Journalism",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/journalism",
+   "ucas_code": "A10-I03"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/journalism/",
+   "ucas_code": "A75-F46"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30574-journalism-ba-hons",
+   "ucas_code": "A11-A74"
+  },
+  {
+   "title": "Journalism",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/journalism---ba-hons/",
+   "ucas_code": "A07-A09"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-journalism",
+   "ucas_code": "A38-E32"
   }
  ]
 }

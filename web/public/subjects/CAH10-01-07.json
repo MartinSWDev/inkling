@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Civil and Environmental Engineering",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
-   "ucas_code": "A06-B16"
-  },
-  {
    "title": "Civil Engineering",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/civil-engineering-beng",
@@ -45,22 +39,28 @@
    "ucas_code": "A72-B73"
   },
   {
-   "title": "Architectural Engineering",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/architectural-engineering",
-   "ucas_code": "A70-I13"
-  },
-  {
-   "title": "Architectural Engineering",
+   "title": "Civil Engineering",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/architectural-engineering-beng",
-   "ucas_code": "A27-H72"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/civil-engineering-beng",
+   "ucas_code": "A27-I46"
   },
   {
-   "title": "Architectural Engineering",
+   "title": "Civil Engineering",
    "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/architectural-engineering-beng/?term=2027-28",
-   "ucas_code": "A38-G60"
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/civil-engineering-mengbeng/?term=2027-28",
+   "ucas_code": "A38-G63"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/meng-civil-engineering-undergraduate-fulltime",
+   "ucas_code": "A25-C40"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/civil-engineering",
+   "ucas_code": "A05-J88"
   }
  ]
 }

@@ -3,6 +3,18 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Events Management",
+   "provider": "Arts University Bournemouth, The",
+   "url": "https://ukmc.ac.uk/course-details/ba-hons-event-management-with-foundation-year",
+   "ucas_code": ""
+  },
+  {
+   "title": "Events Management",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/events-management",
+   "ucas_code": "A66-C15"
+  },
+  {
    "title": "International Hospitality and Tourism Management",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/bsc-hons-hospitality-tourism-management",
@@ -15,52 +27,40 @@
    "ucas_code": "A62-E20"
   },
   {
-   "title": "International Tourism and Hospitality Management",
+   "title": "Events Management",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/events-management-ba-hons-2027-28",
+   "ucas_code": "A41-G95"
+  },
+  {
+   "title": "Events Management",
    "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-international-tourism-hospitality-management-0",
-   "ucas_code": "A43-G74"
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-events-management",
+   "ucas_code": "A11-H79"
   },
   {
-   "title": "International Tourism & Hospitality Management",
+   "title": "Events Management",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-events-management",
+   "ucas_code": "A53-J63"
+  },
+  {
+   "title": "Events Management",
    "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/international-tourism-and-hospitality-management",
-   "ucas_code": "A68-G95"
+   "url": "https://www.canterbury.ac.uk/study-here/courses/events-management",
+   "ucas_code": "A19-F58"
   },
   {
-   "title": "International Tourism Management",
+   "title": "Events Management",
    "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-international-tourism-management/",
-   "ucas_code": "A08-G64"
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-events-management/",
+   "ucas_code": "A08-G40"
   },
   {
-   "title": "International Hospitality and Tourism Management",
+   "title": "Events Management",
    "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/london/course-structure/ug/international-hospitality-and-tourism-management-ba-hons/?term=2027-28",
-   "ucas_code": "A38-H80"
-  },
-  {
-   "title": "International Tourism and Hospitality Management",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/international-tourism-and-hospitality-management/international-tourism-hospitality-management.aspx",
-   "ucas_code": "A70-C52"
-  },
-  {
-   "title": "Intercultural Business Communication and Tourism Management",
-   "provider": "Edinburgh Napier University",
-   "url": "https://www.napier.ac.uk/courses/ba-hons-intercultural-business-communication-and-tourism-management-undergraduate-fulltime",
-   "ucas_code": "A69-H68"
-  },
-  {
-   "title": "Tourism & Hospitality Management",
-   "provider": "Falmouth University",
-   "url": "http://www.falmouth.ac.uk/study/undergraduate/tourism-management",
-   "ucas_code": "A76-D39"
-  },
-  {
-   "title": "International Tourism and Events Management",
-   "provider": "Glasgow Caledonian University",
-   "url": "http://www.gcu.ac.uk/kis/12ITEMGT",
-   "ucas_code": "A51-D30"
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/event-management-ba-hons/?term=2027-28",
+   "ucas_code": "A38-H09"
   }
  ]
 }

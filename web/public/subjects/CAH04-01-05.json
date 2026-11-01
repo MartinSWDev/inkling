@@ -9,6 +9,12 @@
    "ucas_code": "A10-I38"
   },
   {
+   "title": "Cognitive Psychology",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-cognitive-psychology/2027-28/sep",
+   "ucas_code": "A36-G67"
+  },
+  {
    "title": "Psychology (Cognition and Neuroscience)",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-cognition-and-neuroscience",
@@ -21,22 +27,10 @@
    "ucas_code": "A69-I24"
   },
   {
-   "title": "Cognitive Psychology",
-   "provider": "The University Of East Anglia",
-   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-cognitive-psychology/2027-28/sep",
-   "ucas_code": "A36-G67"
-  },
-  {
    "title": "Criminology with Social Psychology",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00092/1?coursecode=L3C8",
    "ucas_code": "A32-E66"
-  },
-  {
-   "title": "Psychology with Criminology",
-   "provider": "The University Of Huddersfield",
-   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Psychology-with-Criminology-BSc-Hons",
-   "ucas_code": "A13-H06"
   },
   {
    "title": "Music and Music Psychology",
@@ -51,16 +45,22 @@
    "ucas_code": "A05-C05"
   },
   {
+   "title": "Cognitive and Clinical Neuroscience",
+   "provider": "The University Of Westminster",
+   "url": "http://www.westminster.ac.uk/cognitive-and-clinical-neuroscience-bsc",
+   "ucas_code": "A19-B11"
+  },
+  {
    "title": "Psychology and Cognitive Neuroscience",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Psychology-and-Cognitive-Neuroscience-BSc-Hons.html",
    "ucas_code": "A00-H29"
   },
   {
-   "title": "Psychology with Education",
-   "provider": "University of Plymouth",
-   "url": "https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology-with-early-childhood-studies",
-   "ucas_code": "A74-A69"
+   "title": "Criminology and Criminal Psychology",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/ach/criminology-and-criminal-psychology-bsc-hons",
+   "ucas_code": "A14-F24"
   }
  ]
 }

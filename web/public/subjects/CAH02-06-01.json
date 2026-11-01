@@ -3,33 +3,9 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Health and Lifestyle Science",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
-   "ucas_code": ""
-  },
-  {
    "title": "Health Sciences",
    "provider": "Roehampton University",
    "url": "https://www.roehampton.ac.uk/study/undergraduate-courses/health-sciences/",
-   "ucas_code": ""
-  },
-  {
-   "title": "Healthcare Science (Rehabilitation Engineering)",
-   "provider": "Swansea University",
-   "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/healthcare-science-rehabilitation-engineering-bsc-hons/",
-   "ucas_code": "A60-H26"
-  },
-  {
-   "title": "Health and Medical Sciences",
-   "provider": "The University Of Warwick",
-   "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-health-medical-sciences",
-   "ucas_code": "A51-H48"
-  },
-  {
-   "title": "Mental Health and Wellbeing",
-   "provider": "University Of Lancashire",
-   "url": "https://london.uclan.ac.uk/our-courses/bsc-hons-mental-health-and-wellbeing",
    "ucas_code": ""
   },
   {
@@ -39,28 +15,52 @@
    "ucas_code": "A55-D40"
   },
   {
-   "title": "Pharmacology and Health Science",
-   "provider": "University of Bedfordshire",
-   "url": "https://www.beds.ac.uk/courses/pharmacology-and-health-science",
-   "ucas_code": "A47-E01"
+   "title": "Health Sciences",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/biosciences/bsc_(hons)_health_sciences.cfm",
+   "ucas_code": "A31-F32"
   },
   {
-   "title": "Sports Nutrition and Health",
-   "provider": "University of Derby",
-   "url": "https://www.derby.ac.uk/undergraduate/sport-exercise-science-courses/sports-nutrition-health-bsc-hons/",
-   "ucas_code": "A38-A50"
+   "title": "Operating Department Practice",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/operating-department-practice",
+   "ucas_code": "A14-A71"
   },
   {
-   "title": "Healthcare Science (Vascular Science)",
-   "provider": "University of Gloucestershire",
-   "url": "https://www.glos.ac.uk/courses/course/HSV-BSc-Healthcare-Science/",
-   "ucas_code": "A66-H94"
+   "title": "Paramedic Science",
+   "provider": "Birmingham Newman University",
+   "url": "https://www.newman.ac.uk/course/paramedic-science-bsc-hons/full-time/",
+   "ucas_code": "A67-H92"
   },
   {
-   "title": "Healthcare Studies",
-   "provider": "Bishop Auckland College",
-   "url": "https://bacoll.ac.uk/course/bsc-hons-healthcare-studies-l6-top-up/",
-   "ucas_code": ""
+   "title": "Operating Department Practice",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/operating-department-practice-bsc-hons-2027-28",
+   "ucas_code": "A14-D96"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-operating-department-practice",
+   "ucas_code": "A11-I18"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-operating-department-practice",
+   "ucas_code": "A46-H74"
+  },
+  {
+   "title": "Paramedic Science",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/paramedic-science",
+   "ucas_code": "A75-A85"
+  },
+  {
+   "title": "Operating Department Practice",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/operating-department-practice",
+   "ucas_code": "A19-H31"
   }
  ]
 }

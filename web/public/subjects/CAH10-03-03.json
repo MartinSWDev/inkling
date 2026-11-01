@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Costume with Textiles",
-   "provider": "The University Of Huddersfield",
-   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Costume-with-Textiles-BA-Hons",
-   "ucas_code": "A13-F75"
-  },
-  {
    "title": "Garment Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
@@ -21,16 +15,16 @@
    "ucas_code": "A62-D56"
   },
   {
-   "title": "Sustainable Fashion",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/j391/sustainable-fashion-ba",
-   "ucas_code": "A61-C66"
+   "title": "Costume with Textiles",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Costume-with-Textiles-BA-Hons",
+   "ucas_code": "A13-F75"
   },
   {
-   "title": "Costume Production",
-   "provider": "Rose Bruford College Of Theatre And Performance",
-   "url": "https://www.bruford.ac.uk/study/undergraduate-courses/costume-production/",
-   "ucas_code": "A07-B08"
+   "title": "Textile Innovation and Sustainability",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j761/textile-innovation-and-sustainability-bsc",
+   "ucas_code": "A68-H09"
   },
   {
    "title": "Fashion Design and Garment Technology",

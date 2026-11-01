@@ -3,10 +3,34 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Criminology and Criminal Psychology",
+   "title": "Applied Psychology",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cul/course-structure/hnc-hnd-degree/applied-psychology/?term=2027-28",
+   "ucas_code": "A54-A37"
+  },
+  {
+   "title": "Applied Psychology",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11APDPSY",
+   "ucas_code": "A26-C61"
+  },
+  {
+   "title": "Applied Psychology",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/applied-psychology-bsc/2027",
+   "ucas_code": "A05-A10"
+  },
+  {
+   "title": "Applied Psychology",
+   "provider": "South Essex College of Further and Higher Education",
+   "url": "https://www.southessex.ac.uk/course/bsc-hons-applied-psychology",
+   "ucas_code": ""
+  },
+  {
+   "title": "Psychology with Forensic Psychology",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?H339LR",
-   "ucas_code": "A53-J13"
+   "url": "http://www.aber.ac.uk/courses/?3WQBZ7",
+   "ucas_code": "A66-F21"
   },
   {
    "title": "Psychology with Forensic and Criminal Perspectives",
@@ -33,34 +57,10 @@
    "ucas_code": ""
   },
   {
-   "title": "Psychology with Forensic Investigation",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-psychology-forensic-investigation",
-   "ucas_code": "A50-C29"
-  },
-  {
-   "title": "Psychology (Sport, Health and Exercise)",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/psychology-sport-health-and-exercise-bsc",
-   "ucas_code": "A20-A26"
-  },
-  {
    "title": "Forensic Psychology",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-forensic-psychology",
    "ucas_code": "A68-A72"
-  },
-  {
-   "title": "Psychology (Sport & Exercise Studies)",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/psychology-sport-exercise-studies",
-   "ucas_code": "A19-H71"
-  },
-  {
-   "title": "Psychology",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/psychology-with-a-professional-placement-bsc",
-   "ucas_code": "A28-A93"
   }
  ]
 }

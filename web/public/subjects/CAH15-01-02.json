@@ -3,46 +3,34 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Criminology and Sociology",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
-   "ucas_code": "A63-B09"
-  },
-  {
-   "title": "Criminology and Sociology",
+   "title": "Sociology",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?DVQRS7",
-   "ucas_code": "A54-E06"
+   "url": "http://www.aber.ac.uk/courses/?AW7MTX",
+   "ucas_code": "A50-E20"
   },
   {
-   "title": "Criminology and Sociology",
+   "title": "Sociology",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-sociology",
-   "ucas_code": "A14-A07"
+   "url": "https://www.aru.ac.uk/study/undergraduate/sociology",
+   "ucas_code": "A14-B02"
   },
   {
-   "title": "English and Sociology",
+   "title": "Sociology",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/english-and-sociology-bsc",
-   "ucas_code": "A67-B57"
+   "url": "https://www.aston.ac.uk/study/courses/sociology-bsc",
+   "ucas_code": "A30-C49"
   },
   {
-   "title": "Childhood And Youth Studies And Sociology",
+   "title": "Sociology",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/x316-childhood-and-youth-studies-and-sociology-welsh-medium-course-ba-hons",
-   "ucas_code": "A34-B15"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/l300-sociology-ba-hons",
+   "ucas_code": "A34-H46"
   },
   {
-   "title": "Criminology and Sociology",
+   "title": "Sociology",
    "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-criminology-and-sociology/",
-   "ucas_code": "A09-F37"
-  },
-  {
-   "title": "Sociology and Criminology",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/sociology/sociology-and-criminology",
-   "ucas_code": "A65-G69"
+   "url": "http://www.bathspa.ac.uk/courses/ug-sociology/",
+   "ucas_code": "A09-G92"
   },
   {
    "title": "Sociology",
@@ -57,10 +45,22 @@
    "ucas_code": "A11-I37"
   },
   {
-   "title": "Anthropology and Sociology",
+   "title": "Sociology",
    "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/anthropology-and-sociology-bsc",
-   "ucas_code": "A19-I46"
+   "url": "https://www.brunel.ac.uk/study/undergraduate/sociology-bsc",
+   "ucas_code": "A20-A30"
+  },
+  {
+   "title": "Sociology",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/sociology",
+   "ucas_code": "A13-I39"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/sociology-bsc",
+   "ucas_code": "A40-A59"
   }
  ]
 }

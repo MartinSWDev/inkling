@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Food with Nutrition",
+   "title": "Human Nutrition",
    "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-food-with-nutrition/",
-   "ucas_code": "A09-G34"
+   "url": "http://www.bathspa.ac.uk/courses/ug-human-nutrition/",
+   "ucas_code": "A09-G62"
   },
   {
    "title": "Human Nutrition and Dietetics",
@@ -21,22 +21,10 @@
    "ucas_code": "A71-H80"
   },
   {
-   "title": "Nutrition & Health",
-   "provider": "Edge Hill University",
-   "url": "https://www.edgehill.ac.uk/course/nutrition-and-health/",
-   "ucas_code": "A05-D20"
-  },
-  {
    "title": "Human Nutrition and Dietetics",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11HNDIET",
    "ucas_code": "A26-D01"
-  },
-  {
-   "title": "Sport and Exercise Science (Nutrition)",
-   "provider": "Kingston University",
-   "url": "https://www.kingston.ac.uk/undergraduate/courses/sport-exercise-science-nutrition/",
-   "ucas_code": "A08-C10"
   },
   {
    "title": "Dietetics",
@@ -51,16 +39,28 @@
    "ucas_code": "A46-A02"
   },
   {
-   "title": "Sport and Exercise Nutrition",
-   "provider": "Manchester Metropolitan University",
-   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-sport-and-exercise-nutrition/september-2027/",
-   "ucas_code": "A32-B29"
+   "title": "Dietetics",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/b401/",
+   "ucas_code": "A53-D46"
   },
   {
-   "title": "Sport Science, Health and Nutrition",
-   "provider": "Nottingham Trent University",
-   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-sport-science-health-nutrition",
-   "ucas_code": "A38-D25"
+   "title": "Dietetics",
+   "provider": "Queen Margaret University, Edinburgh",
+   "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/master-of-dietetics-bsc-hons-dietetics-2027-entry",
+   "ucas_code": "A53-E87"
+  },
+  {
+   "title": "Nutrition and Dietetics",
+   "provider": "Robert Gordon University",
+   "url": "https://www.rgu.ac.uk/study/courses/mdiet-nutrition-and-dietetics",
+   "ucas_code": "A03-J30"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/f666/nutrition-bsc",
+   "ucas_code": "A26-J35"
   }
  ]
 }

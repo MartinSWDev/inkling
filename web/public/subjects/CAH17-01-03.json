@@ -3,22 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Media, Marketing and Advertising",
-   "provider": "Arts University Bournemouth, The",
-   "url": "https://aub.ac.uk/course/ba-hons-media-marketing-and-advertising",
-   "ucas_code": "A73-F06"
-  },
-  {
-   "title": "Digital Marketing and Business Management",
+   "title": "Marketing",
    "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/digital-marketing-and-business-management/",
-   "ucas_code": "A59-C03"
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing/",
+   "ucas_code": "A76-I56"
   },
   {
-   "title": "Digital Marketing",
+   "title": "Marketing",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?NLFPNL",
-   "ucas_code": "A57-A93"
+   "url": "http://www.aber.ac.uk/courses/?U847HG",
+   "ucas_code": "A22-G68"
   },
   {
    "title": "Marketing",
@@ -27,16 +21,10 @@
    "ucas_code": "A62-D03"
   },
   {
-   "title": "Digital Marketing",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/marketing-degree/bsc-hons-digital-marketing",
-   "ucas_code": ""
-  },
-  {
-   "title": "Digital Marketing",
+   "title": "Marketing",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/digital-marketing-bsc/",
-   "ucas_code": "A75-D84"
+   "url": "https://www.aston.ac.uk/study/courses/marketing-bsc",
+   "ucas_code": "A30-C22"
   },
   {
    "title": "Marketing",
@@ -45,22 +33,34 @@
    "ucas_code": "A34-F99"
   },
   {
-   "title": "Fashion Marketing and Management",
+   "title": "Marketing",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-fashion-marketing-and-management/",
-   "ucas_code": "A48-C14"
+   "url": "https://www.bathspa.ac.uk/courses/ug-marketing/",
+   "ucas_code": "A65-H49"
   },
   {
-   "title": "Business with Marketing",
+   "title": "Marketing",
    "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/business-marketing-ba-hons-2027-28",
-   "ucas_code": "A14-C68"
+   "url": "https://www.bcu.ac.uk/courses/marketing-ba-hons-2027-28",
+   "ucas_code": "A14-D69"
   },
   {
    "title": "Marketing",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-marketing",
    "ucas_code": "A11-I05"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/marketing-bsc",
+   "ucas_code": "A69-D91"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-marketing",
+   "ucas_code": "A03-D45"
   }
  ]
 }

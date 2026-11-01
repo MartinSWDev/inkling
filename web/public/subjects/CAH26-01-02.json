@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Computer Science/Physical Geography",
+   "title": "Physical Geography",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?HU4RSM",
-   "ucas_code": "A22-E90"
-  },
-  {
-   "title": "Physical Geography and Oceanography",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/f840-physical-geography-and-oceanography-bsc-hons",
-   "ucas_code": "A34-G76"
+   "url": "http://www.aber.ac.uk/courses/?U2YT2B",
+   "ucas_code": "A22-G95"
   },
   {
    "title": "Physical Geography",
@@ -21,10 +15,10 @@
    "ucas_code": "A55-G95"
   },
   {
-   "title": "Geography (Human and Physical)",
+   "title": "Geography (Physical)",
    "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyhumanandphysicalwithintegratedmasters/",
-   "ucas_code": "B63-H68"
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyphysical/",
+   "ucas_code": "A57-J12"
   },
   {
    "title": "Physical Geography",
@@ -39,28 +33,34 @@
    "ucas_code": "A37-D47"
   },
   {
-   "title": "Geology and Physical Geography",
-   "provider": "The University Of Birmingham",
-   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geology-geography.aspx",
-   "ucas_code": "A04-I65"
-  },
-  {
    "title": "Physical Geography",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/physical-geography-bsc-hons-f840/",
    "ucas_code": "A26-A70"
   },
   {
-   "title": "Physical Geography and Geology",
-   "provider": "The University Of Leicester",
-   "url": "https://le.ac.uk/courses/physical-geography-and-geology-bsc/2027",
-   "ucas_code": "A56-H98"
+   "title": "Physical Geography",
+   "provider": "University of Lincoln",
+   "url": "http://www.lincoln.ac.uk/home/course/gepgepum",
+   "ucas_code": "A56-C52"
   },
   {
-   "title": "Environmental Geology with Physical Geography",
-   "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/environmental-geology-with-physical-geography-bsc-hons",
-   "ucas_code": "A02-I56"
+   "title": "Physical Geography",
+   "provider": "University of Northumbria at Newcastle",
+   "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/UUSPGH1",
+   "ucas_code": "A74-E02"
+  },
+  {
+   "title": "Physical Geography",
+   "provider": "University of Southampton",
+   "url": "https://www.southampton.ac.uk/courses/physical-geography-degree-bsc",
+   "ucas_code": "A66-J76"
+  },
+  {
+   "title": "Geography (Physical)",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/geography-ug/bsc-physical-geography",
+   "ucas_code": "A00-A12"
   }
  ]
 }

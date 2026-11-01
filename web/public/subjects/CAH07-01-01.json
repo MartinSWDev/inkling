@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Engineering Physics",
+   "title": "Physics",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?9TNKU5",
-   "ucas_code": "A22-F56"
+   "url": "http://www.aber.ac.uk/courses/?FEUK3H",
+   "ucas_code": "A22-H03"
   },
   {
    "title": "Physics",
@@ -15,16 +15,16 @@
    "ucas_code": "A28-A70"
   },
   {
-   "title": "Chemistry and Physics",
+   "title": "Physics",
    "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/chemistry-and-physics-ff13/",
-   "ucas_code": "A75-C49"
+   "url": "https://www.durham.ac.uk/study/courses/f300/",
+   "ucas_code": "A07-H54"
   },
   {
-   "title": "Mathematical Physics",
+   "title": "Physics",
    "provider": "Heriot-Watt University",
-   "url": "https://www.hw.ac.uk/study/undergraduate/mathematical-physics",
-   "ucas_code": "A63-F66"
+   "url": "https://www.hw.ac.uk/study/undergraduate/physics-bsc",
+   "ucas_code": "A77-A00"
   },
   {
    "title": "Physics",
@@ -33,16 +33,16 @@
    "ucas_code": "A03-H05"
   },
   {
-   "title": "Engineering Physics",
+   "title": "Physics",
    "provider": "Loughborough University",
-   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/engineering-physics-bsc/#variant",
-   "ucas_code": "A18-C21"
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/physics-bsc/#variant",
+   "ucas_code": "A18-D27"
   },
   {
-   "title": "Mathematics and Physics",
+   "title": "Physics",
    "provider": "Nottingham Trent University",
-   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-physics-and-mathematics",
-   "ucas_code": "A41-B26"
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-physics",
+   "ucas_code": "A38-E80"
   },
   {
    "title": "Physics",
@@ -51,16 +51,16 @@
    "ucas_code": "A27-C89"
   },
   {
-   "title": "Physics (4 years)",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/physics",
-   "ucas_code": "A30-G35"
-  },
-  {
    "title": "Physics",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/physics",
    "ucas_code": "A50-I40"
+  },
+  {
+   "title": "Physics",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/physics-bsc-f300/",
+   "ucas_code": "A28-D01"
   }
  ]
 }

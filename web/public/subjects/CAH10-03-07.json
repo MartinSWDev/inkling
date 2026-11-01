@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Materials Science (4 years)",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/materials-science",
-   "ucas_code": "A30-G00"
-  },
-  {
    "title": "Materials Science",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/materials-science-and-engineering",

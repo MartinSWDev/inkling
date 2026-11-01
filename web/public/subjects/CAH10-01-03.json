@@ -3,64 +3,22 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Robotics and Embedded Systems Engineering",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?A3FMLL",
-   "ucas_code": "A22-H25"
+   "title": "Product Design and Manufacture",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Product-Design-and-Manufacture-BEng-Hons.html",
+   "ucas_code": "A00-H22"
   },
   {
-   "title": "Mechatronics and Robotics Engineering",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/mechatronics-and-robotics-engineering-beng",
-   "ucas_code": "A68-D15"
-  },
-  {
-   "title": "Automotive Engineering",
-   "provider": "Brunel University of London",
-   "url": "http://www.brunel.ac.uk/study/undergraduate/Automotive-Engineering-BEng",
-   "ucas_code": "A19-I49"
-  },
-  {
-   "title": "Robotics Engineering",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/beng--meng-robotics-engineering/",
-   "ucas_code": "A53-E84"
-  },
-  {
-   "title": "Automotive Engineering",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/automotive-engineering-mengbeng-hons/?term=2027-28",
-   "ucas_code": "A38-G33"
-  },
-  {
-   "title": "Automotive Engineering",
-   "provider": "De Montfort University",
-   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/automotive-engineering/automotive-engineering.aspx",
-   "ucas_code": "A76-D24"
-  },
-  {
-   "title": "Automotive Engineering",
-   "provider": "Harper Adams University",
-   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDEAUTEN",
-   "ucas_code": "A30-H24"
-  },
-  {
-   "title": "Mechatronic Engineering",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/mechatronicengineering/",
-   "ucas_code": "A76-C37"
-  },
-  {
-   "title": "Mechanical Engineering (Automotive)",
-   "provider": "Kingston University",
-   "url": "https://www.kingston.ac.uk/undergraduate/courses/mechanical-engineering-beng/",
-   "ucas_code": "A45-E12"
-  },
-  {
-   "title": "Automotive Engineering",
+   "title": "Product Design Engineering",
    "provider": "Loughborough University",
-   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/automotive-engineering-beng/#variant",
-   "ucas_code": "A18-B13"
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/product-design-engineering-beng/#variant",
+   "ucas_code": "A18-D62"
+  },
+  {
+   "title": "Mechanical Engineering with Manufacturing and Management",
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UEME-AFB53",
+   "ucas_code": "A65-G22"
   }
  ]
 }

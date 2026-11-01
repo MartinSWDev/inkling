@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Heritage, Archaeology And History",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/vv41-heritage-archaeology-and-history-ba-hons",
-   "ucas_code": "A34-E88"
-  },
-  {
-   "title": "Ancient History and Archaeology",
+   "title": "Archaeology",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/ancient-history-and-archaeology",
-   "ucas_code": "A47-D74"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/archaeology",
+   "ucas_code": "A24-D32"
   },
   {
    "title": "Archaeology",
@@ -33,34 +27,40 @@
    "ucas_code": "A27-H56"
   },
   {
-   "title": "Ancient History and Archaeology",
+   "title": "Archaeology",
    "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/vf14/",
-   "ucas_code": "A07-G09"
+   "url": "https://www.durham.ac.uk/study/courses/f400/",
+   "ucas_code": "A07-G22"
   },
   {
-   "title": "Archaeology And History",
-   "provider": "Lincoln Bishop University",
-   "url": "https://www.lincolnbishop.ac.uk/courses/archaeology-and-history",
-   "ucas_code": "A31-A62"
-  },
-  {
-   "title": "Ancient History and Archaeology",
+   "title": "Archaeology",
    "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/vv14/",
-   "ucas_code": "A27-A77"
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/v400/",
+   "ucas_code": "A27-A81"
   },
   {
-   "title": "Archaeology and Anthropology",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/archaeology-and-anthropology",
-   "ucas_code": "A30-E66"
-  },
-  {
-   "title": "Anthropology and Archaeology",
+   "title": "Archaeology",
    "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/anthropology-archaeology-ba-lv64/",
-   "ucas_code": "A67-B49"
+   "url": "https://www.qub.ac.uk/courses/undergraduate/archaeology-ba-v402/",
+   "ucas_code": "A28-B33"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/archaeology-bsc/2027",
+   "ucas_code": "A46-F19"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/archaeology-ba-hons/2027",
+   "ucas_code": "A02-F68"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/archaeology/",
+   "ucas_code": "A24-E42"
   }
  ]
 }

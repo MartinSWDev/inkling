@@ -9,28 +9,10 @@
    "ucas_code": "A75-B30"
   },
   {
-   "title": "Applied Biosciences",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
-   "ucas_code": "A38-G37"
-  },
-  {
-   "title": "Medical Science",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-medical-science-0",
-   "ucas_code": "A51-A28"
-  },
-  {
    "title": "Human Biology",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/human-biology",
    "ucas_code": "A39-E77"
-  },
-  {
-   "title": "Psychology with Human Biology",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/psychologywithhumanbiology/",
-   "ucas_code": "A73-H15"
   },
   {
    "title": "Human Biology",
@@ -51,16 +33,34 @@
    "ucas_code": "A28-C43"
   },
   {
-   "title": "Biomedicine and Health Science",
-   "provider": "Sheffield Hallam University",
-   "url": "https://www.shu.ac.uk/courses/biosciences-and-chemistry/bsc-honours-biomedicine-and-health-science/full-time",
-   "ucas_code": "A17-J36"
+   "title": "Human Biology",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/humanbiology/",
+   "ucas_code": "A24-I82"
   },
   {
-   "title": "Evolutionary Anthropology",
-   "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/evolutionary-anthropology-bsc-hons/2027",
-   "ucas_code": "A02-I08"
+   "title": "Human Biology",
+   "provider": "University of Derby",
+   "url": "https://www.derby.ac.uk/undergraduate/biological-sciences-courses/human-biology-bsc-hons/",
+   "ucas_code": "A37-I59"
+  },
+  {
+   "title": "Human Biology",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/human-biology",
+   "ucas_code": "A65-A80"
+  },
+  {
+   "title": "Human Sciences",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/human-sciences-bsc",
+   "ucas_code": "A24-A18"
+  },
+  {
+   "title": "Medical Science",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-medical-science-0",
+   "ucas_code": "A51-A28"
   }
  ]
 }

@@ -1,0 +1,9 @@
+{
+  "about": "Hand aliases the Spark Open batch missed, merged over data/subject_aliases.json at load.",
+  "index": {
+    "vet": { "CAH05-01-01": 1.0 },
+    "veterinary": { "CAH05-01-01": 1.0 },
+    "medic": { "CAH01-01-02": 1.0 },
+    "uni maths": { "CAH09-01-01": 1.0 }
+  }
+}

@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Food Science, Nutrition and Wellbeing",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
-   "ucas_code": "A63-A61"
-  },
-  {
    "title": "Food Science and Nutrition",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-food-science-and-nutrition/",
    "ucas_code": "A66-D78"
-  },
-  {
-   "title": "Food Science and Innovation",
-   "provider": "Harper Adams University",
-   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDGFDSIN",
-   "ucas_code": "A66-F48"
   },
   {
    "title": "Food Science and Nutrition",
@@ -61,6 +49,18 @@
    "provider": "Darlington College",
    "url": "https://www.tees.ac.uk/undergraduate_courses/food_&_nutrition/bsc_(hons)_food_science_and_technology.cfm",
    "ucas_code": "A31-F16"
+  },
+  {
+   "title": "Food Science and Technology",
+   "provider": "Reaseheath College",
+   "url": "https://ucreaseheath.ac.uk/ucr-courses/bsc-food-science-and-technology/",
+   "ucas_code": "A66-E32"
+  },
+  {
+   "title": "Food Science, Nutrition and Wellbeing",
+   "provider": "Abertay University",
+   "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
+   "ucas_code": "A63-A61"
   }
  ]
 }

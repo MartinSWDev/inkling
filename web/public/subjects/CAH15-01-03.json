@@ -3,6 +3,36 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Social Policy",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/social-policy/social-policy-ba.aspx",
+   "ucas_code": "A04-J78"
+  },
+  {
+   "title": "Social Policy",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-social-policy-ft-jn",
+   "ucas_code": "A16-J34"
+  },
+  {
+   "title": "Social Policy",
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHSP-AFB32",
+   "ucas_code": "A65-E43"
+  },
+  {
+   "title": "Social Policy",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/social-policy/bsc-social-policy/",
+   "ucas_code": "A15-J54"
+  },
+  {
+   "title": "Social and Public Policy",
+   "provider": "University of York",
+   "url": "https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy/",
+   "ucas_code": "A66-B26"
+  },
+  {
    "title": "Sociology and Social Policy",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-sociology-and-social-policy/",
@@ -27,40 +57,10 @@
    "ucas_code": "A37-A96"
   },
   {
-   "title": "Policy, Politics and Economics",
-   "provider": "The University Of Birmingham",
-   "url": "https://www.birmingham.ac.uk/undergraduate/courses/social-policy/policy-politics-economics.aspx",
-   "ucas_code": "A04-J59"
-  },
-  {
-   "title": "Social Policy, Sociology & Crime",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/j476/social-policy-sociology-crime-bsc",
-   "ucas_code": "A62-H36"
-  },
-  {
-   "title": "Criminology with Social Policy",
+   "title": "Sociology with Social Policy",
    "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/criminology-with-social-policy-ba-hons/2027",
-   "ucas_code": "A44-J77"
-  },
-  {
-   "title": "Celtic Civilisation/Social & Public Policy",
-   "provider": "University Of Glasgow",
-   "url": "http://www.gla.ac.uk/undergraduate/degrees/celticcivilisation/",
-   "ucas_code": "A24-F19"
-  },
-  {
-   "title": "Social Policy",
-   "provider": "Ulster University",
-   "url": "https://www.ulster.ac.uk/course/bsc-social-policy-ft-jn",
-   "ucas_code": "A16-J34"
-  },
-  {
-   "title": "Social Policy",
-   "provider": "University of Bath",
-   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHSP-AFB32",
-   "ucas_code": "A65-E43"
+   "url": "https://www.liverpool.ac.uk/courses/sociology-with-social-policy-ba-hons/2027",
+   "ucas_code": "A43-F86"
   }
  ]
 }

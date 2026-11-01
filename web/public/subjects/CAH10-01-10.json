@@ -9,16 +9,22 @@
    "ucas_code": "A02-C08"
   },
   {
-   "title": "Structural and Fire Safety Engineering",
-   "provider": "University of Edinburgh",
-   "url": "https://www.ed.ac.uk/ug/HH21",
-   "ucas_code": "A15-C04"
-  },
-  {
    "title": "Mining Engineering",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/beng-mining-engineering/",
    "ucas_code": "A73-D24"
+  },
+  {
+   "title": "Occupational Health & Safety",
+   "provider": "University of the West of Scotland",
+   "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/occupational-safety-health/",
+   "ucas_code": "A50-G18"
+  },
+  {
+   "title": "Structural and Fire Safety Engineering",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/HH21",
+   "ucas_code": "A15-C04"
   }
  ]
 }

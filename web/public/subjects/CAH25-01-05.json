@@ -3,6 +3,18 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Craft & Material Practices",
+   "provider": "Arts University Plymouth",
+   "url": "https://www.aup.ac.uk/courses/ba-hons-craft-material-practices/overview",
+   "ucas_code": "A16-E64"
+  },
+  {
+   "title": "Horology",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/horology-ba-hons-2027-28",
+   "ucas_code": "A14-D47"
+  },
+  {
    "title": "Artist Designer: Maker",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-artist-designer-maker/",
@@ -15,10 +27,10 @@
    "ucas_code": "A25-G41"
   },
   {
-   "title": "3d Design And Craft",
-   "provider": "Leeds Arts University",
-   "url": "https://www.leeds-art.ac.uk/courses/ba-hons-3d-design-and-craft",
-   "ucas_code": "A76-B10"
+   "title": "Craft",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-craft/september-2027/",
+   "ucas_code": "A72-C64"
   },
   {
    "title": "Make-Up and Hair Design",
@@ -27,40 +39,28 @@
    "ucas_code": "A53-B16"
   },
   {
-   "title": "Graphic Design",
-   "provider": "University College Birmingham",
-   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/graphic-design-ba-hons-fda/",
-   "ucas_code": "A71-G02"
+   "title": "Hair, Make-up and Prosthetics for Stage and Screen",
+   "provider": "University Of Northampton, The",
+   "url": "https://www.northampton.ac.uk/courses/hair-make-up-and-prosthetics-for-stage-and-screen-ba-hons/",
+   "ucas_code": "A57-H44"
   },
   {
-   "title": "Make-Up and Hair Design",
+   "title": "Ceramics and Glass",
    "provider": "University for the Creative Arts",
-   "url": "https://www.uca.ac.uk/study/courses/ba-make-up-hair-design/",
-   "ucas_code": "A46-G14"
+   "url": "https://www.uca.ac.uk/study/courses/ba-ceramics-glass/",
+   "ucas_code": "A50-A17"
   },
   {
-   "title": "Creative Arts",
-   "provider": "Boston College",
-   "url": "https://www.boston.ac.uk/courses/find-a-course/area/art-and-design/creative-arts-ba-hons-top-up-level-6/",
-   "ucas_code": "A73-D89"
+   "title": "Jewellery and Silversmithing",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/W721",
+   "ucas_code": "A14-J93"
   },
   {
-   "title": "Art and Design",
-   "provider": "Bradford College",
-   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-art-and-design/",
-   "ucas_code": "A11-J14"
-  },
-  {
-   "title": "Art and Design",
-   "provider": "Burnley College",
-   "url": "https://www.burnley.ac.uk/course/?code=a6029",
-   "ucas_code": "A60-J93"
-  },
-  {
-   "title": "Creative Arts (Contemporary Art and Design Practice) Top Up",
-   "provider": "Calderdale College",
-   "url": "https://www.calderdale.ac.uk/courses/ba-hons-top-up-contemporary-art-design-practice/",
-   "ucas_code": "A17-B35"
+   "title": "Tv And Film: Hair, Make Up And Special Effects",
+   "provider": "University of South Wales/Prifysgol De Cymru",
+   "url": "https://www.cymoedd.ac.uk/course-detail/ba-hons-tv--film-hair-makeup-and-special-effects/?course_id=9AF612NB",
+   "ucas_code": "A63-G48"
   }
  ]
 }

@@ -3,16 +3,34 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Theatre and Performance",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/theatre-and-performance",
+   "ucas_code": "A19-H35"
+  },
+  {
    "title": "Performing Arts",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/performingarts",
    "ucas_code": "A10-I19"
   },
   {
+   "title": "Theatre and Performance",
+   "provider": "London Metropolitan University",
+   "url": "https://www.londonmet.ac.uk/courses/undergraduate/theatre-and-performance---ba-hons/",
+   "ucas_code": "A57-C99"
+  },
+  {
    "title": "Performing Arts (Stella Mann",
    "provider": "University Of Northampton, The",
    "url": "https://www.stellamanncollege.co.uk/our-courses/",
    "ucas_code": ""
+  },
+  {
+   "title": "Theatre and Performance Practice",
+   "provider": "University Of Salford, The",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/theatre-and-performance-practice",
+   "ucas_code": "A28-G75"
   },
   {
    "title": "Performing Arts",
@@ -25,6 +43,12 @@
    "provider": "University of Kent (Part of London and South East University Group)",
    "url": "https://www.kent.ac.uk/courses/undergraduate/2027/114/drama-theatre-and-performing-arts",
    "ucas_code": "A08-I95"
+  },
+  {
+   "title": "Performance",
+   "provider": "University of the West of Scotland",
+   "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/performance/",
+   "ucas_code": "A32-D27"
   },
   {
    "title": "Performing Arts",

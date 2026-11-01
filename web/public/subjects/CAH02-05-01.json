@@ -3,24 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Medical Ultrasound (Sonography)",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/j755/medical-ultrasound-sonography-bsc",
-   "ucas_code": "A68-C64"
-  },
-  {
-   "title": "Medical Imaging (Diagnostic Radiography)",
-   "provider": "University of Exeter",
-   "url": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-medical-imaging-radiography/",
-   "ucas_code": "A33-B72"
-  },
-  {
-   "title": "Diagnostic Radiography and Medical Imaging",
-   "provider": "University of Portsmouth",
-   "url": "https://www.port.ac.uk/study/courses/bsc-hons-diagnostic-radiography-and-medical-imaging",
-   "ucas_code": "A18-H92"
-  },
-  {
    "title": "Diagnostic Radiography",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b821-diagnostic-radiography-bsc-hons",
@@ -61,6 +43,24 @@
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls/diagnostic-radiography-bsc-msci/?term=2027-28",
    "ucas_code": "A71-H78"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/diagnostic-radiography-bsc-hons/diagnostic-radiography-bsc-hons.aspx",
+   "ucas_code": "A48-E77"
+  },
+  {
+   "title": "Diagnostic Imaging",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11DIAGIM",
+   "ucas_code": "A26-C81"
+  },
+  {
+   "title": "Radiography (Diagnostic Imaging)",
+   "provider": "Health Sciences University",
+   "url": "https://www.hsu.ac.uk/course/bsc-hons-radiography-diagnostic-imaging/#overview",
+   "ucas_code": "A55-G86"
   }
  ]
 }

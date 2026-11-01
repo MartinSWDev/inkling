@@ -3,22 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Music Production",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/music-production",
-   "ucas_code": "A62-H00"
-  },
-  {
-   "title": "English Literature and Music",
+   "title": "Music",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/32n6-english-literature-and-music-ba-hons",
-   "ucas_code": "A34-D18"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons",
+   "ucas_code": "A34-G33"
   },
   {
-   "title": "Commercial Music Specialised",
+   "title": "Music",
    "provider": "Bath Spa University",
-   "url": "http://www.bathspa.ac.uk/courses/ug-commercial-music/",
-   "ucas_code": "A09-E94"
+   "url": "http://www.bathspa.ac.uk/courses/ug-music/",
+   "ucas_code": "A09-G70"
   },
   {
    "title": "Music",
@@ -27,40 +21,46 @@
    "ucas_code": ""
   },
   {
-   "title": "Music and Sound Production",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-music-sound-production",
-   "ucas_code": "A50-A24"
-  },
-  {
    "title": "Music",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/music-ba",
    "ucas_code": "A20-A08"
   },
   {
-   "title": "Audio and Music Production",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-audio-and-music-production",
-   "ucas_code": "A72-G41"
-  },
-  {
-   "title": "Music Performance with Production",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/music-performance-with-production",
-   "ucas_code": "A69-E83"
-  },
-  {
-   "title": "Music Production",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/music-production",
-   "ucas_code": "A19-H20"
-  },
-  {
    "title": "Music",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/music-bmus",
    "ucas_code": "A28-A41"
+  },
+  {
+   "title": "Music",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/w300/",
+   "ucas_code": "A07-H42"
+  },
+  {
+   "title": "Music",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-music-undergraduate-fulltime",
+   "ucas_code": "A59-H33"
+  },
+  {
+   "title": "Music",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/music",
+   "ucas_code": "A27-A55"
+  },
+  {
+   "title": "Music",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/music/",
+   "ucas_code": "A07-F36"
+  },
+  {
+   "title": "Music",
+   "provider": "Middlesex University",
+   "url": "http://www.mdx.ac.uk/courses/undergraduate/music",
+   "ucas_code": "A22-D59"
   }
  ]
 }

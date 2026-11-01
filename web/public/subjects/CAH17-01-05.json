@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Business and Human Resource Management",
+   "title": "Human Resource Management",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/business-and-human-resource-management-london",
-   "ucas_code": "A03-C44"
-  },
-  {
-   "title": "Human Resources and Business Management",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/human-resources-and-business-management-bsc",
-   "ucas_code": "A30-B96"
-  },
-  {
-   "title": "Management with Human Resource Management",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/n26f-management-with-human-resource-management-with-foundation-year-bsc-hons",
-   "ucas_code": ""
+   "url": "https://www.aru.ac.uk/study/undergraduate/human-resource-management",
+   "ucas_code": "A62-D05"
   },
   {
    "title": "Human Resource Management",
@@ -33,34 +21,46 @@
    "ucas_code": "A19-G42"
   },
   {
-   "title": "Business and Management (Human Resource Management)",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/management/courses/Pages/Business-and-Management-(with-specialist-pathways)-BA-(Hons).aspx",
-   "ucas_code": "A57-G35"
-  },
-  {
-   "title": "Business and Human Resource Management",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-and-hr-management-ba-hons/?term=2027-28",
-   "ucas_code": "A38-G47"
-  },
-  {
    "title": "Human Resource Management",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/human-resource-management-ba-degree/human-resource-management-ba-hons.aspx",
    "ucas_code": "A25-H19"
   },
   {
-   "title": "Business Management with Human Resource Management",
-   "provider": "Edinburgh Napier University",
-   "url": "https://www.napier.ac.uk/courses/ba-hons-business-management-with-human-resource-management-undergraduate-fulltime",
-   "ucas_code": "A25-C28"
+   "title": "Human Resource Management",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/human-resource-management-msci",
+   "ucas_code": "B69-C72"
   },
   {
-   "title": "Business Management with Human Resources",
-   "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/businessmanagementwithhumanresources/",
-   "ucas_code": "A03-E60"
+   "title": "Human Resource Management",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/31780-human-resource-management-ba-hons",
+   "ucas_code": "A11-A70"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "Roehampton University",
+   "url": "http://www.roehampton.ac.uk/undergraduate-courses/human-resource-management/",
+   "ucas_code": "A19-A19"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/human-resource-management-ba/2027",
+   "ucas_code": "A46-H29"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-human-resource-management",
+   "ucas_code": "A45-G93"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "University Of Northampton, The",
+   "url": "https://www.northampton.ac.uk/courses/human-resource-management-ba-hons/",
+   "ucas_code": "A21-I10"
   }
  ]
 }

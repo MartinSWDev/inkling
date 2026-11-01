@@ -3,34 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Psychology with Counselling",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?MDYDQS",
-   "ucas_code": "A51-B06"
-  },
-  {
-   "title": "Psychology with Counselling and Mental Health",
-   "provider": "Arden University",
-   "url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-counselling",
-   "ucas_code": ""
-  },
-  {
-   "title": "Counselling and Working with Children, Young People & Families",
+   "title": "Occupational Therapy",
    "provider": "Birmingham Newman University",
-   "url": "https://www.newman.ac.uk/course/counselling-studies-and-working-with-children-young-people-and-families-ba-hons/full-time/",
-   "ucas_code": "A15-G80"
-  },
-  {
-   "title": "Psychological Studies with Counselling",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/psychological-studies-counselling",
-   "ucas_code": "A76-D53"
-  },
-  {
-   "title": "Psychology and Counselling",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/counselling-psychology-bsc-hons-2027-28",
-   "ucas_code": "A54-A43"
+   "url": "https://www.newman.ac.uk/course/occupational-therapy-bsc-hons/full-time/",
+   "ucas_code": "A68-G91"
   },
   {
    "title": "Occupational Therapy",
@@ -61,6 +37,30 @@
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/occupational-therapy",
    "ucas_code": "A19-H30"
+  },
+  {
+   "title": "Occupational Therapy",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/occupational-therapy-bsc",
+   "ucas_code": "A53-J62"
+  },
+  {
+   "title": "Occupational Therapy",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/occupational-therapy-bsc-hons/?term=2027-28",
+   "ucas_code": "A71-H99"
+  },
+  {
+   "title": "Occupational Therapy",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11OCTHPY",
+   "ucas_code": "A26-D42"
+  },
+  {
+   "title": "Occupational Therapy",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/occupationaltherapy/",
+   "ucas_code": "A72-G75"
   }
  ]
 }

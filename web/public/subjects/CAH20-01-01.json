@@ -3,10 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Creative Writing and History",
+   "title": "History",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?YXN49K",
-   "ucas_code": "A53-J17"
+   "url": "http://www.aber.ac.uk/courses/?KXBK7N",
+   "ucas_code": "A22-G12"
   },
   {
    "title": "History",
@@ -27,22 +27,22 @@
    "ucas_code": "A15-H00"
   },
   {
-   "title": "Heritage, Archaeology And History",
+   "title": "History",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/vv41-heritage-archaeology-and-history-ba-hons",
-   "ucas_code": "A34-E88"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/v100-history-ba-hons",
+   "ucas_code": "A34-E89"
   },
   {
-   "title": "Education and History",
+   "title": "History",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-education-and-history/",
-   "ucas_code": "A09-F91"
+   "url": "http://www.bathspa.ac.uk/courses/ug-history/",
+   "ucas_code": "A09-G52"
   },
   {
-   "title": "Ancient History and Archaeology",
+   "title": "History",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/ancient-history-and-archaeology",
-   "ucas_code": "A47-D74"
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/history",
+   "ucas_code": "A24-D70"
   },
   {
    "title": "History",
@@ -51,10 +51,10 @@
    "ucas_code": "A11-H92"
   },
   {
-   "title": "English and History",
+   "title": "History",
    "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/courses/english-and-history-ba",
-   "ucas_code": "A77-I78"
+   "url": "https://www.brunel.ac.uk/study/undergraduate/history-ba",
+   "ucas_code": "A69-D69"
   },
   {
    "title": "History",

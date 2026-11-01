@@ -3,12 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Software Engineering (with integrated year in industry)",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?XRDQQK",
-   "ucas_code": "A22-H34"
-  },
-  {
    "title": "Software Development",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/software-development",
@@ -45,22 +39,28 @@
    "ucas_code": "A08-G77"
   },
   {
-   "title": "Applied Software Engineering",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/applied-software-engineering-bsc",
-   "ucas_code": "A27-H55"
-  },
-  {
-   "title": "Computer Systems Engineering",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/computer-systems-engineering-mengbeng/?term=2027-28",
-   "ucas_code": "A38-G68"
-  },
-  {
    "title": "Software Engineering",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bengbeng-hons-software-engineering-undergraduate-fulltime",
    "ucas_code": "A25-D53"
+  },
+  {
+   "title": "Software Engineering",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/software-engineering",
+   "ucas_code": "A71-G75"
+  },
+  {
+   "title": "Software Development",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11SOFDEV",
+   "ucas_code": "A64-B64"
+  },
+  {
+   "title": "Software Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/software-engineering",
+   "ucas_code": "A06-A85"
   }
  ]
 }

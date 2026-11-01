@@ -3,40 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Psychology, Education and Special Educational Needs",
-   "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-psychology-education-and-sen/",
-   "ucas_code": "A57-H45"
+   "title": "Developmental Psychology",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-developmental-psychology/2027-28/sep",
+   "ucas_code": "A36-G79"
   },
   {
-   "title": "Psychology in Education",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-psychology-education",
-   "ucas_code": "A70-H68"
-  },
-  {
-   "title": "Education, Psychology and Special Educational Needs",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-education-psychology-and-special-educational-needs/",
-   "ucas_code": "A55-F51"
-  },
-  {
-   "title": "Psychology with Education",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/cas/psychology-with-education-bsc-hons/?term=2027-28",
-   "ucas_code": "A75-F85"
-  },
-  {
-   "title": "Psychology in Education",
-   "provider": "Leeds Beckett University",
-   "url": "https://www.leedsbeckett.ac.uk/courses/psychology-education-ba/",
-   "ucas_code": "A68-G39"
-  },
-  {
-   "title": "Psychology In Education",
-   "provider": "Liverpool Hope University",
-   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/psychologyineducation/",
-   "ucas_code": "A70-F23"
+   "title": "Psychological Studies (Child Development and Education) 3-year full-time",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/psychological-studies-child-development-and-education",
+   "ucas_code": "B72-F39"
   },
   {
    "title": "Psychology (Child Development)",
@@ -45,22 +21,40 @@
    "ucas_code": "A63-B11"
   },
   {
-   "title": "Educational Psychology",
-   "provider": "Manchester Metropolitan University",
-   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-educational-psychology/september-2027/",
-   "ucas_code": "A48-C10"
-  },
-  {
-   "title": "Psychology and Education",
-   "provider": "Roehampton University",
-   "url": "https://www.roehampton.ac.uk/study/undergraduate-courses/psychology-and-education/",
-   "ucas_code": ""
-  },
-  {
    "title": "Psychology, Lifespan and Developmental Psychology",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/psychology/psychology-lifespan-and-developmental-psychology/",
    "ucas_code": "A17-F01"
+  },
+  {
+   "title": "Psychology with Child Development",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-psychology-child-development",
+   "ucas_code": "A24-B34"
+  },
+  {
+   "title": "Psychology of Child Development",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/psychology-of-child-development-bsc-hons",
+   "ucas_code": "A02-E60"
+  },
+  {
+   "title": "Psychology and Child Development",
+   "provider": "University of Winchester",
+   "url": "https://www.winchester.ac.uk/study/undergraduate/courses/bsc-hons-psychology-and-child-development",
+   "ucas_code": "A09-D95"
+  },
+  {
+   "title": "Psychology with Child Development",
+   "provider": "York St John University",
+   "url": "https://www.yorksj.ac.uk/courses/undergraduate/psychology/psychology-with-child-development-bsc-hons/",
+   "ucas_code": "A54-A64"
+  },
+  {
+   "title": "Psychology and Child Development",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/psychology-child-development-bsc",
+   "ucas_code": "A39-C49"
   }
  ]
 }

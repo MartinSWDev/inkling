@@ -3,10 +3,22 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Food Business Management",
+   "title": "Food Science and Innovation",
    "provider": "Harper Adams University",
-   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBFDBUS",
-   "ucas_code": "A66-F46"
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDGFDSIN",
+   "ucas_code": "A66-F48"
+  },
+  {
+   "title": "Brewing and Distilling",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
+   "ucas_code": "A05-J54"
+  },
+  {
+   "title": "Baking Science and Technology",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-baking-science-and-technology#overview",
+   "ucas_code": "A60-I37"
   },
   {
    "title": "Artisan Food Production",
@@ -25,6 +37,12 @@
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-food-technology-with-bioprocessing",
    "ucas_code": "A15-E45"
+  },
+  {
+   "title": "Viticulture, Oenology & Business Management",
+   "provider": "Plumpton College",
+   "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-viticulture-oenology-bachelors-degree-192/",
+   "ucas_code": "A76-J05"
   }
  ]
 }

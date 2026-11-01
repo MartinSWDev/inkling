@@ -3,34 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Business Information Technology",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?KRVNF6",
-   "ucas_code": "A22-E74"
-  },
-  {
-   "title": "Computer Information Systems",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/i110-computer-information-systems-bsc-hons",
-   "ucas_code": "A34-C03"
-  },
-  {
    "title": "Information Technology",
    "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Information-Technology-BSc-Hons",
    "ucas_code": "A46-G25"
-  },
-  {
-   "title": "Central & East European Studies/Digital Media & Information Studies",
-   "provider": "University Of Glasgow",
-   "url": "http://www.gla.ac.uk/undergraduate/degrees/digitalmedia/",
-   "ucas_code": "A24-F38"
-  },
-  {
-   "title": "Business Management and Information Systems",
-   "provider": "University of Aberdeen",
-   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/488/GN54/business-management-and-information-systems/",
-   "ucas_code": "A33-D96"
   },
   {
    "title": "Information Technology",

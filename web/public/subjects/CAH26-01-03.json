@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Geography",
+   "title": "Human Geography",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?TD6VK4",
-   "ucas_code": "A22-F94"
-  },
-  {
-   "title": "History and Human Geography",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/courses/history-and-human-geography-ba",
-   "ucas_code": "A77-I84"
+   "url": "http://www.aber.ac.uk/courses/?G4B4TW",
+   "ucas_code": "A22-G23"
   },
   {
    "title": "Human Geography",
@@ -21,28 +15,16 @@
    "ucas_code": "A27-J40"
   },
   {
-   "title": "Geography",
-   "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/l700/",
-   "ucas_code": "A07-H07"
-  },
-  {
-   "title": "Geography (Human and Physical)",
+   "title": "Geography (Human)",
    "provider": "Keele University",
-   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyhumanandphysicalwithintegratedmasters/",
-   "ucas_code": "B63-H68"
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyhuman/",
+   "ucas_code": "A03-F79"
   },
   {
-   "title": "Geography",
+   "title": "Human Geography",
    "provider": "Leeds Beckett University",
-   "url": "https://www.leedsbeckett.ac.uk/courses/geography-bsc",
-   "ucas_code": "A57-E51"
-  },
-  {
-   "title": "Geography",
-   "provider": "Loughborough University",
-   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/geography-bsc/#variant",
-   "ucas_code": "A18-C41"
+   "url": "http://courses.leedsbeckett.ac.uk/humangeography",
+   "ucas_code": "A10-H92"
   },
   {
    "title": "Human Geography",
@@ -51,16 +33,34 @@
    "ucas_code": "A31-J41"
   },
   {
-   "title": "Geography",
-   "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/l701/",
-   "ucas_code": "A27-C14"
+   "title": "Human Geography",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/geography/human-geography/",
+   "ucas_code": "A17-E26"
   },
   {
-   "title": "Geography",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/geography",
-   "ucas_code": "A30-F41"
+   "title": "Human Geography",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/biosciences-geography-physics/geography/ba-human-geography/",
+   "ucas_code": "A37-C38"
+  },
+  {
+   "title": "Human Geography",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/msci-human-geography/2027-28/sep",
+   "ucas_code": "A72-D71"
+  },
+  {
+   "title": "Human Geography",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/human-geography-ba-hons-l720/",
+   "ucas_code": "A25-J98"
+  },
+  {
+   "title": "Human Geography",
+   "provider": "University of Gloucestershire",
+   "url": "https://www.glos.ac.uk/courses/course/HUG-BA-Human-Geography/",
+   "ucas_code": "A52-B25"
   }
  ]
 }

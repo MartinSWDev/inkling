@@ -3,52 +3,28 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Accounting and Finance / Business and Management",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
-   "ucas_code": "A51-B78"
-  },
-  {
-   "title": "Business Economics",
+   "title": "Business and Management",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/business-economics",
-   "ucas_code": "A76-I21"
+   "url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+   "ucas_code": "A62-C98"
   },
   {
-   "title": "Business Computing and IT",
+   "title": "Business and Management",
    "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
-   "ucas_code": "A30-B27"
+   "url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc",
+   "ucas_code": "A30-B23"
   },
   {
-   "title": "Business Data Analytics",
+   "title": "Business Management",
    "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/n313-business-data-analytics-bsc-hons",
-   "ucas_code": "A68-B75"
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons",
+   "ucas_code": "A55-J86"
   },
   {
-   "title": "Business Management and Criminology",
-   "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
-   "ucas_code": "A43-E18"
-  },
-  {
-   "title": "Economics and Business",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/economics/economics-and-business",
-   "ucas_code": "A24-D54"
-  },
-  {
-   "title": "Business and Entrepreneurship",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/business-and-entrepreneurship-bsc-hons-2027-28",
-   "ucas_code": "A75-F26"
-  },
-  {
-   "title": "Business Management with Entrepreneurship",
+   "title": "Business and Management",
    "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/undergraduate/business-management-with-entrepreneurship-bsc",
-   "ucas_code": "A69-D98"
+   "url": "https://www.brunel.ac.uk/study/undergraduate/business-and-management-bsc",
+   "ucas_code": "A19-I71"
   },
   {
    "title": "Business Management",
@@ -57,10 +33,34 @@
    "ucas_code": "A03-C84"
   },
   {
-   "title": "Business Analytics",
+   "title": "International Business",
    "provider": "City St George'S, University Of London",
-   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/business-analytics",
-   "ucas_code": "A69-J39"
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/international-business",
+   "ucas_code": "A41-J33"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/business-management",
+   "ucas_code": "A19-D28"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-business-and-management/",
+   "ucas_code": "A57-G31"
+  },
+  {
+   "title": "Business Administration",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-administration-bba-hons/?term=2027-28",
+   "ucas_code": "A38-G45"
+  },
+  {
+   "title": "International Business",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/international-business-ba-degree/international-business-ba-hons.aspx",
+   "ucas_code": "A25-H27"
   }
  ]
 }

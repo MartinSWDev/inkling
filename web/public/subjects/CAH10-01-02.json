@@ -15,12 +15,6 @@
    "ucas_code": "A30-C30"
   },
   {
-   "title": "Engineering",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/h607-engineering-beng",
-   "ucas_code": ""
-  },
-  {
    "title": "Mechanical Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/mechanical-engineering-beng-2027-28",
@@ -45,10 +39,10 @@
    "ucas_code": "A72-I76"
   },
   {
-   "title": "Energy and Sustainability Engineering",
+   "title": "Mechanical Engineering",
    "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/energy-and-sustainability-engineering",
-   "ucas_code": "A65-E78"
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
+   "ucas_code": "A72-B75"
   },
   {
    "title": "Mechanical Engineering",
@@ -61,6 +55,12 @@
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/mechanical-engineering-beng",
    "ucas_code": "A28-A15"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/mechanical-engineering-mengbeng-hons/?term=2027-28",
+   "ucas_code": "A38-I14"
   }
  ]
 }

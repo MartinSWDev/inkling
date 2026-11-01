@@ -3,16 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Human Geography and Planning",
+   "title": "in Urban Planning and Development",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/geography-human-and-planning-bsc",
-   "ucas_code": "A27-J41"
-  },
-  {
-   "title": "Human Geography and Planning",
-   "provider": "Leeds Beckett University",
-   "url": "http://courses.leedsbeckett.ac.uk/humangeographyandplanning",
-   "ucas_code": "A10-H94"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/urban-planning-and-development-bsc",
+   "ucas_code": "A28-B17"
   },
   {
    "title": "Urban And Environmental Planning",
@@ -27,40 +21,46 @@
    "ucas_code": "A52-C07"
   },
   {
-   "title": "Architecture and Urban Planning",
+   "title": "Planning",
    "provider": "Newcastle University",
-   "url": "http://www.ncl.ac.uk/undergraduate/degrees/k190/",
-   "ucas_code": "A27-A83"
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/k400/",
+   "ucas_code": "A27-C93"
   },
   {
-   "title": "European Planning",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/european-planning-mplan-k490/",
-   "ucas_code": "A28-C15"
-  },
-  {
-   "title": "Geography and Urban & Regional Planning with Year Abroad",
-   "provider": "The University Of Birmingham",
-   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geography-planning-abroad.aspx",
-   "ucas_code": "A67-H44"
-  },
-  {
-   "title": "Urban Sustainability Studies",
-   "provider": "The University Of Essex",
-   "url": "https://www.essex.ac.uk/courses/UG01651/1?coursecode=K441",
-   "ucas_code": "A76-E93"
-  },
-  {
-   "title": "Environment and Planning",
+   "title": "Town and Regional Planning",
    "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/environment-and-planning-ba-hons/2027",
-   "ucas_code": "A02-I06"
+   "url": "https://www.liverpool.ac.uk/courses/town-and-regional-planning-mplan/2027",
+   "ucas_code": "A03-C15"
   },
   {
-   "title": "Geography and Planning",
+   "title": "Urban Planning",
    "provider": "The University Of Sheffield",
-   "url": "https://www.sheffield.ac.uk/dll/courses/foundation/geography-and-planning",
-   "ucas_code": "A35-F24"
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/urban-studies-and-planning-mplanug",
+   "ucas_code": "A35-H26"
+  },
+  {
+   "title": "Urban Planning",
+   "provider": "University of Dundee",
+   "url": "https://www.dundee.ac.uk/undergraduate/urban-planning",
+   "ucas_code": "A16-C43"
+  },
+  {
+   "title": "Urban Planning, Design and Management",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/urban-planning-design-and-management-bsc",
+   "ucas_code": "A24-B10"
+  },
+  {
+   "title": "Urban Planning",
+   "provider": "UWE, Bristol",
+   "url": "https://courses.uwe.ac.uk/K401/urban-planning",
+   "ucas_code": "A05-H30"
+  },
+  {
+   "title": "Human Geography and Planning",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/humangeographyandplanning",
+   "ucas_code": "A10-H94"
   }
  ]
 }

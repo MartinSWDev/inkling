@@ -3,22 +3,22 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Society Science",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/ll39-society-science-ba",
+   "ucas_code": "B63-I05"
+  },
+  {
    "title": "Psychosocial Studies",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/psychosocial-studies",
    "ucas_code": "A24-E18"
   },
   {
-   "title": "Health and Social Science",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
-   "ucas_code": "A03-D32"
-  },
-  {
-   "title": "Human and Social Sciences",
+   "title": "Social Science",
    "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/human-and-social-sciences-bsc",
-   "ucas_code": "A27-J65"
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/social-science-bsc",
+   "ucas_code": "A28-B05"
   },
   {
    "title": "Combined Social Sciences",
@@ -45,12 +45,6 @@
    "ucas_code": "A74-F99"
   },
   {
-   "title": "Applied Social Sciences",
-   "provider": "Robert Gordon University",
-   "url": "https://www.rgu.ac.uk/study/courses/ba-hons-applied-social-sciences",
-   "ucas_code": "A03-I85"
-  },
-  {
    "title": "Social Science",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law/bsc-social-science/",
@@ -61,6 +55,12 @@
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/ba-social-sciences",
    "ucas_code": "A74-J76"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/applied-social-sciences-ba",
+   "ucas_code": "A35-D45"
   }
  ]
 }

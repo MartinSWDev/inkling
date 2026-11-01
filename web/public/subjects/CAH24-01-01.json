@@ -3,16 +3,28 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Information Technology Management for Business",
-   "provider": "Loughborough University",
-   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/information-technology-management-for-business/#default",
-   "ucas_code": "A18-C73"
+   "title": "Information, Data and Society",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/information-data-and-society-bsc",
+   "ucas_code": "A68-E93"
   },
   {
-   "title": "Information Management for Business",
-   "provider": "UCL",
-   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/information-management-business-bsc",
-   "ucas_code": "A24-A22"
+   "title": "Art History with Curating",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history/art-history-with-curating",
+   "ucas_code": "A65-H28"
+  },
+  {
+   "title": "History of Art with Gallery and Museum Studies",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-history-of-art-with-gallery-and-museum-studies/2027-28/sep",
+   "ucas_code": "A36-H35"
+  },
+  {
+   "title": "Museum Studies and Archaeology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/archaeology-ug/ba-museum-studies-and-archaeology",
+   "ucas_code": "A15-F03"
   }
  ]
 }

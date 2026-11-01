@@ -3,34 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Games Art and Design",
-   "provider": "Arts University Bournemouth, The",
-   "url": "https://aub.ac.uk/course/games-art-and-design",
-   "ucas_code": "A69-B27"
-  },
-  {
-   "title": "Computer Game Applications Development",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
-   "ucas_code": "A06-B18"
-  },
-  {
-   "title": "Computer Games Art",
+   "title": "Computer Games Design",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-art",
-   "ucas_code": "A13-J91"
-  },
-  {
-   "title": "Game Arts & Animation",
-   "provider": "Arts University Plymouth",
-   "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-game-arts-animation",
-   "ucas_code": "A16-E66"
-  },
-  {
-   "title": "Computer Science with Game Design",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/i103-computer-science-with-game-design-bsc-hons",
-   "ucas_code": "A54-I38"
+   "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-design",
+   "ucas_code": "A63-E22"
   },
   {
    "title": "Games Development",
@@ -39,10 +15,16 @@
    "ucas_code": "A58-A75"
   },
   {
-   "title": "Computer Animation and Visual Effects",
+   "title": "Game Design",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/game-design-ba-hons-2027-28",
+   "ucas_code": "A72-B39"
+  },
+  {
+   "title": "Games Design",
    "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-computer-animation-visual-effects",
-   "ucas_code": "A70-B94"
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-games-design",
+   "ucas_code": "A11-H90"
   },
   {
    "title": "Games Design",
@@ -57,10 +39,28 @@
    "ucas_code": "A03-D29"
   },
   {
-   "title": "Computer Science with Games Technology",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/computer-science-foundation",
-   "ucas_code": "A59-C44"
+   "title": "Games Design",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/games-design",
+   "ucas_code": "A39-E72"
+  },
+  {
+   "title": "Games Design and Development",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/games-design-and-development-ba/?term=2027-28",
+   "ucas_code": "A67-D50"
+  },
+  {
+   "title": "Games Development",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/games-development/",
+   "ucas_code": "A73-F43"
+  },
+  {
+   "title": "Games Development",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bscbsc-hons-games-development-undergraduate-fulltime",
+   "ucas_code": "A25-C74"
   }
  ]
 }

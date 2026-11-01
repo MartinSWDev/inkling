@@ -9,58 +9,58 @@
    "ucas_code": "A68-F41"
   },
   {
+   "title": "Primary Education",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba",
+   "ucas_code": "A48-B80"
+  },
+  {
    "title": "Primary Education with Qualified Teacher Status",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/primary-education-with-qts-ba-hons-2027-28",
    "ucas_code": "A14-E02"
   },
   {
-   "title": "Primary Education (3-11 Age Range) with Qualified Teacher Status (Welsh Programme)",
-   "provider": "Cardiff Metropolitan University",
-   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-primary-education-with-qualified-teacher-status/",
-   "ucas_code": "A56-G45"
+   "title": "Primary Education",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/primary-education",
+   "ucas_code": "A19-H69"
   },
   {
-   "title": "Primary Education (3-7) with Qualified Teacher Status",
-   "provider": "Leeds Beckett University",
-   "url": "https://www.leedsbeckett.ac.uk/courses/primary-education-3-11-qts-ba",
-   "ucas_code": "A67-C27"
+   "title": "Primary Education",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/x101/",
+   "ucas_code": "A07-H64"
   },
   {
-   "title": "Early Years and Primary Education (3-7) with Qualified Teacher Status",
-   "provider": "Sheffield Hallam University",
-   "url": "https://www.shu.ac.uk/courses/teaching-and-education/ba-honours-primary-education-511-with-qualified-teacher-status/full-time",
-   "ucas_code": "A17-I51"
+   "title": "Primary Education",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/primary-education-qts/",
+   "ucas_code": "A65-G80"
   },
   {
-   "title": "Computer Science with Education and Qualified Teacher Status",
-   "provider": "The University of East London Higher Education Corporation",
-   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-computer-science-education-qualified-teacher-status",
-   "ucas_code": "A45-E50"
+   "title": "Primary Education",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/35094-primary-education-ba-hons-qts-primary",
+   "ucas_code": "A11-B32"
   },
   {
-   "title": "Education (in Curriculum enhancement) with Qualified Teacher Status",
-   "provider": "University of Derby",
-   "url": "https://www.derby.ac.uk/undergraduate/teacher-training-courses/education-integrated-masters/",
-   "ucas_code": "A41-I72"
+   "title": "Primary Education with QTS",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-primary-education-with-qts/september-2027/",
+   "ucas_code": "A32-A83"
   },
   {
-   "title": "Primary Initial Teacher Education With Qts",
-   "provider": "University of South Wales/Prifysgol De Cymru",
-   "url": "https://www.southwales.ac.uk/courses/ba-hons-primary-initial-teacher-education-with-qts-/",
-   "ucas_code": "A54-B53"
+   "title": "Primary Education with QTS",
+   "provider": "Middlesex University",
+   "url": "https://www.mdx.ac.uk/courses/undergraduate/primary-education-qts",
+   "ucas_code": "A22-D79"
   },
   {
-   "title": "Primary and Early Years Education (with Qualified Teacher Status)",
-   "provider": "University of Sussex",
-   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/primary-and-early-years-education-with-qualified-teacher-status-ba",
-   "ucas_code": "A23-A23"
-  },
-  {
-   "title": "Primary Teacher Education (Campus-Based)",
-   "provider": "Abingdon and Witney College",
-   "url": "https://www.brookes.ac.uk/courses/undergraduate/primary-teacher-education-campus-based/",
-   "ucas_code": "A06-E18"
+   "title": "Primary Education (with QTS)",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/teacher-training/",
+   "ucas_code": "A03-H68"
   }
  ]
 }

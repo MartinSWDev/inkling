@@ -17,6 +17,10 @@ ATTRIBUTION = "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed 
 def main():
     db = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     db.row_factory = sqlite3.Row
+    relevance = {}
+    rel_path = ROOT / "data" / "course_relevance.json"
+    if rel_path.exists():
+        relevance = json.loads(rel_path.read_text()).get("subjects", {})
     subjects = db.execute("SELECT code, name, level FROM subjects WHERE level >= 2 ORDER BY code").fetchall()
     children: dict[str, list[str]] = {}
     for row in db.execute("SELECT code, parent_code FROM subjects WHERE parent_code IS NOT NULL"):
@@ -48,6 +52,19 @@ def main():
         matched = [r for r in rows if contains_kw(r["title"])]
         pool = matched if len(matched) >= 4 else rows
         pool = sorted(pool, key=lambda r: (0 if contains_kw(r["title"]) else 1, 0 if is_uni(r["provider"]) else 1, r["provider"], r["title"]))
+        # Spark Open relevance ratings win when present: score >= 2 and not a
+        # variant; fall back to score 1 when fewer than 3 courses remain.
+        scores = relevance.get(code) or {}
+        if scores:
+            def rel(r):
+                e = scores.get(r["title"])
+                return e if e and not e.get("variant") else None
+            strong = [r for r in rows if (rel(r) or {}).get("score", 0) >= 2]
+            if len({r["ukprn"] for r in strong}) < 3:
+                strong += [r for r in rows if (rel(r) or {}).get("score", 0) == 1]
+            if strong:
+                pool = sorted(strong, key=lambda r: (-(rel(r) or {"score": 0})["score"],
+                                                     0 if is_uni(r["provider"]) else 1, r["provider"], r["title"]))
         picked, seen = [], set()
         for r in pool:
             if r["ukprn"] in seen:

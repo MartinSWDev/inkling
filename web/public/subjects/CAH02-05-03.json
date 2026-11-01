@@ -39,6 +39,12 @@
    "ucas_code": "A65-I25"
   },
   {
+   "title": "Biomedicine",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/biomedicine",
+   "ucas_code": "A24-D35"
+  },
+  {
    "title": "Biomedical Sciences",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/biomedical-science-bsc-hons-2027-28",
@@ -55,12 +61,6 @@
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/biomedical-science",
    "ucas_code": "A75-A84"
-  },
-  {
-   "title": "Biomedical Science",
-   "provider": "Canterbury Christ Church University",
-   "url": "https://www.canterbury.ac.uk/study-here/courses/biomedical-science",
-   "ucas_code": "A55-D32"
   }
  ]
 }

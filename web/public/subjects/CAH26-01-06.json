@@ -3,10 +3,16 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Environmental Earth Science",
-   "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?L79NU3",
-   "ucas_code": "A22-F63"
+   "title": "Geology",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/geology",
+   "ucas_code": "A24-D65"
+  },
+  {
+   "title": "Geology",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/geology-bsc",
+   "ucas_code": "A55-H31"
   },
   {
    "title": "Earth Sciences",
@@ -15,52 +21,46 @@
    "ucas_code": "A07-G68"
   },
   {
-   "title": "Earth Sciences (4 years)",
+   "title": "Geology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geology",
+   "ucas_code": "A40-B90"
+  },
+  {
+   "title": "Geology",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/earth-sciences-geology",
-   "ucas_code": "A30-F05"
+   "ucas_code": "A30-F42"
   },
   {
-   "title": "Earth and Climate Science",
-   "provider": "Queen Mary University of London",
-   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/earth-and-climate-science/",
-   "ucas_code": "A00-J01"
-  },
-  {
-   "title": "Earth, Climate and Environmental Change",
+   "title": "Geology",
    "provider": "Royal Holloway, University of London",
-   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/earth-sciences/earth-climate-and-environmental-change/",
-   "ucas_code": "A56-J27"
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/earth-sciences/geology/",
+   "ucas_code": "A17-E01"
   },
   {
-   "title": "Earth and Environmental Science (Study Abroad)",
-   "provider": "The University Of Lancaster",
-   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/earth-and-environmental-science-study-abroad-bsc-hons-ff7v/",
-   "ucas_code": "A64-A79"
+   "title": "Geology",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geology.aspx",
+   "ucas_code": "A04-I63"
   },
   {
-   "title": "Earth, Environmental and Marine Sciences",
+   "title": "Geology",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/i683/geology-bsc",
+   "ucas_code": "A26-H19"
+  },
+  {
+   "title": "Geology",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/geology-bsc/2027",
+   "ucas_code": "A05-B01"
+  },
+  {
+   "title": "Geology",
    "provider": "The University Of Liverpool",
-   "url": "https://www.liverpool.ac.uk/courses/earth-sciences-entry-route-leading-to-bsc-hons-4-year-route-including-a-foundation-year-at-carmel-college/2027",
-   "ucas_code": "A02-H05"
-  },
-  {
-   "title": "Archaeology/Earth Science",
-   "provider": "University Of Glasgow",
-   "url": "http://www.gla.ac.uk/undergraduate/degrees/archaeology/",
-   "ucas_code": "A24-E50"
-  },
-  {
-   "title": "Earth Sciences",
-   "provider": "University of Derby",
-   "url": "https://www.derby.ac.uk/undergraduate/earth-science-courses/earth-sciences-bsc-hons/",
-   "ucas_code": "A70-E89"
-  },
-  {
-   "title": "Earth Science and Physical Geography",
-   "provider": "University of Edinburgh",
-   "url": "https://www.ed.ac.uk/ug/FF68",
-   "ucas_code": "A14-J11"
+   "url": "https://www.liverpool.ac.uk/courses/geology-bsc-hons/2027",
+   "ucas_code": "A02-I52"
   }
  ]
 }

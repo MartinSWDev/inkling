@@ -3,64 +3,64 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Linguistics And Modern Languages",
-   "provider": "Bangor University",
-   "url": "https://www.bangor.ac.uk/courses/undergraduate/q3r8-linguistics-and-modern-languages-ba-hons",
-   "ucas_code": "A62-B69"
-  },
-  {
-   "title": "English and Linguistics",
-   "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/linguistics-and-language-french-german-italian-japanese-spanish/english-and-linguistics",
-   "ucas_code": "A65-H71"
-  },
-  {
-   "title": "English Language and Linguistics",
-   "provider": "Cardiff University",
-   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-linguistics-ba",
-   "ucas_code": "A27-I99"
-  },
-  {
-   "title": "English Language and Linguistics",
-   "provider": "Manchester Metropolitan University",
-   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-english-language-and-linguistics/september-2027/",
-   "ucas_code": "A65-H73"
-  },
-  {
-   "title": "Communications and Linguistics",
-   "provider": "Nottingham Trent University",
-   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-communication-and-society-and-linguistics",
-   "ucas_code": "A38-E41"
-  },
-  {
    "title": "Linguistics",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/q100/",
    "ucas_code": "A27-C30"
   },
   {
-   "title": "Beginners' Italian and Linguistics",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages-and-linguistics",
-   "ucas_code": "A00-A17"
-  },
-  {
-   "title": "English Language and Linguistics",
+   "title": "Linguistics",
    "provider": "Queen Mary University of London",
-   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/english-language-and-linguistics",
-   "ucas_code": "A42-F34"
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/linguistics",
+   "ucas_code": "A46-J46"
   },
   {
-   "title": "English and Linguistics",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/english-linguistics-ba-qq31/",
-   "ucas_code": "A28-C04"
+   "title": "Linguistics",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00241/1?coursecode=Q100",
+   "ucas_code": "A32-H13"
   },
   {
-   "title": "Arabic and Linguistics",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-arabic-and",
-   "ucas_code": "A12-J51"
+   "title": "Linguistics",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/linguistics-ba-hons-q100/",
+   "ucas_code": "A26-A17"
+  },
+  {
+   "title": "Linguistics",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j769/linguistics-ba",
+   "ucas_code": "A26-I70"
+  },
+  {
+   "title": "Language and Linguistics",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-language-and-linguistics-ft-jn",
+   "ucas_code": "A16-I88"
+  },
+  {
+   "title": "Language and Linguistics",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/758/Q190/language-linguistics/",
+   "ucas_code": "A33-G37"
+  },
+  {
+   "title": "Linguistics",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/linguistics-ba-hons",
+   "ucas_code": "A25-D92"
+  },
+  {
+   "title": "Linguistics",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/Q100",
+   "ucas_code": "A15-A11"
+  },
+  {
+   "title": "Linguistics",
+   "provider": "University of York",
+   "url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-linguistics/",
+   "ucas_code": "A66-A66"
   }
  ]
 }

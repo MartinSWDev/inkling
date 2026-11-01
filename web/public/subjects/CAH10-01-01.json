@@ -3,42 +3,6 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Engineering Management",
-   "provider": "Abertay University",
-   "url": "https://www.abertay.ac.uk/course-search/undergraduate/engineering-management/",
-   "ucas_code": "A73-F57"
-  },
-  {
-   "title": "Design Engineering",
-   "provider": "Aston University",
-   "url": "https://www.aston.ac.uk/study/courses/design-engineering-beng",
-   "ucas_code": "A30-B52"
-  },
-  {
-   "title": "Design Engineering",
-   "provider": "Bournemouth University",
-   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-design-engineering-0",
-   "ucas_code": "A11-H69"
-  },
-  {
-   "title": "Engineering with Business",
-   "provider": "Brunel University of London",
-   "url": "https://www.brunel.ac.uk/study/courses/engineering-with-business-beng",
-   "ucas_code": "A74-C46"
-  },
-  {
-   "title": "Engineering Design",
-   "provider": "Buckinghamshire New University",
-   "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-engineering-design",
-   "ucas_code": "A68-J41"
-  },
-  {
-   "title": "Mechanical and Design Engineering",
-   "provider": "City St George'S, University Of London",
-   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/mechanical-and-design-engineering",
-   "ucas_code": "A65-D98"
-  },
-  {
    "title": "General Engineering",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/general-engineering-beng",
@@ -51,16 +15,52 @@
    "ucas_code": "A27-I97"
   },
   {
-   "title": "Sustainable Design Engineering",
-   "provider": "Coventry University",
-   "url": "https://www.coventry.ac.uk/course-structure/ug/ees/sustainable-design-engineering-beng-meng-hons/?term=2027-28",
-   "ucas_code": "A75-F72"
+   "title": "General Engineering",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/h100/",
+   "ucas_code": "A07-H00"
   },
   {
-   "title": "Engineering (Aeronautical)",
-   "provider": "Durham University",
-   "url": "https://www.durham.ac.uk/study/courses/h411/",
-   "ucas_code": "A58-F91"
+   "title": "Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/engineering",
+   "ucas_code": "A06-A13"
+  },
+  {
+   "title": "Engineering",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/engineering-science",
+   "ucas_code": "A30-F10"
+  },
+  {
+   "title": "Engineering",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mechanical-engineering",
+   "ucas_code": "A47-I30"
+  },
+  {
+   "title": "General Engineering",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/engineering/beng-honours-general-engineering/full-time",
+   "ucas_code": ""
+  },
+  {
+   "title": "Engineering",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/beng-engineering/2027-28/sep",
+   "ucas_code": "A36-G92"
+  },
+  {
+   "title": "Engineering",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/engineering-beng-hons-h100/",
+   "ucas_code": "A25-I88"
+  },
+  {
+   "title": "General Engineering",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/general-engineering-beng/2027",
+   "ucas_code": "A05-A91"
   }
  ]
 }

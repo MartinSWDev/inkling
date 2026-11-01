@@ -3,22 +3,46 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Art and Design",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/art-and-design-ba-hons-2027-28",
+   "ucas_code": "B68-J42"
+  },
+  {
+   "title": "Art and Design",
+   "provider": "University of Bedfordshire",
+   "url": "https://www.beds.ac.uk/courses/art-and-design",
+   "ucas_code": "A10-D37"
+  },
+  {
+   "title": "Creative Practice",
+   "provider": "University of the West of Scotland",
+   "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/creative-practice-dumfries-galloway-college/",
+   "ucas_code": ""
+  },
+  {
+   "title": "Visual Art",
+   "provider": "East Coast College",
+   "url": "http://www.uos.ac.uk/lvar",
+   "ucas_code": "A63-H64"
+  },
+  {
+   "title": "Art and Design",
+   "provider": "Weston College Of Further And Higher Education",
+   "url": "https://www.ucw.ac.uk/courses/art-and-design-ba-hons/",
+   "ucas_code": "A59-I43"
+  },
+  {
    "title": "Creative Direction",
    "provider": "Arts University Bournemouth, The",
    "url": "https://aub.ac.uk/course/creative-direction",
    "ucas_code": "A69-B32"
   },
   {
-   "title": "Creative Arts Practice",
+   "title": "Graphic Design",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-creative-arts-practice/",
-   "ucas_code": "A09-E98"
-  },
-  {
-   "title": "Art and Design",
-   "provider": "Birmingham City University",
-   "url": "https://www.bcu.ac.uk/courses/art-and-design-ba-hons-2027-28",
-   "ucas_code": "B68-J42"
+   "url": "https://www.bathspa.ac.uk/courses/ug-graphic-design/",
+   "ucas_code": "A09-G45"
   },
   {
    "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
@@ -33,34 +57,10 @@
    "ucas_code": "B58-B79"
   },
   {
-   "title": "Creative Arts and Africa and Black Diaspora",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
-   "ucas_code": "A73-G86"
-  },
-  {
-   "title": "Creative Media Arts",
-   "provider": "The University Of Westminster",
-   "url": "https://www.westminster.ac.uk/creative-media-arts-ba",
-   "ucas_code": "A72-A55"
-  },
-  {
-   "title": "Creative Arts & Industries / Digital Media & Information Studies",
-   "provider": "University Of Glasgow",
-   "url": "https://www.gla.ac.uk/undergraduate/degrees/creativeartsindustries/",
-   "ucas_code": "A76-J89"
-  },
-  {
-   "title": "Creative Digital Design",
-   "provider": "University Centre Peterborough",
-   "url": "https://www.ucp.ac.uk/courses/ba-hons-creative-digital-design/",
-   "ucas_code": "A62-H54"
-  },
-  {
-   "title": "Art and Design",
-   "provider": "University of Bedfordshire",
-   "url": "https://www.beds.ac.uk/courses/art-and-design",
-   "ucas_code": "A10-D37"
+   "title": "Content Creation",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/content-creation-bsc",
+   "ucas_code": "A74-D67"
   }
  ]
 }

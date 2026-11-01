@@ -21,12 +21,6 @@
    "ucas_code": "A47-G96"
   },
   {
-   "title": "Energy & Environmental Engineering",
-   "provider": "Edinburgh Napier University",
-   "url": "https://www.napier.ac.uk/courses/bengbeng-hons-energy-and-environmental-engineering-undergraduate-fulltime",
-   "ucas_code": "A25-C64"
-  },
-  {
    "title": "Chemical Engineering",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/chemical-engineering-beng",
@@ -61,6 +55,12 @@
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/chemical-engineering",
    "ucas_code": "A00-I15"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/chemical-engineering-beng-h800/#overview",
+   "ucas_code": "A28-B59"
   }
  ]
 }

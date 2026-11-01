@@ -15,52 +15,52 @@
    "ucas_code": "A07-G12"
   },
   {
-   "title": "Forensic Anthropology",
-   "provider": "Liverpool John Moores University",
-   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/32330-forensic-anthropology-bsc-hons",
-   "ucas_code": "A11-A57"
-  },
-  {
-   "title": "Archaeology and Anthropology",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/archaeology-and-anthropology",
-   "ucas_code": "A30-E66"
-  },
-  {
    "title": "Anthropology",
    "provider": "Queen's University Belfast",
    "url": "http://www.qub.ac.uk/courses/undergraduate/anthropology-ba-l600/",
    "ucas_code": "A41-E95"
   },
   {
-   "title": "Creative Arts and Social Anthropology",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
-   "ucas_code": "A73-H08"
-  },
-  {
-   "title": "Social Anthropology",
-   "provider": "The University Of Birmingham",
-   "url": "https://www.birmingham.ac.uk/undergraduate/courses/dasa/social-anthropology.aspx",
-   "ucas_code": "A65-J95"
-  },
-  {
-   "title": "Forensic Anthropology",
-   "provider": "The University Of Bradford",
-   "url": "https://www.bradford.ac.uk/courses/ug/forensic-anthropology/",
-   "ucas_code": "A11-C85"
-  },
-  {
-   "title": "Archaeology, Anthropology and Art History",
-   "provider": "The University Of East Anglia",
-   "url": "https://www.uea.ac.uk/course/undergraduate/ba-archaeology-anthropology-and-art-history/2027-28/sep",
-   "ucas_code": "A36-G34"
-  },
-  {
    "title": "Anthropology",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/419/L600/anthropology/",
    "ucas_code": "A33-D29"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/anthropology/ba-anthropology/",
+   "ucas_code": "A15-H50"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/ba-anthropology/",
+   "ucas_code": "A32-J44"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/ba-anthropology",
+   "ucas_code": "A41-G70"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "University of Sussex",
+   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/anthropology-ba",
+   "ucas_code": "A22-I35"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "University of Winchester",
+   "url": "https://www.winchester.ac.uk/study/undergraduate/courses/ba-hons-anthropology",
+   "ucas_code": "A09-C96"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology",
+   "ucas_code": "A06-B51"
   }
  ]
 }

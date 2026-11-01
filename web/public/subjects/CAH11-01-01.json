@@ -3,15 +3,15 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Computer Graphics, Vision and Games",
+   "title": "Computer Science",
    "provider": "Aberystwyth University",
-   "url": "http://www.aber.ac.uk/courses/?GJJW5Z",
-   "ucas_code": "A22-E81"
+   "url": "http://www.aber.ac.uk/courses/?8RT59E",
+   "ucas_code": "A22-E83"
   },
   {
-   "title": "Applied Computer Science",
+   "title": "Computer Science",
    "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/applied-computer-science-west-anglia",
+   "url": "https://www.aru.ac.uk/study/undergraduate/computer-science-beng",
    "ucas_code": "A13-J98"
   },
   {

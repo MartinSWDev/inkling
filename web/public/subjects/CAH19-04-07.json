@@ -3,52 +3,28 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Modern Greek and Arabic",
-   "provider": "Oxford University",
-   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/european-and-middle-eastern-languages",
-   "ucas_code": "A30-G09"
-  },
-  {
-   "title": "Languages and Cultures (Middle East, Africa, South and Southeast Asia) and Africa and Black Diaspora",
-   "provider": "SOAS University of London",
-   "url": "https://www.soas.ac.uk/study/find-course/ba-africa-and-black-diaspora-and",
-   "ucas_code": "A64-F80"
-  },
-  {
-   "title": "Arabic, Islamic, Middle Eastern and North African Studies",
-   "provider": "The University Of Leeds",
-   "url": "https://courses.leeds.ac.uk/202728/j555/arabic-islamic-middle-eastern-and-north-african-studies-ba",
-   "ucas_code": "A65-B51"
-  },
-  {
-   "title": "Asian and Middle Eastern Studies",
-   "provider": "University of Cambridge",
-   "url": "https://www.undergraduate.study.cam.ac.uk/courses/asian-middle-eastern-studies-ba-hons",
-   "ucas_code": "A25-D74"
-  },
-  {
-   "title": "Arabic with Islamic and Middle Eastern Studies",
+   "title": "Arabic and Persian",
    "provider": "University of Edinburgh",
-   "url": "https://www.ed.ac.uk/ug/T622",
-   "ucas_code": "A57-C52"
+   "url": "https://www.ed.ac.uk/ug/T621",
+   "ucas_code": "A14-H31"
   },
   {
-   "title": "Arabic with Islamic and Middle East Studies",
-   "provider": "University of Exeter",
-   "url": "https://www.exeter.ac.uk/undergraduate-degrees/ba-arabic-with-islamic-and-middle-east-studies",
-   "ucas_code": "B67-I20"
-  },
-  {
-   "title": "Arabic and Middle East Studies",
+   "title": "Arabic and Persian",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/arabic/arabic-ma/",
-   "ucas_code": "A28-H44"
+   "ucas_code": "A28-H48"
   },
   {
-   "title": "Middle Eastern Studies",
-   "provider": "Xaverian College",
-   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/07729/ba-middle-eastern-studies/",
-   "ucas_code": "A20-I76"
+   "title": "German and Persian",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/european-and-middle-eastern-languages",
+   "ucas_code": "A15-G29"
+  },
+  {
+   "title": "Arabic and English",
+   "provider": "The University Of Westminster",
+   "url": "https://www.westminster.ac.uk/arabic-and-english-ba",
+   "ucas_code": "A71-B87"
   }
  ]
 }

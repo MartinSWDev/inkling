@@ -3,22 +3,10 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
-   "title": "Fashion Management and Strategy",
-   "provider": "Arts University Bournemouth, The",
-   "url": "https://aub.ac.uk/course/bsc-hons-fashion-management-and-strategy",
-   "ucas_code": "A73-E47"
-  },
-  {
    "title": "Business Management",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
    "ucas_code": "A76-I54"
-  },
-  {
-   "title": "Law with Business Management",
-   "provider": "Anglia Ruskin University",
-   "url": "https://www.aru.ac.uk/study/undergraduate/law-with-business-management",
-   "ucas_code": "A76-G32"
   },
   {
    "title": "Business Management",
@@ -33,22 +21,16 @@
    "ucas_code": "A15-G78"
   },
   {
-   "title": "Applied Management",
-   "provider": "BPP University",
-   "url": "https://www.bpp.com/leadership-and-management/bsc-applied-management",
-   "ucas_code": ""
-  },
-  {
-   "title": "Business Management and Criminology",
+   "title": "Business and Management",
    "provider": "Bath Spa University",
-   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
-   "ucas_code": "A43-E18"
+   "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-london/",
+   "ucas_code": ""
   },
   {
-   "title": "Bioscience with Management",
+   "title": "Business Management",
    "provider": "Birkbeck, University of London",
-   "url": "https://www.bbk.ac.uk/courses/undergraduate/bioscience-with-management",
-   "ucas_code": ""
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/business-management",
+   "ucas_code": "A76-A39"
   },
   {
    "title": "Business Management",
@@ -61,6 +43,24 @@
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-2",
    "ucas_code": "A54-D94"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Buckinghamshire New University",
+   "url": "https://mrcollege.ac.uk/ba-business-management/",
+   "ucas_code": "A03-C86"
+  },
+  {
+   "title": "Business Management",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/business-management-foundation",
+   "ucas_code": "A49-I11"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/business-management-with-a-foundation-year-bsc",
+   "ucas_code": "A77-I55"
   }
  ]
 }

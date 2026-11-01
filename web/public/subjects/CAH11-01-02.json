@@ -3,6 +3,18 @@
  "attribution": "Contains HESA Discover Uni data (HESA, www.hesa.ac.uk), licensed under CC BY 4.0",
  "courses": [
   {
+   "title": "Computing",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/computing",
+   "ucas_code": "A67-B15"
+  },
+  {
+   "title": "Computing",
+   "provider": "Arden University",
+   "url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/bsc-hons-computing",
+   "ucas_code": ""
+  },
+  {
    "title": "Computing and Information Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/computing-information-technology-bsc-hons-2027-28",
@@ -13,6 +25,18 @@
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/digital-technology-computing/?term=2027-28",
    "ucas_code": "A45-C41"
+  },
+  {
+   "title": "Computing",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11COMPTN",
+   "ucas_code": "A26-C78"
+  },
+  {
+   "title": "Computing",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/computing---bsc-hons/",
+   "ucas_code": "A06-J33"
   },
   {
    "title": "Information Technology",
@@ -27,40 +51,16 @@
    "ucas_code": "A22-D02"
   },
   {
-   "title": "Computing and Information Technology Incl Professional Experience",
-   "provider": "Queen's University Belfast",
-   "url": "https://www.qub.ac.uk/courses/undergraduate/computing-information-technology-incl-professional-experience-bsc-gg45/",
-   "ucas_code": "A28-B81"
+   "title": "Computing and Digital Technologies",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/undergraduate-courses/computing-and-digital-technologies/",
+   "ucas_code": "A69-I18"
   },
   {
-   "title": "Information Technology with Business Studies",
-   "provider": "Sheffield Hallam University",
-   "url": "https://www.shu.ac.uk/courses/computing/bsc-honours-information-technology-with-business-studies/full-time",
-   "ucas_code": "A17-J41"
-  },
-  {
-   "title": "Law (Law and Technology Pathway)",
-   "provider": "The University Of Surrey",
-   "url": "https://www.surrey.ac.uk/undergraduate/law-law-and-technology-pathway/2027",
-   "ucas_code": "A59-G53"
-  },
-  {
-   "title": "Finance and Technology (FinTech)",
-   "provider": "University of Sussex",
-   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/finance-and-technology-fintech-bsc",
-   "ucas_code": "A50-I48"
-  },
-  {
-   "title": "Computing and Information Technology",
-   "provider": "University of Wolverhampton",
-   "url": "https://www.wlv.ac.uk/courses/BSc-Hons-Computing-and-Information-Technology",
-   "ucas_code": "A04-A86"
-  },
-  {
-   "title": "Information Technology",
-   "provider": "Darlington College",
-   "url": "https://www.tees.ac.uk/undergraduate_courses/computing_&_cyber_security/bsc_(hons)_information_technology.cfm",
-   "ucas_code": "A31-F43"
+   "title": "Computing (3-year degree)",
+   "provider": "The University Of Buckingham",
+   "url": "https://www.buckingham.ac.uk/courses/undergraduate/bsc-hons-computing-3-year-degree/?_gl=1*nktcdg*_up*MQ..*_ga*MTY0MTkyNzY0MS4xNzgyOTg2Mjc5*_ga_PWEL0GXNN9*czE3ODI5ODYyNzkkbzEkZzEkdDE3ODI5ODYyODYkajUzJGwwJGgxMTQzOTM1NTEz",
+   "ucas_code": "A25-E80"
   }
  ]
 }

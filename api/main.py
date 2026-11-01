@@ -63,8 +63,13 @@ def score(req: ScoreRequest):
 @app.get("/api/content")
 def content():
     from api.scoring import CHIPS, EXTRA_NAMES, QUESTIONS, THINGS
+    aliases = _load("subject_aliases.json")["index"]
+    try:
+        aliases = {**aliases, **_load("subject_aliases_extra.json")["index"]}
+    except FileNotFoundError:
+        pass
     return {"chips": CHIPS, "extra_names": EXTRA_NAMES, "things": THINGS, "questions": QUESTIONS,
-            "pairs": _load("pairs.json")["pairs"]}
+            "pairs": _load("pairs.json")["pairs"], "aliases": aliases}
 
 
 @app.get("/api/next-cards")

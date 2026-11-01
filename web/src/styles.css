@@ -46,6 +46,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .chipsheet .chip .heart{width:26px;height:26px;font-size:15px;right:2px}
 .chipsheet .chip .checkmark{margin-right:16px}
 .addanother{font-size:14px;color:var(--teal);font-weight:600}
+.suggestrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.suggestchip{font:inherit;font-size:13px;background:var(--butter);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:6px 11px;cursor:pointer;min-height:36px}
 .app[data-mode="swipe"] .sheet2{max-height:100%}
 .topline{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}
 .topline b{font-family:var(--display);font-weight:700;font-size:22px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
