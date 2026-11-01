@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { qualifiedSubjects, scoreAnswers } from "./scoring";
-import { ROUND_CAPS, diverseTop, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
+import { ROUND_CAPS, collectRoundAdds, diverseTop, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
 
 const load = (p: string) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
 const cards = load("../../data/subject_cards.json").cards;
@@ -66,6 +66,31 @@ describe("room growth rules", () => {
       prev = scoresOf(ans);
     }
     expect(room.length).toBe(7);
+  });
+
+  it("round-end batch: hearting 1 chip collects exactly its subject, nothing before", () => {
+    const ans = { chips: [{ id: "physics", state: "love" }] };
+    const qualified = qualifiedSubjects(ans, cards, profiles, pairs, decks);
+    expect(collectRoundAdds([], {}, rankedOf(ans), qualified, ROUND_CAPS[0])).toEqual(["CAH07-01-01"]);
+  });
+
+  it("round-end batch: several swipes collect up to the round cap at once", () => {
+    const ans = { swipes: ["radio", "rover", "code", "printer", "chart"].map((id) => ({ card_id: id, answer: "yes" })) };
+    const adds = collectRoundAdds([], {}, rankedOf(ans), qualifiedSubjects(ans, cards, profiles, pairs, decks), ROUND_CAPS[1]);
+    expect(adds.length).toBeGreaterThan(0);
+    expect(adds.length).toBeLessThanOrEqual(ROUND_CAPS[1]);
+    expect(new Set(adds).size).toBe(adds.length);
+    const room = ["X1", "X2", "X3"];
+    const more = collectRoundAdds(room, {}, rankedOf(ans), qualifiedSubjects(ans, cards, profiles, pairs, decks), ROUND_CAPS[1]);
+    expect(room.length + more.length).toBeLessThanOrEqual(ROUND_CAPS[1]);
+    expect(more).not.toContain("X1");
+  });
+
+  it("round-end batch: undecided pair and take-only chips collect nothing", () => {
+    const pairAns = { pairs: [{ pair_id: "why_vs_make", side: null }] };
+    expect(collectRoundAdds([], {}, rankedOf(pairAns), qualifiedSubjects(pairAns, cards, profiles, pairs, decks), ROUND_CAPS[2])).toEqual([]);
+    const chipAns = { chips: [{ id: "maths", state: "take" }, { id: "english", state: "take" }, { id: "biology", state: "take" }] };
+    expect(collectRoundAdds([], {}, rankedOf(chipAns), qualifiedSubjects(chipAns, cards, profiles, pairs, decks), ROUND_CAPS[0])).toEqual([]);
   });
 
   it("reveal keeps a floor or bed object when a qualified one exists", () => {

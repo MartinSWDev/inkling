@@ -56,8 +56,8 @@ const pct = (v: number, total: number) => (v / total * 100) + "%";
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
 
-export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, liftCodes = [], onStickerTap, tapInfo = null, tall = false }: {
-  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null; liftCodes?: string[];
+export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, dropCodes = [], liftCodes = [], onStickerTap, tapInfo = null, tall = false }: {
+  assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null; dropCodes?: string[]; liftCodes?: string[];
   onStickerTap?: (code: string) => void; tapInfo?: { code: string; name: string; line?: string } | null; tall?: boolean;
 }) {
   const [layout, setLayout] = useState<Layout | null>(null);
@@ -100,11 +100,11 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
             ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: py(a.y + a.h - 6), width: pct(a.w * 0.76, ROOM_W) }} />
             : <img className="sticker-dropshadow" draggable={false} onDragStart={(e) => e.preventDefault()} src={"/stickers/" + a.code + ".webp"} alt=""
                 style={{ left: pct(a.x + 6, ROOM_W), top: py(a.y + 9), width: pct(a.w, ROOM_W) }} />}
-          <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) || tapInfo?.code === a.code ? " lifted" : "")}
+          <img className={"sticker-img" + (celebrate && !dropCodes.includes(a.code) ? " wiggle" : "") + (liftCodes.includes(a.code) || tapInfo?.code === a.code ? " lifted" : "")}
             draggable={false} onDragStart={(e) => e.preventDefault()}
             src={"/stickers/" + a.code + ".webp"} alt={onStickerTap ? a.code : ""}
             onClick={onStickerTap ? (e) => { e.stopPropagation(); onStickerTap(a.code); } : undefined}
-            style={{ left: pct(a.x, ROOM_W), top: py(a.y), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
+            style={{ left: pct(a.x, ROOM_W), top: py(a.y), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: dropCodes.includes(a.code) ? (dropCodes.indexOf(a.code) * 140) + "ms" : celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: py(a.y), zIndex: a.z + 5 }}>+1</span>}
           {tapInfo?.code === a.code && (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: py(a.y), zIndex: a.z + 6,
             transform: a.x / ROOM_W > 0.68 ? "translate(calc(-100% + 14px), -112%) rotate(-1deg)"

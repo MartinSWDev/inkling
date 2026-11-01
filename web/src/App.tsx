@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
 import { handsOnPicks, isPractical, lengthLabel, levelLabel, qualifiedSubjects, scoreAnswers, type Apprenticeship } from "./scoring";
-import { ROUND_CAPS, diverseTop, ensureFloorOrBed, ensureResults, growRoom } from "./roomRules";
+import { ROUND_CAPS, collectRoundAdds, diverseTop, ensureFloorOrBed, ensureResults } from "./roomRules";
 import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
@@ -108,7 +108,7 @@ export default function App() {
     if (scene.kind === "roundTitle") { const t = window.setTimeout(() => dispatch({ type: "TITLE_DONE" }), 1250); return () => window.clearTimeout(t); }
     if (scene.kind === "roundOutro") {
       const added = roomCodes.length - roundStartCount;
-      const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), added >= 1 ? 1150 : 30);
+      const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), added >= 1 ? 1000 + added * 170 : 30);
       return () => window.clearTimeout(t);
     }
   }, [scene.kind]);
@@ -145,10 +145,10 @@ export default function App() {
   const ranked = live?.ranked ?? [];
   const surprise = live?.surprise ?? null;
   const [roomCodes, setRoomCodes] = useState<string[]>([]);
-  const [lastAdded, setLastAdded] = useState<string | null>(null);
-  const [dip, setDip] = useState(false);
+  const [dropCodes, setDropCodes] = useState<string[]>([]);
   const [roundStartCount, setRoundStartCount] = useState(0);
-  useEffect(() => { if (scene.kind === "roundTitle") setRoundStartCount(roomCodes.length); }, [scene.kind, roomCodes.length]);
+  const roundBaselineRef = useRef<Record<string, number>>({});
+  useEffect(() => { if (scene.kind === "roundTitle") { setRoundStartCount(roomCodes.length); roundBaselineRef.current = { ...scoresRef.current }; } }, [scene.kind, roomCodes.length]);
   const [confetti, setConfetti] = useState<string | null>(null);
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const [tapCode, setTapCode] = useState<string | null>(null);
@@ -189,40 +189,40 @@ export default function App() {
   const assigned = useMemo(
     () => (assets ? assignStickers(displayCodes, assets.stickers, assets.layout, phase === "reveal" ? 1.35 : 1.2, 0) : []),
     [assets, displayCodes, phase]);
-  useEffect(() => {
-    if (!lastAdded) return;
-    const a = assigned.find((x) => x.code === lastAdded);
-    if (a) {
-      setDip(true);
-      const t = window.setTimeout(() => setDip(false), 720);
-      return () => window.clearTimeout(t);
+  // Everything earned this round lands together at round end (prompts/13 C):
+  // no stickers appear while cards/chips are being answered.
+  function landRoundAdds() {
+    if (!content || !subjects.length) return;
+    const profiles: Record<string, Record<string, number>> = {};
+    for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
+    const decks = { chips: content.chips, things: content.things, questions: content.questions };
+    const scored = scoreAnswers(answersRef.current, subjects, profiles, content.pairs, decks, content.aliases || {});
+    const qualified = qualifiedSubjects(answersRef.current, subjects, profiles, content.pairs, decks);
+    const adds = collectRoundAdds(roomCodes, roundBaselineRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]);
+    if (adds.length) {
+      setRoomCodes([...roomCodes, ...adds]);
+      setDropCodes(adds);
+      adds.forEach((_, i) => window.setTimeout(() => sfx.land(roomCodes.length + i), i * 140));
+      buzz();
     }
-  }, [lastAdded, assigned]);
+    scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
+  }
 
   function nextRound() {
+    landRoundAdds();
     setDeckIdx(0);
     sfx.fold();
     dispatch({ type: "CONTINUE" });
   }
 
-  // One action changes at most one room object, and only qualified subjects qualify.
+  // Mid-round actions only rescore; the room itself is updated in landRoundAdds.
   function applyAction(snap: Answers, heart: boolean) {
+    void heart;
     if (!content || !subjects.length) return;
     const profiles: Record<string, Record<string, number>> = {};
     for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
     const decks = { chips: content.chips, things: content.things, questions: content.questions };
     const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks, content.aliases || {});
-    // Round 1 objects are deferred: they all drop together on Continue (B4).
-    if (round > 1) {
-      const qualified = qualifiedSubjects(snap, subjects, profiles, content.pairs, decks);
-      const next = growRoom(roomCodes, scoresRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]);
-      const added = next.find((c) => !roomCodes.includes(c));
-      setRoomCodes(next);
-      if (added) {
-        setLastAdded(added); sfx.land(roomCodes.length); buzz();
-        window.setTimeout(() => setLastAdded((c) => (c === added ? null : c)), 1600);
-      }
-    }
     scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
   }
 
@@ -235,23 +235,6 @@ export default function App() {
   }
 
   function chipsContinue() {
-    // All hearted round-1 objects land together now, over the room (B4).
-    if (content && subjects.length) {
-      const profiles: Record<string, Record<string, number>> = {};
-      for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
-      const decks = { chips: content.chips, things: content.things, questions: content.questions };
-      const scored = scoreAnswers(answersRef.current, subjects, profiles, content.pairs, decks, content.aliases || {});
-      const qualified = qualifiedSubjects(answersRef.current, subjects, profiles, content.pairs, decks);
-      const adds = scored.ranked.filter((r) => qualified.has(r.code) && !roomCodes.includes(r.code))
-        .slice(0, Math.max(0, ROUND_CAPS[0] - roomCodes.length)).map((r) => r.code);
-      if (adds.length) {
-        setRoomCodes([...roomCodes, ...adds]);
-        adds.forEach((_, i) => window.setTimeout(() => sfx.land(roomCodes.length + i), i * 140));
-        setLastAdded(adds[0]); buzz();
-        window.setTimeout(() => setLastAdded((c) => (c === adds[0] ? null : c)), 1600);
-      }
-      scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
-    }
     nextRound();
   }
 
@@ -390,7 +373,7 @@ export default function App() {
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
-        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} tall={isPhone} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} tall={isPhone} celebrate={scene.kind === "finale"} dropCodes={scene.kind === "roundOutro" ? dropCodes : []}
           liftCodes={scene.kind === "reveal" && page === 0 ? top3.slice(0, liftStep).map((r) => r.code)
             : scene.kind === "reveal" && page === 1 && wildcardFlipped && surprise ? [surprise] : []}
           onStickerTap={(code) => { setTapCode(code); sfx.pop(); }}
@@ -496,7 +479,7 @@ export default function App() {
         </motion.span>
       </button>)}
 
-      {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "") + (round === 1 ? " r1center" : "") + (round === 2 || round === 4 ? " cardlayout" : "")}>
+      {scene.kind === "round" && (<div className={"overlay" + (round === 1 ? " r1center" : "") + (round === 2 || round === 4 ? " cardlayout" : "")}>
         {round === 1 && (<div className="sheet2 chipsheet">
           <div><p className="eyebrow">Round 1 · your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {

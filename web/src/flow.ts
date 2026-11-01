@@ -37,9 +37,9 @@ export function flowReducer(scene: Scene, ev: FlowEvent): Scene {
     case "unfold": return ev.type === "UNFOLDED" ? { kind: "intro" } : scene;
     case "intro": return ev.type === "GO" ? { kind: "roundTitle", round: 1 } : scene;
     case "roundTitle": return ev.type === "TITLE_DONE" ? { kind: "round", round: scene.round } : scene;
-    case "round": return ev.type === "CONTINUE"
-      ? (scene.round >= ROUND_COUNT ? { kind: "finale" } : { kind: "roundOutro", round: scene.round }) : scene;
-    case "roundOutro": return ev.type === "OUTRO_DONE" ? { kind: "roundTitle", round: scene.round + 1 } : scene;
+    case "round": return ev.type === "CONTINUE" ? { kind: "roundOutro", round: scene.round } : scene;
+    case "roundOutro": return ev.type === "OUTRO_DONE"
+      ? (scene.round >= ROUND_COUNT ? { kind: "finale" } : { kind: "roundTitle", round: scene.round + 1 }) : scene;
     case "finale": return ev.type === "FINALE_TAP" ? { kind: "reveal", page: 0 } : scene;
     case "reveal":
       if (ev.type === "REVEAL_NEXT") return scene.page >= (ev.last ?? 3) ? { kind: "share" } : { kind: "reveal", page: scene.page + 1 };

@@ -18,6 +18,25 @@ export function growRoom(
   return [...prev, candidates[0].code];
 }
 
+/** Round-end batch (prompts/13 C): everything a round earned, collected at
+ * once up to the round cap, in riser order. Nothing lands mid-round. */
+export function collectRoundAdds(
+  prev: string[], prevScores: Record<string, number>, ranked: RankedRow[],
+  qualified: Set<string>, cap: number,
+): string[] {
+  let room = [...prev];
+  const adds: string[] = [];
+  while (room.length < cap) {
+    const next = growRoom(room, prevScores, ranked, qualified, cap);
+    if (next.length === room.length) break;
+    const added = next.find((c) => !room.includes(c));
+    if (!added) break;
+    adds.push(added);
+    room = next;
+  }
+  return adds;
+}
+
 /** Top 3 with diversity: at most one subject per CAH level-2 parent, unless
  * the next distinct subject scores less than 70% of the duplicate. */
 export function diverseTop(ranked: RankedRow[], parentOf: (code: string) => string, n = 3): RankedRow[] {
