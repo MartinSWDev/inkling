@@ -54,8 +54,11 @@ function StudentCard({ s, snap, onClose, backTo }: { s: SimStudent; snap: SimSna
   );
 }
 
+type HeldOut = { before: { hit3: number; subjects_reached: number }; after: { hit3: number; subjects_reached: number } };
+
 export default function Simulation() {
   const [snap, setSnap] = useState<SimSnapshot | null>(null);
+  const [heldOut, setHeldOut] = useState<HeldOut | null>(null);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
   const [replayKey, setReplayKey] = useState(0);
@@ -69,6 +72,11 @@ export default function Simulation() {
   const sceneWrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => { loadSnapshot().then(setSnap); }, []);
+  useEffect(() => {
+    fetch("/data/score_calibration.json").then((r) => r.json())
+      .then((d) => { if (d?.held_out) setHeldOut(d.held_out as HeldOut); })
+      .catch(() => setHeldOut(null));
+  }, []);
   const finalState = reduced && !started;
 
   useEffect(() => {
@@ -135,13 +143,13 @@ export default function Simulation() {
           </div>
           <p className="note">Tap a building to see who ended up there, then tap a student to read their story.</p>
         </section>
-        <div id="sim-results">{snap ? <Results snap={snap} onPick={setSelected} /> : null}</div>
+        <div id="sim-results">{snap ? <Results snap={snap} heldOut={heldOut} onPick={setSelected} /> : null}</div>
       </main>
     </div>
   );
 }
 
-function Results({ snap, onPick }: { snap: SimSnapshot; onPick: (s: SimStudent) => void }) {
+function Results({ snap, heldOut, onPick }: { snap: SimSnapshot; heldOut: HeldOut | null; onPick: (s: SimStudent) => void }) {
   const sm = snap.summary;
   const arrivals = Object.entries(sm.arrivals_by_paper)
     .map(([paper, n]) => ({ paper: paper as keyof typeof BUILDINGS, n }))
@@ -163,6 +171,13 @@ function Results({ snap, onPick }: { snap: SimSnapshot; onPick: (s: SimStudent) 
           <div className="simcard"><p className="bignum">{sm.students}</p><p className="note">Simulated students</p></div>
         </div>
       </section>
+
+      {heldOut && (
+        <section className="simcard" aria-label="Before and after">
+          <h2>Before and after</h2>
+          <p>We found broad subjects like Zoology and Engineering were winning everyone&apos;s top 3. Correcting for that, measured on students the fix wasn&apos;t tuned on: {pct(heldOut.before.hit3)} → {pct(heldOut.after.hit3)} got a subject they&apos;d suit in their top 3; subjects reached {heldOut.before.subjects_reached} → {heldOut.after.subjects_reached}.</p>
+        </section>
+      )}
 
       <section className="simcard" aria-label="Arrivals per building">
         <h2>Where they ended up</h2>
