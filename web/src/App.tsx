@@ -340,7 +340,7 @@ export default function App() {
 
       {scene.kind === "landing" && (<section className="landing">
         <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }}>
-          <img className="miniview" src="/views/campus_day.webp" alt="" />
+          <img className="miniview" src={"/views/" + view + "_" + viewTime + ".webp"} alt="" />
           <img className="miniroom" src="/room/room.png" alt="" />
         </motion.div>
         <h1 className="wordmark">Inkling</h1>
@@ -379,8 +379,8 @@ export default function App() {
             <img src="/room/room.png" alt="" />
           </motion.div>))}
         {assets && (<motion.img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt=""
-          style={{ left: (assets.layout.window.x / 1152 * 100) + "%", top: (assets.layout.window.y / 2048 * 100) + "%",
-            width: (assets.layout.window.w / 1152 * 100) + "%", height: (assets.layout.window.h / 2048 * 100) + "%" }}
+          style={{ left: ((assets.layout.window.x - assets.layout.window.w * 0.14) / 1152 * 100) + "%", top: ((assets.layout.window.y - assets.layout.window.h * 0.1) / 2048 * 100) + "%",
+            width: (assets.layout.window.w * 1.28 / 1152 * 100) + "%", height: (assets.layout.window.h * 1.28 / 2048 * 100) + "%" }}
           initial={{ opacity: 0.9 }} animate={{ opacity: 1 }} transition={{ delay: 0, duration: 0.3 }} />)}
         <motion.div className="ulamp" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05, duration: 0.35 }} />
       </section>)}

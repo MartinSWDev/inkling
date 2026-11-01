@@ -13,6 +13,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);z-index:0;isolation:isolate;pointer-events:none}
 .room-wrap *{pointer-events:none}
 .room-stack{position:absolute;inset:0}
+.room-wrap > .room-stack{transition:transform .6s cubic-bezier(.25,.9,.3,1)}
 .app[data-mode="swipe"] .room-wrap > .room-stack{transform:scale(1.14) translateY(-5%)}
 .room-stack.band{position:absolute;left:0;top:0}
 .room-stack .view-img{position:absolute;object-fit:cover}
