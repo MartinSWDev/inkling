@@ -6,37 +6,49 @@
    "title": "Dental Hygiene and Dental Therapy",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/dental-hygiene-dental-therapy",
-   "ucas_code": "A76-J27"
+   "ucas_code": "A76-J27",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Dental Therapy and Dental Hygiene",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/dental-therapy-and-hygiene-bsc",
-   "ucas_code": "H91-L03"
+   "ucas_code": "H91-L03",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Dental Hygiene and Therapy",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/med/dental-hygiene-therapy.aspx",
-   "ucas_code": "A04-I13"
+   "ucas_code": "A04-I13",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Dental Hygiene",
    "provider": "University of Portsmouth",
    "url": "https://www.port.ac.uk/study/courses/bsc-hons-dental-hygiene",
-   "ucas_code": "A45-H45"
+   "ucas_code": "A45-H45",
+   "setting": "coast",
+   "town": "Portsmouth"
   },
   {
    "title": "Dental Hygiene and Dental Therapy",
    "provider": "East Coast College",
    "url": "http://www.uos.ac.uk/idht",
-   "ucas_code": "A67-F91"
+   "ucas_code": "A67-F91",
+   "setting": "campus town",
+   "town": "Ipswich"
   },
   {
    "title": "Dental Hygiene and Therapy",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/20060/bsc-dental-hygiene-and-therapy/",
-   "ucas_code": "A20-J00"
+   "ucas_code": "A20-J00",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

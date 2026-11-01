@@ -6,7 +6,9 @@
    "title": "Geography with GIS and Data Science",
    "provider": "University of Plymouth",
    "url": "https://www.plymouth.ac.uk/courses/undergraduate/bsc-geography-with-gis-and-data-science",
-   "ucas_code": "A71-I55"
+   "ucas_code": "A71-I55",
+   "setting": "coast",
+   "town": "Plymouth"
   }
  ]
 }

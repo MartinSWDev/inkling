@@ -6,61 +6,129 @@
    "title": "Statistics",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/statistics/",
-   "ucas_code": "A25-B08"
+   "ucas_code": "A25-B08",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Statistics",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Statistics-BSc-Hons.html",
-   "ucas_code": "A00-H52"
+   "ucas_code": "A00-H52",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Statistics",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/statistics/statistics-ma/",
-   "ucas_code": "A29-G25"
+   "ucas_code": "A29-G25",
+   "setting": "coast",
+   "town": "St Andrews"
   },
   {
    "title": "Statistics",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/statistics-bsc",
-   "ucas_code": "A24-B03"
+   "ucas_code": "A24-B03",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Pure Mathematics/Statistics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?8G7PJH",
-   "ucas_code": "A22-H23"
+   "ucas_code": "A22-H23",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Actuarial Science",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/actuarial-science",
-   "ucas_code": "A05-J38"
+   "ucas_code": "A05-J38",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Mathematics with Statistics",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/mathematics-with-statistics/#variant",
-   "ucas_code": "A18-D10"
+   "ucas_code": "A18-D10",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Mathematics with Statistics",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-mathematics-with-statistics",
-   "ucas_code": "A56-I27"
+   "ucas_code": "A56-I27",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Mathematics and Statistics",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/gg13/",
-   "ucas_code": "A27-C53"
+   "ucas_code": "A27-C53",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Mathematics/Mathematics and Statistics",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
-   "ucas_code": "A30-G01"
+   "ucas_code": "A30-G01",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Mathematics and Statistics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mathematics-and-statistics",
+   "ucas_code": "A42-F94",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Mathematics with Statistics",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/mathematics/mathematics-with-statistics/",
+   "ucas_code": "A17-E67",
+   "setting": "campus town",
+   "town": "Egham"
+  },
+  {
+   "title": "Mathematics and Statistics",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-mathematics-and-statistics/2027-28/sep",
+   "ucas_code": "A65-E93",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Actuarial Science",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00012/1?coursecode=N323",
+   "ucas_code": "A32-D80",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Mathematics and Statistics",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/mathematics-and-statistics-bsc-hons-g1g3/",
+   "ucas_code": "A26-A45",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Mathematics and Statistics",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/4627/mathematics-and-statistics-bsc",
+   "ucas_code": "A26-I93",
+   "setting": "city",
+   "town": "Leeds"
   }
  ]
 }

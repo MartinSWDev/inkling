@@ -6,61 +6,129 @@
    "title": "Musical Theatre Brighton Academy of Performing Arts",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/about-us/networks/educational-partners/the-brighton-academy/",
-   "ucas_code": "A69-J68"
+   "ucas_code": "A69-J68",
+   "setting": "coast",
+   "town": "Brighton"
   },
   {
    "title": "Arts and Festivals Management",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx",
-   "ucas_code": "A25-F98"
+   "ucas_code": "A25-F98",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Technical Theatre Arts",
    "provider": "Falmouth University",
    "url": "http://www.falmouth.ac.uk/study/undergraduate/technical-theatre-arts",
-   "ucas_code": "A68-G83"
+   "ucas_code": "A68-G83",
+   "setting": "coast",
+   "town": "Penryn"
   },
   {
    "title": "Performing Arts",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/performingarts",
-   "ucas_code": "A10-I19"
+   "ucas_code": "A10-I19",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Creative Arts and Music",
    "provider": "SOAS University of London",
    "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
-   "ucas_code": "A73-G99"
+   "ucas_code": "A73-G99",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Theatre and Performing",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/theatre-and-performing-ba-hons-w440/",
-   "ucas_code": "A25-I69"
+   "ucas_code": "A25-I69",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "Creative Arts & Industries / Music",
    "provider": "University Of Glasgow",
    "url": "https://www.gla.ac.uk/undergraduate/degrees/creativeartsindustries/",
-   "ucas_code": "A76-J87"
+   "ucas_code": "A76-J87",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Performing Arts (Stella Mann",
    "provider": "University Of Northampton, The",
    "url": "https://www.stellamanncollege.co.uk/our-courses/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "countryside",
+   "town": "Haverhill"
   },
   {
    "title": "Performing Arts",
    "provider": "University Centre Peterborough",
    "url": "https://www.ucp.ac.uk/courses/ba-hons-acting-for-stage-and-screen/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Psychology and Theatre Arts",
    "provider": "University of Derby",
    "url": "https://www.derby.ac.uk/undergraduate/joint-honours-courses/psychology-theatre-arts-ba-hons/",
-   "ucas_code": "A70-E90"
+   "ucas_code": "A70-E90",
+   "setting": "campus town",
+   "town": "Derby"
+  },
+  {
+   "title": "Drama, Theatre and Performing Arts",
+   "provider": "University of Kent (Part of London and South East University Group)",
+   "url": "https://www.kent.ac.uk/courses/undergraduate/2027/114/drama-theatre-and-performing-arts",
+   "ucas_code": "A08-I95",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Sound Arts: Design",
+   "provider": "University of the Arts, London",
+   "url": "https://www.arts.ac.uk/subjects/animation-interactive-film-and-sound/undergraduate/ba-hons-sound-arts-design-lcc",
+   "ucas_code": "A73-D74",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Creative Arts (Music Production) Top Up",
+   "provider": "Calderdale College",
+   "url": "https://www.calderdale.ac.uk/courses/sound-music-technology-ba-hons/",
+   "ucas_code": "A57-C71",
+   "setting": "campus town",
+   "town": "Halifax"
+  },
+  {
+   "title": "Performing Arts",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.jellistudios.co.uk/bahons",
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Performing Arts",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-performing-arts",
+   "ucas_code": "A01-G65",
+   "setting": "coast",
+   "town": "Peterlee"
+  },
+  {
+   "title": "Production Arts",
+   "provider": "Guildhall School Of Music & Drama",
+   "url": "https://www.gsmd.ac.uk/study-with-guildhall/production-arts/ba-production-arts",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

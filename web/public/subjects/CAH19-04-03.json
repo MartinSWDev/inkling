@@ -6,55 +6,73 @@
    "title": "Italian",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i990/italian-ba",
-   "ucas_code": "A26-I35"
+   "ucas_code": "A26-I35",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Italian",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/italian-ba-hons/2027",
-   "ucas_code": "A42-C68"
+   "ucas_code": "A42-C68",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Italian",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/italian/",
-   "ucas_code": "A24-I89"
+   "ucas_code": "A24-I89",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Italian",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/R310",
-   "ucas_code": "A14-J75"
+   "ucas_code": "A14-J75",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Italian",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/italian/italian-ma/",
-   "ucas_code": "A29-C13"
+   "ucas_code": "A29-C13",
+   "setting": "coast",
+   "town": "St Andrews"
   },
   {
    "title": "Italian",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/italian-ba",
-   "ucas_code": "A24-A24"
+   "ucas_code": "A24-A24",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Classics and Italian",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classics-and-modern-languages",
-   "ucas_code": "A30-E89"
+   "ucas_code": "A30-E89",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "French and Italian",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-italian",
-   "ucas_code": "A72-I79"
+   "ucas_code": "A72-I79",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English and Italian",
    "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-italian",
-   "ucas_code": "A20-B83"
+   "ucas_code": "A20-B83",
+   "setting": "campus town",
+   "town": "Coventry"
   }
  ]
 }

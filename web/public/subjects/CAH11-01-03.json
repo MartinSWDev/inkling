@@ -6,25 +6,33 @@
    "title": "Information Technology",
    "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Information-Technology-BSc-Hons",
-   "ucas_code": "A46-G25"
+   "ucas_code": "A46-G25",
+   "setting": "campus town",
+   "town": "Huddersfield"
   },
   {
    "title": "Information Technology",
    "provider": "University of Derby",
    "url": "https://www.derby.ac.uk/undergraduate/computing-courses/information-technology-bsc-hons/",
-   "ucas_code": "A41-E49"
+   "ucas_code": "A41-E49",
+   "setting": "campus town",
+   "town": "Derby"
   },
   {
    "title": "Information Technology",
    "provider": "Drama Studio London Limited",
    "url": "https://www.uwl.ac.uk/course/undergraduate/information-technology",
-   "ucas_code": "A17-G55"
+   "ucas_code": "A17-G55",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Information, Data and Society",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/information-data-and-society-bsc",
-   "ucas_code": "A68-E93"
+   "ucas_code": "A68-E93",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

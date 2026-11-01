@@ -6,61 +6,129 @@
    "title": "Accounting and Finance / Economics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?WDJMAX",
-   "ucas_code": "A51-B77"
+   "ucas_code": "A51-B77",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Business Economics",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-economics-bsc/",
-   "ucas_code": "A75-D85"
+   "ucas_code": "A75-D85",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Economics",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons",
-   "ucas_code": "A62-E11"
+   "ucas_code": "A62-E11",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Economics",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-economics/",
-   "ucas_code": "B57-I87"
+   "ucas_code": "B57-I87",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Accounting and Economics",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/accounting",
-   "ucas_code": "A76-G26"
+   "ucas_code": "A76-G26",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Economics",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/economics-bsc-hons-2027-28",
-   "ucas_code": "A14-D12"
+   "ucas_code": "A14-D12",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business and Management (Economics)",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-economics-0",
-   "ucas_code": "A54-E02"
+   "ucas_code": "A54-E02",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Economics",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/economics-bsc",
-   "ucas_code": "A19-J12"
+   "ucas_code": "A19-J12",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Economics",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/business-economics",
-   "ucas_code": "A76-E07"
+   "ucas_code": "A76-E07",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Economics",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/business-economics",
-   "ucas_code": "A66-E82"
+   "ucas_code": "A66-E82",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Accounting and Economics",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-accounting-and-economics/",
+   "ucas_code": "A51-D83",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/business-economics-bsc",
+   "ucas_code": "A73-A84",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Business Economics",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-economics-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-G52",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Economics",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/economics-with-foundation-l123/",
+   "ucas_code": "A77-A24",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Economics",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/economics",
+   "ucas_code": "A06-A03",
+   "setting": "campus town",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Business Management and Economics",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/businessmanagementandeconomics/",
+   "ucas_code": "A03-E63",
+   "setting": "campus town",
+   "town": "Keele"
   }
  ]
 }

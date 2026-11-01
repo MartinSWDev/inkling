@@ -6,31 +6,41 @@
    "title": "Radiotherapy and Oncology",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11RADONC",
-   "ucas_code": "A26-D57"
+   "ucas_code": "A26-D57",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Diagnostic-Radiography-BSc-Hons",
-   "ucas_code": "A74-D81"
+   "ucas_code": "A74-D81",
+   "setting": "campus town",
+   "town": "Huddersfield"
   },
   {
    "title": "Therapeutic Radiography and Oncology",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/therapeutic-radiography-and-oncology-bsc-hons/2027",
-   "ucas_code": "A03-B64"
+   "ucas_code": "A03-B64",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Cancer Sciences",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Cancer-Sciences-MSci-Hons.html",
-   "ucas_code": "A47-C24"
+   "ucas_code": "A47-C24",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Diagnostic Radiography and Medical Imaging",
    "provider": "University of Portsmouth",
    "url": "https://www.port.ac.uk/study/courses/bsc-hons-diagnostic-radiography-and-medical-imaging",
-   "ucas_code": "A18-H92"
+   "ucas_code": "A18-H92",
+   "setting": "coast",
+   "town": "Portsmouth"
   }
  ]
 }

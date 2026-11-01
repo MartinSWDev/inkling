@@ -6,61 +6,129 @@
    "title": "Cymraeg/Education",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?LKVXA3",
-   "ucas_code": "A74-D60"
+   "ucas_code": "A74-D60",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Education with Inclusive Practice",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/education-with-inclusive-practice",
-   "ucas_code": "A74-F38"
+   "ucas_code": "A74-F38",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Education and SEND",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/education-and-send/full-time/",
-   "ucas_code": "A67-A72"
+   "ucas_code": "A67-A72",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Primary Education",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba",
-   "ucas_code": "A48-B80"
+   "ucas_code": "A48-B80",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Biology and Education Studies",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-biology-and-education/",
-   "ucas_code": "A09-E43"
+   "ucas_code": "A09-E43",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Education Studies",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/education-studies-ba-hons-2027-28",
-   "ucas_code": "A14-D13"
+   "ucas_code": "A14-D13",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Education",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/education-ba",
-   "ucas_code": "A19-J20"
+   "ucas_code": "A19-J20",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Education Studies",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/education-studies",
-   "ucas_code": "A19-E84"
+   "ucas_code": "A19-E84",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Early Years Education and Professional Practice with Early Years Practitioner Status (EYPS) (Bilingual)",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-early-years-education-and-professional-practice-with-eyps/",
-   "ucas_code": "A55-F50"
+   "ucas_code": "A55-F50",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Education",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/education-bsc",
-   "ucas_code": "A40-A58"
+   "ucas_code": "A40-A58",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Primary Education and Teaching Studies",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/primary-education/?term=2027-28",
+   "ucas_code": "A41-H36",
+   "setting": "coast",
+   "town": "Scarborough"
+  },
+  {
+   "title": "Creative Writing with Education Studies",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/creative-writing-and-education-studies/creative-writing-with-education-studies.aspx",
+   "ucas_code": "A72-I98",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/x301/",
+   "ucas_code": "A07-G90",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Education",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/education-2026/",
+   "ucas_code": "A05-C72",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Education",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/education/",
+   "ucas_code": "A03-F15",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Early Years Teaching and Learning",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/education-early-years-teaching-and-learning-ba/",
+   "ucas_code": "A74-A67",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   }
  ]
 }

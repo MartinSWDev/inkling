@@ -6,61 +6,129 @@
    "title": "Economics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?BVES87",
-   "ucas_code": "A22-F38"
+   "ucas_code": "A22-F38",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Economics",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/economics-bsc",
-   "ucas_code": "A50-H47"
+   "ucas_code": "A50-H47",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Economics",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons",
-   "ucas_code": "A62-E11"
+   "ucas_code": "A62-E11",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Economics",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-economics/",
-   "ucas_code": "B57-I87"
+   "ucas_code": "B57-I87",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Economics",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/economics",
-   "ucas_code": "A24-D53"
+   "ucas_code": "A24-D53",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Economics",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/economics-bsc-hons-2027-28",
-   "ucas_code": "A14-D12"
+   "ucas_code": "A14-D12",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Economics",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-economics",
-   "ucas_code": "A11-H72"
+   "ucas_code": "A11-H72",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Economics",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/economics-bsc",
-   "ucas_code": "A19-J12"
+   "ucas_code": "A19-J12",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Economics",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/economics-ba",
-   "ucas_code": "A76-E08"
+   "ucas_code": "A76-E08",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Economics",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-economics/",
-   "ucas_code": "A08-G27"
+   "ucas_code": "A08-G27",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Economics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/economics-bsc",
+   "ucas_code": "A73-A83",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Economics",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/economics-bsc-hons/?term=2027-28",
+   "ucas_code": "A38-G89",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Economics",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/economics-with-foundation-l123/",
+   "ucas_code": "A77-A24",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Economics",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/economics",
+   "ucas_code": "A06-A03",
+   "setting": "campus town",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Economics",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/economicsba/",
+   "ucas_code": "A73-E66",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Economics",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/economics/",
+   "ucas_code": "A08-A22",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   }
  ]
 }

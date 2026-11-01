@@ -6,61 +6,129 @@
    "title": "Computer Games Design",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-design",
-   "ucas_code": "A63-E22"
+   "ucas_code": "A63-E22",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Games Development",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-games-development/",
-   "ucas_code": "A58-A75"
+   "ucas_code": "A58-A75",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Game Design",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/game-design-ba-hons-2027-28",
-   "ucas_code": "A72-B39"
+   "ucas_code": "A72-B39",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Games Design",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-games-design",
-   "ucas_code": "A11-H90"
+   "ucas_code": "A11-H90",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Games Design",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/games-design-ba",
-   "ucas_code": "A19-J54"
+   "ucas_code": "A19-J54",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Computer Games Development",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-computer-games-development",
-   "ucas_code": "A03-D29"
+   "ucas_code": "A03-D29",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Games Design",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/games-design",
-   "ucas_code": "A39-E72"
+   "ucas_code": "A39-E72",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Games Design and Development",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/games-design-and-development-ba/?term=2027-28",
-   "ucas_code": "A67-D50"
+   "ucas_code": "A67-D50",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Games Development",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/games-development/",
-   "ucas_code": "A73-F43"
+   "ucas_code": "A73-F43",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Games Development",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bscbsc-hons-games-development-undergraduate-fulltime",
-   "ucas_code": "A25-C74"
+   "ucas_code": "A25-C74",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Game Design",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/gamedesign/",
+   "ucas_code": "A71-D25",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Game Development",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/computer-games-programming/",
+   "ucas_code": "A07-J56",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Games Design",
+   "provider": "Leeds Arts University",
+   "url": "https://www.leeds-art.ac.uk/courses/ba-hons-games-design",
+   "ucas_code": "A69-H41",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Games Design",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/gamesdesign",
+   "ucas_code": "A10-H88",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Games Design",
+   "provider": "Leeds Trinity University",
+   "url": "https://www.leedstrinity.ac.uk/courses/undergraduate/games-design/",
+   "ucas_code": "A68-E04",
+   "setting": "campus town",
+   "town": "Horsforth"
+  },
+  {
+   "title": "Computer Games Development",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/35584-computer-games-development-bsc-hons",
+   "ucas_code": "A10-J99",
+   "setting": "city",
+   "town": "Liverpool"
   }
  ]
 }

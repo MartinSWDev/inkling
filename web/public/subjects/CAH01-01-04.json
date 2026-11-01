@@ -6,61 +6,129 @@
    "title": "Dental Surgery",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/dental-surgery-bds",
-   "ucas_code": "A27-I68"
+   "ucas_code": "A27-I68",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Dental Surgery",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/a206/",
-   "ucas_code": "A27-B65"
+   "ucas_code": "A27-B65",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Dentistry",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/dentistry",
-   "ucas_code": "A00-I50"
+   "ucas_code": "A00-I50",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Dentistry",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/dentistry-bds-a200/",
-   "ucas_code": "A28-B85"
+   "ucas_code": "A28-B85",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Dentistry",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/med/dental-surgery.aspx",
-   "ucas_code": "A04-I14"
+   "ucas_code": "A04-I14",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Dental Surgery",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bds-dental-surgery/2027-28/sep",
-   "ucas_code": "B58-C03"
+   "ucas_code": "B58-C03",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Dental Surgery",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/j926/dental-surgery-bchd",
-   "ucas_code": "A26-F86"
+   "ucas_code": "A26-F86",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Dental Surgery",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/dental-surgery-bds/2027",
-   "ucas_code": "A02-H01"
+   "ucas_code": "A02-H01",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Dental Surgery",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/dental-surgery-bds",
-   "ucas_code": "A35-E41"
+   "ucas_code": "A35-E41",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Dentistry",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/dentistry/",
-   "ucas_code": "A24-G39"
+   "ucas_code": "A24-G39",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/dental-surgery-bds",
+   "ucas_code": "A02-A99",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Dentistry",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/dentistry/bds-dentistry/",
+   "ucas_code": "A15-H95",
+   "setting": "city",
+   "town": "Bristol"
+  },
+  {
+   "title": "Dentistry",
+   "provider": "University of Dundee",
+   "url": "https://www.dundee.ac.uk/undergraduate/dentistry",
+   "ucas_code": "A16-A40",
+   "setting": "city",
+   "town": "Dundee"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/bds-dental-surgery",
+   "ucas_code": "A29-H77",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Dental Surgery",
+   "provider": "University of Portsmouth",
+   "url": "https://www.port.ac.uk/study/courses/bds-dental-surgery",
+   "ucas_code": "A76-A11",
+   "setting": "coast",
+   "town": "Portsmouth"
+  },
+  {
+   "title": "Dentistry",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/dentistry-bds",
+   "ucas_code": "A27-G12",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

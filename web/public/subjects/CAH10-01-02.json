@@ -6,61 +6,129 @@
    "title": "Mechanical Engineering",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/mechanical-engineering-beng",
-   "ucas_code": "A14-A61"
+   "ucas_code": "A14-A61",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/mechanical-engineering-beng",
-   "ucas_code": "A30-C30"
+   "ucas_code": "A30-C30",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/mechanical-engineering-beng-2027-28",
-   "ucas_code": "A75-D86"
+   "ucas_code": "A75-D86",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/beng-hons-mechanical-engineering-2",
-   "ucas_code": "A42-J91"
+   "ucas_code": "A42-J91",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/Mechanical-Engineering-BEng",
-   "ucas_code": "A19-J86"
+   "ucas_code": "A19-J86",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bucks.ac.uk/courses/undergraduate/beng-hons-mechanical-engineering",
-   "ucas_code": "A72-I76"
+   "ucas_code": "A72-I76",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
-   "ucas_code": "A72-B75"
+   "ucas_code": "A72-B75",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/mechanical-engineering",
-   "ucas_code": "A52-A02"
+   "ucas_code": "A52-A02",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/mechanical-engineering-beng",
-   "ucas_code": "A28-A15"
+   "ucas_code": "A28-A15",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Mechanical Engineering",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/mechanical-engineering-mengbeng-hons/?term=2027-28",
-   "ucas_code": "A38-I14"
+   "ucas_code": "A38-I14",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/mechanical-engineering-beng-degree/mechanical-engineering-beng-degree.aspx",
+   "ucas_code": "A25-H43",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/mechanical-engineering/",
+   "ucas_code": "A66-E46",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bengbeng-hons-mechanical-engineering-undergraduate-fulltime",
+   "ucas_code": "A25-D25",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/13MCHENG",
+   "ucas_code": "A56-G39",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDEMCHEN",
+   "ucas_code": "A30-H49",
+   "setting": "countryside",
+   "town": "Newport"
+  },
+  {
+   "title": "Mechanical Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/mechanical-engineering-beng",
+   "ucas_code": "A06-A71",
+   "setting": "campus town",
+   "town": "Edinburgh"
   }
  ]
 }

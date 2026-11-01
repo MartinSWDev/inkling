@@ -6,61 +6,89 @@
    "title": "Medical Sciences",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons",
-   "ucas_code": "A34-G25"
+   "ucas_code": "A34-G25",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Medical Science",
    "provider": "Middlesex University",
    "url": "https://www.mdx.ac.uk/courses/undergraduate/medical-science",
-   "ucas_code": "A61-C74"
+   "ucas_code": "A61-C74",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Medical Sciences",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/medical-sciences-bsc",
-   "ucas_code": "A02-D49"
+   "ucas_code": "A02-D49",
+   "setting": "campus town",
+   "town": "Burnley"
   },
   {
    "title": "Medical Sciences",
    "provider": "University of South Wales/Prifysgol De Cymru",
    "url": "https://www.southwales.ac.uk/courses/bsc-hons-medical-sciences/",
-   "ucas_code": "A04-F61"
+   "ucas_code": "A04-F61",
+   "setting": "campus town",
+   "town": "Pontypridd"
   },
   {
    "title": "Medical Sciences",
    "provider": "University of Wolverhampton",
    "url": "https://www.wlv.ac.uk/courses/BSc-Hons-Medical-Sciences",
-   "ucas_code": "A77-D77"
+   "ucas_code": "A77-D77",
+   "setting": "campus town",
+   "town": "Wolverhampton"
   },
   {
    "title": "Medical Science",
    "provider": "Abingdon and Witney College",
    "url": "https://www.brookes.ac.uk/courses/undergraduate/medical-science",
-   "ucas_code": "A06-D80"
+   "ucas_code": "A06-D80",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Medical Science",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/medical-sciences-ug/bsc-medical-science",
-   "ucas_code": "A55-D55"
+   "ucas_code": "A55-D55",
+   "setting": "campus town",
+   "town": "Reading"
   },
   {
    "title": "Medical Sciences",
    "provider": "Halesowen College",
    "url": "https://www.worcester.ac.uk/courses/medical-sciences-bsc-hons",
-   "ucas_code": "A59-B41"
+   "ucas_code": "A59-B41",
+   "setting": "campus town",
+   "town": "Worcester"
   },
   {
    "title": "Health and Medical Sciences",
    "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-health-medical-sciences",
-   "ucas_code": "A51-H48"
+   "ucas_code": "A51-H48",
+   "setting": "campus town",
+   "town": "Coventry"
   },
   {
    "title": "Medical Science and Innovation",
    "provider": "Imperial College London",
    "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medical-science-innovation/",
-   "ucas_code": "B55-E78"
+   "ucas_code": "B55-E78",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Applied Medical Sciences",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/applied-medical-sciences-bsc",
+   "ucas_code": "A23-J15",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Theatre and Performance",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/theatre-and-performance",
-   "ucas_code": "A19-H35"
+   "ucas_code": "A19-H35",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Performing Arts",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/performingarts",
-   "ucas_code": "A10-I19"
+   "ucas_code": "A10-I19",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Theatre and Performance",
    "provider": "London Metropolitan University",
    "url": "https://www.londonmet.ac.uk/courses/undergraduate/theatre-and-performance---ba-hons/",
-   "ucas_code": "A57-C99"
+   "ucas_code": "A57-C99",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Performing Arts (Stella Mann",
    "provider": "University Of Northampton, The",
    "url": "https://www.stellamanncollege.co.uk/our-courses/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "countryside",
+   "town": "Haverhill"
   },
   {
    "title": "Theatre and Performance Practice",
    "provider": "University Of Salford, The",
    "url": "https://www.salford.ac.uk/courses/undergraduate/theatre-and-performance-practice",
-   "ucas_code": "A28-G75"
+   "ucas_code": "A28-G75",
+   "setting": "city",
+   "town": "Salford"
   },
   {
    "title": "Performing Arts",
    "provider": "University Centre Peterborough",
    "url": "https://www.ucp.ac.uk/courses/ba-hons-acting-for-stage-and-screen/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Drama, Theatre and Performing Arts",
    "provider": "University of Kent (Part of London and South East University Group)",
    "url": "https://www.kent.ac.uk/courses/undergraduate/2027/114/drama-theatre-and-performing-arts",
-   "ucas_code": "A08-I95"
+   "ucas_code": "A08-I95",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Performance",
    "provider": "University of the West of Scotland",
    "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/performance/",
-   "ucas_code": "A32-D27"
+   "ucas_code": "A32-D27",
+   "setting": "coast",
+   "town": "Ayr"
   },
   {
    "title": "Performing Arts",
    "provider": "Drama Studio London Limited",
    "url": "https://www.jellistudios.co.uk/bahons",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Performing Arts",
    "provider": "East Durham College",
    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-performing-arts",
-   "ucas_code": "A01-G65"
+   "ucas_code": "A01-G65",
+   "setting": "coast",
+   "town": "Peterlee"
+  },
+  {
+   "title": "Dance (Performance and Screen)",
+   "provider": "Arts University Bournemouth, The",
+   "url": "https://aub.ac.uk/course/ba-hons-movement-dance-creative-practice",
+   "ucas_code": "A75-B34",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Musical Theatre",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/musical-theatre",
+   "ucas_code": "A14-A78",
+   "setting": "campus town",
+   "town": "Cambridge"
+  },
+  {
+   "title": "Commercial Dance",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/commercial-dance",
+   "ucas_code": "A76-B16",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Musical Theatre",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/acting-film-and-tv/ba-honours-musical-theatre/full-time",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Acting And Performance",
+   "provider": "Southampton Solent University",
+   "url": "https://www.solent.ac.uk/courses/undergraduate/acting-and-performance-ba/2027/ba-hons-acting-and-performance-3-years-2027",
+   "ucas_code": "A34-J18",
+   "setting": "coast",
+   "town": "Southampton"
+  },
+  {
+   "title": "Musical Theatre (Cabaret)",
+   "provider": "The University Of Chichester",
+   "url": "https://www.chi.ac.uk/stage-and-screen/course/ba-hons-musical-theatre-cabaret/",
+   "ucas_code": "A52-B83",
+   "setting": "campus town",
+   "town": "Chichester"
   }
  ]
 }

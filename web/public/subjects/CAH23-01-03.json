@@ -6,55 +6,73 @@
    "title": "Arts and Humanities",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/arts-and-humanities",
-   "ucas_code": "A75-C26"
+   "ucas_code": "A75-C26",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Liberal Arts",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/la00/",
-   "ucas_code": "A41-C78"
+   "ucas_code": "A41-C78",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Liberal Arts",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/liberal-arts-blibarts-y301/",
-   "ucas_code": "A76-B40"
+   "ucas_code": "A76-B40",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Liberal Arts",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/17859/ba-liberal-arts/",
-   "ucas_code": "A57-J65"
+   "ucas_code": "A57-J65",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Film & TV and History",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-film-and-tv-and-history",
-   "ucas_code": "A38-D34"
+   "ucas_code": "A38-D34",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Arabic and International Communication",
    "provider": "The University Of Westminster",
    "url": "https://www.westminster.ac.uk/arabic-and-international-communication-ba",
-   "ucas_code": "A19-A80"
+   "ucas_code": "A19-A80",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Education with Humanities",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/education-with-humanities-ba",
-   "ucas_code": "A73-B47"
+   "ucas_code": "A73-B47",
+   "setting": "campus town",
+   "town": "Preston"
   },
   {
    "title": "Philosophy, Politics, Ethics",
    "provider": "University of Brighton",
    "url": "http://www.brighton.ac.uk/courses/study/philosophy-politics-ethics-ba-hons",
-   "ucas_code": "A00-D13"
+   "ucas_code": "A00-D13",
+   "setting": "coast",
+   "town": "Brighton"
   },
   {
    "title": "Arts and Social Sciences",
    "provider": "University of Dundee",
    "url": "https://www.dundee.ac.uk/undergraduate/arts-social-sciences-ma",
-   "ucas_code": "A16-A09"
+   "ucas_code": "A16-A09",
+   "setting": "city",
+   "town": "Dundee"
   }
  ]
 }

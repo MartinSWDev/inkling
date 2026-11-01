@@ -1,0 +1,3791 @@
+{
+ "about": "Campus settings (city / coast / campus town / countryside) classified by Muse Spark Open (meta-models/muse-spark-open-1026) on Baseten from HESA Discover Uni location names and coordinates (CC BY 4.0). Review before use.",
+ "locations": {
+  "10000163:A": {
+   "setting": "coast",
+   "town": "Bournemouth",
+   "confidence": "high"
+  },
+  "10000163:B": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000163:C": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000163:D": {
+   "setting": "campus town",
+   "town": "Reading",
+   "confidence": "medium"
+  },
+  "10000163:E": {
+   "setting": "coast",
+   "town": "Sunderland",
+   "confidence": "high"
+  },
+  "10000163:F": {
+   "setting": "campus town",
+   "town": "Derby",
+   "confidence": "medium"
+  },
+  "10000163:G": {
+   "setting": "city",
+   "town": "Salford",
+   "confidence": "high"
+  },
+  "10000291:AA": {
+   "setting": "campus town",
+   "town": "Chelmsford",
+   "confidence": "high"
+  },
+  "10000291:CC": {
+   "setting": "campus town",
+   "town": "Cambridge",
+   "confidence": "high"
+  },
+  "10000291:GG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000291:LL": {
+   "setting": "campus town",
+   "town": "Wisbech",
+   "confidence": "medium"
+  },
+  "10000291:PP": {
+   "setting": "campus town",
+   "town": "Peterborough",
+   "confidence": "high"
+  },
+  "10000291:SS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000291:WW": {
+   "setting": "countryside",
+   "town": "Writtle",
+   "confidence": "high"
+  },
+  "10000381:A1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000385:AB": {
+   "setting": "coast",
+   "town": "Bournemouth",
+   "confidence": "high"
+  },
+  "10000385:D": {
+   "setting": "city",
+   "town": "Derby",
+   "confidence": "medium"
+  },
+  "10000385:F": {
+   "setting": "city",
+   "town": "Salford",
+   "confidence": "high"
+  },
+  "10000385:J": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000385:S": {
+   "setting": "coast",
+   "town": "Sunderland",
+   "confidence": "high"
+  },
+  "10000415:YK": {
+   "setting": "countryside",
+   "town": "York",
+   "confidence": "high"
+  },
+  "10000533:WS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000571:BAPA": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10000571:BOOM": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10000571:BS": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10000571:CW": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000571:FSB-BIR": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10000571:FSB-CRO": {
+   "setting": "city",
+   "town": "Croydon",
+   "confidence": "high"
+  },
+  "10000571:FSB-LUT": {
+   "setting": "campus town",
+   "town": "Luton",
+   "confidence": "medium"
+  },
+  "10000571:GBS-BIR": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10000571:GBS-GRE": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000571:GBS-LEE": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10000571:GBS-MAN": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10000571:GBS-STR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000571:HK": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000571:NP": {
+   "setting": "campus town",
+   "town": "Bath",
+   "confidence": "high"
+  },
+  "10000571:WC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000571:WE": {
+   "setting": "coast",
+   "town": "Weston-super-Mare",
+   "confidence": "high"
+  },
+  "10000712:00": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10000720:MC": {
+   "setting": "campus town",
+   "town": "Bishop Auckland",
+   "confidence": "low"
+  },
+  "10000721:01": {
+   "setting": "countryside",
+   "town": "Bishop Burton",
+   "confidence": "high"
+  },
+  "10000747:10": {
+   "setting": "campus town",
+   "town": "Blackburn",
+   "confidence": "high"
+  },
+  "10000754:01": {
+   "setting": "coast",
+   "town": "Blackpool",
+   "confidence": "high"
+  },
+  "10000754:02": {
+   "setting": "coast",
+   "town": "Blackpool",
+   "confidence": "high"
+  },
+  "10000754:03": {
+   "setting": "coast",
+   "town": "Fleetwood",
+   "confidence": "high"
+  },
+  "10000812:BC": {
+   "setting": "campus town",
+   "town": "Boston",
+   "confidence": "high"
+  },
+  "10000824:BU": {
+   "setting": "coast",
+   "town": "Bournemouth",
+   "confidence": "high"
+  },
+  "10000824:LN": {
+   "setting": "coast",
+   "town": "Portsmouth",
+   "confidence": "high"
+  },
+  "10000824:SS": {
+   "setting": "campus town",
+   "town": "Salisbury",
+   "confidence": "high"
+  },
+  "10000840:MC": {
+   "setting": "city",
+   "town": "Bradford",
+   "confidence": "high"
+  },
+  "10000878:CC": {
+   "setting": "countryside",
+   "town": "Bridgwater",
+   "confidence": "high"
+  },
+  "10000878:TC": {
+   "setting": "campus town",
+   "town": "Taunton",
+   "confidence": "high"
+  },
+  "10000886:KF": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10000886:KG": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10000886:KM": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10000894:BC": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10000911:EK": {
+   "setting": "countryside",
+   "town": "Maidstone",
+   "confidence": "medium"
+  },
+  "10000961:BU": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000975:AV": {
+   "setting": "campus town",
+   "town": "Aylesbury",
+   "confidence": "high"
+  },
+  "10000975:CI": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000975:DG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000975:DX": {
+   "setting": "city",
+   "town": "Milton Keynes",
+   "confidence": "medium"
+  },
+  "10000975:HW": {
+   "setting": "campus town",
+   "town": "High Wycombe",
+   "confidence": "high"
+  },
+  "10000975:MR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10000975:UX": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001000:BC": {
+   "setting": "countryside",
+   "town": "Preston",
+   "confidence": "low"
+  },
+  "10001093:CC": {
+   "setting": "campus town",
+   "town": "Halifax",
+   "confidence": "high"
+  },
+  "10001093:DC": {
+   "setting": "campus town",
+   "town": "Halifax",
+   "confidence": "high"
+  },
+  "10001143:1301": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001143:A0": {
+   "setting": "campus town",
+   "town": "Canterbury",
+   "confidence": "high"
+  },
+  "10001143:GBS1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001143:GBS2": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10001143:GBS3": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10001143:GBS4": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001143:GBS5": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001143:GBS6": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10001143:LSC1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001143:LSC2": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10001143:M0": {
+   "setting": "campus town",
+   "town": "Chatham",
+   "confidence": "medium"
+  },
+  "10001165:CN": {
+   "setting": "campus town",
+   "town": "Preston",
+   "confidence": "medium"
+  },
+  "10001282:01": {
+   "setting": "city",
+   "town": "Newcastle upon Tyne",
+   "confidence": "high"
+  },
+  "10001386:CS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001444:CS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001478:CSGC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001478:CSGT": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001503:HP": {
+   "setting": "coast",
+   "town": "Hartlepool",
+   "confidence": "high"
+  },
+  "10001535:CI": {
+   "setting": "campus town",
+   "town": "Colchester",
+   "confidence": "high"
+  },
+  "10001696:ED": {
+   "setting": "countryside",
+   "town": "St Austell",
+   "confidence": "medium"
+  },
+  "10001696:NQ": {
+   "setting": "coast",
+   "town": "Newquay",
+   "confidence": "high"
+  },
+  "10001726:01": {
+   "setting": "city",
+   "town": "Coventry",
+   "confidence": "high"
+  },
+  "10001726:02": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001726:03": {
+   "setting": "coast",
+   "town": "Scarborough",
+   "confidence": "high"
+  },
+  "10001726:04": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001726:05": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001726:06": {
+   "setting": "city",
+   "town": "Coventry",
+   "confidence": "high"
+  },
+  "10001726:07": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10001883:C0": {
+   "setting": "city",
+   "town": "Leicester",
+   "confidence": "high"
+  },
+  "10001883:DM": {
+   "setting": "city",
+   "town": "Leicester",
+   "confidence": "high"
+  },
+  "10001883:PP": {
+   "setting": "campus town",
+   "town": "Guildford",
+   "confidence": "high"
+  },
+  "10002107:LA": {
+   "setting": "campus town",
+   "town": "Langley",
+   "confidence": "medium"
+  },
+  "10002130:GP": {
+   "setting": "campus town",
+   "town": "Redhill",
+   "confidence": "high"
+  },
+  "10002313:ESCP": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10002370:EC": {
+   "setting": "campus town",
+   "town": "Exeter",
+   "confidence": "high"
+  },
+  "10002412:FC": {
+   "setting": "campus town",
+   "town": "Farnborough",
+   "confidence": "high"
+  },
+  "10002681:GH": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10002718:AA": {
+   "setting": "campus town",
+   "town": "Gravesend",
+   "confidence": "medium"
+  },
+  "10002923:EC": {
+   "setting": "coast",
+   "town": "Eastbourne",
+   "confidence": "high"
+  },
+  "10002923:MC": {
+   "setting": "coast",
+   "town": "Hastings",
+   "confidence": "high"
+  },
+  "10002923:NM": {
+   "setting": "coast",
+   "town": "Newhaven",
+   "confidence": "high"
+  },
+  "10003022:CR": {
+   "setting": "campus town",
+   "town": "Hereford",
+   "confidence": "high"
+  },
+  "10003128:FF": {
+   "setting": "campus town",
+   "town": "Bury",
+   "confidence": "medium"
+  },
+  "10003212:UG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003239:IC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003270:CH": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003270:CU": {
+   "setting": "campus town",
+   "town": "Carlisle",
+   "confidence": "high"
+  },
+  "10003270:SK": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003284:EG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003614:KA": {
+   "setting": "campus town",
+   "town": "Winchester",
+   "confidence": "high"
+  },
+  "10003645:AA": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003645:DH": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003645:GC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003674:KC": {
+   "setting": "city",
+   "town": "Kingston upon Thames",
+   "confidence": "medium"
+  },
+  "10003678:01": {
+   "setting": "city",
+   "town": "Kingston upon Thames",
+   "confidence": "medium"
+  },
+  "10003678:11": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10003746:1": {
+   "setting": "campus town",
+   "town": "Epsom",
+   "confidence": "high"
+  },
+  "10003753:LC": {
+   "setting": "coast",
+   "town": "Workington",
+   "confidence": "medium"
+  },
+  "10003758:TR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003854:BW": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10003861:CC": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10003861:HC": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10003863:H_LTULS16ER": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10003863:H_LTULS185HD": {
+   "setting": "campus town",
+   "town": "Horsforth",
+   "confidence": "medium"
+  },
+  "10003863:H_RECNN12BN": {
+   "setting": "campus town",
+   "town": "Northampton",
+   "confidence": "high"
+  },
+  "10003863:H_SSSB56BS": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10003863:H_SSSBD14RP": {
+   "setting": "city",
+   "town": "Bradford",
+   "confidence": "high"
+  },
+  "10003863:H_SSSLE16YJ": {
+   "setting": "countryside",
+   "town": "Norwich",
+   "confidence": "low"
+  },
+  "10003863:H_SSSM13HY": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10003863:H_SSSTW89DN": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003863:H_WICB120NS": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10003863:H_WICIG117NR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10003928:LC": {
+   "setting": "coast",
+   "town": "Skegness",
+   "confidence": "low"
+  },
+  "10003945:01": {
+   "setting": "city",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10003955:CC": {
+   "setting": "city",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10003956:EE": {
+   "setting": "city",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10003956:ZZ": {
+   "setting": "city",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10003957:RB": {
+   "setting": "city",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10004028:LC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004035:MC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004048:AL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004048:HO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004048:QAHE": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004048:SO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004061:A": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004063:A": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004075:LS": {
+   "setting": "campus town",
+   "town": "Northwood",
+   "confidence": "medium"
+  },
+  "10004078:CR": {
+   "setting": "campus town",
+   "town": "Croydon",
+   "confidence": "medium"
+  },
+  "10004078:SW": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004079:AD": {
+   "setting": "campus town",
+   "town": "Finchley",
+   "confidence": "medium"
+  },
+  "10004112:MA": {
+   "setting": "campus town",
+   "town": "Loughborough",
+   "confidence": "high"
+  },
+  "10004113:LU": {
+   "setting": "campus town",
+   "town": "Loughborough",
+   "confidence": "high"
+  },
+  "10004180:00": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10004180:03": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10004180:04": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10004320:NC": {
+   "setting": "campus town",
+   "town": "Ealing",
+   "confidence": "medium"
+  },
+  "10004344:MC": {
+   "setting": "campus town",
+   "town": "Middlesbrough",
+   "confidence": "high"
+  },
+  "10004351:AP": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004351:CAW": {
+   "setting": "campus town",
+   "town": "Potters Bar",
+   "confidence": "medium"
+  },
+  "10004351:CAWH": {
+   "setting": "campus town",
+   "town": "Huntingdon",
+   "confidence": "high"
+  },
+  "10004351:CAWL": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10004351:HE": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004351:RF": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004351:VIC": {
+   "setting": "campus town",
+   "town": "Watford",
+   "confidence": "high"
+  },
+  "10004432:CC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004432:WC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004442:MC": {
+   "setting": "countryside",
+   "town": "Northampton",
+   "confidence": "high"
+  },
+  "10004450:LN": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004478:PR": {
+   "setting": "countryside",
+   "town": "Preston",
+   "confidence": "high"
+  },
+  "10004538:MC": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10004552:AC": {
+   "setting": "campus town",
+   "town": "Accrington",
+   "confidence": "high"
+  },
+  "10004576:FM": {
+   "setting": "campus town",
+   "town": "Durham",
+   "confidence": "high"
+  },
+  "10004577:BH": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10004599:AA": {
+   "setting": "city",
+   "town": "Newcastle upon Tyne",
+   "confidence": "medium"
+  },
+  "10004599:MC": {
+   "setting": "city",
+   "town": "Newcastle upon Tyne",
+   "confidence": "high"
+  },
+  "10004695:HB": {
+   "setting": "campus town",
+   "town": "Doncaster",
+   "confidence": "high"
+  },
+  "10004695:NL": {
+   "setting": "campus town",
+   "town": "Scunthorpe",
+   "confidence": "high"
+  },
+  "10004740:YO": {
+   "setting": "campus town",
+   "town": "York",
+   "confidence": "high"
+  },
+  "10004747:Lincoln": {
+   "setting": "campus town",
+   "town": "Lincoln",
+   "confidence": "high"
+  },
+  "10004747:Mirfield": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "medium"
+  },
+  "10004747:Sheffield": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "high"
+  },
+  "10004772:EA": {
+   "setting": "countryside",
+   "town": "Norwich",
+   "confidence": "high"
+  },
+  "10004772:NO": {
+   "setting": "campus town",
+   "town": "Norwich",
+   "confidence": "high"
+  },
+  "10004775:NC": {
+   "setting": "campus town",
+   "town": "Norwich",
+   "confidence": "high"
+  },
+  "10004797:01": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10004797:02": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "medium"
+  },
+  "10004797:03": {
+   "setting": "countryside",
+   "town": "Southwell",
+   "confidence": "high"
+  },
+  "10004797:09": {
+   "setting": "campus town",
+   "town": "Mansfield",
+   "confidence": "high"
+  },
+  "10004797:LON": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004930:GBB": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10004930:GBE": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004930:GBL": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10004930:GBM": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10004930:GBW": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10004930:OBO": {
+   "setting": "campus town",
+   "town": "Oxford",
+   "confidence": "high"
+  },
+  "10004930:OBS": {
+   "setting": "campus town",
+   "town": "Swindon",
+   "confidence": "high"
+  },
+  "10004930:SW": {
+   "setting": "campus town",
+   "town": "Swindon",
+   "confidence": "high"
+  },
+  "10005072:AHED": {
+   "setting": "campus town",
+   "town": "Winchester",
+   "confidence": "high"
+  },
+  "10005124:P1": {
+   "setting": "countryside",
+   "town": "Plumpton",
+   "confidence": "high"
+  },
+  "10005127:TP": {
+   "setting": "coast",
+   "town": "Plymouth",
+   "confidence": "high"
+  },
+  "10005127:VCAD": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005200:PC": {
+   "setting": "campus town",
+   "town": "Preston",
+   "confidence": "high"
+  },
+  "10005337:CH": {
+   "setting": "coast",
+   "town": "Edinburgh",
+   "confidence": "medium"
+  },
+  "10005343:01": {
+   "setting": "coast",
+   "town": "Belfast",
+   "confidence": "high"
+  },
+  "10005389:01": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005389:FB": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10005389:FC": {
+   "setting": "city",
+   "town": "Croydon",
+   "confidence": "high"
+  },
+  "10005389:FL": {
+   "setting": "city",
+   "town": "Leicester",
+   "confidence": "high"
+  },
+  "10005389:FS": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "high"
+  },
+  "10005404:Re": {
+   "setting": "countryside",
+   "town": "Nantwich",
+   "confidence": "high"
+  },
+  "10005451:C": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10005451:D": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005451:E": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005451:F": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10005451:H": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10005451:NE": {
+   "setting": "city",
+   "town": "Newcastle upon Tyne",
+   "confidence": "high"
+  },
+  "10005451:Q": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10005451:T": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005470:CP": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005500:GD": {
+   "setting": "coast",
+   "town": "Aberdeen",
+   "confidence": "high"
+  },
+  "10005523:00": {
+   "setting": "city",
+   "town": "Sidcup",
+   "confidence": "medium"
+  },
+  "10005534:UC": {
+   "setting": "campus town",
+   "town": "Rotherham",
+   "confidence": "medium"
+  },
+  "10005544:HQ": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005545:RA": {
+   "setting": "countryside",
+   "town": "Cirencester",
+   "confidence": "low"
+  },
+  "10005553:EC": {
+   "setting": "campus town",
+   "town": "Egham",
+   "confidence": "high"
+  },
+  "10005553:LC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10005561:MA": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10005700:AB": {
+   "setting": "coast",
+   "town": "Aberdeen",
+   "confidence": "high"
+  },
+  "10005700:BA": {
+   "setting": "countryside",
+   "town": "Dumfries",
+   "confidence": "high"
+  },
+  "10005700:ED": {
+   "setting": "city",
+   "town": "Edinburgh",
+   "confidence": "medium"
+  },
+  "10005700:OA": {
+   "setting": "countryside",
+   "town": "Broxburn",
+   "confidence": "high"
+  },
+  "10005790:CC": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "high"
+  },
+  "10005790:CY": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "high"
+  },
+  "10005946:BL": {
+   "setting": "campus town",
+   "town": "Solihull",
+   "confidence": "medium"
+  },
+  "10005946:CH": {
+   "setting": "campus town",
+   "town": "Solihull",
+   "confidence": "medium"
+  },
+  "10005979:SD": {
+   "setting": "coast",
+   "town": "Waterlooville",
+   "confidence": "medium"
+  },
+  "10005981:BS": {
+   "setting": "campus town",
+   "town": "Basildon",
+   "confidence": "high"
+  },
+  "10005981:SO": {
+   "setting": "coast",
+   "town": "Southend-on-Sea",
+   "confidence": "high"
+  },
+  "10005981:TH": {
+   "setting": "campus town",
+   "town": "Grays",
+   "confidence": "medium"
+  },
+  "10005998:00": {
+   "setting": "city",
+   "town": "Stockport",
+   "confidence": "high"
+  },
+  "10006022:01": {
+   "setting": "coast",
+   "town": "Southampton",
+   "confidence": "high"
+  },
+  "10006050:00": {
+   "setting": "countryside",
+   "town": "Winchester",
+   "confidence": "high"
+  },
+  "10006174:XX": {
+   "setting": "campus town",
+   "town": "St Helens",
+   "confidence": "high"
+  },
+  "10006299:07": {
+   "setting": "city",
+   "town": "Stoke-on-Trent",
+   "confidence": "medium"
+  },
+  "10006299:12": {
+   "setting": "campus town",
+   "town": "Stafford",
+   "confidence": "high"
+  },
+  "10006299:14": {
+   "setting": "city",
+   "town": "Stoke-on-Trent",
+   "confidence": "medium"
+  },
+  "10006299:21": {
+   "setting": "campus town",
+   "town": "Lichfield",
+   "confidence": "high"
+  },
+  "10006299:71": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006299:72": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006299:73": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10006299:95": {
+   "setting": "campus town",
+   "town": "Swindon",
+   "confidence": "low"
+  },
+  "10006427:CA": {
+   "setting": "campus town",
+   "town": "Canterbury",
+   "confidence": "high"
+  },
+  "10006427:EP": {
+   "setting": "campus town",
+   "town": "Epsom",
+   "confidence": "high"
+  },
+  "10006427:FA": {
+   "setting": "campus town",
+   "town": "Farnham",
+   "confidence": "high"
+  },
+  "10006427:LA": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006427:LM": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006427:MS": {
+   "setting": "campus town",
+   "town": "Maidstone",
+   "confidence": "high"
+  },
+  "10006566:AD": {
+   "setting": "city",
+   "town": "Leicester",
+   "confidence": "high"
+  },
+  "10006566:BH": {
+   "setting": "campus town",
+   "town": "Borehamwood",
+   "confidence": "medium"
+  },
+  "10006566:DS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006566:M": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006566:R": {
+   "setting": "campus town",
+   "town": "Oxford",
+   "confidence": "high"
+  },
+  "10006566:SA": {
+   "setting": "coast",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10006566:SB": {
+   "setting": "countryside",
+   "town": "Norwich",
+   "confidence": "low"
+  },
+  "10006566:SC": {
+   "setting": "campus town",
+   "town": "Slough",
+   "confidence": "high"
+  },
+  "10006566:UP": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006566:Z": {
+   "setting": "campus town",
+   "town": "Reading",
+   "confidence": "high"
+  },
+  "10006770:OC": {
+   "setting": "campus town",
+   "town": "Oldham",
+   "confidence": "high"
+  },
+  "10006840:ED": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10006841:BM": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10006841:GC": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10006841:RG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10006841:SA": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10006841:SI": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10006841:UB": {
+   "setting": "campus town",
+   "town": "Bolton",
+   "confidence": "high"
+  },
+  "10006842:MC": {
+   "setting": "coast",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10006963:AG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "medium"
+  },
+  "10007063:TC": {
+   "setting": "campus town",
+   "town": "Truro",
+   "confidence": "high"
+  },
+  "10007114:AR": {
+   "setting": "coast",
+   "town": "Oban",
+   "confidence": "high"
+  },
+  "10007114:EO": {
+   "setting": "coast",
+   "town": "Inverness",
+   "confidence": "medium"
+  },
+  "10007114:HT": {
+   "setting": "coast",
+   "town": "Dingwall",
+   "confidence": "medium"
+  },
+  "10007114:IN": {
+   "setting": "coast",
+   "town": "Inverness",
+   "confidence": "medium"
+  },
+  "10007114:MO": {
+   "setting": "campus town",
+   "town": "Elgin",
+   "confidence": "high"
+  },
+  "10007114:NWH": {
+   "setting": "coast",
+   "town": "Thurso",
+   "confidence": "high"
+  },
+  "10007114:OR": {
+   "setting": "coast",
+   "town": "Kirkwall",
+   "confidence": "high"
+  },
+  "10007114:PE": {
+   "setting": "campus town",
+   "town": "Perth",
+   "confidence": "high"
+  },
+  "10007114:SA": {
+   "setting": "coast",
+   "town": "Oban",
+   "confidence": "high"
+  },
+  "10007114:SH": {
+   "setting": "coast",
+   "town": "Lerwick",
+   "confidence": "high"
+  },
+  "10007114:SM": {
+   "setting": "countryside",
+   "town": "Sleat",
+   "confidence": "medium"
+  },
+  "10007137:BO": {
+   "setting": "campus town",
+   "town": "Chichester",
+   "confidence": "high"
+  },
+  "10007137:BR": {
+   "setting": "coast",
+   "town": "Bognor Regis",
+   "confidence": "high"
+  },
+  "10007138:A": {
+   "setting": "campus town",
+   "town": "Northampton",
+   "confidence": "high"
+  },
+  "10007138:S1": {
+   "setting": "countryside",
+   "town": "Haverhill",
+   "confidence": "low"
+  },
+  "10007138:U3": {
+   "setting": "campus town",
+   "town": "Banbury",
+   "confidence": "high"
+  },
+  "10007139:DC": {
+   "setting": "campus town",
+   "town": "Dudley",
+   "confidence": "high"
+  },
+  "10007139:MP": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007139:UW": {
+   "setting": "campus town",
+   "town": "Worcester",
+   "confidence": "high"
+  },
+  "10007139:WMCC": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007140:AL": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007140:CC": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007140:CS": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007141:09": {
+   "setting": "campus town",
+   "town": "Preston",
+   "confidence": "high"
+  },
+  "10007141:BU": {
+   "setting": "campus town",
+   "town": "Burnley",
+   "confidence": "high"
+  },
+  "10007141:LL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007141:SR": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007141:WL": {
+   "setting": "coast",
+   "town": "Whitehaven",
+   "confidence": "high"
+  },
+  "10007143:AA": {
+   "setting": "campus town",
+   "town": "Durham",
+   "confidence": "high"
+  },
+  "10007144:UEL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007145:A1": {
+   "setting": "campus town",
+   "town": "Cheltenham",
+   "confidence": "high"
+  },
+  "10007145:DG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007146:100": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007146:130": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007146:150": {
+   "setting": "campus town",
+   "town": "Chatham",
+   "confidence": "medium"
+  },
+  "10007146:276": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007146:416": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007147:HC": {
+   "setting": "campus town",
+   "town": "Hertford",
+   "confidence": "high"
+  },
+  "10007147:NH": {
+   "setting": "campus town",
+   "town": "Stevenage",
+   "confidence": "high"
+  },
+  "10007147:OC": {
+   "setting": "campus town",
+   "town": "St Albans",
+   "confidence": "high"
+  },
+  "10007147:UH": {
+   "setting": "campus town",
+   "town": "Hatfield",
+   "confidence": "high"
+  },
+  "10007147:WH": {
+   "setting": "campus town",
+   "town": "Watford",
+   "confidence": "high"
+  },
+  "10007148:QG": {
+   "setting": "campus town",
+   "town": "Huddersfield",
+   "confidence": "high"
+  },
+  "10007149:HU": {
+   "setting": "city",
+   "town": "Hull",
+   "confidence": "high"
+  },
+  "10007150:AX": {
+   "setting": "campus town",
+   "town": "Canterbury",
+   "confidence": "high"
+  },
+  "10007150:BX": {
+   "setting": "campus town",
+   "town": "Chatham",
+   "confidence": "high"
+  },
+  "10007151:L": {
+   "setting": "campus town",
+   "town": "Lincoln",
+   "confidence": "high"
+  },
+  "10007152:AA": {
+   "setting": "campus town",
+   "town": "Luton",
+   "confidence": "high"
+  },
+  "10007152:AB": {
+   "setting": "campus town",
+   "town": "Bedford",
+   "confidence": "high"
+  },
+  "10007152:AC": {
+   "setting": "campus town",
+   "town": "Aylesbury",
+   "confidence": "high"
+  },
+  "10007154:SB": {
+   "setting": "countryside",
+   "town": "Sutton Bonington",
+   "confidence": "high"
+  },
+  "10007154:UN": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10007155:LD": {
+   "setting": "countryside",
+   "town": "Brackley",
+   "confidence": "low"
+  },
+  "10007155:UP": {
+   "setting": "coast",
+   "town": "Portsmouth",
+   "confidence": "high"
+  },
+  "10007156:SU": {
+   "setting": "city",
+   "town": "Salford",
+   "confidence": "high"
+  },
+  "10007157:SHEFFIELD CAMPUS": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "high"
+  },
+  "10007158:SO": {
+   "setting": "coast",
+   "town": "Southampton",
+   "confidence": "high"
+  },
+  "10007158:WI": {
+   "setting": "campus town",
+   "town": "Winchester",
+   "confidence": "high"
+  },
+  "10007159:AA": {
+   "setting": "coast",
+   "town": "Peterlee",
+   "confidence": "high"
+  },
+  "10007159:LL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007160:AA": {
+   "setting": "campus town",
+   "town": "Guildford",
+   "confidence": "high"
+  },
+  "10007161:DC": {
+   "setting": "campus town",
+   "town": "Darlington",
+   "confidence": "high"
+  },
+  "10007161:HC": {
+   "setting": "coast",
+   "town": "Hartlepool",
+   "confidence": "high"
+  },
+  "10007161:RC": {
+   "setting": "coast",
+   "town": "Redcar",
+   "confidence": "high"
+  },
+  "10007161:SC": {
+   "setting": "campus town",
+   "town": "Stockton-on-Tees",
+   "confidence": "high"
+  },
+  "10007161:TL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007161:TU": {
+   "setting": "campus town",
+   "town": "Middlesbrough",
+   "confidence": "medium"
+  },
+  "10007162:EBK": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007162:EC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007162:JI": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007162:KX": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007162:MH": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007162:PR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007163:UW": {
+   "setting": "campus town",
+   "town": "Coventry",
+   "confidence": "high"
+  },
+  "10007164:BF": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10007164:CC": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10007164:GL": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10007164:UW": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10007165:CC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007165:HC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007165:MC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007165:RC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007166:CITYCOLTDCOV": {
+   "setting": "city",
+   "town": "Coventry",
+   "confidence": "high"
+  },
+  "10007166:GREENVALLEY": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007166:LC_BUSINESS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007166:RAINDANCE": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007166:SANDWELLCOL": {
+   "setting": "city",
+   "town": "West Bromwich",
+   "confidence": "high"
+  },
+  "10007166:SIRM": {
+   "setting": "city",
+   "town": "Leicester",
+   "confidence": "high"
+  },
+  "10007166:SOC_BHAM": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007166:STRATFORD_CO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007166:UKMC_ABARNA": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007166:UKMC_DERBY": {
+   "setting": "campus town",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10007166:UKMC_NEW": {
+   "setting": "coast",
+   "town": "Newcastle upon Tyne",
+   "confidence": "medium"
+  },
+  "10007166:UKMC_SALFORD": {
+   "setting": "city",
+   "town": "Salford",
+   "confidence": "high"
+  },
+  "10007166:UKMC_SNDLND": {
+   "setting": "coast",
+   "town": "Sunderland",
+   "confidence": "high"
+  },
+  "10007166:UNIV_WA": {
+   "setting": "campus town",
+   "town": "Walsall",
+   "confidence": "high"
+  },
+  "10007166:UNIV_WV": {
+   "setting": "campus town",
+   "town": "Wolverhampton",
+   "confidence": "high"
+  },
+  "10007167:Y1": {
+   "setting": "campus town",
+   "town": "York",
+   "confidence": "high"
+  },
+  "10007289:S": {
+   "setting": "campus town",
+   "town": "Selby",
+   "confidence": "high"
+  },
+  "10007289:WC": {
+   "setting": "campus town",
+   "town": "Wakefield",
+   "confidence": "high"
+  },
+  "10007361:WH": {
+   "setting": "countryside",
+   "town": "Farnham",
+   "confidence": "high"
+  },
+  "10007431:B": {
+   "setting": "campus town",
+   "town": "Bury St Edmunds",
+   "confidence": "high"
+  },
+  "10007459:KN": {
+   "setting": "coast",
+   "town": "Weston-super-Mare",
+   "confidence": "high"
+  },
+  "10007459:LC": {
+   "setting": "coast",
+   "town": "Weston-super-Mare",
+   "confidence": "high"
+  },
+  "10007469:KM": {
+   "setting": "countryside",
+   "town": "Dorchester",
+   "confidence": "high"
+  },
+  "10007500:PW": {
+   "setting": "campus town",
+   "town": "Wigan",
+   "confidence": "high"
+  },
+  "10007553:1": {
+   "setting": "city",
+   "town": "Birkenhead",
+   "confidence": "medium"
+  },
+  "10007696:YC": {
+   "setting": "campus town",
+   "town": "Yeovil",
+   "confidence": "high"
+  },
+  "10007709:SB": {
+   "setting": "campus town",
+   "town": "York",
+   "confidence": "high"
+  },
+  "10007713:LW": {
+   "setting": "campus town",
+   "town": "York",
+   "confidence": "high"
+  },
+  "10007759:AU": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007760:BMAL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007760:WCL": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10007761:VS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007762:00": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10007764:ED": {
+   "setting": "campus town",
+   "town": "Edinburgh",
+   "confidence": "medium"
+  },
+  "10007764:SB": {
+   "setting": "campus town",
+   "town": "Galashiels",
+   "confidence": "high"
+  },
+  "10007767:AA": {
+   "setting": "campus town",
+   "town": "Keele",
+   "confidence": "medium"
+  },
+  "10007768:BC": {
+   "setting": "campus town",
+   "town": "Lancaster",
+   "confidence": "high"
+  },
+  "10007768:UAB": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007768:UAT": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007772:CL": {
+   "setting": "city",
+   "town": "Edinburgh",
+   "confidence": "high"
+  },
+  "10007772:ME": {
+   "setting": "city",
+   "town": "Edinburgh",
+   "confidence": "high"
+  },
+  "10007772:SH": {
+   "setting": "city",
+   "town": "Edinburgh",
+   "confidence": "high"
+  },
+  "10007774:OX": {
+   "setting": "campus town",
+   "town": "Oxford",
+   "confidence": "high"
+  },
+  "10007775:01": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007775:02": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007776:00": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007776:02": {
+   "setting": "city",
+   "town": "Croydon",
+   "confidence": "high"
+  },
+  "10007778:PC": {
+   "setting": "campus town",
+   "town": "Maidenhead",
+   "confidence": "low"
+  },
+  "10007779:ABER": {
+   "setting": "coast",
+   "town": "Aberystwyth",
+   "confidence": "high"
+  },
+  "10007779:CAMDEN": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007779:HAWKSHEAD": {
+   "setting": "countryside",
+   "town": "Hatfield",
+   "confidence": "high"
+  },
+  "10007780:MC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007783:FH": {
+   "setting": "coast",
+   "town": "Aberdeen",
+   "confidence": "high"
+  },
+  "10007783:OA": {
+   "setting": "coast",
+   "town": "Aberdeen",
+   "confidence": "high"
+  },
+  "10007784:AA": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007784:BB": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007784:CC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007785:BRAD5826": {
+   "setting": "city",
+   "town": "Bradford",
+   "confidence": "high"
+  },
+  "10007785:DEWSBURY5826": {
+   "setting": "campus town",
+   "town": "Dewsbury",
+   "confidence": "high"
+  },
+  "10007786:BR": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10007787:BC": {
+   "setting": "campus town",
+   "town": "Buckingham",
+   "confidence": "high"
+  },
+  "10007788:UC": {
+   "setting": "campus town",
+   "town": "Cambridge",
+   "confidence": "high"
+  },
+  "10007789:AA": {
+   "setting": "campus town",
+   "town": "Norwich",
+   "confidence": "high"
+  },
+  "10007790:01": {
+   "setting": "city",
+   "town": "Edinburgh",
+   "confidence": "high"
+  },
+  "10007791:A": {
+   "setting": "campus town",
+   "town": "Colchester",
+   "confidence": "high"
+  },
+  "10007791:E": {
+   "setting": "campus town",
+   "town": "Loughton",
+   "confidence": "medium"
+  },
+  "10007792:A": {
+   "setting": "campus town",
+   "town": "Exeter",
+   "confidence": "high"
+  },
+  "10007792:B": {
+   "setting": "coast",
+   "town": "Penryn",
+   "confidence": "high"
+  },
+  "10007792:C": {
+   "setting": "campus town",
+   "town": "Exeter",
+   "confidence": "medium"
+  },
+  "10007793:F2": {
+   "setting": "city",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10007793:FD": {
+   "setting": "campus town",
+   "town": "Bridgend",
+   "confidence": "high"
+  },
+  "10007793:FG": {
+   "setting": "campus town",
+   "town": "Crosskeys",
+   "confidence": "high"
+  },
+  "10007793:FM": {
+   "setting": "campus town",
+   "town": "Pontypridd",
+   "confidence": "high"
+  },
+  "10007793:UA": {
+   "setting": "campus town",
+   "town": "Pontypridd",
+   "confidence": "high"
+  },
+  "10007793:UB": {
+   "setting": "city",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10007793:UC": {
+   "setting": "city",
+   "town": "Newport",
+   "confidence": "high"
+  },
+  "10007794:DC": {
+   "setting": "campus town",
+   "town": "Dumfries",
+   "confidence": "high"
+  },
+  "10007794:GC": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10007795:A": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10007796:MC": {
+   "setting": "city",
+   "town": "Leicester",
+   "confidence": "high"
+  },
+  "10007798:A": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007798:C": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007799:AA": {
+   "setting": "city",
+   "town": "Newcastle upon Tyne",
+   "confidence": "high"
+  },
+  "10007800:A": {
+   "setting": "city",
+   "town": "Paisley",
+   "confidence": "medium"
+  },
+  "10007800:C": {
+   "setting": "coast",
+   "town": "Ayr",
+   "confidence": "high"
+  },
+  "10007800:D": {
+   "setting": "campus town",
+   "town": "Dumfries",
+   "confidence": "high"
+  },
+  "10007800:K": {
+   "setting": "campus town",
+   "town": "Hamilton",
+   "confidence": "medium"
+  },
+  "10007800:R": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007801:EX": {
+   "setting": "campus town",
+   "town": "Exeter",
+   "confidence": "high"
+  },
+  "10007801:TR": {
+   "setting": "coast",
+   "town": "Truro",
+   "confidence": "medium"
+  },
+  "10007801:UP": {
+   "setting": "coast",
+   "town": "Plymouth",
+   "confidence": "high"
+  },
+  "10007802:WK": {
+   "setting": "campus town",
+   "town": "Reading",
+   "confidence": "high"
+  },
+  "10007803:AA": {
+   "setting": "coast",
+   "town": "St Andrews",
+   "confidence": "high"
+  },
+  "10007804:ST": {
+   "setting": "campus town",
+   "town": "Stirling",
+   "confidence": "high"
+  },
+  "10007805:JA": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10007806:S1": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10007807:BM": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007807:BT": {
+   "setting": "city",
+   "town": "Belfast",
+   "confidence": "high"
+  },
+  "10007807:CE": {
+   "setting": "coast",
+   "town": "Coleraine",
+   "confidence": "medium"
+  },
+  "10007807:LN": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007807:MG": {
+   "setting": "city",
+   "town": "Derry",
+   "confidence": "medium"
+  },
+  "10007810:CH": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007811:00": {
+   "setting": "campus town",
+   "town": "Lincoln",
+   "confidence": "high"
+  },
+  "10007812:03": {
+   "setting": "city",
+   "town": "Paris",
+   "confidence": "high"
+  },
+  "10007814:01": {
+   "setting": "city",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10007814:03": {
+   "setting": "city",
+   "town": "Newport",
+   "confidence": "medium"
+  },
+  "10007816:00": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007817:WD": {
+   "setting": "coast",
+   "town": "Worthing",
+   "confidence": "high"
+  },
+  "10007820:M2": {
+   "setting": "coast",
+   "town": "Bangor",
+   "confidence": "medium"
+  },
+  "10007823:OH": {
+   "setting": "city",
+   "town": "Bury",
+   "confidence": "medium"
+  },
+  "10007823:OM": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007823:OO": {
+   "setting": "campus town",
+   "town": "Ormskirk",
+   "confidence": "high"
+  },
+  "10007823:OW": {
+   "setting": "campus town",
+   "town": "Wigan",
+   "confidence": "high"
+  },
+  "10007825:GS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007832:01": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007833:AA": {
+   "setting": "campus town",
+   "town": "Wrexham",
+   "confidence": "high"
+  },
+  "10007833:BB": {
+   "setting": "countryside",
+   "town": "Mold",
+   "confidence": "medium"
+  },
+  "10007835:00": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007837:00": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10007842:A1": {
+   "setting": "countryside",
+   "town": "Ambleside",
+   "confidence": "medium"
+  },
+  "10007842:B1": {
+   "setting": "campus town",
+   "town": "Carlisle",
+   "confidence": "high"
+  },
+  "10007842:F1": {
+   "setting": "campus town",
+   "town": "Carlisle",
+   "confidence": "high"
+  },
+  "10007842:L1": {
+   "setting": "campus town",
+   "town": "Lancaster",
+   "confidence": "high"
+  },
+  "10007842:R1": {
+   "setting": "coast",
+   "town": "Barrow-in-Furness",
+   "confidence": "high"
+  },
+  "10007842:T1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007843:00": {
+   "setting": "city",
+   "town": "Twickenham",
+   "confidence": "high"
+  },
+  "10007843:09": {
+   "setting": "city",
+   "town": "Harrow",
+   "confidence": "medium"
+  },
+  "10007843:16": {
+   "setting": "coast",
+   "town": "Belfast",
+   "confidence": "high"
+  },
+  "10007843:18": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007843:27": {
+   "setting": "campus town",
+   "town": "Wrexham",
+   "confidence": "high"
+  },
+  "10007843:42": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007848:A": {
+   "setting": "campus town",
+   "town": "Chester",
+   "confidence": "high"
+  },
+  "10007848:B": {
+   "setting": "city",
+   "town": "Birkenhead",
+   "confidence": "medium"
+  },
+  "10007848:HM": {
+   "setting": "campus town",
+   "town": "Chester",
+   "confidence": "high"
+  },
+  "10007848:W": {
+   "setting": "campus town",
+   "town": "Warrington",
+   "confidence": "high"
+  },
+  "10007849:DD": {
+   "setting": "coast",
+   "town": "Dundee",
+   "confidence": "high"
+  },
+  "10007850:01": {
+   "setting": "campus town",
+   "town": "Bath",
+   "confidence": "high"
+  },
+  "10007850:02": {
+   "setting": "coast",
+   "town": "Plymouth",
+   "confidence": "high"
+  },
+  "10007851:AA": {
+   "setting": "campus town",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10007851:AC": {
+   "setting": "campus town",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10007851:AE": {
+   "setting": "city",
+   "town": "Rotherham",
+   "confidence": "low"
+  },
+  "10007851:AM": {
+   "setting": "campus town",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10007851:AO": {
+   "setting": "city",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10007851:CR": {
+   "setting": "campus town",
+   "town": "Chesterfield",
+   "confidence": "high"
+  },
+  "10007851:DT": {
+   "setting": "city",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10007852:AA": {
+   "setting": "city",
+   "town": "Dundee",
+   "confidence": "high"
+  },
+  "10007854:BC": {
+   "setting": "campus town",
+   "town": "Bridgend",
+   "confidence": "high"
+  },
+  "10007854:CY": {
+   "setting": "city",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10007854:LL": {
+   "setting": "city",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10007854:NC": {
+   "setting": "campus town",
+   "town": "Neath",
+   "confidence": "high"
+  },
+  "10007854:TG": {
+   "setting": "countryside",
+   "town": "Talgarth",
+   "confidence": "medium"
+  },
+  "10007855:SB": {
+   "setting": "coast",
+   "town": "Swansea",
+   "confidence": "high"
+  },
+  "10007855:SU": {
+   "setting": "coast",
+   "town": "Swansea",
+   "confidence": "high"
+  },
+  "10007856:AB": {
+   "setting": "coast",
+   "town": "Aberystwyth",
+   "confidence": "high"
+  },
+  "10007857:BU": {
+   "setting": "coast",
+   "town": "Bangor",
+   "confidence": "high"
+  },
+  "10007857:WR": {
+   "setting": "campus town",
+   "town": "Wrexham",
+   "confidence": "high"
+  },
+  "10007858:00": {
+   "setting": "coast",
+   "town": "Swansea",
+   "confidence": "high"
+  },
+  "10007858:BM": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10007858:CA": {
+   "setting": "campus town",
+   "town": "Carmarthen",
+   "confidence": "high"
+  },
+  "10007858:CF": {
+   "setting": "coast",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10007858:LA": {
+   "setting": "campus town",
+   "town": "Lampeter",
+   "confidence": "high"
+  },
+  "10007858:LO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10007858:NP": {
+   "setting": "coast",
+   "town": "Neath",
+   "confidence": "medium"
+  },
+  "10007858:PC": {
+   "setting": "campus town",
+   "town": "Haverfordwest",
+   "confidence": "high"
+  },
+  "10007858:SG": {
+   "setting": "coast",
+   "town": "Llanelli",
+   "confidence": "high"
+  },
+  "10007859:0": {
+   "setting": "campus town",
+   "town": "Royal Leamington Spa",
+   "confidence": "high"
+  },
+  "10007859:1": {
+   "setting": "campus town",
+   "town": "Rugby",
+   "confidence": "high"
+  },
+  "10007859:4": {
+   "setting": "countryside",
+   "town": "Moreton Morrell",
+   "confidence": "high"
+  },
+  "10007859:6": {
+   "setting": "countryside",
+   "town": "Pershore",
+   "confidence": "high"
+  },
+  "10007912:CC": {
+   "setting": "countryside",
+   "town": "Calver",
+   "confidence": "high"
+  },
+  "10007938:FL": {
+   "setting": "campus town",
+   "town": "Beverley",
+   "confidence": "high"
+  },
+  "10007938:GB": {
+   "setting": "coast",
+   "town": "Grimsby",
+   "confidence": "high"
+  },
+  "10008010:SU": {
+   "setting": "city",
+   "town": "Belfast",
+   "confidence": "high"
+  },
+  "10008017:TL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008026:01": {
+   "setting": "city",
+   "town": "Belfast",
+   "confidence": "high"
+  },
+  "10008071:LONAA": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "medium"
+  },
+  "10008397:NC": {
+   "setting": "campus town",
+   "town": "Bath",
+   "confidence": "high"
+  },
+  "10008455:A": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008455:B": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008455:D": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008455:E": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008455:F": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008455:G": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008640:DB": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10008640:DM": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10008640:DP": {
+   "setting": "coast",
+   "town": "Plymouth",
+   "confidence": "high"
+  },
+  "10008640:FL": {
+   "setting": "coast",
+   "town": "Falmouth",
+   "confidence": "high"
+  },
+  "10008640:FR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10008640:MO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "medium"
+  },
+  "10008640:PN": {
+   "setting": "coast",
+   "town": "Penryn",
+   "confidence": "high"
+  },
+  "10008640:WA": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10008640:WS": {
+   "setting": "city",
+   "town": "Sheffield",
+   "confidence": "high"
+  },
+  "10008816:NS": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10009292:MC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10009527:FS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10009612:AA": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10010213:UH": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10010308:CB": {
+   "setting": "campus town",
+   "town": "Cambridge",
+   "confidence": "high"
+  },
+  "10013220:Main Site": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10014001:GBSB": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10014001:GBSC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10014001:GBSE": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10014001:GBSL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10014001:GBSM": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10014001:GBSR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10014001:IP": {
+   "setting": "campus town",
+   "town": "Ipswich",
+   "confidence": "medium"
+  },
+  "10014001:LO": {
+   "setting": "coast",
+   "town": "Lowestoft",
+   "confidence": "high"
+  },
+  "10014001:YA": {
+   "setting": "coast",
+   "town": "Great Yarmouth",
+   "confidence": "high"
+  },
+  "10015506:CR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10019178:PB": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10019368:IL": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10020416:LC": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10021100:WESTMAL": {
+   "setting": "countryside",
+   "town": "Malvern",
+   "confidence": "high"
+  },
+  "10021550:LQ": {
+   "setting": "countryside",
+   "town": "Machynlleth",
+   "confidence": "medium"
+  },
+  "10022087:RS": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10022285:LS": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10023139:CC": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10023139:OP": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10023452:A": {
+   "setting": "countryside",
+   "town": "Markfield",
+   "confidence": "high"
+  },
+  "10023452:B": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10023452:C": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10023453:VENUE01": {
+   "setting": "campus town",
+   "town": "Norwich",
+   "confidence": "medium"
+  },
+  "10023454:MCC": {
+   "setting": "coast",
+   "town": "Christchurch",
+   "confidence": "high"
+  },
+  "10023454:MSW": {
+   "setting": "coast",
+   "town": "Barnstaple",
+   "confidence": "medium"
+  },
+  "10023456:NC": {
+   "setting": "countryside",
+   "town": "Bracknell",
+   "confidence": "high"
+  },
+  "10023458:CQ": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10023464:TC": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10024024:Avondale": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10024962:UC": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10026921:CC": {
+   "setting": "city",
+   "town": "Croydon",
+   "confidence": "high"
+  },
+  "10026921:HC": {
+   "setting": "city",
+   "town": "Harrow",
+   "confidence": "high"
+  },
+  "10026921:IC": {
+   "setting": "city",
+   "town": "Ilford",
+   "confidence": "high"
+  },
+  "10027603:LO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10029147:A": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10029682:WG": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10030776:EM": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10030776:LC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10030776:SW": {
+   "setting": "coast",
+   "town": "Plymouth",
+   "confidence": "high"
+  },
+  "10030973:BRIS": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10030973:CAMB": {
+   "setting": "campus town",
+   "town": "Cambridge",
+   "confidence": "medium"
+  },
+  "10030973:DRBY": {
+   "setting": "campus town",
+   "town": "Alfreton",
+   "confidence": "medium"
+  },
+  "10030973:EMID": {
+   "setting": "city",
+   "town": "Derby",
+   "confidence": "high"
+  },
+  "10030973:ESUS": {
+   "setting": "coast",
+   "town": "Hastings",
+   "confidence": "medium"
+  },
+  "10030973:MANC": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10030973:NELO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10030973:NIRE": {
+   "setting": "city",
+   "town": "Lisburn",
+   "confidence": "high"
+  },
+  "10030973:NOTT": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10030973:SCOT": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10030973:SOTN": {
+   "setting": "coast",
+   "town": "Southampton",
+   "confidence": "high"
+  },
+  "10030973:TVAL": {
+   "setting": "campus town",
+   "town": "Bracknell",
+   "confidence": "medium"
+  },
+  "10030973:WMID": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10030973:YORK": {
+   "setting": "campus town",
+   "town": "York",
+   "confidence": "high"
+  },
+  "10031239:L": {
+   "setting": "coast",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10031239:N": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10031239:T": {
+   "setting": "city",
+   "town": "Newcastle upon Tyne",
+   "confidence": "high"
+  },
+  "10031982:D1": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10031982:E2": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10031982:H1": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10031982:J1": {
+   "setting": "campus town",
+   "town": "Doncaster",
+   "confidence": "high"
+  },
+  "10031982:L1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10031982:P1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10031982:X1": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10032036:BC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10032072:CB": {
+   "setting": "campus town",
+   "town": "Cambridge",
+   "confidence": "medium"
+  },
+  "10032282:EC": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10032288:DH": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10032288:WD": {
+   "setting": "coast",
+   "town": "Rye",
+   "confidence": "medium"
+  },
+  "10032295:Blackburn Teaching Centre": {
+   "setting": "campus town",
+   "town": "Blackburn",
+   "confidence": "high"
+  },
+  "10032295:Isle of Man Satellite Hub": {
+   "setting": "coast",
+   "town": "Peel",
+   "confidence": "medium"
+  },
+  "10032295:Liverpool Teaching Centre": {
+   "setting": "coast",
+   "town": "Liverpool",
+   "confidence": "medium"
+  },
+  "10032295:Manchester Teaching Centre": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10032295:Penrith Teaching Centre": {
+   "setting": "campus town",
+   "town": "Penrith",
+   "confidence": "high"
+  },
+  "10034324:CT": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10034449:SPS": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10035638:DR": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10035638:GL": {
+   "setting": "city",
+   "town": "Glasgow",
+   "confidence": "high"
+  },
+  "10035638:LD": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10035638:LE": {
+   "setting": "campus town",
+   "town": "Royal Leamington Spa",
+   "confidence": "high"
+  },
+  "10035638:LI": {
+   "setting": "city",
+   "town": "Liverpool",
+   "confidence": "high"
+  },
+  "10035638:TU": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10036143:QR": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10036143:WC": {
+   "setting": "campus town",
+   "town": "Bristol",
+   "confidence": "medium"
+  },
+  "10036143:WP": {
+   "setting": "countryside",
+   "town": "Bristol",
+   "confidence": "medium"
+  },
+  "10036456:A": {
+   "setting": "campus town",
+   "town": "Wakefield",
+   "confidence": "low"
+  },
+  "10037449:MS": {
+   "setting": "coast",
+   "town": "Plymouth",
+   "confidence": "high"
+  },
+  "10037544:Birmingham": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10037544:Brighton": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  },
+  "10037544:Bristol": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10037544:Essex": {
+   "setting": "campus town",
+   "town": "Basildon",
+   "confidence": "medium"
+  },
+  "10037544:London": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10037544:MFS Leeds": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10037544:MFS London": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10037544:Manchester": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10039082:KN": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10039956:BI": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10039956:BR": {
+   "setting": "city",
+   "town": "Bristol",
+   "confidence": "high"
+  },
+  "10039956:LE": {
+   "setting": "city",
+   "town": "Leeds",
+   "confidence": "high"
+  },
+  "10039956:LO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10039956:MA": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10039956:NO": {
+   "setting": "city",
+   "town": "Nottingham",
+   "confidence": "high"
+  },
+  "10040812:HA": {
+   "setting": "countryside",
+   "town": "Newport",
+   "confidence": "high"
+  },
+  "10040812:S": {
+   "setting": "campus town",
+   "town": "Telford",
+   "confidence": "high"
+  },
+  "10042570:MC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10048199:SKD": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10061489:Main Campus": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10066143:LC": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10066502:A": {
+   "setting": "campus town",
+   "town": "Abingdon",
+   "confidence": "high"
+  },
+  "10066502:I": {
+   "setting": "campus town",
+   "town": "Derry/Londonderry",
+   "confidence": "medium"
+  },
+  "10066502:M": {
+   "setting": "city",
+   "town": "Manchester",
+   "confidence": "high"
+  },
+  "10067355:A": {
+   "setting": "campus town",
+   "town": "Malmesbury",
+   "confidence": "medium"
+  },
+  "10067406:BF": {
+   "setting": "campus town",
+   "town": "Hereford",
+   "confidence": "high"
+  },
+  "10067406:SKY": {
+   "setting": "campus town",
+   "town": "Hereford",
+   "confidence": "high"
+  },
+  "10067623:LO": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10067853:10": {
+   "setting": "campus town",
+   "town": "Guildford",
+   "confidence": "high"
+  },
+  "10067853:11": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10067853:12": {
+   "setting": "city",
+   "town": "Birmingham",
+   "confidence": "high"
+  },
+  "10068157:UC": {
+   "setting": "campus town",
+   "town": "Peterborough",
+   "confidence": "high"
+  },
+  "10080811:HU": {
+   "setting": "countryside",
+   "town": "Hartpury",
+   "confidence": "high"
+  },
+  "10083403:FB": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10086591:RU": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10088214:001": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "10090767:SP": {
+   "setting": "coast",
+   "town": "Cardiff",
+   "confidence": "high"
+  },
+  "10091065:CASFIN": {
+   "setting": "city",
+   "town": "London",
+   "confidence": "high"
+  },
+  "90000451:HA": {
+   "setting": "countryside",
+   "town": "Newport",
+   "confidence": "high"
+  },
+  "99999997:150": {
+   "setting": "campus town",
+   "town": "Chatham",
+   "confidence": "high"
+  },
+  "99999998:Y1": {
+   "setting": "campus town",
+   "town": "York",
+   "confidence": "high"
+  },
+  "99999999:KF": {
+   "setting": "coast",
+   "town": "Brighton",
+   "confidence": "high"
+  }
+ },
+ "providers": {
+  "10000163": "city",
+  "10000291": "campus town",
+  "10000381": "city",
+  "10000385": "city",
+  "10000415": "countryside",
+  "10000533": "city",
+  "10000571": "city",
+  "10000712": "city",
+  "10000720": "campus town",
+  "10000721": "countryside",
+  "10000747": "campus town",
+  "10000754": "coast",
+  "10000812": "campus town",
+  "10000824": "coast",
+  "10000840": "city",
+  "10000878": "countryside",
+  "10000886": "coast",
+  "10000894": "city",
+  "10000911": "countryside",
+  "10000961": "city",
+  "10000975": "city",
+  "10001000": "countryside",
+  "10001093": "campus town",
+  "10001143": "city",
+  "10001165": "campus town",
+  "10001282": "city",
+  "10001386": "city",
+  "10001444": "city",
+  "10001478": "city",
+  "10001503": "coast",
+  "10001535": "campus town",
+  "10001696": "countryside",
+  "10001726": "city",
+  "10001883": "city",
+  "10002107": "campus town",
+  "10002130": "campus town",
+  "10002313": "city",
+  "10002370": "campus town",
+  "10002412": "campus town",
+  "10002681": "city",
+  "10002718": "campus town",
+  "10002923": "coast",
+  "10003022": "campus town",
+  "10003128": "campus town",
+  "10003212": "city",
+  "10003239": "city",
+  "10003270": "city",
+  "10003284": "city",
+  "10003614": "campus town",
+  "10003645": "city",
+  "10003674": "city",
+  "10003678": "city",
+  "10003746": "campus town",
+  "10003753": "coast",
+  "10003758": "city",
+  "10003854": "city",
+  "10003861": "city",
+  "10003863": "city",
+  "10003928": "coast",
+  "10003945": "city",
+  "10003955": "city",
+  "10003956": "city",
+  "10003957": "city",
+  "10004028": "city",
+  "10004035": "city",
+  "10004048": "city",
+  "10004061": "city",
+  "10004063": "city",
+  "10004075": "campus town",
+  "10004078": "campus town",
+  "10004079": "campus town",
+  "10004112": "campus town",
+  "10004113": "campus town",
+  "10004180": "city",
+  "10004320": "campus town",
+  "10004344": "campus town",
+  "10004351": "city",
+  "10004432": "city",
+  "10004442": "countryside",
+  "10004450": "city",
+  "10004478": "countryside",
+  "10004538": "city",
+  "10004552": "campus town",
+  "10004576": "campus town",
+  "10004577": "city",
+  "10004599": "city",
+  "10004695": "campus town",
+  "10004740": "campus town",
+  "10004747": "city",
+  "10004772": "countryside",
+  "10004775": "campus town",
+  "10004797": "city",
+  "10004930": "city",
+  "10005072": "campus town",
+  "10005124": "countryside",
+  "10005127": "coast",
+  "10005200": "campus town",
+  "10005337": "coast",
+  "10005343": "coast",
+  "10005389": "city",
+  "10005404": "countryside",
+  "10005451": "city",
+  "10005470": "city",
+  "10005500": "coast",
+  "10005523": "city",
+  "10005534": "campus town",
+  "10005544": "city",
+  "10005545": "countryside",
+  "10005553": "campus town",
+  "10005561": "city",
+  "10005700": "countryside",
+  "10005790": "city",
+  "10005946": "campus town",
+  "10005979": "coast",
+  "10005981": "campus town",
+  "10005998": "city",
+  "10006022": "coast",
+  "10006050": "countryside",
+  "10006174": "campus town",
+  "10006299": "city",
+  "10006427": "campus town",
+  "10006566": "city",
+  "10006770": "campus town",
+  "10006840": "city",
+  "10006841": "city",
+  "10006842": "coast",
+  "10006963": "city",
+  "10007063": "campus town",
+  "10007114": "coast",
+  "10007137": "campus town",
+  "10007138": "campus town",
+  "10007139": "campus town",
+  "10007140": "city",
+  "10007141": "campus town",
+  "10007143": "campus town",
+  "10007144": "city",
+  "10007145": "campus town",
+  "10007146": "city",
+  "10007147": "campus town",
+  "10007148": "campus town",
+  "10007149": "city",
+  "10007150": "campus town",
+  "10007151": "campus town",
+  "10007152": "campus town",
+  "10007154": "countryside",
+  "10007155": "countryside",
+  "10007156": "city",
+  "10007157": "city",
+  "10007158": "coast",
+  "10007159": "coast",
+  "10007160": "campus town",
+  "10007161": "campus town",
+  "10007162": "city",
+  "10007163": "campus town",
+  "10007164": "city",
+  "10007165": "city",
+  "10007166": "city",
+  "10007167": "campus town",
+  "10007289": "campus town",
+  "10007361": "countryside",
+  "10007431": "campus town",
+  "10007459": "coast",
+  "10007469": "countryside",
+  "10007500": "campus town",
+  "10007553": "city",
+  "10007696": "campus town",
+  "10007709": "campus town",
+  "10007713": "campus town",
+  "10007759": "city",
+  "10007760": "city",
+  "10007761": "city",
+  "10007762": "city",
+  "10007764": "campus town",
+  "10007767": "campus town",
+  "10007768": "city",
+  "10007772": "city",
+  "10007774": "campus town",
+  "10007775": "city",
+  "10007776": "city",
+  "10007778": "campus town",
+  "10007779": "coast",
+  "10007780": "city",
+  "10007783": "coast",
+  "10007784": "city",
+  "10007785": "city",
+  "10007786": "city",
+  "10007787": "campus town",
+  "10007788": "campus town",
+  "10007789": "campus town",
+  "10007790": "city",
+  "10007791": "campus town",
+  "10007792": "campus town",
+  "10007793": "campus town",
+  "10007794": "campus town",
+  "10007795": "city",
+  "10007796": "city",
+  "10007798": "city",
+  "10007799": "city",
+  "10007800": "city",
+  "10007801": "coast",
+  "10007802": "campus town",
+  "10007803": "coast",
+  "10007804": "campus town",
+  "10007805": "city",
+  "10007806": "coast",
+  "10007807": "city",
+  "10007810": "city",
+  "10007811": "campus town",
+  "10007812": "city",
+  "10007814": "city",
+  "10007816": "city",
+  "10007817": "coast",
+  "10007820": "coast",
+  "10007823": "city",
+  "10007825": "city",
+  "10007832": "city",
+  "10007833": "campus town",
+  "10007835": "city",
+  "10007837": "city",
+  "10007842": "campus town",
+  "10007843": "city",
+  "10007848": "campus town",
+  "10007849": "coast",
+  "10007850": "campus town",
+  "10007851": "campus town",
+  "10007852": "city",
+  "10007854": "campus town",
+  "10007855": "coast",
+  "10007856": "coast",
+  "10007857": "coast",
+  "10007858": "coast",
+  "10007859": "campus town",
+  "10007912": "countryside",
+  "10007938": "campus town",
+  "10008010": "city",
+  "10008017": "city",
+  "10008026": "city",
+  "10008071": "city",
+  "10008397": "campus town",
+  "10008455": "city",
+  "10008640": "city",
+  "10008816": "city",
+  "10009292": "city",
+  "10009527": "city",
+  "10009612": "city",
+  "10010213": "city",
+  "10010308": "campus town",
+  "10013220": "city",
+  "10014001": "city",
+  "10015506": "city",
+  "10019178": "city",
+  "10019368": "city",
+  "10020416": "city",
+  "10021100": "countryside",
+  "10021550": "countryside",
+  "10022087": "city",
+  "10022285": "city",
+  "10023139": "city",
+  "10023452": "city",
+  "10023453": "campus town",
+  "10023454": "coast",
+  "10023456": "countryside",
+  "10023458": "city",
+  "10023464": "city",
+  "10024024": "city",
+  "10024962": "city",
+  "10026921": "city",
+  "10027603": "city",
+  "10029147": "city",
+  "10029682": "city",
+  "10030776": "city",
+  "10030973": "city",
+  "10031239": "city",
+  "10031982": "city",
+  "10032036": "city",
+  "10032072": "campus town",
+  "10032282": "city",
+  "10032288": "city",
+  "10032295": "campus town",
+  "10034324": "city",
+  "10034449": "city",
+  "10035638": "city",
+  "10036143": "city",
+  "10036456": "campus town",
+  "10037449": "coast",
+  "10037544": "city",
+  "10039082": "city",
+  "10039956": "city",
+  "10040812": "countryside",
+  "10042570": "city",
+  "10048199": "city",
+  "10061489": "city",
+  "10066143": "city",
+  "10066502": "campus town",
+  "10067355": "campus town",
+  "10067406": "campus town",
+  "10067623": "city",
+  "10067853": "city",
+  "10068157": "campus town",
+  "10080811": "countryside",
+  "10083403": "city",
+  "10086591": "city",
+  "10088214": "city",
+  "10090767": "coast",
+  "10091065": "city",
+  "90000451": "countryside",
+  "99999997": "campus town",
+  "99999998": "campus town",
+  "99999999": "coast"
+ }
+}

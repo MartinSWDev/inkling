@@ -6,31 +6,41 @@
    "title": "Garment Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Fashion Design and Technology",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/fashion-design-technology/",
-   "ucas_code": "A62-D56"
+   "ucas_code": "A62-D56",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Costume with Textiles",
    "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Costume-with-Textiles-BA-Hons",
-   "ucas_code": "A13-F75"
+   "ucas_code": "A13-F75",
+   "setting": "campus town",
+   "town": "Huddersfield"
   },
   {
    "title": "Textile Innovation and Sustainability",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/j761/textile-innovation-and-sustainability-bsc",
-   "ucas_code": "A68-H09"
+   "ucas_code": "A68-H09",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Fashion Design and Garment Technology",
    "provider": "York College",
    "url": "https://www.yorkcollege.ac.uk/study/ba-hons-fashion-design-garment-technology",
-   "ucas_code": "A03-J69"
+   "ucas_code": "A03-J69",
+   "setting": "campus town",
+   "town": "York"
   }
  ]
 }

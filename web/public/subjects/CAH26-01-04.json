@@ -6,61 +6,129 @@
    "title": "Environmental Science",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?U5TEW5",
-   "ucas_code": "A22-F64"
+   "ucas_code": "A22-F64",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Environmental Science",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/f90f-environmental-science-with-foundation-year-bsc-hons",
-   "ucas_code": "A57-C88"
+   "ucas_code": "A57-C88",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Environmental Science",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-environmental-science/",
-   "ucas_code": "A09-G20"
+   "ucas_code": "A09-G20",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Environmental Science",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/environment-culture-and-communication",
-   "ucas_code": "A74-H63"
+   "ucas_code": "A74-H63",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Environmental Science",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-environmental-science-2",
-   "ucas_code": "A66-I13"
+   "ucas_code": "A66-I13",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Environmental Science",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/environmental-science-bsc/?term=2027-28",
-   "ucas_code": "A73-J45"
+   "ucas_code": "A73-J45",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Environmental Science",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/environmentalscience/",
-   "ucas_code": "A03-F43"
+   "ucas_code": "A03-F43",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Environmental Science",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/environmental-science/",
-   "ucas_code": "A08-A63"
+   "ucas_code": "A08-A63",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Environmental Science",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36753-environmental-science-bsc-hons",
-   "ucas_code": "A66-D74"
+   "ucas_code": "A66-D74",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Environmental Science",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/foundation-year-science-and-engineering-degrees-with-a-foundation-year-chemistry-route/september-2027/",
-   "ucas_code": "A31-I69"
+   "ucas_code": "A31-I69",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-environmental-science",
+   "ucas_code": "A38-D17",
+   "setting": "countryside",
+   "town": "Southwell"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/f850/",
+   "ucas_code": "A27-B94",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/environmental-science",
+   "ucas_code": "A42-F89",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/environmental-science.aspx",
+   "ucas_code": "A04-I45",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Environmental Sciences",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/msci-environmental-sciences/2027-28/sep",
+   "ucas_code": "A36-H11",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/environmental-science-bsc-msci-hons?option=integrated-masters&start=2027",
+   "ucas_code": "A75-G33",
+   "setting": "city",
+   "town": "Hull"
   }
  ]
 }

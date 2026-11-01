@@ -6,61 +6,129 @@
    "title": "Nursing (Children)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
-   "ucas_code": "A14-A69"
+   "ucas_code": "A14-A69",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Children's Nursing",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b732-childrens-nursing-bn-hons",
-   "ucas_code": "A41-F27"
+   "ucas_code": "A41-F27",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Nursing (Child Health)",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/nursing-child-health-bsc",
-   "ucas_code": "A62-B19"
+   "ucas_code": "A62-B19",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Children's Nursing",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/childrens-nursing",
-   "ucas_code": "A13-H61"
+   "ucas_code": "A13-H61",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Nursing (Child)",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/child-nursing",
-   "ucas_code": "A19-H28"
+   "ucas_code": "A19-H28",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Nursing (Child)",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/child-nursing-september-intake-bn",
-   "ucas_code": "A58-E74"
+   "ucas_code": "A58-E74",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Children and Young People's Nursing",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/children-and-young-peoples-nursing-bsc-hons/?term=2027-28",
-   "ucas_code": "A71-H95"
+   "ucas_code": "A71-H95",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Nursing with Registration (Child Nursing)",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-child-nursing-degree/nursing-with-registration-child-nursing-bsc-hons.aspx",
-   "ucas_code": "A25-H59"
+   "ucas_code": "A25-H59",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Nursing (Child)",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/nursing-child/",
-   "ucas_code": "A05-D17"
+   "ucas_code": "A05-D17",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Nursing Child Health",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bn-nursing-child-undergraduate-fulltime",
-   "ucas_code": "A25-D32"
+   "ucas_code": "A25-D32",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Nursing Studies (Child)",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11NSCHLD",
+   "ucas_code": "A26-D35",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Nursing (Children's)",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/childrensnursing",
+   "ucas_code": "A03-E82",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Children's Nursing",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/nursing-registered-nurse-child/",
+   "ucas_code": "A07-J42",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Nursing (Child)",
+   "provider": "Leeds Trinity University",
+   "url": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-child/",
+   "ucas_code": "A71-F34",
+   "setting": "campus town",
+   "town": "Horsforth"
+  },
+  {
+   "title": "Nursing (Child)",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36923-nursing-child-bsc-hons",
+   "ucas_code": "A11-B14",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Children's Nursing",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/childrens-nursing-bsc-hons#overview",
+   "ucas_code": "A12-B08",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

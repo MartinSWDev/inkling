@@ -6,61 +6,129 @@
    "title": "Biological Sciences",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-biological-sciences-2",
-   "ucas_code": "A11-H53"
+   "ucas_code": "A11-H53",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Biological Sciences",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/biological-sciences-bsc",
-   "ucas_code": "A27-H96"
+   "ucas_code": "A27-H96",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Biological Science",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bsc-hons-biological-science-undergraduate-fulltime",
-   "ucas_code": "A50-D84"
+   "ucas_code": "A50-D84",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Biological Sciences",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11BGLSCI",
-   "ucas_code": "A56-C29"
+   "ucas_code": "A56-C29",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Biological Sciences",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/biological-sciences",
-   "ucas_code": "A75-F41"
+   "ucas_code": "A75-F41",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Biological Sciences",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/biological-sciences/",
-   "ucas_code": "A07-J19"
+   "ucas_code": "A07-J19",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Biological Science",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/biological-science---bsc-hons/",
-   "ucas_code": "A06-J05"
+   "ucas_code": "A06-J05",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Biological Sciences",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/biological-sciences-bsc/#variant",
-   "ucas_code": "A18-B34"
+   "ucas_code": "A18-B34",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Biological Sciences",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-biological-science",
-   "ucas_code": "A38-C08"
+   "ucas_code": "A38-C08",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Biological Sciences",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/biology",
-   "ucas_code": "A47-I14"
+   "ucas_code": "A47-I14",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/biological-sciences-bsc-c100",
+   "ucas_code": "A28-B50",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "Roehampton University",
+   "url": "http://www.roehampton.ac.uk/undergraduate-courses/biological-sciences/",
+   "ucas_code": "A18-J67",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00038/1?coursecode=C100",
+   "ucas_code": "A32-E09",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/e997/biological-sciences-bsc",
+   "ucas_code": "A26-E85",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/biological-sciences-bsc/2027",
+   "ucas_code": "A05-A16",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Biological Sciences",
+   "provider": "The University Of Liverpool",
+   "url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/2027",
+   "ucas_code": "A02-F84",
+   "setting": "coast",
+   "town": "Liverpool"
   }
  ]
 }

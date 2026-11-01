@@ -6,61 +6,129 @@
    "title": "Dispensing Optician (Registerable Award)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/dispensing-optician-registerable-award",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Optometry",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/optometry-moptom",
-   "ucas_code": "A30-C34"
+   "ucas_code": "A30-C34",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Optometry",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/optometry",
-   "ucas_code": "A13-I34"
+   "ucas_code": "A13-I34",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Optometry",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/master-of-optometry",
-   "ucas_code": "A67-F20"
+   "ucas_code": "A67-F20",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Optometry",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/optometry/optometry.aspx",
-   "ucas_code": "A76-I20"
+   "ucas_code": "A76-I20",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Ophthalmic Dispensing",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/14OPHDIS",
-   "ucas_code": "A75-D37"
+   "ucas_code": "A75-D37",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Optometry",
    "provider": "The University Of Bradford",
    "url": "https://www.bradford.ac.uk/courses/ug/master-of-optometry/",
-   "ucas_code": "A68-E69"
+   "ucas_code": "A68-E69",
+   "setting": "city",
+   "town": "Bradford"
   },
   {
    "title": "Optometry",
    "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Optometry-MOptom",
-   "ucas_code": "A71-A40"
+   "ucas_code": "A71-A40",
+   "setting": "campus town",
+   "town": "Huddersfield"
   },
   {
    "title": "Optometry",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/optometry-moptom/2027",
-   "ucas_code": "A75-G88"
+   "ucas_code": "A75-G88",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Orthoptics",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/orthoptics-bsc-hons/2027",
-   "ucas_code": "A03-A86"
+   "ucas_code": "A03-A86",
+   "setting": "coast",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Orthoptics",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/orthoptics-bmedsci",
+   "ucas_code": "A35-G51",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Ophthalmic Dispensing",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/ophthalmic-dispensing-bsc",
+   "ucas_code": "A57-H17",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Optometry",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/optom-optometry-c-ft",
+   "ucas_code": "A16-J16",
+   "setting": "coast",
+   "town": "Coleraine"
+  },
+  {
+   "title": "Optometry",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/moptom-optometry",
+   "ucas_code": "A66-I61",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Ophthalmic Dispensing",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/bsc-hons-ophthalmic-dispensing/",
+   "ucas_code": "A11-I97",
+   "setting": "city",
+   "town": "Bradford"
+  },
+  {
+   "title": "Optometry",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/moptom_(hons)_optometry.cfm",
+   "ucas_code": "A70-F37",
+   "setting": "campus town",
+   "town": "Middlesbrough"
   }
  ]
 }

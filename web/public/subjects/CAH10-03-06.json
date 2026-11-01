@@ -6,61 +6,129 @@
    "title": "Audio and Music Technology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/audio-and-music-technology",
-   "ucas_code": "A13-J59"
+   "ucas_code": "A13-J59",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Sound Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/sound-engineering-bsc-hons-2027-28",
-   "ucas_code": "A75-B43"
+   "ucas_code": "A75-B43",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Audio and Music Production",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-audio-and-music-production",
-   "ucas_code": "A72-G41"
+   "ucas_code": "A72-G41",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Music Technology",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/musictechnology",
-   "ucas_code": "A10-I16"
+   "ucas_code": "A10-I16",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Audio and Music Production",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/32551-audio-and-music-production-bsc-hons",
-   "ucas_code": "A10-J63"
+   "ucas_code": "A10-J63",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Sound Eng & Aud Prod CCT",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/art-and-design/ug/bsc-hons-sound-engineering-and-audio-production",
-   "ucas_code": "A67-C90"
+   "ucas_code": "A67-C90",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Audio Engineering",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/audio-engineering-bsc-j930/",
-   "ucas_code": "A28-B43"
+   "ucas_code": "A28-B43",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Music and Sound Production",
    "provider": "Ravensbourne University London",
    "url": "https://www.ravensbourne.ac.uk/study/undergraduate/ba-hons-music-and-sound-production",
-   "ucas_code": "A69-B10"
+   "ucas_code": "A69-B10",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Creative Music Production",
    "provider": "The University Of Huddersfield",
    "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Creative-Music-Production-BA-Hons",
-   "ucas_code": "A44-D38"
+   "ucas_code": "A44-D38",
+   "setting": "campus town",
+   "town": "Huddersfield"
   },
   {
    "title": "Music and Sound Recording",
    "provider": "The University Of Surrey",
    "url": "https://www.surrey.ac.uk/undergraduate/music-and-sound-recording-tonmeister/2027",
-   "ucas_code": "A36-F62"
+   "ucas_code": "A36-F62",
+   "setting": "campus town",
+   "town": "Guildford"
+  },
+  {
+   "title": "Sound Engineering",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/study/partners/institutions/spirit-studios",
+   "ucas_code": "A75-F16",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Sound Engineering and Production",
+   "provider": "University Of Salford, The",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/sound-engineering-and-production",
+   "ucas_code": "A46-J87",
+   "setting": "city",
+   "town": "Salford"
+  },
+  {
+   "title": "Music Production",
+   "provider": "University of Derby",
+   "url": "https://www.derby.ac.uk/undergraduate/music-music-production-courses/music-production-bsc-hons/",
+   "ucas_code": "A38-A32",
+   "setting": "campus town",
+   "town": "Derby"
+  },
+  {
+   "title": "Music and Sound Production",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/bsc-music-and-sound-production",
+   "ucas_code": "A74-F19",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Sound Design",
+   "provider": "Burton and South Derbyshire College",
+   "url": "https://www.staffs.ac.uk/course/sound-design-ba",
+   "ucas_code": "A39-C66",
+   "setting": "city",
+   "town": "Stoke-on-Trent"
+  },
+  {
+   "title": "Music Production and Creative Recording",
+   "provider": "East Sussex College",
+   "url": "https://adult.escg.ac.uk/courses/performing-arts/music/music-production-and-creative-recording-ba-hons-uea-101666/",
+   "ucas_code": "A69-B76",
+   "setting": "coast",
+   "town": "Eastbourne"
   }
  ]
 }

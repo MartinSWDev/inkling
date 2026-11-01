@@ -6,61 +6,129 @@
    "title": "Nursing (Adult)",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?AN2VZ9",
-   "ucas_code": "A62-H42"
+   "ucas_code": "A62-H42",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Nursing (Adult)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult",
-   "ucas_code": "A14-A68"
+   "ucas_code": "A14-A68",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Adult Nursing",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/adult-nursing/full-time/",
-   "ucas_code": "A65-F90"
+   "ucas_code": "A65-F90",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Adult Nursing",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b741-adult-nursing-bn-hons",
-   "ucas_code": "A41-F24"
+   "ucas_code": "A41-F24",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Adult Nursing",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/nursing-adult-bsc-hons-2027-28",
-   "ucas_code": "B69-J98"
+   "ucas_code": "B69-J98",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Adult Nursing",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-adult-nursing-5",
-   "ucas_code": "A11-H45"
+   "ucas_code": "A11-H45",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Nursing (Adult)",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/nursing-adult-bsc",
-   "ucas_code": "A62-B18"
+   "ucas_code": "A62-B18",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Adult Nursing",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/adult-nursing",
-   "ucas_code": "A13-H44"
+   "ucas_code": "A13-H44",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Nursing (Adult)",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/adult-nursing",
-   "ucas_code": "A19-H27"
+   "ucas_code": "A19-H27",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Adult Nursing",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/adult-nursing/?term=2027-28",
-   "ucas_code": "A71-G98"
+   "ucas_code": "A71-G98",
+   "setting": "coast",
+   "town": "Scarborough"
+  },
+  {
+   "title": "Nursing with Registration (Adult Nursing)",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-adult-nursing-degree/nursing-with-registration-adult-nursing-bsc-hons.aspx",
+   "ucas_code": "A25-H58",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Nursing (Adult)",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/nursing-adult/",
+   "ucas_code": "A05-D16",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Nursing Adult",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bn-nursing-adult-undergraduate-fulltime",
+   "ucas_code": "A25-D31",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Nursing Studies (Adult)",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11NSADLT",
+   "ucas_code": "A26-D33",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Nursing (Adult)",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/adultnursing",
+   "ucas_code": "A03-E16",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Adult Nursing",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/nursing-registered-nurse-adult/",
+   "ucas_code": "A07-I75",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   }
  ]
 }

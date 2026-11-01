@@ -6,61 +6,129 @@
    "title": "Geography",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l700-geography-ba-hons",
-   "ucas_code": "A34-E21"
+   "ucas_code": "A34-E21",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Geography",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-geography/",
-   "ucas_code": "A09-G35"
+   "ucas_code": "A09-G35",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Geography",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/geography",
-   "ucas_code": "A24-D64"
+   "ucas_code": "A24-D64",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Geography",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-geography-2",
-   "ucas_code": "A11-H91"
+   "ucas_code": "A11-H91",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Geography",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/geography-bsc",
-   "ucas_code": "A67-G83"
+   "ucas_code": "A67-G83",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Geography",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/geography",
-   "ucas_code": "A19-G01"
+   "ucas_code": "A19-G01",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Geography",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/geography-ba-hons/?term=2027-28",
-   "ucas_code": "A38-H33"
+   "ucas_code": "A38-H33",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Geography",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/geography-ba/",
-   "ucas_code": "A05-C90"
+   "ucas_code": "A05-C90",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Geography",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/geography/",
-   "ucas_code": "A08-B01"
+   "ucas_code": "A08-B01",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Geography",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-geography",
-   "ucas_code": "A38-D71"
+   "ucas_code": "A38-D71",
+   "setting": "countryside",
+   "town": "Southwell"
+  },
+  {
+   "title": "Geography",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/geography-ba",
+   "ucas_code": "A42-F46",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Geography",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/geography-ba-l800/",
+   "ucas_code": "A69-H72",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Geography",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/geography-and-environment/bsc-honours-geography/full-time",
+   "ucas_code": "A17-J25",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Geography",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geography-bsc.aspx",
+   "ucas_code": "A04-I54",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Geography",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/geography-bsc-hons-f800/",
+   "ucas_code": "A25-J69",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Geography",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/geography/",
+   "ucas_code": "A24-I05",
+   "setting": "city",
+   "town": "Glasgow"
   }
  ]
 }

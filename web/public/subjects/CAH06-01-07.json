@@ -6,61 +6,89 @@
    "title": "Food Science and Nutrition",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-food-science-and-nutrition/",
-   "ucas_code": "A66-D78"
+   "ucas_code": "A66-D78",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Food Science and Nutrition",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/food-science-nutrition-bsc-db6k/#overview",
-   "ucas_code": "A28-C20"
+   "ucas_code": "A28-C20",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Food Science",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/3335/food-science-bsc",
-   "ucas_code": "A26-G79"
+   "ucas_code": "A26-G79",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Food Science and Nutrition",
    "provider": "The University Of Surrey",
    "url": "https://www.surrey.ac.uk/undergraduate/food-science-and-nutrition/2027",
-   "ucas_code": "A36-F73"
+   "ucas_code": "A36-F73",
+   "setting": "campus town",
+   "town": "Guildford"
   },
   {
    "title": "Food and Nutrition",
    "provider": "University College Birmingham",
    "url": "https://www.ucb.ac.uk/study/courses/undergraduate/food-and-nutrition-bsc-hons-fdsc/",
-   "ucas_code": "A22-H60"
+   "ucas_code": "A22-H60",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Food and Nutrition Science",
    "provider": "University of Bedfordshire",
    "url": "https://www.beds.ac.uk/courses/food-and-nutrition-science/",
-   "ucas_code": "A10-F13"
+   "ucas_code": "A10-F13",
+   "setting": "campus town",
+   "town": "Luton"
   },
   {
    "title": "Food Science",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-food-science",
-   "ucas_code": "A15-E41"
+   "ucas_code": "A15-E41",
+   "setting": "campus town",
+   "town": "Reading"
   },
   {
    "title": "Food Science and Technology",
    "provider": "Darlington College",
    "url": "https://www.tees.ac.uk/undergraduate_courses/food_&_nutrition/bsc_(hons)_food_science_and_technology.cfm",
-   "ucas_code": "A31-F16"
+   "ucas_code": "A31-F16",
+   "setting": "campus town",
+   "town": "Middlesbrough"
   },
   {
    "title": "Food Science and Technology",
    "provider": "Reaseheath College",
    "url": "https://ucreaseheath.ac.uk/ucr-courses/bsc-food-science-and-technology/",
-   "ucas_code": "A66-E32"
+   "ucas_code": "A66-E32",
+   "setting": "countryside",
+   "town": "Nantwich"
   },
   {
    "title": "Food Science, Nutrition and Wellbeing",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
-   "ucas_code": "A63-A61"
+   "ucas_code": "A63-A61",
+   "setting": "coast",
+   "town": "Dundee"
+  },
+  {
+   "title": "Food Science and Innovation",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDGFDSIN",
+   "ucas_code": "A66-F48",
+   "setting": "countryside",
+   "town": "Newport"
   }
  ]
 }

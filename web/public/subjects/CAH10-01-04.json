@@ -6,61 +6,129 @@
    "title": "Aerospace Engineering",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
-   "ucas_code": "A75-F87"
+   "ucas_code": "A75-F87",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/Aerospace-Engineering-BEng",
-   "ucas_code": "A19-I41"
+   "ucas_code": "A19-I41",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Aeronautical Engineering",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
-   "ucas_code": "A72-B68"
+   "ucas_code": "A72-B68",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/aerospace-systems-engineering-beng-hons/?term=2027-28",
-   "ucas_code": "A59-E62"
+   "ucas_code": "A59-E62",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Aeronautical Engineering",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/aeronautical-engineering-beng-meng-degree/aeronautical-engineering-beng-meng-degree.aspx",
-   "ucas_code": "A50-G35"
+   "ucas_code": "A50-G35",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/aerospace-engineering",
-   "ucas_code": "A67-A42"
+   "ucas_code": "A67-A42",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/aerospace-engineering/",
-   "ucas_code": "A07-I77"
+   "ucas_code": "A07-I77",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Aeronautical Engineering",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/aeronautical-engineering-beng/#variant",
-   "ucas_code": "A18-B03"
+   "ucas_code": "A18-B03",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/beng-aerospace-engineering/september-2027/",
-   "ucas_code": "B58-D18"
+   "ucas_code": "B58-D18",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/beng-hons-aerospace-engineering",
-   "ucas_code": "A67-A95"
+   "ucas_code": "A67-A95",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/h400/",
+   "ucas_code": "A75-G17",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/aerospace-engineering",
+   "ucas_code": "A00-H91",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/aerospace-engineering-beng-h400/",
+   "ucas_code": "A28-B26",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/engineering/beng-honours-aerospace-engineering/full-time",
+   "ucas_code": "A17-H63",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/aerospace-civil-electrical-mechanical-engineering/aerospace-engineering/beng-aerospace-engineering/",
+   "ucas_code": "A36-J50",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/metallurgy-materials/aerospace-engineering-beng.aspx",
+   "ucas_code": "A45-C45",
+   "setting": "city",
+   "town": "Birmingham"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Public Health",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/public-health",
-   "ucas_code": "A14-A91"
+   "ucas_code": "A14-A91",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Public Health 3-year, full-time",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/public-health",
-   "ucas_code": "B63-A07"
+   "ucas_code": "B63-A07",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Public Health",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-public-health",
-   "ucas_code": "A49-C57"
+   "ucas_code": "A49-C57",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Environmental Health",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-environmental-health/",
-   "ucas_code": "A08-G38"
+   "ucas_code": "A08-G38",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Environmental Health",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/33261-environmental-health-bsc-hons",
-   "ucas_code": "A11-A50"
+   "ucas_code": "A11-A50",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Environmental Health",
    "provider": "Middlesex University",
    "url": "http://www.mdx.ac.uk/courses/undergraduate/environmental-health-degree",
-   "ucas_code": "A22-C77"
+   "ucas_code": "A22-C77",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Public Health",
    "provider": "The University Of Westminster",
    "url": "https://www.westminster.ac.uk/public-health-bsc-honours",
-   "ucas_code": "A68-D61"
+   "ucas_code": "A68-D61",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Public Health",
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-public-health",
-   "ucas_code": "A24-C39"
+   "ucas_code": "A24-C39",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Public Health",
    "provider": "University Of Lancashire",
    "url": "https://london.uclan.ac.uk/our-courses/bsc-hons-public-health",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Environmental Health",
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/bsc-environmental-health-ft-jtn",
-   "ucas_code": "A16-I50"
+   "ucas_code": "A16-I50",
+   "setting": "city",
+   "town": "Belfast"
+  },
+  {
+   "title": "Public Health",
+   "provider": "University of Bedfordshire",
+   "url": "https://www.beds.ac.uk/courses/public-health",
+   "ucas_code": "A67-F32",
+   "setting": "campus town",
+   "town": "Luton"
+  },
+  {
+   "title": "Public Health",
+   "provider": "University of Wolverhampton",
+   "url": "https://www.wlv.ac.uk/courses/BSc-Hons-Public-Health",
+   "ucas_code": "A04-C52",
+   "setting": "campus town",
+   "town": "Wolverhampton"
+  },
+  {
+   "title": "Public Health",
+   "provider": "Doreen Bird College of Performing Arts Ltd.",
+   "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/public-health-bsc-hons",
+   "ucas_code": "A14-G81",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Public Health",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/public-health",
+   "ucas_code": "A17-G39",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Population Health Sciences",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/population-health-sciences-msci",
+   "ucas_code": "A72-I56",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Public and Environmental Health",
+   "provider": "Weston College Of Further And Higher Education",
+   "url": "https://www.ucw.ac.uk/courses/public-and-environmental-health-bsc-hons/",
+   "ucas_code": "A57-B07",
+   "setting": "coast",
+   "town": "Weston-super-Mare"
   }
  ]
 }

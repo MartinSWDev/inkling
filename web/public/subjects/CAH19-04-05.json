@@ -6,37 +6,49 @@
    "title": "Russian",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages",
-   "ucas_code": "A30-G50"
+   "ucas_code": "A30-G50",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Russian",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
-   "ucas_code": "A48-B00"
+   "ucas_code": "A48-B00",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Russian Studies",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/R700",
-   "ucas_code": "A15-B25"
+   "ucas_code": "A15-B25",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Russian",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/russian/russian-ma/",
-   "ucas_code": "A29-F94"
+   "ucas_code": "A29-F94",
+   "setting": "coast",
+   "town": "St Andrews"
   },
   {
    "title": "Russian Studies",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/russian-studies-ba",
-   "ucas_code": "A49-A91"
+   "ucas_code": "A49-A91",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "French and Russian",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-russian",
-   "ucas_code": "A72-I82"
+   "ucas_code": "A72-I82",
+   "setting": "city",
+   "town": "Birmingham"
   }
  ]
 }

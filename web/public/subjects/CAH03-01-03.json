@@ -6,61 +6,129 @@
    "title": "Ecology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?N4SD66",
-   "ucas_code": "A22-F36"
+   "ucas_code": "A22-F36",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Ecology and Environmental Biology",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00102/1?coursecode=C520",
-   "ucas_code": "A64-C22"
+   "ucas_code": "A64-C22",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Environmental Biology",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Environmental-Biology-BSc-Hons.html",
-   "ucas_code": "A00-F31"
+   "ucas_code": "A00-F31",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Ecology",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/548/D430/ecology/",
-   "ucas_code": "A33-E44"
+   "ucas_code": "A33-E44",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Ecology and Environmental Biology",
    "provider": "Imperial College London",
    "url": "https://www.imperial.ac.uk/study/courses/undergraduate/ecology-environmental-biology/",
-   "ucas_code": "A15-D00"
+   "ucas_code": "A15-D00",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Wildlife Conservation",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-wildlife-conservation/",
-   "ucas_code": "A57-H40"
+   "ucas_code": "A57-H40",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Ecology and Wildlife Conservation",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-ecology-wildlife-conservation-3",
-   "ucas_code": "A11-H71"
+   "ucas_code": "A11-H71",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Wildlife Ecology & Conservation Science",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/wildlife-ecology-conservation-science",
-   "ucas_code": "A19-E80"
+   "ucas_code": "A19-E80",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Ecology and Conservation",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/ecology-conservation-bsc/?term=2027-28",
-   "ucas_code": "A73-J46"
+   "ucas_code": "A73-J46",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Wildlife Conservation and Ecology",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDLWLDCE",
-   "ucas_code": "A30-H65"
+   "ucas_code": "A30-H65",
+   "setting": "countryside",
+   "town": "Newport"
+  },
+  {
+   "title": "Ecology and Conservation",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/ecologyandconservation/",
+   "ucas_code": "A58-C82",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Ecology and Conservation",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-ecology-and-conservation",
+   "ucas_code": "A38-C83",
+   "setting": "countryside",
+   "town": "Southwell"
+  },
+  {
+   "title": "Ecology and Wildlife Conservation",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/biological-sciences/ecology-and-wildlife-conservation/",
+   "ucas_code": "A17-D33",
+   "setting": "campus town",
+   "town": "Egham"
+  },
+  {
+   "title": "Ecology and Conservation",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/biosciences-geography-physics/biosciences/ecology-conservation/",
+   "ucas_code": "A77-C30",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Ecology and Wildlife Conservation",
+   "provider": "The University Of Cumbria",
+   "url": "https://tinyurl.com/2weh8d9j",
+   "ucas_code": "A72-B58",
+   "setting": "countryside",
+   "town": "Ambleside"
+  },
+  {
+   "title": "Ecology and Conservation",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-ecology-and-conservation/2027-28/sep",
+   "ucas_code": "A36-G82",
+   "setting": "campus town",
+   "town": "Norwich"
   }
  ]
 }

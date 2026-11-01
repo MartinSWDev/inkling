@@ -6,43 +6,57 @@
    "title": "Materials Science and Engineering",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/materials-science-engineering-beng/",
-   "ucas_code": "A18-C89"
+   "ucas_code": "A18-C89",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/materials-science-and-engineering",
-   "ucas_code": "A00-J86"
+   "ucas_code": "A00-J86",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk//undergraduate/courses/engineering-applied-sciences/materials-engineering/beng-materials-science-engineering/",
-   "ucas_code": "A37-C84"
+   "ucas_code": "A37-C84",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/metallurgy-materials/materials-science-engineering-meng.aspx",
-   "ucas_code": "A04-J00"
+   "ucas_code": "A04-J00",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i984/materials-science-and-engineering-beng",
-   "ucas_code": "A57-E69"
+   "ucas_code": "A57-E69",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/materials-science-and-engineering-meng",
-   "ucas_code": "A35-F94"
+   "ucas_code": "A35-F94",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "Imperial College London",
    "url": "https://www.imperial.ac.uk/study/courses/undergraduate/materials-science-engineering-beng/",
-   "ucas_code": "A15-D16"
+   "ucas_code": "A15-D16",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

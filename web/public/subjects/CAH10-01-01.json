@@ -6,61 +6,129 @@
    "title": "General Engineering",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/general-engineering-beng",
-   "ucas_code": "A52-A05"
+   "ucas_code": "A52-A05",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Engineering",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/engineering-foundation-year-foundation-programme",
-   "ucas_code": "A27-I97"
+   "ucas_code": "A27-I97",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "General Engineering",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/h100/",
-   "ucas_code": "A07-H00"
+   "ucas_code": "A07-H00",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Engineering",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/engineering",
-   "ucas_code": "A06-A13"
+   "ucas_code": "A06-A13",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Engineering",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/engineering-science",
-   "ucas_code": "A30-F10"
+   "ucas_code": "A30-F10",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Engineering",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mechanical-engineering",
-   "ucas_code": "A47-I30"
+   "ucas_code": "A47-I30",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "General Engineering",
    "provider": "Sheffield Hallam University",
    "url": "https://www.shu.ac.uk/courses/engineering/beng-honours-general-engineering/full-time",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Engineering",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/beng-engineering/2027-28/sep",
-   "ucas_code": "A36-G92"
+   "ucas_code": "A36-G92",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Engineering",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/engineering-beng-hons-h100/",
-   "ucas_code": "A25-I88"
+   "ucas_code": "A25-I88",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "General Engineering",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/general-engineering-beng/2027",
-   "ucas_code": "A05-A91"
+   "ucas_code": "A05-A91",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "General Engineering",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/general-engineering-meng-hons",
+   "ucas_code": "A35-E74",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Engineering",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/beng-engineering",
+   "ucas_code": "A20-B77",
+   "setting": "campus town",
+   "town": "Coventry"
+  },
+  {
+   "title": "General Engineering",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/beng-hons-general-engineering",
+   "ucas_code": "A24-B90",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Engineering",
+   "provider": "University Of Northampton, The",
+   "url": "https://www.northampton.ac.uk/courses/engineering-bsc/",
+   "ucas_code": "A21-G57",
+   "setting": "campus town",
+   "town": "Northampton"
+  },
+  {
+   "title": "Engineering",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/568/H100/engineering/",
+   "ucas_code": "A33-E67",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Engineering",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/engineering-ba-hons-meng",
+   "ucas_code": "A25-D82",
+   "setting": "campus town",
+   "town": "Cambridge"
   }
  ]
 }

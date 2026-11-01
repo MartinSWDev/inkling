@@ -6,61 +6,129 @@
    "title": "Environmental Management and Sustainability",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/environmental-management-sustainability/",
-   "ucas_code": "A73-F56"
+   "ucas_code": "A73-F56",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Computer Science/Physical Geography",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?HU4RSM",
-   "ucas_code": "A22-E90"
+   "ucas_code": "A22-E90",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Environmental Conservation",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/d447-environmental-conservation-bsc-hons",
-   "ucas_code": "A34-D34"
+   "ucas_code": "A34-D34",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Education and Geography",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-education-and-geography/",
-   "ucas_code": "A09-F88"
+   "ucas_code": "A09-F88",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Environmental Geoscience",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/environmental-geoscience",
-   "ucas_code": "A71-I84"
+   "ucas_code": "A71-I84",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Environmental Science",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-environmental-science-2",
-   "ucas_code": "A66-I13"
+   "ucas_code": "A66-I13",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Geography",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/geography-bsc",
-   "ucas_code": "A67-G83"
+   "ucas_code": "A67-G83",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Geography",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/geography",
-   "ucas_code": "A19-G01"
+   "ucas_code": "A19-G01",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Environmental Geography",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/environmental-geography-bsc",
-   "ucas_code": "A55-H15"
+   "ucas_code": "A55-H15",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Environmental Science",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/environmental-science-bsc/?term=2027-28",
-   "ucas_code": "A73-J45"
+   "ucas_code": "A73-J45",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Earth Sciences",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/f644/",
+   "ucas_code": "A07-G68",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Geography",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/geography-ba/",
+   "ucas_code": "A05-C90",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Geography",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/geography-bsc",
+   "ucas_code": "A43-E22",
+   "setting": "campus town",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/environmentalscience/",
+   "ucas_code": "A03-F43",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Environmental Science",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/environmental-science/",
+   "ucas_code": "A08-A63",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Geography",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/geography-bsc",
+   "ucas_code": "A57-E51",
+   "setting": "city",
+   "town": "Leeds"
   }
  ]
 }

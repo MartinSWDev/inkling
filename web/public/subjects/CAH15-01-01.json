@@ -6,61 +6,129 @@
    "title": "Society Science",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/ll39-society-science-ba",
-   "ucas_code": "B63-I05"
+   "ucas_code": "B63-I05",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Psychosocial Studies",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/psychosocial-studies",
-   "ucas_code": "A24-E18"
+   "ucas_code": "A24-E18",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Social Science",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/social-science-bsc",
-   "ucas_code": "A28-B05"
+   "ucas_code": "A28-B05",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Combined Social Sciences",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/lmv0/",
-   "ucas_code": "A07-G59"
+   "ucas_code": "A07-G59",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Social Sciences",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/ba-hons-social-sciences-undergraduate-fulltime",
-   "ucas_code": "A25-D52"
+   "ucas_code": "A25-D52",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Social Sciences",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/12SOCSCI",
-   "ucas_code": "A26-D60"
+   "ucas_code": "A26-D60",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Social Sciences",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/socialsciences/",
-   "ucas_code": "A74-F99"
+   "ucas_code": "A74-F99",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Social Science",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/law/bsc-social-science/",
-   "ucas_code": "A52-J11"
+   "ucas_code": "A52-J11",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Social Sciences",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/ba-social-sciences",
-   "ucas_code": "A74-J76"
+   "ucas_code": "A74-J76",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Social Sciences",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/applied-social-sciences-ba",
-   "ucas_code": "A35-D45"
+   "ucas_code": "A35-D45",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHSP-AFB37",
+   "ucas_code": "A65-E45",
+   "setting": "campus town",
+   "town": "Bath"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "University of Brighton",
+   "url": "https://www.brighton.ac.uk/courses/study/social-sciences-ba-hons.aspx",
+   "ucas_code": "A00-D40",
+   "setting": "coast",
+   "town": "Brighton"
+  },
+  {
+   "title": "Social Anthropology with Development",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/LL69",
+   "ucas_code": "A15-B69",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Politics and Criminology",
+   "provider": "University of the Highlands and Islands",
+   "url": "https://www.uhi.ac.uk/en/courses/ba-hons-politics-and-criminology/",
+   "ucas_code": "A44-J29",
+   "setting": "coast",
+   "town": "Oban"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "University of the West of Scotland",
+   "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/social-sciences/",
+   "ucas_code": "A32-D47",
+   "setting": "city",
+   "town": "Paisley"
+  },
+  {
+   "title": "Social Sciences",
+   "provider": "City College Norwich",
+   "url": "https://he.ccn.ac.uk/courses/all-courses/course/ba-hons-social-sciences",
+   "ucas_code": "A74-E29",
+   "setting": "campus town",
+   "town": "Norwich"
   }
  ]
 }

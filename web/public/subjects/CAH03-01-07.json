@@ -6,61 +6,113 @@
    "title": "Genetics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?4E8LNP",
-   "ucas_code": "A22-F89"
+   "ucas_code": "A22-F89",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Genetics",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/biological-sciences/genetics/",
-   "ucas_code": "A58-E47"
+   "ucas_code": "A58-E47",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Genetics",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/medicine/genetics-bsc-hons/",
-   "ucas_code": "A37-B95"
+   "ucas_code": "A37-B95",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Genetics",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/3360/genetics-bsc",
-   "ucas_code": "A26-H08"
+   "ucas_code": "A26-H08",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Genetics",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/genetics/",
-   "ucas_code": "A24-I04"
+   "ucas_code": "A24-I04",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Genetics",
    "provider": "University of Sussex",
    "url": "https://www.sussex.ac.uk/study/undergraduate/courses/genetics-bsc",
-   "ucas_code": "A22-J31"
+   "ucas_code": "A22-J31",
+   "setting": "coast",
+   "town": "Brighton"
   },
   {
    "title": "Genetics",
    "provider": "University of York",
    "url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-genetics/",
-   "ucas_code": "A30-J14"
+   "ucas_code": "A30-J14",
+   "setting": "campus town",
+   "town": "York"
   },
   {
    "title": "Genetics",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10120/msci-genetics/",
-   "ucas_code": "A20-H32"
+   "ucas_code": "A20-H32",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Medical Genetics",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/medical-genetics",
-   "ucas_code": "A42-I39"
+   "ucas_code": "A42-I39",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Molecular Biology and Genetics",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-molecular-biology-and-genetics/2027-28/sep",
-   "ucas_code": "A36-H89"
+   "ucas_code": "A36-H89",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Medical Genetics",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Medical-Genetics-BSc-Hons",
+   "ucas_code": "A13-G69",
+   "setting": "campus town",
+   "town": "Huddersfield"
+  },
+  {
+   "title": "Biological Sciences (Genetics)",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/biological-sciences-genetics-bsc/2027",
+   "ucas_code": "A05-A18",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Genomics with Bioinformatics",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/genomics-bioinformatics",
+   "ucas_code": "A65-A76",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Molecular Genetics",
+   "provider": "King's College London",
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/molecular-genetics-bsc",
+   "ucas_code": "A27-G85",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

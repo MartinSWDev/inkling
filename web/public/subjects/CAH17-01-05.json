@@ -6,61 +6,129 @@
    "title": "Human Resource Management",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/human-resource-management",
-   "ucas_code": "A62-D05"
+   "ucas_code": "A62-D05",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Human Resource Management",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/human-resource-management-ba-hons-2027-28",
-   "ucas_code": "A14-D49"
+   "ucas_code": "A14-D49",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Human Resource Management",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/human-resource-management",
-   "ucas_code": "A19-G42"
+   "ucas_code": "A19-G42",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Human Resource Management",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/human-resource-management-ba-degree/human-resource-management-ba-hons.aspx",
-   "ucas_code": "A25-H19"
+   "ucas_code": "A25-H19",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Human Resource Management",
    "provider": "Leeds Beckett University",
    "url": "https://www.leedsbeckett.ac.uk/courses/human-resource-management-msci",
-   "ucas_code": "B69-C72"
+   "ucas_code": "B69-C72",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Human Resource Management",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/31780-human-resource-management-ba-hons",
-   "ucas_code": "A11-A70"
+   "ucas_code": "A11-A70",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Human Resource Management",
    "provider": "Roehampton University",
    "url": "http://www.roehampton.ac.uk/undergraduate-courses/human-resource-management/",
-   "ucas_code": "A19-A19"
+   "ucas_code": "A19-A19",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Human Resource Management",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/human-resource-management-ba/2027",
-   "ucas_code": "A46-H29"
+   "ucas_code": "A46-H29",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Human Resource Management",
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-human-resource-management",
-   "ucas_code": "A45-G93"
+   "ucas_code": "A45-G93",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Human Resource Management",
    "provider": "University Of Northampton, The",
    "url": "https://www.northampton.ac.uk/courses/human-resource-management-ba-hons/",
-   "ucas_code": "A21-I10"
+   "ucas_code": "A21-I10",
+   "setting": "campus town",
+   "town": "Northampton"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "University Of Salford, The",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/human-resource-management",
+   "ucas_code": "A75-J42",
+   "setting": "city",
+   "town": "Salford"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-human-resource-management-ft-bt",
+   "ucas_code": "A16-I70",
+   "setting": "city",
+   "town": "Belfast"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "University of Bedfordshire",
+   "url": "https://www.beds.ac.uk/courses/human-resource-management",
+   "ucas_code": "A54-H80",
+   "setting": "campus town",
+   "town": "Luton"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "University of Stirling",
+   "url": "https://www.stir.ac.uk/courses/ug/human-resource-management/",
+   "ucas_code": "A16-G94",
+   "setting": "campus town",
+   "town": "Stirling"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "University of Strathclyde",
+   "url": "http://www.strath.ac.uk/c/KIS0000165#whythiscourse",
+   "ucas_code": "A35-J31",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Human Resource Management",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.uwl.ac.uk/course/undergraduate/human-resource-management",
+   "ucas_code": "A17-G52",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

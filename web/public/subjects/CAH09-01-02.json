@@ -6,19 +6,25 @@
    "title": "Business Analytics",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/business-analytics-bsc-hons-n2n1/",
-   "ucas_code": "A25-I31"
+   "ucas_code": "A25-I31",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "Mathematics, Operational Research, Statistics and Economics (MORSE)",
    "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/mmorse-morse",
-   "ucas_code": "A20-D10"
+   "ucas_code": "A20-D10",
+   "setting": "campus town",
+   "town": "Coventry"
   },
   {
    "title": "Mathematics, Operational Research, Statistics and Economics (MORSE)",
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/mathematics-operational-research-statistics-economics-degree-bsc",
-   "ucas_code": "A23-D94"
+   "ucas_code": "A23-D94",
+   "setting": "coast",
+   "town": "Southampton"
   }
  ]
 }

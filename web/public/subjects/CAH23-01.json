@@ -6,61 +6,129 @@
    "title": "Combined Honours",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/y001/",
-   "ucas_code": "A27-B37"
+   "ucas_code": "A27-B37",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Liberal Arts",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/liberal-arts",
-   "ucas_code": "A70-B46"
+   "ucas_code": "A70-B46",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Business Enterprise and Innovation",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-enterprise-innovation-bsc/",
-   "ucas_code": "B55-G76"
+   "ucas_code": "B55-G76",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Applied Management",
    "provider": "BPP University",
    "url": "https://www.bpp.com/leadership-and-management/bsc-applied-management",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Arts and Humanities",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/arts-and-humanities",
-   "ucas_code": "A75-C26"
+   "ucas_code": "A75-C26",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business and Entrepreneurship",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/business-and-entrepreneurship-bsc-hons-2027-28",
-   "ucas_code": "A75-F26"
+   "ucas_code": "A75-F26",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business and Management (Entrepreneurship)",
    "provider": "Cardiff Metropolitan University",
    "url": "http://www.cardiffmet.ac.uk/management/courses/Pages/Business-and-Management-(with-specialist-pathways)-BA-(Hons).aspx",
-   "ucas_code": "A53-C82"
+   "ucas_code": "A53-C82",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Liberal Arts",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/la00/",
-   "ucas_code": "A41-C78"
+   "ucas_code": "A41-C78",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Business Management with Entrepreneurship",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/ba-hons-business-management-with-entrepreneurship-undergraduate-fulltime",
-   "ucas_code": "A25-C23"
+   "ucas_code": "A25-C23",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Business Entrepreneurship & Innovation",
    "provider": "Falmouth University",
    "url": "http://www.falmouth.ac.uk/study/undergraduate/business-entrepreneurship-bsc",
-   "ucas_code": "A69-E18"
+   "ucas_code": "A69-E18",
+   "setting": "coast",
+   "town": "Penryn"
+  },
+  {
+   "title": "Business Management and Entrepreneurship",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/business-management-and-entrepreneurship/",
+   "ucas_code": "A45-I92",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-liberal-arts/september-2027/",
+   "ucas_code": "B60-E94",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Film & TV and History",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-film-and-tv-and-history",
+   "ucas_code": "A38-D34",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "AI and Robotics with Diploma in Creative Professional Development",
+   "provider": "Norwich University of the Arts",
+   "url": "https://norwichuni.ac.uk/courses/find-your-course/bsc-hons-ai-robotics/",
+   "ucas_code": "B65-I75",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/liberal-arts",
+   "ucas_code": "A62-I33",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/liberal-arts-blibarts-y301/",
+   "ucas_code": "A76-B40",
+   "setting": "coast",
+   "town": "Belfast"
   }
  ]
 }

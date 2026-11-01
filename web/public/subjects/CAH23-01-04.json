@@ -6,61 +6,129 @@
    "title": "Liberal Arts",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/liberal-arts",
-   "ucas_code": "A70-B46"
+   "ucas_code": "A70-B46",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Liberal Arts",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/liberal-arts",
-   "ucas_code": "A55-A80"
+   "ucas_code": "A55-A80",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Liberal Arts",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-liberal-arts/september-2027/",
-   "ucas_code": "B60-E94"
+   "ucas_code": "B60-E94",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Liberal Arts",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/liberal-arts",
-   "ucas_code": "A62-I33"
+   "ucas_code": "A62-I33",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Liberal Arts",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/liberal-arts-mlibarts-y300/",
-   "ucas_code": "A42-J94"
+   "ucas_code": "A42-J94",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Liberal Arts",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/liberal-arts/liberal-arts/",
-   "ucas_code": "A17-E33"
+   "ucas_code": "A17-E33",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Liberal Arts",
    "provider": "St Mary's University College",
    "url": "https://www.stmarys-belfast.ac.uk/study/liberal-arts/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Belfast"
   },
   {
    "title": "Liberal Arts",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/liberal-arts/liberal-arts",
-   "ucas_code": "A72-D73"
+   "ucas_code": "A72-D73",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Liberal Arts",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-liberal-arts/2027-28/sep",
-   "ucas_code": "A56-J57"
+   "ucas_code": "A56-J57",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Liberal Arts",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00239/1?coursecode=V900",
-   "ucas_code": "A32-H10"
+   "ucas_code": "A32-H10",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/liberal-arts-ba-hons-y001/",
+   "ucas_code": "A74-B63",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/g809/liberal-arts-ba",
+   "ucas_code": "A26-I67",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-liberal-arts",
+   "ucas_code": "A20-C86",
+   "setting": "campus town",
+   "town": "Coventry"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Liberal-Arts-BA-Hons.html",
+   "ucas_code": "A44-C87",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Liberal Arts and Sciences",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/2123/V900/liberal-arts-and-sciences/",
+   "ucas_code": "A74-F78",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Liberal Arts",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/liberal-arts/ba-liberal-arts/",
+   "ucas_code": "A15-I75",
+   "setting": "city",
+   "town": "Bristol"
   }
  ]
 }

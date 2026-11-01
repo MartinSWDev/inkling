@@ -6,61 +6,113 @@
    "title": "Social Psychology",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/socialpsychology",
-   "ucas_code": "A10-I38"
+   "ucas_code": "A10-I38",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Cognitive Psychology",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-cognitive-psychology/2027-28/sep",
-   "ucas_code": "A36-G67"
+   "ucas_code": "A36-G67",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Psychology (Cognition and Neuroscience)",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-cognition-and-neuroscience",
-   "ucas_code": "A73-A15"
+   "ucas_code": "A73-A15",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Psychology and Cognitive Neuroscience",
    "provider": "Roehampton University",
    "url": "https://www.roehampton.ac.uk/undergraduate-courses/psychology-and-cognitive-neuroscience/",
-   "ucas_code": "A69-I24"
+   "ucas_code": "A69-I24",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Criminology with Social Psychology",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00092/1?coursecode=L3C8",
-   "ucas_code": "A32-E66"
+   "ucas_code": "A32-E66",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Music and Music Psychology",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i566/music-and-music-psychology-ba",
-   "ucas_code": "A73-D53"
+   "ucas_code": "A73-D53",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Psychology with Cognitive Neuroscience",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/psychology-with-cognitive-neuroscience-bsc/2027",
-   "ucas_code": "A05-C05"
+   "ucas_code": "A05-C05",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Cognitive and Clinical Neuroscience",
    "provider": "The University Of Westminster",
    "url": "http://www.westminster.ac.uk/cognitive-and-clinical-neuroscience-bsc",
-   "ucas_code": "A19-B11"
+   "ucas_code": "A19-B11",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology and Cognitive Neuroscience",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Psychology-and-Cognitive-Neuroscience-BSc-Hons.html",
-   "ucas_code": "A00-H29"
+   "ucas_code": "A00-H29",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Criminology and Criminal Psychology",
    "provider": "Doreen Bird College of Performing Arts Ltd.",
    "url": "https://www.gre.ac.uk/undergraduate-courses/ach/criminology-and-criminal-psychology-bsc-hons",
-   "ucas_code": "A14-F24"
+   "ucas_code": "A14-F24",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Psychology with Cognitive Neuroscience",
+   "provider": "Goldsmiths' College",
+   "url": "http://www.gold.ac.uk/ug/bsc-psychology-cognitive-neuroscience/",
+   "ucas_code": "A17-C48",
+   "setting": "campus town",
+   "town": "Gravesend"
+  },
+  {
+   "title": "Music Psychology in Practice",
+   "provider": "SAE Institute Ltd",
+   "url": "https://www.icmp.ac.uk/course/ba-hons-music-psychology-in-practice",
+   "ucas_code": "A76-I91",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Human Neuroscience",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/human-neuroscience-bsc",
+   "ucas_code": "A69-E29",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Cognitive Neuroscience and Psychology",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/20942/bsc-cognitive-neuroscience-and-psychology/",
+   "ucas_code": "A20-G42",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

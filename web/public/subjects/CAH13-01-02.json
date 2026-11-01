@@ -6,61 +6,129 @@
    "title": "Building Surveying",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/building-surveying",
-   "ucas_code": "A13-J71"
+   "ucas_code": "A13-J71",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Construction Project Management",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/construction-project-management-bsc",
-   "ucas_code": "A30-B51"
+   "ucas_code": "A30-B51",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Construction Management",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/construction-management-bsc-hons-2027-28",
-   "ucas_code": "A14-C99"
+   "ucas_code": "A14-C99",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Building Surveying",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/building-surveying-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-G42"
+   "ucas_code": "A38-G42",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Building Surveying",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bsc-hons-building-surveying-undergraduate-fulltime",
-   "ucas_code": "A51-D89"
+   "ucas_code": "A51-D89",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Building Surveying",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11BLDSRV",
-   "ucas_code": "A26-C66"
+   "ucas_code": "A26-C66",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Construction Project Management",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/construction-project-management",
-   "ucas_code": "A06-A01"
+   "ucas_code": "A06-A01",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Building Surveying",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/building-surveying/",
-   "ucas_code": "A07-J28"
+   "ucas_code": "A07-J28",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Building Surveying",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/buildingsurveying",
-   "ucas_code": "A10-H31"
+   "ucas_code": "A10-H31",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Building Surveying",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30176-building-surveying-bsc-hons",
-   "ucas_code": "A10-J75"
+   "ucas_code": "A10-J75",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "London Metropolitan University",
+   "url": "https://www.londonmet.ac.uk/courses/undergraduate/building-surveying-including-foundation-year---bsc-hons/",
+   "ucas_code": "A71-F97",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-building-surveying#overview",
+   "ucas_code": "A12-A83",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Quantity Surveying",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-quantity-surveying/september-2027/",
+   "ucas_code": "B67-B93",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/architecture-design-and-the-built-environment/ug/bsc-hons-building-surveying",
+   "ucas_code": "A38-C17",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/study/undergraduate-courses/building-surveying/",
+   "ucas_code": "A73-G27",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/construction-real-estate-and-surveying/bsc-honours-building-surveying/full-time",
+   "ucas_code": "A17-H93",
+   "setting": "city",
+   "town": "Sheffield"
   }
  ]
 }

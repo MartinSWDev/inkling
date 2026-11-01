@@ -6,61 +6,121 @@
    "title": "Social Policy",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/social-policy/social-policy-ba.aspx",
-   "ucas_code": "A04-J78"
+   "ucas_code": "A04-J78",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Social Policy",
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/bsc-social-policy-ft-jn",
-   "ucas_code": "A16-J34"
+   "ucas_code": "A16-J34",
+   "setting": "city",
+   "town": "Belfast"
   },
   {
    "title": "Social Policy",
    "provider": "University of Bath",
    "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHSP-AFB32",
-   "ucas_code": "A65-E43"
+   "ucas_code": "A65-E43",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Social Policy",
    "provider": "University of Bristol",
    "url": "http://www.bristol.ac.uk/study/undergraduate/2027/social-policy/bsc-social-policy/",
-   "ucas_code": "A15-J54"
+   "ucas_code": "A15-J54",
+   "setting": "city",
+   "town": "Bristol"
   },
   {
    "title": "Social and Public Policy",
    "provider": "University of York",
    "url": "https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy/",
-   "ucas_code": "A66-B26"
+   "ucas_code": "A66-B26",
+   "setting": "campus town",
+   "town": "York"
   },
   {
    "title": "Sociology and Social Policy",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-sociology-and-social-policy/",
-   "ucas_code": "A69-B84"
+   "ucas_code": "A69-B84",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Criminology and Social Policy",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/criminology-and-social-policy-bsc",
-   "ucas_code": "A40-A66"
+   "ucas_code": "A40-A66",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Criminology and Social Policy",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/criminology-social-policy-ba-ml94/#course",
-   "ucas_code": "A28-B83"
+   "ucas_code": "A28-B83",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Criminology and Social Policy",
    "provider": "Swansea University",
    "url": "http://www.swansea.ac.uk/undergraduate/courses/law/bsccriminologysocialpolicy/",
-   "ucas_code": "A37-A96"
+   "ucas_code": "A37-A96",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Sociology with Social Policy",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/sociology-with-social-policy-ba-hons/2027",
-   "ucas_code": "A43-F86"
+   "ucas_code": "A43-F86",
+   "setting": "coast",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Sociology/Social & Public Policy",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/sociology/",
+   "ucas_code": "A25-A83",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "French and Social Policy",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/RL14",
+   "ucas_code": "A14-I97",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Criminology and Social Policy",
+   "provider": "University of Stirling",
+   "url": "https://www.stir.ac.uk/courses/ug/criminology-social-policy/",
+   "ucas_code": "A44-D18",
+   "setting": "campus town",
+   "town": "Stirling"
+  },
+  {
+   "title": "French and Social Policy",
+   "provider": "University of Strathclyde",
+   "url": "http://www.strath.ac.uk/c/KIS0004059#whythiscourse",
+   "ucas_code": "A35-J05",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "International Social and Public Policy",
+   "provider": "The London School Of Economics And Political Science",
+   "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-social-and-public-policy",
+   "ucas_code": "A32-C58",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

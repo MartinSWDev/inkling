@@ -6,61 +6,129 @@
    "title": "Civil Engineering",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/civil-engineering-beng",
-   "ucas_code": "A13-J87"
+   "ucas_code": "A13-J87",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Civil Engineering",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/civil-engineering-beng",
-   "ucas_code": "A55-H45"
+   "ucas_code": "A55-H45",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Civil Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/civil-engineering-beng-2027-28",
-   "ucas_code": "A14-C86"
+   "ucas_code": "A14-C86",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Civil Engineering",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/civil-engineering-beng",
-   "ucas_code": "A66-D27"
+   "ucas_code": "A66-D27",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Civil Engineering",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-civil-engineering",
-   "ucas_code": "A71-E74"
+   "ucas_code": "A71-E74",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Civil Engineering",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/civil-engineering",
-   "ucas_code": "A72-B73"
+   "ucas_code": "A72-B73",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Civil Engineering",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/civil-engineering-beng",
-   "ucas_code": "A27-I46"
+   "ucas_code": "A27-I46",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Civil Engineering",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/civil-engineering-mengbeng/?term=2027-28",
-   "ucas_code": "A38-G63"
+   "ucas_code": "A38-G63",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Civil Engineering",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/meng-civil-engineering-undergraduate-fulltime",
-   "ucas_code": "A25-C40"
+   "ucas_code": "A25-C40",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Civil Engineering",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/civil-engineering",
-   "ucas_code": "A05-J88"
+   "ucas_code": "A05-J88",
+   "setting": "campus town",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/civilengineering/",
+   "ucas_code": "A76-C29",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/civil-and-infrastructure-engineering/",
+   "ucas_code": "A45-D28",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/civilengineering_beng",
+   "ucas_code": "A10-H46",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/35019mg-civil-engineering-meng",
+   "ucas_code": "A10-J91",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/beng-hons-civil-engineering#overview",
+   "ucas_code": "A12-B12",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Civil Engineering",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/civil-engineering-beng/#default",
+   "ucas_code": "A18-B58",
+   "setting": "campus town",
+   "town": "Loughborough"
   }
  ]
 }

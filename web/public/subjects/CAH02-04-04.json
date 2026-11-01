@@ -6,61 +6,129 @@
    "title": "Midwifery",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/midwifery",
-   "ucas_code": "A14-A66"
+   "ucas_code": "A14-A66",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Midwifery",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b720-midwifery-bm-hons",
-   "ucas_code": "A34-G28"
+   "ucas_code": "A34-G28",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Midwifery",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/midwifery-bsc-hons-2027-28",
-   "ucas_code": "A14-D91"
+   "ucas_code": "A14-D91",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Midwifery",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-midwifery-4",
-   "ucas_code": "A11-I11"
+   "ucas_code": "A11-I11",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Midwifery",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/midwifery",
-   "ucas_code": "A13-I29"
+   "ucas_code": "A13-I29",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Midwifery",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/midwifery",
-   "ucas_code": "A19-H15"
+   "ucas_code": "A19-H15",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Midwifery",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/midwifery-bmid",
-   "ucas_code": "A28-A36"
+   "ucas_code": "A28-A36",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Midwifery",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/midwifery-bsc-hons/?term=2027-28",
-   "ucas_code": "A71-H79"
+   "ucas_code": "A71-H79",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Midwifery",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/midwifery-bsc-hons-degree/midwifery-bsc-hons.aspx",
-   "ucas_code": "A25-H55"
+   "ucas_code": "A25-H55",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Midwifery",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/midwifery/",
-   "ucas_code": "A05-D11"
+   "ucas_code": "A05-D11",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bm-midwifery-undergraduate-fulltime",
+   "ucas_code": "A25-D28",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/midwifery",
+   "ucas_code": "A03-G74",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/midwifery/",
+   "ucas_code": "A59-B53",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36483-midwifery-bsc-hons",
+   "ucas_code": "A11-B08",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Midwifery",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/midwifery-bsc-hons#overview",
+   "ucas_code": "A12-C26",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Midwifery (Advanced)",
+   "provider": "Middlesex University",
+   "url": "http://www.mdx.ac.uk/courses/undergraduate/midwifery-degree",
+   "ucas_code": "A22-D54",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

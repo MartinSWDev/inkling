@@ -6,25 +6,33 @@
    "title": "Creative Writing and Publishing",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-publishing/",
-   "ucas_code": "A48-C66"
+   "ucas_code": "A48-C66",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "English and Publishing",
    "provider": "University of Derby",
    "url": "https://www.derby.ac.uk/undergraduate/joint-honours-courses/english-and-publishing-ba-hons/",
-   "ucas_code": "A37-H55"
+   "ucas_code": "A37-H55",
+   "setting": "campus town",
+   "town": "Derby"
   },
   {
    "title": "Journalism and Publishing",
    "provider": "University of the Arts, London",
    "url": "https://www.arts.ac.uk/subjects/journalism-pr-media-and-publishing/undergraduate/ba-hons-journalism-and-publishing-lcc",
-   "ucas_code": "A76-A84"
+   "ucas_code": "A76-A84",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Media, Journalism and Publishing",
    "provider": "Abingdon and Witney College",
    "url": "https://www.brookes.ac.uk/courses/undergraduate/media-journalism-and-publishing",
-   "ucas_code": "A50-I77"
+   "ucas_code": "A50-I77",
+   "setting": "campus town",
+   "town": "Oxford"
   }
  ]
 }

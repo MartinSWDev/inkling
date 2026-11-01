@@ -6,61 +6,129 @@
    "title": "Diagnostic Radiography",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b821-diagnostic-radiography-bsc-hons",
-   "ucas_code": "A34-C74"
+   "ucas_code": "A34-C74",
+   "setting": "campus town",
+   "town": "Wrexham"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/diagnostic-radiography-bsc-hons-2027-28",
-   "ucas_code": "A14-D07"
+   "ucas_code": "A14-D07",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bucks.ac.uk/courses/undergraduate/bsc-hons-diagnostic-radiography",
-   "ucas_code": "A73-F04"
+   "ucas_code": "A73-F04",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/radiography-diagnostic-imaging",
-   "ucas_code": "A13-I37"
+   "ucas_code": "A13-I37",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/diagnostic-radiography",
-   "ucas_code": "A19-E24"
+   "ucas_code": "A19-E24",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Diagnostic Radiography and Imaging",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/diagnostic-radiography-and-imaging-bsc",
-   "ucas_code": "A53-D63"
+   "ucas_code": "A53-D63",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls/diagnostic-radiography-bsc-msci/?term=2027-28",
-   "ucas_code": "A71-H78"
+   "ucas_code": "A71-H78",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Diagnostic Radiography",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/diagnostic-radiography-bsc-hons/diagnostic-radiography-bsc-hons.aspx",
-   "ucas_code": "A48-E77"
+   "ucas_code": "A48-E77",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Diagnostic Imaging",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11DIAGIM",
-   "ucas_code": "A26-C81"
+   "ucas_code": "A26-C81",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Radiography (Diagnostic Imaging)",
    "provider": "Health Sciences University",
    "url": "https://www.hsu.ac.uk/course/bsc-hons-radiography-diagnostic-imaging/#overview",
-   "ucas_code": "A55-G86"
+   "ucas_code": "A55-G86",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Radiography (Diagnostic Imaging)",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/radiographydiagnosticimaging",
+   "ucas_code": "A03-H17",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-diagnostic-radiography#overview",
+   "ucas_code": "A12-B36",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Queen Margaret University, Edinburgh",
+   "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/master-of-diagnostic-radiography-bsc-hons-diagnostic-radiography-2027-entry",
+   "ucas_code": "A75-B19",
+   "setting": "coast",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Robert Gordon University",
+   "url": "https://www.rgu.ac.uk/study/courses/mdrad-diagnostic-radiography",
+   "ucas_code": "A03-I99",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/diagnostic-radiography/bsc-honours-diagnostic-radiography/full-time/",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Diagnostic Radiography",
+   "provider": "The University Of Bradford",
+   "url": "https://www.bradford.ac.uk/courses/ug/diagnostic-radiography-bsc/",
+   "ucas_code": "A11-C72",
+   "setting": "city",
+   "town": "Bradford"
   }
  ]
 }

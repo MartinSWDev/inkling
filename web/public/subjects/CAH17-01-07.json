@@ -6,61 +6,129 @@
    "title": "Finance",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/finance-bsc",
-   "ucas_code": "A30-B74"
+   "ucas_code": "A30-B74",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Finance",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/finance",
-   "ucas_code": "A65-G52"
+   "ucas_code": "A65-G52",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Finance",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-finance",
-   "ucas_code": "A55-F48"
+   "ucas_code": "A55-F48",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Finance",
    "provider": "City St George'S, University Of London",
    "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/finance",
-   "ucas_code": "A13-H92"
+   "ucas_code": "A13-H92",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Finance",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/business/courses/finance-n305/september-2027/#overview",
-   "ucas_code": "B59-D07"
+   "ucas_code": "B59-D07",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Finance",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/finance",
-   "ucas_code": "A06-A20"
+   "ucas_code": "A06-A20",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Finance",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/finance-and-management/",
-   "ucas_code": "A46-A15"
+   "ucas_code": "A46-A15",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Finance",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/n300/",
-   "ucas_code": "A73-H81"
+   "ucas_code": "A73-H81",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Finance",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/som/accounting-finance/bsc-finance/",
-   "ucas_code": "A37-B83"
+   "ucas_code": "A37-B83",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Finance",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00167/1?coursecode=N300",
-   "ucas_code": "A32-F66"
+   "ucas_code": "A32-F66",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Finance",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/finance-bsc-hons-n300/",
+   "ucas_code": "A25-J37",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Finance",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/finance-bsc/2027",
+   "ucas_code": "A64-I31",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Finance",
+   "provider": "The University Of Westminster",
+   "url": "http://www.westminster.ac.uk/finance-bsc",
+   "ucas_code": "A19-B52",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Finance",
+   "provider": "University Of Glasgow",
+   "url": "https://www.gla.ac.uk/undergraduate/degrees/finance/",
+   "ucas_code": "A56-D19",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Finance",
+   "provider": "University Of Northampton, The",
+   "url": "https://www.northampton.ac.uk/courses/finance-bsc-hons/",
+   "ucas_code": "A53-F51",
+   "setting": "campus town",
+   "town": "Northampton"
+  },
+  {
+   "title": "Finance",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/1138/N300/",
+   "ucas_code": "A45-B64",
+   "setting": "coast",
+   "town": "Aberdeen"
   }
  ]
 }

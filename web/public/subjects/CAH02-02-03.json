@@ -6,61 +6,129 @@
    "title": "Pharmacy",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/pharmacy-mpharm",
-   "ucas_code": "A30-C36"
+   "ucas_code": "A30-C36",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Pharmacy",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b230-pharmacy-mpharm",
-   "ucas_code": "A72-D08"
+   "ucas_code": "A72-D08",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Pharmacy",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/pharmacy-mpharm",
-   "ucas_code": "A28-A63"
+   "ucas_code": "A28-A63",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Pharmacy",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/pharmacy-mpharm-hons-degree/pharmacy-mpharm.aspx",
-   "ucas_code": "A25-H64"
+   "ucas_code": "A25-H64",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Pharmacy",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/pharmacy",
-   "ucas_code": "A03-G94"
+   "ucas_code": "A03-G94",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Pharmacy",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/pharmacy/",
-   "ucas_code": "A08-C29"
+   "ucas_code": "A08-C29",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Pharmacy",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/35577-pharmacy-mpharm",
-   "ucas_code": "A11-B22"
+   "ucas_code": "A11-B22",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Pharmacy",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/b230/",
-   "ucas_code": "A27-C85"
+   "ucas_code": "A27-C85",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Pharmacy",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/pharmacy-mpharm-b230/",
-   "ucas_code": "A28-C97"
+   "ucas_code": "A28-C97",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Pharmacy",
    "provider": "Robert Gordon University",
    "url": "https://www.rgu.ac.uk/study/courses/mpharm-pharmacy",
-   "ucas_code": "A03-J33"
+   "ucas_code": "A03-J33",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/medicine/mpharmpharmacy/",
+   "ucas_code": "A55-I62",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/med/pharmacy-4-year.aspx",
+   "ucas_code": "A04-J45",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "The University Of Bradford",
+   "url": "https://www.bradford.ac.uk/courses/ug/pharmacy-mpharm/?att=ft",
+   "ucas_code": "A11-D48",
+   "setting": "city",
+   "town": "Bradford"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/mpharm-pharmacy/2027-28/sep",
+   "ucas_code": "A36-I04",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Pharmacy-MPharm",
+   "ucas_code": "A13-G91",
+   "setting": "campus town",
+   "town": "Huddersfield"
+  },
+  {
+   "title": "Pharmacy",
+   "provider": "The University Of Leicester",
+   "url": "https://le.ac.uk/courses/pharmacy-mpharm/2027",
+   "ucas_code": "A70-C51",
+   "setting": "city",
+   "town": "Leicester"
   }
  ]
 }

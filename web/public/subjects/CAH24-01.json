@@ -6,61 +6,129 @@
    "title": "Media, Marketing and Advertising",
    "provider": "Arts University Bournemouth, The",
    "url": "https://aub.ac.uk/course/ba-hons-media-marketing-and-advertising",
-   "ucas_code": "A73-F06"
+   "ucas_code": "A73-F06",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "International Relations and Media",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?NDUUZ7",
-   "ucas_code": "A59-J30"
+   "ucas_code": "A59-J30",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Film and Media",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/film-and-media",
-   "ucas_code": "A14-A30"
+   "ucas_code": "A14-A30",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Fashion Media & Marketing",
    "provider": "Arts University Plymouth",
    "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-media-marketing",
-   "ucas_code": "A16-E80"
+   "ucas_code": "A16-E80",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Digital Media and Communication",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/digital-media-and-communication-ba/",
-   "ucas_code": "A75-D83"
+   "ucas_code": "A75-D83",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Film and Media",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/p340-film-and-media-ba",
-   "ucas_code": "B64-C57"
+   "ucas_code": "B64-C57",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Business Management and Media Communications",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-media-communications/",
-   "ucas_code": "A09-E71"
+   "ucas_code": "A09-E71",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Digital Media 3-year, full-time",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/digital-media",
-   "ucas_code": "A73-C81"
+   "ucas_code": "A73-C81",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "English and Journalism",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/english-and-journalism-ba-hons-2027-28",
-   "ucas_code": "A14-D20"
+   "ucas_code": "A14-D20",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Communication and Media",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-communication-media",
-   "ucas_code": "A11-H62"
+   "ucas_code": "A11-H62",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Film and Media Production",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/courses/film-and-media-production-ba",
+   "ucas_code": "A77-I80",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Marketing and Media Communications",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-marketing-and-media-communications",
+   "ucas_code": "A53-H72",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Journalism",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/journalism",
+   "ucas_code": "A13-I15",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Media Production",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/media-production",
+   "ucas_code": "A19-H07",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-media-and-communications/",
+   "ucas_code": "A53-E64",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "English Literature, Journalism and Media",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-journalism-media-ba",
+   "ucas_code": "A27-J88",
+   "setting": "city",
+   "town": "Cardiff"
   }
  ]
 }

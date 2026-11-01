@@ -6,61 +6,129 @@
    "title": "Biomedical Science",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/biomedical-science/",
-   "ucas_code": "A06-B11"
+   "ucas_code": "A06-B11",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Biomedical Science",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?4Q42VK",
-   "ucas_code": "A71-D68"
+   "ucas_code": "A71-D68",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Biomedical Science",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-science",
-   "ucas_code": "A13-J64"
+   "ucas_code": "A13-J64",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Biomedical Science",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/biomedical-science-bsc",
-   "ucas_code": "A30-B17"
+   "ucas_code": "A30-B17",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Biomedical Science",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons",
-   "ucas_code": "A53-B68"
+   "ucas_code": "A53-B68",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Biomedical Science",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-biomedical-science/",
-   "ucas_code": "A65-I25"
+   "ucas_code": "A65-I25",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Biomedical Sciences",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/biomedical-science-bsc-hons-2027-28",
-   "ucas_code": "A14-C62"
+   "ucas_code": "A14-C62",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Biomedical Science",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-biomedical-science-0",
-   "ucas_code": "A51-A27"
+   "ucas_code": "A51-A27",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Biomedical Science",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/biomedical-science",
-   "ucas_code": "A75-A84"
+   "ucas_code": "A75-A84",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Biomedical Science",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/biomedical-science",
-   "ucas_code": "A55-D32"
+   "ucas_code": "A55-D32",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-biomedical-science/",
+   "ucas_code": "A08-G03",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Biomedical Sciences",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/biomedical-sciences-with-a-foundation-year-bsc",
+   "ucas_code": "A77-J15",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls/biomedical-science-applied-biomedical-science-bsc/?term=2027-28",
+   "ucas_code": "A38-G40",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/biomedical-science-bsc-hons-degree/biomedical-science-bsc-hons.aspx",
+   "ucas_code": "A25-G03",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/biomedical-science/",
+   "ucas_code": "A55-B59",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Biomedical Science",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bsc-hons-biomedical-science-undergraduate-fulltime",
+   "ucas_code": "A50-D83",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

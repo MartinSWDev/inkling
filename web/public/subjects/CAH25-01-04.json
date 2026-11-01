@@ -6,61 +6,129 @@
    "title": "Film Production",
    "provider": "Arts University Bournemouth, The",
    "url": "http://aub.ac.uk/courses/ba/ba-film-production/",
-   "ucas_code": "A38-G01"
+   "ucas_code": "A38-G01",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Film and Television Production",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/film-and-television-production",
-   "ucas_code": "A70-C40"
+   "ucas_code": "A70-C40",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Photography",
    "provider": "Arts University Plymouth",
    "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-photography",
-   "ucas_code": "A16-E98"
+   "ucas_code": "A16-E98",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Photography",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-photography/",
-   "ucas_code": "A09-G85"
+   "ucas_code": "A09-G85",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Filmmaking",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/filmmaking-ba-hons-2027-28",
-   "ucas_code": "A46-B99"
+   "ucas_code": "A46-B99",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Film",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-film-3",
-   "ucas_code": "A11-H80"
+   "ucas_code": "A11-H80",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Film Production",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/film-production-ba",
-   "ucas_code": "A45-E61"
+   "ucas_code": "A45-E61",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Film Production",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-film-production",
-   "ucas_code": "A53-E88"
+   "ucas_code": "A53-E88",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Film Production",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/film-production",
-   "ucas_code": "A42-B66"
+   "ucas_code": "A42-B66",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Photography",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-photography/",
-   "ucas_code": "A53-E57"
+   "ucas_code": "A53-E57",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Film Production",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/film-production-ba-hons/?term=2027-28",
+   "ucas_code": "A58-F81",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Filmmaking",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/filmmaking-ba/filmmaking-ba.aspx",
+   "ucas_code": "A75-F30",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Film",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-film-undergraduate-fulltime",
+   "ucas_code": "Y78-I58",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Photography",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/photography",
+   "ucas_code": "A27-A57",
+   "setting": "coast",
+   "town": "Penryn"
+  },
+  {
+   "title": "Filmmaking",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/filmmaking/",
+   "ucas_code": "A64-B83",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Filmmaking",
+   "provider": "Leeds Arts University",
+   "url": "https://www.leeds-art.ac.uk/courses/ba-hons-filmmaking",
+   "ucas_code": "A40-I95",
+   "setting": "city",
+   "town": "Leeds"
   }
  ]
 }

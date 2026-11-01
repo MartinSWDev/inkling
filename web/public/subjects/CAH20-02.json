@@ -6,61 +6,129 @@
    "title": "Philosophy",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
-   "ucas_code": "A14-A81"
+   "ucas_code": "A14-A81",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Philosophy, Religion and Ethics",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/theology-ba-hons/full-time/",
-   "ucas_code": "A51-C14"
+   "ucas_code": "A51-C14",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Modern Languages And Philosophy, Ethics And Religion",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons",
-   "ucas_code": "A62-B61"
+   "ucas_code": "A62-B61",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Creative Writing and Philosophy and Ethics",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-philosophy-and-ethics/",
-   "ucas_code": "A09-F27"
+   "ucas_code": "A09-F27",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Philosophy",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/philosophy",
-   "ucas_code": "A24-E12"
+   "ucas_code": "A24-E12",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Theology, Philosophy & Religion",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/theology-philosophy-and-religion",
-   "ucas_code": "A19-I18"
+   "ucas_code": "A19-I18",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "English Literature and Philosophy",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-and-philosophy-ba",
-   "ucas_code": "A27-J11"
+   "ucas_code": "A27-J11",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Philosophy",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/philosophy-ba/?term=2027-28",
-   "ucas_code": "A65-J88"
+   "ucas_code": "A65-J88",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "English Literature and Philosophy",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/qv35/",
-   "ucas_code": "A07-G93"
+   "ucas_code": "A07-G93",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "English and Philosophy",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/englishandphilosophy/",
-   "ucas_code": "A74-F12"
+   "ucas_code": "A74-F12",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Education Studies And Theology Philosophy And Ethics",
+   "provider": "Lincoln Bishop University",
+   "url": "https://www.lincolnbishop.ac.uk/courses/education-studies-and-theology-philosophy-ethics",
+   "ucas_code": "A31-A79",
+   "setting": "campus town",
+   "town": "Lincoln"
+  },
+  {
+   "title": "Creative Writing and Philosophy & Ethics",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/creativewriting/creativewritingandphilosophyethics/",
+   "ucas_code": "A60-J20",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Politics, Philosophy and Economics",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36995-politics-philosophy-and-economics-ba-hons",
+   "ucas_code": "A75-I89",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Politics, Philosophy and Economics",
+   "provider": "Loughborough University",
+   "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/politics-philosophy-and-economics/#variant",
+   "ucas_code": "A51-C72",
+   "setting": "campus town",
+   "town": "Loughborough"
+  },
+  {
+   "title": "Ethics, Religion and Philosophy",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-ethics-religion-and-philosophy/september-2027/",
+   "ucas_code": "A31-I73",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Communications and Philosophy",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-communication-and-society-and-philosophy",
+   "ucas_code": "A38-E73",
+   "setting": "city",
+   "town": "Nottingham"
   }
  ]
 }

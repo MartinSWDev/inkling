@@ -6,25 +6,33 @@
    "title": "Cymraeg (i fyfyrwyr iaith gyntaf ac ail iaith)",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?FXNBWK",
-   "ucas_code": "A22-F09"
+   "ucas_code": "A22-F09",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Welsh",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/q562-cymraeg-welsh-for-first-and-second-language-ba-hons",
-   "ucas_code": "A34-C54"
+   "ucas_code": "A34-C54",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Welsh",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/welsh-ba",
-   "ucas_code": "A28-B19"
+   "ucas_code": "A28-B19",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Welsh (a pathway for First Language students)",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/welsh/ba-welsh-first-language/",
-   "ucas_code": "A37-E11"
+   "ucas_code": "A37-E11",
+   "setting": "coast",
+   "town": "Swansea"
   }
  ]
 }

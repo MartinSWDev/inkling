@@ -6,61 +6,129 @@
    "title": "Journalism",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/journalism-ba-hons-2027-28",
-   "ucas_code": "A45-H51"
+   "ucas_code": "A45-H51",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Journalism",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/journalism",
-   "ucas_code": "A13-I15"
+   "ucas_code": "A13-I15",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Journalism",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/journalism-ba-hons/?term=2027-28",
-   "ucas_code": "A38-H92"
+   "ucas_code": "A38-H92",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Journalism",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/journalism-ba-degree/journalism-ba-degree.aspx",
-   "ucas_code": "A25-H34"
+   "ucas_code": "A25-H34",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Journalism",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/ba-hons-journalism-undergraduate-fulltime",
-   "ucas_code": "A25-D01"
+   "ucas_code": "A25-D01",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Journalism",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/journalism",
-   "ucas_code": "A10-I03"
+   "ucas_code": "A10-I03",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Journalism",
    "provider": "Liverpool Hope University",
    "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/journalism/",
-   "ucas_code": "A75-F46"
+   "ucas_code": "A75-F46",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Journalism",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30574-journalism-ba-hons",
-   "ucas_code": "A11-A74"
+   "ucas_code": "A11-A74",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Journalism",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/journalism---ba-hons/",
-   "ucas_code": "A07-A09"
+   "ucas_code": "A07-A09",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Journalism",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-journalism",
-   "ucas_code": "A38-E32"
+   "ucas_code": "A38-E32",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/journalism-degree/",
+   "ucas_code": "A03-H52",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Robert Gordon University",
+   "url": "https://www.rgu.ac.uk/study/courses/ba-hons-journalism",
+   "ucas_code": "A03-J11",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Journalism",
+   "provider": "Roehampton University",
+   "url": "http://www.roehampton.ac.uk/undergraduate-courses/journalism/",
+   "ucas_code": "A19-A27",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Journalism",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG01020/1?coursecode=P500",
+   "ucas_code": "A32-H87",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Journalism",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Journalism-BA-Hons",
+   "ucas_code": "B71-C86",
+   "setting": "campus town",
+   "town": "Huddersfield"
+  },
+  {
+   "title": "Journalism",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j925/journalism-ba",
+   "ucas_code": "A26-I59",
+   "setting": "city",
+   "town": "Leeds"
   }
  ]
 }

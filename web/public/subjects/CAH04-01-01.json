@@ -6,61 +6,129 @@
    "title": "Psychology",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
-   "ucas_code": "A00-B18"
+   "ucas_code": "A00-B18",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Psychology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?9KG2VS",
-   "ucas_code": "A22-H18"
+   "ucas_code": "A22-H18",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Psychology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/psychology",
-   "ucas_code": "A14-A89"
+   "ucas_code": "A14-A89",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Psychology",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-bps",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/psychology-bsc",
-   "ucas_code": "A30-C43"
+   "ucas_code": "A30-C43",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/psychology-bsc-hons/full-time/",
-   "ucas_code": "A15-H12"
+   "ucas_code": "A15-H12",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/c800-psychology-bsc-hons",
-   "ucas_code": "A34-H06"
+   "ucas_code": "A34-H06",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Psychology",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-psychology/",
-   "ucas_code": "A09-G88"
+   "ucas_code": "A09-G88",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Psychology",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/psychology",
-   "ucas_code": "A24-E16"
+   "ucas_code": "A24-E16",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/psychology-bsc-hons-2027-28",
-   "ucas_code": "A14-E06"
+   "ucas_code": "A14-E06",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-psychology-1",
+   "ucas_code": "A11-I30",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/psychology-bsc",
+   "ucas_code": "A20-A25",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-psychology",
+   "ucas_code": "A03-D72",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Psychology",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/psychology",
+   "ucas_code": "A13-I36",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/psychology",
+   "ucas_code": "A19-H70",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-psychology/",
+   "ucas_code": "A08-G73",
+   "setting": "city",
+   "town": "Cardiff"
   }
  ]
 }

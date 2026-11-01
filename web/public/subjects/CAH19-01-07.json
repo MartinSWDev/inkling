@@ -6,61 +6,129 @@
    "title": "Linguistics",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/q100/",
-   "ucas_code": "A27-C30"
+   "ucas_code": "A27-C30",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Linguistics",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/linguistics",
-   "ucas_code": "A46-J46"
+   "ucas_code": "A46-J46",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Linguistics",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00241/1?coursecode=Q100",
-   "ucas_code": "A32-H13"
+   "ucas_code": "A32-H13",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Linguistics",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/linguistics-ba-hons-q100/",
-   "ucas_code": "A26-A17"
+   "ucas_code": "A26-A17",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "Linguistics",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/j769/linguistics-ba",
-   "ucas_code": "A26-I70"
+   "ucas_code": "A26-I70",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Language and Linguistics",
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/bsc-language-and-linguistics-ft-jn",
-   "ucas_code": "A16-I88"
+   "ucas_code": "A16-I88",
+   "setting": "city",
+   "town": "Belfast"
   },
   {
    "title": "Language and Linguistics",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/758/Q190/language-linguistics/",
-   "ucas_code": "A33-G37"
+   "ucas_code": "A33-G37",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Linguistics",
    "provider": "University of Cambridge",
    "url": "https://www.undergraduate.study.cam.ac.uk/courses/linguistics-ba-hons",
-   "ucas_code": "A25-D92"
+   "ucas_code": "A25-D92",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Linguistics",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/Q100",
-   "ucas_code": "A15-A11"
+   "ucas_code": "A15-A11",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Linguistics",
    "provider": "University of York",
    "url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-linguistics/",
-   "ucas_code": "A66-A66"
+   "ucas_code": "A66-A66",
+   "setting": "campus town",
+   "town": "York"
+  },
+  {
+   "title": "Linguistics",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/linguistics-ba",
+   "ucas_code": "A24-A34",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Linguistics",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00291/ba-linguistics/",
+   "ucas_code": "A20-I09",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Welsh And Linguistics",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/qq15-welsh-and-linguistics-ba-hons",
+   "ucas_code": "A34-C66",
+   "setting": "coast",
+   "town": "Bangor"
+  },
+  {
+   "title": "English and Linguistics",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/linguistics-and-language-french-german-italian-japanese-spanish/english-and-linguistics",
+   "ucas_code": "A65-H71",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-linguistics-ba",
+   "ucas_code": "A27-I99",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-english-language-and-linguistics/september-2027/",
+   "ucas_code": "A65-H73",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

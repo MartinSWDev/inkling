@@ -6,61 +6,129 @@
    "title": "Computing",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/computing/",
-   "ucas_code": "A06-B20"
+   "ucas_code": "A06-B20",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Accounting and Finance and Computing",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?B7SZAS",
-   "ucas_code": "A57-B01"
+   "ucas_code": "A57-B01",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Computing",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/computing",
-   "ucas_code": "A67-B15"
+   "ucas_code": "A67-B15",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Computing",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/bsc-hons-computing",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business Computing and IT",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
-   "ucas_code": "A30-B27"
+   "ucas_code": "A30-B27",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Creative Computing Specialised",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-creative-computing/",
-   "ucas_code": "A65-I74"
+   "ucas_code": "A65-I74",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Business Computing",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/business-computing",
-   "ucas_code": "A69-G31"
+   "ucas_code": "A69-G31",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Computing and Information Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/computing-information-technology-bsc-hons-2027-28",
-   "ucas_code": "A14-C96"
+   "ucas_code": "A14-C96",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business Computing with Analytics",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-computing-analytics-0",
-   "ucas_code": "A66-I18"
+   "ucas_code": "A66-I18",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Business Computing",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/business-computing-bsc",
-   "ucas_code": "A19-I77"
+   "ucas_code": "A19-I77",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Computing",
+   "provider": "Buckinghamshire New University",
+   "url": "https://mrcollege.ac.uk/bsc-hons-computing/",
+   "ucas_code": "A54-H16",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Computing with Creative Design",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computing-with-creative-design/",
+   "ucas_code": "A49-H59",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Cloud Computing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/cloud-computing/?term=2027-28",
+   "ucas_code": "A59-C58",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Applied Computing",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/applied-computing-bsc/applied-computing-bsc.aspx",
+   "ucas_code": "A60-H74",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Computing",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/computing/",
+   "ucas_code": "A05-C47",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Computing",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bengbeng-hons-computing-undergraduate-fulltime",
+   "ucas_code": "A25-C45",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

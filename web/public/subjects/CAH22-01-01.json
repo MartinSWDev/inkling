@@ -6,61 +6,129 @@
    "title": "Education",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?TPMGET",
-   "ucas_code": "A74-D54"
+   "ucas_code": "A74-D54",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Education",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-education/",
-   "ucas_code": "A68-G55"
+   "ucas_code": "A68-G55",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Education Studies",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/education-studies-ba-hons-2027-28",
-   "ucas_code": "A14-D13"
+   "ucas_code": "A14-D13",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Education",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/education-ba",
-   "ucas_code": "A19-J20"
+   "ucas_code": "A19-J20",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Education Studies",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/education-studies",
-   "ucas_code": "A19-E84"
+   "ucas_code": "A19-E84",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Education",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/education-bsc",
-   "ucas_code": "A40-A58"
+   "ucas_code": "A40-A58",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Education Studies",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/education-studies-ba-hons-degree/education-studies-ba-hons.aspx",
-   "ucas_code": "A25-G52"
+   "ucas_code": "A25-G52",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Education Studies",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/x301/",
-   "ucas_code": "A07-G90"
+   "ucas_code": "A07-G90",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Education",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/education-2026/",
-   "ucas_code": "A05-C72"
+   "ucas_code": "A05-C72",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Education",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/education/",
-   "ucas_code": "A03-F15"
+   "ucas_code": "A03-F15",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/education-studies-ba/",
+   "ucas_code": "A68-G40",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Lincoln Bishop University",
+   "url": "https://www.lincolnbishop.ac.uk/courses/education-studies",
+   "ucas_code": "A31-A70",
+   "setting": "campus town",
+   "town": "Lincoln"
+  },
+  {
+   "title": "Education",
+   "provider": "London Metropolitan University",
+   "url": "https://www.londonmet.ac.uk/courses/undergraduate/education---ba-hons/",
+   "ucas_code": "A52-A07",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Education",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/ba-hons-education#overview",
+   "ucas_code": "A12-B54",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Education",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-education/september-2027/",
+   "ucas_code": "A57-G74",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Education Studies",
+   "provider": "Middlesex University",
+   "url": "http://www.mdx.ac.uk/courses/undergraduate/education-studies-degree",
+   "ucas_code": "A22-C71",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Electrical and Electronic Engineering",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?Y5UH9G",
-   "ucas_code": "A69-B92"
+   "ucas_code": "A69-B92",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Electronic and Electrical Engineering",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/electrical-and-electronics-engineering",
-   "ucas_code": "A62-B16"
+   "ucas_code": "A62-B16",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/electrical-and-electronic-engineering-beng",
-   "ucas_code": "A30-B55"
+   "ucas_code": "A30-B55",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Electronic Engineering",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/h610-electronic-engineering-beng-hons",
-   "ucas_code": "A34-C82"
+   "ucas_code": "A34-C82",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/electrical-and-electronic-engineering-beng-2027-28",
-   "ucas_code": "A75-D67"
+   "ucas_code": "A75-D67",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Electronic and Electrical Engineering",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/electronic-and-electrical-engineering-beng",
-   "ucas_code": "A66-J87"
+   "ucas_code": "A66-J87",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-electrical-and-electronic-engineering",
-   "ucas_code": "A69-F43"
+   "ucas_code": "A69-F43",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/electrical-electronic-biomedical-engineering",
-   "ucas_code": "A72-B74"
+   "ucas_code": "A72-B74",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/beng--meng-electrical-and-electronic-engineering/",
-   "ucas_code": "A71-F49"
+   "ucas_code": "A71-F49",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/electrical-and-electronic-engineering-beng",
-   "ucas_code": "A27-I93"
+   "ucas_code": "A27-I93",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/electrical-and-electronic-engineering-beng/?term=2027-28",
+   "ucas_code": "A41-G07",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/electrical-and-electronic-engineering/electrical-electronic-engineering.aspx",
+   "ucas_code": "A25-G61",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Electrical And Electronic Engineering",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/electrical-and-electronic-engineering/",
+   "ucas_code": "A66-E44",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Electrical Engineering",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/beng-hons-electrical-engineering-undergraduate-fulltime",
+   "ucas_code": "A76-D12",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/13ELEENG",
+   "ucas_code": "A26-C90",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/electrical-and-electronic-engineering",
+   "ucas_code": "A06-A10",
+   "setting": "campus town",
+   "town": "Edinburgh"
   }
  ]
 }

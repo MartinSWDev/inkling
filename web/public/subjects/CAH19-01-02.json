@@ -6,61 +6,129 @@
    "title": "English Language",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/english-language-ba",
-   "ucas_code": "A30-B61"
+   "ucas_code": "A30-B61",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English Language",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/english-language-ba-hons-q304/",
-   "ucas_code": "A25-I91"
+   "ucas_code": "A25-I91",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "English Language",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/english-language-ba-hons/2027",
-   "ucas_code": "A02-H49"
+   "ucas_code": "A02-H49",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "English Language",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/englishlanguage/",
-   "ucas_code": "A24-H18"
+   "ucas_code": "A24-H18",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "English Language",
    "provider": "University Of Salford, The",
    "url": "https://www.salford.ac.uk/courses/undergraduate/english-language",
-   "ucas_code": "A28-F66"
+   "ucas_code": "A28-F66",
+   "setting": "city",
+   "town": "Salford"
   },
   {
    "title": "English Language",
    "provider": "University of Chester",
    "url": "https://www.chester.ac.uk/study/course-search/english-language-ba-hons/",
-   "ucas_code": "A10-A18"
+   "ucas_code": "A10-A18",
+   "setting": "campus town",
+   "town": "Chester"
   },
   {
    "title": "English Language",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/Q302",
-   "ucas_code": "A14-I70"
+   "ucas_code": "A14-I70",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "English Language",
    "provider": "University of Northumbria at Newcastle",
    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-language-uuslan1/",
-   "ucas_code": "A74-G72"
+   "ucas_code": "A74-G72",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "English Language",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00212/ba-english-language/",
-   "ucas_code": "A20-G91"
+   "ucas_code": "A20-G91",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "English Language and Communication",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/english-language-and-communication",
-   "ucas_code": "A70-B09"
+   "ucas_code": "A70-B09",
+   "setting": "campus town",
+   "town": "Cambridge"
+  },
+  {
+   "title": "English Language and English Literature",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/qqcf-english-language-and-english-literature-with-foundation-year-ba-hons",
+   "ucas_code": "A58-E90",
+   "setting": "coast",
+   "town": "Bangor"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
+   "ucas_code": "A14-D22",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-language-and-linguistics-ba",
+   "ucas_code": "A27-I99",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/english-language-and-linguistics",
+   "ucas_code": "A67-E92",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/english-language-and-linguistics",
+   "ucas_code": "A42-F34",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "English Language and Linguistics",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/english-language-tesol-applied-linguistics/english-language-and-linguistics/",
+   "ucas_code": "A76-H43",
+   "setting": "coast",
+   "town": "Swansea"
   }
  ]
 }

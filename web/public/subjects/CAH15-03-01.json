@@ -6,61 +6,129 @@
    "title": "Politics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?WQ9L7C",
-   "ucas_code": "A22-H13"
+   "ucas_code": "A22-H13",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Politics",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l200-politics-ba-hons",
-   "ucas_code": "A53-H36"
+   "ucas_code": "A53-H36",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Politics",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/politics",
-   "ucas_code": "A24-E14"
+   "ucas_code": "A24-E14",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Politics",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/politics-bsc",
-   "ucas_code": "A20-A13"
+   "ucas_code": "A20-A13",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Politics",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/politics",
-   "ucas_code": "A13-H58"
+   "ucas_code": "A13-H58",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Politics",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/politics-ba",
-   "ucas_code": "A75-F96"
+   "ucas_code": "A75-F96",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Politics",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/politics-ba/?term=2027-28",
-   "ucas_code": "A38-I38"
+   "ucas_code": "A38-I38",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Politics",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/l200/",
-   "ucas_code": "A07-H60"
+   "ucas_code": "A07-H60",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Politics",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/politics",
-   "ucas_code": "A03-H10"
+   "ucas_code": "A03-H10",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Politics",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/politics",
-   "ucas_code": "A10-I25"
+   "ucas_code": "A10-I25",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Politics",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/politics/#variant",
+   "ucas_code": "A18-D39",
+   "setting": "campus town",
+   "town": "Loughborough"
+  },
+  {
+   "title": "Politics",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-politics/september-2027/",
+   "ucas_code": "A32-A78",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Politics",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/social-sciences/ug/ba-hons-politics",
+   "ucas_code": "A38-E90",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Politics",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/l200/",
+   "ucas_code": "A27-C94",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Politics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/politics",
+   "ucas_code": "A01-A44",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Politics",
+   "provider": "Queen's University Belfast",
+   "url": "http://www.qub.ac.uk/courses/undergraduate/politics-ba-l200/",
+   "ucas_code": "A28-D09",
+   "setting": "coast",
+   "town": "Belfast"
   }
  ]
 }

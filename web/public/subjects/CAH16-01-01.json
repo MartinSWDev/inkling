@@ -6,61 +6,129 @@
    "title": "Law",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/law/",
-   "ucas_code": "A06-B31"
+   "ucas_code": "A06-B31",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Law",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?SHHRUR",
-   "ucas_code": "A22-G49"
+   "ucas_code": "A22-G49",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Law",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/law",
-   "ucas_code": "A14-A52"
+   "ucas_code": "A14-A52",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Law",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/law-degrees/llb-hons",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Law",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/law-llb",
-   "ucas_code": "A30-C16"
+   "ucas_code": "A30-C16",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Law",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/law-llb-hons/full-time/",
-   "ucas_code": "A51-C32"
+   "ucas_code": "A51-C32",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Law",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/m100-law-llb-hons",
-   "ucas_code": "A34-F39"
+   "ucas_code": "A34-F39",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Law",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/about-us/networks/educational-partners/william-college/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Law",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/law",
-   "ucas_code": "A24-E00"
+   "ucas_code": "A24-E00",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Law",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/law-llb-hons-2027-28",
-   "ucas_code": "A14-D60"
+   "ucas_code": "A14-D60",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Law",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/llb-hons-law-1",
+   "ucas_code": "A11-I02",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Law",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/law-llb",
+   "ucas_code": "A19-J66",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Law",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/llb-hons-law",
+   "ucas_code": "A03-D44",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Law",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/law",
+   "ucas_code": "A13-I16",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Law",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/law",
+   "ucas_code": "A19-G71",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Law",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/llb-law/",
+   "ucas_code": "A53-D27",
+   "setting": "city",
+   "town": "Cardiff"
   }
  ]
 }

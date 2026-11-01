@@ -6,61 +6,129 @@
    "title": "Biochemistry",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?AHNAQF",
-   "ucas_code": "A22-E61"
+   "ucas_code": "A22-E61",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Biochemistry",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/biochemistry-bsc",
-   "ucas_code": "A41-I42"
+   "ucas_code": "A41-I42",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Biochemistry",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/biochemistry",
-   "ucas_code": "A63-D13"
+   "ucas_code": "A63-D13",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Biochemistry",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/biochemistry-with-a-foundation-year-bsc",
-   "ucas_code": "A77-J13"
+   "ucas_code": "A77-J13",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Biochemistry",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/c702/",
-   "ucas_code": "A67-A36"
+   "ucas_code": "A67-A36",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Biochemistry",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/biochemistry/",
-   "ucas_code": "A68-G84"
+   "ucas_code": "A68-G84",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Biochemistry",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/biochemistry/",
-   "ucas_code": "A03-E37"
+   "ucas_code": "A03-E37",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Biochemistry",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/biochemistry-bsc/",
-   "ucas_code": "A07-J16"
+   "ucas_code": "A07-J16",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Biochemistry",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/31900-biochemistry-bsc-hons",
-   "ucas_code": "A10-J65"
+   "ucas_code": "A10-J65",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Biochemistry",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/biochemistry---bsc-hons/",
-   "ucas_code": "A06-J03"
+   "ucas_code": "A06-J03",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-biochemistry/september-2027/",
+   "ucas_code": "B57-D26",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Middlesex University",
+   "url": "http://www.mdx.ac.uk/courses/undergraduate/biochemistry",
+   "ucas_code": "A22-B80",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-biochemistry",
+   "ucas_code": "A38-C05",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/c700/",
+   "ucas_code": "A27-A87",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/biochemistry",
+   "ucas_code": "A42-I32",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Biochemistry",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/biochemistry-bsc-c700/",
+   "ucas_code": "A28-B45",
+   "setting": "coast",
+   "town": "Belfast"
   }
  ]
 }

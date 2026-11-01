@@ -6,61 +6,129 @@
    "title": "Media Communications",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-media-communications/",
-   "ucas_code": "A09-G64"
+   "ucas_code": "A09-G64",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Media and Communication",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/media-and-communication-ba-hons-2027-28",
-   "ucas_code": "A14-D79"
+   "ucas_code": "A14-D79",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Communication and Media",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-communication-media",
-   "ucas_code": "A11-H62"
+   "ucas_code": "A11-H62",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Media and Communications",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/media-and-communications-bsc",
-   "ucas_code": "A69-D76"
+   "ucas_code": "A69-D76",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Media and Communications",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/media-communications",
-   "ucas_code": "A67-I95"
+   "ucas_code": "A67-I95",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Media and Communications",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-media-and-communications/",
-   "ucas_code": "A53-E64"
+   "ucas_code": "A53-E64",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Media and Communications",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/media-and-communications-ba-hons/?term=2027-28",
-   "ucas_code": "A38-I16"
+   "ucas_code": "A38-I16",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Media and Communication",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/media-and-communication-ba-degree/media-and-communication-ba-degree.aspx",
-   "ucas_code": "A25-H48"
+   "ucas_code": "A25-H48",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Media and Communication",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/ba-hons-media-and-communication-undergraduate-fulltime",
-   "ucas_code": "A53-H61"
+   "ucas_code": "A53-H61",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Media and Communication",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/12MDIACM",
-   "ucas_code": "A26-D27"
+   "ucas_code": "A26-D27",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/mediaandcommunications/",
+   "ucas_code": "A03-G65",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Media, Culture, Communication",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/33183-media-culture-communication-ba-hons",
+   "ucas_code": "A11-B07",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/media-and-communications---bsc-hons/",
+   "ucas_code": "A07-A19",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Media and Communication",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/communication-and-media-studies/#variant",
+   "ucas_code": "A18-B65",
+   "setting": "campus town",
+   "town": "Loughborough"
+  },
+  {
+   "title": "Media Communications",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/media-communications",
+   "ucas_code": "A72-I29",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Media and Communications",
+   "provider": "Regent's University",
+   "url": "https://www.regents.ac.uk/undergraduate/media-advertising/ba-hons-media-and-communications",
+   "ucas_code": "A66-H48",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

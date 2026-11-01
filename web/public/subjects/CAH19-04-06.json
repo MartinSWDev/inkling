@@ -6,61 +6,113 @@
    "title": "Japanese Studies",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/japanese-studies",
-   "ucas_code": "A52-F43"
+   "ucas_code": "A52-F43",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chinese Studies",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/t102/",
-   "ucas_code": "A07-G49"
+   "ucas_code": "A07-G49",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Chinese",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/asian-and-middle-eastern-studies/chinese",
-   "ucas_code": "A30-E78"
+   "ucas_code": "A30-E78",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Chinese",
    "provider": "SOAS University of London",
    "url": "https://www.soas.ac.uk/study/find-course/ba-chinese",
-   "ucas_code": "A12-J57"
+   "ucas_code": "A12-J57",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "East Asian Studies",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/j762/east-asian-studies-ba",
-   "ucas_code": "A26-E63"
+   "ucas_code": "A26-E63",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "East Asian Studies",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/east-asian-studies-ba",
-   "ucas_code": "A35-E45"
+   "ucas_code": "A35-E45",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Chinese and Linguistics",
    "provider": "The University Of Westminster",
    "url": "http://www.westminster.ac.uk/chinese-and-linguistics-ba",
-   "ucas_code": "A19-B08"
+   "ucas_code": "A19-B08",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chinese Studies",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/chinese-studies-ba",
-   "ucas_code": "A73-B07"
+   "ucas_code": "A73-B07",
+   "setting": "campus town",
+   "town": "Preston"
   },
   {
    "title": "Chinese",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/T100",
-   "ucas_code": "A14-I10"
+   "ucas_code": "A14-I10",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Arabic - Chinese Studies",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/chinese-studies/chinese-studies-ma/",
-   "ucas_code": "A59-B58"
+   "ucas_code": "A59-B58",
+   "setting": "coast",
+   "town": "St Andrews"
+  },
+  {
+   "title": "Japanese Studies",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/japanese-studies",
+   "ucas_code": "A06-D52",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Sinology",
+   "provider": "Pembrokeshire College",
+   "url": "https://www.uwtsd.ac.uk/programme-courses/undergraduate/philosophy-theology-and-religious-studies/sinology-full-time",
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Lampeter"
+  },
+  {
+   "title": "International Relations and Chinese",
+   "provider": "The London School Of Economics And Political Science",
+   "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-relations-and-chinese",
+   "ucas_code": "A47-I07",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "East Asian Studies",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/09735/ba-east-asian-studies/",
+   "ucas_code": "A20-G74",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

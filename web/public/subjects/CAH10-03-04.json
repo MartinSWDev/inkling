@@ -6,31 +6,41 @@
    "title": "Naval Architecture and Marine Engineering",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/h515/",
-   "ucas_code": "A70-C50"
+   "ucas_code": "A70-C50",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Marine Engineering",
    "provider": "Southampton Solent University",
    "url": "https://www.solent.ac.uk/courses/undergraduate/marine-engineering-beng/2027/beng-hons-marine-engineering-3-years-2027",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Marine Engineering with Naval Architecture",
    "provider": "University of Plymouth",
    "url": "https://www.plymouth.ac.uk/courses/undergraduate/beng-marine-engineering-with-naval-architecture",
-   "ucas_code": "A76-F07"
+   "ucas_code": "A76-F07",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Maritime Engineering",
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/maritime-engineering-degree-beng",
-   "ucas_code": "A23-F03"
+   "ucas_code": "A23-F03",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Marine Engineering",
    "provider": "Blackpool And The Fylde College",
    "url": "https://fleetwoodnautical.blackpool.ac.uk/course/mh1he95",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Fleetwood"
   }
  ]
 }

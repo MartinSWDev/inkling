@@ -6,61 +6,129 @@
    "title": "Criminology and Sociology",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/criminology-and-sociology/",
-   "ucas_code": "A63-B09"
+   "ucas_code": "A63-B09",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Criminology and Sociology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?DVQRS7",
-   "ucas_code": "A54-E06"
+   "ucas_code": "A54-E06",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Criminology and Sociology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-sociology",
-   "ucas_code": "A14-A07"
+   "ucas_code": "A14-A07",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "English and Sociology",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/english-and-sociology-bsc",
-   "ucas_code": "A67-B57"
+   "ucas_code": "A67-B57",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Childhood And Youth Studies And Sociology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/x316-childhood-and-youth-studies-and-sociology-welsh-medium-course-ba-hons",
-   "ucas_code": "A34-B15"
+   "ucas_code": "A34-B15",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Criminology and Sociology",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-criminology-and-sociology/",
-   "ucas_code": "A09-F37"
+   "ucas_code": "A09-F37",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Psychosocial Studies",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/psychosocial-studies",
-   "ucas_code": "A24-E18"
+   "ucas_code": "A24-E18",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Sociology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/sociology-bsc-hons-2027-28",
-   "ucas_code": "A14-E17"
+   "ucas_code": "A14-E17",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Sociology",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-sociology",
-   "ucas_code": "A11-I37"
+   "ucas_code": "A11-I37",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Anthropology",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/anthropology-bsc",
-   "ucas_code": "A19-I45"
+   "ucas_code": "A19-I45",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Health and Social Science",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
+   "ucas_code": "A03-D32",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Criminology AND Sociology",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/criminology-and-sociology",
+   "ucas_code": "A13-H77",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Sociology and Social Policy",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-sociology-and-social-policy/",
+   "ucas_code": "A69-B84",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Criminology and Social Policy",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/criminology-and-social-policy-bsc",
+   "ucas_code": "A40-A66",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/sociology-ba-hons/?term=2027-28",
+   "ucas_code": "A38-I55",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/l601/",
+   "ucas_code": "A07-G12",
+   "setting": "campus town",
+   "town": "Durham"
   }
  ]
 }

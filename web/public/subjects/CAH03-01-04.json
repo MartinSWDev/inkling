@@ -6,61 +6,129 @@
    "title": "Microbiology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?UJJUHX",
-   "ucas_code": "A22-G90"
+   "ucas_code": "A22-G90",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Microbiology",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-microbiology",
-   "ucas_code": "A38-E65"
+   "ucas_code": "A38-E65",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Microbiology",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/microbiology-bsc-c500/",
-   "ucas_code": "A28-C81"
+   "ucas_code": "A28-C81",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Microbiology",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/microbiology-bsc",
-   "ucas_code": "A74-I95"
+   "ucas_code": "A74-I95",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Microbiology",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-microbiology/2027-28/sep",
-   "ucas_code": "A60-I01"
+   "ucas_code": "A60-I01",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Microbiology",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/3500/microbiology-bsc",
-   "ucas_code": "A26-J14"
+   "ucas_code": "A26-J14",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Microbiology",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/microbiology/",
-   "ucas_code": "A24-J58"
+   "ucas_code": "A24-J58",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Microbiology",
    "provider": "University of Dundee",
    "url": "https://www.dundee.ac.uk/undergraduate/microbiology",
-   "ucas_code": "A16-B92"
+   "ucas_code": "A16-B92",
+   "setting": "city",
+   "town": "Dundee"
   },
   {
    "title": "Microbiology",
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/microbiology-masters-msci",
-   "ucas_code": "A76-F26"
+   "ucas_code": "A76-F26",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Microbiology",
    "provider": "University of Strathclyde",
    "url": "http://www.strath.ac.uk/c/KIS0000013#whythiscourse",
-   "ucas_code": "A35-J98"
+   "ucas_code": "A35-J98",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Molecular Cell Biology",
+   "provider": "University of York",
+   "url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-molecular-cell-biology/",
+   "ucas_code": "A30-J70",
+   "setting": "campus town",
+   "town": "York"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/biological-sciences-ug/bsc-microbiology",
+   "ucas_code": "A15-F01",
+   "setting": "campus town",
+   "town": "Reading"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "Imperial College London",
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/microbiology/",
+   "ucas_code": "A15-D37",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Microbiology",
+   "provider": "Xaverian College",
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10122/msci-microbiology/",
+   "ucas_code": "A20-I73",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Microbiology and Immunology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/microbiologyandimmunology/",
+   "ucas_code": "A67-A65",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Microbiology and Molecular Biology",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-microbiology-and-molecular-biology-with-option-to-study-overseas/september-2027/",
+   "ucas_code": "A32-A36",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

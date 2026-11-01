@@ -6,61 +6,129 @@
    "title": "Food Science, Nutrition and Wellbeing",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-science-nutrition-and-wellbeing/",
-   "ucas_code": "A63-A61"
+   "ucas_code": "A63-A61",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Agriculture",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?R85VW8",
-   "ucas_code": "A22-E37"
+   "ucas_code": "A22-E37",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Agriculture",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
-   "ucas_code": "A71-J33"
+   "ucas_code": "A71-J33",
+   "setting": "countryside",
+   "town": "Writtle"
   },
   {
    "title": "Food Science and Nutrition",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-food-science-and-nutrition/",
-   "ucas_code": "A66-D78"
+   "ucas_code": "A66-D78",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Agriculture",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDAAGCLT",
-   "ucas_code": "A30-G95"
+   "ucas_code": "A30-G95",
+   "setting": "countryside",
+   "town": "Newport"
   },
   {
    "title": "Agriculture",
    "provider": "Hartpury University",
    "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-agriculture",
-   "ucas_code": "A30-A49"
+   "ucas_code": "A30-A49",
+   "setting": "countryside",
+   "town": "Hartpury"
   },
   {
    "title": "Agriculture",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-agriculture",
-   "ucas_code": "A52-A25"
+   "ucas_code": "A52-A25",
+   "setting": "countryside",
+   "town": "Southwell"
   },
   {
    "title": "Agriculture",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/d400/",
-   "ucas_code": "A27-A74"
+   "ucas_code": "A27-A74",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Food Science and Nutrition",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/food-science-nutrition-bsc-db6k/#overview",
-   "ucas_code": "A28-C20"
+   "ucas_code": "A28-C20",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Food and Nutrition",
    "provider": "Sheffield Hallam University",
    "url": "https://www.shu.ac.uk/courses/food-and-nutrition/bsc-honours-food-and-nutrition/full-time",
-   "ucas_code": "A17-J05"
+   "ucas_code": "A17-J05",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Food Science",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/3335/food-science-bsc",
+   "ucas_code": "A26-G79",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Food Science and Nutrition",
+   "provider": "The University Of Surrey",
+   "url": "https://www.surrey.ac.uk/undergraduate/food-science-and-nutrition/2027",
+   "ucas_code": "A36-F73",
+   "setting": "campus town",
+   "town": "Guildford"
+  },
+  {
+   "title": "Food Business and Innovation",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-food-business-and-innovation-ft-c",
+   "ucas_code": "A16-I24",
+   "setting": "coast",
+   "town": "Coleraine"
+  },
+  {
+   "title": "Food and Nutrition",
+   "provider": "University College Birmingham",
+   "url": "https://www.ucb.ac.uk/study/courses/undergraduate/food-and-nutrition-bsc-hons-fdsc/",
+   "ucas_code": "A22-H60",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Food and Nutrition Science",
+   "provider": "University of Bedfordshire",
+   "url": "https://www.beds.ac.uk/courses/food-and-nutrition-science/",
+   "ucas_code": "A10-F13",
+   "setting": "campus town",
+   "town": "Luton"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Askham Bryan College",
+   "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-agriculture/",
+   "ucas_code": "A29-J56",
+   "setting": "countryside",
+   "town": "York"
   }
  ]
 }

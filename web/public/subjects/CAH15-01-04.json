@@ -6,61 +6,129 @@
    "title": "Anthropology",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/anthropology-bsc",
-   "ucas_code": "A19-I45"
+   "ucas_code": "A19-I45",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Anthropology",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/l601/",
-   "ucas_code": "A07-G12"
+   "ucas_code": "A07-G12",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Anthropology",
    "provider": "Queen's University Belfast",
    "url": "http://www.qub.ac.uk/courses/undergraduate/anthropology-ba-l600/",
-   "ucas_code": "A41-E95"
+   "ucas_code": "A41-E95",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Anthropology",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/419/L600/anthropology/",
-   "ucas_code": "A33-D29"
+   "ucas_code": "A33-D29",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Anthropology",
    "provider": "University of Bristol",
    "url": "http://www.bristol.ac.uk/study/undergraduate/2027/anthropology/ba-anthropology/",
-   "ucas_code": "A15-H50"
+   "ucas_code": "A15-H50",
+   "setting": "city",
+   "town": "Bristol"
   },
   {
    "title": "Anthropology",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/ba-anthropology/",
-   "ucas_code": "A32-J44"
+   "ucas_code": "A32-J44",
+   "setting": "campus town",
+   "town": "Exeter"
   },
   {
    "title": "Anthropology",
    "provider": "University of Plymouth",
    "url": "https://www.plymouth.ac.uk/courses/undergraduate/ba-anthropology",
-   "ucas_code": "A41-G70"
+   "ucas_code": "A41-G70",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Anthropology",
    "provider": "University of Sussex",
    "url": "https://www.sussex.ac.uk/study/undergraduate/courses/anthropology-ba",
-   "ucas_code": "A22-I35"
+   "ucas_code": "A22-I35",
+   "setting": "coast",
+   "town": "Brighton"
   },
   {
    "title": "Anthropology",
    "provider": "University of Winchester",
    "url": "https://www.winchester.ac.uk/study/undergraduate/courses/ba-hons-anthropology",
-   "ucas_code": "A09-C96"
+   "ucas_code": "A09-C96",
+   "setting": "campus town",
+   "town": "Winchester"
   },
   {
    "title": "Anthropology",
    "provider": "Abingdon and Witney College",
    "url": "https://www.brookes.ac.uk/courses/undergraduate/anthropology",
-   "ucas_code": "A06-B51"
+   "ucas_code": "A06-B51",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "Goldsmiths' College",
+   "url": "http://www.gold.ac.uk/ug/integrated-degree-anthropology/",
+   "ucas_code": "A17-B81",
+   "setting": "campus town",
+   "town": "Gravesend"
+  },
+  {
+   "title": "Anthropology",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/anthropology-bsc",
+   "ucas_code": "A23-J13",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Forensic Anthropology",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/32330-forensic-anthropology-bsc-hons",
+   "ucas_code": "A11-A57",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Archaeology and Anthropology",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/archaeology-and-anthropology",
+   "ucas_code": "A30-E66",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Film Studies and Social Anthropology",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-film-studies-and-0",
+   "ucas_code": "A73-F90",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Social Anthropology",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/dasa/social-anthropology.aspx",
+   "ucas_code": "A65-J95",
+   "setting": "city",
+   "town": "Birmingham"
   }
  ]
 }

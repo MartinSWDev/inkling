@@ -6,61 +6,129 @@
    "title": "Canine Veterinary Physiotherapy",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/canine-veterinary-physiotherapy",
-   "ucas_code": "A76-C59"
+   "ucas_code": "A76-C59",
+   "setting": "countryside",
+   "town": "Writtle"
   },
   {
    "title": "Veterinary Bioscience",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDNVETBS",
-   "ucas_code": "A30-H26"
+   "ucas_code": "A30-H26",
+   "setting": "countryside",
+   "town": "Newport"
   },
   {
    "title": "Equine Veterinary Nursing",
    "provider": "Hartpury University",
    "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-equine-veterinary-nursing",
-   "ucas_code": "A52-I39"
+   "ucas_code": "A52-I39",
+   "setting": "countryside",
+   "town": "Hartpury"
   },
   {
    "title": "Bioveterinary Science",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/bioveterinaryscience/",
-   "ucas_code": "A69-E08"
+   "ucas_code": "A69-E08",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Veterinary Nursing (CAW - Huntingdon)",
    "provider": "Middlesex University",
    "url": "https://www.mdx.ac.uk/courses/undergraduate/veterinary-nursing-bsc-honours/",
-   "ucas_code": "A72-I95"
+   "ucas_code": "A72-I95",
+   "setting": "campus town",
+   "town": "Huntingdon"
   },
   {
    "title": "Veterinary Biosciences",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/veterinary-biosciences-bsc-d300",
-   "ucas_code": "A76-B36"
+   "ucas_code": "A76-B36",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Veterinary Science",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/veterinary-science-bvsc/2027",
-   "ucas_code": "A03-C18"
+   "ucas_code": "A03-C18",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Veterinary Biosciences",
    "provider": "The University Of Surrey",
    "url": "https://www.surrey.ac.uk/undergraduate/veterinary-biosciences/2027",
-   "ucas_code": "A36-G19"
+   "ucas_code": "A36-G19",
+   "setting": "campus town",
+   "town": "Guildford"
   },
   {
    "title": "Veterinary Biosciences",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/veterinarybiosciences/",
-   "ucas_code": "A25-B31"
+   "ucas_code": "A25-B31",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Veterinary Medicine and Surgery",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/veterinary-medicine-surgery-bvms",
-   "ucas_code": "A66-D90"
+   "ucas_code": "A66-D90",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Veterinary Medicine and Surgery including a Gateway Year",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Veterinary-Medicine-and-Surgery-including-a-Gateway-Year-BVM-BVS-with-BVMedSci-BVMBVS.html",
+   "ucas_code": "A00-H57",
+   "setting": "countryside",
+   "town": "Sutton Bonington"
+  },
+  {
+   "title": "Veterinary Nursing",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-veterinary-nursing-ft-c",
+   "ucas_code": "A70-F00",
+   "setting": "coast",
+   "town": "Coleraine"
+  },
+  {
+   "title": "Gateway to Veterinary Science",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/vet-science/bvsc-gateway-to-veterinary-science/",
+   "ucas_code": "A15-I37",
+   "setting": "city",
+   "town": "Bristol"
+  },
+  {
+   "title": "Veterinary Medicine",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/veterinary-medicine-vetmb",
+   "ucas_code": "A25-E02",
+   "setting": "campus town",
+   "town": "Cambridge"
+  },
+  {
+   "title": "Clinical Veterinary Medicine",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/D100",
+   "ucas_code": "A15-C12",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Bioveterinary Science",
+   "provider": "Bishop Burton College",
+   "url": "https://www.bishopburton.ac.uk/degree-level-courses/study/view-all-courses/bsc-hons-bioveterinary-science",
+   "ucas_code": "A17-A62",
+   "setting": "countryside",
+   "town": "Bishop Burton"
   }
  ]
 }

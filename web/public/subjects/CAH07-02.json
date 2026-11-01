@@ -6,61 +6,129 @@
    "title": "Chemistry",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/chemistry-bsc",
-   "ucas_code": "A27-I31"
+   "ucas_code": "A27-I31",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Biology and Chemistry",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/biology-and-chemistry-cf11/",
-   "ucas_code": "A75-C47"
+   "ucas_code": "A75-C47",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Chemistry",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/chemistry-bsc",
-   "ucas_code": "B56-H37"
+   "ucas_code": "B56-H37",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Chemistry",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/chemistry/",
-   "ucas_code": "A39-J64"
+   "ucas_code": "A39-J64",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Chemistry",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/chemistry-bsc/",
-   "ucas_code": "A07-J34"
+   "ucas_code": "A07-J34",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Chemistry",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/chemistry---bsc-hons/",
-   "ucas_code": "A06-J23"
+   "ucas_code": "A06-J23",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chemistry",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/chemistry-bsc/",
-   "ucas_code": "A18-B52"
+   "ucas_code": "A18-B52",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Chemistry",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-chemistry-with-option-to-study-overseas/september-2027/",
-   "ucas_code": "A31-H02"
+   "ucas_code": "A31-H02",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Chemistry",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/mchem-chemistry",
-   "ucas_code": "A38-C37"
+   "ucas_code": "A38-C37",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Chemistry",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/f100/",
-   "ucas_code": "A27-B10"
+   "ucas_code": "A27-B10",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Chemistry (4 years)",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/chemistry",
+   "ucas_code": "A30-E77",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/chemistry",
+   "ucas_code": "A42-I53",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/chemistry-bsc-f100/#overview",
+   "ucas_code": "A28-B65",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/biosciences-and-chemistry/bsc-honours-chemistry/full-time/",
+   "ucas_code": "A17-I19",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/engineering-applied-sciences/chemistry/bsc-chemistry/",
+   "ucas_code": "A37-A55",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Chemistry",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/chemistry/chemistry-bsc.aspx",
+   "ucas_code": "A04-H83",
+   "setting": "city",
+   "town": "Birmingham"
   }
  ]
 }

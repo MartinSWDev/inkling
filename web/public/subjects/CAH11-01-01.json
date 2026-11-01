@@ -6,61 +6,129 @@
    "title": "Computer Science",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?8RT59E",
-   "ucas_code": "A22-E83"
+   "ucas_code": "A22-E83",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Computer Science",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/computer-science-beng",
-   "ucas_code": "A13-J98"
+   "ucas_code": "A13-J98",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Computer Science",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/computer-science-bsc",
-   "ucas_code": "A30-B42"
+   "ucas_code": "A30-B42",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Computer Science",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/computer-science-bsc-hons/computer-science-bsc-hons/",
-   "ucas_code": "A51-C75"
+   "ucas_code": "A51-C75",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Computer Science",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/g400-computer-science-bsc-hons",
-   "ucas_code": "A34-C05"
+   "ucas_code": "A34-C05",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Computer Science",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-computer-science-/",
-   "ucas_code": "A74-J50"
+   "ucas_code": "A74-J50",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Computer Science",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/computing",
-   "ucas_code": "A73-J93"
+   "ucas_code": "A73-J93",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Computer Science",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/computer-science-bsc-hons-2027-28",
-   "ucas_code": "A14-C95"
+   "ucas_code": "A14-C95",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Computer Science",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-computer-science",
-   "ucas_code": "A66-I14"
+   "ucas_code": "A66-I14",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Computer Science",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/computer-science-bsc",
-   "ucas_code": "A19-I95"
+   "ucas_code": "A19-I95",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-computer-science",
+   "ucas_code": "A66-C22",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/computer-science-msci",
+   "ucas_code": "A13-H69",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/computer-science",
+   "ucas_code": "A39-E69",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-computer-science/",
+   "ucas_code": "A08-G20",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/computer-science-bsc",
+   "ucas_code": "A27-I55",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Computer Science",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/?term=2027-28",
+   "ucas_code": "A41-G09",
+   "setting": "city",
+   "town": "Coventry"
   }
  ]
 }

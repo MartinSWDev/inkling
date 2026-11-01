@@ -6,31 +6,41 @@
    "title": "American Studies",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/american-studies/ba-american-studies/",
-   "ucas_code": "A36-J66"
+   "ucas_code": "A36-J66",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "American Studies",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/11806/ba-american-studies-4-years/",
-   "ucas_code": "A39-I08"
+   "ucas_code": "A39-I08",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "History and American Studies",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/history-and-american-studies-ba/2027",
-   "ucas_code": "A05-B12"
+   "ucas_code": "A05-B12",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "English Literature and American Studies",
    "provider": "University of Northumbria at Newcastle",
    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-literature-and-american-studies-newcastle-uusegl2ast/",
-   "ucas_code": "A52-G04"
+   "ucas_code": "A52-G04",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "History and Politics of the Americas",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/history-and-politics-americas-ba",
-   "ucas_code": "A39-E13"
+   "ucas_code": "A39-E13",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

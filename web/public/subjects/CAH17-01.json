@@ -6,61 +6,129 @@
    "title": "Events Management",
    "provider": "Arts University Bournemouth, The",
    "url": "https://ukmc.ac.uk/course-details/ba-hons-event-management-with-foundation-year",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Derby"
   },
   {
    "title": "Accounting and Finance with Business Analytics",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/accounting-and-finance-with-business-analytics/",
-   "ucas_code": "A59-B44"
+   "ucas_code": "A59-B44",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Accounting and Finance / Business and Management",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?Q5GRCV",
-   "ucas_code": "A51-B78"
+   "ucas_code": "A51-B78",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Business Economics",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/business-economics",
-   "ucas_code": "A76-I21"
+   "ucas_code": "A76-I21",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Business Management",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business Computing and IT",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-computing-and-it-bsc",
-   "ucas_code": "A30-B27"
+   "ucas_code": "A30-B27",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business Management",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/business-management-ba-hons/full-time/",
-   "ucas_code": "A15-G78"
+   "ucas_code": "A15-G78",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Applied Management",
    "provider": "BPP University",
    "url": "https://www.bpp.com/leadership-and-management/bsc-applied-management",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Accounting and Management",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons",
-   "ucas_code": "A62-E10"
+   "ucas_code": "A62-E10",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Business Management and Criminology",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-and-criminology/",
-   "ucas_code": "A43-E18"
+   "ucas_code": "A43-E18",
+   "setting": "campus town",
+   "town": "Bath"
+  },
+  {
+   "title": "Bioscience with Management",
+   "provider": "Birkbeck, University of London",
+   "url": "https://www.bbk.ac.uk/courses/undergraduate/bioscience-with-management",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Business Finance",
+   "provider": "Birmingham City University",
+   "url": "http://www.bcu.ac.uk/courses/business-finance-bsc-hons-2027-28",
+   "ucas_code": "A14-C77",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-2",
+   "ucas_code": "A54-D94",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Accounting and Business Management",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/accounting-and-business-management-bsc",
+   "ucas_code": "A19-I72",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Aviation Management",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-aviation-management",
+   "ucas_code": "A03-C67",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Actuarial Science and Business Analytics",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/actuarial-science-and-business-analytics-foundation#contact-us",
+   "ucas_code": "A76-D38",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

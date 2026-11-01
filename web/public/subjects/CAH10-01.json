@@ -6,61 +6,129 @@
    "title": "Civil and Environmental Engineering",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/civil-and-environmental-engineering/",
-   "ucas_code": "A06-B16"
+   "ucas_code": "A06-B16",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Electrical and Electronic Engineering",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?Y5UH9G",
-   "ucas_code": "A69-B92"
+   "ucas_code": "A69-B92",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Biomedical Engineering",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-engineering",
-   "ucas_code": "A71-C91"
+   "ucas_code": "A71-C91",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/aerospace-engineering-beng",
-   "ucas_code": "A75-F87"
+   "ucas_code": "A75-F87",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Computer Systems Engineering",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/h612-computer-systems-engineering-beng-hons",
-   "ucas_code": "A34-C08"
+   "ucas_code": "A34-C08",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Civil Engineering",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/civil-engineering-beng-2027-28",
-   "ucas_code": "A14-C86"
+   "ucas_code": "A14-C86",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Design Engineering",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-design-engineering-0",
-   "ucas_code": "A11-H69"
+   "ucas_code": "A11-H69",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Aerospace Engineering",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/Aerospace-Engineering-BEng",
-   "ucas_code": "A19-I41"
+   "ucas_code": "A19-I41",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Civil Engineering",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/beng-hons-civil-engineering",
-   "ucas_code": "A71-E74"
+   "ucas_code": "A71-E74",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Aeronautical Engineering",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/foundation/mechanical-and-aeronautical-engineering",
-   "ucas_code": "A72-B68"
+   "ucas_code": "A72-B68",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/architectural-engineering",
+   "ucas_code": "A70-I13",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Electrical and Electronic Engineering",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/beng--meng-electrical-and-electronic-engineering/",
+   "ucas_code": "A71-F49",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Architectural Engineering",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/architectural-engineering-beng",
+   "ucas_code": "A27-H72",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Aerospace Engineering",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/eec/aerospace-systems-engineering-beng-hons/?term=2027-28",
+   "ucas_code": "A59-E62",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Aeronautical Engineering",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/aeronautical-engineering-beng-meng-degree/aeronautical-engineering-beng-meng-degree.aspx",
+   "ucas_code": "A50-G35",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Engineering (Aeronautical)",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/h411/",
+   "ucas_code": "A58-F91",
+   "setting": "campus town",
+   "town": "Durham"
   }
  ]
 }

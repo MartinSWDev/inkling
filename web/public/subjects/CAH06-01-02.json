@@ -6,7 +6,9 @@
    "title": "Agriculture",
    "provider": "Capel Manor College",
    "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agriculture",
-   "ucas_code": "A11-B56"
+   "ucas_code": "A11-B56",
+   "setting": "countryside",
+   "town": "Cirencester"
   }
  ]
 }

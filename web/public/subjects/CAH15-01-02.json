@@ -6,61 +6,129 @@
    "title": "Sociology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?AW7MTX",
-   "ucas_code": "A50-E20"
+   "ucas_code": "A50-E20",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Sociology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/sociology",
-   "ucas_code": "A14-B02"
+   "ucas_code": "A14-B02",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Sociology",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/sociology-bsc",
-   "ucas_code": "A30-C49"
+   "ucas_code": "A30-C49",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Sociology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l300-sociology-ba-hons",
-   "ucas_code": "A34-H46"
+   "ucas_code": "A34-H46",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Sociology",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-sociology/",
-   "ucas_code": "A09-G92"
+   "ucas_code": "A09-G92",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Sociology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/sociology-bsc-hons-2027-28",
-   "ucas_code": "A14-E17"
+   "ucas_code": "A14-E17",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Sociology",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-sociology",
-   "ucas_code": "A11-I37"
+   "ucas_code": "A11-I37",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Sociology",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/sociology-bsc",
-   "ucas_code": "A20-A30"
+   "ucas_code": "A20-A30",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Sociology",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/sociology",
-   "ucas_code": "A13-I39"
+   "ucas_code": "A13-I39",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Sociology",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/sociology-bsc",
-   "ucas_code": "A40-A59"
+   "ucas_code": "A40-A59",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/sociology-ba-hons/?term=2027-28",
+   "ucas_code": "A38-I55",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/l300/",
+   "ucas_code": "A07-H70",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/sociology/",
+   "ucas_code": "A05-D62",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/sociology",
+   "ucas_code": "A03-H26",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/sociology",
+   "ucas_code": "A10-I41",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Sociology",
+   "provider": "Lincoln Bishop University",
+   "url": "https://www.lincolnbishop.ac.uk/courses/sociology",
+   "ucas_code": "A31-B04",
+   "setting": "campus town",
+   "town": "Lincoln"
   }
  ]
 }

@@ -6,19 +6,25 @@
    "title": "Forestry",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/d500-forestry-bsc-hons",
-   "ucas_code": "A34-D72"
+   "ucas_code": "A34-D72",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Forest Management",
    "provider": "The University Of Cumbria",
    "url": "https://tinyurl.com/yxh4egkz",
-   "ucas_code": "A05-I52"
+   "ucas_code": "A05-I52",
+   "setting": "countryside",
+   "town": "Ambleside"
   },
   {
    "title": "Forest Management",
    "provider": "University of the Highlands and Islands",
    "url": "https://www.uhi.ac.uk/en/courses/bsc-hons-forest-management/",
-   "ucas_code": "A16-E08"
+   "ucas_code": "A16-E08",
+   "setting": "coast",
+   "town": "Inverness"
   }
  ]
 }

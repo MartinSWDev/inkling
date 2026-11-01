@@ -6,7 +6,9 @@
    "title": "Pharmaceutical Science",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/pharmaceutical-science-mpharm/",
-   "ucas_code": "A08-C20"
+   "ucas_code": "A08-C20",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   }
  ]
 }

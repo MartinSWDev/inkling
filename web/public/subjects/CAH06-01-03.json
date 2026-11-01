@@ -6,61 +6,97 @@
    "title": "Agriculture",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?R85VW8",
-   "ucas_code": "A22-E37"
+   "ucas_code": "A22-E37",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Agriculture",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
-   "ucas_code": "A71-J33"
+   "ucas_code": "A71-J33",
+   "setting": "countryside",
+   "town": "Writtle"
   },
   {
    "title": "Agriculture",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDAAGCLT",
-   "ucas_code": "A30-G95"
+   "ucas_code": "A30-G95",
+   "setting": "countryside",
+   "town": "Newport"
   },
   {
    "title": "Agriculture",
    "provider": "Hartpury University",
    "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-agriculture",
-   "ucas_code": "A30-A49"
+   "ucas_code": "A30-A49",
+   "setting": "countryside",
+   "town": "Hartpury"
   },
   {
    "title": "Agriculture",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-agriculture",
-   "ucas_code": "A52-A25"
+   "ucas_code": "A52-A25",
+   "setting": "countryside",
+   "town": "Southwell"
   },
   {
    "title": "Agriculture",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/d400/",
-   "ucas_code": "A27-A74"
+   "ucas_code": "A27-A74",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Agriculture",
    "provider": "Askham Bryan College",
    "url": "https://www.askham-bryan.ac.uk/courses/bsc-bsc-hons-agriculture/",
-   "ucas_code": "A29-J56"
+   "ucas_code": "A29-J56",
+   "setting": "countryside",
+   "town": "York"
   },
   {
    "title": "Agriculture",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/agriculture-ug/bsc-agriculture",
-   "ucas_code": "A15-D52"
+   "ucas_code": "A15-D52",
+   "setting": "campus town",
+   "town": "Reading"
   },
   {
    "title": "Agriculture",
    "provider": "Capel Manor College",
    "url": "https://www.rau.ac.uk/courses/undergraduate/bsc-hons-agriculture",
-   "ucas_code": "A11-B56"
+   "ucas_code": "A11-B56",
+   "setting": "countryside",
+   "town": "Cirencester"
   },
   {
    "title": "Agriculture",
    "provider": "Pembrokeshire College",
    "url": "https://www.csgcc.ac.uk/en",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Llanelli"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Sparsholt College",
+   "url": "https://www.sparsholt.ac.uk/courses/bsc-hons-agriculture/",
+   "ucas_code": "A56-B23",
+   "setting": "countryside",
+   "town": "Winchester"
+  },
+  {
+   "title": "Agriculture",
+   "provider": "Scotland's Rural College",
+   "url": "https://www.sruc.ac.uk/study-with-us/find-apply-for-your-course/course-catalogue/agriculture/bsc-hons-agriculture/",
+   "ucas_code": "A23-F73",
+   "setting": "coast",
+   "town": "Aberdeen"
   }
  ]
 }

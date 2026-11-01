@@ -6,61 +6,129 @@
    "title": "Primary Education with Qualified Teacher Status (QTS)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/primary-education-with-qts",
-   "ucas_code": "A68-F41"
+   "ucas_code": "A68-F41",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Primary Education",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba",
-   "ucas_code": "A48-B80"
+   "ucas_code": "A48-B80",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Primary Education with Qualified Teacher Status",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/primary-education-with-qts-ba-hons-2027-28",
-   "ucas_code": "A14-E02"
+   "ucas_code": "A14-E02",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Primary Education",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/primary-education",
-   "ucas_code": "A19-H69"
+   "ucas_code": "A19-H69",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Primary Education",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/x101/",
-   "ucas_code": "A07-H64"
+   "ucas_code": "A07-H64",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Primary Education",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/primary-education-qts/",
-   "ucas_code": "A65-G80"
+   "ucas_code": "A65-G80",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Primary Education",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/35094-primary-education-ba-hons-qts-primary",
-   "ucas_code": "A11-B32"
+   "ucas_code": "A11-B32",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Primary Education with QTS",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-primary-education-with-qts/september-2027/",
-   "ucas_code": "A32-A83"
+   "ucas_code": "A32-A83",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Primary Education with QTS",
    "provider": "Middlesex University",
    "url": "https://www.mdx.ac.uk/courses/undergraduate/primary-education-qts",
-   "ucas_code": "A22-D79"
+   "ucas_code": "A22-D79",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Primary Education (with QTS)",
    "provider": "Plymouth Marjon University",
    "url": "https://www.marjon.ac.uk/courses/teacher-training/",
-   "ucas_code": "A03-H68"
+   "ucas_code": "A03-H68",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "Queen Margaret University, Edinburgh",
+   "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/ba-hons-primary-education-2027-entry",
+   "ucas_code": "A74-J60",
+   "setting": "coast",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "St Mary's University College",
+   "url": "https://www.stmarys-belfast.ac.uk/study/bed-primary/",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Belfast"
+  },
+  {
+   "title": "Primary Education with QTS",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/ba-hons-primary-education-qts",
+   "ucas_code": "A51-A08",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "University Of Glasgow",
+   "url": "http://www.gla.ac.uk/undergraduate/degrees/primaryeducationtq/",
+   "ucas_code": "A25-A37",
+   "setting": "campus town",
+   "town": "Dumfries"
+  },
+  {
+   "title": "Primary Education",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/832/X120/primary-education/",
+   "ucas_code": "A33-H17",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Primary Education (with QTS)",
+   "provider": "University of Bedfordshire",
+   "url": "https://www.beds.ac.uk/courses/primary-education-with-qts",
+   "ucas_code": "A10-E66",
+   "setting": "campus town",
+   "town": "Bedford"
   }
  ]
 }

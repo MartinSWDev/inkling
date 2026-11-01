@@ -6,61 +6,129 @@
    "title": "Learning Disability Nursing",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b763-learning-disability-nursing-bn-hons",
-   "ucas_code": "A41-F26"
+   "ucas_code": "A41-F26",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Learning Disabilities Nursing",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/nursing-learning-disability-bsc-hons-2027-28",
-   "ucas_code": "B70-A97"
+   "ucas_code": "B70-A97",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Learning Disabilities Nursing",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/learning-disabilities-nursing-bsc-hons/?term=2027-28",
-   "ucas_code": "A71-I13"
+   "ucas_code": "A71-I13",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Nursing with Registration (Learning Disability)",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-learning-disability-degree/nursing-with-registration-learning-disability-bsc-hons.aspx",
-   "ucas_code": "A25-H60"
+   "ucas_code": "A25-H60",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Nursing (Learning Disabilities)",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/nursing-learning-disabilities/",
-   "ucas_code": "A05-D18"
+   "ucas_code": "A05-D18",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Nursing Learning Disabilities",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bn-nursing-learning-disabilities-undergraduate-fulltime",
-   "ucas_code": "A25-D37"
+   "ucas_code": "A25-D37",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Nursing Studies (Learning Disability)",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11NSLDIS",
-   "ucas_code": "A26-D38"
+   "ucas_code": "A26-D38",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Learning Disabilities Nursing",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/nursing-registered-nurse-learning-disability/",
-   "ucas_code": "A08-B63"
+   "ucas_code": "A08-B63",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Nursing (Learning Disabilities)",
    "provider": "Leeds Trinity University",
    "url": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-learning-disabilities/",
-   "ucas_code": "A67-F71"
+   "ucas_code": "A67-F71",
+   "setting": "campus town",
+   "town": "Horsforth"
   },
   {
    "title": "Learning Disabilities Nursing",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-learning-disability-nursing#overview",
-   "ucas_code": "A12-C07"
+   "ucas_code": "A12-C07",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Nursing (Learning Disabilities)",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-nursing-learning-disabilities",
+   "ucas_code": "A60-D15",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Professional Nursing (Learning Disabilities Nursing)",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/professional-nursing-learning-disabilities-nursing-bsc-b761/#course",
+   "ucas_code": "A28-C93",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Nursing (Learning Disability)",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/nursing-learning-disability-bsc-hons/",
+   "ucas_code": "A64-A59",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Learning Disabilities Nursing",
+   "provider": "The University Of Cumbria",
+   "url": "https://tinyurl.com/y4xrnfrp",
+   "ucas_code": "A05-I77",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Nursing (Learning Disability)",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/nursing-learning-disability-bsc-hons?option=standard-course&start=2027",
+   "ucas_code": "A12-H67",
+   "setting": "city",
+   "town": "Hull"
+  },
+  {
+   "title": "Nursing with Registered Nurse (Learning Disabilities)",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/nursing-learning-disabilities",
+   "ucas_code": "A62-D52",
+   "setting": "campus town",
+   "town": "Preston"
   }
  ]
 }

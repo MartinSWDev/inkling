@@ -217,6 +217,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .courselist{display:grid;gap:8px;margin:0;padding:0;list-style:none}
 .courselist li{display:flex;justify-content:space-between;gap:10px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--paper)}
 .courselist small{color:var(--muted);display:block}
+.coursehead{font-family:var(--display);font-weight:700;font-size:16px;margin:4px 0 0}
+.settingtag{display:inline-block;margin-top:3px;font-size:11px;font-weight:600;color:var(--accent-ink);background:var(--butter);border:1px solid var(--line);border-radius:99px;padding:1px 7px}
 .courselist a{color:var(--teal);font-weight:600;white-space:nowrap}
 .explinks{display:flex;gap:12px;align-items:center;margin-top:4px}
 .explinks a{color:var(--teal);font-weight:600}

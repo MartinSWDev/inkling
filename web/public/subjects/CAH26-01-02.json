@@ -6,61 +6,129 @@
    "title": "Physical Geography",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?U2YT2B",
-   "ucas_code": "A22-G95"
+   "ucas_code": "A22-G95",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Physical Geography",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/physical-geography-bsc",
-   "ucas_code": "A55-G95"
+   "ucas_code": "A55-G95",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Geography (Physical)",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geographyphysical/",
-   "ucas_code": "A57-J12"
+   "ucas_code": "A57-J12",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Physical Geography",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/geography/physical-geography/",
-   "ucas_code": "A17-E86"
+   "ucas_code": "A17-E86",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Physical Geography",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/biosciences-geography-physics/geography/bsc-physical-geography/",
-   "ucas_code": "A37-D47"
+   "ucas_code": "A37-D47",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Physical Geography",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/physical-geography-bsc-hons-f840/",
-   "ucas_code": "A26-A70"
+   "ucas_code": "A26-A70",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "Physical Geography",
    "provider": "University of Lincoln",
    "url": "http://www.lincoln.ac.uk/home/course/gepgepum",
-   "ucas_code": "A56-C52"
+   "ucas_code": "A56-C52",
+   "setting": "campus town",
+   "town": "Lincoln"
   },
   {
    "title": "Physical Geography",
    "provider": "University of Northumbria at Newcastle",
    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/UUSPGH1",
-   "ucas_code": "A74-E02"
+   "ucas_code": "A74-E02",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Physical Geography",
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/physical-geography-degree-bsc",
-   "ucas_code": "A66-J76"
+   "ucas_code": "A66-J76",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Geography (Physical)",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/geography-ug/bsc-physical-geography",
-   "ucas_code": "A00-A12"
+   "ucas_code": "A00-A12",
+   "setting": "campus town",
+   "town": "Reading"
+  },
+  {
+   "title": "Geography",
+   "provider": "Bangor University",
+   "url": "https://www.bangor.ac.uk/courses/undergraduate/f800-geography-bsc-hons",
+   "ucas_code": "A34-E20",
+   "setting": "coast",
+   "town": "Bangor"
+  },
+  {
+   "title": "Geography",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/f800/",
+   "ucas_code": "A07-H04",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Geography",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/geography-bsc",
+   "ucas_code": "A43-E22",
+   "setting": "campus town",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Geography",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/geography-bsc",
+   "ucas_code": "A57-E51",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Climate and Environment Sciences",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36836-climate-and-environment-sciences-bsc-hons",
+   "ucas_code": "A55-D30",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Geography",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/geography-bsc/#variant",
+   "ucas_code": "A18-C41",
+   "setting": "campus town",
+   "town": "Loughborough"
   }
  ]
 }

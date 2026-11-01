@@ -6,61 +6,89 @@
    "title": "Osteopathy",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/osteopathy",
-   "ucas_code": "A14-A75"
+   "ucas_code": "A14-A75",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chiropractic",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/chiropractic-msci/?term=2027-28",
-   "ucas_code": "A77-D47"
+   "ucas_code": "A77-D47",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Acupuncture",
    "provider": "Health Sciences University",
    "url": "https://www.acupuncturecollege.org.uk/bsc-hons-acupuncture-degree",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Reading"
   },
   {
    "title": "Chiropractic",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/chiropractic#overview",
-   "ucas_code": "A40-J75"
+   "ucas_code": "A40-J75",
+   "setting": "campus town",
+   "town": "Croydon"
   },
   {
    "title": "Osteopathic Medicine",
    "provider": "Plymouth Marjon University",
    "url": "https://www.marjon.ac.uk/courses/osteopathic-medicine-degree/",
-   "ucas_code": "A03-H51"
+   "ucas_code": "A03-H51",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Osteopathy",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/osteopathy-most/",
-   "ucas_code": "A37-D39"
+   "ucas_code": "A37-D39",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Chiropractic",
    "provider": "University of South Wales/Prifysgol De Cymru",
    "url": "https://www.southwales.ac.uk/courses/mchiro-master-of-chiropractic/",
-   "ucas_code": "A04-F47"
+   "ucas_code": "A04-F47",
+   "setting": "campus town",
+   "town": "Pontypridd"
   },
   {
    "title": "Osteopathic Medicine",
    "provider": "British College Of Osteopathic Medicine",
    "url": "https://www.eso.ac.uk/courses/undergraduate/bschonsosteopathicmedicine/",
-   "ucas_code": "A73-A04"
+   "ucas_code": "A73-A04",
+   "setting": "countryside",
+   "town": "Maidstone"
   },
   {
    "title": "Acupuncture (Weekday based) - Full-time",
    "provider": "Northern College of Acupuncture",
    "url": "https://nca.ac.uk/acupuncture-courses",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "York"
   },
   {
    "title": "Licentiate in Acupuncture",
    "provider": "The City College",
    "url": "http://citycollegeofacupuncture.com/about/what-is-acupuncture/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Integrative Healthcare",
+   "provider": "University of the Highlands and Islands",
+   "url": "https://www.uhi.ac.uk/en/courses/bsc-hons-integrative-healthcare/",
+   "ucas_code": "A16-C99",
+   "setting": "campus town",
+   "town": "Elgin"
   }
  ]
 }

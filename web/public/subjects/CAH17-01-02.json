@@ -6,61 +6,129 @@
    "title": "Business and Management",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
-   "ucas_code": "A62-C98"
+   "ucas_code": "A62-C98",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Business and Management",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/business-and-management-bsc",
-   "ucas_code": "A30-B23"
+   "ucas_code": "A30-B23",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business Management",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons",
-   "ucas_code": "A55-J86"
+   "ucas_code": "A55-J86",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Business and Management",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/business-and-management-bsc",
-   "ucas_code": "A19-I71"
+   "ucas_code": "A19-I71",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-business-management",
-   "ucas_code": "A03-C84"
+   "ucas_code": "A03-C84",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "International Business",
    "provider": "City St George'S, University Of London",
    "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/international-business",
-   "ucas_code": "A41-J33"
+   "ucas_code": "A41-J33",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/business-management",
-   "ucas_code": "A19-D28"
+   "ucas_code": "A19-D28",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Business and Management",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-business-and-management/",
-   "ucas_code": "A57-G31"
+   "ucas_code": "A57-G31",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Business Administration",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-administration-bba-hons/?term=2027-28",
-   "ucas_code": "A38-G45"
+   "ucas_code": "A38-G45",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "International Business",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/international-business-ba-degree/international-business-ba-hons.aspx",
-   "ucas_code": "A25-H27"
+   "ucas_code": "A25-H27",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Business and Management",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/business/courses/business-and-management-n201/",
+   "ucas_code": "A07-G34",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "International Business",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/international-business/",
+   "ucas_code": "A05-C99",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "International Business",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/12IBUSXX",
+   "ucas_code": "A26-D04",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "International Business Management",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/international-business-management",
+   "ucas_code": "A06-A37",
+   "setting": "campus town",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "International Business Management",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/internationalbusinessmanagement",
+   "ucas_code": "A03-G23",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "International Business",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/international-business/",
+   "ucas_code": "A08-B43",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Public Health",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/public-health",
-   "ucas_code": "A14-A91"
+   "ucas_code": "A14-A91",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Psychology with Counselling and Mental Health",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/psychology-degrees/bsc-hons-psychology-counselling",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Counselling, Mental Health and Wellbeing",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/counselling-mental-health-and-wellbeing-ba-hons/full-time",
-   "ucas_code": "A56-G74"
+   "ucas_code": "A56-G74",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Public Health 3-year, full-time",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/public-health",
-   "ucas_code": "B63-A07"
+   "ucas_code": "B63-A07",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Public Health",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-public-health",
-   "ucas_code": "A49-C57"
+   "ucas_code": "A49-C57",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Health and Lifestyle Science",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Environmental Health",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-environmental-health/",
-   "ucas_code": "A08-G38"
+   "ucas_code": "A08-G38",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Nutrition and Health",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls/nutrition-and-health-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-I27"
+   "ucas_code": "A38-I27",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Nutrition & Health",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/nutrition-and-health/",
-   "ucas_code": "A05-D20"
+   "ucas_code": "A05-D20",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Counselling and Mental Health",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/counsellingmentalhealth",
-   "ucas_code": "A44-C65"
+   "ucas_code": "A44-C65",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Environmental Health",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/33261-environmental-health-bsc-hons",
+   "ucas_code": "A11-A50",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Sport, Exercise and Health Sciences (Sport Rehabilitation)",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/sport-exercise-and-health-sciences-sport-rehabilitation-bsc-hons#overview",
+   "ucas_code": "A77-F83",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Environmental Health",
+   "provider": "Middlesex University",
+   "url": "http://www.mdx.ac.uk/courses/undergraduate/environmental-health-degree",
+   "ucas_code": "A22-C77",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Sport Science, Health and Nutrition",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-sport-science-health-nutrition",
+   "ucas_code": "A38-D25",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Health Sciences",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/study/undergraduate-courses/health-sciences/",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Human Nutrition and Health",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/food-and-nutrition/bsc-honours-human-nutrition-and-health/full-time",
+   "ucas_code": "A49-J89",
+   "setting": "city",
+   "town": "Sheffield"
   }
  ]
 }

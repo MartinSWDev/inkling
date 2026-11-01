@@ -6,7 +6,9 @@
    "title": "Physics",
    "provider": "Hertford Regional College",
    "url": "https://www.herts.ac.uk/courses/physics",
-   "ucas_code": "A21-D87"
+   "ucas_code": "A21-D87",
+   "setting": "campus town",
+   "town": "Hatfield"
   }
  ]
 }

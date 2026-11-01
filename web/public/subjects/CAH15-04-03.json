@@ -6,61 +6,129 @@
    "title": "Health and Social Care",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/health-and-social-care-london",
-   "ucas_code": "A42-C31"
+   "ucas_code": "A42-C31",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Health and Social Care",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/health-and-social-care-bsc-hons/full-time/",
-   "ucas_code": "A15-G98"
+   "ucas_code": "A15-G98",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Health And Social Care",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons",
-   "ucas_code": "A34-E64"
+   "ucas_code": "A34-E64",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Health and Social Care",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/health-and-social-care-with-professional-practice",
-   "ucas_code": "A69-G38"
+   "ucas_code": "A69-G38",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Health and Social Science",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
-   "ucas_code": "A03-D32"
+   "ucas_code": "A03-D32",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Health and Social Care",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/hnd--bsc-health-and-social-care/",
-   "ucas_code": "A08-G50"
+   "ucas_code": "A08-G50",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Health and Social Care",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/health-social-care/?term=2027-28",
-   "ucas_code": "A41-H48"
+   "ucas_code": "A41-H48",
+   "setting": "coast",
+   "town": "Scarborough"
   },
   {
    "title": "Health and Wellbeing in Society",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/health-and-wellbeing-in-society-ba-hons-degree/health-and-wellbeing-in-society-bsc-hons.aspx",
-   "ucas_code": "A25-H07"
+   "ucas_code": "A25-H07",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Integrated Health And Social Care",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/integrated-health-and-social-care/",
-   "ucas_code": "A69-J22"
+   "ucas_code": "A69-J22",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Health and Social Care",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/health-and-social-care/",
-   "ucas_code": "A74-A78"
+   "ucas_code": "A74-A78",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Leeds Trinity University",
+   "url": "https://www.leedstrinity.ac.uk/courses/undergraduate/health-and-social-care/",
+   "ucas_code": "A45-B97",
+   "setting": "campus town",
+   "town": "Horsforth"
+  },
+  {
+   "title": "Health And Social Care",
+   "provider": "Lincoln Bishop University",
+   "url": "https://www.lincolnbishop.ac.uk/courses/heas",
+   "ucas_code": "A57-E58",
+   "setting": "campus town",
+   "town": "Lincoln"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36428-health-and-social-care-ba-hons",
+   "ucas_code": "A57-F34",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/health-and-social-care---bsc-hons/",
+   "ucas_code": "A06-J87",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-health-and-social-care/september-2027/",
+   "ucas_code": "A72-C63",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/social-sciences/ug/ba-hons-health-and-social-care",
+   "ucas_code": "A38-D96",
+   "setting": "city",
+   "town": "Nottingham"
   }
  ]
 }

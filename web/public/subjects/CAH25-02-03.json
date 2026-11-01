@@ -6,61 +6,129 @@
    "title": "Drama",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/drama",
-   "ucas_code": "A14-A09"
+   "ucas_code": "A14-A09",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Drama",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-drama/",
-   "ucas_code": "A09-F52"
+   "ucas_code": "A09-F52",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Theatre",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/theatre-ba",
-   "ucas_code": "A20-A45"
+   "ucas_code": "A20-A45",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Drama",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/drama/",
-   "ucas_code": "A05-C64"
+   "ucas_code": "A05-C64",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Drama",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/drama/",
-   "ucas_code": "A08-A08"
+   "ucas_code": "A08-A08",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Theatre and Performance",
    "provider": "London Metropolitan University",
    "url": "https://www.londonmet.ac.uk/courses/undergraduate/theatre-and-performance---ba-hons/",
-   "ucas_code": "A57-C99"
+   "ucas_code": "A57-C99",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Drama",
    "provider": "Queen Margaret University, Edinburgh",
    "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/ba-hons-drama-2027-entry",
-   "ucas_code": "A08-E99"
+   "ucas_code": "A08-E99",
+   "setting": "coast",
+   "town": "Edinburgh"
   },
   {
    "title": "Theatre and Performance",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/Theatre-and-Performance",
-   "ucas_code": "A75-A48"
+   "ucas_code": "A75-A48",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Drama",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/drama-ba-w400/",
-   "ucas_code": "A28-B87"
+   "ucas_code": "A28-B87",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Drama",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-drama/2027-28/sep",
-   "ucas_code": "A36-G81"
+   "ucas_code": "A36-G81",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Drama",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00097/1?coursecode=W401",
+   "ucas_code": "A32-E75",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Drama",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/drama-ba-hons?option=standard-course&start=2027",
+   "ucas_code": "A69-G70",
+   "setting": "city",
+   "town": "Hull"
+  },
+  {
+   "title": "Theatre and Performance",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/f007/theatre-and-performance-ba",
+   "ucas_code": "A27-A20",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Theatre and Performance Studies",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-theatre-performance-studies",
+   "ucas_code": "A20-D46",
+   "setting": "campus town",
+   "town": "Coventry"
+  },
+  {
+   "title": "Drama",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/ba-drama-ft-m",
+   "ucas_code": "A16-I30",
+   "setting": "city",
+   "town": "Derry"
+  },
+  {
+   "title": "Theatre and Performance Studies",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/theatre/ba-theatre-and-performance-studies/",
+   "ucas_code": "A15-J76",
+   "setting": "city",
+   "town": "Bristol"
   }
  ]
 }

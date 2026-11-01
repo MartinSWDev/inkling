@@ -2,8 +2,11 @@
 
 Run from the repo root: python scripts/build_course_lists.py
 Reads data/processed/inkling.db read-only; writes web/public/subjects/<code>.json
-(up to 12 full-time courses, at most one per provider, each with a course URL).
+(up to 16 full-time courses, at most one per provider, each with a course URL,
+its campus setting/town from data/campus_settings.json via COURSELOCATION.csv).
+Campus settings tagged by Muse Spark Open from HESA location data.
 """
+import csv
 import json
 import sqlite3
 from pathlib import Path
@@ -21,6 +24,25 @@ def main():
     rel_path = ROOT / "data" / "course_relevance.json"
     if rel_path.exists():
         relevance = json.loads(rel_path.read_text()).get("subjects", {})
+    # Campus settings: course id -> setting/town via COURSELOCATION + the
+    # Spark Open tags; fall back to the provider's majority setting.
+    campus = json.loads((ROOT / "data" / "campus_settings.json").read_text())
+    loc_tags = campus.get("locations", {})
+    prov_tags = campus.get("providers", {})
+    course_setting: dict[str, dict] = {}
+    loc_csv = ROOT / "data" / "raw" / "on_2026_10_20_13_24_40" / "COURSELOCATION.csv"
+    if loc_csv.exists():
+        with open(loc_csv, newline="", encoding="utf-8-sig") as f:
+            for row in csv.DictReader(f):
+                cid = f"{row['UKPRN']}:{row['KISCOURSEID']}:{row['KISMODE']}"
+                tag = loc_tags.get(f"{row['UKPRN']}:{row['LOCID']}")
+                if tag:
+                    course_setting.setdefault(cid, {"setting": tag["setting"], "town": tag.get("town")})
+                elif cid not in course_setting and row["UKPRN"] in prov_tags:
+                    course_setting[cid] = {"setting": prov_tags[row["UKPRN"]], "town": None, "_fallback": True}
+                # A tagged location later in the file beats the provider fallback.
+                if tag and course_setting.get(cid, {}).get("_fallback"):
+                    course_setting[cid] = {"setting": tag["setting"], "town": tag.get("town")}
     subjects = db.execute("SELECT code, name, level FROM subjects WHERE level >= 2 ORDER BY code").fetchall()
     children: dict[str, list[str]] = {}
     for row in db.execute("SELECT code, parent_code FROM subjects WHERE parent_code IS NOT NULL"):
@@ -33,7 +55,7 @@ def main():
         codes = [code, *children.get(code, [])]
         marks = ",".join("?" * len(codes))
         rows = db.execute(
-            f"""SELECT c.title, p.name AS provider, c.url, c.ucas_code, c.ukprn
+            f"""SELECT c.id, c.title, p.name AS provider, c.url, c.ucas_code, c.ukprn
                 FROM courses c
                 JOIN course_subjects cs ON cs.course_id = c.id
                 JOIN providers p ON p.ukprn = c.ukprn
@@ -73,8 +95,10 @@ def main():
             provider = r["provider"]
             if provider == provider.upper() and len(provider) > 3:
                 provider = provider.title()
-            picked.append({"title": r["title"], "provider": provider, "url": r["url"], "ucas_code": r["ucas_code"]})
-            if len(picked) >= 10:
+            tag = course_setting.get(r["id"]) or {}
+            picked.append({"title": r["title"], "provider": provider, "url": r["url"], "ucas_code": r["ucas_code"],
+                           "setting": tag.get("setting"), "town": tag.get("town")})
+            if len(picked) >= 16:
                 break
         if not picked:
             empty.append(code)

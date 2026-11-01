@@ -6,61 +6,129 @@
    "title": "Sport and Exercise",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/sport-and-exercise/",
-   "ucas_code": "A06-B37"
+   "ucas_code": "A06-B37",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Sport and Exercise Science",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?RSEWA4",
-   "ucas_code": "A22-H47"
+   "ucas_code": "A22-H47",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Applied Sport Science",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/applied-sport-science",
-   "ucas_code": "A74-A48"
+   "ucas_code": "A74-A48",
+   "setting": "countryside",
+   "town": "Writtle"
   },
   {
    "title": "Sport Coaching",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/sport-coaching-bsc-hons/full-time/",
-   "ucas_code": "A66-C07"
+   "ucas_code": "A66-C07",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Adventure Sport Science",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/c611-adventure-sport-science-bsc-hons",
-   "ucas_code": "A51-I48"
+   "ucas_code": "A51-I48",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Sport and Exercise Nutrition",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-sport-and-exercise-nutrition/",
-   "ucas_code": "A65-I04"
+   "ucas_code": "A65-I04",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Sport and Exercise Science",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/sport-and-exercise-science-bsc-hons-2027-28",
-   "ucas_code": "A14-E22"
+   "ucas_code": "A14-E22",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Sport Coaching",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-sport-coaching",
-   "ucas_code": "A55-C17"
+   "ucas_code": "A55-C17",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Sport, Health & Exercise Sciences with Business Studies with Placement Year",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/sport-health-and-exercise-sciences-with-business-studies-bsc",
-   "ucas_code": "A20-A37"
+   "ucas_code": "A20-A37",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Sport and Exercise Science",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-sport-and-exercise-science",
-   "ucas_code": "A03-D83"
+   "ucas_code": "A03-D83",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Physical Education and Sport & Exercise Science",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/physical-education-and-sport-exercise-science",
+   "ucas_code": "A19-H42",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Sport Coaching",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-sport-coaching/",
+   "ucas_code": "A08-G82",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Sport Performance and Coaching",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/sport-performance--coaching-bsc-hons/?term=2027-28",
+   "ucas_code": "A62-J03",
+   "setting": "coast",
+   "town": "Scarborough"
+  },
+  {
+   "title": "Sport and Exercise Sciences",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/sport-and-exercise-sciences-c606/",
+   "ucas_code": "A49-F25",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Physical Education & School Sport",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/physical-education-and-school-sport/",
+   "ucas_code": "A05-D24",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Sport & Exercise Science",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bsc-hons-sport-and-exercise-science-undergraduate-fulltime",
+   "ucas_code": "A25-D60",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

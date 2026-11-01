@@ -6,61 +6,129 @@
    "title": "Psychology",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/psychology/",
-   "ucas_code": "A00-B18"
+   "ucas_code": "A00-B18",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Criminology and Criminal Psychology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?H339LR",
-   "ucas_code": "A53-J13"
+   "ucas_code": "A53-J13",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Psychology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/psychology",
-   "ucas_code": "A14-A89"
+   "ucas_code": "A14-A89",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Criminology and Psychology",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/criminology-degree/ba-hons-criminology-psychology",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/psychology-bsc",
-   "ucas_code": "A30-C43"
+   "ucas_code": "A30-C43",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/psychology-bsc-hons/full-time/",
-   "ucas_code": "A15-H12"
+   "ucas_code": "A15-H12",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Childhood and Youth Studies and Psychology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/x319-childhood-and-youth-studies-and-psychology-ba-hons",
-   "ucas_code": "A34-B74"
+   "ucas_code": "A34-B74",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Business Psychology",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-business-psychology/",
-   "ucas_code": "A62-D92"
+   "ucas_code": "A62-D92",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Business Psychology",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/business-psychology",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/psychology-bsc-hons-2027-28",
-   "ucas_code": "A14-E06"
+   "ucas_code": "A14-E06",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Criminology with Psychology",
+   "provider": "Bournemouth University",
+   "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-criminology-psychology",
+   "ucas_code": "A57-A49",
+   "setting": "coast",
+   "town": "Bournemouth"
+  },
+  {
+   "title": "Psychology",
+   "provider": "Brunel University of London",
+   "url": "https://www.brunel.ac.uk/study/undergraduate/psychology-bsc",
+   "ucas_code": "A20-A25",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Forensic Psychology",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-forensic-psychology",
+   "ucas_code": "A68-A72",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Criminology & Psychology",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/criminology-and-psychology",
+   "ucas_code": "A13-H76",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Criminology and Psychology",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/criminology-psychology",
+   "ucas_code": "A70-I51",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Education, Psychology and Special Educational Needs",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-education-psychology-and-special-educational-needs/",
+   "ucas_code": "A55-F51",
+   "setting": "city",
+   "town": "Cardiff"
   }
  ]
 }

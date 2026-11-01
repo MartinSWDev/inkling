@@ -6,61 +6,129 @@
    "title": "Geology",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/geology",
-   "ucas_code": "A24-D65"
+   "ucas_code": "A24-D65",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Geology",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/geology-bsc",
-   "ucas_code": "A55-H31"
+   "ucas_code": "A55-H31",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Earth Sciences",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/f644/",
-   "ucas_code": "A07-G68"
+   "ucas_code": "A07-G68",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Geology",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/geology",
-   "ucas_code": "A40-B90"
+   "ucas_code": "A40-B90",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Geology",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/earth-sciences-geology",
-   "ucas_code": "A30-F42"
+   "ucas_code": "A30-F42",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Geology",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/earth-sciences/geology/",
-   "ucas_code": "A17-E01"
+   "ucas_code": "A17-E01",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Geology",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geology.aspx",
-   "ucas_code": "A04-I63"
+   "ucas_code": "A04-I63",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Geology",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i683/geology-bsc",
-   "ucas_code": "A26-H19"
+   "ucas_code": "A26-H19",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Geology",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/geology-bsc/2027",
-   "ucas_code": "A05-B01"
+   "ucas_code": "A05-B01",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Geology",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/geology-bsc-hons/2027",
-   "ucas_code": "A02-I52"
+   "ucas_code": "A02-I52",
+   "setting": "coast",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Geology",
+   "provider": "University Of Glasgow",
+   "url": "https://www.gla.ac.uk/undergraduate/degrees/geology/",
+   "ucas_code": "A48-C62",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Geology",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/1825/F601/geology/",
+   "ucas_code": "A59-A57",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "Geology",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/geology/bsc-geology/",
+   "ucas_code": "A15-I45",
+   "setting": "city",
+   "town": "Bristol"
+  },
+  {
+   "title": "Earth Sciences",
+   "provider": "University of Derby",
+   "url": "https://www.derby.ac.uk/undergraduate/earth-science-courses/earth-sciences-bsc-hons/",
+   "ucas_code": "A70-E89",
+   "setting": "campus town",
+   "town": "Derby"
+  },
+  {
+   "title": "Earth Sciences",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/F600",
+   "ucas_code": "A14-J10",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Geology",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-geology/",
+   "ucas_code": "A33-B08",
+   "setting": "coast",
+   "town": "Penryn"
   }
  ]
 }

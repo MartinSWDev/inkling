@@ -6,19 +6,25 @@
    "title": "Product Design and Manufacture",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Product-Design-and-Manufacture-BEng-Hons.html",
-   "ucas_code": "A00-H22"
+   "ucas_code": "A00-H22",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Product Design Engineering",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/product-design-engineering-beng/#variant",
-   "ucas_code": "A18-D62"
+   "ucas_code": "A18-D62",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Mechanical Engineering with Manufacturing and Management",
    "provider": "University of Bath",
    "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UEME-AFB53",
-   "ucas_code": "A65-G22"
+   "ucas_code": "A65-G22",
+   "setting": "campus town",
+   "town": "Bath"
   }
  ]
 }

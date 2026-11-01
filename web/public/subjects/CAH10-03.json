@@ -6,61 +6,129 @@
    "title": "Audio and Music Technology",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/audio-and-music-technology",
-   "ucas_code": "A13-J59"
+   "ucas_code": "A13-J59",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Garment Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Biotechnology",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/biotechnology-msci-bsc-hons/?term=2027-28",
-   "ucas_code": "A75-F69"
+   "ucas_code": "A75-F69",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Biotechnology",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/biotechnology/",
-   "ucas_code": "A05-C27"
+   "ucas_code": "A05-C27",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Audio Technology",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11ADTECH",
-   "ucas_code": "A26-C63"
+   "ucas_code": "A26-C63",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Music Technology",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/musictechnology",
-   "ucas_code": "A10-I16"
+   "ucas_code": "A10-I16",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Biotechnology",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36142-biotechnology-bsc-hons",
-   "ucas_code": "A52-G97"
+   "ucas_code": "A52-G97",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "Automotive Materials",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/automotive-materials-beng/",
-   "ucas_code": "A18-B21"
+   "ucas_code": "A18-B21",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Materials Science (4 years)",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/materials-science",
-   "ucas_code": "A30-G00"
+   "ucas_code": "A30-G00",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Materials Science",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/materials-science-and-engineering",
-   "ucas_code": "A47-I67"
+   "ucas_code": "A47-I67",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Materials Science and Engineering",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk//undergraduate/courses/engineering-applied-sciences/materials-engineering/beng-materials-science-engineering/",
+   "ucas_code": "A37-C84",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/biosciences/biotechnology",
+   "ucas_code": "A73-F27",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Biotechnology",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG01128/1?coursecode=C110",
+   "ucas_code": "A68-J96",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Biological Sciences (Biotechnology with Enterprise)",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/g377/biological-sciences-biotechnology-with-enterprise-bsc",
+   "ucas_code": "A26-E87",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Materials Science and Engineering",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/materials-science-and-engineering-meng",
+   "ucas_code": "A35-F94",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Biochemistry and Biotechnology",
+   "provider": "The University of East London Higher Education Corporation",
+   "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-biochemistry-and-biotechnology",
+   "ucas_code": "A24-B27",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

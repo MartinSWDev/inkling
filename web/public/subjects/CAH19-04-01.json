@@ -6,61 +6,129 @@
    "title": "French",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages",
-   "ucas_code": "A30-F24"
+   "ucas_code": "A30-F24",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "French",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
-   "ucas_code": "A48-B00"
+   "ucas_code": "A48-B00",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "French",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/french-ba-r120/",
-   "ucas_code": "A28-C25"
+   "ucas_code": "A28-C25",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "French",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/315/french-ba",
-   "ucas_code": "A26-G81"
+   "ucas_code": "A26-G81",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "French",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/french-ba-hons/2027",
-   "ucas_code": "A02-I31"
+   "ucas_code": "A02-I31",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "French",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/french/",
-   "ucas_code": "A24-J71"
+   "ucas_code": "A24-J71",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "French",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/R120",
-   "ucas_code": "A14-I81"
+   "ucas_code": "A14-I81",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "French",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/french/french-ma/",
-   "ucas_code": "A29-A52"
+   "ucas_code": "A29-A52",
+   "setting": "coast",
+   "town": "St Andrews"
   },
   {
    "title": "French",
    "provider": "University of Stirling",
    "url": "https://www.stir.ac.uk/courses/ug/french/",
-   "ucas_code": "A16-G67"
+   "ucas_code": "A16-G67",
+   "setting": "campus town",
+   "town": "Stirling"
   },
   {
    "title": "French",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/french-ba",
-   "ucas_code": "A23-J93"
+   "ucas_code": "A23-J93",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Business Management and French",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-business-management-and-french/september-2027/",
+   "ucas_code": "A65-H58",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "French and German",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-german",
+   "ucas_code": "A72-I63",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Modern Languages (French and Spanish)",
+   "provider": "The University Of Surrey",
+   "url": "https://www.surrey.ac.uk/undergraduate/modern-languages-french-and-spanish/2027",
+   "ucas_code": "A36-D59",
+   "setting": "campus town",
+   "town": "Guildford"
+  },
+  {
+   "title": "English and French",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-french",
+   "ucas_code": "A20-B80",
+   "setting": "campus town",
+   "town": "Coventry"
+  },
+  {
+   "title": "French and International Relations",
+   "provider": "The University Of Westminster",
+   "url": "http://www.westminster.ac.uk/french-and-international-relations-ba",
+   "ucas_code": "A19-B57",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Anthropology and French",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/425/LR61/anthropology-and-french-5-years/",
+   "ucas_code": "A33-D35",
+   "setting": "coast",
+   "town": "Aberdeen"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Art History",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?JNXE6Y",
-   "ucas_code": "A22-E51"
+   "ucas_code": "A22-E51",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "History",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/history",
-   "ucas_code": "A14-A44"
+   "ucas_code": "A14-A44",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "History",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/history-ba",
-   "ucas_code": "A69-H48"
+   "ucas_code": "A69-H48",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "History",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/history-ba-hons/full-time/",
-   "ucas_code": "A15-H00"
+   "ucas_code": "A15-H00",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Heritage, Archaeology And History",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/vv41-heritage-archaeology-and-history-ba-hons",
-   "ucas_code": "A34-E88"
+   "ucas_code": "A34-E88",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Education and History",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-education-and-history/",
-   "ucas_code": "A09-F91"
+   "ucas_code": "A09-F91",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Ancient History and Archaeology",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/ancient-history-and-archaeology",
-   "ucas_code": "A47-D74"
+   "ucas_code": "A47-D74",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Archaeology",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-archaeology",
-   "ucas_code": "A11-H50"
+   "ucas_code": "A11-H50",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "English and History",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/courses/english-and-history-ba",
-   "ucas_code": "A77-I78"
+   "ucas_code": "A77-I78",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "History",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/history",
-   "ucas_code": "A41-J02"
+   "ucas_code": "A41-J02",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/archaeology",
+   "ucas_code": "A19-C96",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/archaeology-ba",
+   "ucas_code": "A27-H56",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "History",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/history-ba-hons/?term=2027-28",
+   "ucas_code": "A38-H46",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "History",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/history-ba-degree/history-ba-degree.aspx",
+   "ucas_code": "A25-H10",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Ancient History",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/v110/",
+   "ucas_code": "A07-G06",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "History",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/history/",
+   "ucas_code": "A05-C94",
+   "setting": "campus town",
+   "town": "Ormskirk"
   }
  ]
 }

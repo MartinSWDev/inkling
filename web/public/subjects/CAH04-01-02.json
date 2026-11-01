@@ -6,61 +6,129 @@
    "title": "Applied Psychology",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/cul/course-structure/hnc-hnd-degree/applied-psychology/?term=2027-28",
-   "ucas_code": "A54-A37"
+   "ucas_code": "A54-A37",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Applied Psychology",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11APDPSY",
-   "ucas_code": "A26-C61"
+   "ucas_code": "A26-C61",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Applied Psychology",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/applied-psychology-bsc/2027",
-   "ucas_code": "A05-A10"
+   "ucas_code": "A05-A10",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Applied Psychology",
    "provider": "South Essex College of Further and Higher Education",
    "url": "https://www.southessex.ac.uk/course/bsc-hons-applied-psychology",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Southend-on-Sea"
   },
   {
    "title": "Psychology with Forensic Psychology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?3WQBZ7",
-   "ucas_code": "A66-F21"
+   "ucas_code": "A66-F21",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Psychology with Forensic and Criminal Perspectives",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/psychology-with-forensic-and-criminal-perspectives-bsc-hons/full-time/",
-   "ucas_code": "A41-F75"
+   "ucas_code": "A41-F75",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology with Forensic Psychology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/c813-psychology-with-forensic-psychology-bsc-hons",
-   "ucas_code": "A52-D35"
+   "ucas_code": "A52-D35",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Business Psychology",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-business-psychology/",
-   "ucas_code": "A62-D92"
+   "ucas_code": "A62-D92",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Business Psychology",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/business-psychology",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Forensic Psychology",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-forensic-psychology",
-   "ucas_code": "A68-A72"
+   "ucas_code": "A68-A72",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Business Psychology",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/business-psychology/",
+   "ucas_code": "A51-I21",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Sport Psychology",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36123-sport-psychology-bsc-hons",
+   "ucas_code": "A10-J56",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Business Psychology",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-business-psychology-foundation-year/september-2027/",
+   "ucas_code": "A75-C44",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Criminology and Psychology",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/criminology-psychology-degree/",
+   "ucas_code": "A47-I45",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Psychology (Forensic and Criminal)",
+   "provider": "Roehampton University",
+   "url": "https://www.roehampton.ac.uk/study/undergraduate-courses/psychology-forensic-and-criminal/",
+   "ucas_code": "A18-J88",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Psychology, Social and Applied Psychology",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/psychology/psychology-social-and-applied-psychology/",
+   "ucas_code": "A17-C67",
+   "setting": "campus town",
+   "town": "Egham"
   }
  ]
 }

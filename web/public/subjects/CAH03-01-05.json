@@ -6,31 +6,41 @@
    "title": "Plant Biology",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?TUBUGW",
-   "ucas_code": "A22-H11"
+   "ucas_code": "A22-H11",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Plant Sciences",
    "provider": "University of Bristol",
    "url": "http://www.bristol.ac.uk/study/undergraduate/2027/biological-sciences/msci-plant-sciences/",
-   "ucas_code": "A49-I09"
+   "ucas_code": "A49-I09",
+   "setting": "city",
+   "town": "Bristol"
   },
   {
    "title": "Molecular & Cellular Biology with Plant Science",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/plantscience/",
-   "ucas_code": "A24-J63"
+   "ucas_code": "A24-J63",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Plant and Soil Science",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/828/CD27/plant-and-soil-science/",
-   "ucas_code": "A33-H11"
+   "ucas_code": "A33-H11",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Horticulture (Plant Science)",
    "provider": "Cornwall College",
    "url": "https://www.cornwall.ac.uk/courses/bsc-hons-horticulture-plant-science-degree/",
-   "ucas_code": "A53-B21"
+   "ucas_code": "A53-B21",
+   "setting": "countryside",
+   "town": "St Austell"
   }
  ]
 }

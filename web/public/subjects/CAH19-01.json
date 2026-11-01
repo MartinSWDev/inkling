@@ -6,61 +6,129 @@
    "title": "Drama and English",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?R7B425",
-   "ucas_code": "A57-G39"
+   "ucas_code": "A57-G39",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Drama and English Literature",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-english-literature",
-   "ucas_code": "A14-A10"
+   "ucas_code": "A14-A10",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "English Language",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/english-language-ba",
-   "ucas_code": "A30-B61"
+   "ucas_code": "A30-B61",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/english-ba-hons/full-time/",
-   "ucas_code": "A15-G92"
+   "ucas_code": "A15-G92",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English Language And English Literature",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons",
-   "ucas_code": "A34-C93"
+   "ucas_code": "A34-C93",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Creative Writing and English Literature",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-creative-writing-and-english-literature/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Creative Writing and English",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/english/creative-writing-and-english",
-   "ucas_code": "A24-D48"
+   "ucas_code": "A24-D48",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "English Language and Literature",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/english-language-and-literature-ba-hons-2027-28",
-   "ucas_code": "A14-D22"
+   "ucas_code": "A14-D22",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/english-ba",
-   "ucas_code": "A19-J37"
+   "ucas_code": "A19-J37",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "English",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/english",
-   "ucas_code": "A13-H90"
+   "ucas_code": "A13-H90",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "English and Creative Writing",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-english-and-creative-writing/",
+   "ucas_code": "A63-C08",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "English Language",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/english-language-with-a-foundation-year-ba",
+   "ucas_code": "A77-I60",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/english-literature-ba/?term=2027-28",
+   "ucas_code": "A49-D61",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Creative Writing and English Literature",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/creative-writing-english-literature/creative-writing-english-literature.aspx",
+   "ucas_code": "A73-E84",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "English",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/q301/",
+   "ucas_code": "A07-G94",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "Creative Writing And English Literature",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/creative-writing-and-english-literature/",
+   "ucas_code": "A05-C56",
+   "setting": "campus town",
+   "town": "Ormskirk"
   }
  ]
 }

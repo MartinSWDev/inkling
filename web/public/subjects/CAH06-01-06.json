@@ -6,37 +6,49 @@
    "title": "Food Science and Innovation",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDGFDSIN",
-   "ucas_code": "A66-F48"
+   "ucas_code": "A66-F48",
+   "setting": "countryside",
+   "town": "Newport"
   },
   {
    "title": "Food and Consumer Science",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/food-and-consumer-science/",
-   "ucas_code": "A06-B26"
+   "ucas_code": "A06-B26",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Brewing and Distilling",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
-   "ucas_code": "A05-J54"
+   "ucas_code": "A05-J54",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Food and Nutrition",
    "provider": "Sheffield Hallam University",
    "url": "https://www.shu.ac.uk/courses/food-and-nutrition/bsc-honours-food-and-nutrition/full-time",
-   "ucas_code": "A17-J05"
+   "ucas_code": "A17-J05",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Food Business and Innovation",
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/bsc-food-business-and-innovation-ft-c",
-   "ucas_code": "A16-I24"
+   "ucas_code": "A16-I24",
+   "setting": "coast",
+   "town": "Coleraine"
   },
   {
    "title": "Nutrition and Food Management",
    "provider": "Drama Studio London Limited",
    "url": "https://www.uwl.ac.uk/course/undergraduate/nutrition-and-food-management",
-   "ucas_code": "A49-A91"
+   "ucas_code": "A49-A91",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

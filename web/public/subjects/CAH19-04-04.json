@@ -6,61 +6,129 @@
    "title": "Spanish, Portuguese and Latin American Studies",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/rt47/",
-   "ucas_code": "A27-D01"
+   "ucas_code": "A27-D01",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Spanish",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/modern-languages",
-   "ucas_code": "A30-G62"
+   "ucas_code": "A30-G62",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Spanish",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/modern-languages",
-   "ucas_code": "A48-B00"
+   "ucas_code": "A48-B00",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Spanish",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/spanish-ba-r410/",
-   "ucas_code": "A28-D29"
+   "ucas_code": "A28-D29",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Spanish and Portuguese",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/spanish-and-portuguese",
-   "ucas_code": "A72-J29"
+   "ucas_code": "A72-J29",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Spanish",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/f044/spanish-ba",
-   "ucas_code": "A27-A05"
+   "ucas_code": "A27-A05",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Spanish",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/spanish/",
-   "ucas_code": "A24-H44"
+   "ucas_code": "A24-H44",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Spanish",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/R410",
-   "ucas_code": "A15-B89"
+   "ucas_code": "A15-B89",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Spanish",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/spanish/spanish-ma/",
-   "ucas_code": "A29-G18"
+   "ucas_code": "A29-G18",
+   "setting": "coast",
+   "town": "St Andrews"
   },
   {
    "title": "Spanish and Latin American Studies",
    "provider": "University of Stirling",
    "url": "https://www.stir.ac.uk/courses/ug/spanish-latin-american-studies/",
-   "ucas_code": "A16-H59"
+   "ucas_code": "A16-H59",
+   "setting": "campus town",
+   "town": "Stirling"
+  },
+  {
+   "title": "Spanish and Latin American Studies",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/spanish-and-latin-american-studies-ba",
+   "ucas_code": "A24-B01",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "French and Spanish",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-french-and-spanish/september-2027/",
+   "ucas_code": "A31-J02",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "International Business with Spanish",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-international-business-with-spanish/full-time",
+   "ucas_code": "A17-J51",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Spanish and Linguistics",
+   "provider": "The University Of Westminster",
+   "url": "http://www.westminster.ac.uk/spanish-and-linguistics-ba",
+   "ucas_code": "A19-C06",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "International Business with Spanish",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/1177/N1R4/",
+   "ucas_code": "A47-C53",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "History and Spanish",
+   "provider": "University of Chester",
+   "url": "https://www.chester.ac.uk/study/course-search/history-and-spanish-ba-hons/?studyMode=103550",
+   "ucas_code": "A72-J51",
+   "setting": "campus town",
+   "town": "Chester"
   }
  ]
 }

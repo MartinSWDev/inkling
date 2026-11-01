@@ -6,61 +6,129 @@
    "title": "Philosophy",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
-   "ucas_code": "A14-A81"
+   "ucas_code": "A14-A81",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Philosophy",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/philosophy",
-   "ucas_code": "A24-E12"
+   "ucas_code": "A24-E12",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Philosophy",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/philosophy-ba",
-   "ucas_code": "A28-A64"
+   "ucas_code": "A28-A64",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Philosophy",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/philosophy-ba/?term=2027-28",
-   "ucas_code": "A65-J88"
+   "ucas_code": "A65-J88",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Philosophy",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/v500/",
-   "ucas_code": "A07-H48"
+   "ucas_code": "A07-H48",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Philosophy",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/philosophy",
-   "ucas_code": "A03-G96"
+   "ucas_code": "A03-G96",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Philosophy",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-philosophy/september-2027/",
-   "ucas_code": "A32-A63"
+   "ucas_code": "A32-A63",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Philosophy",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/v500/",
-   "ucas_code": "A27-C86"
+   "ucas_code": "A27-C86",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Philosophy",
    "provider": "Northeastern University London",
    "url": "https://www.nulondon.ac.uk/degrees/undergraduate/philosophy/",
-   "ucas_code": "A65-J13"
+   "ucas_code": "A65-J13",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Philosophy",
    "provider": "Queen's University Belfast",
    "url": "http://www.qub.ac.uk/courses/undergraduate/philosophy-ba-v500/",
-   "ucas_code": "A28-C98"
+   "ucas_code": "A28-C98",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/philosophy/philosophy/",
+   "ucas_code": "A17-E85",
+   "setting": "campus town",
+   "town": "Egham"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/artsandhumanities/politics-and-international-relations/ba-philosophy/",
+   "ucas_code": "A52-F11",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/phil/philosophy.aspx",
+   "ucas_code": "A04-J46",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-philosophy/2027-28/sep",
+   "ucas_code": "A36-I07",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00321/1?coursecode=V500",
+   "ucas_code": "A32-H97",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Philosophy",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/philosophy-ba-hons-v500/",
+   "ucas_code": "A26-A64",
+   "setting": "campus town",
+   "town": "Lancaster"
   }
  ]
 }

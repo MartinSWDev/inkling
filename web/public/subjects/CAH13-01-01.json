@@ -6,61 +6,129 @@
    "title": "Architecture",
    "provider": "Arts University Bournemouth, The",
    "url": "http://aub.ac.uk/courses/ba/ba-architecture/",
-   "ucas_code": "A38-F91"
+   "ucas_code": "A38-F91",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Architecture",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/architecture",
-   "ucas_code": "A13-J58"
+   "ucas_code": "A13-J58",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Architecture",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-architecture/",
-   "ucas_code": "A62-B31"
+   "ucas_code": "A62-B31",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Architecture",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-architecture/",
-   "ucas_code": "A53-E53"
+   "ucas_code": "A53-E53",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Architecture",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/architectural-studies-bsc",
-   "ucas_code": "A27-H80"
+   "ucas_code": "A27-H80",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Architecture",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/architecture-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-G30"
+   "ucas_code": "A38-G30",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Architecture",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/architecture-ba-degree/architecture-ba-degree.aspx",
-   "ucas_code": "A25-F94"
+   "ucas_code": "A25-F94",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Architecture",
    "provider": "Falmouth University",
    "url": "http://www.falmouth.ac.uk/study/undergraduate/ARCHITECTURE",
-   "ucas_code": "A52-J03"
+   "ucas_code": "A52-J03",
+   "setting": "coast",
+   "town": "Falmouth"
   },
   {
    "title": "Architecture",
    "provider": "Leeds Beckett University",
    "url": "https://www.leedsbeckett.ac.uk/courses/architecture-ba/",
-   "ucas_code": "A75-I97"
+   "ucas_code": "A75-I97",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Architecture",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30132-architecture-ba-hons",
-   "ucas_code": "A10-J61"
+   "ucas_code": "A10-J61",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Architecture",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/architecture---ba-hons/",
+   "ucas_code": "A06-I97",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Architecture",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/ba-hons-architecture#overview",
+   "ucas_code": "A12-A75",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/architecture-barch/",
+   "ucas_code": "A18-B11",
+   "setting": "campus town",
+   "town": "Loughborough"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-architecture/september-2027/",
+   "ucas_code": "A31-G44",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/architecture-design-and-the-built-environment/ug/barch-hons-architecture-arbriba-part-1",
+   "ucas_code": "A38-B99",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/k100/",
+   "ucas_code": "A27-A82",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   }
  ]
 }

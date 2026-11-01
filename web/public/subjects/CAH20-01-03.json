@@ -6,61 +6,129 @@
    "title": "Archaeology",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/archaeology",
-   "ucas_code": "A24-D32"
+   "ucas_code": "A24-D32",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Archaeology",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-archaeology",
-   "ucas_code": "A11-H50"
+   "ucas_code": "A11-H50",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Archaeology",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/archaeology",
-   "ucas_code": "A19-C96"
+   "ucas_code": "A19-C96",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Archaeology",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/archaeology-ba",
-   "ucas_code": "A27-H56"
+   "ucas_code": "A27-H56",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Archaeology",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/f400/",
-   "ucas_code": "A07-G22"
+   "ucas_code": "A07-G22",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Archaeology",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/v400/",
-   "ucas_code": "A27-A81"
+   "ucas_code": "A27-A81",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Archaeology",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/archaeology-ba-v402/",
-   "ucas_code": "A28-B33"
+   "ucas_code": "A28-B33",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Archaeology",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/archaeology-bsc/2027",
-   "ucas_code": "A46-F19"
+   "ucas_code": "A46-F19",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Archaeology",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/archaeology-ba-hons/2027",
-   "ucas_code": "A02-F68"
+   "ucas_code": "A02-F68",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Archaeology",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/archaeology/",
-   "ucas_code": "A24-E42"
+   "ucas_code": "A24-E42",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/archaeology-bsc",
+   "ucas_code": "A01-J78",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Archaeology-BA-Hons.html",
+   "ucas_code": "A00-D84",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/archaeology-ba-hons",
+   "ucas_code": "A25-D72",
+   "setting": "campus town",
+   "town": "Cambridge"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University of Chester",
+   "url": "https://www.chester.ac.uk/study/course-search/archaeology-ba-hons/?studyMode=101995",
+   "ucas_code": "A09-I91",
+   "setting": "campus town",
+   "town": "Chester"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/V400",
+   "ucas_code": "A14-H35",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Archaeology",
+   "provider": "University of Exeter",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/ba-archaeology/",
+   "ucas_code": "A32-J52",
+   "setting": "campus town",
+   "town": "Exeter"
   }
  ]
 }

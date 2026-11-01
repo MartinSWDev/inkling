@@ -6,61 +6,129 @@
    "title": "Computing",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/computing",
-   "ucas_code": "A67-B15"
+   "ucas_code": "A67-B15",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Computing",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/computing-degrees/bsc-hons-computing",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Computing and Information Technology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/computing-information-technology-bsc-hons-2027-28",
-   "ucas_code": "A14-C96"
+   "ucas_code": "A14-C96",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Digital Technology and Computing",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/ees/digital-technology-computing/?term=2027-28",
-   "ucas_code": "A45-C41"
+   "ucas_code": "A45-C41",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Computing",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11COMPTN",
-   "ucas_code": "A26-C78"
+   "ucas_code": "A26-C78",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Computing",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/computing---bsc-hons/",
-   "ucas_code": "A06-J33"
+   "ucas_code": "A06-J33",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Information Technology",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-information-technology#overview",
-   "ucas_code": "A12-B17"
+   "ucas_code": "A12-B17",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Information Technology",
    "provider": "Middlesex University",
    "url": "http://www.mdx.ac.uk/courses/undergraduate/information-technology",
-   "ucas_code": "A22-D02"
+   "ucas_code": "A22-D02",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Computing and Digital Technologies",
    "provider": "Roehampton University",
    "url": "https://www.roehampton.ac.uk/undergraduate-courses/computing-and-digital-technologies/",
-   "ucas_code": "A69-I18"
+   "ucas_code": "A69-I18",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Computing (3-year degree)",
    "provider": "The University Of Buckingham",
    "url": "https://www.buckingham.ac.uk/courses/undergraduate/bsc-hons-computing-3-year-degree/?_gl=1*nktcdg*_up*MQ..*_ga*MTY0MTkyNzY0MS4xNzgyOTg2Mjc5*_ga_PWEL0GXNN9*czE3ODI5ODYyNzkkbzEkZzEkdDE3ODI5ODYyODYkajUzJGwwJGgxMTQzOTM1NTEz",
-   "ucas_code": "A25-E80"
+   "ucas_code": "A25-E80",
+   "setting": "campus town",
+   "town": "Buckingham"
+  },
+  {
+   "title": "Computing",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/computing-bsc-hons",
+   "ucas_code": "A02-A80",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Computing Science",
+   "provider": "University of Strathclyde",
+   "url": "http://www.strath.ac.uk/c/KIS0011153#whythiscourse",
+   "ucas_code": "A75-J14",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Computing and Information Technology",
+   "provider": "University of Wolverhampton",
+   "url": "https://www.wlv.ac.uk/courses/BSc-Hons-Computing-and-Information-Technology",
+   "ucas_code": "A04-A86",
+   "setting": "campus town",
+   "town": "Wolverhampton"
+  },
+  {
+   "title": "Computing",
+   "provider": "Burnley College",
+   "url": "https://www.burnley.ac.uk/course/?title=BSc-(Hons)-Computing&code=A7303",
+   "ucas_code": "A75-I58",
+   "setting": "countryside",
+   "town": "Preston"
+  },
+  {
+   "title": "Information Technology",
+   "provider": "Darlington College",
+   "url": "https://www.tees.ac.uk/undergraduate_courses/computing_&_cyber_security/bsc_(hons)_information_technology.cfm",
+   "ucas_code": "A31-F43",
+   "setting": "campus town",
+   "town": "Middlesbrough"
+  },
+  {
+   "title": "Computing",
+   "provider": "The Growth Company Limited",
+   "url": "https://www.bolton.ac.uk/course/COM001-A-RGL-SX/2027-28",
+   "ucas_code": "",
+   "setting": null,
+   "town": null
   }
  ]
 }

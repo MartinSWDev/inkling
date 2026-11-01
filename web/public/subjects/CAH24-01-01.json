@@ -6,25 +6,33 @@
    "title": "Information, Data and Society",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/information-data-and-society-bsc",
-   "ucas_code": "A68-E93"
+   "ucas_code": "A68-E93",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Art History with Curating",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history/art-history-with-curating",
-   "ucas_code": "A65-H28"
+   "ucas_code": "A65-H28",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "History of Art with Gallery and Museum Studies",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-history-of-art-with-gallery-and-museum-studies/2027-28/sep",
-   "ucas_code": "A36-H35"
+   "ucas_code": "A36-H35",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Museum Studies and Archaeology",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/archaeology-ug/ba-museum-studies-and-archaeology",
-   "ucas_code": "A15-F03"
+   "ucas_code": "A15-F03",
+   "setting": "campus town",
+   "town": "Reading"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Fine Art",
    "provider": "Arts University Bournemouth, The",
    "url": "http://aub.ac.uk/courses/ba/ba-fine-art/",
-   "ucas_code": "A38-G03"
+   "ucas_code": "A38-G03",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Fine Art",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?PX2UV7",
-   "ucas_code": "A22-F78"
+   "ucas_code": "A22-F78",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Fine Art",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/fine-art",
-   "ucas_code": "A14-A37"
+   "ucas_code": "A14-A37",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Fine Art",
    "provider": "Arts University Plymouth",
    "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fine-art",
-   "ucas_code": "A16-E84"
+   "ucas_code": "A16-E84",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Fine Art",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-fine-art/",
-   "ucas_code": "A09-G33"
+   "ucas_code": "A09-G33",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Fine Art",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fine-art-ba-hons-2027-28",
-   "ucas_code": "A14-D39"
+   "ucas_code": "A14-D39",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Fine Art",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-fine-art",
-   "ucas_code": "A03-D12"
+   "ucas_code": "A03-D12",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Fine Art",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-fine-art/",
-   "ucas_code": "A08-G43"
+   "ucas_code": "A08-G43",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Fine Art",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/fine-art-ba-hons/?term=2027-28",
-   "ucas_code": "A38-H21"
+   "ucas_code": "A38-H21",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Fine Art",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/fine-art-ba-degree/fine-art-ba-degree.aspx",
-   "ucas_code": "A25-G95"
+   "ucas_code": "A25-G95",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/fine-art",
+   "ucas_code": "A27-A45",
+   "setting": "coast",
+   "town": "Falmouth"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/fine-art/",
+   "ucas_code": "A08-A83",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "Leeds Arts University",
+   "url": "https://www.leeds-art.ac.uk/courses/ba-hons-fine-art",
+   "ucas_code": "A30-A96",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/fineart",
+   "ucas_code": "A10-H86",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "Liverpool Hope University",
+   "url": "https://www.hope.ac.uk/undergraduate/undergraduatecourses/fineart/",
+   "ucas_code": "A07-E63",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Fine Art",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30450-fine-art-ba-hons",
+   "ucas_code": "A11-A55",
+   "setting": "city",
+   "town": "Liverpool"
   }
  ]
 }

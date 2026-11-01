@@ -6,61 +6,129 @@
    "title": "Mathematics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?AWSMAD",
-   "ucas_code": "A22-G74"
+   "ucas_code": "A22-G74",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Mathematics",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/mathematics-bsc",
-   "ucas_code": "A30-C23"
+   "ucas_code": "A30-C23",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Mathematics",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/mathematics-bsc",
-   "ucas_code": "A19-J72"
+   "ucas_code": "A19-J72",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Mathematics",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/mathematics",
-   "ucas_code": "A13-I19"
+   "ucas_code": "A13-I19",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Mathematics",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/mathematics-bsc",
-   "ucas_code": "A28-A02"
+   "ucas_code": "A28-A02",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Mathematics",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/eec/mathematics-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-I10"
+   "ucas_code": "A38-I10",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Mathematics",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/g100/",
-   "ucas_code": "A07-H33"
+   "ucas_code": "A07-H33",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Mathematics",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/mathematics-bsc",
-   "ucas_code": "A06-A59"
+   "ucas_code": "A06-A59",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Mathematics",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/mathematics/",
-   "ucas_code": "A03-G54"
+   "ucas_code": "A03-G54",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Mathematics",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30197-mathematics-bsc-hons",
-   "ucas_code": "A11-A86"
+   "ucas_code": "A11-A86",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/mathematics---bsc-hons/",
+   "ucas_code": "A07-A17",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/mathematics-bsc/#variant",
+   "ucas_code": "A18-C93",
+   "setting": "campus town",
+   "town": "Loughborough"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "Manchester Metropolitan University",
+   "url": "https://www.mmu.ac.uk/study/undergraduate/course/bsc-mathematics/september-2027/",
+   "ucas_code": "A32-A27",
+   "setting": "city",
+   "town": "Manchester"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-mathematics",
+   "ucas_code": "A38-E54",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "Newcastle University",
+   "url": "http://www.ncl.ac.uk/undergraduate/degrees/g100/",
+   "ucas_code": "A27-C50",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Mathematics",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mathematics",
+   "ucas_code": "A42-F93",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

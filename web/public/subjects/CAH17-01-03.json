@@ -6,61 +6,129 @@
    "title": "Marketing",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/marketing/",
-   "ucas_code": "A76-I56"
+   "ucas_code": "A76-I56",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Marketing",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?U847HG",
-   "ucas_code": "A22-G68"
+   "ucas_code": "A22-G68",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Marketing",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/marketing",
-   "ucas_code": "A62-D03"
+   "ucas_code": "A62-D03",
+   "setting": "campus town",
+   "town": "Peterborough"
   },
   {
    "title": "Marketing",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/marketing-bsc",
-   "ucas_code": "A30-C22"
+   "ucas_code": "A30-C22",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Marketing",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/n501-marketing-bsc-hons",
-   "ucas_code": "A34-F99"
+   "ucas_code": "A34-F99",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Marketing",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-marketing/",
-   "ucas_code": "A65-H49"
+   "ucas_code": "A65-H49",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Marketing",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/marketing-ba-hons-2027-28",
-   "ucas_code": "A14-D69"
+   "ucas_code": "A14-D69",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Marketing",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-marketing",
-   "ucas_code": "A11-I05"
+   "ucas_code": "A11-I05",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Marketing",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/marketing-bsc",
-   "ucas_code": "A69-D91"
+   "ucas_code": "A69-D91",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Marketing",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-marketing",
-   "ucas_code": "A03-D45"
+   "ucas_code": "A03-D45",
+   "setting": "campus town",
+   "town": "High Wycombe"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/marketing",
+   "ucas_code": "A19-G89",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Marketing Management",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-marketing-management/",
+   "ucas_code": "A08-G65",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/marketing-ba-hons/?term=2027-28",
+   "ucas_code": "A38-I09",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Marketing",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/marketing-ba-degree/marketing-ba-hons.aspx",
+   "ucas_code": "A25-H41",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Marketing",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/marketing/",
+   "ucas_code": "A05-D04",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Marketing Management",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/ba-hons-marketing-management-undergraduate-fulltime",
+   "ucas_code": "A25-D14",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

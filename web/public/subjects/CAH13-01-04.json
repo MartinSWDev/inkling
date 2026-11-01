@@ -6,61 +6,129 @@
    "title": "in Urban Planning and Development",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/urban-planning-and-development-bsc",
-   "ucas_code": "A28-B17"
+   "ucas_code": "A28-B17",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Urban And Environmental Planning",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/ba-hons-urban-environmental-planning#overview",
-   "ucas_code": "A12-C65"
+   "ucas_code": "A12-C65",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Urban Planning",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/urban-planning-mplan/#variant",
-   "ucas_code": "A52-C07"
+   "ucas_code": "A52-C07",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Planning",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/k400/",
-   "ucas_code": "A27-C93"
+   "ucas_code": "A27-C93",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Town and Regional Planning",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/town-and-regional-planning-mplan/2027",
-   "ucas_code": "A03-C15"
+   "ucas_code": "A03-C15",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Urban Planning",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/urban-studies-and-planning-mplanug",
-   "ucas_code": "A35-H26"
+   "ucas_code": "A35-H26",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Urban Planning",
    "provider": "University of Dundee",
    "url": "https://www.dundee.ac.uk/undergraduate/urban-planning",
-   "ucas_code": "A16-C43"
+   "ucas_code": "A16-C43",
+   "setting": "city",
+   "town": "Dundee"
   },
   {
    "title": "Urban Planning, Design and Management",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/urban-planning-design-and-management-bsc",
-   "ucas_code": "A24-B10"
+   "ucas_code": "A24-B10",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Urban Planning",
    "provider": "UWE, Bristol",
    "url": "https://courses.uwe.ac.uk/K401/urban-planning",
-   "ucas_code": "A05-H30"
+   "ucas_code": "A05-H30",
+   "setting": "city",
+   "town": "Bristol"
   },
   {
    "title": "Human Geography and Planning",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/humangeographyandplanning",
-   "ucas_code": "A10-H94"
+   "ucas_code": "A10-H94",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "European Planning",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/european-planning-mplan-k490/",
+   "ucas_code": "A28-C15",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Geography and Urban and Regional Planning",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/gees/geography-planning.aspx",
+   "ucas_code": "A04-I58",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Urban Planning and Design",
+   "provider": "The University Of Westminster",
+   "url": "https://www.westminster.ac.uk/urban-planning-and-design-ba",
+   "ucas_code": "A70-A50",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Planning, Regeneration and Development",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/msc-planning-regeneration-and-development-ft-jn",
+   "ucas_code": "A16-J21",
+   "setting": "city",
+   "town": "Belfast"
+  },
+  {
+   "title": "Environmental Planning and Design",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/mplan-environmental-planning-and-design",
+   "ucas_code": "B66-J30",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Sustainable Urban Design and Planning",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/sustainable-urban-design-planning-foundation-year",
+   "ucas_code": "B70-E78",
+   "setting": "campus town",
+   "town": "Oxford"
   }
  ]
 }

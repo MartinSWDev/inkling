@@ -6,55 +6,73 @@
    "title": "Mathematical Modelling",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?WRGT23",
-   "ucas_code": "A60-A47"
+   "ucas_code": "A60-A47",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Mathematical Physics",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/mathematical-physics",
-   "ucas_code": "A63-F66"
+   "ucas_code": "A63-F66",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Mathematical Sciences",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/mathematical-sciences---bsc-hons/",
-   "ucas_code": "A07-A16"
+   "ucas_code": "A07-A16",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Mathematical Sciences",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematical-sciences-bsc",
-   "ucas_code": "A76-A37"
+   "ucas_code": "A76-A37",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Mathematical Physics with a Year Abroad",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/mathematical-physics-with-a-year-abroad-mmath-hons/2027",
-   "ucas_code": "A53-I02"
+   "ucas_code": "A53-I02",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Mathematical Physics",
    "provider": "University Of Nottingham, The",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Mathematical-Physics-BSc-Hons.html",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Mathematical Biology",
    "provider": "University of Dundee",
    "url": "https://www.dundee.ac.uk/undergraduate/mathematical-biology-bsc",
-   "ucas_code": "A16-B73"
+   "ucas_code": "A16-B73",
+   "setting": "city",
+   "town": "Dundee"
   },
   {
    "title": "Mathematical Physics",
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/mathematical-physics-degree-mmath",
-   "ucas_code": "A23-D80"
+   "ucas_code": "A23-D80",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Mathematics with Applied Mathematics/Mathematical Physics",
    "provider": "Imperial College London",
    "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mathematics-applied-physics/",
-   "ucas_code": "A15-D28"
+   "ucas_code": "A15-D28",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

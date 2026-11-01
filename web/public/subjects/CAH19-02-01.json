@@ -6,31 +6,41 @@
    "title": "Celtic Studies",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?XAHEH3",
-   "ucas_code": "A22-E78"
+   "ucas_code": "A22-E78",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Celtic Studies",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/celticstudies/",
-   "ucas_code": "A24-F21"
+   "ucas_code": "A24-F21",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Celtic Studies",
    "provider": "Pembrokeshire College",
    "url": "https://www.uwtsd.ac.uk/programme-courses/undergraduate/history-and-archaeology/celtic-studies-full-time-full-time-distance",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": null,
+   "town": null
   },
   {
    "title": "Celtic & Anglo-Saxon Studies and French",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/503/5R8Q/celtic-anglo-saxon-studies-and-french-5-years/",
-   "ucas_code": "A33-E09"
+   "ucas_code": "A33-E09",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Celtic and Archaeology",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/QV54",
-   "ucas_code": "A14-H79"
+   "ucas_code": "A14-H79",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

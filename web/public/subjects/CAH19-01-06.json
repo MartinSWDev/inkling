@@ -6,31 +6,41 @@
    "title": "Scottish Language & Literature",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/scottishliterature/",
-   "ucas_code": "A25-A62"
+   "ucas_code": "A25-A62",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "British Sign Language and Deaf Studies",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/british-sign-language-deaf-studies-ba",
-   "ucas_code": "A02-A13"
+   "ucas_code": "A02-A13",
+   "setting": "campus town",
+   "town": "Preston"
   },
   {
    "title": "British Sign Language (Deaf Studies)",
    "provider": "University of Wolverhampton",
    "url": "https://www.wlv.ac.uk/courses/BA-Hons-British-Sign-Language-Deaf-Studies",
-   "ucas_code": "A66-B33"
+   "ucas_code": "A66-B33",
+   "setting": "campus town",
+   "town": "Wolverhampton"
   },
   {
    "title": "British Sign Language, Deaf Studies and Linguistics",
    "provider": "York St John University",
    "url": "https://www.yorksj.ac.uk/courses/undergraduate/british-sign-language/bsl-deaf-studies-and-linguistics-ba-hons/",
-   "ucas_code": "A46-C40"
+   "ucas_code": "A46-C40",
+   "setting": "campus town",
+   "town": "York"
   },
   {
    "title": "British Sign Language (Interpreting, Translating and Applied Language Studies)",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/british-sign-language-interpreting-translating-and-applied-language",
-   "ucas_code": "A05-J55"
+   "ucas_code": "A05-J55",
+   "setting": "campus town",
+   "town": "Edinburgh"
   }
  ]
 }

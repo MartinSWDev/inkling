@@ -6,61 +6,129 @@
    "title": "Medicine",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/medicine",
-   "ucas_code": "A46-D23"
+   "ucas_code": "A46-D23",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Medicine",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/medicine-mbchb",
-   "ucas_code": "A41-H82"
+   "ucas_code": "A41-H82",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Medicine",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/a103-medicine-bmbs",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Medicine",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/Medicine-MBBS",
-   "ucas_code": "A55-I19"
+   "ucas_code": "A55-I19",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Medicine",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/medicine",
-   "ucas_code": "A75-B13"
+   "ucas_code": "A75-B13",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Medicine",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/medicine-mbbch",
-   "ucas_code": "A28-A33"
+   "ucas_code": "A28-A33",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Bachelor Of Medicine Bachelor Of Surgery",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/medicine/",
-   "ucas_code": "A53-I60"
+   "ucas_code": "A53-I60",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Medicine",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/medicine/",
-   "ucas_code": "A03-G70"
+   "ucas_code": "A03-G70",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Medicine and Surgery",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/a100/",
-   "ucas_code": "A27-C71"
+   "ucas_code": "A27-C71",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Medicine",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
-   "ucas_code": "A30-G06"
+   "ucas_code": "A30-G06",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/medicine-5-year-programme",
+   "ucas_code": "A01-A18",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Medicine",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/medicine-mb-a100/",
+   "ucas_code": "A28-C80",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Medicine",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/med/medicine.aspx",
+   "ucas_code": "A04-J23",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Medicine",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/mbbs-medicine/2027-28/sep",
+   "ucas_code": "A36-H74",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Medicine and Surgery",
+   "provider": "The University Of Lancaster",
+   "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/medicine-and-surgery-mbchb-a100/",
+   "ucas_code": "A26-A53",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Medicine and Surgery",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/5580/medicine-and-surgery-mbchb",
+   "ucas_code": "A26-J10",
+   "setting": "city",
+   "town": "Leeds"
   }
  ]
 }

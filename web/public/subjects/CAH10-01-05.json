@@ -6,13 +6,17 @@
    "title": "Yacht Design and Production",
    "provider": "Southampton Solent University",
    "url": "https://www.solent.ac.uk/courses/undergraduate/yacht-design-and-production-beng/2027/beng-hons-yacht-design-and-production-3-years-2027",
-   "ucas_code": "A35-D19"
+   "ucas_code": "A35-D19",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Naval Architecture and Marine Engineering",
    "provider": "University of Strathclyde",
    "url": "http://www.strath.ac.uk/c/KIS0000119#whythiscourse",
-   "ucas_code": "A36-A04"
+   "ucas_code": "A36-A04",
+   "setting": "city",
+   "town": "Glasgow"
   }
  ]
 }

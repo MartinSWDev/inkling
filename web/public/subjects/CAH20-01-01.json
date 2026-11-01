@@ -6,61 +6,129 @@
    "title": "History",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?KXBK7N",
-   "ucas_code": "A22-G12"
+   "ucas_code": "A22-G12",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "History",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/history",
-   "ucas_code": "A14-A44"
+   "ucas_code": "A14-A44",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "History",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/history-ba",
-   "ucas_code": "A69-H48"
+   "ucas_code": "A69-H48",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "History",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/history-ba-hons/full-time/",
-   "ucas_code": "A15-H00"
+   "ucas_code": "A15-H00",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "History",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/v100-history-ba-hons",
-   "ucas_code": "A34-E89"
+   "ucas_code": "A34-E89",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "History",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-history/",
-   "ucas_code": "A09-G52"
+   "ucas_code": "A09-G52",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "History",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/history",
-   "ucas_code": "A24-D70"
+   "ucas_code": "A24-D70",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "History",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-history",
-   "ucas_code": "A11-H92"
+   "ucas_code": "A11-H92",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "History",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/history-ba",
-   "ucas_code": "A69-D69"
+   "ucas_code": "A69-D69",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "History",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/history",
-   "ucas_code": "A41-J02"
+   "ucas_code": "A41-J02",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "History",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/history",
+   "ucas_code": "A19-G27",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "History",
+   "provider": "Cardiff University",
+   "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/history-ba",
+   "ucas_code": "A27-J54",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "History",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/history-ba-hons/?term=2027-28",
+   "ucas_code": "A38-H46",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "History",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/history-ba-degree/history-ba-degree.aspx",
+   "ucas_code": "A25-H10",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "History",
+   "provider": "Durham University",
+   "url": "https://www.durham.ac.uk/study/courses/v100/",
+   "ucas_code": "A07-H16",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "History",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/history/",
+   "ucas_code": "A05-C94",
+   "setting": "campus town",
+   "town": "Ormskirk"
   }
  ]
 }

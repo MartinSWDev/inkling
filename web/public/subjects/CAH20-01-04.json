@@ -6,43 +6,57 @@
    "title": "Cultural Heritage: Libraries, Archives and Museums",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?SJDXCA",
-   "ucas_code": "A54-I59"
+   "ucas_code": "A54-I59",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Heritage, Archaeology And History",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/vv41-heritage-archaeology-and-history-ba-hons",
-   "ucas_code": "A34-E88"
+   "ucas_code": "A34-E88",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Art History, Heritage and Museum Studies",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG01435/1?coursecode=VV40",
-   "ucas_code": "A60-G11"
+   "ucas_code": "A60-G11",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Conservation of Cultural Heritage",
    "provider": "University of Lincoln",
    "url": "https://www.lincoln.ac.uk/home/course/conconub/",
-   "ucas_code": "A33-J52"
+   "ucas_code": "A33-J52",
+   "setting": "campus town",
+   "town": "Lincoln"
   },
   {
    "title": "History and Heritage",
    "provider": "University of Stirling",
    "url": "https://www.stir.ac.uk/courses/ug/history/",
-   "ucas_code": "A66-E94"
+   "ucas_code": "A66-E94",
+   "setting": "campus town",
+   "town": "Stirling"
   },
   {
    "title": "Heritage and Archaeology",
    "provider": "University of York",
    "url": "https://www.york.ac.uk/study/undergraduate/courses/ba-archaeology-heritage/",
-   "ucas_code": "A75-H04"
+   "ucas_code": "A75-H04",
+   "setting": "campus town",
+   "town": "York"
   },
   {
    "title": "Conservation: Books & Paper",
    "provider": "City and Guilds of London Art School",
    "url": "https://www.cityandguildsartschool.ac.uk/ba-hons-conservation-books-paper/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

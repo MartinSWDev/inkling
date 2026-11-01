@@ -6,7 +6,9 @@
    "title": "Gemmology and Jewellery Studies",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/gemmology-and-jewellery-studies-2027-28",
-   "ucas_code": "A14-D42"
+   "ucas_code": "A14-D42",
+   "setting": "city",
+   "town": "Birmingham"
   }
  ]
 }

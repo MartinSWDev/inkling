@@ -6,61 +6,129 @@
    "title": "Dance",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-dance/",
-   "ucas_code": "A09-F38"
+   "ucas_code": "A09-F38",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Dance",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-dance",
-   "ucas_code": "A03-D05"
+   "ucas_code": "A03-D05",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Dance",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/dance-ba-degree/dance-ba-degree.aspx",
-   "ucas_code": "A25-G37"
+   "ucas_code": "A25-G37",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Dance",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/dance/",
-   "ucas_code": "A05-C62"
+   "ucas_code": "A05-C62",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "Dance",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/dance/",
-   "ucas_code": "A08-A03"
+   "ucas_code": "A08-A03",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Dance",
    "provider": "Roehampton University",
    "url": "http://www.roehampton.ac.uk/undergraduate-courses/dance/",
-   "ucas_code": "A18-J92"
+   "ucas_code": "A18-J92",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Dance",
    "provider": "The University Of Chichester",
    "url": "http://www.chi.ac.uk/ba-hons-dance",
-   "ucas_code": "A23-G65"
+   "ucas_code": "A23-G65",
+   "setting": "campus town",
+   "town": "Chichester"
   },
   {
    "title": "Dance",
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://uel.ac.uk/undergraduate/courses/ba-hons-dance",
-   "ucas_code": "A24-B59"
+   "ucas_code": "A24-B59",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Dance",
    "provider": "University Of Salford, The",
    "url": "https://www.salford.ac.uk/courses/undergraduate/dance",
-   "ucas_code": "A28-F56"
+   "ucas_code": "A28-F56",
+   "setting": "city",
+   "town": "Salford"
   },
   {
    "title": "Dance",
    "provider": "University of Gloucestershire",
    "url": "https://www.glos.ac.uk/courses/course/DAN-BA-Dance/",
-   "ucas_code": "A31-B62"
+   "ucas_code": "A31-B62",
+   "setting": "campus town",
+   "town": "Cheltenham"
+  },
+  {
+   "title": "Dance",
+   "provider": "University of Lincoln",
+   "url": "https://www.lincoln.ac.uk/home/course/dandanub/",
+   "ucas_code": "A33-J59",
+   "setting": "campus town",
+   "town": "Lincoln"
+  },
+  {
+   "title": "Dance",
+   "provider": "Drama Studio London Limited",
+   "url": "https://www.creativeacademy.org/courses/bahons-dance",
+   "ucas_code": "A73-D33",
+   "setting": "campus town",
+   "town": "Slough"
+  },
+  {
+   "title": "Dance",
+   "provider": "The Liverpool Institute For Performing Arts",
+   "url": "https://lipa.ac.uk/courses/undergraduate-courses/ba-hons-dance/",
+   "ucas_code": "A33-D15",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Dance",
+   "provider": "West Lancashire College",
+   "url": "https://www.ncuc.ac.uk/courses/775000003905444/ba-hons-dance",
+   "ucas_code": "A29-G78",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "Commercial Dance",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/commercial-dance",
+   "ucas_code": "A76-B16",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Dance & Choreography",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/dance-choreography",
+   "ucas_code": "A27-A35",
+   "setting": "coast",
+   "town": "Penryn"
   }
  ]
 }

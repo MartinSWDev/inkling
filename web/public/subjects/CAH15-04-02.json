@@ -6,61 +6,129 @@
    "title": "Childhood and Youth Studies",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/x313-childhood-and-youth-studies-english-medium-course-ba-hons",
-   "ucas_code": "A34-B73"
+   "ucas_code": "A34-B73",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Childhood Studies",
    "provider": "Leeds Beckett University",
    "url": "https://www.leedsbeckett.ac.uk/courses/childhood-studies-ba/",
-   "ucas_code": "A68-G42"
+   "ucas_code": "A68-G42",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Working with Children, Young People and Families",
    "provider": "The University Of Bradford",
    "url": "https://www.bradford.ac.uk/courses/ug/working-with-children-young-people-and-families-ba/?att=ft",
-   "ucas_code": "A11-D68"
+   "ucas_code": "A11-D68",
+   "setting": "city",
+   "town": "Bradford"
   },
   {
    "title": "Childhood Studies",
    "provider": "The University Of Chichester",
    "url": "https://www.chi.ac.uk/childhood/course/ba-hons-childhood-studies/",
-   "ucas_code": "A23-G77"
+   "ucas_code": "A23-G77",
+   "setting": "campus town",
+   "town": "Chichester"
   },
   {
    "title": "Childhood Studies",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG01121/1?coursecode=L520",
-   "ucas_code": "A39-F17"
+   "ucas_code": "A39-F17",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Childhood Studies",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/115/childhood-studies-ba",
-   "ucas_code": "A26-F11"
+   "ucas_code": "A26-F11",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Working with Children, Young People and Families",
    "provider": "University Of Northampton, The",
    "url": "https://www.northampton.ac.uk/courses/working-with-children-young-people-and-families-ba-hons/",
-   "ucas_code": "A21-F30"
+   "ucas_code": "A21-F30",
+   "setting": "campus town",
+   "town": "Northampton"
   },
   {
    "title": "Childhood and Youth Studies",
    "provider": "University of Bedfordshire",
    "url": "https://www.beds.ac.uk/courses/childhood-and-youth-studies",
-   "ucas_code": "A10-E01"
+   "ucas_code": "A10-E01",
+   "setting": "campus town",
+   "town": "Luton"
   },
   {
    "title": "Childhood and Youth Studies",
    "provider": "University of Portsmouth",
    "url": "https://www.port.ac.uk/study/courses/ba-hons-childhood-and-youth-studies",
-   "ucas_code": "A18-H69"
+   "ucas_code": "A18-H69",
+   "setting": "coast",
+   "town": "Portsmouth"
   },
   {
    "title": "Childhood Studies",
    "provider": "East Durham College",
    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-studies",
-   "ucas_code": "A01-B67"
+   "ucas_code": "A01-B67",
+   "setting": "coast",
+   "town": "Peterlee"
+  },
+  {
+   "title": "Childhood Studies",
+   "provider": "The Trafford and Stockport College Group",
+   "url": "https://stockport.ac.uk/our-courses/detail/?cid=SFP-HE4B-1100",
+   "ucas_code": "A07-B55",
+   "setting": "city",
+   "town": "Stockport"
+  },
+  {
+   "title": "Early Childhood Studies (Graduate Practitioner)",
+   "provider": "Anglia Ruskin University",
+   "url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+   "ucas_code": "A14-A13",
+   "setting": "campus town",
+   "town": "Chelmsford"
+  },
+  {
+   "title": "Early Childhood Studies (with Graduate Practitioner Competencies)",
+   "provider": "Birmingham City University",
+   "url": "https://www.bcu.ac.uk/courses/early-childhood-studies-ba-hons-2027-28",
+   "ucas_code": "A14-D10",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Early Childhood Studies",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/early-childhood-studies",
+   "ucas_code": "A19-E60",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Early Years Education and Professional Practice with Early Years Practitioner Status (EYPS)",
+   "provider": "Cardiff Metropolitan University",
+   "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-early-years-education-and-professional-practice-with-eyps/",
+   "ucas_code": "A55-F49",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Early Childhood Development and Learning",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/childhood/?term=2027-28",
+   "ucas_code": "A38-G87",
+   "setting": "city",
+   "town": "Coventry"
   }
  ]
 }

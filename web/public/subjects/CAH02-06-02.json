@@ -6,61 +6,129 @@
    "title": "Human Nutrition",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-human-nutrition/",
-   "ucas_code": "A09-G62"
+   "ucas_code": "A09-G62",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Human Nutrition and Dietetics",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-human-nutrition-and-dietetics/",
-   "ucas_code": "A08-G53"
+   "ucas_code": "A08-G53",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Dietetics",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/dietetics-bsc-hons/?term=2027-28",
-   "ucas_code": "A71-H80"
+   "ucas_code": "A71-H80",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Human Nutrition and Dietetics",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11HNDIET",
-   "ucas_code": "A26-D01"
+   "ucas_code": "A26-D01",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Dietetics",
    "provider": "Leeds Beckett University",
    "url": "http://courses.leedsbeckett.ac.uk/BSC_dietetics",
-   "ucas_code": "A10-H62"
+   "ucas_code": "A10-H62",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Dietetics",
    "provider": "London Metropolitan University",
    "url": "http://www.londonmet.ac.uk/courses/undergraduate/dietetics---bsc-hons/",
-   "ucas_code": "A46-A02"
+   "ucas_code": "A46-A02",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Dietetics",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/b401/",
-   "ucas_code": "A53-D46"
+   "ucas_code": "A53-D46",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Dietetics",
    "provider": "Queen Margaret University, Edinburgh",
    "url": "https://www.qmu.ac.uk/study-here/undergraduate-study/2027/master-of-dietetics-bsc-hons-dietetics-2027-entry",
-   "ucas_code": "A53-E87"
+   "ucas_code": "A53-E87",
+   "setting": "coast",
+   "town": "Edinburgh"
   },
   {
    "title": "Nutrition and Dietetics",
    "provider": "Robert Gordon University",
    "url": "https://www.rgu.ac.uk/study/courses/mdiet-nutrition-and-dietetics",
-   "ucas_code": "A03-J30"
+   "ucas_code": "A03-J30",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Nutrition",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/f666/nutrition-bsc",
-   "ucas_code": "A26-J35"
+   "ucas_code": "A26-J35",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "The University Of Surrey",
+   "url": "https://www.surrey.ac.uk/undergraduate/nutrition/2027",
+   "ucas_code": "A36-F71",
+   "setting": "campus town",
+   "town": "Guildford"
+  },
+  {
+   "title": "Human Nutrition",
+   "provider": "The University Of Westminster",
+   "url": "http://www.westminster.ac.uk/human-nutrition-bsc",
+   "ucas_code": "A19-B67",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/nutrition-bsc",
+   "ucas_code": "A72-C25",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "University Of Nottingham, The",
+   "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Nutrition-Bsc-Hons.html",
+   "ucas_code": "A00-G90",
+   "setting": "countryside",
+   "town": "Sutton Bonington"
+  },
+  {
+   "title": "Dietetics",
+   "provider": "Ulster University",
+   "url": "https://www.ulster.ac.uk/course/bsc-dietetics-ft-ce",
+   "ucas_code": "A16-I29",
+   "setting": "coast",
+   "town": "Coleraine"
+  },
+  {
+   "title": "Nutrition",
+   "provider": "University of Chester",
+   "url": "https://www.chester.ac.uk/study/course-search/nutrition-bsc-hons/",
+   "ucas_code": "A75-D13",
+   "setting": "campus town",
+   "town": "Chester"
   }
  ]
 }

@@ -6,13 +6,17 @@
    "title": "Operating Department Practice",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/operating-department-practice-bsc-hons-2027-28",
-   "ucas_code": "A14-D96"
+   "ucas_code": "A14-D96",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Operating Department Practitioner",
    "provider": "Doreen Bird College of Performing Arts Ltd.",
    "url": "https://www.gre.ac.uk/undergraduate-courses/eduhea/operating-department-practitioner-bsc-hons",
-   "ucas_code": "A62-B28"
+   "ucas_code": "A62-B28",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

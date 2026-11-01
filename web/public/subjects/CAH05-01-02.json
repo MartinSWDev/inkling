@@ -6,61 +6,81 @@
    "title": "Veterinary Physiotherapy",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/veterinary-physiotherapy",
-   "ucas_code": "A71-J29"
+   "ucas_code": "A71-J29",
+   "setting": "countryside",
+   "town": "Writtle"
   },
   {
    "title": "Veterinary Nursing",
    "provider": "Hartpury University",
    "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-veterinary-nursing",
-   "ucas_code": "A30-A83"
+   "ucas_code": "A30-A83",
+   "setting": "countryside",
+   "town": "Hartpury"
   },
   {
    "title": "Veterinary Nursing (CAW - Huntingdon)",
    "provider": "Middlesex University",
    "url": "https://www.mdx.ac.uk/courses/undergraduate/veterinary-nursing-bsc-honours/",
-   "ucas_code": "A72-I95"
+   "ucas_code": "A72-I95",
+   "setting": "campus town",
+   "town": "Huntingdon"
   },
   {
    "title": "Veterinary Nursing",
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/bsc-veterinary-nursing-ft-c",
-   "ucas_code": "A70-F00"
+   "ucas_code": "A70-F00",
+   "setting": "coast",
+   "town": "Coleraine"
   },
   {
    "title": "Veterinary Physiotherapy",
    "provider": "Plumpton College",
    "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-veterinary-physiotherapy-bachelors-degree-494/",
-   "ucas_code": "A62-H74"
+   "ucas_code": "A62-H74",
+   "setting": "countryside",
+   "town": "Plumpton"
   },
   {
    "title": "Veterinary Nursing",
    "provider": "Reaseheath College",
    "url": "https://ucreaseheath.ac.uk/ucr-courses/bsc-hons-veterinary-nursing/",
-   "ucas_code": "A52-E02"
+   "ucas_code": "A52-E02",
+   "setting": "countryside",
+   "town": "Nantwich"
   },
   {
    "title": "Veterinary Nursing",
    "provider": "Scotland's Rural College",
    "url": "https://www.sruc.ac.uk/study-with-us/find-apply-for-your-course/course-catalogue/veterinary-nursing/bsc-hons-veterinary-nursing/",
-   "ucas_code": "A46-D33"
+   "ucas_code": "A46-D33",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Veterinary Nursing",
    "provider": "The Royal Veterinary College",
    "url": "https://www.rvc.ac.uk/study/undergraduate/bsc-veterinary-nursing",
-   "ucas_code": "A07-C60"
+   "ucas_code": "A07-C60",
+   "setting": "countryside",
+   "town": "Hatfield"
   },
   {
    "title": "Veterinary Nursing",
    "provider": "Warwickshire College",
    "url": "https://wcg.ac.uk/course/info/4328",
-   "ucas_code": "A17-A29"
+   "ucas_code": "A17-A29",
+   "setting": "countryside",
+   "town": "Moreton Morrell"
   },
   {
    "title": "Veterinary Nursing and Companion Animal Behaviour",
    "provider": "University of Bristol",
    "url": "http://www.bristol.ac.uk/study/undergraduate/2027/vet-nursing/bsc-veterinary-nursing-and-companion-animal-behaviour/",
-   "ucas_code": "A41-J89"
+   "ucas_code": "A41-J89",
+   "setting": "city",
+   "town": "Bristol"
   }
  ]
 }

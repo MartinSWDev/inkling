@@ -6,61 +6,129 @@
    "title": "English",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/english",
-   "ucas_code": "A70-B45"
+   "ucas_code": "A70-B45",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "English",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/english-ba-hons/full-time/",
-   "ucas_code": "A15-G92"
+   "ucas_code": "A15-G92",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/english-ba",
-   "ucas_code": "A19-J37"
+   "ucas_code": "A19-J37",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "English",
    "provider": "City St George'S, University Of London",
    "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/english",
-   "ucas_code": "A13-H90"
+   "ucas_code": "A13-H90",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "English",
    "provider": "Edge Hill University",
    "url": "https://www.edgehill.ac.uk/course/english/",
-   "ucas_code": "A05-C76"
+   "ucas_code": "A05-C76",
+   "setting": "campus town",
+   "town": "Ormskirk"
   },
   {
    "title": "English",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/ba-hons-english-undergraduate-fulltime",
-   "ucas_code": "A25-C66"
+   "ucas_code": "A25-C66",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "English Literature",
    "provider": "Liverpool John Moores University",
    "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/36045-english-literature-ba-hons",
-   "ucas_code": "A11-A47"
+   "ucas_code": "A11-A47",
+   "setting": "city",
+   "town": "Liverpool"
   },
   {
    "title": "English",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/english/#default",
-   "ucas_code": "A18-C25"
+   "ucas_code": "A18-C25",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "English",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-english/september-2027/",
-   "ucas_code": "A31-I20"
+   "ucas_code": "A31-I20",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "English Language and Literature",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/q300/",
-   "ucas_code": "A27-B90"
+   "ucas_code": "A27-B90",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
+  },
+  {
+   "title": "English Language and Literature",
+   "provider": "Oxford University",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/english-language-and-literature",
+   "ucas_code": "A30-F21",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "English",
+   "provider": "Queen Mary University of London",
+   "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/english",
+   "ucas_code": "A42-F40",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "English",
+   "provider": "Queen's University Belfast",
+   "url": "https://www.qub.ac.uk/courses/undergraduate/english-ba-q300",
+   "ucas_code": "A28-B99",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "English",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/english/ba-honours-english/full-time",
+   "ucas_code": "A17-I72",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "English Literature",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/english/english.aspx",
+   "ucas_code": "A04-I34",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "English",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/english-ba-hons?option=standard-course&start=2027",
+   "ucas_code": "A12-F30",
+   "setting": "city",
+   "town": "Hull"
   }
  ]
 }

@@ -6,25 +6,33 @@
    "title": "Arabic and Persian",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/T621",
-   "ucas_code": "A14-H31"
+   "ucas_code": "A14-H31",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Arabic and Persian",
    "provider": "University of St Andrews",
    "url": "https://www.st-andrews.ac.uk/subjects/arabic/arabic-ma/",
-   "ucas_code": "A28-H48"
+   "ucas_code": "A28-H48",
+   "setting": "coast",
+   "town": "St Andrews"
   },
   {
    "title": "German and Persian",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/european-and-middle-eastern-languages",
-   "ucas_code": "A15-G29"
+   "ucas_code": "A15-G29",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Arabic and English",
    "provider": "The University Of Westminster",
    "url": "https://www.westminster.ac.uk/arabic-and-english-ba",
-   "ucas_code": "A71-B87"
+   "ucas_code": "A71-B87",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

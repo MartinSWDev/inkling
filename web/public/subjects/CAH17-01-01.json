@@ -6,61 +6,129 @@
    "title": "Business Management",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/ba-business-management/",
-   "ucas_code": "A76-I54"
+   "ucas_code": "A76-I54",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Business Management",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/business-degree/ba-hons-business-management",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business Management",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/business-management-ba-hons/full-time/",
-   "ucas_code": "A15-G78"
+   "ucas_code": "A15-G78",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business and Management",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-business-and-management-london/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/business-management",
-   "ucas_code": "A76-A39"
+   "ucas_code": "A76-A39",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/business-management-ba-hons-2027-28",
-   "ucas_code": "A14-C79"
+   "ucas_code": "A14-C79",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Business and Management",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-business-management-2",
-   "ucas_code": "A54-D94"
+   "ucas_code": "A54-D94",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Business Management",
    "provider": "Buckinghamshire New University",
    "url": "https://mrcollege.ac.uk/ba-business-management/",
-   "ucas_code": "A03-C86"
+   "ucas_code": "A03-C86",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "City St George'S, University Of London",
    "url": "https://www.bayes.citystgeorges.ac.uk/study/undergraduate/courses/business-management-foundation",
-   "ucas_code": "A49-I11"
+   "ucas_code": "A49-I11",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/2026/business-management-with-a-foundation-year-bsc",
-   "ucas_code": "A77-I55"
+   "ucas_code": "A77-I55",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28",
+   "ucas_code": "A38-G54",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Business Management",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/business-and-management-ba-degree/business-and-management-ba-hons.aspx",
+   "ucas_code": "A25-G07",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/business-management/",
+   "ucas_code": "A05-C31",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/Business-management",
+   "ucas_code": "A51-I52",
+   "setting": "coast",
+   "town": "Penryn"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/12BSMGTX",
+   "ucas_code": "A26-C67",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Harper Adams University",
+   "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDBBSMGT",
+   "ucas_code": "A30-H28",
+   "setting": "countryside",
+   "town": "Newport"
   }
  ]
 }

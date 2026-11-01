@@ -8,6 +8,8 @@ NSS figures pool final-year students from 2024-25 and 2025-26.
 
 Missing data should not be read as a sign of course quality.
 
+Campus settings tagged by Muse Spark Open from HESA location data.
+
 ## Rebuild
 
 1. Download the latest ZIP from https://www.hesa.ac.uk/kisdata into `data/raw/`.

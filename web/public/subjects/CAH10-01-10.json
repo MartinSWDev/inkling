@@ -6,25 +6,33 @@
    "title": "Fire Engineering",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/fire-engineering-beng",
-   "ucas_code": "A02-C08"
+   "ucas_code": "A02-C08",
+   "setting": "campus town",
+   "town": "Preston"
   },
   {
    "title": "Mining Engineering",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/beng-mining-engineering/",
-   "ucas_code": "A73-D24"
+   "ucas_code": "A73-D24",
+   "setting": "coast",
+   "town": "Penryn"
   },
   {
    "title": "Occupational Health & Safety",
    "provider": "University of the West of Scotland",
    "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/occupational-safety-health/",
-   "ucas_code": "A50-G18"
+   "ucas_code": "A50-G18",
+   "setting": "campus town",
+   "town": "Hamilton"
   },
   {
    "title": "Structural and Fire Safety Engineering",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/HH21",
-   "ucas_code": "A15-C04"
+   "ucas_code": "A15-C04",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

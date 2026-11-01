@@ -6,25 +6,33 @@
    "title": "Media and Cultural Studies",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/media-and-cultural-studies-ba-hons-lp63/",
-   "ucas_code": "A26-A52"
+   "ucas_code": "A26-A52",
+   "setting": "campus town",
+   "town": "Lancaster"
   },
   {
    "title": "Cultural and Media Studies",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/g641/cultural-and-media-studies-ba",
-   "ucas_code": "A26-F74"
+   "ucas_code": "A26-F74",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Digital Society Media and Culture",
    "provider": "University of Kent (Part of London and South East University Group)",
    "url": "https://www.kent.ac.uk/courses/undergraduate/2027/6545/digital-society-media-culture",
-   "ucas_code": "A73-J70"
+   "ucas_code": "A73-J70",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Cultural, Creative and Media Industries",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/21695/ba-cultural-creative-and-media-industries/",
-   "ucas_code": "A68-J38"
+   "ucas_code": "A68-J38",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

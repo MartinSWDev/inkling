@@ -6,19 +6,25 @@
    "title": "Business Management",
    "provider": "Farnborough College of Technology",
    "url": "https://www.ucfarnborough.ac.uk/course/ba-hons-business-management/N201/",
-   "ucas_code": "A24-C69"
+   "ucas_code": "A24-C69",
+   "setting": "campus town",
+   "town": "Farnborough"
   },
   {
    "title": "Business with Decision Analytics",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/NN12",
-   "ucas_code": "A14-H73"
+   "ucas_code": "A14-H73",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Business Management with Accounting",
    "provider": "Tec Partnership",
    "url": "https://grimsby.ac.uk/course-detail/ba-hons-business-management-with-accounting/",
-   "ucas_code": "A74-C90"
+   "ucas_code": "A74-C90",
+   "setting": "coast",
+   "town": "Grimsby"
   }
  ]
 }

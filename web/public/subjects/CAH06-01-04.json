@@ -6,37 +6,49 @@
    "title": "Rural Land and Business Management",
    "provider": "Plumpton College",
    "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-rural-business-land-management/",
-   "ucas_code": "A70-C16"
+   "ucas_code": "A70-C16",
+   "setting": "countryside",
+   "town": "Plumpton"
   },
   {
    "title": "Wildlife Conservation",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?Y6L34V",
-   "ucas_code": "A72-G98"
+   "ucas_code": "A72-G98",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Environmental Management and Sustainability",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/environment-ug/bsc-environmental-management",
-   "ucas_code": "A15-E27"
+   "ucas_code": "A15-E27",
+   "setting": "campus town",
+   "town": "Reading"
   },
   {
    "title": "Wildlife and Conservation",
    "provider": "City College Norwich",
    "url": "https://he.ccn.ac.uk/courses/all-courses/course/bsc-hons-wildlife-and-conservation",
-   "ucas_code": "A62-E74"
+   "ucas_code": "A62-E74",
+   "setting": "countryside",
+   "town": "Norwich"
   },
   {
    "title": "Wildlife Ecology and Conservation",
    "provider": "Sparsholt College",
    "url": "https://www.sparsholt.ac.uk/courses/bsc-hons-wildlife-ecology-and-conservation-degree-full-time/",
-   "ucas_code": "A12-A45"
+   "ucas_code": "A12-A45",
+   "setting": "countryside",
+   "town": "Winchester"
   },
   {
    "title": "Wildlife and Conservation Management",
    "provider": "Scotland's Rural College",
    "url": "https://www.sruc.ac.uk/study-with-us/find-apply-for-your-course/course-catalogue/wildlife-and-conservation-management/bsc-hons-wildlife-and-conservation-management/",
-   "ucas_code": "A55-D39"
+   "ucas_code": "A55-D39",
+   "setting": "countryside",
+   "town": "Dumfries"
   }
  ]
 }

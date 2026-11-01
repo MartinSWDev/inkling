@@ -6,61 +6,129 @@
    "title": "Forensic Sciences",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/forensic-sciences/",
-   "ucas_code": "A06-B29"
+   "ucas_code": "A06-B29",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Forensic Science",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/forensic-science",
-   "ucas_code": "A14-A40"
+   "ucas_code": "A14-A40",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Forensic Science",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-forensic-science/",
-   "ucas_code": "A68-E33"
+   "ucas_code": "A68-E33",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Forensic Investigation",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-forensic-investigation-2",
-   "ucas_code": "A11-H87"
+   "ucas_code": "A11-H87",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Criminology and Forensic Studies",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-criminology",
-   "ucas_code": "A57-C35"
+   "ucas_code": "A57-C35",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Applied Criminology with Forensic Investigation",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/applied-criminology-with-forensic-investigation",
-   "ucas_code": "A19-C86"
+   "ucas_code": "A19-C86",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Biological and Forensic Sciences",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/hls/biological-and-forensic-science-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-G39"
+   "ucas_code": "A38-G39",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Forensic Science",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/forensic-science/forensic-science-bsc-msci-degree.aspx",
-   "ucas_code": "A25-G98"
+   "ucas_code": "A25-G98",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Forensic Investigation",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11FRSINV",
-   "ucas_code": "A26-D00"
+   "ucas_code": "A26-D00",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Forensic Biology",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/forensicbiology/",
-   "ucas_code": "A73-G78"
+   "ucas_code": "A73-G78",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/forensic-science/",
+   "ucas_code": "A08-A86",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/31440-forensic-science-bsc-hons",
+   "ucas_code": "A11-A60",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/forensic-science---bsc-hons/",
+   "ucas_code": "A06-J80",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Forensic Science",
+   "provider": "London South Bank University",
+   "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-forensic-sciences#overview",
+   "ucas_code": "A12-B75",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Forensic Chemistry",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-forensic-chemistry",
+   "ucas_code": "A67-H71",
+   "setting": "city",
+   "town": "Nottingham"
+  },
+  {
+   "title": "Forensic Investigation",
+   "provider": "Plymouth Marjon University",
+   "url": "https://www.marjon.ac.uk/courses/forensic-investigation/",
+   "ucas_code": "A73-C80",
+   "setting": "coast",
+   "town": "Plymouth"
   }
  ]
 }

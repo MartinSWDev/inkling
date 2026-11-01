@@ -6,61 +6,129 @@
    "title": "Art and Design",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/art-and-design-ba-hons-2027-28",
-   "ucas_code": "B68-J42"
+   "ucas_code": "B68-J42",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Art and Design",
    "provider": "University of Bedfordshire",
    "url": "https://www.beds.ac.uk/courses/art-and-design",
-   "ucas_code": "A10-D37"
+   "ucas_code": "A10-D37",
+   "setting": "campus town",
+   "town": "Luton"
   },
   {
    "title": "Creative Practice",
    "provider": "University of the West of Scotland",
    "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/creative-practice-dumfries-galloway-college/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Ayr"
   },
   {
    "title": "Visual Art",
    "provider": "East Coast College",
    "url": "http://www.uos.ac.uk/lvar",
-   "ucas_code": "A63-H64"
+   "ucas_code": "A63-H64",
+   "setting": "coast",
+   "town": "Lowestoft"
   },
   {
    "title": "Art and Design",
    "provider": "Weston College Of Further And Higher Education",
    "url": "https://www.ucw.ac.uk/courses/art-and-design-ba-hons/",
-   "ucas_code": "A59-I43"
+   "ucas_code": "A59-I43",
+   "setting": "coast",
+   "town": "Weston-super-Mare"
   },
   {
    "title": "Creative Direction",
    "provider": "Arts University Bournemouth, The",
    "url": "https://aub.ac.uk/course/creative-direction",
-   "ucas_code": "A69-B32"
+   "ucas_code": "A69-B32",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Graphic Design",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-graphic-design/",
-   "ucas_code": "A09-G45"
+   "ucas_code": "A09-G45",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Sustainable Futures: Arts, Ecology, and Systems Change",
    "provider": "Cardiff Metropolitan University",
    "url": "https://blackmountainscollege.uk/study/higher-education/",
-   "ucas_code": "A67-C51"
+   "ucas_code": "A67-C51",
+   "setting": "countryside",
+   "town": "Talgarth"
   },
   {
    "title": "Interactive Media Design",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bdes-hons-interactive-media-design-undergraduate-fulltime",
-   "ucas_code": "B58-B79"
+   "ucas_code": "B58-B79",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Content Creation",
    "provider": "Leeds Beckett University",
    "url": "https://www.leedsbeckett.ac.uk/courses/content-creation-bsc",
-   "ucas_code": "A74-D67"
+   "ucas_code": "A74-D67",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Creative Arts and Linguistics",
+   "provider": "SOAS University of London",
+   "url": "https://www.soas.ac.uk/study/find-course/ba-creative-arts-and",
+   "ucas_code": "A73-G98",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Creative Media Arts",
+   "provider": "The University Of Westminster",
+   "url": "https://www.westminster.ac.uk/creative-media-arts-ba",
+   "ucas_code": "A72-A55",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Creative Digital Design",
+   "provider": "University Centre Peterborough",
+   "url": "https://www.ucp.ac.uk/courses/ba-hons-creative-digital-design/",
+   "ucas_code": "A62-H54",
+   "setting": "campus town",
+   "town": "Peterborough"
+  },
+  {
+   "title": "Content Creation",
+   "provider": "University of Brighton",
+   "url": "https://www.brighton.ac.uk/courses/study/content-creation-ba-hons.aspx",
+   "ucas_code": "A72-G13",
+   "setting": "coast",
+   "town": "Brighton"
+  },
+  {
+   "title": "Creative Media",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/ba-creative-media",
+   "ucas_code": "A54-B31",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Fashion",
+   "provider": "Bradford College",
+   "url": "https://www.bradfordcollege.ac.uk/courses/ba-hons-fashion/",
+   "ucas_code": "A11-I78",
+   "setting": "city",
+   "town": "Bradford"
   }
  ]
 }

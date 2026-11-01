@@ -6,61 +6,129 @@
    "title": "Fashion",
    "provider": "Arts University Bournemouth, The",
    "url": "https://aub.ac.uk/course/ba-hons-fashion",
-   "ucas_code": "A38-F99"
+   "ucas_code": "A38-F99",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Fashion Design",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/fashion-design",
-   "ucas_code": "A14-A27"
+   "ucas_code": "A14-A27",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Fashion Design",
    "provider": "Arts University Plymouth",
    "url": "https://www.aup.ac.uk/courses/undergraduate/ba-hons-fashion-design",
-   "ucas_code": "A16-E78"
+   "ucas_code": "A16-E78",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Product Design",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/w240-product-design-english-medium-bsc-hons",
-   "ucas_code": "A34-G98"
+   "ucas_code": "A34-G98",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Fashion Design",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-fashion-design/",
-   "ucas_code": "A09-G22"
+   "ucas_code": "A09-G22",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Fashion Design",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/fashion-design-ba-hons-2027-28",
-   "ucas_code": "A14-D29"
+   "ucas_code": "A14-D29",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Product Design",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-product-design",
-   "ucas_code": "A11-I27"
+   "ucas_code": "A11-I27",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Fashion Design",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/ba-hons-fashion-design",
-   "ucas_code": "A03-D10"
+   "ucas_code": "A03-D10",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Graphic Design",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/graphic-design",
-   "ucas_code": "A19-G10"
+   "ucas_code": "A19-G10",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Fashion Design",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-fashion-design/",
-   "ucas_code": "A08-G41"
+   "ucas_code": "A08-G41",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Fashion",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/fah/fashion-ba-hons/?term=2027-28",
+   "ucas_code": "A38-H11",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Fashion Design",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/fashion-design-ba-degree/fashion-design-ba-degree.aspx",
+   "ucas_code": "A25-G85",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Graphic Design",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/graphic-design/",
+   "ucas_code": "A69-J23",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Graphic Design",
+   "provider": "Edinburgh Napier University",
+   "url": "https://www.napier.ac.uk/courses/bdes-hons-graphic-design-undergraduate-fulltime",
+   "ucas_code": "A25-C75",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Fashion Design",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/fashion-design",
+   "ucas_code": "A27-A40",
+   "setting": "coast",
+   "town": "Penryn"
+  },
+  {
+   "title": "Fashion",
+   "provider": "Heriot-Watt University",
+   "url": "https://www.hw.ac.uk/study/undergraduate/fashion",
+   "ucas_code": "A06-A16",
+   "setting": "campus town",
+   "town": "Galashiels"
   }
  ]
 }

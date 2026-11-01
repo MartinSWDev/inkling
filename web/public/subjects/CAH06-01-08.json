@@ -6,43 +6,57 @@
    "title": "Food Science and Innovation",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDGFDSIN",
-   "ucas_code": "A66-F48"
+   "ucas_code": "A66-F48",
+   "setting": "countryside",
+   "town": "Newport"
   },
   {
    "title": "Brewing and Distilling",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/brewing-and-distilling",
-   "ucas_code": "A05-J54"
+   "ucas_code": "A05-J54",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Baking Science and Technology",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-baking-science-and-technology#overview",
-   "ucas_code": "A60-I37"
+   "ucas_code": "A60-I37",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Artisan Food Production",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-artisan-food-production",
-   "ucas_code": "A69-H43"
+   "ucas_code": "A69-H43",
+   "setting": "countryside",
+   "town": "Southwell"
   },
   {
    "title": "Food Science and Nutrition",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/food-science-nutrition-bsc-db6k/#overview",
-   "ucas_code": "A28-C20"
+   "ucas_code": "A28-C20",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Food Technology with Bioprocessing",
    "provider": "Basingstoke College of Technology",
    "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/food-and-nutrition-ug/bsc-food-technology-with-bioprocessing",
-   "ucas_code": "A15-E45"
+   "ucas_code": "A15-E45",
+   "setting": "campus town",
+   "town": "Reading"
   },
   {
    "title": "Viticulture, Oenology & Business Management",
    "provider": "Plumpton College",
    "url": "https://www.plumpton.ac.uk/courses/course/bsc-hons-viticulture-oenology-bachelors-degree-192/",
-   "ucas_code": "A76-J05"
+   "ucas_code": "A76-J05",
+   "setting": "countryside",
+   "town": "Plumpton"
   }
  ]
 }

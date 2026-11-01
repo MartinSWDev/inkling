@@ -6,61 +6,129 @@
    "title": "Cyber Security and Digital Forensics",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-and-digital-forensics",
-   "ucas_code": "A68-D10"
+   "ucas_code": "A68-D10",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Cyber Security and Digital Forensics",
    "provider": "Kingston University",
    "url": "https://www.kingston.ac.uk/undergraduate/courses/cyber-security-computer-forensics/",
-   "ucas_code": "A08-A00"
+   "ucas_code": "A08-A00",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   },
   {
    "title": "Cyber Security",
    "provider": "Leeds Beckett University",
    "url": "https://www.leedsbeckett.ac.uk/courses/cyber-security-bsc/",
-   "ucas_code": "A59-C64"
+   "ucas_code": "A59-C64",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Cyber Security and Digital Forensics",
    "provider": "Middlesex University",
    "url": "https://www.mdx.ac.uk/courses/undergraduate/cyber-security-digital-forensics",
-   "ucas_code": "A52-C95"
+   "ucas_code": "A52-C95",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "User Experience Design",
    "provider": "Norwich University of the Arts",
    "url": "https://www.norwichuni.ac.uk/study-at-norwich/courses/bsc-hons-user-experience-design/",
-   "ucas_code": "A53-H87"
+   "ucas_code": "A53-H87",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Cyber Security",
    "provider": "The University Of Lancaster",
    "url": "https://ua92.ac.uk/courses/cyber-security-bsc-hons/",
-   "ucas_code": "A67-C40"
+   "ucas_code": "A67-C40",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Interaction Design",
    "provider": "Glasgow School of Art.",
    "url": "https://www.gsa.ac.uk/undergraduate-degrees/interaction-design",
-   "ucas_code": "A15-G57"
+   "ucas_code": "A15-G57",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Digital Design",
    "provider": "Glasgow Caledonian University",
    "url": "http://www.gcu.ac.uk/kis/11DIGDES",
-   "ucas_code": "A54-A92"
+   "ucas_code": "A54-A92",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Computing Science with Cyber Security",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-computing-science-with-cyber-security/2027-28/sep",
-   "ucas_code": "A71-I65"
+   "ucas_code": "A71-I65",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Creative Computing",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/creative-computing-bsc/2027",
-   "ucas_code": "A51-D16"
+   "ucas_code": "A51-D16",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Creative Computing",
+   "provider": "University Of Salford, The",
+   "url": "https://www.salford.ac.uk/courses/undergraduate/creative-computing",
+   "ucas_code": "A64-I10",
+   "setting": "city",
+   "town": "Salford"
+  },
+  {
+   "title": "Digital Design",
+   "provider": "University of Kent (Part of London and South East University Group)",
+   "url": "https://www.kent.ac.uk/courses/undergraduate/2027/4410/digital-design",
+   "ucas_code": "A60-A40",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Creative Computing",
+   "provider": "University of Portsmouth",
+   "url": "https://www.port.ac.uk/study/courses/ba-bsc-hons-creative-computing",
+   "ucas_code": "A69-C65",
+   "setting": "coast",
+   "town": "Portsmouth"
+  },
+  {
+   "title": "Creative Computing",
+   "provider": "University of the Arts, London",
+   "url": "https://www.arts.ac.uk/subjects/creative-computing/undergraduate/bsc-creative-computing",
+   "ucas_code": "A50-I24",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Creative Computing",
+   "provider": "Escape Studios",
+   "url": "https://www.escapestudios.ac.uk/courses/undergraduate/creative-computing",
+   "ucas_code": "B74-F90",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Web Development",
+   "provider": "SAE Institute Ltd",
+   "url": "https://www.sae.edu/gbr/courses/ba-bsc-hons-web-development/",
+   "ucas_code": "A34-I76",
+   "setting": "city",
+   "town": "Glasgow"
   }
  ]
 }

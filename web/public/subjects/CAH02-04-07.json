@@ -6,61 +6,129 @@
    "title": "Mental Health Nursing",
    "provider": "Abertay University",
    "url": "https://www.abertay.ac.uk/course-search/undergraduate/nursing-mental-health-nursing/",
-   "ucas_code": "A00-A16"
+   "ucas_code": "A00-A16",
+   "setting": "coast",
+   "town": "Dundee"
   },
   {
    "title": "Nursing (Mental Health)",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?2GBNDJ",
-   "ucas_code": "A62-H43"
+   "ucas_code": "A62-H43",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Nursing (Mental Health)",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
-   "ucas_code": "A14-A70"
+   "ucas_code": "A14-A70",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Nursing Studies (Registered Nurse Mental Health Nursing)",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/nursing-studies-registered-nurse-mental-health-nursing-bsc",
-   "ucas_code": "A71-F67"
+   "ucas_code": "A71-F67",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Mental Health Nursing",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/mental-health-nursing/full-time/",
-   "ucas_code": "A65-F91"
+   "ucas_code": "A65-F91",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Nursing (Mental Health) [Pre-registration Nursing]",
    "provider": "BPP University",
    "url": "https://www.bpp.com/nursing-and-healthcare/bsc-nursing-mental-health",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Doncaster"
   },
   {
    "title": "Mental Health Nursing",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/b762-mental-health-nursing-bn-hons",
-   "ucas_code": "A41-F28"
+   "ucas_code": "A41-F28",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Mental Health Nursing",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/nursing-mental-health-bsc-hons-2027-28",
-   "ucas_code": "A14-D90"
+   "ucas_code": "A14-D90",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Mental Health Nursing",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/bsc-hons-mental-health-nursing-1",
-   "ucas_code": "A11-I09"
+   "ucas_code": "A11-I09",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Nursing (Mental Health)",
    "provider": "Brunel University of London",
    "url": "http://www.brunel.ac.uk/study/undergraduate/nursing-mental-health-bsc",
-   "ucas_code": "A62-B20"
+   "ucas_code": "A62-B20",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Buckinghamshire New University",
+   "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-mental-health-nursing",
+   "ucas_code": "A03-D58",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "City St George'S, University Of London",
+   "url": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/mental-health-nursing",
+   "ucas_code": "A13-I27",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Nursing (Mental Health)",
+   "provider": "Canterbury Christ Church University",
+   "url": "https://www.canterbury.ac.uk/study-here/courses/mental-health-nursing",
+   "ucas_code": "A19-H29",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Mental Health Nursing",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/course-structure/ug/hls-nhs/mental-health-nursing-bsc-hons/?term=2027-28",
+   "ucas_code": "A71-I05",
+   "setting": "city",
+   "town": "Coventry"
+  },
+  {
+   "title": "Nursing with Registration (Mental Health Nursing)",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/nursing-with-registration-mental-health-nursing-degree/nursing-with-registration-mental-health-nursing-bsc-hons.aspx",
+   "ucas_code": "A25-H61",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Nursing (Mental Health)",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/nursing-mental-health/",
+   "ucas_code": "A05-D19",
+   "setting": "campus town",
+   "town": "Ormskirk"
   }
  ]
 }

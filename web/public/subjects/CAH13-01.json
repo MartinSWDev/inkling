@@ -6,61 +6,129 @@
    "title": "Architecture",
    "provider": "Arts University Bournemouth, The",
    "url": "http://aub.ac.uk/courses/ba/ba-architecture/",
-   "ucas_code": "A38-F91"
+   "ucas_code": "A38-F91",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Architecture",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/architecture",
-   "ucas_code": "A13-J58"
+   "ucas_code": "A13-J58",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Architecture",
    "provider": "Bath Spa University",
    "url": "https://www.bathspa.ac.uk/courses/ug-architecture/",
-   "ucas_code": "A62-B31"
+   "ucas_code": "A62-B31",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "Architecture RIBA Part 1",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/architecture-barch-hons-2027-28",
-   "ucas_code": "B59-E06"
+   "ucas_code": "B59-E06",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Building Services Engineering",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/building-services-engineering",
-   "ucas_code": "A70-I15"
+   "ucas_code": "A70-I15",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Architecture",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-architecture/",
-   "ucas_code": "A53-E53"
+   "ucas_code": "A53-E53",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Architecture",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/architectural-studies-bsc",
-   "ucas_code": "A27-H80"
+   "ucas_code": "A27-H80",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Architecture",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/architecture-bsc-hons/?term=2027-28",
-   "ucas_code": "A38-G30"
+   "ucas_code": "A38-G30",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Architecture",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/architecture-ba-degree/architecture-ba-degree.aspx",
-   "ucas_code": "A25-F94"
+   "ucas_code": "A25-F94",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Building Surveying",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/bsc-hons-building-surveying-undergraduate-fulltime",
-   "ucas_code": "A51-D89"
+   "ucas_code": "A51-D89",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Falmouth University",
+   "url": "http://www.falmouth.ac.uk/study/undergraduate/ARCHITECTURE",
+   "ucas_code": "A52-J03",
+   "setting": "coast",
+   "town": "Falmouth"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/11BLDSRV",
+   "ucas_code": "A26-C66",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Building Surveying",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/building-surveying/",
+   "ucas_code": "A07-J28",
+   "setting": "city",
+   "town": "Kingston upon Thames"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Leeds Beckett University",
+   "url": "https://www.leedsbeckett.ac.uk/courses/architecture-ba/",
+   "ucas_code": "A75-I97",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Architecture",
+   "provider": "Liverpool John Moores University",
+   "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2027/30132-architecture-ba-hons",
+   "ucas_code": "A10-J61",
+   "setting": "city",
+   "town": "Liverpool"
+  },
+  {
+   "title": "Architecture",
+   "provider": "London Metropolitan University",
+   "url": "http://www.londonmet.ac.uk/courses/undergraduate/architecture---ba-hons/",
+   "ucas_code": "A06-I97",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

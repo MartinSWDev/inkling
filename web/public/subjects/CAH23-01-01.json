@@ -6,19 +6,25 @@
    "title": "Combined Honours",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/y001/",
-   "ucas_code": "A27-B37"
+   "ucas_code": "A27-B37",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Liberal Arts",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/combined-honours/ba-combined-honours/",
-   "ucas_code": "A70-G73"
+   "ucas_code": "A70-G73",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Interdisciplinary Futures",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/FIA1",
-   "ucas_code": "A66-J28"
+   "ucas_code": "A66-J28",
+   "setting": "city",
+   "town": "Edinburgh"
   }
  ]
 }

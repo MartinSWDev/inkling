@@ -6,61 +6,105 @@
    "title": "Global Development",
    "provider": "SOAS University of London",
    "url": "https://www.soas.ac.uk/study/find-course/ba-global-development-and",
-   "ucas_code": "A12-J65"
+   "ucas_code": "A12-J65",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Global Development",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-global-development/2027-28/sep",
-   "ucas_code": "A36-H39"
+   "ucas_code": "A36-H39",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Global Development",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/k039/global-development-ba",
-   "ucas_code": "A26-H97"
+   "ucas_code": "A26-H97",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "International Development",
    "provider": "University of Portsmouth",
    "url": "https://www.port.ac.uk/study/courses/ba-hons-international-development",
-   "ucas_code": "A47-D59"
+   "ucas_code": "A47-D59",
+   "setting": "coast",
+   "town": "Portsmouth"
   },
   {
    "title": "International Development",
    "provider": "University of Sussex",
    "url": "https://www.sussex.ac.uk/study/undergraduate/courses/international-development-ba",
-   "ucas_code": "A22-J55"
+   "ucas_code": "A22-J55",
+   "setting": "coast",
+   "town": "Brighton"
   },
   {
    "title": "International Development",
    "provider": "King's College London",
    "url": "https://www.kcl.ac.uk/study/undergraduate/courses/international-development-ba",
-   "ucas_code": "A27-G64"
+   "ucas_code": "A27-G64",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Global Development",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/20251/bsc-global-development/",
-   "ucas_code": "A67-B58"
+   "ucas_code": "A67-B58",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "International Development and Politics",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/govsoc/international-development-and-politics.aspx",
-   "ucas_code": "A52-H98"
+   "ucas_code": "A52-H98",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Global Sustainable Development",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/dll/courses/foundation/global-sustainable-development",
-   "ucas_code": "A68-F35"
+   "ucas_code": "A68-F35",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Global Sustainable Development",
    "provider": "University Of Glasgow",
    "url": "https://www.gla.ac.uk/undergraduate/degrees/global-sustainable-development/",
-   "ucas_code": "A69-D83"
+   "ucas_code": "A69-D83",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "International Development with Economics",
+   "provider": "University of Bath",
+   "url": "http://www.bath.ac.uk/study/kis/2026-2027/programme/UHSP-AFB31",
+   "ucas_code": "A65-E41",
+   "setting": "campus town",
+   "town": "Bath"
+  },
+  {
+   "title": "Global Sustainable Development",
+   "provider": "Basingstoke College of Technology",
+   "url": "https://www.reading.ac.uk/ready-to-study/study/subject-area/global-sustainable-development-ug/bsc-global-sustainable-development",
+   "ucas_code": "A15-E77",
+   "setting": "campus town",
+   "town": "Reading"
+  },
+  {
+   "title": "Global Humanitarian Studies",
+   "provider": "UCL",
+   "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/global-humanitarian-studies-bsc",
+   "ucas_code": "A56-A21",
+   "setting": "city",
+   "town": "London"
   }
  ]
 }

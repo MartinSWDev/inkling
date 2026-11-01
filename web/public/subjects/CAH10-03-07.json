@@ -6,25 +6,33 @@
    "title": "Materials Science",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/materials-science-and-engineering",
-   "ucas_code": "A47-I67"
+   "ucas_code": "A47-I67",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i984/materials-science-and-engineering-beng",
-   "ucas_code": "A57-E69"
+   "ucas_code": "A57-E69",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Materials Science and Engineering",
    "provider": "The University Of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/materials-science-and-engineering-meng",
-   "ucas_code": "A35-F94"
+   "ucas_code": "A35-F94",
+   "setting": "city",
+   "town": "Sheffield"
   },
   {
    "title": "Materials Science",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/12959/bsc-meng-materials-science-with-an-integrated-foundation-year/",
-   "ucas_code": "A55-C09"
+   "ucas_code": "A55-C09",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

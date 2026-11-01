@@ -6,61 +6,105 @@
    "title": "Animal Science",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?V23QGA",
-   "ucas_code": "A22-E47"
+   "ucas_code": "A22-E47",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Animal Science",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/animal-science",
-   "ucas_code": "A71-J76"
+   "ucas_code": "A71-J76",
+   "setting": "countryside",
+   "town": "Writtle"
   },
   {
    "title": "Animal Science",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/animal-science",
-   "ucas_code": "A41-D45"
+   "ucas_code": "A41-D45",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Animal Science",
    "provider": "University Of Nottingham, The",
    "url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/2026/Animal-Science-BSc-Hons.html",
-   "ucas_code": "A00-D83"
+   "ucas_code": "A00-D83",
+   "setting": "countryside",
+   "town": "Sutton Bonington"
   },
   {
    "title": "Animal Behaviour and Welfare (Clinical)",
    "provider": "Harper Adams University",
    "url": "http://www.harper-adams.ac.uk/undergraduate/course/UDNABWCL",
-   "ucas_code": "A30-H13"
+   "ucas_code": "A30-H13",
+   "setting": "countryside",
+   "town": "Newport"
   },
   {
    "title": "Animal Behaviour and Welfare",
    "provider": "Hartpury University",
    "url": "https://www.hartpury.ac.uk/university/courses/bsc-hons-animal-behaviour-and-welfare",
-   "ucas_code": "A30-A45"
+   "ucas_code": "A30-A45",
+   "setting": "countryside",
+   "town": "Hartpury"
   },
   {
    "title": "Animal Biology",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/animal-rural-and-environmental-sciences/ug/bsc-hons-animal-biology",
-   "ucas_code": "A38-B91"
+   "ucas_code": "A38-B91",
+   "setting": "countryside",
+   "town": "Southwell"
   },
   {
    "title": "Animal Behaviour and Welfare",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/1831/C345/animal-behaviour-and-welfare/",
-   "ucas_code": "A58-B22"
+   "ucas_code": "A58-B22",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Animal Behaviour",
    "provider": "University of Chester",
    "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
-   "ucas_code": "A09-I80"
+   "ucas_code": "A09-I80",
+   "setting": "campus town",
+   "town": "Chester"
   },
   {
    "title": "Animal Behaviour and Welfare",
    "provider": "University of Lincoln",
    "url": "https://www.lincoln.ac.uk/home/course/eqsabwub/",
-   "ucas_code": "A33-J18"
+   "ucas_code": "A33-J18",
+   "setting": "campus town",
+   "town": "Lincoln"
+  },
+  {
+   "title": "Animal Behaviour",
+   "provider": "University of St Andrews",
+   "url": "https://www.st-andrews.ac.uk/subjects/biology/animal-behaviour-bsc/",
+   "ucas_code": "A55-B16",
+   "setting": "coast",
+   "town": "St Andrews"
+  },
+  {
+   "title": "Equine Science",
+   "provider": "Abingdon and Witney College",
+   "url": "https://www.brookes.ac.uk/courses/undergraduate/equine-science",
+   "ucas_code": "A06-C98",
+   "setting": "campus town",
+   "town": "Oxford"
+  },
+  {
+   "title": "Animal Behaviour and Welfare",
+   "provider": "Pembrokeshire College",
+   "url": "https://www.colegsirgar.ac.uk/",
+   "ucas_code": "",
+   "setting": "coast",
+   "town": "Llanelli"
   }
  ]
 }

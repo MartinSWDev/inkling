@@ -6,61 +6,129 @@
    "title": "Theology and Religion",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/v616/",
-   "ucas_code": "A07-H78"
+   "ucas_code": "A07-H78",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Theology and Religion",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/theology-and-religion",
-   "ucas_code": "A30-G79"
+   "ucas_code": "A30-G79",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Theology and Religion",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/thr/theology.aspx",
-   "ucas_code": "A04-J87"
+   "ucas_code": "A04-J87",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Theology",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/theologyreligiousstudies/",
-   "ucas_code": "A25-B17"
+   "ucas_code": "A25-B17",
+   "setting": "city",
+   "town": "Glasgow"
   },
   {
    "title": "Theology and Religion",
    "provider": "University of Aberdeen",
    "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/535/V605/theology-and-religious-studies/",
-   "ucas_code": "A33-H42"
+   "ucas_code": "A33-H42",
+   "setting": "coast",
+   "town": "Aberdeen"
   },
   {
    "title": "Religion and Theology",
    "provider": "University of Bristol",
    "url": "http://www.bristol.ac.uk/study/undergraduate/2027/religion-theology/ba-religion-and-theology/",
-   "ucas_code": "A15-J50"
+   "ucas_code": "A15-J50",
+   "setting": "city",
+   "town": "Bristol"
   },
   {
    "title": "Theology, Religion, and Philosophy of Religion",
    "provider": "University of Cambridge",
    "url": "https://www.undergraduate.study.cam.ac.uk/courses/theology-religion-philosophy-of-religion-ba-hons",
-   "ucas_code": "A25-E01"
+   "ucas_code": "A25-E01",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "Theology and Religious Studies",
    "provider": "University of Chester",
    "url": "https://www.chester.ac.uk/study/course-search/theology-and-religious-studies-ba-hons/?studyMode=102223",
-   "ucas_code": "A10-D01"
+   "ucas_code": "A10-D01",
+   "setting": "campus town",
+   "town": "Chester"
   },
   {
    "title": "Divinity",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/V600",
-   "ucas_code": "A14-H49"
+   "ucas_code": "A14-H49",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Religion, Culture and Society",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/ba-religion-culture-and-society/",
-   "ucas_code": "A71-I40"
+   "ucas_code": "A71-I40",
+   "setting": "campus town",
+   "town": "Exeter"
+  },
+  {
+   "title": "Divinity",
+   "provider": "University of London",
+   "url": "https://london.ac.uk/courses/divinity",
+   "ucas_code": "",
+   "setting": null,
+   "town": null
+  },
+  {
+   "title": "Divinity",
+   "provider": "University of St Andrews",
+   "url": "https://www.st-andrews.ac.uk/subjects/divinity/",
+   "ucas_code": "A28-J60",
+   "setting": "coast",
+   "town": "St Andrews"
+  },
+  {
+   "title": "Theological Studies",
+   "provider": "University of the Highlands and Islands",
+   "url": "https://www.uhi.ac.uk/en/courses/ba-hons-theological-studies/",
+   "ucas_code": "A16-E10",
+   "setting": "coast",
+   "town": "Oban"
+  },
+  {
+   "title": "Theological Studies",
+   "provider": "Wrexham University",
+   "url": "https://www.stmarys.ac.uk/courses/undergraduate/theological-studies",
+   "ucas_code": "A67-C81",
+   "setting": "city",
+   "town": "Twickenham"
+  },
+  {
+   "title": "Religion and Theology",
+   "provider": "York St John University",
+   "url": "https://www.yorksj.ac.uk/courses/undergraduate/religion-theology-and-philosophy/religion-and-theology-ba-hons/",
+   "ucas_code": "A18-G50",
+   "setting": "campus town",
+   "town": "York"
+  },
+  {
+   "title": "Theology",
+   "provider": "Birmingham Christian College",
+   "url": "https://bccoll.ac.uk/courses/ba/",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   }
  ]
 }

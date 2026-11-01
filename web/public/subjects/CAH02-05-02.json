@@ -6,61 +6,81 @@
    "title": "Healthcare Science (Audiology)",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/healthcare-science-audiology-bsc",
-   "ucas_code": "A30-B94"
+   "ucas_code": "A30-B94",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Healthcare Science (Life Sciences)",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/bsc-healthcare-science/",
-   "ucas_code": "A08-G51"
+   "ucas_code": "A08-G51",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Healthcare Science (Audiology)",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/healthcare-science-audiology-bsc-hons-degree/healthcare-science-audiology-bsc-hons.aspx",
-   "ucas_code": "A39-F49"
+   "ucas_code": "A39-F49",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Healthcare Science (Audiology)",
    "provider": "Middlesex University",
    "url": "https://www.mdx.ac.uk/courses/undergraduate/healthcare-science-audiology",
-   "ucas_code": "A22-C96"
+   "ucas_code": "A22-C96",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Healthcare Science (Audiology)",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/health-social-care/healthcare-science-audiology-bsc-hons/",
-   "ucas_code": "A37-C25"
+   "ucas_code": "A37-C25",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Audiology",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/j568/audiology-bsc",
-   "ucas_code": "A26-H50"
+   "ucas_code": "A26-H50",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "Healthcare Science (Ophthalmic Imaging)",
    "provider": "University of Gloucestershire",
    "url": "https://www.glos.ac.uk/courses/course/HSO-BSc-Healthcare-Science/",
-   "ucas_code": "A63-J24"
+   "ucas_code": "A63-J24",
+   "setting": "campus town",
+   "town": "Cheltenham"
   },
   {
    "title": "Cardiac Physiology (Healthcare Science)",
    "provider": "University of Southampton",
    "url": "https://www.southampton.ac.uk/courses/cardiac-physiology-healthcare-science-degree-bsc",
-   "ucas_code": "A23-D51"
+   "ucas_code": "A23-D51",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Audiology",
    "provider": "UCL",
    "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/audiology-bsc",
-   "ucas_code": "A62-A64"
+   "ucas_code": "A62-A64",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Healthcare Science (Audiology)",
    "provider": "Xaverian College",
    "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/09104/bsc-healthcare-science-audiology/",
-   "ucas_code": "A20-H58"
+   "ucas_code": "A20-H58",
+   "setting": "city",
+   "town": "Manchester"
   }
  ]
 }

@@ -6,19 +6,25 @@
    "title": "Irish",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/irish-ba-q504/",
-   "ucas_code": "A28-C53"
+   "ucas_code": "A28-C53",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Irish Studies",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/irish-studies-ba-hons/2027",
-   "ucas_code": "A02-J31"
+   "ucas_code": "A02-J31",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Irish Language and Literature",
    "provider": "Ulster University",
    "url": "https://www.ulster.ac.uk/course/ba-irish-language-literature-ft-dld",
-   "ucas_code": "A16-I78"
+   "ucas_code": "A16-I78",
+   "setting": "city",
+   "town": "Derry"
   }
  ]
 }

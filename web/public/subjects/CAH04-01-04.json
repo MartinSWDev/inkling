@@ -6,61 +6,121 @@
    "title": "Psychology With Clinical And Health Psychology",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/c880-psychology-with-clinical-and-health-psychology-bsc-hons",
-   "ucas_code": "A34-H09"
+   "ucas_code": "A34-H09",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Psychology with Health",
    "provider": "University College Birmingham",
    "url": "https://www.ucb.ac.uk/study/courses/undergraduate/psychology-with-health-bsc-hons/",
-   "ucas_code": "A71-F96"
+   "ucas_code": "A71-F96",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Psychology (Clinical and Health Contexts)",
    "provider": "University of Gloucestershire",
    "url": "https://www.glos.ac.uk/courses/course/PCO-BSc-Psychology/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Cheltenham"
   },
   {
    "title": "Psychology (Clinical Psychology)",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/psychology-clinical#overview",
-   "ucas_code": "A12-C40"
+   "ucas_code": "A12-C40",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology (Mental Health)",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-mental-health",
-   "ucas_code": "A52-B77"
+   "ucas_code": "A52-B77",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Psychology (Clinical and Mental Health)",
    "provider": "Roehampton University",
    "url": "https://www.roehampton.ac.uk/undergraduate-courses/psychology-clinical-and-mental-health/",
-   "ucas_code": "A19-A52"
+   "ucas_code": "A19-A52",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Clinical and Community Psychology",
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-clinical-and-community-psychology",
-   "ucas_code": "A24-B41"
+   "ucas_code": "A24-B41",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology (Clinical and Mental Health)",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/clinical-psychology-bsc",
-   "ucas_code": "A48-F08"
+   "ucas_code": "A48-F08",
+   "setting": "campus town",
+   "town": "Preston"
   },
   {
    "title": "Psychology (Clinical Applications)",
    "provider": "University Of Northampton, The",
    "url": "https://www.northampton.ac.uk/courses/psychology-clinical-application-bsc-hons/",
-   "ucas_code": "A76-B12"
+   "ucas_code": "A76-B12",
+   "setting": "campus town",
+   "town": "Northampton"
   },
   {
    "title": "Applied Psychology (Clinical)",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-applied-psychology/",
-   "ucas_code": "A32-J50"
+   "ucas_code": "A32-J50",
+   "setting": "campus town",
+   "town": "Exeter"
+  },
+  {
+   "title": "Psychology with Clinical Perspectives",
+   "provider": "University of Kent (Part of London and South East University Group)",
+   "url": "https://www.kent.ac.uk/courses/undergraduate/2027/50/psychology-with-clinical-perspectives",
+   "ucas_code": "A09-A96",
+   "setting": "campus town",
+   "town": "Canterbury"
+  },
+  {
+   "title": "Psychology with Clinical Perspectives",
+   "provider": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/courses/undergraduate/mpsych-psychology-with-clinical-perspectives",
+   "ucas_code": "A76-I87",
+   "setting": "coast",
+   "town": "Plymouth"
+  },
+  {
+   "title": "Psychology with Clinical Approaches",
+   "provider": "University of Sussex",
+   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/psychology-with-clinical-approaches-bsc",
+   "ucas_code": "A23-A30",
+   "setting": "coast",
+   "town": "Brighton"
+  },
+  {
+   "title": "Clinical Psychology",
+   "provider": "East Durham College",
+   "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-clinical-psychology",
+   "ucas_code": "A47-B00",
+   "setting": "coast",
+   "town": "Peterlee"
+  },
+  {
+   "title": "Psychology with Clinical Psychology",
+   "provider": "Goldsmiths' College",
+   "url": "http://www.gold.ac.uk/ug/bsc-clinical-psychology/",
+   "ucas_code": "A17-C47",
+   "setting": "campus town",
+   "town": "Gravesend"
   }
  ]
 }

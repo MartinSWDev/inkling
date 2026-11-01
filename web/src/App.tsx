@@ -127,7 +127,7 @@ export default function App() {
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const [tapCode, setTapCode] = useState<string | null>(null);
   const [courseSheet, setCourseSheet] = useState<{ code: string; name: string } | null>(null);
-  const [courseLists, setCourseLists] = useState<Record<string, { title: string; provider: string; url: string; ucas_code: string }[]>>({});
+  const [courseLists, setCourseLists] = useState<Record<string, { title: string; provider: string; url: string; ucas_code: string; setting?: string | null; town?: string | null }[]>>({});
   function openCourses(code: string, name: string) {
     setCourseSheet({ code, name });
     if (!courseLists[code]) {
@@ -579,15 +579,26 @@ export default function App() {
         <motion.div className="coursesheet" initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 30 }}>
           <div className="pfoot"><h2>{courseSheet.name}</h2>
             <button className="linkbtn" onClick={() => setCourseSheet(null)}>Close</button></div>
-          <ul className="courselist">
-            {(courseLists[courseSheet.code] || []).map((c, i) => (
-              <li key={i}><div><b>{c.title}</b><small>{c.provider}</small></div>
-                <a href={c.url} target="_blank" rel="noreferrer">Course page</a></li>))}
-            {courseLists[courseSheet.code] && courseLists[courseSheet.code].length === 0 &&
-              <li><small>No course pages yet for this subject.</small></li>}
-            {!courseLists[courseSheet.code] && <li><small>Loading courses…</small></li>}
-          </ul>
-          <p className="note">Course data: Discover Uni (HESA), CC BY 4.0</p>
+          {(() => {
+            const all = courseLists[courseSheet.code];
+            if (!all) return <ul className="courselist"><li><small>Loading courses…</small></li></ul>;
+            if (!all.length) return <ul className="courselist"><li><small>No course pages yet for this subject.</small></li></ul>;
+            const chosen = { city: "city", coast: "coast", campus: "campus town", countryside: "countryside" }[view] || "campus town";
+            const heading = { city: "In a city", coast: "In a coastal town", "campus town": "In a campus town", countryside: "In the countryside" }[chosen];
+            const adj = { city: "city", coast: "coastal", "campus town": "campus town", countryside: "countryside" }[chosen];
+            const inChosen = all.filter((c) => c.setting === chosen);
+            const elsewhere = all.filter((c) => c.setting !== chosen);
+            const render = (list: typeof all) => list.map((c, i) => (
+              <li key={c.title + i}><div><b>{c.title}</b><small>{c.provider}</small>
+                {c.setting && <span className="settingtag">{c.setting}{c.town ? " · " + c.town : ""}</span>}</div>
+                <a href={c.url} target="_blank" rel="noreferrer">Course page</a></li>));
+            return (<>
+              {inChosen.length > 0 && (<><h3 className="coursehead">{heading}</h3><ul className="courselist">{render(inChosen)}</ul></>)}
+              {inChosen.length === 0 && <p className="note">{"No " + adj + " courses for this subject — here are the others."}</p>}
+              {elsewhere.length > 0 && (<><h3 className="coursehead">Elsewhere</h3><ul className="courselist">{render(elsewhere)}</ul></>)}
+            </>);
+          })()}
+          <p className="note">Course data: Discover Uni (HESA), CC BY 4.0. Campus settings tagged by Muse Spark Open from HESA location data.</p>
         </motion.div>
       </div>)}
     </div>

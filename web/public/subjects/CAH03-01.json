@@ -6,43 +6,57 @@
    "title": "Human Biosciences",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/human-biosciences-bsc-hons-2027-28",
-   "ucas_code": "A75-B30"
+   "ucas_code": "A75-B30",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Medical Biosciences",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/courses/medical-biosciences-bsc",
-   "ucas_code": "A77-E68"
+   "ucas_code": "A77-E68",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Applied Biosciences",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/cuc/course-structure/hnc-hnd-degree/science/?term=2027-28",
-   "ucas_code": "A38-G37"
+   "ucas_code": "A38-G37",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "Biosciences",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/c107/",
-   "ucas_code": "A07-G33"
+   "ucas_code": "A07-G33",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Veterinary Biosciences",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/veterinary-biosciences-bsc-d300",
-   "ucas_code": "A76-B36"
+   "ucas_code": "A76-B36",
+   "setting": "coast",
+   "town": "Belfast"
   },
   {
    "title": "Medical Biosciences (Biochemistry)",
    "provider": "The University Of Leicester",
    "url": "https://le.ac.uk/courses/medical-biosciences-biochemistry-mbiolsci/2027",
-   "ucas_code": "A52-I24"
+   "ucas_code": "A52-I24",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Biological Sciences (Human Biosciences)",
    "provider": "Abingdon and Witney College",
    "url": "https://www.brookes.ac.uk/courses/undergraduate/biological-sciences-human-biosciences",
-   "ucas_code": "A50-J94"
+   "ucas_code": "A50-J94",
+   "setting": "campus town",
+   "town": "Oxford"
   }
  ]
 }

@@ -6,61 +6,129 @@
    "title": "Art History",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?JNXE6Y",
-   "ucas_code": "A22-E51"
+   "ucas_code": "A22-E51",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Art History",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/art-history",
-   "ucas_code": "A65-H22"
+   "ucas_code": "A65-H22",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "History of Art",
    "provider": "Oxford University",
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/history-of-art",
-   "ucas_code": "A30-F74"
+   "ucas_code": "A30-F74",
+   "setting": "campus town",
+   "town": "Oxford"
   },
   {
    "title": "Art History",
    "provider": "Regent's University",
    "url": "https://www.regents.ac.uk/undergraduate/liberal-arts/ba-hons-art-history",
-   "ucas_code": "A66-H52"
+   "ucas_code": "A66-H52",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "History of Art",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/histart/history-art.aspx",
-   "ucas_code": "A04-I76"
+   "ucas_code": "A04-I76",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "History of Art",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-history-of-art/2027-28/sep",
-   "ucas_code": "A36-H31"
+   "ucas_code": "A36-H31",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Art History",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00021/1?coursecode=V314",
-   "ucas_code": "A32-D93"
+   "ucas_code": "A32-D93",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "History of Art",
    "provider": "The University Of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/380/history-of-art-ba",
-   "ucas_code": "A26-H75"
+   "ucas_code": "A26-H75",
+   "setting": "city",
+   "town": "Leeds"
   },
   {
    "title": "History of Art",
    "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-history-art",
-   "ucas_code": "A20-C50"
+   "ucas_code": "A20-C50",
+   "setting": "campus town",
+   "town": "Coventry"
   },
   {
    "title": "History of Art",
    "provider": "University Of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/historyofart/",
-   "ucas_code": "A24-I50"
+   "ucas_code": "A24-I50",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Art History",
+   "provider": "University of Aberdeen",
+   "url": "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/743/V350/history-of-art/",
+   "ucas_code": "A33-G18",
+   "setting": "coast",
+   "town": "Aberdeen"
+  },
+  {
+   "title": "History of Art",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/history-art/ba-history-of-art/",
+   "ucas_code": "A15-I58",
+   "setting": "city",
+   "town": "Bristol"
+  },
+  {
+   "title": "History of Art",
+   "provider": "University of Cambridge",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses/history-of-art-ba-hons",
+   "ucas_code": "A25-D88",
+   "setting": "campus town",
+   "town": "Cambridge"
+  },
+  {
+   "title": "History of Art",
+   "provider": "University of Edinburgh",
+   "url": "https://www.ed.ac.uk/ug/V350",
+   "ucas_code": "A14-J51",
+   "setting": "city",
+   "town": "Edinburgh"
+  },
+  {
+   "title": "Art History",
+   "provider": "University of St Andrews",
+   "url": "https://www.st-andrews.ac.uk/subjects/art-history/art-history-ma/",
+   "ucas_code": "A28-H91",
+   "setting": "coast",
+   "town": "St Andrews"
+  },
+  {
+   "title": "Art History",
+   "provider": "University of Sussex",
+   "url": "https://www.sussex.ac.uk/study/undergraduate/courses/art-history-ba",
+   "ucas_code": "A22-I40",
+   "setting": "coast",
+   "town": "Brighton"
   }
  ]
 }

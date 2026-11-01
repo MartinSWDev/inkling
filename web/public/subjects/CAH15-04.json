@@ -6,61 +6,129 @@
    "title": "Health and Social Care",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/health-and-social-care-london",
-   "ucas_code": "A42-C31"
+   "ucas_code": "A42-C31",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Health and Care Management",
    "provider": "Arden University",
    "url": "https://arden.ac.uk/our-courses/undergraduate/healthcare-and-social-care/bsc-hons-health-and-care-management",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Health and Social Care",
    "provider": "Birmingham Newman University",
    "url": "https://www.newman.ac.uk/course/health-and-social-care-bsc-hons/full-time/",
-   "ucas_code": "A15-G98"
+   "ucas_code": "A15-G98",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Health And Social Care",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons",
-   "ucas_code": "A34-E64"
+   "ucas_code": "A34-E64",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Health and Social Care",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/health-and-social-care-with-professional-practice",
-   "ucas_code": "A69-G38"
+   "ucas_code": "A69-G38",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Social Work",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/social-work-bsc-hons-2027-28",
-   "ucas_code": "A14-E16"
+   "ucas_code": "A14-E16",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Social Work",
    "provider": "Bournemouth University",
    "url": "https://www.bournemouth.ac.uk/study/courses/ba-hons-social-work",
-   "ucas_code": "A11-I35"
+   "ucas_code": "A11-I35",
+   "setting": "coast",
+   "town": "Bournemouth"
   },
   {
    "title": "Health and Social Science",
    "provider": "Buckinghamshire New University",
    "url": "https://www.bnu.ac.uk/courses/undergraduate/bsc-hons-health-and-social-science",
-   "ucas_code": "A03-D32"
+   "ucas_code": "A03-D32",
+   "setting": "campus town",
+   "town": "High Wycombe"
   },
   {
    "title": "Health and Lifestyle Science",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.lsclondon.co.uk/bsc-hons-health-and-lifestyle-science-top-up-level-5-entry/",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Health and Social Care",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/hnd--bsc-health-and-social-care/",
-   "ucas_code": "A08-G50"
+   "ucas_code": "A08-G50",
+   "setting": "city",
+   "town": "Cardiff"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Coventry University",
+   "url": "https://www.coventry.ac.uk/cus/course-structure/hnc-hnd-degree/health-social-care/?term=2027-28",
+   "ucas_code": "A41-H48",
+   "setting": "coast",
+   "town": "Scarborough"
+  },
+  {
+   "title": "Health and Wellbeing in Society",
+   "provider": "De Montfort University",
+   "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/health-and-wellbeing-in-society-ba-hons-degree/health-and-wellbeing-in-society-bsc-hons.aspx",
+   "ucas_code": "A25-H07",
+   "setting": "city",
+   "town": "Leicester"
+  },
+  {
+   "title": "Adult Nursing & Social Work",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/adult-nursing-and-social-work/",
+   "ucas_code": "A05-C22",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "Social Work",
+   "provider": "Glasgow Caledonian University",
+   "url": "http://www.gcu.ac.uk/kis/12SOCWRK",
+   "ucas_code": "A26-D62",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Health and Social Care",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/health-and-social-care/",
+   "ucas_code": "A74-A78",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "Social Work",
+   "provider": "Kingston University",
+   "url": "https://www.kingston.ac.uk/undergraduate/courses/social-work/",
+   "ucas_code": "A08-C68",
+   "setting": "city",
+   "town": "Kingston upon Thames"
   }
  ]
 }

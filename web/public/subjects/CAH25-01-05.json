@@ -6,61 +6,129 @@
    "title": "Craft & Material Practices",
    "provider": "Arts University Plymouth",
    "url": "https://www.aup.ac.uk/courses/ba-hons-craft-material-practices/overview",
-   "ucas_code": "A16-E64"
+   "ucas_code": "A16-E64",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Horology",
    "provider": "Birmingham City University",
    "url": "https://www.bcu.ac.uk/courses/horology-ba-hons-2027-28",
-   "ucas_code": "A14-D47"
+   "ucas_code": "A14-D47",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Artist Designer: Maker",
    "provider": "Cardiff Metropolitan University",
    "url": "https://www.cardiffmet.ac.uk/courses/undergraduate/ba-artist-designer-maker/",
-   "ucas_code": "A08-G01"
+   "ucas_code": "A08-G01",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Design Crafts",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/design-crafts-ba-degree/design-crafts-ba-degree.aspx",
-   "ucas_code": "A25-G41"
+   "ucas_code": "A25-G41",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "Craft",
    "provider": "Manchester Metropolitan University",
    "url": "https://www.mmu.ac.uk/study/undergraduate/course/ba-craft/september-2027/",
-   "ucas_code": "A72-C64"
+   "ucas_code": "A72-C64",
+   "setting": "city",
+   "town": "Manchester"
   },
   {
    "title": "Make-Up and Hair Design",
    "provider": "Southampton Solent University",
    "url": "https://www.solent.ac.uk/courses/undergraduate/make-up-and-hair-design-ba/2027/ba-hons-make-up-and-hair-design-3-years-2027",
-   "ucas_code": "A53-B16"
+   "ucas_code": "A53-B16",
+   "setting": "coast",
+   "town": "Southampton"
   },
   {
    "title": "Hair, Make-up and Prosthetics for Stage and Screen",
    "provider": "University Of Northampton, The",
    "url": "https://www.northampton.ac.uk/courses/hair-make-up-and-prosthetics-for-stage-and-screen-ba-hons/",
-   "ucas_code": "A57-H44"
+   "ucas_code": "A57-H44",
+   "setting": "campus town",
+   "town": "Northampton"
   },
   {
    "title": "Ceramics and Glass",
    "provider": "University for the Creative Arts",
    "url": "https://www.uca.ac.uk/study/courses/ba-ceramics-glass/",
-   "ucas_code": "A50-A17"
+   "ucas_code": "A50-A17",
+   "setting": "campus town",
+   "town": "Farnham"
   },
   {
    "title": "Jewellery and Silversmithing",
    "provider": "University of Edinburgh",
    "url": "https://www.ed.ac.uk/ug/W721",
-   "ucas_code": "A14-J93"
+   "ucas_code": "A14-J93",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Tv And Film: Hair, Make Up And Special Effects",
    "provider": "University of South Wales/Prifysgol De Cymru",
    "url": "https://www.cymoedd.ac.uk/course-detail/ba-hons-tv--film-hair-makeup-and-special-effects/?course_id=9AF612NB",
-   "ucas_code": "A63-G48"
+   "ucas_code": "A63-G48",
+   "setting": "campus town",
+   "town": "Pontypridd"
+  },
+  {
+   "title": "Makeup & Hair for Theatre & Media",
+   "provider": "Chichester College Group",
+   "url": "https://www.northbrook.ac.uk/courses/ba-hons-makeup-and-hair-for-theatre-and-media/",
+   "ucas_code": "A69-B25",
+   "setting": "coast",
+   "town": "Worthing"
+  },
+  {
+   "title": "Carving: Architectural Stone",
+   "provider": "City and Guilds of London Art School",
+   "url": "https://www.cityandguildsartschool.ac.uk/architectural-stone/",
+   "ucas_code": "",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Silversmithing And Jewellery",
+   "provider": "Glasgow School of Art.",
+   "url": "https://www.gsa.ac.uk/undergraduate-degrees/silversmithing-jewellery",
+   "ucas_code": "A15-G61",
+   "setting": "city",
+   "town": "Glasgow"
+  },
+  {
+   "title": "Artist Blacksmithing",
+   "provider": "Hereford College of Arts",
+   "url": "https://www.hca.ac.uk/course/artist-blacksmithing",
+   "ucas_code": "A34-A75",
+   "setting": "campus town",
+   "town": "Hereford"
+  },
+  {
+   "title": "Hair and Make-Up for Screen and Film",
+   "provider": "Screen & Film School",
+   "url": "https://www.metfilmschool.ac.uk/courses/ba-hons-hair-make-up-screen-film/",
+   "ucas_code": "A64-B50",
+   "setting": "coast",
+   "town": "Brighton"
+  },
+  {
+   "title": "Hair and Makup Design for Production",
+   "provider": "South Essex College of Further and Higher Education",
+   "url": "https://www.southessex.ac.uk/course/hair-and-make-up-design-and-application-for-production-ba-hons-fda",
+   "ucas_code": "A60-E97",
+   "setting": "campus town",
+   "town": "Grays"
   }
  ]
 }

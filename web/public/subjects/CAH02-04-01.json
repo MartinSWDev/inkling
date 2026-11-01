@@ -6,49 +6,65 @@
    "title": "Nursing",
    "provider": "Plymouth Marjon University",
    "url": "https://www.marjon.ac.uk/courses/nursing-degree/",
-   "ucas_code": "A69-I49"
+   "ucas_code": "A69-I49",
+   "setting": "coast",
+   "town": "Plymouth"
   },
   {
    "title": "Nursing",
    "provider": "The University Of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/nursing-bn-hons/2027",
-   "ucas_code": "A03-A82"
+   "ucas_code": "A03-A82",
+   "setting": "coast",
+   "town": "Liverpool"
   },
   {
    "title": "Nursing",
    "provider": "University of Exeter",
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/msci-nursing/",
-   "ucas_code": "A41-A56"
+   "ucas_code": "A41-A56",
+   "setting": "campus town",
+   "town": "Exeter"
   },
   {
    "title": "Nursing Studies (Registered Nurse Adult Nursing)",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/nursing-studies-registered-nurse-adult-nursing-bsc",
-   "ucas_code": "A67-C71"
+   "ucas_code": "A67-C71",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Nursing (Mental Health)",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/mansfield/ug/nursing-mental-health",
-   "ucas_code": "A59-D71"
+   "ucas_code": "A59-D71",
+   "setting": "campus town",
+   "town": "Mansfield"
   },
   {
    "title": "Nursing (Adult)",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00315/1?coursecode=B740",
-   "ucas_code": ""
+   "ucas_code": "",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Nursing - Adult",
    "provider": "University Centre Somerset College Group",
    "url": "https://www.somerset.ac.uk/courses/detail/nursing-adult-bsc-hons/",
-   "ucas_code": "A62-G74"
+   "ucas_code": "A62-G74",
+   "setting": "campus town",
+   "town": "Taunton"
   },
   {
    "title": "Adult Nursing",
    "provider": "Truro and Penwith College",
    "url": "https://www.truro-penwith.ac.uk/courses/bsc-hons-operating-department-practitioner-2/",
-   "ucas_code": "A66-B21"
+   "ucas_code": "A66-B21",
+   "setting": "campus town",
+   "town": "Truro"
   }
  ]
 }

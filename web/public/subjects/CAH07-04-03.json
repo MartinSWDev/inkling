@@ -6,13 +6,17 @@
    "title": "Integrated Natural Sciences",
    "provider": "The University Of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/msci-integrated-natural-sciences",
-   "ucas_code": "A51-F13"
+   "ucas_code": "A51-F13",
+   "setting": "campus town",
+   "town": "Coventry"
   },
   {
    "title": "Cosmetic Science",
    "provider": "East Durham College",
    "url": "https://www.sunderland.ac.uk/undergraduate/bsc-hons-cosmetic-science",
-   "ucas_code": "A01-B09"
+   "ucas_code": "A01-B09",
+   "setting": "coast",
+   "town": "Peterlee"
   }
  ]
 }

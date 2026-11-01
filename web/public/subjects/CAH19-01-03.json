@@ -6,61 +6,129 @@
    "title": "English Literature",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?H3XD2C",
-   "ucas_code": "A22-F59"
+   "ucas_code": "A22-F59",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "English Literature",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/english-literature",
-   "ucas_code": "A14-A24"
+   "ucas_code": "A14-A24",
+   "setting": "campus town",
+   "town": "Cambridge"
   },
   {
    "title": "English Literature",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/8h25-english-literature-ba-hons",
-   "ucas_code": "A34-D08"
+   "ucas_code": "A34-D08",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "English Literature",
    "provider": "Bath Spa University",
    "url": "http://www.bathspa.ac.uk/courses/ug-english-literature/",
-   "ucas_code": "A09-G07"
+   "ucas_code": "A09-G07",
+   "setting": "campus town",
+   "town": "Bath"
   },
   {
    "title": "English",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/english",
-   "ucas_code": "A24-D57"
+   "ucas_code": "A24-D57",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "English Literature",
    "provider": "Birmingham City University",
    "url": "http://www.bcu.ac.uk/courses/english-literature-ba-hons-2027-28",
-   "ucas_code": "A14-D23"
+   "ucas_code": "A14-D23",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "English Literature",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/english-literature-ba",
-   "ucas_code": "A27-J04"
+   "ucas_code": "A27-J04",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "English Literature",
    "provider": "Coventry University",
    "url": "https://www.coventry.ac.uk/course-structure/ug/fah/english-literature-ba/?term=2027-28",
-   "ucas_code": "A49-D61"
+   "ucas_code": "A49-D61",
+   "setting": "city",
+   "town": "Coventry"
   },
   {
    "title": "English Literature",
    "provider": "De Montfort University",
    "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/english-literature-ba-degree/english-literature-ba-degree.aspx",
-   "ucas_code": "A25-G65"
+   "ucas_code": "A25-G65",
+   "setting": "city",
+   "town": "Leicester"
   },
   {
    "title": "English",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/q301/",
-   "ucas_code": "A07-G94"
+   "ucas_code": "A07-G94",
+   "setting": "campus town",
+   "town": "Durham"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Edge Hill University",
+   "url": "https://www.edgehill.ac.uk/course/english-literature/",
+   "ucas_code": "A05-C80",
+   "setting": "campus town",
+   "town": "Ormskirk"
+  },
+  {
+   "title": "English",
+   "provider": "Keele University",
+   "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/english/",
+   "ucas_code": "A03-F28",
+   "setting": "campus town",
+   "town": "Keele"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Leeds Beckett University",
+   "url": "http://courses.leedsbeckett.ac.uk/englishlit",
+   "ucas_code": "A10-H76",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Lincoln Bishop University",
+   "url": "https://www.lincolnbishop.ac.uk/courses/english-literature",
+   "ucas_code": "A31-A83",
+   "setting": "campus town",
+   "town": "Lincoln"
+  },
+  {
+   "title": "English Literature",
+   "provider": "Loughborough University",
+   "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/english-literature/#default",
+   "ucas_code": "A42-B37",
+   "setting": "campus town",
+   "town": "Loughborough"
+  },
+  {
+   "title": "English",
+   "provider": "Nottingham Trent University",
+   "url": "https://www.ntu.ac.uk/course/arts-and-humanities/ug/ba-hons-english",
+   "ucas_code": "A38-D08",
+   "setting": "city",
+   "town": "Nottingham"
   }
  ]
 }

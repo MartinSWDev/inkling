@@ -6,61 +6,129 @@
    "title": "Business Management",
    "provider": "Anglia Ruskin University",
    "url": "https://www.aru.ac.uk/study/undergraduate/business-management",
-   "ucas_code": "A13-J78"
+   "ucas_code": "A13-J78",
+   "setting": "campus town",
+   "town": "Chelmsford"
   },
   {
    "title": "Business Management",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons",
-   "ucas_code": "A55-J86"
+   "ucas_code": "A55-J86",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Business Management",
    "provider": "Buckinghamshire New University",
    "url": "https://dghe.ac.uk/course/ba-hons-business-management",
-   "ucas_code": "A61-H45"
+   "ucas_code": "A61-H45",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business Management",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/business-management",
-   "ucas_code": "A19-D28"
+   "ucas_code": "A19-D28",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Business and Management",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/business/courses/business-and-management-n201/",
-   "ucas_code": "A07-G34"
+   "ucas_code": "A07-G34",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Business Management",
    "provider": "Edinburgh Napier University",
    "url": "https://www.napier.ac.uk/courses/baba-hons-business-management-undergraduate-fulltime",
-   "ucas_code": "A25-C18"
+   "ucas_code": "A25-C18",
+   "setting": "city",
+   "town": "Edinburgh"
   },
   {
    "title": "Management",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/management/",
-   "ucas_code": "A50-D93"
+   "ucas_code": "A50-D93",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Business and Management",
    "provider": "Regent's University",
    "url": "https://www.regents.ac.uk/undergraduate/business/ba-hons-business-and-management-new-model",
-   "ucas_code": "A66-H55"
+   "ucas_code": "A66-H55",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Business and Management",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/management/business-and-management/",
-   "ucas_code": "A17-C72"
+   "ucas_code": "A17-C72",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Management",
    "provider": "SOAS University of London",
    "url": "https://www.soas.ac.uk/study/find-course/bsc-management",
-   "ucas_code": "A13-B91"
+   "ucas_code": "A13-B91",
+   "setting": "city",
+   "town": "London"
+  },
+  {
+   "title": "Business Management",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/som/business-management/bsc-business-management/",
+   "ucas_code": "A37-A06",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Business Management",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/ba-business-management/2027-28/sep",
+   "ucas_code": "A36-G52",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Business Management",
+   "provider": "The University Of Essex",
+   "url": "https://www.essex.ac.uk/courses/UG00045/1?coursecode=N200",
+   "ucas_code": "A32-E22",
+   "setting": "campus town",
+   "town": "Colchester"
+  },
+  {
+   "title": "Business Management",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Business-Management-BA-Hons",
+   "ucas_code": "A13-F45",
+   "setting": "campus town",
+   "town": "Huddersfield"
+  },
+  {
+   "title": "Business Management",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/business-management-ba-hons?option=standard-course&start=2027",
+   "ucas_code": "A12-D31",
+   "setting": "city",
+   "town": "Hull"
+  },
+  {
+   "title": "Business Management",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/i475/business-management-ba",
+   "ucas_code": "A26-I77",
+   "setting": "city",
+   "town": "Leeds"
   }
  ]
 }

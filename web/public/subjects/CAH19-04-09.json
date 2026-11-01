@@ -6,61 +6,129 @@
    "title": "Modern Languages",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?8AGRQZ",
-   "ucas_code": "A74-H50"
+   "ucas_code": "A74-H50",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Modern Languages",
    "provider": "Bangor University",
    "url": "https://www.bangor.ac.uk/courses/undergraduate/r800-modern-languages-ba-hons",
-   "ucas_code": "A62-B70"
+   "ucas_code": "A62-B70",
+   "setting": "coast",
+   "town": "Bangor"
   },
   {
    "title": "Modern Languages",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/modern-languages-french-german-italian-japanese-spanish",
-   "ucas_code": "A24-E10"
+   "ucas_code": "A24-E10",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Modern Languages",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/modern-languages-ba",
-   "ucas_code": "A71-F78"
+   "ucas_code": "A71-F78",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Modern Languages",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/modern-languages-literatures-and-cultures/modern-languages/",
-   "ucas_code": "A40-A89"
+   "ucas_code": "A40-A89",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Modern Languages",
    "provider": "Swansea University",
    "url": "https://www.swansea.ac.uk/undergraduate/courses/culture-communication/modern-lang-translation-interpretation/ba-modern-languages/",
-   "ucas_code": "A73-A73"
+   "ucas_code": "A73-A73",
+   "setting": "coast",
+   "town": "Swansea"
   },
   {
    "title": "Modern Languages",
    "provider": "The University Of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/modern-languages.aspx",
-   "ucas_code": "A04-J27"
+   "ucas_code": "A04-J27",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Modern Languages",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/ba-modern-languages/2027-28/sep",
-   "ucas_code": "A36-H87"
+   "ucas_code": "A36-H87",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Modern Languages",
    "provider": "The University Of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00294/1?coursecode=R900",
-   "ucas_code": "A32-H75"
+   "ucas_code": "A32-H75",
+   "setting": "campus town",
+   "town": "Colchester"
   },
   {
    "title": "Languages and Global Cultures",
    "provider": "The University Of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/languages-and-global-cultures-mlang-hons-r810/",
-   "ucas_code": "A26-A56"
+   "ucas_code": "A26-A56",
+   "setting": "campus town",
+   "town": "Lancaster"
+  },
+  {
+   "title": "Modern Languages",
+   "provider": "The University Of Leeds",
+   "url": "https://courses.leeds.ac.uk/202728/j036/modern-languages-ba",
+   "ucas_code": "A47-E56",
+   "setting": "city",
+   "town": "Leeds"
+  },
+  {
+   "title": "Modern Languages and Cultures",
+   "provider": "The University Of Sheffield",
+   "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/modern-languages-and-cultures-ba",
+   "ucas_code": "A35-G39",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Modern Languages",
+   "provider": "The University Of Warwick",
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-modern-languages",
+   "ucas_code": "A20-D15",
+   "setting": "campus town",
+   "town": "Coventry"
+  },
+  {
+   "title": "Modern Languages",
+   "provider": "University Of Lancashire",
+   "url": "https://www.lancashire.ac.uk/undergraduate/courses/modern-languages-ba-hons",
+   "ucas_code": "A73-B10",
+   "setting": "campus town",
+   "town": "Preston"
+  },
+  {
+   "title": "Comparative Literatures and Cultures and Modern Languages",
+   "provider": "University of Bristol",
+   "url": "http://www.bristol.ac.uk/study/undergraduate/2027/modern-languages/ba-comparative-literatures-and-cultures-and-modern-languages/",
+   "ucas_code": "A74-I43",
+   "setting": "city",
+   "town": "Bristol"
+  },
+  {
+   "title": "Modern Languages",
+   "provider": "University of Chester",
+   "url": "https://www.chester.ac.uk/study/course-search/modern-languages-ba-hons/?studyMode=103252",
+   "ucas_code": "A70-A90",
+   "setting": "campus town",
+   "town": "Chester"
   }
  ]
 }

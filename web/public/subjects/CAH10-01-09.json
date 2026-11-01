@@ -6,61 +6,129 @@
    "title": "Chemical Engineering",
    "provider": "Aston University",
    "url": "https://www.aston.ac.uk/study/courses/chemical-engineering-beng",
-   "ucas_code": "A30-B32"
+   "ucas_code": "A30-B32",
+   "setting": "city",
+   "town": "Birmingham"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Brunel University of London",
    "url": "https://www.brunel.ac.uk/study/undergraduate/chemical-engineering-beng",
-   "ucas_code": "A44-E97"
+   "ucas_code": "A44-E97",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Canterbury Christ Church University",
    "url": "https://www.canterbury.ac.uk/study-here/courses/chemical-engineering-beng",
-   "ucas_code": "A47-G96"
+   "ucas_code": "A47-G96",
+   "setting": "campus town",
+   "town": "Canterbury"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/chemical-engineering-beng",
-   "ucas_code": "A05-J59"
+   "ucas_code": "A05-J59",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/chemicalengineering/",
-   "ucas_code": "A76-C31"
+   "ucas_code": "A76-C31",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Chemical Engineering",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/beng-hons-chemical-engineering#overview",
-   "ucas_code": "A55-I07"
+   "ucas_code": "A55-I07",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Loughborough University",
    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/a-z/chemical-engineering-meng/",
-   "ucas_code": "A18-B47"
+   "ucas_code": "A18-B47",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/h810/",
-   "ucas_code": "A27-B02"
+   "ucas_code": "A27-B02",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/chemical-engineering",
-   "ucas_code": "A00-I15"
+   "ucas_code": "A00-I15",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Chemical Engineering",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/chemical-engineering-beng-h800/#overview",
-   "ucas_code": "A28-B59"
+   "ucas_code": "A28-B59",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/engineering/meng-chemical-engineering/full-time",
+   "ucas_code": "A17-I18",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/engineering-applied-sciences/chemical-engineering/beng-chemical-engineering/",
+   "ucas_code": "A37-A50",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/chemical-engineering/chemical-engineering-beng.aspx",
+   "ucas_code": "A04-H75",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "The University Of Bradford",
+   "url": "https://www.bradford.ac.uk/courses/ug/chemical-engineering-beng/?att=ft",
+   "ucas_code": "A11-C46",
+   "setting": "city",
+   "town": "Bradford"
+  },
+  {
+   "title": "Energy Engineering",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/beng-energy-engineering/2027-28/sep",
+   "ucas_code": "A36-G90",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Chemical Engineering",
+   "provider": "The University Of Huddersfield",
+   "url": "https://courses.hud.ac.uk/2027-28/undergraduate/Chemical-Engineering-BEng-Hons",
+   "ucas_code": "A63-H25",
+   "setting": "campus town",
+   "town": "Huddersfield"
   }
  ]
 }

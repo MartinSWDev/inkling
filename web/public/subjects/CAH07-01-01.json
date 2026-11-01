@@ -6,61 +6,129 @@
    "title": "Physics",
    "provider": "Aberystwyth University",
    "url": "http://www.aber.ac.uk/courses/?FEUK3H",
-   "ucas_code": "A22-H03"
+   "ucas_code": "A22-H03",
+   "setting": "coast",
+   "town": "Aberystwyth"
   },
   {
    "title": "Physics",
    "provider": "Cardiff University",
    "url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/physics-bsc",
-   "ucas_code": "A28-A70"
+   "ucas_code": "A28-A70",
+   "setting": "city",
+   "town": "Cardiff"
   },
   {
    "title": "Physics",
    "provider": "Durham University",
    "url": "https://www.durham.ac.uk/study/courses/f300/",
-   "ucas_code": "A07-H54"
+   "ucas_code": "A07-H54",
+   "setting": "campus town",
+   "town": "Durham"
   },
   {
    "title": "Physics",
    "provider": "Heriot-Watt University",
    "url": "https://www.hw.ac.uk/study/undergraduate/physics-bsc",
-   "ucas_code": "A77-A00"
+   "ucas_code": "A77-A00",
+   "setting": "campus town",
+   "town": "Edinburgh"
   },
   {
    "title": "Physics",
    "provider": "Keele University",
    "url": "https://www.keele.ac.uk/study/undergraduate/undergraduatecourses/physics",
-   "ucas_code": "A03-H05"
+   "ucas_code": "A03-H05",
+   "setting": "campus town",
+   "town": "Keele"
   },
   {
    "title": "Physics",
    "provider": "Loughborough University",
    "url": "http://www.lboro.ac.uk/study/undergraduate/courses/a-z/physics-bsc/#variant",
-   "ucas_code": "A18-D27"
+   "ucas_code": "A18-D27",
+   "setting": "campus town",
+   "town": "Loughborough"
   },
   {
    "title": "Physics",
    "provider": "Nottingham Trent University",
    "url": "https://www.ntu.ac.uk/course/science-and-technology/ug/bsc-hons-physics",
-   "ucas_code": "A38-E80"
+   "ucas_code": "A38-E80",
+   "setting": "city",
+   "town": "Nottingham"
   },
   {
    "title": "Physics",
    "provider": "Newcastle University",
    "url": "http://www.ncl.ac.uk/undergraduate/degrees/f300/",
-   "ucas_code": "A27-C89"
+   "ucas_code": "A27-C89",
+   "setting": "city",
+   "town": "Newcastle upon Tyne"
   },
   {
    "title": "Physics",
    "provider": "Queen Mary University of London",
    "url": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/physics",
-   "ucas_code": "A50-I40"
+   "ucas_code": "A50-I40",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Physics",
    "provider": "Queen's University Belfast",
    "url": "https://www.qub.ac.uk/courses/undergraduate/physics-bsc-f300/",
-   "ucas_code": "A28-D01"
+   "ucas_code": "A28-D01",
+   "setting": "coast",
+   "town": "Belfast"
+  },
+  {
+   "title": "Physics",
+   "provider": "Royal Holloway, University of London",
+   "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/physics/physics-msci/",
+   "ucas_code": "A17-E88",
+   "setting": "campus town",
+   "town": "Egham"
+  },
+  {
+   "title": "Physics",
+   "provider": "Sheffield Hallam University",
+   "url": "https://www.shu.ac.uk/courses/physics/bsc-honours-physics/full-time",
+   "ucas_code": "A18-A43",
+   "setting": "city",
+   "town": "Sheffield"
+  },
+  {
+   "title": "Physics",
+   "provider": "Swansea University",
+   "url": "https://www.swansea.ac.uk/undergraduate/courses/biosciences-geography-physics/physics/bsc-physics/",
+   "ucas_code": "A37-D49",
+   "setting": "coast",
+   "town": "Swansea"
+  },
+  {
+   "title": "Physics",
+   "provider": "The University Of Birmingham",
+   "url": "https://www.birmingham.ac.uk/undergraduate/courses/physics/physics-msci.aspx",
+   "ucas_code": "A04-J50",
+   "setting": "city",
+   "town": "Birmingham"
+  },
+  {
+   "title": "Physics",
+   "provider": "The University Of East Anglia",
+   "url": "https://www.uea.ac.uk/course/undergraduate/bsc-physics/2027-28/sep",
+   "ucas_code": "A36-I14",
+   "setting": "campus town",
+   "town": "Norwich"
+  },
+  {
+   "title": "Physics",
+   "provider": "The University Of Hull",
+   "url": "https://www.hull.ac.uk/study/undergraduate/courses/physics-bsc-mphys?option=integrated-masters&start=2027",
+   "ucas_code": "A12-H87",
+   "setting": "city",
+   "town": "Hull"
   }
  ]
 }

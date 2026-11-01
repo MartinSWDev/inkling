@@ -6,55 +6,73 @@
    "title": "Developmental Psychology",
    "provider": "The University Of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-developmental-psychology/2027-28/sep",
-   "ucas_code": "A36-G79"
+   "ucas_code": "A36-G79",
+   "setting": "campus town",
+   "town": "Norwich"
   },
   {
    "title": "Psychological Studies (Child Development and Education) 3-year full-time",
    "provider": "Birkbeck, University of London",
    "url": "https://www.bbk.ac.uk/courses/undergraduate/psychological-studies-child-development-and-education",
-   "ucas_code": "B72-F39"
+   "ucas_code": "B72-F39",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology (Child Development)",
    "provider": "London South Bank University",
    "url": "https://www.lsbu.ac.uk/study/course-finder/bsc-hons-psychology-child-development#overview",
-   "ucas_code": "A63-B11"
+   "ucas_code": "A63-B11",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology, Lifespan and Developmental Psychology",
    "provider": "Royal Holloway, University of London",
    "url": "https://www.royalholloway.ac.uk/studying-here/undergraduate/psychology/psychology-lifespan-and-developmental-psychology/",
-   "ucas_code": "A17-F01"
+   "ucas_code": "A17-F01",
+   "setting": "campus town",
+   "town": "Egham"
   },
   {
    "title": "Psychology with Child Development",
    "provider": "The University of East London Higher Education Corporation",
    "url": "https://www.uel.ac.uk/undergraduate/courses/bsc-hons-psychology-child-development",
-   "ucas_code": "A24-B34"
+   "ucas_code": "A24-B34",
+   "setting": "city",
+   "town": "London"
   },
   {
    "title": "Psychology of Child Development",
    "provider": "University Of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/psychology-of-child-development-bsc-hons",
-   "ucas_code": "A02-E60"
+   "ucas_code": "A02-E60",
+   "setting": "campus town",
+   "town": "Preston"
   },
   {
    "title": "Psychology and Child Development",
    "provider": "University of Winchester",
    "url": "https://www.winchester.ac.uk/study/undergraduate/courses/bsc-hons-psychology-and-child-development",
-   "ucas_code": "A09-D95"
+   "ucas_code": "A09-D95",
+   "setting": "campus town",
+   "town": "Winchester"
   },
   {
    "title": "Psychology with Child Development",
    "provider": "York St John University",
    "url": "https://www.yorksj.ac.uk/courses/undergraduate/psychology/psychology-with-child-development-bsc-hons/",
-   "ucas_code": "A54-A64"
+   "ucas_code": "A54-A64",
+   "setting": "campus town",
+   "town": "York"
   },
   {
    "title": "Psychology and Child Development",
    "provider": "Burton and South Derbyshire College",
    "url": "https://www.staffs.ac.uk/course/psychology-child-development-bsc",
-   "ucas_code": "A39-C49"
+   "ucas_code": "A39-C49",
+   "setting": "city",
+   "town": "Stoke-on-Trent"
   }
  ]
 }
