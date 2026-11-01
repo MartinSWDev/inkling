@@ -517,7 +517,7 @@ export default function App() {
             {wildcardRow ? (<button className="wildcard" aria-label={wildcardFlipped ? wildcardRow.display_name : "Flip the wildcard card"}
               onClick={() => { if (!wildcardFlipped) { setWildcardFlipped(true); sfx.thwip(); buzz(); } }}>
               <motion.span className="wildinner" animate={{ rotateY: wildcardFlipped ? 180 : 0 }} transition={{ type: "spring", stiffness: 260, damping: 26 }}>
-                <span className="wildface wildback">?<small className="tapflip">Tap to flip</small></span>
+                <span className="wildface wildback">?<small className="tapflip">Tap to reveal your wildcard</small></span>
                 <span className="wildface wildfront">
                   <img src={"/stickers/" + wildcardRow.code + ".webp"} alt="" draggable={false} onDragStart={(e) => e.preventDefault()} />
                   <b>{wildcardRow.display_name}</b>
