@@ -150,6 +150,16 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
       catch { return false; }
     }).catch(() => false);
     console.log("navigator.share with files:", canFiles);
+    await step("share video ready", async () => {
+      const btn = page.getByRole("button", { name: /share video|preparing your video/i });
+      const t0 = Date.now();
+      await page.waitForFunction(() => {
+        const b = [...document.querySelectorAll("button")].find((x) => /share video/i.test(x.textContent || ""));
+        return !!b && !(b as HTMLButtonElement).disabled;
+      }, null, { timeout: 40000 });
+      console.log("share video ready (pre-rendered):", ((Date.now() - t0) / 1000).toFixed(1) + "s wait on share page");
+      await btn.click().catch(() => null);
+    });
     await step("share video download", async () => {
       const dl = page.waitForEvent("download", { timeout: 45000 });
       await page.getByRole("button", { name: /share video/i }).click();

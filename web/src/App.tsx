@@ -53,7 +53,10 @@ export default function App() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
-  const [videoBusy, setVideoBusy] = useState(false);
+  const [videoStatus, setVideoStatus] = useState<"idle" | "preparing" | "ready">("idle");
+  const videoRef = useRef<{ key: string; blob: Blob; ext: string } | null>(null);
+  const imageRef = useRef<{ key: string; blob: Blob } | null>(null);
+  const videoGenRef = useRef("");
   const [wildcardFlipped, setWildcardFlipped] = useState(false);
   const [liftStep, setLiftStep] = useState(0);
   useEffect(() => {
@@ -289,6 +292,30 @@ export default function App() {
   const exploreList = wildcardRow && !top3.some((r) => r.code === wildcardRow.code) ? [...top3, wildcardRow] : top3;
   const plainOf = (code: string) => subjects.find((s) => s.code === code)?.plain;
   const whyOf = (code: string) => subjects.find((s) => s.code === code)?.why_line;
+
+  // Pre-render the share video + still in the background once the reveal
+  // starts (wildcard is known by then), so Share can fire inside the tap's
+  // transient user activation instead of after a 10s recording.
+  const shareKey = displayCodes.join(",") + "|" + view + "|" + viewTime + "|" + top3.map((r) => r.code).join(",") + "|" + (surprise ?? "");
+  useEffect(() => {
+    if (!assets || (scene.kind !== "reveal" && scene.kind !== "share")) return;
+    if (videoRef.current?.key === shareKey) { setVideoStatus("ready"); return; }
+    if (videoGenRef.current === shareKey) return;
+    videoGenRef.current = shareKey;
+    setVideoStatus("preparing");
+    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
+    makeShareVideo({ assigned, viewId: view, viewTime, layout: assets.layout,
+      topNames: top3.map((r) => r.display_name), wildcardName: wildcardRow?.display_name ?? null, shortUrl: shareUrl(data) })
+      .then(({ blob, ext }) => {
+        videoRef.current = { key: shareKey, blob, ext };
+        if (videoGenRef.current === shareKey) setVideoStatus("ready");
+      })
+      .catch((e: Error) => { console.log("share video render failed:", e?.name); if (videoGenRef.current === shareKey) { videoGenRef.current = ""; setVideoStatus("idle"); } });
+    composeRoomCanvas(assigned, view, viewTime, assets.layout)
+      .then((canvas) => canvas.toBlob((b) => { if (b) imageRef.current = { key: shareKey, blob: b }; }))
+      .catch(() => null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scene.kind, assets, shareKey]);
 
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
@@ -545,29 +572,47 @@ export default function App() {
                 <div className="over"><b>What's your inkling?</b>
                   <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></div>
               </div>
-              <div><p className="note">{videoBusy ? "Making your video…" : "A 10-second video of your room filling up, or send the link."}</p>
+              <div><p className="note">{videoStatus === "preparing" ? "Preparing your video…" : "A 10-second video of your room filling up, or send the link."}</p>
                 <div className="row" style={{ marginTop: 10 }}>
-                  <button className="btn alt" disabled={videoBusy} onClick={async () => {
-                    if (!assets || videoBusy) return;
+                  <button className="btn alt" disabled={videoStatus !== "ready"} onClick={async () => {
+                    // Blob was pre-rendered at reveal start: share() fires
+                    // immediately inside this tap's user activation.
+                    const cached = videoRef.current;
+                    if (!cached || cached.key !== shareKey) return;
                     const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
-                    setVideoBusy(true);
-                    try {
-                      const { blob, ext } = await makeShareVideo({ assigned, viewId: view, viewTime, layout: assets.layout,
-                        topNames: top3.map((r) => r.display_name), wildcardName: wildcardRow?.display_name ?? null, shortUrl: shareUrl(data) });
-                      const file = new File([blob], "inkling." + ext, { type: blob.type });
-                      if (navigator.canShare?.({ files: [file] })) await navigator.share({ files: [file], text: "What's your inkling?", url: shareUrl(data) });
-                      else { const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = file.name; a.click(); URL.revokeObjectURL(u); }
-                    } catch { tip("Video didn't work on this browser — try Save image."); }
-                    setVideoBusy(false);
-                  }}>{videoBusy ? "Making your video…" : "Share video"}</button>
+                    const url = shareUrl(data);
+                    const file = new File([cached.blob], "inkling." + cached.ext, { type: cached.blob.type });
+                    if (navigator.canShare?.({ files: [file] })) {
+                      try { await navigator.share({ files: [file], text: "What's your inkling?", url }); }
+                      catch (e) {
+                        if ((e as Error).name !== "AbortError") { console.log("share video failed:", (e as Error).name); tip("Sharing didn't work on this browser — try Share image."); }
+                      }
+                    } else {
+                      const u = URL.createObjectURL(cached.blob); const a = document.createElement("a");
+                      a.href = u; a.download = file.name; a.click(); URL.revokeObjectURL(u);
+                      try { await navigator.clipboard.writeText("What's your inkling? " + url); } catch { /* clipboard optional */ }
+                      tip("Video saved — post it from your phone or upload it to Instagram.");
+                    }
+                  }}>{videoStatus === "preparing" ? "Preparing your video…" : "Share video"}</button>
                   <button className="btn" onClick={async () => {
                     const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
                     try { await navigator.clipboard.writeText(shareUrl(data)); tip("Link copied."); } catch { tip(shareUrl(data)); }
                   }}>Copy link</button>
                   <button className="btn" onClick={async () => {
                     if (!assets) return;
-                    download(await composeRoomCanvas(assigned, view, viewTime, assets.layout), "inkling-room.png");
-                  }}>Save image</button>
+                    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
+                    const url = shareUrl(data);
+                    const cachedImg = imageRef.current?.key === shareKey ? imageRef.current.blob : null;
+                    const file = cachedImg ? new File([cachedImg], "inkling-room.png", { type: "image/png" }) : null;
+                    if (file && navigator.canShare?.({ files: [file] })) {
+                      try { await navigator.share({ files: [file], text: "What's your inkling?", url }); }
+                      catch (e) {
+                        if ((e as Error).name !== "AbortError") { console.log("share image failed:", (e as Error).name); tip("Sharing didn't work on this browser."); }
+                      }
+                    } else {
+                      download(await composeRoomCanvas(assigned, view, viewTime, assets.layout), "inkling-room.png");
+                    }
+                  }}>Share image</button>
                   <button className="btn ghost" onClick={restart}>Start over</button>
                 </div></div></div>
           </div></div>
