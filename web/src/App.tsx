@@ -389,6 +389,13 @@ export default function App() {
         <motion.div className="sheet2" variants={popUp} initial="hidden" animate="shown">
           <h2>Before we start</h2>
           <p className="note">Four quick rounds. Answer on gut feel — there are no wrong answers. Your room fills up with what you're into, then you'll see subjects worth exploring.</p>
+          <div className="daypick" role="group" aria-label="Day or dusk">
+            {(["day", "dusk"] as const).map((t) => (
+              <button key={t} aria-pressed={viewTime === t} onClick={() => { setViewTime(t); sfx.pop(); }}>
+                <img src={"/views/" + view + "_" + t + ".webp"} alt="" draggable={false} />
+                <span>{viewTime === t ? "✓ " : ""}{t === "day" ? "Day" : "Dusk"}</span>
+              </button>))}
+          </div>
           <button className="btn alt" onClick={() => { sfx.pop(); buzz(); dispatch({ type: "GO" }); }}>Let's go</button>
         </motion.div>
       </section>)}
@@ -529,10 +536,8 @@ export default function App() {
           <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
             <div className="views swatches">{VIEWS.map((v) => (
               <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>
-                <img src={"/views/" + v.id + "_" + viewTime + ".webp"} alt="" />
+                <img src={"/views/" + v.id + "_day.webp"} alt="" />
                 <span>{v.id === view ? "✓ " : ""}{v.name}</span></button>))}</div>
-            <div className="segcontrol" role="group" aria-label="Time of day">
-              {["day", "dusk"].map((t) => <button key={t} aria-pressed={t === viewTime} onClick={() => setViewTime(t)}>{t === "day" ? "Day" : "Dusk"}</button>)}</div>
             <p className="note">It changes the view from your window.</p></div></div>
           <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><h2>Share your room</h2>
             <div className="share"><div className="phone">

@@ -183,6 +183,10 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .views.swatches button span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .views.swatches img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:7px;display:block}
 .views button[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.daypick{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+.daypick button{font:inherit;display:grid;gap:5px;padding:6px;background:var(--paper);color:var(--ink);border:1.5px solid var(--line);border-radius:12px;cursor:pointer;text-align:left;font-size:13px;font-weight:600;min-height:44px}
+.daypick button img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px;display:block}
+.daypick button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
 .segcontrol{display:flex;background:var(--paper);border:1px solid var(--line);border-radius:99px;padding:3px;gap:3px;margin-top:8px}
 .segcontrol button{flex:1;font:inherit;border:0;border-radius:99px;padding:9px;background:transparent;color:var(--ink);cursor:pointer;min-height:44px}
 .segcontrol button[aria-pressed="true"]{background:var(--ink);color:var(--paper);font-weight:600}

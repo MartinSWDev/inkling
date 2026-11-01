@@ -45,6 +45,13 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
   await shot("01e-unfold-5");
   await page.waitForTimeout(500);
   await shot("02-intro");
+  await step("intro dusk then day", async () => {
+    await page.getByRole("button", { name: /^dusk$/i }).click();
+    await page.waitForTimeout(500);
+    await shot("02b-intro-dusk");
+    await page.getByRole("button", { name: /^day$/i }).click();
+    await page.waitForTimeout(400);
+  });
   await step("lets-go", async () => { await clickText(/let's go|lets go|continue/i); });
   await page.waitForTimeout(1400);
   await shot("03-round-title-or-round1");
