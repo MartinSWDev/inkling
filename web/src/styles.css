@@ -229,13 +229,13 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-ink);background:var(--accent);padding:2px 7px;border-radius:99px}
 .views{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .views button{font:inherit;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);border-radius:12px;padding:10px;cursor:pointer;text-align:left}
-.views button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.views button[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--accent)}
 .share{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
 @media(max-width:420px){.share{grid-template-columns:1fr}}
 .phone{width:150px;aspect-ratio:9/16;border-radius:20px;border:5px solid var(--ink);background:var(--wall2);overflow:hidden;position:relative}
 .phone img{width:100%;height:100%;object-fit:cover;display:block}
-.phone .over{position:absolute;left:0;right:0;bottom:0;padding:10px;background:linear-gradient(transparent,rgba(0,0,0,.65));color:#fff;font-size:.72rem}
-.phone .over b{display:block;font-family:var(--display);font-weight:400;font-size:.9rem}
+.phone .over{position:absolute;left:6px;right:6px;bottom:6px;padding:9px 10px;background:rgba(30,24,48,.82);border-radius:10px;color:#fff;font-size:.72rem}
+.phone .over b{display:block;font-family:var(--display);font-weight:700;font-size:15px;line-height:1.2}
 .row{display:flex;gap:10px;flex-wrap:wrap}
 pre{white-space:pre-wrap;word-wrap:break-word;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:.78rem;max-height:160px;overflow:auto}
 :focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:4px}

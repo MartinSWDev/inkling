@@ -8,7 +8,7 @@ import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
 import { makeShareVideo, shareUrl, type ShareData } from "./share";
-const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "country", name: "Countryside" }];
+const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "countryside", name: "Countryside" }];
 const SCENES: Record<string, [string, string]> = { sea: ["#1f6f8b", "#8fd0e6"], desk: ["#5a4a7a", "#c9b7e8"], wood: ["#6e4329", "#d9b48f"], night: ["#1c1a3a", "#6b5aa8"], dark: ["#101418", "#2f3a48"], green: ["#2f6b3a", "#a9d9a0"], light: ["#e8dfd0", "#fff8ea"] };
 
 function heat(roundIdx: number, n: number) {
@@ -88,7 +88,7 @@ export default function App() {
   // Preload room layers, common stickers, card art and views while the landing is shown.
   useEffect(() => {
     if (!content) return;
-    const urls = ["/room/room.png", ...["city", "coast", "campus", "country"].flatMap((v) => ["day", "dusk"].map((t) => `/views/${v}_${t}.webp`)),
+    const urls = ["/room/room.png", ...["city", "coast", "campus", "countryside"].flatMap((v) => ["day", "dusk"].map((t) => `/views/${v}_${t}.webp`)),
       ...[...content.things, ...content.questions].map((c) => `/cards/${c.id}.webp`)];
     for (const u of urls) { const img = new Image(); img.src = u; }
     fetch("/stickers/stickers.json").then((r) => r.json()).then((list: { code: string }[]) => {
