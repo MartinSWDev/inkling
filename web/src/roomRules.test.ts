@@ -95,9 +95,9 @@ describe("room growth rules", () => {
 
   it("reveal keeps a floor or bed object when a qualified one exists", () => {
     const ranked = [
-      { code: "A", display_name: "A", score: 5, uncertainty: 1, direct: 1, reasons: [] },
-      { code: "B", display_name: "B", score: 1, uncertainty: 1, direct: 1, reasons: [] },
-      { code: "F", display_name: "F", score: 3, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "A", display_name: "A", calibrated: 5, score: 5, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "B", display_name: "B", calibrated: 1, score: 1, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "F", display_name: "F", calibrated: 3, score: 3, uncertainty: 1, direct: 1, reasons: [] },
     ];
     const slots: Record<string, string> = { A: "shelf", B: "desk", F: "floor" };
     expect(ensureFloorOrBed(["A", "B"], ranked, new Set(["A", "B", "F"]), (c) => slots[c])).toEqual(["A", "F"]);
@@ -106,16 +106,16 @@ describe("room growth rules", () => {
 
   it("during rounds a placed object never leaves, even at the cap", () => {
     const ranked = [
-      { code: "NEW", display_name: "New", score: 9, uncertainty: 1, direct: 1, reasons: [] },
-      { code: "A", display_name: "A", score: 5, uncertainty: 1, direct: 1, reasons: [] },
-      { code: "B", display_name: "B", score: 1, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "NEW", display_name: "New", calibrated: 9, score: 9, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "A", display_name: "A", calibrated: 5, score: 5, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "B", display_name: "B", calibrated: 1, score: 1, uncertainty: 1, direct: 1, reasons: [] },
     ];
     expect(growRoom(["A", "B"], { A: 5, B: 1 }, ranked, new Set(["NEW", "A", "B"]), 2)).toEqual(["A", "B"]);
     expect(growRoom(["A"], { A: 5 }, ranked, new Set(["NEW", "A", "B"]), 2)).toEqual(["A", "NEW"]);
   });
 
   it("top 3 keeps at most one subject per CAH level-2 parent", () => {
-    const row = (code: string, score: number) => ({ code, display_name: code, score, uncertainty: 1, direct: 1, reasons: [] });
+    const row = (code: string, score: number) => ({ code, display_name: code, score, calibrated: score, uncertainty: 1, direct: 1, reasons: [] });
     const ranked = [row("CAH10-01-01", 10), row("CAH10-01-02", 9), row("CAH07-01-01", 8), row("CAH03-01-02", 7)];
     const parentOf = (c: string) => c.split("-").slice(0, 2).join("-");
     expect(diverseTop(ranked, parentOf).map((r) => r.code)).toEqual(["CAH10-01-01", "CAH07-01-01", "CAH03-01-02"]);
@@ -126,10 +126,10 @@ describe("room growth rules", () => {
 
   it("reveal puts every result in the room, swapping only non-results", () => {
     const ranked = [
-      { code: "T1", display_name: "T1", score: 9, uncertainty: 1, direct: 1, reasons: [] },
-      { code: "W", display_name: "W", score: 8, uncertainty: 1, direct: 0, reasons: [] },
-      { code: "A", display_name: "A", score: 5, uncertainty: 1, direct: 1, reasons: [] },
-      { code: "B", display_name: "B", score: 1, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "T1", display_name: "T1", calibrated: 9, score: 9, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "W", display_name: "W", calibrated: 8, score: 8, uncertainty: 1, direct: 0, reasons: [] },
+      { code: "A", display_name: "A", calibrated: 5, score: 5, uncertainty: 1, direct: 1, reasons: [] },
+      { code: "B", display_name: "B", calibrated: 1, score: 1, uncertainty: 1, direct: 1, reasons: [] },
     ];
     const full = ["A", "B", "C1", "C2", "C3", "C4", "C5", "C6"];
     const out = ensureResults(full, ["T1", "W"], ranked);

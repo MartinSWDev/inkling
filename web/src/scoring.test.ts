@@ -18,6 +18,14 @@ describe("shared scoring fixture (same file as pytest)", () => {
       if (exp.zero_all) for (const r of result.ranked) { expect(r.score).toBe(0); expect(r.uncertainty).toBe(1); }
       if (exp.top) expect(result.ranked[0].code).toBe(exp.top);
       if (exp.top_score !== undefined) expect(Math.abs(result.ranked[0].score - exp.top_score)).toBeLessThan(0.02);
+      if (exp.top_calibrated !== undefined) expect(Math.abs(result.ranked[0].calibrated - exp.top_calibrated)).toBeLessThan(0.02);
+      if (exp.raw_top) {
+        const rawTop = result.ranked.reduce((a, b) => (b.score > a.score ? b : a));
+        expect(rawTop.code).toBe(exp.raw_top);
+        if (exp.raw_top_score !== undefined) expect(Math.abs(rawTop.score - exp.raw_top_score)).toBeLessThan(0.02);
+      }
+      if (exp.calibrated_first3) expect(result.ranked.slice(0, 3).map((r) => r.code)).toEqual(exp.calibrated_first3);
+      for (const [a, b] of exp.greater_calibrated || []) expect(rows[a].calibrated).toBeGreaterThan(rows[b].calibrated);
       for (const code of exp.positive || []) expect(rows[code].score).toBeGreaterThan(0);
       for (const code of exp.negative || []) expect(rows[code].score).toBeLessThan(0);
       for (const [code, labels] of Object.entries(exp.reasons || {}))
@@ -26,6 +34,30 @@ describe("shared scoring fixture (same file as pytest)", () => {
       for (const code of exp.room_includes || []) expect(result.room).toContain(code);
     });
   }
+});
+
+describe("calibrated scoring (prompts/15 A)", () => {
+  it("shipped calibration copy matches data/score_calibration.json", () => {
+    const shipped = load("../public/data/score_calibration.json");
+    const canonical = load("../../data/score_calibration.json");
+    expect(shipped).toEqual(canonical);
+  });
+  it("missing calibration falls back to raw ranking", () => {
+    const result = scoreAnswers({ chips: [{ id: "maths", state: "love" }] }, cards, profiles, pairs, decks, {}, null);
+    expect(result.ranked[0].code).toBe("CAH09-01-01");
+    for (const r of result.ranked) expect(r.calibrated).toBe(r.score);
+  });
+  it("Agriculture persona (s00-12) top 3 is not Zoology/Biology/Ecology", () => {
+    const students = load("../../data/sim/students.json").students;
+    const persona = students.find((s: { id: string }) => s.id === "s00-12");
+    expect(persona.suits).toContain("CAH06-01-03");
+    const answers: Record<string, unknown[]> = { chips: [], typed: [], swipes: [], pairs: [] };
+    for (const [kind, value] of persona.steps as [string, unknown][]) answers[kind].push(value);
+    const top3 = scoreAnswers(answers as never, cards, profiles, pairs, decks).ranked.slice(0, 3).map((r) => r.code);
+    expect(new Set(top3)).not.toEqual(new Set(["CAH03-01-06", "CAH03-01-03", "CAH03-01-02"]));
+    expect(top3.some((c) => c.startsWith("CAH06-01"))).toBe(true);
+    expect(top3.some((c) => persona.suits.includes(c))).toBe(true);
+  });
 });
 
 describe("hands-on routes (prompts/12 D)", () => {

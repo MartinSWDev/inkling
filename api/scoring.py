@@ -6,8 +6,10 @@ Answers: {"chips": [{"id", "state": "take"|"love"}], "typed": ["Textiles"],
 Multipliers match the demo: yes 1, no -0.5, up 2, chip take 0.4, chip love 1.
 Neighbours get 0.35 of the signal. Pairs use subject_profiles z-scores.
 """
+import json
 import math
 import random
+from pathlib import Path
 
 CHIPS = [
     {"id": "maths", "name": "Maths", "terms": ["maths", "statistics", "numbers"]},
@@ -120,8 +122,37 @@ def _zscores(profiles):
     return stats
 
 
-def score_answers(answers, cards, profiles, pairs_data):
-    """Pure: answers + datasets -> ranked subjects with reasons. No I/O, no randomness."""
+_CALIBRATION_PATH = Path(__file__).resolve().parent.parent / "data" / "score_calibration.json"
+_calibration_cache = None
+
+
+def load_calibration():
+    """Committed per-subject [mean, sd] of raw scores (data/score_calibration.json).
+
+    Returns {} when the file is missing, so scoring falls back to raw ranking."""
+    global _calibration_cache
+    if _calibration_cache is None:
+        try:
+            _calibration_cache = json.loads(_CALIBRATION_PATH.read_text())
+        except (OSError, ValueError):
+            _calibration_cache = {}
+    return _calibration_cache
+
+
+def _calibrated(raw, code, calibration):
+    entry = (calibration or {}).get("subjects", {}).get(code)
+    if not entry:
+        return raw
+    mean, sd = entry
+    return (raw - mean) / (sd + calibration.get("k", 0.25) * calibration.get("avg_sd", 0.0))
+
+
+def score_answers(answers, cards, profiles, pairs_data, calibration=None):
+    """answers + datasets -> subjects ranked by calibrated score.
+
+    Each row keeps `score` = raw score (for debugging) and adds `calibrated`;
+    `ranked` is sorted by calibrated. calibration=None loads the committed
+    file; pass {} to force raw ranking."""
     by_code = {c["code"]: c for c in cards}
     score = {c["code"]: 0.0 for c in cards}
     unc = {c["code"]: 1.0 for c in cards}
@@ -171,13 +202,15 @@ def score_answers(answers, cards, profiles, pairs_data):
                 top = max(user_vec, key=lambda m: abs(user_vec[m]))
                 if total > 0:
                     contrib[code][pair_labels[top]] = contrib[code].get(pair_labels[top], 0) + total * 0.35
+    cal = load_calibration() if calibration is None else calibration
     ranked = sorted(
         ({"code": c["code"], "display_name": c["display_name"], "score": round(score[c["code"]], 3),
+          "calibrated": round(_calibrated(score[c["code"]], c["code"], cal), 3),
           "uncertainty": round(unc[c["code"]], 3), "direct": round(direct[c["code"]], 3),
           "reasons": [k for k, _ in sorted(contrib[c["code"]].items(), key=lambda kv: -kv[1])[:2]]}
-         for c in cards), key=lambda r: -r["score"])
-    surprise = next((r["code"] for r in ranked if r["score"] > 0.3 and r["direct"] < 0.15), None)
-    room = [r["code"] for r in ranked if r["score"] > 0.15][:8]
+         for c in cards), key=lambda r: -r["calibrated"])
+    surprise = next((r["code"] for r in ranked if r["calibrated"] > 0.3 and r["direct"] < 0.15), None)
+    room = [r["code"] for r in ranked if r["calibrated"] > 0][:8]
     return {"ranked": ranked, "surprise": surprise, "room": room}
 
 

@@ -1,18 +1,20 @@
 {
- "about": "Shared scoring cases. Both api/tests/test_scoring.py (pytest) and web/src/scoring.test.ts (vitest) run every case against the same datasets, so the Python and TypeScript scorers cannot drift. Scores compared with tolerance 0.02.",
+ "about": "Shared scoring cases. Both api/tests/test_scoring.py (pytest) and web/src/scoring.test.ts (vitest) run every case against the same datasets, so the Python and TypeScript scorers cannot drift. Scores compared with tolerance 0.02. 'top' is the first row of ranked, which is sorted by calibrated score; 'raw_top' is the highest raw score; 'score' in a row is always the raw score.",
  "cases": [
   {"name": "empty", "answers": {}, "expect": {"zero_all": true}},
   {"name": "maths_love", "answers": {"chips": [{"id": "maths", "state": "love"}]},
-   "expect": {"top": "CAH09-01-01", "top_score": 1.425, "reasons": {"CAH09-01-01": ["Maths"]}, "room_includes": ["CAH09-01-01"]}},
+   "expect": {"top": "CAH10-03-03", "top_calibrated": 0.733, "raw_top": "CAH09-01-01", "raw_top_score": 1.425, "reasons": {"CAH09-01-01": ["Maths"]}, "room_includes": ["CAH09-01-01"]}},
   {"name": "maths_take_scores_less_than_love", "answers": {"chips": [{"id": "maths", "state": "take"}]},
-   "expect": {"top": "CAH09-01-01", "top_score": 0.57}},
+   "expect": {"raw_top": "CAH09-01-01", "raw_top_score": 0.57}},
   {"name": "subject_swipe_yes_with_neighbour_nudge", "answers": {"subject_swipes": [{"code": "CAH11-01-01", "answer": "yes"}]},
    "expect": {"positive": ["CAH11-01-01", "CAH11-01-04", "CAH11-01-05", "CAH11-01-02", "CAH11-01-06"]}},
   {"name": "subject_swipe_no_goes_negative", "answers": {"subject_swipes": [{"code": "CAH11-01-01", "answer": "no"}]},
    "expect": {"negative": ["CAH11-01-01"]}},
   {"name": "pairs_investigative_beats_business", "answers": {"pairs": [{"pair_id": "why_vs_make", "side": "a"}]},
-   "expect": {"greater": [["CAH07-01-01", "CAH17-01-01"]]}},
+   "expect": {"greater": [["CAH07-01-01", "CAH17-01-01"]], "greater_calibrated": [["CAH07-01-01", "CAH17-01-01"]]}},
   {"name": "thing_swipe_radio_lifts_engineering", "answers": {"swipes": [{"card_id": "radio", "answer": "yes"}]},
-   "expect": {"top": "CAH10-01-01", "positive": ["CAH10-01-01"]}}
+   "expect": {"raw_top": "CAH10-01-01", "positive": ["CAH10-01-01"], "greater_calibrated": [["CAH10-01-08", "CAH09-01-01"]]}},
+  {"name": "farm_food_yes_calibrated_top3_is_food_and_farming", "answers": {"swipes": [{"card_id": "lamb", "answer": "yes"}, {"card_id": "seedlings", "answer": "yes"}, {"card_id": "cook", "answer": "yes"}]},
+   "expect": {"calibrated_first3": ["CAH06-01-07", "CAH06-01-06", "CAH06-01-02"], "raw_top": "CAH06-01-02", "positive": ["CAH06-01-03"]}}
  ]
 }

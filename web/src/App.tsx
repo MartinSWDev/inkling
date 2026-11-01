@@ -228,7 +228,7 @@ export default function App() {
       adds.forEach((_, i) => window.setTimeout(() => sfx.land(roomCodes.length + i), i * 140));
       buzz();
     }
-    scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
+    scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.calibrated]));
   }
 
   function nextRound() {
@@ -246,7 +246,7 @@ export default function App() {
     for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
     const decks = { chips: content.chips, things: content.things, questions: content.questions };
     const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks, content.aliases || {});
-    scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
+    scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.calibrated]));
   }
 
   function syncChips(nextPicked: Record<string, string>, nextTyped: string[], heart = false) {

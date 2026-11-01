@@ -1,5 +1,16 @@
 // Browser port of api/scoring.py — same maths, verified by the shared fixture
 // (api/tests/fixtures/scoring_cases.json) in both pytest and vitest.
+import calibrationJson from "../public/data/score_calibration.json";
+
+export type Calibration = { k: number; avg_sd: number; subjects: Record<string, [number, number]> };
+/** Committed per-subject [mean, sd] of raw scores; copy of data/score_calibration.json. */
+export const CALIBRATION = calibrationJson as unknown as Calibration;
+
+export function calibratedOf(raw: number, code: string, calibration: Calibration | null = CALIBRATION): number {
+  const entry = calibration?.subjects[code];
+  if (!entry) return raw;
+  return (raw - entry[0]) / (entry[1] + calibration.k * calibration.avg_sd);
+}
 export type CardLike = { code: string; display_name: string; name: string; keywords: string[]; neighbours: string[]; slot: string; object: string };
 export type AnswersLike = {
   chips?: { id: string; state: string }[];
@@ -12,7 +23,7 @@ export type AnswersLike = {
 export type DeckLike = { chips: { id: string; name: string; terms: string[] }[]; things: DeckCardW[]; questions: DeckCardW[] };
 export type DeckCardW = { id: string; title: string; terms: Record<string, number> };
 export type PairLike = { id: string; a: { label: string; scores: Record<string, number> }; b: { label: string; scores: Record<string, number> } };
-export type RankedRow = { code: string; display_name: string; score: number; uncertainty: number; direct: number; reasons: string[] };
+export type RankedRow = { code: string; display_name: string; score: number; calibrated: number; uncertainty: number; direct: number; reasons: string[] };
 
 /** Hands-on card ids (making / fixing / building) in the things deck. */
 export const HANDS_ON_CARDS = new Set(["radio", "sew", "synth", "printer", "bridge"]);
@@ -118,6 +129,7 @@ function zscores(profiles: Record<string, Record<string, number>>) {
 export function scoreAnswers(
   answers: AnswersLike, cards: CardLike[], profiles: Record<string, Record<string, number>>,
   pairsData: PairLike[], decks: DeckLike, aliases: Record<string, Record<string, number>> = {},
+  calibration: Calibration | null = CALIBRATION,
 ): { ranked: RankedRow[]; surprise: string | null; room: string[] } {
   const byCode: Record<string, CardLike> = Object.fromEntries(cards.map((c) => [c.code, c]));
   const state: State = {
@@ -193,11 +205,12 @@ export function scoreAnswers(
   }
   const ranked: RankedRow[] = cards.map((c) => ({
     code: c.code, display_name: c.display_name, score: round3(state.score[c.code]),
+    calibrated: round3(calibratedOf(state.score[c.code], c.code, calibration)),
     uncertainty: round3(state.unc[c.code]), direct: round3(state.direct[c.code]),
     reasons: Object.entries(state.contrib[c.code]).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([k]) => k),
-  })).sort((a, b) => b.score - a.score);
-  const surprise = ranked.find((r) => r.score > 0.3 && r.direct < 0.15)?.code ?? null;
-  const room = ranked.filter((r) => r.score > 0.15).slice(0, 8).map((r) => r.code);
+  })).sort((a, b) => b.calibrated - a.calibrated);
+  const surprise = ranked.find((r) => r.calibrated > 0.3 && r.direct < 0.15)?.code ?? null;
+  const room = ranked.filter((r) => r.calibrated > 0).slice(0, 8).map((r) => r.code);
   return { ranked, surprise, room };
 }
 
