@@ -10,7 +10,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .app{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(100vw,calc((100svh - 48px)*9/16));height:min(calc(100svh - 48px),calc(100vw*16/9));overflow:hidden;overscroll-behavior:none;background:var(--wall2)}
 @media(max-width:640px){.app{width:100vw;height:100svh}}
 @media(min-width:700px){.app{border-radius:28px;box-shadow:0 24px 80px rgba(20,10,40,.35)}}
-.room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);z-index:0;isolation:isolate;pointer-events:none}
+.room-wrap{position:absolute;inset:0;overflow:hidden;background:var(--wall);pointer-events:none}
 .room-wrap *{pointer-events:none}
 .room-stack{position:absolute;inset:0}
 .room-wrap > .room-stack{transition:transform .6s cubic-bezier(.25,.9,.3,1)}
@@ -195,7 +195,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .finale .finalehint{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;color:#fff;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .lampwarm{position:absolute;inset:0;background:rgba(255,150,60,.14);mix-blend-mode:multiply;pointer-events:none;z-index:2}
 .sticker-img.lifted{margin-top:-8px;transform:scale(1.08);filter:drop-shadow(0 10px 10px rgba(30,24,48,.35))}
-.sticktag{position:absolute;transform:translate(-50%,-112%) rotate(-1deg);background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 11px;box-shadow:var(--paper-shadow);width:max-content;max-width:230px;pointer-events:none;animation:fadein .25s ease both}
+.sticktag{position:absolute;z-index:30;transform:translate(-50%,-112%) rotate(-1deg);background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 11px;box-shadow:var(--paper-shadow);width:max-content;max-width:230px;pointer-events:none;animation:fadein .25s ease both}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
 .sticktag b{font-family:var(--display);font-weight:700;font-size:16px;display:block;line-height:1.1}
 .sticktag small{color:var(--muted);font-size:12.5px;display:block;margin-top:2px;line-height:1.3}

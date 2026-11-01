@@ -106,11 +106,14 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
             onClick={onStickerTap ? (e) => { e.stopPropagation(); onStickerTap(a.code); } : undefined}
             style={{ left: pct(a.x, ROOM_W), top: py(a.y), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: dropCodes.includes(a.code) ? (dropCodes.indexOf(a.code) * 140) + "ms" : celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: py(a.y), zIndex: a.z + 5 }}>+1</span>}
-          {tapInfo?.code === a.code && (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: py(a.y), zIndex: a.z + 6,
-            transform: a.x / ROOM_W > 0.68 ? "translate(calc(-100% + 14px), -112%) rotate(-1deg)"
-              : a.x / ROOM_W < 0.2 ? "translate(-14px, -112%) rotate(-1deg)"
-              : "translate(-50%, -112%) rotate(-1deg)" }}>
-            <b>{tapInfo.name}</b>{tapInfo.line && <small>{tapInfo.line}</small>}</span>)}
+          {tapInfo?.code === a.code && (() => {
+            // Below the sticker when above would collide with the top caption.
+            const below = (a.y + OFF) / TH < 0.28;
+            const tx = a.x / ROOM_W > 0.68 ? "calc(-100% + 14px)" : a.x / ROOM_W < 0.2 ? "-14px" : "-50%";
+            return (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: below ? py(a.y + a.h) : py(a.y), zIndex: 30,
+              transform: `translate(${tx}, ${below ? "10%" : "-112%"}) rotate(-1deg)` }}>
+              <b>{tapInfo.name}</b>{tapInfo.line && <small>{tapInfo.line}</small>}</span>);
+          })()}
         </span>
       ))}
       {viewTime === "dusk" && <span className="dusk-wash" />}
