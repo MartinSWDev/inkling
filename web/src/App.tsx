@@ -43,6 +43,8 @@ export default function App() {
   const [picked, setPicked] = useState<Record<string, string>>({});
   const [typedNames, setTypedNames] = useState<string[]>([]);
   const [other, setOther] = useState("");
+  const [otherOpen, setOtherOpen] = useState(false);
+  const wheelRef = useRef(0);
   const [deckIdx, setDeckIdx] = useState(0);
   const [pairIdx, setPairIdx] = useState(0);
   const [fact, setFact] = useState<string | null>(null);
@@ -70,7 +72,7 @@ export default function App() {
   }, []);
   useEffect(() => {
     if (scene.kind === "unfold") { const t = window.setTimeout(() => dispatch({ type: "UNFOLDED" }), 1400); return () => window.clearTimeout(t); }
-    if (scene.kind === "roundTitle") { const t = window.setTimeout(() => dispatch({ type: "TITLE_DONE" }), 950); return () => window.clearTimeout(t); }
+    if (scene.kind === "roundTitle") { const t = window.setTimeout(() => dispatch({ type: "TITLE_DONE" }), 1250); return () => window.clearTimeout(t); }
     if (scene.kind === "roundOutro") { const t = window.setTimeout(() => dispatch({ type: "OUTRO_DONE" }), 1700); return () => window.clearTimeout(t); }
   }, [scene.kind]);
   // Preload room layers, common stickers, card art and views while the landing is shown.
@@ -387,7 +389,7 @@ export default function App() {
       </button>)}
 
       {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "")}>
-        {round === 1 && (<div className="sheet2">
+        {round === 1 && (<div className="sheet2 chipsheet">
           <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {
             const st = picked[chip.id];
@@ -403,11 +405,12 @@ export default function App() {
                 onClick={(e) => { e.stopPropagation(); const loving = picked[chip.id] !== "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: loving ? "love" : "take" }, typedNames, loving); }}>{st === "love" ? "♥" : "♡"}</span>
             </button>);
           })}</div>
-          <div><p className="hint2" style={{ marginBottom: 6 }}>Something else?</p>
-            <div className="other"><input value={other} list="other-list" placeholder="Type a subject" autoComplete="off"
-              onChange={(e) => setOther(e.target.value)}
-              onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { syncChips(picked, [...typedNames, other.trim()]); setOther(""); } }} />
-              <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist></div>
+          <div>{otherOpen
+            ? (<div className="other"><input value={other} list="other-list" placeholder="Type a subject" autoComplete="off" autoFocus
+                onChange={(e) => setOther(e.target.value)}
+                onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { syncChips(picked, [...typedNames, other.trim()]); setOther(""); } }} />
+                <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist></div>)
+            : <button className="linkbtn addanother" onClick={() => setOtherOpen(true)}>+ Add another subject</button>}
             {typedNames.length > 0 && <p className="hint2">Added: {typedNames.join(", ")}</p>}</div>
           {Object.keys(picked).length + typedNames.length >= 3
             ? <button className="btn alt" onClick={chipsContinue}>Continue</button>
@@ -420,7 +423,14 @@ export default function App() {
             {current
               ? <div className="card swipe" ref={cardRef} role="group" aria-label={current.title}
                   style={{ transform: `translate(${dragT.x}px, ${dragT.y}px) rotate(${dragT.x / 20}deg)`, transition: dragT.animate ? "transform .28s cubic-bezier(.2,.9,.3,1.2)" : "none" }}
-                  onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
+                  onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}
+                  onWheel={(e) => {
+                    const now = performance.now();
+                    if (now - wheelRef.current < 700) return;
+                    if (round === 4 && e.deltaY < -50) { wheelRef.current = now; flick("up"); }
+                    else if (e.deltaX > 50) { wheelRef.current = now; flick("no"); }
+                    else if (e.deltaX < -50) { wheelRef.current = now; flick("yes"); }
+                  }}>
                   <div className="stamp yes" style={{ opacity: Math.max(0, Math.min(1, dragT.x / 80)) }}>{round === 4 ? "Tell me" : "Yes"}</div>
                   <div className="stamp no" style={{ opacity: Math.max(0, Math.min(1, -dragT.x / 80)) }}>Not for me</div>
                   {round === 4 && <div className="stamp up" style={{ opacity: Math.max(0, Math.min(1, -dragT.y / 80)) }}>Need to know</div>}
