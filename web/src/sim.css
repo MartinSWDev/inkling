@@ -31,7 +31,9 @@
 .results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 @media(max-width:900px){.results-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.results-grid{grid-template-columns:1fr}}
-.bignum{font-family:var(--display);font-weight:900;font-size:44px;line-height:1}
+.bignum{font-family:var(--display);font-weight:900;font-size:44px;line-height:1;margin:0}
+.results-grid .simcard{display:flex;flex-direction:column;gap:8px;justify-content:center}
+.results-grid .simcard .note{margin:0}
 .bars{display:grid;gap:7px}
 .bar-row{display:grid;grid-template-columns:minmax(120px,190px) 1fr 34px;gap:10px;align-items:center;font-size:14px}
 .bar-track{height:20px;background:#efe7d8;border:1px solid var(--line);border-radius:6px;overflow:hidden}
@@ -40,3 +42,6 @@
 .examplecard{text-align:left;font:inherit;color:var(--ink);cursor:pointer}
 .examplecard:hover{border-color:var(--ink)}
 pre.simcmd{max-height:none}
+
+#sim-results{display:grid;gap:18px}
+#sim-results h2{margin-top:0}

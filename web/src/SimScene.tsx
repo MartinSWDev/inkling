@@ -8,23 +8,34 @@ import { sfx } from "./design/sound";
 export const WORLD_W = 2400, WORLD_H = 720;
 const SPEED = 150; // px per second at 1x
 const SIGNS = [
-  { label: "Your subjects", x: 560, y: 300 },
-  { label: "Things you'd get stuck into", x: 900, y: 400 },
-  { label: "This or that", x: 1240, y: 300 },
-  { label: "Big questions", x: 1580, y: 400 },
+  { label: "Your subjects", x: 500, y: 300 },
+  { label: "Things you'd get stuck into", x: 820, y: 400 },
+  { label: "This or that", x: 1140, y: 300 },
+  { label: "Big questions", x: 1460, y: 400 },
 ];
 const START = { x: 150, y: 360 };
 /** Door position for each destination building (grid on the right). */
 export function doorFor(paper: Paper) {
   const i = PAPERS.indexOf(paper);
-  const col = Math.floor(i / 4), row = i % 4;
-  return { x: 1980 + col * 150, y: 150 + row * 145 };
+  const col = i % 4, row = Math.floor(i / 4);
+  return { x: 1795 + col * 172, y: 150 + row * 215 };
 }
 export function iconFor(s: SimStudent, round: number): "heart" | "check" | "x" | "star" {
   if (round === 0) return s.answers.hearts.length ? "heart" : "check";
   if (round === 1) return s.answers.yes.things * 2 >= s.answers.yes.things_total ? "check" : "x";
   if (round === 2) return s.answers.pairs_decided >= 3 ? "star" : "check";
   return s.answers.yes.questions_up > 0 ? "star" : s.answers.yes.questions ? "check" : "x";
+}
+
+/** Greedy word wrap to a pixel width using the context's current font. */
+function wrapText(ctx: CanvasRenderingContext2D, text: string, maxW: number): string[] {
+  const out: string[] = []; let line = "";
+  for (const w of text.split(" ")) {
+    const t = line ? line + " " + w : w;
+    if (line && ctx.measureText(t).width > maxW) { out.push(line); line = w; } else line = t;
+  }
+  if (line) out.push(line);
+  return out;
 }
 
 interface Leg { x1: number; y1: number; x2: number; y2: number; t0: number; t1: number; sign: number }
@@ -44,7 +55,7 @@ function itinerary(s: SimStudent, idx: number): Itin {
   };
   SIGNS.forEach((sg, i) => { walk(sg.x, sg.y, i); t += 0.7; }); // pause at each signpost
   const door = doorFor(s.dest_paper);
-  walk(door.x, door.y - 30, -1);
+  walk(door.x + (seed - 0.5) * 96, door.y + 14, -1); // stand in front of the door, spread out
   return { start, legs, arrive: t, seed };
 }
 
@@ -113,16 +124,16 @@ export default function SimScene(p: SimSceneProps) {
         ctx.restore();
       }
       ctx.save();
-      ctx.font = "600 17px Figtree, sans-serif"; ctx.textAlign = "center";
+      ctx.font = "600 21px Figtree, sans-serif"; ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
       ctx.fillStyle = "#2A2238";
-      const lines = label.split(" ");
-      const mid = Math.ceil(lines.length / 2);
-      const l1 = lines.slice(0, mid).join(" "), l2 = lines.slice(mid).join(" ");
-      ctx.fillText(l1, x, y + 22);
-      if (l2) ctx.fillText(l2, x, y + 42);
+      wrapText(ctx, label, Math.max(w + 30, 156)).slice(0, 3).forEach((ln, li) => ctx.fillText(ln, x, y + 28 + li * 24));
       if (count !== undefined) {
-        ctx.font = "900 22px Fraunces, serif";
-        ctx.fillText(String(count), x, y - 96);
+        const txt = String(count);
+        ctx.font = "900 24px Fraunces, serif";
+        const pw = Math.max(40, ctx.measureText(txt).width + 22), py = y - 122;
+        ctx.fillStyle = "#FBF6EE"; ctx.strokeStyle = "rgba(42,34,56,.35)"; ctx.lineWidth = 1.5;
+        ctx.beginPath(); ctx.roundRect(x - pw / 2, py - 24, pw, 32, 16); ctx.fill(); ctx.stroke();
+        ctx.fillStyle = "#2A2238"; ctx.fillText(txt, x, py);
       }
       ctx.restore();
     };
@@ -185,25 +196,26 @@ export default function SimScene(p: SimSceneProps) {
       ctx.save(); ctx.strokeStyle = "#efe3cb"; ctx.lineWidth = 30; ctx.lineCap = "round"; ctx.beginPath();
       ctx.moveTo(START.x, START.y);
       for (const s of SIGNS) ctx.lineTo(s.x, s.y);
-      ctx.lineTo(1900, 360); ctx.stroke();
+      ctx.lineTo(1700, 360); ctx.stroke();
       ctx.strokeStyle = "rgba(42,34,56,.18)"; ctx.lineWidth = 2; ctx.setLineDash([10, 12]); ctx.stroke(); ctx.restore();
       // Signposts
       ctx.save(); ctx.textAlign = "center";
       for (const s of SIGNS) {
         ctx.fillStyle = "#8a6844"; ctx.fillRect(s.x - 3, s.y - 46, 6, 48);
         ctx.fillStyle = "#FBF6EE"; ctx.strokeStyle = "rgba(42,34,56,.4)";
-        ctx.beginPath(); ctx.roundRect(s.x - 78, s.y - 84, 156, 40, 8); ctx.fill(); ctx.stroke();
-        ctx.fillStyle = "#2A2238"; ctx.font = "600 15px Figtree, sans-serif";
-        const words = s.label.split(" "); const mid = Math.ceil(words.length / 2);
-        ctx.fillText(words.slice(0, mid).join(" "), s.x, s.y - 64);
-        if (words.length > 1) ctx.fillText(words.slice(mid).join(" "), s.x, s.y - 48);
+        ctx.font = "600 20px Figtree, sans-serif";
+        const sl = wrapText(ctx, s.label, 196).slice(0, 2);
+        const bh = sl.length > 1 ? 62 : 40;
+        ctx.beginPath(); ctx.roundRect(s.x - 110, s.y - 46 - bh, 220, bh, 9); ctx.fill(); ctx.stroke();
+        ctx.fillStyle = "#2A2238";
+        sl.forEach((ln, li) => ctx.fillText(ln, s.x, s.y - 46 - bh + 27 + li * 23));
       }
       ctx.restore();
       // Buildings + counters
       const counts: Record<string, number> = {};
       itins.forEach((it, i) => { if (t >= it.arrive) counts[p.students[i].dest_paper] = (counts[p.students[i].dest_paper] || 0) + 1; });
       drawBuilding(START.x, START.y + 70, 150, "sixthform", "Sixth form");
-      for (const paper of PAPERS) { const d = doorFor(paper); drawBuilding(d.x, d.y + 30, 118, paper, BUILDINGS[paper], counts[paper] || 0); }
+      for (const paper of PAPERS) { const d = doorFor(paper); drawBuilding(d.x, d.y + 30, 128, paper, BUILDINGS[paper], counts[paper] || 0); }
       // Students
       let arrived = 0;
       const order = itins.map((it, i) => ({ it, i, pos: posAt(it, t) })).sort((a, b) => a.pos.y - b.pos.y);

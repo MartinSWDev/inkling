@@ -7,7 +7,7 @@ export type Paper = "lined" | "graph" | "manuscript" | "blueprint" | "parchment"
 export const PAPERS: Paper[] = ["lined", "graph", "manuscript", "blueprint", "parchment", "map",
   "watercolour", "lab", "legal", "printout", "kraft"];
 export const BUILDINGS: Record<Paper, string> = {
-  lined: "Library", graph: "Maths & engineering tower", manuscript: "Concert hall",
+  lined: "Library", graph: "Maths & engineering", manuscript: "Concert hall",
   blueprint: "Architect's studio", parchment: "Museum", map: "Field station",
   watercolour: "Art studio", lab: "Science & health lab", legal: "Courthouse & offices",
   printout: "Computer lab", kraft: "Farm",
