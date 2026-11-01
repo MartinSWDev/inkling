@@ -9,6 +9,7 @@ import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
 import { makeShareVideo, shareUrl, type ShareData } from "./share";
 import { suggestAliases } from "./aliases";
+import { heartChip, toggleChip } from "./chips";
 const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "countryside", name: "Countryside" }];
 const SCENES: Record<string, [string, string]> = { sea: ["#1f6f8b", "#8fd0e6"], desk: ["#5a4a7a", "#c9b7e8"], wood: ["#6e4329", "#d9b48f"], night: ["#1c1a3a", "#6b5aa8"], dark: ["#101418", "#2f3a48"], green: ["#2f6b3a", "#a9d9a0"], light: ["#e8dfd0", "#fff8ea"] };
 
@@ -189,7 +190,8 @@ export default function App() {
     for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
     const decks = { chips: content.chips, things: content.things, questions: content.questions };
     const scored = scoreAnswers(snap, subjects, profiles, content.pairs, decks, content.aliases || {});
-    if (round > 1 || heart) {
+    // Round 1 objects are deferred: they all drop together on Continue (B4).
+    if (round > 1) {
       const qualified = qualifiedSubjects(snap, subjects, profiles, content.pairs, decks);
       const next = growRoom(roomCodes, scoresRef.current, scored.ranked, qualified, ROUND_CAPS[round - 1]);
       const added = next.find((c) => !roomCodes.includes(c));
@@ -210,7 +212,25 @@ export default function App() {
     applyAction(snap, heart);
   }
 
-  function chipsContinue() { nextRound(); }
+  function chipsContinue() {
+    // All hearted round-1 objects land together now, over the room (B4).
+    if (content && subjects.length) {
+      const profiles: Record<string, Record<string, number>> = {};
+      for (const s of subjects) if (s.profile) profiles[s.code] = s.profile;
+      const decks = { chips: content.chips, things: content.things, questions: content.questions };
+      const scored = scoreAnswers(answersRef.current, subjects, profiles, content.pairs, decks, content.aliases || {});
+      const qualified = qualifiedSubjects(answersRef.current, subjects, profiles, content.pairs, decks);
+      const adds = scored.ranked.filter((r) => qualified.has(r.code) && !roomCodes.includes(r.code))
+        .slice(0, Math.max(0, ROUND_CAPS[0] - roomCodes.length)).map((r) => r.code);
+      if (adds.length) {
+        setRoomCodes([...roomCodes, ...adds]);
+        setLastAdded(adds[0]); sfx.thwip(); buzz();
+        window.setTimeout(() => setLastAdded((c) => (c === adds[0] ? null : c)), 1600);
+      }
+      scoresRef.current = Object.fromEntries(scored.ranked.map((r) => [r.code, r.score]));
+    }
+    nextRound();
+  }
 
   // --- Real swipe gestures (rounds 2 and 4) ---
   const cardRef = useRef<HTMLDivElement>(null);
@@ -443,13 +463,13 @@ export default function App() {
         </motion.span>
       </button>)}
 
-      {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "")}>
+      {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "") + (round === 1 ? " r1center" : "")}>
         {round === 1 && (<div className="sheet2 chipsheet">
           <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
-              onClick={() => { const n = { ...picked }; if (n[chip.id]) delete n[chip.id]; else n[chip.id] = "take"; sfx.pop(); syncChips(n, typedNames); }}>
+              onClick={(e) => { if ((e.target as HTMLElement).closest(".heart")) return; const nxt = toggleChip(st as "take" | "love" | undefined); const n = { ...picked }; if (nxt) n[chip.id] = nxt; else delete n[chip.id]; sfx.pop(); syncChips(n, typedNames); }}>
               <span>{chip.name}</span>
               {st && <span className="checkmark" aria-hidden="true">✓</span>}
               {confetti === chip.id && (<span className="flecks" aria-hidden="true">{[0, 1, 2, 3, 4, 5].map((i) => (
@@ -457,7 +477,7 @@ export default function App() {
                   animate={{ x: Math.cos(i * 1.05) * 34, y: Math.sin(i * 1.05) * 26 - 8, opacity: 0, scale: 0.5 }}
                   transition={{ duration: 0.55, ease: "easeOut" }} />))}</span>)}
               <span className="heart" role="button" aria-label={"Favourite " + chip.name}
-                onClick={(e) => { e.stopPropagation(); const loving = picked[chip.id] !== "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: loving ? "love" : "take" }, typedNames, loving); }}>{st === "love" ? "♥" : "♡"}</span>
+                onClick={(e) => { e.stopPropagation(); e.preventDefault(); const nxt = heartChip(st as "take" | "love" | undefined); const loving = nxt === "love"; if (loving) { setConfetti(chip.id); buzz(); window.setTimeout(() => setConfetti(null), 600); } sfx.pop(); syncChips({ ...picked, [chip.id]: nxt }, typedNames, loving); }}>{st === "love" ? "♥" : "♡"}</span>
             </button>);
           })}</div>
           <div>{otherOpen

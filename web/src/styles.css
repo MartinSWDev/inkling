@@ -45,10 +45,17 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .app[data-mode="swipe"] .actioncol{position:absolute;left:0;right:0;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:grid;justify-items:center;gap:8px;z-index:5}
 .chipsheet{max-height:none;overflow:visible}
 .chipsheet .chips{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
-.chipsheet .chip{min-height:40px;min-width:0;padding:6px 24px 6px 8px;font-size:13px;border-radius:12px}
-.chipsheet .chip>span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.chipsheet .chip .heart{width:26px;height:26px;font-size:15px;right:2px}
-.chipsheet .chip .checkmark{margin-right:16px}
+.chipsheet .chip{min-height:44px;min-width:0;padding:6px 50px 6px 10px;font-size:13.5px;border-radius:12px}
+.chipsheet .chip>span:first-child{overflow:visible;text-overflow:clip;white-space:normal;line-height:1.15}
+.chipsheet .chip .heart{width:44px;height:44px;font-size:17px;right:0}
+.chipsheet .chip .checkmark{margin-right:2px}
+@media(max-width:640px){.chipsheet .chips{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.chip:active{transform:scale(.97);background:var(--paper)}
+.chip[aria-pressed="true"]:active{background:var(--round-accent)}
+.app .overlay.r1center{top:0;align-content:center;background:rgba(30,24,48,.20)}
+.overlay.r1center .chipsheet{max-height:none;overflow:visible}
+.app .overlay.r1center{overflow:visible;max-height:none}
+@media(max-height:720px){.chipsheet .chip{min-height:40px}.chipsheet{gap:8px;padding:10px}.chipsheet .chips{gap:5px}}
 .addanother{font-size:14px;color:var(--teal);font-weight:600}
 .suggestrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .suggestchip{font:inherit;font-size:13px;background:var(--butter);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:6px 11px;cursor:pointer;min-height:36px}

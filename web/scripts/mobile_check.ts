@@ -166,13 +166,13 @@ async function run(browser: Browser, name: string, ctxOpts: object) {
   await scan(page, name, "wildcard");
   await step("to views", next);
   await shot("12-views");
-  await step("pick coast", async () => { await page.getByRole("button", { name: /coast/i }).first().tap(); await page.waitForTimeout(500); });
+  await step("pick coast", async () => { await page.getByRole("button", { name: /coast/i }).first().tap({ timeout: 5000 }); await page.waitForTimeout(500); });
   await shot("12b-views-coast");
   await scan(page, name, "views");
   await step("to explore", next);
   await shot("13-explore");
   await step("courses", async () => {
-    await page.getByRole("button", { name: /see courses/i }).first().tap();
+    await page.getByRole("button", { name: /see courses/i }).first().tap({ timeout: 5000 });
     await page.waitForTimeout(900);
     await shot("13b-courses");
     await scan(page, name, "courses");
