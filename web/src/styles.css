@@ -162,7 +162,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .nextpill{position:absolute;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;border-radius:99px;padding:12px 22px}
 .finale-next{position:absolute}
 .backbtn{position:absolute;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;font:inherit;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:11px 18px;min-height:48px;cursor:pointer;box-shadow:var(--paper-shadow-sm)}
-.finale{position:absolute;inset:0;z-index:8;display:grid;place-items:start center;padding-top:calc(78px + env(safe-area-inset-top,0px))}
+.finale{position:absolute;inset:0;z-index:8;display:grid;place-items:start center;padding-top:calc(78px + env(safe-area-inset-top,0px));pointer-events:none}
+.finale button{pointer-events:auto}
 .finale .finaletag{background:var(--paper);background-image:url(/paper-grain.png);font-family:var(--display);font-weight:900;font-size:30px;color:var(--ink);padding:14px 22px;border-radius:14px;border:1px solid var(--line);box-shadow:var(--paper-shadow);transform:rotate(-1deg)}
 .finale .finalehint{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;color:#fff;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .lampwarm{position:absolute;inset:0;background:rgba(255,150,60,.14);mix-blend-mode:multiply;pointer-events:none;z-index:2}
@@ -219,7 +220,9 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .courselist a{color:var(--teal);font-weight:600;white-space:nowrap}
 .explinks{display:flex;gap:12px;align-items:center;margin-top:4px}
 .explinks a{color:var(--teal);font-weight:600}
-.story{position:absolute;inset:0;z-index:6}
+.story{position:absolute;inset:0;z-index:6;pointer-events:none}
+.story button,.story .pc{pointer-events:auto}
+.story .zone{pointer-events:none}
 .sprog{position:absolute;left:16px;right:16px;top:calc(10px + env(safe-area-inset-top,0px));display:flex;gap:5px;z-index:8}
 .sprog i{flex:1;height:4px;border-radius:99px;background:rgba(255,255,255,.4)}
 .sprog i.done,.sprog i.now{background:#fff}

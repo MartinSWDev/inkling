@@ -108,6 +108,13 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
   await step("build room", async () => { await clickText(/build my room|continue|see my subjects/i); });
   await page.waitForTimeout(2500);
   await shot("10-finale-or-reveal");
+  await step("finale sticker tap", async () => {
+    const st = page.locator(".room-wrap .sticker-img");
+    if (await st.count()) { await st.first().click({ force: true }); await page.waitForTimeout(500); }
+    await shot("10b-finale-tag");
+    await page.mouse.click(24, 300);
+    await page.waitForTimeout(300);
+  });
   await step("finale tap", async () => { await page.getByRole("button", { name: /see my subjects/i }).click().catch(() => null); });
   await page.waitForTimeout(1500);
   await shot("11-reveal-0-top3");
