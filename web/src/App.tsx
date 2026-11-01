@@ -474,7 +474,7 @@ export default function App() {
 
       {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "") + (round === 1 ? " r1center" : "") + (round === 2 || round === 4 ? " cardlayout" : "")}>
         {round === 1 && (<div className="sheet2 chipsheet">
-          <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
+          <div><p className="eyebrow">Round 1 · your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
