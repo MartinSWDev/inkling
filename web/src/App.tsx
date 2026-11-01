@@ -336,7 +336,8 @@ export default function App() {
     setVideoStatus("preparing");
     const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
     makeShareVideo({ assigned, viewId: view, viewTime, layout: assets.layout,
-      topNames: top3.map((r) => r.display_name), wildcardName: wildcardRow?.display_name ?? null, shortUrl: shareUrl(data) })
+      top: top3.map((r) => ({ code: r.code, name: r.display_name })),
+      wildcard: wildcardRow ? { code: wildcardRow.code, name: wildcardRow.display_name } : null, shortUrl: shareUrl(data) })
       .then(({ blob, ext }) => {
         videoRef.current = { key: shareKey, blob, ext };
         if (videoGenRef.current === shareKey) setVideoStatus("ready");
