@@ -60,6 +60,11 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
     for (let i = 0; i < 4; i++) { await page.getByRole("button", { name: /^yes$/i }).click().catch(() => null); await page.waitForTimeout(450); }
   });
   await shot("06-round2-done");
+  await step("sticker tag", async () => {
+    const st = page.locator(".room-wrap .sticker-img");
+    if (await st.count()) { await st.first().click({ force: true }); await page.waitForTimeout(600); }
+  });
+  await shot("06b-sticker-tag");
   await step("round2 continue", async () => { await clickText(/continue/i); });
   await page.waitForTimeout(3400);
   await shot("07-round3-pairs");

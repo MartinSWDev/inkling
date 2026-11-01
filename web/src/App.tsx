@@ -112,6 +112,8 @@ export default function App() {
   useEffect(() => { if (scene.kind === "roundTitle") setRoundStartCount(roomCodes.length); }, [scene.kind, roomCodes.length]);
   const [confetti, setConfetti] = useState<string | null>(null);
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
+  const [tapCode, setTapCode] = useState<string | null>(null);
+  useEffect(() => { setTapCode(null); }, [scene]);
   const scoresRef = useRef<Record<string, number>>({});
   const qualifiedAll = useMemo(() => {
     if (!content || !subjects.length) return new Set<string>();
@@ -275,9 +277,14 @@ export default function App() {
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
         <RoomView assigned={assigned} viewId={view} viewTime={viewTime} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
-          liftCodes={scene.kind === "reveal" && page === 0 ? top3.map((r) => r.code) : []} />
+          liftCodes={scene.kind === "reveal" && page === 0 ? top3.map((r) => r.code) : []}
+          onStickerTap={(code) => { setTapCode(code); sfx.pop(); }}
+          tapInfo={tapCode ? (() => { const s = subjects.find((x) => x.code === tapCode); if (!s) return null;
+            const inRounds = scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro";
+            return { code: tapCode, name: s.display_name, line: inRounds ? undefined : s.why_line }; })() : null} />
         {scene.kind === "finale" && <span className="lampwarm" aria-hidden="true" />}
       </div>
+      {tapCode && <button className="tagcatcher" aria-label="Close sticker tag" onClick={() => setTapCode(null)} />}
 
       {scene.kind === "roundOutro" && roomCodes.length - roundStartCount >= 1 && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
         <motion.span initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 380, damping: 20 }}>

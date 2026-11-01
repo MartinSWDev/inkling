@@ -51,8 +51,9 @@ const pct = (v: number, total: number) => (v / total * 100) + "%";
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
 
-export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, liftCodes = [] }: {
+export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, liftCodes = [], onStickerTap, tapInfo = null }: {
   assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null; liftCodes?: string[];
+  onStickerTap?: (code: string) => void; tapInfo?: { code: string; name: string; line?: string } | null;
 }) {
   const [layout, setLayout] = useState<Layout | null>(null);
   const stackRef = useRef<HTMLDivElement>(null);
@@ -90,9 +91,14 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
             ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: pct(a.y + a.h - 6, ROOM_H), width: pct(a.w * 0.76, ROOM_W) }} />
             : <img className="sticker-dropshadow" src={"/stickers/" + a.code + ".webp"} alt=""
                 style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W) }} />}
-          <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) ? " lifted" : "")} src={"/stickers/" + a.code + ".webp"} alt=""
-            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined }} />
+          <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) || tapInfo?.code === a.code ? " lifted" : "")}
+            src={"/stickers/" + a.code + ".webp"} alt={onStickerTap ? a.code : ""}
+            onClick={onStickerTap ? (e) => { e.stopPropagation(); onStickerTap(a.code); } : undefined}
+            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 5 }}>+1</span>}
+          {tapInfo?.code === a.code && (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 6,
+            transform: `translate(${a.x / ROOM_W > 0.68 ? -88 : a.x / ROOM_W < 0.2 ? -12 : -50}%, -112%) rotate(-1deg)` }}>
+            <b>{tapInfo.name}</b>{tapInfo.line && <small>{tapInfo.line}</small>}</span>)}
         </span>
       ))}
       {viewTime === "dusk" && <span className="dusk-wash" />}
