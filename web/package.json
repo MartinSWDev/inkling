@@ -7,7 +7,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --port 5173",
     "test": "vitest run",
-    "capture": "tsx scripts/capture.ts"
+    "capture": "tsx scripts/capture.ts",
+    "mobile": "tsx scripts/mobile_check.ts"
   },
   "dependencies": {
     "motion": "^14.9.0",

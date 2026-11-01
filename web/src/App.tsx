@@ -51,6 +51,13 @@ export default function App() {
   const [fact, setFact] = useState<string | null>(null);
   const [toast, setToast] = useState("");
   const [subjects, setSubjects] = useState<Subject[]>([]);
+  const [isPhone, setIsPhone] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 640px)").matches);
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 640px)");
+    const on = () => setIsPhone(mq.matches);
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
   const [videoStatus, setVideoStatus] = useState<"idle" | "preparing" | "ready">("idle");
@@ -325,7 +332,7 @@ export default function App() {
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
       style={{ "--round-accent": roundAccent(round) } as CSSProperties}>
       <div className="room-wrap">
-        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
+        <RoomView assigned={assigned} viewId={view} viewTime={viewTime} tall={isPhone} celebrate={scene.kind === "roundOutro" || scene.kind === "finale"} highlight={scene.kind === "round" ? lastAdded : null}
           liftCodes={scene.kind === "reveal" && page === 0 ? top3.slice(0, liftStep).map((r) => r.code)
             : scene.kind === "reveal" && page === 1 && wildcardFlipped && surprise ? [surprise] : []}
           onStickerTap={(code) => { setTapCode(code); sfx.pop(); }}
@@ -393,7 +400,7 @@ export default function App() {
         </div></div>)}
       </section>)}
 
-      {scene.kind === "unfold" && (<section className="unfold3d" aria-hidden="true">
+      {scene.kind === "unfold" && (<section className={"unfold3d" + (isPhone ? " tall" : "")} aria-hidden="true">
         {[
           { key: "floor", clip: "polygon(0% 74.6%, 100% 74.6%, 100% 100%, 0% 100%)", from: { rotateX: 68, scale: 0.92, opacity: 0.45 }, delay: 0, origin: "50% 100%" },
           { key: "back", clip: "polygon(0% 0%, 100% 0%, 91.4% 9%, 91.4% 77.4%, 8.6% 77.4%, 8.6% 9%)", from: { rotateX: 55, opacity: 0.25 }, delay: 0.2, origin: "50% 100%" },
@@ -403,11 +410,12 @@ export default function App() {
           <motion.div key={p.key} className="uslice" style={{ clipPath: p.clip, transformOrigin: p.origin }}
             initial={p.from} animate={{ rotateX: 0, rotateY: 0, scale: 1, opacity: 1 }}
             transition={{ delay: p.delay, type: "spring", stiffness: 220, damping: 28 }}>
-            <img src="/room/room.png" alt="" />
+            <img src={isPhone ? "/room/room_tall.webp" : "/room/room.png"} alt="" />
           </motion.div>))}
         {assets && (<motion.img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt=""
-          style={{ left: ((assets.layout.window.x - assets.layout.window.w * 0.14) / 1152 * 100) + "%", top: ((assets.layout.window.y - assets.layout.window.h * 0.1) / 2048 * 100) + "%",
-            width: (assets.layout.window.w * 1.28 / 1152 * 100) + "%", height: (assets.layout.window.h * 1.28 / 2048 * 100) + "%" }}
+          style={{ left: ((assets.layout.window.x - assets.layout.window.w * 0.14) / 1152 * 100) + "%",
+            top: ((assets.layout.window.y - assets.layout.window.h * 0.1 + (isPhone && assets.layout.tall ? assets.layout.tall.topOffset : 0)) / (isPhone && assets.layout.tall ? assets.layout.tall.height : 2048) * 100) + "%",
+            width: (assets.layout.window.w * 1.28 / 1152 * 100) + "%", height: (assets.layout.window.h * 1.28 / (isPhone && assets.layout.tall ? assets.layout.tall.height : 2048) * 100) + "%" }}
           initial={{ opacity: 0.9 }} animate={{ opacity: 1 }} transition={{ delay: 0, duration: 0.3 }} />)}
         <motion.div className="ulamp" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05, duration: 0.35 }} />
       </section>)}

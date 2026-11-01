@@ -198,5 +198,10 @@
    ],
    "z": 6
   }
+ },
+ "tall": {
+  "height": 2496,
+  "topOffset": 224,
+  "file": "/room/room_tall.webp"
  }
 }

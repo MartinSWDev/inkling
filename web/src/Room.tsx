@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, type CSSProperties } from "react";
 
 export type StickerEntry = { code: string; slot: string; size: string; w: number; h: number; label?: string };
 export type Spot = { slot: string; anchor: [number, number]; max: [number, number]; z: number };
-export type Layout = { window: { x: number; y: number; w: number; h: number }; spots: Record<string, Spot> };
+export type Layout = { window: { x: number; y: number; w: number; h: number }; spots: Record<string, Spot>; tall?: { height: number; topOffset: number; file: string } };
 export type Assigned = { code: string; spot: string; x: number; y: number; w: number; h: number; z: number; slot: string };
 
 export const ROOM_W = 1152;
@@ -56,9 +56,9 @@ const pct = (v: number, total: number) => (v / total * 100) + "%";
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
 
-export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, liftCodes = [], onStickerTap, tapInfo = null }: {
+export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, liftCodes = [], onStickerTap, tapInfo = null, tall = false }: {
   assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null; liftCodes?: string[];
-  onStickerTap?: (code: string) => void; tapInfo?: { code: string; name: string; line?: string } | null;
+  onStickerTap?: (code: string) => void; tapInfo?: { code: string; name: string; line?: string } | null; tall?: boolean;
 }) {
   const [layout, setLayout] = useState<Layout | null>(null);
   const stackRef = useRef<HTMLDivElement>(null);
@@ -75,6 +75,10 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
   }, [band, layout]);
   if (!layout) return <div className="room-stack" ref={stackRef} />;
   const win = layout.window;
+  // Tall phone room: same x, y shifted by the recorded top offset.
+  const TH = tall && layout.tall ? layout.tall.height : ROOM_H;
+  const OFF = tall && layout.tall ? layout.tall.topOffset : 0;
+  const py = (v: number) => pct(v + OFF, TH);
   // Band mode: fill the width, cropping the room to shelves-to-floor (y 18%-96%).
   // Sticker coordinates stay in the same 1152x2048 room space.
   let bandStyle: CSSProperties | undefined;
@@ -86,23 +90,23 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
     bandStyle = { width: ROOM_W, height: ROOM_H, transform: `translate(${x}px, ${y}px) scale(${s})`, transformOrigin: "0 0" };
   }
   return (
-    <div className={"room-stack" + (band ? " band" : "")} ref={stackRef} style={bandStyle}>
+    <div className={"room-stack" + (band ? " band" : "") + (tall ? " tall" : "")} ref={stackRef} style={bandStyle}>
       <img className="view-img" src={"/views/" + viewId + "_" + viewTime + ".webp"} alt=""
-        style={{ left: pct(win.x - win.w * 0.14, ROOM_W), top: pct(win.y - win.h * 0.1, ROOM_H), width: pct(win.w * 1.28, ROOM_W), height: pct(win.h * 1.28, ROOM_H) }} />
-      <img className="room-top" src="/room/room.png" alt="Your room" />
+        style={{ left: pct(win.x - win.w * 0.14, ROOM_W), top: py(win.y - win.h * 0.1), width: pct(win.w * 1.28, ROOM_W), height: pct(win.h * 1.28, TH) }} />
+      <img className="room-top" src={tall && layout.tall ? layout.tall.file : "/room/room.png"} alt="Your room" />
       {[...assigned].sort((a, b) => a.z - b.z).map((a, ai) => (
         <span key={a.code}>
           {a.slot !== "wall"
-            ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: pct(a.y + a.h - 6, ROOM_H), width: pct(a.w * 0.76, ROOM_W) }} />
+            ? <span className="sticker-shadow" style={{ left: pct(a.x + a.w * 0.12, ROOM_W), top: py(a.y + a.h - 6), width: pct(a.w * 0.76, ROOM_W) }} />
             : <img className="sticker-dropshadow" draggable={false} onDragStart={(e) => e.preventDefault()} src={"/stickers/" + a.code + ".webp"} alt=""
-                style={{ left: pct(a.x + 6, ROOM_W), top: pct(a.y + 9, ROOM_H), width: pct(a.w, ROOM_W) }} />}
+                style={{ left: pct(a.x + 6, ROOM_W), top: py(a.y + 9), width: pct(a.w, ROOM_W) }} />}
           <img className={"sticker-img" + (celebrate ? " wiggle" : "") + (liftCodes.includes(a.code) || tapInfo?.code === a.code ? " lifted" : "")}
             draggable={false} onDragStart={(e) => e.preventDefault()}
             src={"/stickers/" + a.code + ".webp"} alt={onStickerTap ? a.code : ""}
             onClick={onStickerTap ? (e) => { e.stopPropagation(); onStickerTap(a.code); } : undefined}
-            style={{ left: pct(a.x, ROOM_W), top: pct(a.y, ROOM_H), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
-          {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 5 }}>+1</span>}
-          {tapInfo?.code === a.code && (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: pct(a.y, ROOM_H), zIndex: a.z + 6,
+            style={{ left: pct(a.x, ROOM_W), top: py(a.y), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
+          {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: py(a.y), zIndex: a.z + 5 }}>+1</span>}
+          {tapInfo?.code === a.code && (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: py(a.y), zIndex: a.z + 6,
             transform: a.x / ROOM_W > 0.68 ? "translate(calc(-100% + 14px), -112%) rotate(-1deg)"
               : a.x / ROOM_W < 0.2 ? "translate(-14px, -112%) rotate(-1deg)"
               : "translate(-50%, -112%) rotate(-1deg)" }}>
