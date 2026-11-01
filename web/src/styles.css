@@ -62,8 +62,8 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .card .stamp.up{left:50%;top:48px;bottom:auto;transform:translateX(-50%);color:var(--accent);border-color:var(--accent);background:var(--paper);z-index:6}
 .card .stamp.yes,.card .stamp.no{background:var(--paper);z-index:6}
 .card .qtext{position:absolute;left:0;right:0;top:0;padding:16px 16px 40px;background:linear-gradient(rgba(0,0,0,.55),transparent);color:#fff;font-family:var(--display);font-size:1.35rem;line-height:1.15;pointer-events:none}
-.fact{position:absolute;left:12px;right:12px;top:44px;z-index:5;background:var(--paper);border-radius:14px;padding:10px 12px;box-shadow:0 10px 30px rgba(20,10,40,.35);font-size:.9rem;border-left:4px solid var(--accent)}
-.fact b{display:block;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.factnote{position:absolute;left:16px;right:16px;top:calc(82px + env(safe-area-inset-top,0px));z-index:6;background:var(--butter);background-image:url(/paper-grain.png);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--paper-shadow);font-size:14px;pointer-events:none}
+.factnote b{display:block;font-family:var(--display);font-weight:700;font-size:13px}
 .actioncol{display:grid;gap:8px;justify-items:center}
 .continurow{height:48px;display:grid;place-items:center}
 .actions{display:flex;width:208px;justify-content:space-between;align-items:center}

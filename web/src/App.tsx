@@ -224,8 +224,11 @@ export default function App() {
     const snap = { ...answersRef.current, swipes: [...answersRef.current.swipes, { card_id: current.id, answer: kind }] };
     setAnswers(snap);
     applyAction(snap, false);
+    setFact(null);
     if (round === 4 && kind !== "no" && current.fact) {
-      setFact(current.fact); window.setTimeout(() => setFact(null), 2600);
+      const f = current.fact;
+      window.setTimeout(() => setFact(f), 60);
+      window.setTimeout(() => setFact((cur) => (cur === f ? null : cur)), 3060);
     }
     setDeckIdx(deckIdx + 1);
   }
@@ -299,6 +302,10 @@ export default function App() {
               : <path d="M16.5 9.5l5 5m0-5l-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}</svg>
         </button></div></div>)}
       <div className={"toast" + (toast ? "" : " off")}>{toast}</div>
+      {fact && scene.kind === "round" && (<motion.div className="factnote" role="status"
+        initial={{ scale: 0.7, opacity: 0, rotate: -4 }} animate={{ scale: 1, opacity: 1, rotate: -1.5 }}
+        transition={{ type: "spring", stiffness: 380, damping: 20 }}>
+        <b>Did you know?</b>{fact}</motion.div>)}
 
       {scene.kind === "landing" && (<section className="landing">
         <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }} />
@@ -402,7 +409,6 @@ export default function App() {
                   <span className="cardtag">{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</span>
                   <span className="counttab">{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</span>
                   <div className="paperlabel">{current.title}</div>
-                  {fact && <div className="fact"><b>Did you know?</b>{fact}</div>}
                 </div>
               : <div className="card" style={{ placeItems: "center", display: "grid", padding: 16 }}><p className="note">That's every card in this round.</p></div>}
           </div>
