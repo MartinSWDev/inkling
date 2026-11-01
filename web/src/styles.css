@@ -77,6 +77,21 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .card.swipe{z-index:2;display:block;touch-action:none}
 .card.peek{z-index:1;transform:scale(.96) translateY(12px)}
 .cardtag{position:absolute;top:12px;left:12px;z-index:5;background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);font-family:var(--display);font-weight:700;font-size:18px;line-height:1.1;padding:7px 12px;border:1px solid var(--line);border-radius:8px;transform:rotate(-1deg);box-shadow:var(--paper-shadow-sm);max-width:75%}
+.app .overlay.cardlayout{top:calc(64px + env(safe-area-inset-top,0px));max-height:none;overflow:visible;display:block;padding:0 16px calc(16px + env(safe-area-inset-bottom,0px))}
+.cardround{display:flex;flex-direction:column;align-items:center;height:100%}
+.qtag{align-self:flex-start;background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);font-family:var(--display);font-weight:700;font-size:18px;line-height:1.1;padding:7px 12px;border:1px solid var(--line);border-radius:8px;transform:rotate(-1deg);box-shadow:var(--paper-shadow-sm);max-width:85%}
+.hintrow{margin-top:auto;display:flex;gap:14px;align-items:center;justify-content:center;font-size:13px;font-weight:600;color:var(--ink);background:rgba(251,246,238,.85);border-radius:99px;padding:5px 12px;transition:opacity .4s}
+.hintrow .hcount{color:var(--muted);font-weight:400}
+.harrow{display:inline-block}
+.hintrow.nudge .hl{animation:nudgel 1s ease .3s 2}
+.hintrow.nudge .hr{animation:nudger 1s ease .3s 2}
+.hintrow.nudge .hu{animation:nudgeu 1s ease .3s 2}
+@keyframes nudgel{0%,100%{transform:translateX(0)}50%{transform:translateX(-5px)}}
+@keyframes nudger{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes nudgeu{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.app .cardround .deck{margin:8px 0 0;height:min(260px,32svh)}
+.titlebar{width:min(80%,340px);margin-top:8px;background:var(--paper);background-image:url(/paper-grain.png);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-family:var(--display);font-weight:700;font-size:19px;line-height:1.15;transform:rotate(-1deg);box-shadow:var(--paper-shadow-sm);text-align:center}
+.cardround{padding-bottom:calc(148px + env(safe-area-inset-bottom,0px))}
 .counttab{position:absolute;top:10px;right:10px;z-index:4;background:var(--paper);color:var(--ink);font-size:.72rem;padding:3px 8px;border-radius:6px;border:1px solid var(--line);box-shadow:0 1px 0 rgba(42,34,56,.18),0 6px 14px rgba(42,34,56,.18);transform:rotate(1deg)}
 .paperlabel{position:absolute;left:12px;right:12px;bottom:12px;z-index:4;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-family:var(--display);font-size:1.3rem;line-height:1.15;transform:rotate(-1deg);box-shadow:0 1px 0 rgba(42,34,56,.18),0 10px 22px rgba(42,34,56,.22)}
 .card .cap{padding:8px 14px 10px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
@@ -113,9 +128,9 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .other input{flex:1;min-width:0;font:inherit;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:11px 12px}
 .sheet2 .btn{justify-self:center;min-width:220px}
 .pairs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.pcard{position:relative;display:block;width:100%;border-radius:16px;overflow:hidden;border:3px solid transparent;padding:0;cursor:pointer;background:#1e1829;font:inherit;text-align:left}
-.pcard img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
-.pcard .lbl{position:absolute;left:8px;right:8px;bottom:8px;max-height:33%;overflow:hidden;padding:7px 9px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;transform:rotate(-1deg);box-shadow:0 1px 0 rgba(42,34,56,.18),0 8px 18px rgba(42,34,56,.22)}
+.pcard{position:relative;display:block;width:100%;border-radius:16px;overflow:hidden;border:3px solid transparent;padding:0;cursor:pointer;background:var(--paper);font:inherit;text-align:left}
+.pcard img{width:100%;aspect-ratio:4/3.4;object-fit:cover;display:block}
+.pcard .lbl{display:block;padding:7px 9px 9px;background:var(--paper);color:var(--ink)}
 .pcard .lbl b{font-family:var(--display);font-weight:700;font-size:15px;display:block;line-height:1.1}.pcard .lbl small{font-size:12px;color:var(--muted);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pcard{transition:transform .22s ease,opacity .22s ease}
 .pcard:active{transform:scale(.97)}

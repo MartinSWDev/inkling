@@ -463,7 +463,7 @@ export default function App() {
         </motion.span>
       </button>)}
 
-      {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "") + (round === 1 ? " r1center" : "")}>
+      {scene.kind === "round" && (<div className={"overlay" + (dip ? " dip" : "") + (round === 1 ? " r1center" : "") + (round === 2 || round === 4 ? " cardlayout" : "")}>
         {round === 1 && (<div className="sheet2 chipsheet">
           <div><p className="eyebrow">Round 1 · Your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
           <div className="chips">{content.chips.map((chip) => {
@@ -496,7 +496,14 @@ export default function App() {
             : <p className="hint2" style={{ textAlign: "center" }}>Pick at least 3</p>}
         </div>)}
 
-        {(round === 2 || round === 4) && (<div style={{ display: "grid", gap: 10, justifyItems: "center", width: "100%", paddingTop: 14 }}>
+        {(round === 2 || round === 4) && (<div className="cardround">
+          <div className="qtag">{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</div>
+          <div className={"hintrow" + (deckIdx < 2 ? " nudge" : "")} style={{ opacity: deckIdx >= 2 ? 0.4 : 1 }}>
+            <span><span className="harrow hl">←</span> Not for me</span>
+            <span className="hcount">{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</span>
+            {round === 4 && <span><span className="harrow hu">↑</span> Tell me more</span>}
+            <span>Yes <span className="harrow hr">→</span></span>
+          </div>
           <div className="deck">
             {deck[deckIdx + 1] && <div className="card peek" aria-hidden="true"><CardArt card={deck[deckIdx + 1]} /></div>}
             {current
@@ -514,12 +521,10 @@ export default function App() {
                   <div className="stamp no" style={{ opacity: Math.max(0, Math.min(1, -dragT.x / 80)) }}>Not for me</div>
                   {round === 4 && <div className="stamp up" style={{ opacity: Math.max(0, Math.min(1, -dragT.y / 80)) }}>Need to know</div>}
                   <CardArt card={current} />
-                  <span className="cardtag">{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</span>
-                  <span className="counttab">{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</span>
-                  <div className="paperlabel">{current.title}</div>
                 </div>
               : <div className="card" style={{ placeItems: "center", display: "grid", padding: 16 }}><p className="note">That's every card in this round.</p></div>}
           </div>
+          {current && <div className="titlebar">{current.title}</div>}
           <div className="actioncol">
             <div className="continurow">
               {deckIdx >= ROUNDS[round - 1].min && <button className="btn alt" id="continue" onClick={nextRound}>{round < 4 ? "Continue" : "Build my room"}</button>}
@@ -533,7 +538,7 @@ export default function App() {
         </div>)}
 
         {round === 3 && pair && (<div className="sheet2">
-          <div className="pfoot"><div><p className="eyebrow">Round 3 · This or that</p><h2>Which is more you?</h2></div><span className="count">{pairIdx + 1} / {content.pairs.length}</span></div>
+          <div className="pfoot"><span className="qtag">Which is more you?</span><span className="count">{pairIdx + 1} / {content.pairs.length}</span></div>
           <div className="pairs">
             {(["a", "b"] as const).map((side) => (
               <button key={side} className={"pcard" + (pairPick === side ? " picked" : pairPick ? " dim" : "")} onClick={() => answerPair(pair, side)}>
