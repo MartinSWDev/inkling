@@ -2,21 +2,42 @@ import { useEffect, useRef, useState } from "react";
 import { Pause, Play, RotateCcw, Shuffle, Volume2, VolumeX, X } from "lucide-react";
 import AppMenu from "./Menu";
 import SimScene from "./SimScene";
-import { BUILDINGS, PAPER_COLOURS, loadSnapshot, type SimSnapshot, type SimStudent } from "./simData";
+import { BUILDINGS, PAPER_COLOURS, loadSnapshot, type Paper, type SimSnapshot, type SimStudent } from "./simData";
 import { setSoundEnabled, unlock } from "./design/sound";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
 const ICON_SM = { size: 16, strokeWidth: 2 } as const;
 const pct = (v: number | null | undefined) => (v == null ? "—" : Math.round(v * 100) + "%");
 
-function StudentCard({ s, snap, onClose }: { s: SimStudent; snap: SimSnapshot; onClose: () => void }) {
+function BuildingCard({ paper, students, onPick, onClose }: { paper: Paper; students: SimStudent[]; onPick: (s: SimStudent) => void; onClose: () => void }) {
+  return (
+    <aside className="studentcard buildingcard" role="dialog" aria-label={BUILDINGS[paper]}>
+      <div className="studenthead">
+        <h3 className="studentname"><img className="cardbuilding" src={`/sim/buildings/${paper}.webp`} alt="" draggable={false} />{BUILDINGS[paper]}</h3>
+        <button className="menubtn iconbtn" aria-label="Close" onClick={onClose}><X {...ICON_SM} aria-hidden="true" /></button>
+      </div>
+      <p className="note">{students.length ? `${students.length} ${students.length === 1 ? "student" : "students"} ended up here. Tap one to read their story.` : "Nobody has arrived here yet."}</p>
+      <div className="insidegrid">
+        {students.map((s) => (
+          <button key={s.id} className="insidepal" onClick={() => onPick(s)} aria-label={`${s.first_name}, ${s.hit3 ? "hit" : "miss"}`}>
+            <img src={`/characters/${s.paper}.webp`} alt="" draggable={false} />
+            <span>{s.first_name}</span>
+            <span className={"insidemark " + (s.hit3 ? "hit" : "miss")} aria-hidden="true">{s.hit3 ? "★" : "·"}</span>
+          </button>
+        ))}
+      </div>
+    </aside>
+  );
+}
+function StudentCard({ s, snap, onClose, backTo }: { s: SimStudent; snap: SimSnapshot; onClose: () => void; backTo?: string }) {
   const name = (code: string | null) => (code ? snap.subjects[code] || code : "—");
   return (
     <aside className="studentcard" role="dialog" aria-label={"Student " + s.first_name}>
       <div className="studenthead">
-        <h3>{s.first_name}, {s.age}</h3>
+        <h3 className="studentname"><img className="cardpal" src={`/characters/${s.paper}.webp`} alt="" draggable={false} />{s.first_name}, {s.age}</h3>
         <button className="menubtn iconbtn" aria-label="Close student card" onClick={onClose}><X {...ICON_SM} aria-hidden="true" /></button>
       </div>
+      {backTo && <button className="linkbtn backlink" onClick={onClose}>← Back to {backTo}</button>}
       <p className="note">{s.where} · {s.certainty === "no idea" ? "says they have no idea yet"
         : s.certainty === "torn" ? "torn between subjects" : "knows what they like"}</p>
       <p>{s.enjoys}</p>
@@ -39,6 +60,7 @@ export default function Simulation() {
   const [speed, setSpeed] = useState(1);
   const [replayKey, setReplayKey] = useState(0);
   const [selected, setSelected] = useState<SimStudent | null>(null);
+  const [building, setBuilding] = useState<{ paper: Paper; ids: string[] } | null>(null);
   const [arrived, setArrived] = useState(0);
   const [soundOn, setSoundOn] = useState(false);
   const [reduced] = useState(() => typeof window !== "undefined"
@@ -60,6 +82,7 @@ export default function Simulation() {
 
   const followRandom = () => {
     if (!snap?.students.length) return;
+    setBuilding(null);
     setSelected(snap.students[Math.floor(Math.random() * snap.students.length)]);
   };
 
@@ -77,9 +100,14 @@ export default function Simulation() {
             {snap ? (
               <SimScene students={snap.students} playing={playing} speed={speed} replayKey={replayKey}
                 finalState={finalState} selectedId={selected?.id ?? null} soundOn={soundOn}
-                onSelect={setSelected} onArrive={setArrived} />
+                onSelect={(s) => { setBuilding(null); setSelected(s); }} onArrive={setArrived}
+                onBuilding={(paper, ids) => { setSelected(null); setBuilding({ paper, ids }); }} />
             ) : <p className="note" style={{ padding: 18 }}>Loading the simulation…</p>}
-            {selected && snap && <StudentCard s={selected} snap={snap} onClose={() => setSelected(null)} />}
+            {selected && snap && <StudentCard s={selected} snap={snap} onClose={() => setSelected(null)}
+              backTo={building ? BUILDINGS[building.paper] : undefined} />}
+            {!selected && building && snap && <BuildingCard paper={building.paper}
+              students={building.ids.map((id) => snap.students.find((s) => s.id === id)).filter((s): s is SimStudent => !!s)}
+              onPick={setSelected} onClose={() => setBuilding(null)} />}
           </div>
           <div className="simcontrols">
             {finalState ? (
@@ -105,8 +133,7 @@ export default function Simulation() {
               {soundOn ? <Volume2 {...ICON_SM} aria-hidden="true" /> : <VolumeX {...ICON_SM} aria-hidden="true" />}</button>
             <span className="arrived" role="status">{snap ? `${arrived} / ${snap.students.length} arrived` : ""}</span>
           </div>
-          <p className="note">Tap a student to see their card. Buildings and paper pals are paper-coloured
-            placeholders until the cut-out images land.</p>
+          <p className="note">Tap a building to see who ended up there, then tap a student to read their story.</p>
         </section>
         <div id="sim-results">{snap ? <Results snap={snap} onPick={setSelected} /> : null}</div>
       </main>
@@ -173,10 +200,13 @@ function Results({ snap, onPick }: { snap: SimSnapshot; onPick: (s: SimStudent) 
         <div className="examplegrid">
           {examples.map((s) => (
             <button key={s.id} className="simcard examplecard" onClick={() => { onPick(s); window.scrollTo({ top: 0, behavior: "smooth" }); document.querySelector(".simpage")?.scrollTo({ top: 0, behavior: "smooth" }); }}>
-              <b>{s.first_name}, {s.age}</b> · {s.where}<br />
-              <span className="note">{s.enjoys}</span><br />
-              <span>Top 3: {s.top3.map(name).join(" · ")}</span><br />
-              <span className={"hitbadge " + (s.hit3 ? "hit" : "miss")}>{s.hit3 ? "Hit" : "Miss"}</span>
+              <img className="expal" src={`/characters/${s.paper}.webp`} alt="" draggable={false} />
+              <span className="exbody">
+                <b>{s.first_name}, {s.age}</b> · {s.where}<br />
+                <span className="note">{s.enjoys}</span><br />
+                <span>Top 3: {s.top3.map(name).join(" · ")}</span><br />
+                <span className={"hitbadge " + (s.hit3 ? "hit" : "miss")}>{s.hit3 ? "Hit" : "Miss"}</span>
+              </span>
             </button>
           ))}
         </div>

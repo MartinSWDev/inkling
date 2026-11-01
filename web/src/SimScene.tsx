@@ -81,6 +81,7 @@ export interface SimSceneProps {
   selectedId: string | null;
   soundOn: boolean;
   onSelect: (s: SimStudent) => void;
+  onBuilding?: (paper: Paper, ids: string[]) => void;
   onArrive?: (count: number) => void;
 }
 
@@ -110,8 +111,10 @@ export default function SimScene(p: SimSceneProps) {
     let raf = 0;
     const drawBuilding = (x: number, y: number, w: number, paper: Paper | "sixthform", label: string, count?: number) => {
       const img = tryImg("b-" + paper, `/sim/buildings/${paper}.webp`);
+      let topY = y - 88; // roof top (placeholder height)
       if (img instanceof HTMLImageElement && img.complete && img.naturalWidth) {
-        ctx.drawImage(img, x - w / 2, y - w * 0.78, w, w * 0.78);
+        const h = Math.min(w * 1.15, w * img.naturalHeight / img.naturalWidth); const dw = h * img.naturalWidth / img.naturalHeight; // keep the art's own shape
+        ctx.drawImage(img, x - dw / 2, y - h, dw, h); topY = y - h;
       } else {
         ctx.save();
         ctx.fillStyle = paper === "sixthform" ? "#e8b4a0" : PAPER_COLOURS[paper as Paper];
@@ -126,11 +129,16 @@ export default function SimScene(p: SimSceneProps) {
       ctx.save();
       ctx.font = "600 21px Figtree, sans-serif"; ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
       ctx.fillStyle = "#2A2238";
-      wrapText(ctx, label, Math.max(w + 30, 156)).slice(0, 3).forEach((ln, li) => ctx.fillText(ln, x, y + 28 + li * 24));
+      const lab = wrapText(ctx, label, Math.max(w + 30, 156)).slice(0, 3);
+      const lw = Math.max(...lab.map((ln) => ctx.measureText(ln).width)) + 18;
+      ctx.fillStyle = "rgba(251,246,238,.92)"; ctx.strokeStyle = "rgba(42,34,56,.18)"; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.roundRect(x - lw / 2, y + 8, lw, lab.length * 24 + 10, 8); ctx.fill(); ctx.stroke();
+      ctx.fillStyle = "#2A2238";
+      lab.forEach((ln, li) => ctx.fillText(ln, x, y + 28 + li * 24));
       if (count !== undefined) {
         const txt = String(count);
         ctx.font = "900 24px Fraunces, serif";
-        const pw = Math.max(40, ctx.measureText(txt).width + 22), py = y - 122;
+        const pw = Math.max(40, ctx.measureText(txt).width + 22), py = topY - 14;
         ctx.fillStyle = "#FBF6EE"; ctx.strokeStyle = "rgba(42,34,56,.35)"; ctx.lineWidth = 1.5;
         ctx.beginPath(); ctx.roundRect(x - pw / 2, py - 24, pw, 32, 16); ctx.fill(); ctx.stroke();
         ctx.fillStyle = "#2A2238"; ctx.fillText(txt, x, py);
@@ -144,7 +152,7 @@ export default function SimScene(p: SimSceneProps) {
       ctx.save();
       if (done) ctx.globalAlpha = 0.92;
       if (img instanceof HTMLImageElement && img.complete && img.naturalWidth) {
-        ctx.drawImage(img, x - 17, yy - 38, 34, 38);
+        const ph = 40, pw = ph * img.naturalWidth / img.naturalHeight; ctx.drawImage(img, x - pw / 2, yy - ph, pw, ph);
       } else {
         ctx.beginPath(); ctx.arc(x, yy - 16, 15, 0, Math.PI * 2);
         ctx.fillStyle = PAPER_COLOURS[paper]; ctx.fill();
@@ -190,7 +198,12 @@ export default function SimScene(p: SimSceneProps) {
       // Sky + ground
       ctx.fillStyle = "#fdf6ea"; ctx.fillRect(0, 0, WORLD_W, WORLD_H);
       const ground = tryImg("ground", "/sim/buildings/ground.webp");
-      if (ground instanceof HTMLImageElement && ground.complete && ground.naturalWidth) ctx.drawImage(ground, 0, WORLD_H - 260, WORLD_W, 260);
+      if (ground instanceof HTMLImageElement && ground.complete && ground.naturalWidth) { // cover the whole scene: crop the picture to the scene's aspect (no stretching), then a paper wash
+        const sw = ground.naturalWidth, sh = Math.min(ground.naturalHeight, sw * WORLD_H / WORLD_W), sy = (ground.naturalHeight - sh) * 0.6;
+        ctx.drawImage(ground, 0, sy, sw, sh, 0, 0, WORLD_W, WORLD_H);
+        const wash = ctx.createLinearGradient(0, 0, 0, WORLD_H);
+        wash.addColorStop(0, "rgba(253,246,234,.78)"); wash.addColorStop(0.55, "rgba(253,246,234,.62)"); wash.addColorStop(1, "rgba(253,246,234,.5)");
+        ctx.fillStyle = wash; ctx.fillRect(0, 0, WORLD_W, WORLD_H); }
       else { ctx.fillStyle = "#dfe8cf"; ctx.fillRect(0, WORLD_H - 260, WORLD_W, 260); ctx.fillStyle = "#e9dfca"; ctx.fillRect(0, WORLD_H - 120, WORLD_W, 120); }
       // Path
       ctx.save(); ctx.strokeStyle = "#efe3cb"; ctx.lineWidth = 30; ctx.lineCap = "round"; ctx.beginPath();
@@ -213,7 +226,9 @@ export default function SimScene(p: SimSceneProps) {
       ctx.restore();
       // Buildings + counters
       const counts: Record<string, number> = {};
-      itins.forEach((it, i) => { if (t >= it.arrive) counts[p.students[i].dest_paper] = (counts[p.students[i].dest_paper] || 0) + 1; });
+      const inside: Record<string, string[]> = {};
+      itins.forEach((it, i) => { if (t >= it.arrive) { const dp = p.students[i].dest_paper; counts[dp] = (counts[dp] || 0) + 1; (inside[dp] ||= []).push(p.students[i].id); } });
+      (canvas as unknown as { _inside: typeof inside })._inside = inside;
       drawBuilding(START.x, START.y + 70, 150, "sixthform", "Sixth form");
       for (const paper of PAPERS) { const d = doorFor(paper); drawBuilding(d.x, d.y + 30, 128, paper, BUILDINGS[paper], counts[paper] || 0); }
       // Students
@@ -245,6 +260,17 @@ export default function SimScene(p: SimSceneProps) {
     const rect = canvas.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * WORLD_W;
     const y = ((e.clientY - rect.top) / rect.height) * WORLD_H;
+    // Buildings first: tap a building to see everyone who has arrived there
+    if (p.onBuilding) {
+      for (const paper of PAPERS) {
+        const d = doorFor(paper), base = d.y + 30;
+        if (x > d.x - 80 && x < d.x + 80 && y > base - 150 && y < base + 80) {
+          const inside = (canvas as unknown as { _inside?: Record<string, string[]> })._inside || {};
+          p.onBuilding(paper, inside[paper] || []);
+          return;
+        }
+      }
+    }
     const order = (canvas as unknown as { _pos?: { i: number; pos: { x: number; y: number } }[] })._pos || [];
     let best: { i: number; d: number } | null = null;
     for (const o of order) { const d = Math.hypot(o.pos.x - x, o.pos.y - 18 - y); if (d < 42 && (!best || d < best.d)) best = { i: o.i, d }; }

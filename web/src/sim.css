@@ -39,9 +39,25 @@
 .bar-track{height:20px;background:#efe7d8;border:1px solid var(--line);border-radius:6px;overflow:hidden}
 .bar-fill{height:100%}
 .examplegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
-.examplecard{text-align:left;font:inherit;color:var(--ink);cursor:pointer}
+.examplecard{text-align:left;font:inherit;color:var(--ink);cursor:pointer;display:grid;grid-template-columns:60px 1fr;gap:12px;align-items:start}
+.expal{width:60px;height:auto;filter:drop-shadow(0 3px 3px rgba(42,34,56,.18))}
+.exbody{min-width:0}
+.studentname{display:flex;align-items:center;gap:10px}
+.cardpal{width:44px;height:auto;filter:drop-shadow(0 2px 2px rgba(42,34,56,.18))}
 .examplecard:hover{border-color:var(--ink)}
 pre.simcmd{max-height:none}
 
 #sim-results{display:grid;gap:18px}
 #sim-results h2{margin-top:0}
+
+.buildingcard{width:min(360px,calc(100% - 20px))}
+.cardbuilding{width:52px;height:auto}
+.insidegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(70px,1fr));gap:8px;margin-top:8px}
+.insidepal{position:relative;display:grid;justify-items:center;gap:2px;background:transparent;border:1px solid transparent;border-radius:10px;padding:6px 4px;cursor:pointer;font:inherit;font-size:13px;color:var(--ink)}
+.insidepal:hover,.insidepal:focus-visible{border-color:var(--line);background:rgba(255,255,255,.5)}
+.insidepal img{width:44px;height:auto;filter:drop-shadow(0 2px 2px rgba(42,34,56,.18))}
+.insidemark{position:absolute;top:2px;right:8px;font-size:14px;line-height:1}
+.insidemark.hit{color:#e5a91c}.insidemark.miss{color:#b8b0c6}
+.backlink{display:inline-block;margin:4px 0 2px;font-size:13px}
+
+@media(min-width:641px){.studentcard{left:10px;right:auto}}
