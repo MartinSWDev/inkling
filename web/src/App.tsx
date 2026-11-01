@@ -61,6 +61,10 @@ export default function App() {
   }, []);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
+  const [canShareFiles] = useState(() => {
+    try { return !!navigator.canShare?.({ files: [new File(["x"], "t.mp4", { type: "video/mp4" })] }); }
+    catch { return false; }
+  });
   const [videoStatus, setVideoStatus] = useState<"idle" | "preparing" | "ready">("idle");
   const videoRef = useRef<{ key: string; blob: Blob; ext: string } | null>(null);
   const imageRef = useRef<{ key: string; blob: Blob } | null>(null);
@@ -599,7 +603,7 @@ export default function App() {
                 <img src={"/views/" + v.id + "_day.webp"} alt="" />
                 <span>{v.name}</span></button>))}</div>
             <p className="note">It changes the view from your window.</p></div></div>
-          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><h2>Share your room</h2>
+          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom sharepc"><h2>Share your room</h2>
             <div className="share"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
                 <div className="over"><b>What's your inkling?</b>
@@ -647,7 +651,8 @@ export default function App() {
                     }
                   }}>Share image</button>
                   <button className="btn ghost" onClick={restart}>Start over</button>
-                </div></div></div>
+                </div>
+                <p className="note sharehint">{canShareFiles ? "Opens your share sheet — pick Instagram, TikTok or WhatsApp" : "Saves the video — post it from your phone"}</p></div></div>
           </div></div>
         </div>
       </section>)}
