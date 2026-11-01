@@ -181,7 +181,7 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .sticker-img.lifted{filter:drop-shadow(0 0 14px rgba(243,217,139,.95)) drop-shadow(0 10px 10px rgba(30,24,48,.35))}
 .views.swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .views.swatches button{display:grid;gap:4px;padding:5px;text-align:left;font-size:11px;min-width:0}
-.views.swatches button span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.views.swatches button span{white-space:normal;line-height:1.15;font-size:10.5px}
 .views.swatches img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:7px;display:block}
 .views button[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
 .daypick{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
