@@ -147,6 +147,9 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .wildfront{transform:rotateY(180deg)}
 .wildfront b{font-family:var(--display);font-weight:900;font-size:26px;line-height:1.1}
 .wildfront small{color:var(--muted);font-size:14px}
+.replaywild{pointer-events:none}
+.wildface.static{position:relative;transform:none}
+.replayend{z-index:9}
 .explinks{display:flex;gap:12px;align-items:center;margin-top:4px}
 .explinks a{color:var(--teal);font-weight:600}
 .story{position:absolute;inset:0;z-index:6}

@@ -7,6 +7,7 @@ import { ROUND_CAPS, ensureFloorOrBed, growRoom } from "./roomRules";
 import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
+import { makeShareVideo, shareUrl, type ShareData } from "./share";
 const VIEWS = [{ id: "city", name: "City" }, { id: "coast", name: "Coast" }, { id: "campus", name: "Campus town" }, { id: "country", name: "Countryside" }];
 const SCENES: Record<string, [string, string]> = { sea: ["#1f6f8b", "#8fd0e6"], desk: ["#5a4a7a", "#c9b7e8"], wood: ["#6e4329", "#d9b48f"], night: ["#1c1a3a", "#6b5aa8"], dark: ["#101418", "#2f3a48"], green: ["#2f6b3a", "#a9d9a0"], light: ["#e8dfd0", "#fff8ea"] };
 
@@ -49,6 +50,9 @@ export default function App() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
+  const [videoBusy, setVideoBusy] = useState(false);
+  const [painted, setPainted] = useState<string | null>(null);
+  const [paintBusy, setPaintBusy] = useState(false);
   const [wildcardFlipped, setWildcardFlipped] = useState(false);
   const [exploreOpen, setExploreOpen] = useState<string | null>(null);
   const revealPage = scene.kind === "reveal" ? scene.page : scene.kind === "share" ? 4 : 0;
@@ -434,33 +438,45 @@ export default function App() {
             <div className="views">{VIEWS.map((v) => <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>{v.name}</button>)}</div>
             <div className="views" style={{ marginTop: 8 }}>{["day", "dusk"].map((t) => <button key={t} aria-pressed={t === viewTime} onClick={() => setViewTime(t)}>{t === "day" ? "Day" : "Dusk"}</button>)}</div>
             <p className="note">It changes your window, and later helps suggest places to study.</p></div></div>
-          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><p className="eyebrow">Share</p>
-            <div className="share"><div className="phone"><RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
-              <div className="over"><b>got an inkling?</b>made with Inkling</div></div>
-              <div><p style={{ fontStyle: "italic", margin: "0 0 6px" }}>"my inkling: {revealList.slice(0, 2).map((r) => r.display_name.toLowerCase()).join(" + ") || "still working it out"}. got an inkling?"</p>
-                <p className="note">Downloads a 9:16 share card and a story background made from your room.</p>
+          <div className={"page" + (page === 4 ? " on" : "")}><div className="pc bottom"><h2>Share your room</h2>
+            <div className="share"><div className="phone">{painted
+                ? <img src={painted} alt="Your painted room" />
+                : <><RoomView assigned={assigned} viewId={view} viewTime={viewTime} /><div className="over"><b>got an inkling?</b>made with Inkling</div></>}
+              </div>
+              <div><p className="note">{videoBusy ? "Making your video…" : "A 10-second video of your room filling up, or send the link."}</p>
                 <div className="row" style={{ marginTop: 10 }}>
-                  <button className="btn alt" onClick={async () => {
-                    if (!assets) return;
-                    const canvas = await composeRoomCanvas(assigned, view, viewTime, assets.layout);
-                    const ctx = canvas.getContext("2d")!;
-                    ctx.fillStyle = "rgba(43,35,64,.82)"; ctx.fillRect(0, 1620, 1080, 300);
-                    ctx.fillStyle = "#fff"; ctx.font = "64px Georgia"; ctx.fillText(revealList[0]?.display_name || "My inkling", 48, 1710);
-                    ctx.font = "44px Georgia"; ctx.fillText("got an inkling?", 48, 1780);
-                    download(canvas, "inkling-share.png");
-                  }}>Share card</button>
+                  <button className="btn alt" disabled={videoBusy} onClick={async () => {
+                    if (!assets || videoBusy) return;
+                    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
+                    setVideoBusy(true);
+                    try {
+                      const { blob, ext } = await makeShareVideo({ assigned, viewId: view, viewTime, layout: assets.layout,
+                        topNames: top3.map((r) => r.display_name), wildcardName: wildcardRow?.display_name ?? null, shortUrl: shareUrl(data) });
+                      const file = new File([blob], "inkling." + ext, { type: blob.type });
+                      if (navigator.canShare?.({ files: [file] })) await navigator.share({ files: [file], text: "What's your inkling?", url: shareUrl(data) });
+                      else { const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = file.name; a.click(); URL.revokeObjectURL(u); }
+                    } catch { tip("Video didn't work on this browser — try Save image."); }
+                    setVideoBusy(false);
+                  }}>{videoBusy ? "Making your video…" : "Share video"}</button>
+                  <button className="btn" onClick={async () => {
+                    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
+                    try { await navigator.clipboard.writeText(shareUrl(data)); tip("Link copied."); } catch { tip(shareUrl(data)); }
+                  }}>Copy link</button>
                   <button className="btn" onClick={async () => {
                     if (!assets) return;
-                    const canvas = await composeRoomCanvas(assigned, view, viewTime, assets.layout);
-                    const ctx = canvas.getContext("2d")!;
-                    ctx.fillStyle = "#e59a2c"; ctx.fillRect(0, 0, 1080, 90); ctx.fillRect(0, 1830, 1080, 90);
-                    ctx.save(); ctx.translate(120, 240); ctx.rotate(-0.18); ctx.font = "120px Georgia"; ctx.fillStyle = "rgba(255,255,255,.9)";
-                    ctx.fillText((revealList[0]?.display_name || "I").slice(0, 2).toUpperCase(), 0, 0); ctx.restore();
-                    download(canvas, "inkling-story.png");
-                  }}>Story background</button>
+                    download(await composeRoomCanvas(assigned, view, viewTime, assets.layout), "inkling-room.png");
+                  }}>Save image</button>
+                  <button className="btn" disabled={paintBusy} onClick={async () => {
+                    setPaintBusy(true); tip("Painting your room — this can take a few minutes.");
+                    try {
+                      const r = await fetch("/api/room", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ add: displayCodes }) });
+                      const d = await r.json();
+                      if (d.image_url) { setPainted(d.image_url); tip("Here's your painted room."); } else tip("Painting didn't work this time.");
+                    } catch { tip("Painting didn't work this time."); }
+                    setPaintBusy(false);
+                  }}>{paintBusy ? "Painting…" : "Paint my room"}</button>
                   <button className="btn ghost" onClick={restart}>Start over</button>
                 </div></div></div>
-            <details><summary>What the model thinks</summary><pre>{ranked.slice(0, 12).map((r) => r.display_name + "  score " + r.score.toFixed(2) + "  unc " + r.uncertainty.toFixed(2)).join("\n")}</pre></details>
           </div></div>
         </div>
       </section>)}
