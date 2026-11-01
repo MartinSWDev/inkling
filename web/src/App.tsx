@@ -324,10 +324,10 @@ export default function App() {
 
       {scene.kind === "unfold" && (<section className="unfold3d" aria-hidden="true">
         {[
-          { key: "floor", clip: "polygon(0% 75%, 100% 75%, 100% 100%, 0% 100%)", from: { rotateX: 68, scale: 0.92, opacity: 0 }, delay: 0, origin: "50% 100%" },
-          { key: "back", clip: "polygon(9% 3%, 91% 3%, 91% 77%, 9% 77%)", from: { rotateX: 80, opacity: 0 }, delay: 0.2, origin: "50% 100%" },
-          { key: "left", clip: "polygon(0% 0%, 11% 0%, 11% 100%, 0% 100%)", from: { rotateY: 70, opacity: 0 }, delay: 0.55, origin: "100% 50%" },
-          { key: "right", clip: "polygon(89% 0%, 100% 0%, 100% 100%, 89% 100%)", from: { rotateY: -70, opacity: 0 }, delay: 0.55, origin: "0% 50%" },
+          { key: "floor", clip: "polygon(0% 74.6%, 100% 74.6%, 100% 100%, 0% 100%)", from: { rotateX: 68, scale: 0.92, opacity: 0 }, delay: 0, origin: "50% 100%" },
+          { key: "back", clip: "polygon(0% 0%, 100% 0%, 91.4% 9%, 91.4% 77.4%, 8.6% 77.4%, 8.6% 9%)", from: { rotateX: 80, opacity: 0 }, delay: 0.2, origin: "50% 100%" },
+          { key: "left", clip: "polygon(0% 0%, 11.5% 0%, 11.5% 100%, 0% 100%)", from: { rotateY: 70, opacity: 0 }, delay: 0.55, origin: "100% 50%" },
+          { key: "right", clip: "polygon(88.5% 0%, 100% 0%, 100% 100%, 88.5% 100%)", from: { rotateY: -70, opacity: 0 }, delay: 0.55, origin: "0% 50%" },
         ].map((p) => (
           <motion.div key={p.key} className="uslice" style={{ clipPath: p.clip, transformOrigin: p.origin }}
             initial={p.from} animate={{ rotateX: 0, rotateY: 0, scale: 1, opacity: 1 }}
@@ -385,8 +385,7 @@ export default function App() {
             : <p className="hint2" style={{ textAlign: "center" }}>Pick at least 3</p>}
         </div>)}
 
-        {(round === 2 || round === 4) && (<div style={{ display: "grid", gap: 10, justifyItems: "center", width: "100%" }}>
-          <p className="theme">{"Round " + round + " · " + ROUNDS[round - 1].title}<b>{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</b></p>
+        {(round === 2 || round === 4) && (<div style={{ display: "grid", gap: 10, justifyItems: "center", width: "100%", paddingTop: 14 }}>
           <div className="deck">
             {deck[deckIdx + 1] && <div className="card peek" aria-hidden="true"><CardArt card={deck[deckIdx + 1]} /></div>}
             {current
@@ -397,6 +396,7 @@ export default function App() {
                   <div className="stamp no" style={{ opacity: Math.max(0, Math.min(1, -dragT.x / 80)) }}>Not for me</div>
                   {round === 4 && <div className="stamp up" style={{ opacity: Math.max(0, Math.min(1, -dragT.y / 80)) }}>Need to know</div>}
                   <CardArt card={current} />
+                  <span className="cardtag">{round === 2 ? "Would you get stuck into this?" : "Would you want to find out?"}</span>
                   <span className="counttab">{Math.min(deckIdx + 1, ROUNDS[round - 1].min)} of {ROUNDS[round - 1].min}</span>
                   <div className="paperlabel">{current.title}</div>
                   {fact && <div className="fact"><b>Did you know?</b>{fact}</div>}
