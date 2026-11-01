@@ -288,9 +288,14 @@ export default function App() {
             {i === round - 1 && <em className="mintick" style={{ left: (r.min / Math.max(1, totals[i]) * 100) + "%" }} />}
           </div>);
         })}
-      </div><div className="topline"><b>{ROUNDS[round - 1].title}</b><span>{"Round " + round + " of 4"}</span>
-        <button className="soundbtn" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
-          onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>{soundOn ? "Sound on" : "Sound off"}</button></div></div>)}
+      </div><div className="topline"><b>{ROUNDS[round - 1].title}</b>
+        <button className="soundbtn iconbtn" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
+          onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9v6h4l6 4V5L8 9H4z" fill="currentColor" />
+            {soundOn
+              ? <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+              : <path d="M16.5 9.5l5 5m0-5l-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}</svg>
+        </button></div></div>)}
       <div className={"toast" + (toast ? "" : " off")}>{toast}</div>
 
       {scene.kind === "landing" && (<section className="landing">
@@ -301,8 +306,13 @@ export default function App() {
         <p className="smallprint">Takes about 3 minutes · free · no sign-up</p>
         <button className="musetag" onClick={() => setHowOpen(true)}>Built with Meta Muse</button>
         <p className="smallprint">Built with UK course data from Discover Uni · <button className="linkbtn" onClick={() => setHowOpen(true)}>How it works</button></p>
-        <button className="soundbtn landing-sound" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
-          onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>{soundOn ? "Sound on" : "Sound off"}</button>
+        <button className="soundbtn iconbtn landing-sound" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
+          onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9v6h4l6 4V5L8 9H4z" fill="currentColor" />
+            {soundOn
+              ? <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+              : <path d="M16.5 9.5l5 5m0-5l-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}</svg>
+        </button>
         {howOpen && (<div className="howsheet" role="dialog" aria-label="How it works"><div className="sheet2">
           <h2>How it works</h2>
           <p className="note">Four quick rounds. Your answers fill a paper room with what you're into, then you see degree subjects worth exploring. Answers stay on your phone; the share link only carries subject codes.</p>
