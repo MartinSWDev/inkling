@@ -12,9 +12,10 @@ const OUT = resolve(dirname(fileURLToPath(import.meta.url)), "../../review_out")
 const BASE = process.env.CAPTURE_URL || "http://127.0.0.1:5174";
 mkdirSync(OUT, { recursive: true });
 
-async function playthrough(browser: Browser, vp: { width: number; height: number }, suffix: string) {
+async function playthrough(browser: Browser, vp: { width: number; height: number }, suffix: string, scheme: "light" | "dark" = "light") {
   const context = await browser.newContext({
-    viewport: vp, deviceScaleFactor: 2, isMobile: suffix === "", hasTouch: true,
+    viewport: vp, deviceScaleFactor: 2, isMobile: suffix === "" || suffix === "-dark", hasTouch: true,
+    colorScheme: scheme,
     recordVideo: { dir: OUT, size: vp },
   });
   const page = await context.newPage();
@@ -120,7 +121,9 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
 }
 
 const browser = await chromium.launch();
-await playthrough(browser, { width: 390, height: 844 }, "");
-await playthrough(browser, { width: 1280, height: 800 }, "-desktop");
+await playthrough(browser, { width: 390, height: 844 }, "", "light");
+await playthrough(browser, { width: 390, height: 844 }, "-dark", "dark");
+await playthrough(browser, { width: 1280, height: 800 }, "-desktop", "light");
+await playthrough(browser, { width: 1280, height: 800 }, "-desktop-dark", "dark");
 await browser.close();
 console.log("done ->", OUT);
