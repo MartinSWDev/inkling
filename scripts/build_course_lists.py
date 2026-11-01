@@ -95,6 +95,11 @@ def main():
             provider = r["provider"]
             if provider == provider.upper() and len(provider) > 3:
                 provider = provider.title()
+            # Sentence-style title case: small words stay lower-case mid-name
+            # ("University of East Anglia", not "University Of East Anglia").
+            small = {"Of", "And", "The", "De", "For"}
+            provider = " ".join(w.lower() if i > 0 and w in small else w
+                                for i, w in enumerate(provider.split()))
             tag = course_setting.get(r["id"]) or {}
             picked.append({"title": r["title"], "provider": provider, "url": r["url"], "ucas_code": r["ucas_code"],
                            "setting": tag.get("setting"), "town": tag.get("town")})

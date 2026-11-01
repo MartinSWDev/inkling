@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Italian",
-   "provider": "The University Of Leeds",
+   "provider": "The University of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/i990/italian-ba",
    "ucas_code": "A26-I35",
    "setting": "city",
@@ -12,7 +12,7 @@
   },
   {
    "title": "Italian",
-   "provider": "The University Of Liverpool",
+   "provider": "The University of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/italian-ba-hons/2027",
    "ucas_code": "A42-C68",
    "setting": "coast",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Italian",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/italian/",
    "ucas_code": "A24-I89",
    "setting": "city",
@@ -60,7 +60,7 @@
   },
   {
    "title": "French and Italian",
-   "provider": "The University Of Birmingham",
+   "provider": "The University of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-italian",
    "ucas_code": "A72-I79",
    "setting": "city",
@@ -68,7 +68,7 @@
   },
   {
    "title": "English and Italian",
-   "provider": "The University Of Warwick",
+   "provider": "The University of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-italian",
    "ucas_code": "A20-B83",
    "setting": "campus town",

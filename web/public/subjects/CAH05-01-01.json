@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Veterinary Science",
-   "provider": "The University Of Liverpool",
+   "provider": "The University of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/veterinary-science-bvsc/2027",
    "ucas_code": "A03-C18",
    "setting": "coast",
@@ -12,7 +12,7 @@
   },
   {
    "title": "Veterinary Medicine and Science",
-   "provider": "The University Of Surrey",
+   "provider": "The University of Surrey",
    "url": "https://www.surrey.ac.uk/undergraduate/veterinary-medicine-and-science/2027",
    "ucas_code": "A36-G20",
    "setting": "campus town",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Veterinary Medicine and Surgery",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/veterinarymedicine/",
    "ucas_code": "A25-B33",
    "setting": "city",
@@ -28,7 +28,7 @@
   },
   {
    "title": "Veterinary Medicine and Surgery",
-   "provider": "University Of Lancashire",
+   "provider": "University of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/veterinary-medicine-surgery-bvms",
    "ucas_code": "A66-D90",
    "setting": "campus town",
@@ -36,7 +36,7 @@
   },
   {
    "title": "Veterinary Medicine and Veterinary Surgery",
-   "provider": "University Of Nottingham, The",
+   "provider": "University of Nottingham, the",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Veterinary-Medicine-and-Surgery-BVM-BVS-with-BVMedSci-BVMBVS.html",
    "ucas_code": "A00-H56",
    "setting": "countryside",

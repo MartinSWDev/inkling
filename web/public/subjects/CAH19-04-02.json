@@ -20,7 +20,7 @@
   },
   {
    "title": "German",
-   "provider": "The University Of Leeds",
+   "provider": "The University of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/340/german-ba",
    "ucas_code": "A26-H25",
    "setting": "city",
@@ -28,7 +28,7 @@
   },
   {
    "title": "German",
-   "provider": "The University Of Liverpool",
+   "provider": "The University of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/german-ba-hons/2027",
    "ucas_code": "A02-I60",
    "setting": "coast",
@@ -36,7 +36,7 @@
   },
   {
    "title": "German",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/german/",
    "ucas_code": "A25-A64",
    "setting": "city",
@@ -76,7 +76,7 @@
   },
   {
    "title": "French and German",
-   "provider": "The University Of Birmingham",
+   "provider": "The University of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-german",
    "ucas_code": "A72-I63",
    "setting": "city",
@@ -84,7 +84,7 @@
   },
   {
    "title": "English and German",
-   "provider": "The University Of Warwick",
+   "provider": "The University of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-german",
    "ucas_code": "A20-B81",
    "setting": "campus town",

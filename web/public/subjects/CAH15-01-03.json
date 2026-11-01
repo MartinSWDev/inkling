@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Social Policy",
-   "provider": "The University Of Birmingham",
+   "provider": "The University of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/social-policy/social-policy-ba.aspx",
    "ucas_code": "A04-J78",
    "setting": "city",
@@ -76,7 +76,7 @@
   },
   {
    "title": "Sociology with Social Policy",
-   "provider": "The University Of Liverpool",
+   "provider": "The University of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/sociology-with-social-policy-ba-hons/2027",
    "ucas_code": "A43-F86",
    "setting": "coast",
@@ -84,7 +84,7 @@
   },
   {
    "title": "Sociology/Social & Public Policy",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/sociology/",
    "ucas_code": "A25-A83",
    "setting": "city",
@@ -116,7 +116,7 @@
   },
   {
    "title": "International Social and Public Policy",
-   "provider": "The London School Of Economics And Political Science",
+   "provider": "The London School of Economics and Political Science",
    "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-social-and-public-policy",
    "ucas_code": "A32-C58",
    "setting": "city",

@@ -36,7 +36,7 @@
   },
   {
    "title": "Dentistry",
-   "provider": "The University Of Birmingham",
+   "provider": "The University of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/med/dental-surgery.aspx",
    "ucas_code": "A04-I14",
    "setting": "city",
@@ -44,7 +44,7 @@
   },
   {
    "title": "Dental Surgery",
-   "provider": "The University Of East Anglia",
+   "provider": "The University of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bds-dental-surgery/2027-28/sep",
    "ucas_code": "B58-C03",
    "setting": "campus town",
@@ -52,7 +52,7 @@
   },
   {
    "title": "Dental Surgery",
-   "provider": "The University Of Leeds",
+   "provider": "The University of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/j926/dental-surgery-bchd",
    "ucas_code": "A26-F86",
    "setting": "city",
@@ -60,7 +60,7 @@
   },
   {
    "title": "Dental Surgery",
-   "provider": "The University Of Liverpool",
+   "provider": "The University of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/dental-surgery-bds/2027",
    "ucas_code": "A02-H01",
    "setting": "coast",
@@ -68,7 +68,7 @@
   },
   {
    "title": "Dental Surgery",
-   "provider": "The University Of Sheffield",
+   "provider": "The University of Sheffield",
    "url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/dental-surgery-bds",
    "ucas_code": "A35-E41",
    "setting": "city",
@@ -76,7 +76,7 @@
   },
   {
    "title": "Dentistry",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/dentistry/",
    "ucas_code": "A24-G39",
    "setting": "city",
@@ -84,7 +84,7 @@
   },
   {
    "title": "Dental Surgery",
-   "provider": "University Of Lancashire",
+   "provider": "University of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/dental-surgery-bds",
    "ucas_code": "A02-A99",
    "setting": "campus town",

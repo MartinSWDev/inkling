@@ -131,7 +131,7 @@ async function playthrough(browser: Browser, vp: { width: number; height: number
     });
     await page.waitForTimeout(1200);
     await shot(`11-reveal-${p}`);
-    if (p === 2) {
+    if (p === 3) {
       await step("course sheet", async () => {
         await page.getByRole("button", { name: /see courses/i }).first().click();
         await page.waitForTimeout(900);

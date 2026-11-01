@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Scottish Language & Literature",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/scottishliterature/",
    "ucas_code": "A25-A62",
    "setting": "city",
@@ -12,7 +12,7 @@
   },
   {
    "title": "British Sign Language and Deaf Studies",
-   "provider": "University Of Lancashire",
+   "provider": "University of Lancashire",
    "url": "https://www.lancashire.ac.uk/undergraduate/courses/british-sign-language-deaf-studies-ba",
    "ucas_code": "A02-A13",
    "setting": "campus town",

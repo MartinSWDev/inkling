@@ -4,7 +4,7 @@
  "courses": [
   {
    "title": "Statistics",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/statistics/",
    "ucas_code": "A25-B08",
    "setting": "city",
@@ -12,7 +12,7 @@
   },
   {
    "title": "Statistics",
-   "provider": "University Of Nottingham, The",
+   "provider": "University of Nottingham, the",
    "url": "http://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Statistics-BSc-Hons.html",
    "ucas_code": "A00-H52",
    "setting": "city",
@@ -100,7 +100,7 @@
   },
   {
    "title": "Mathematics and Statistics",
-   "provider": "The University Of East Anglia",
+   "provider": "The University of East Anglia",
    "url": "https://www.uea.ac.uk/course/undergraduate/bsc-mathematics-and-statistics/2027-28/sep",
    "ucas_code": "A65-E93",
    "setting": "campus town",
@@ -108,7 +108,7 @@
   },
   {
    "title": "Actuarial Science",
-   "provider": "The University Of Essex",
+   "provider": "The University of Essex",
    "url": "https://www.essex.ac.uk/courses/UG00012/1?coursecode=N323",
    "ucas_code": "A32-D80",
    "setting": "campus town",
@@ -116,7 +116,7 @@
   },
   {
    "title": "Mathematics and Statistics",
-   "provider": "The University Of Lancaster",
+   "provider": "The University of Lancaster",
    "url": "http://www.lancs.ac.uk/study/Undergraduate/courses/mathematics-and-statistics-bsc-hons-g1g3/",
    "ucas_code": "A26-A45",
    "setting": "campus town",
@@ -124,7 +124,7 @@
   },
   {
    "title": "Mathematics and Statistics",
-   "provider": "The University Of Leeds",
+   "provider": "The University of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/4627/mathematics-and-statistics-bsc",
    "ucas_code": "A26-I93",
    "setting": "city",

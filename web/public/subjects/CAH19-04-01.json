@@ -28,7 +28,7 @@
   },
   {
    "title": "French",
-   "provider": "The University Of Leeds",
+   "provider": "The University of Leeds",
    "url": "https://courses.leeds.ac.uk/202728/315/french-ba",
    "ucas_code": "A26-G81",
    "setting": "city",
@@ -36,7 +36,7 @@
   },
   {
    "title": "French",
-   "provider": "The University Of Liverpool",
+   "provider": "The University of Liverpool",
    "url": "https://www.liverpool.ac.uk/courses/french-ba-hons/2027",
    "ucas_code": "A02-I31",
    "setting": "coast",
@@ -44,7 +44,7 @@
   },
   {
    "title": "French",
-   "provider": "University Of Glasgow",
+   "provider": "University of Glasgow",
    "url": "http://www.gla.ac.uk/undergraduate/degrees/french/",
    "ucas_code": "A24-J71",
    "setting": "city",
@@ -92,7 +92,7 @@
   },
   {
    "title": "French and German",
-   "provider": "The University Of Birmingham",
+   "provider": "The University of Birmingham",
    "url": "https://www.birmingham.ac.uk/undergraduate/courses/lang/french-and-german",
    "ucas_code": "A72-I63",
    "setting": "city",
@@ -100,7 +100,7 @@
   },
   {
    "title": "Modern Languages (French and Spanish)",
-   "provider": "The University Of Surrey",
+   "provider": "The University of Surrey",
    "url": "https://www.surrey.ac.uk/undergraduate/modern-languages-french-and-spanish/2027",
    "ucas_code": "A36-D59",
    "setting": "campus town",
@@ -108,7 +108,7 @@
   },
   {
    "title": "English and French",
-   "provider": "The University Of Warwick",
+   "provider": "The University of Warwick",
    "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-french",
    "ucas_code": "A20-B80",
    "setting": "campus town",
@@ -116,7 +116,7 @@
   },
   {
    "title": "French and International Relations",
-   "provider": "The University Of Westminster",
+   "provider": "The University of Westminster",
    "url": "http://www.westminster.ac.uk/french-and-international-relations-ba",
    "ucas_code": "A19-B57",
    "setting": "city",

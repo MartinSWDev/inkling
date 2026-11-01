@@ -586,14 +586,14 @@ export default function App() {
               </motion.span>
             </button>) : <div className="pc bottom"><h2>No wildcard this time</h2><p className="note">Everything you got was on a card.</p></div>}
           </div></div>
-          <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><h2>Subjects to explore</h2>
+          <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><h2>Subjects to explore</h2>
             <ul className="subjects">{exploreList.map((r) => { return (
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "A wildcard: it never came up, but it fits your answers." : (plainOf(r.code) || "")}</small>
                 <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button></span></div>
                 {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>); })}
             </ul></div></div>
-          <div className={"page" + (page === 3 ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
+          <div className={"page" + (page === 2 ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
             <div className="views swatches">{VIEWS.map((v) => (
               <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>
                 <img src={"/views/" + v.id + "_day.webp"} alt="" />
