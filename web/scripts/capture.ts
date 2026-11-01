@@ -87,8 +87,16 @@ await shot(page, "09-round4-done");
 await step("build room", async () => { await clickText(page, /build my room|continue|see my subjects/i); });
 await page.waitForTimeout(2500);
 await shot(page, "10-finale-or-reveal");
+await step("finale tap", async () => { await page.locator(".finale").click().catch(() => null); });
+await page.waitForTimeout(1500);
+await shot(page, "11-reveal-0-top3");
 
 for (let p = 1; p <= 5; p++) {
+  if (p === 2) {
+    await step("wildcard flip", async () => { await page.locator(".wildcard").click().catch(() => null); });
+    await page.waitForTimeout(1100);
+    await shot(page, "11-reveal-2-wildcard");
+  }
   await step("reveal page " + p, async () => {
     await page.locator(".zone.right").click({ force: true }).catch(() => page.mouse.click(340, 420));
   });

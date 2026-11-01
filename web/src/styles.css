@@ -183,5 +183,10 @@ body{margin:0;background:radial-gradient(60% 45% at 50% 42%,rgba(246,201,168,.28
 .phone .over b{display:block;font-family:var(--display);font-weight:400;font-size:.9rem}
 .row{display:flex;gap:10px;flex-wrap:wrap}
 pre{white-space:pre-wrap;word-wrap:break-word;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:.78rem;max-height:160px;overflow:auto}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:4px}
+.btn,.views button{min-height:48px}
+.soundbtn{min-height:44px}
+.eyebrow{display:none}
+.theme{text-transform:none;letter-spacing:0}
+.topline span{text-transform:none;letter-spacing:.02em}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.sticker-img{animation:none!important}}
