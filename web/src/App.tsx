@@ -108,6 +108,8 @@ export default function App() {
   const [roomCodes, setRoomCodes] = useState<string[]>([]);
   const [lastAdded, setLastAdded] = useState<string | null>(null);
   const [dip, setDip] = useState(false);
+  const [roundStartCount, setRoundStartCount] = useState(0);
+  useEffect(() => { if (scene.kind === "roundTitle") setRoundStartCount(roomCodes.length); }, [scene.kind, roomCodes.length]);
   const [confetti, setConfetti] = useState<string | null>(null);
   const [pairPick, setPairPick] = useState<"a" | "b" | null>(null);
   const scoresRef = useRef<Record<string, number>>({});
@@ -274,9 +276,9 @@ export default function App() {
         {scene.kind === "finale" && <span className="lampwarm" aria-hidden="true" />}
       </div>
 
-      {scene.kind === "roundOutro" && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
+      {scene.kind === "roundOutro" && roomCodes.length - roundStartCount >= 1 && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
         <motion.span initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 380, damping: 20 }}>
-          {assigned.length + " thing" + (assigned.length === 1 ? "" : "s") + " in your room so far"}
+          {"+" + (roomCodes.length - roundStartCount) + " in your room"}
         </motion.span>
       </button>)}
 
@@ -305,7 +307,8 @@ export default function App() {
         <button className="btn alt bigbtn" onClick={() => { unlock(); sfx.pop(); dispatch({ type: "START" }); }}>Find my subjects</button>
         <p className="smallprint">Takes about 3 minutes · free · no sign-up</p>
         <button className="musetag" onClick={() => setHowOpen(true)}>Built with Meta Muse</button>
-        <p className="smallprint">Built with UK course data from Discover Uni · <button className="linkbtn" onClick={() => setHowOpen(true)}>How it works</button></p>
+        <p className="smallprint">Built with UK course data from Discover Uni</p>
+        <button className="linkbtn" onClick={() => setHowOpen(true)}>How it works</button>
         <button className="soundbtn iconbtn landing-sound" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
           onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); }}>
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9v6h4l6 4V5L8 9H4z" fill="currentColor" />
