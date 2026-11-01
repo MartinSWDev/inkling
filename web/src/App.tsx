@@ -4,7 +4,7 @@ import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubj
 import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
 import { handsOnPicks, isPractical, lengthLabel, levelLabel, qualifiedSubjects, scoreAnswers, type Apprenticeship } from "./scoring";
 import { ROUND_CAPS, collectRoundAdds, diverseTop, ensureFloorOrBed, ensureResults } from "./roomRules";
-import { ROUNDS, flowReducer, initialScene, roundAccent } from "./flow";
+import { ROUNDS, flowReducer, initialScene, roundAccent, shuffledDeck } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
 import { makeShareVideo, shareUrl, type ShareData } from "./share";
@@ -88,6 +88,23 @@ export default function App() {
   }, []);
   const [view, setView] = useState("campus");
   const [viewTime, setViewTime] = useState(() => { const h = new Date().getHours(); return h >= 18 || h < 6 ? "dusk" : "day"; });
+  // Preload the chosen view (both day and dusk) on the landing page and wait
+  // for decode before the unfold starts, so the window is never empty.
+  const viewDecodedRef = useRef<Promise<void>>(Promise.resolve());
+  const [viewReady, setViewReady] = useState(false);
+  useEffect(() => {
+    let live = true;
+    setViewReady(false);
+    const p = Promise.all(["day", "dusk"].map((t) => {
+      const img = new Image();
+      img.src = `/views/${view}_${t}.webp`;
+      return img.decode().catch(() => undefined);
+    })).then(() => undefined);
+    viewDecodedRef.current = p;
+    void p.then(() => { if (live) setViewReady(true); });
+    return () => { live = false; };
+  }, [view]);
+  const [gameSeed, setGameSeed] = useState(() => Math.floor(Math.random() * 0xffffffff));
   const [canShareFiles] = useState(() => {
     try { return !!navigator.canShare?.({ files: [new File(["x"], "t.mp4", { type: "video/mp4" })] }); }
     catch { return false; }
@@ -150,7 +167,11 @@ export default function App() {
     toastTimer.current = window.setTimeout(() => setToast(""), ms);
   }, []);
 
-  const deck: DeckCard[] = round === 2 ? (content?.things || []) : (content?.questions || []);
+  // Decks are shuffled per game (same seed replays the same order all game);
+  // scoring looks cards up by id, so order never affects the result.
+  const thingsDeck = useMemo(() => shuffledDeck(content?.things || [], gameSeed), [content, gameSeed]);
+  const questionsDeck = useMemo(() => shuffledDeck(content?.questions || [], gameSeed ^ 0x9e3779b9), [content, gameSeed]);
+  const deck: DeckCard[] = round === 2 ? thingsDeck : questionsDeck;
   const current = deck[deckIdx];
   const progress = round === 1
     ? Object.values(picked).reduce((a, v) => a + (v === "love" ? 1.5 : 1), 0) + typedNames.length
@@ -338,6 +359,7 @@ export default function App() {
   }
 
   function restart() {
+    setGameSeed(Math.floor(Math.random() * 0xffffffff));
     setRoomCodes([]); scoresRef.current = {};
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
     setWildcardFlipped(false);
@@ -391,6 +413,16 @@ export default function App() {
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
 
+  // Window view for the unfold: drawn inside the back-wall slice so it
+  // moves with the wall from the first frame (geometry matches RoomView).
+  const uwin = assets?.layout.window ?? { x: 280, y: 472, w: 352, h: 592 };
+  const uTallH = isPhone && assets?.layout.tall ? assets.layout.tall.height : isPhone ? 2496 : 2048;
+  const uTallOff = isPhone && assets?.layout.tall ? assets.layout.tall.topOffset : isPhone ? 224 : 0;
+  const uviewStyle: CSSProperties = {
+    left: ((uwin.x - uwin.w * 0.14) / 1152 * 100) + "%",
+    top: ((uwin.y - uwin.h * 0.1 + uTallOff) / uTallH * 100) + "%",
+    width: (uwin.w * 1.28 / 1152 * 100) + "%", height: (uwin.h * 1.28 / uTallH * 100) + "%",
+  };
   const inGame = scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro";
   return (<>
     {scene.kind === "landing" && <StickerRain />}
@@ -400,13 +432,13 @@ export default function App() {
         <RoomView assigned={assigned} viewId={view} viewTime={viewTime} tall={isPhone} celebrate={scene.kind === "finale"} dropCodes={scene.kind === "roundOutro" ? dropCodes : []}
           liftCodes={scene.kind === "reveal" && page === 0 ? top3.slice(0, liftStep).map((r) => r.code)
             : scene.kind === "reveal" && page === 1 && wildcardFlipped && surprise ? [surprise] : []}
-          onStickerTap={(code) => { setTapCode(code); sfx.pop(); }}
+          onStickerTap={(code) => { setTapCode((prev) => (prev === code ? null : code)); sfx.pop(); }}
+          onEmptyTap={() => setTapCode(null)}
           tapInfo={tapCode ? (() => { const s = subjects.find((x) => x.code === tapCode); if (!s) return null;
             const inRounds = scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro";
             return { code: tapCode, name: s.display_name, line: inRounds ? undefined : s.why_line }; })() : null} />
         {scene.kind === "finale" && <span className="lampwarm" aria-hidden="true" />}
       </div>
-      {tapCode && <button className="tagcatcher" aria-label="Close sticker tag" onClick={() => setTapCode(null)} />}
 
       {scene.kind === "roundOutro" && (<button className="outroskip" aria-label="Continue" onClick={() => dispatch({ type: "OUTRO_DONE" })} />)}
       {scene.kind === "roundOutro" && roomCodes.length - roundStartCount >= 1 && (<button className="outrotag" onClick={() => dispatch({ type: "OUTRO_DONE" })}>
@@ -442,7 +474,7 @@ export default function App() {
         </motion.div>
         <h1 className="wordmark">Inkling</h1>
         <p className="lede">Not sure what to study? Find the degree subjects that fit you.</p>
-        <button className="btn alt bigbtn" onClick={() => { unlock(); sfx.pop(); dispatch({ type: "START" }); }}>Find my subjects</button>
+        <button className="btn alt bigbtn" onClick={async () => { unlock(); sfx.pop(); if (!viewReady) await viewDecodedRef.current; dispatch({ type: "START" }); }}>Find my subjects</button>
         <p className="smallprint">Takes about 3 minutes · free · no sign-up</p>
         <button className="musetag" onClick={() => setHowOpen(true)}>Built with Meta Muse</button>
         <p className="smallprint">Course data from Discover Uni</p>
@@ -468,16 +500,18 @@ export default function App() {
           { key: "left", clip: "polygon(0% 0%, 11.5% 0%, 11.5% 100%, 0% 100%)", from: { rotateY: 45, opacity: 0.25 }, delay: 0.55, origin: "100% 50%" },
           { key: "right", clip: "polygon(88.5% 0%, 100% 0%, 100% 100%, 88.5% 100%)", from: { rotateY: -45, opacity: 0.25 }, delay: 0.55, origin: "0% 50%" },
         ].map((p) => (
-          <motion.div key={p.key} className="uslice" style={{ clipPath: p.clip, transformOrigin: p.origin }}
+          <motion.div key={p.key} className="uslice" style={{ clipPath: p.key === "back" ? undefined : p.clip, transformOrigin: p.origin }}
             initial={p.from} animate={{ rotateX: 0, rotateY: 0, scale: 1, opacity: 1 }}
             transition={{ delay: p.delay, type: "spring", stiffness: 220, damping: 28 }}>
-            <img src={isPhone ? "/room/room_tall.webp" : "/room/room.png"} alt="" />
+            {p.key === "back" ? (<>
+              <span className="usliceimgbox">
+                <img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt="" style={uviewStyle} />
+              </span>
+              <span className="usliceclip" style={{ clipPath: p.clip }}>
+                <img src={isPhone ? "/room/room_tall.webp" : "/room/room.png"} alt="" />
+              </span>
+            </>) : <img src={isPhone ? "/room/room_tall.webp" : "/room/room.png"} alt="" />}
           </motion.div>))}
-        {assets && (<motion.img className="uview" src={"/views/" + view + "_" + viewTime + ".webp"} alt=""
-          style={{ left: ((assets.layout.window.x - assets.layout.window.w * 0.14) / 1152 * 100) + "%",
-            top: ((assets.layout.window.y - assets.layout.window.h * 0.1 + (isPhone && assets.layout.tall ? assets.layout.tall.topOffset : 0)) / (isPhone && assets.layout.tall ? assets.layout.tall.height : 2048) * 100) + "%",
-            width: (assets.layout.window.w * 1.28 / 1152 * 100) + "%", height: (assets.layout.window.h * 1.28 / (isPhone && assets.layout.tall ? assets.layout.tall.height : 2048) * 100) + "%" }}
-          initial={{ opacity: 0.9 }} animate={{ opacity: 1 }} transition={{ delay: 0, duration: 0.3 }} />)}
         <motion.div className="ulamp" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.05, duration: 0.35 }} />
       </section>)}
 

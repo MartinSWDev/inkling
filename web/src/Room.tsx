@@ -56,9 +56,9 @@ const pct = (v: number, total: number) => (v / total * 100) + "%";
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
 
-export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, dropCodes = [], liftCodes = [], onStickerTap, tapInfo = null, tall = false }: {
+export function RoomView({ assigned, viewId, viewTime, band = false, celebrate = false, highlight = null, dropCodes = [], liftCodes = [], onStickerTap, onEmptyTap, tapInfo = null, tall = false }: {
   assigned: Assigned[]; viewId: string; viewTime: string; band?: boolean; celebrate?: boolean; highlight?: string | null; dropCodes?: string[]; liftCodes?: string[];
-  onStickerTap?: (code: string) => void; tapInfo?: { code: string; name: string; line?: string } | null; tall?: boolean;
+  onStickerTap?: (code: string) => void; onEmptyTap?: () => void; tapInfo?: { code: string; name: string; line?: string } | null; tall?: boolean;
 }) {
   const [layout, setLayout] = useState<Layout | null>(null);
   const stackRef = useRef<HTMLDivElement>(null);
@@ -90,7 +90,9 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
     bandStyle = { width: ROOM_W, height: ROOM_H, transform: `translate(${x}px, ${y}px) scale(${s})`, transformOrigin: "0 0" };
   }
   return (
-    <div className={"room-stack" + (band ? " band" : "") + (tall ? " tall" : "")} ref={stackRef} style={bandStyle}>
+    <div className={"room-stack" + (band ? " band" : "") + (tall ? " tall" : "")} ref={stackRef}
+      style={{ ...bandStyle, pointerEvents: tapInfo ? "auto" : undefined }}
+      onClick={onEmptyTap ? (e) => { if (!(e.target as HTMLElement).closest(".sticker-img")) onEmptyTap(); } : undefined}>
       <img className="view-img" src={"/views/" + viewId + "_" + viewTime + ".webp"} alt=""
         style={{ left: pct(win.x - win.w * 0.14, ROOM_W), top: py(win.y - win.h * 0.1), width: pct(win.w * 1.28, ROOM_W), height: pct(win.h * 1.28, TH) }} />
       <img className="room-top" src={tall && layout.tall ? layout.tall.file : "/room/room.png"} alt="Your room" />

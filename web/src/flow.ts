@@ -10,6 +10,26 @@ export const ROUNDS = [
   { n: 4, title: "Big questions", how: "Swipe right to explore, up if you need to know.", min: 5 },
 ] as const;
 export const ROUND_COUNT = ROUNDS.length;
+
+/** Deterministic shuffle for one game: same seed -> same order, and the
+ * order is stable for the whole game. Seed 0 keeps the fixed order, which
+ * the simulation and tests use. Never mutates the input. */
+export function shuffledDeck<T>(items: readonly T[], seed: number): T[] {
+  const out = [...items];
+  if (!seed) return out;
+  let s = seed >>> 0;
+  const rnd = () => {
+    s = (s + 0x6d2b79f5) | 0;
+    let t = Math.imul(s ^ (s >>> 15), 1 | s);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
 export const roundAccent = (round: number) => ROUND_ACCENTS[Math.min(round - 1, ROUND_ACCENTS.length - 1)];
 
 export type Scene =
