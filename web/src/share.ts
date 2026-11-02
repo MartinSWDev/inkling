@@ -20,6 +20,17 @@ export function decodeShare(code: string): ShareData | null {
  * only ever goes in the share text, never in the video). */
 export const SHORT_DOMAIN = "www.findyourinkling.com";
 
+/** Home page link used in share text (the video carries the result). */
+export const HOME_URL = `https://${SHORT_DOMAIN}`;
+
+/** Friendly share message: top 3 as a list, the wildcard, then the home link. */
+export function shareMessage(top: string[], wildcard: string | null): string {
+  const lines = ["My top 3 subjects on Inkling 🏠", ...top.slice(0, 3).map((n, i) => `${i + 1}. ${n}`)];
+  if (wildcard) lines.push(`Wildcard: ${wildcard}`);
+  lines.push("", `What's your inkling? ${HOME_URL}`);
+  return lines.join("\n");
+}
+
 /** Canonical share link on the production domain, wherever it is copied from. */
 export const shareUrl = (d: ShareData) => `https://${SHORT_DOMAIN}/r/${encodeShare(d)}`;
 

@@ -7,7 +7,7 @@ import { ROUND_CAPS, collectRoundAdds, diverseTop, ensureFloorOrBed, ensureResul
 import { ROUNDS, flowReducer, initialScene, roundAccent, shuffledDeck } from "./flow";
 import { popUp } from "./design/motion";
 import { buzz, setSoundEnabled, soundEnabled, sfx, unlock } from "./design/sound";
-import { makeShareVideo, shareUrl, type ShareData } from "./share";
+import { makeShareVideo, shareMessage, HOME_URL } from "./share";
 import { suggestAliases } from "./aliases";
 import { heartChip, toggleChip } from "./chips";
 import AppMenu from "./Menu";
@@ -406,10 +406,9 @@ export default function App() {
     if (videoGenRef.current === shareKey) return;
     videoGenRef.current = shareKey;
     setVideoStatus("preparing");
-    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
     makeShareVideo({ assigned, viewId: view, viewTime, layout: assets.layout,
       top: top3.map((r) => ({ code: r.code, name: r.display_name })),
-      wildcard: wildcardRow ? { code: wildcardRow.code, name: wildcardRow.display_name } : null, shortUrl: shareUrl(data) })
+      wildcard: wildcardRow ? { code: wildcardRow.code, name: wildcardRow.display_name } : null, shortUrl: HOME_URL })
       .then(({ blob, ext }) => {
         videoRef.current = { key: shareKey, blob, ext };
         if (videoGenRef.current === shareKey) setVideoStatus("ready");
@@ -728,40 +727,38 @@ export default function App() {
               </div>
               <div><p className="shareline"><b>What's your inkling?</b>
                   <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></p>
-                <p className="note">{videoStatus === "preparing" ? "Preparing your video…" : "A 10-second video of your room filling up, or send the link."}</p>
+                <p className="note">{videoStatus === "preparing" ? "Preparing your video…" : "A 10-second video of your room filling up, with your top 3 in the message."}</p>
                 <div className="row" style={{ marginTop: 10 }}>
                   <button className="btn alt" disabled={videoStatus !== "ready"} onClick={async () => {
                     // Blob was pre-rendered at reveal start: share() fires
                     // immediately inside this tap's user activation.
                     const cached = videoRef.current;
                     if (!cached || cached.key !== shareKey) return;
-                    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
-                    const url = shareUrl(data);
-                    const file = new File([cached.blob], "inkling." + cached.ext, { type: cached.blob.type });
+                    const text = shareMessage(top3.map((r) => r.display_name), wildcardRow?.display_name ?? null);
+                    const file = new File([cached.blob], "inkling." + cached.ext, { type: cached.blob.type.split(";")[0] });
                     if (navigator.canShare?.({ files: [file] })) {
-                      try { await navigator.share({ files: [file], text: "What's your inkling?", url }); }
+                      try { await navigator.share({ files: [file], text }); }
                       catch (e) {
                         if ((e as Error).name !== "AbortError") { console.log("share video failed:", (e as Error).name); tip("Sharing didn't work on this browser — try Share image."); }
                       }
                     } else {
                       const u = URL.createObjectURL(cached.blob); const a = document.createElement("a");
                       a.href = u; a.download = file.name; a.click(); URL.revokeObjectURL(u);
-                      try { await navigator.clipboard.writeText("What's your inkling? " + url); } catch { /* clipboard optional */ }
+                      try { await navigator.clipboard.writeText(text); } catch { /* clipboard optional */ }
                       tip("Video saved — post it from your phone or upload it to Instagram.");
                     }
                   }}><Share2 {...ICON_SM} aria-hidden="true" /> {videoStatus === "preparing" ? "Preparing your video…" : "Share video"}</button>
                   <button className="btn" onClick={async () => {
-                    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
-                    try { await navigator.clipboard.writeText(shareUrl(data)); tip("Link copied."); } catch { tip(shareUrl(data)); }
-                  }}><LinkIcon {...ICON_SM} aria-hidden="true" /> Copy link</button>
+                    const text = shareMessage(top3.map((r) => r.display_name), wildcardRow?.display_name ?? null);
+                    try { await navigator.clipboard.writeText(text); tip("Copied — paste it anywhere."); } catch { tip(text); }
+                  }}><LinkIcon {...ICON_SM} aria-hidden="true" /> Copy text</button>
                   <button className="btn" onClick={async () => {
                     if (!assets) return;
-                    const data: ShareData = { t: top3.map((r) => r.code), w: surprise, v: view, vt: viewTime, r: displayCodes };
-                    const url = shareUrl(data);
+                    const text = shareMessage(top3.map((r) => r.display_name), wildcardRow?.display_name ?? null);
                     const cachedImg = imageRef.current?.key === shareKey ? imageRef.current.blob : null;
                     const file = cachedImg ? new File([cachedImg], "inkling-room.png", { type: "image/png" }) : null;
                     if (file && navigator.canShare?.({ files: [file] })) {
-                      try { await navigator.share({ files: [file], text: "What's your inkling?", url }); }
+                      try { await navigator.share({ files: [file], text }); }
                       catch (e) {
                         if ((e as Error).name !== "AbortError") { console.log("share image failed:", (e as Error).name); tip("Sharing didn't work on this browser."); }
                       }
