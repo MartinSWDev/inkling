@@ -207,6 +207,8 @@ async function run(browser: Browser, name: string, ctxOpts: object) {
 }
 
 const DEVICES: [string, object][] = [
+  ["360x640", { viewport: { width: 360, height: 640 }, hasTouch: true, isMobile: true, colorScheme: "light" }],
+  ["390x664", { viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true, colorScheme: "light" }],
   ["iphone13", { ...devices["iPhone 13"], colorScheme: "light" }],
   ["iphone-se", { ...devices["iPhone SE"], colorScheme: "light" }],
   ["pixel7", { ...devices["Pixel 7"], colorScheme: "light" }],

@@ -71,6 +71,7 @@ export default function App() {
   answersRef.current = answers;
   const [picked, setPicked] = useState<Record<string, string>>({});
   const [typedNames, setTypedNames] = useState<string[]>([]);
+  const [typedState, setTypedState] = useState<Record<string, string>>({});
   const [other, setOther] = useState("");
   const [otherOpen, setOtherOpen] = useState(false);
   const wheelRef = useRef(0);
@@ -422,6 +423,20 @@ export default function App() {
 
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
+  // Each typed subject hides one untapped built-in chip (the last in the
+  // list), keeping the grid the same size; removing it brings the chip back.
+  const hiddenChipIds = new Set([...content.chips].reverse()
+    .filter((c) => !picked[c.id]).slice(0, typedNames.length).map((c) => c.id));
+  const addTyped = (name: string) => {
+    const n = name.trim();
+    if (!n || typedNames.includes(n)) return;
+    syncChips(picked, [...typedNames, n]);
+    setOther("");
+  };
+  const removeTyped = (name: string) => {
+    setTypedState((s) => { const nxt = { ...s }; delete nxt[name]; return nxt; });
+    syncChips(picked, typedNames.filter((n) => n !== name));
+  };
 
   // Window view for the unfold: drawn inside the back-wall slice so it
   // moves with the wall from the first frame (geometry matches RoomView).
@@ -551,7 +566,19 @@ export default function App() {
       {scene.kind === "round" && (<div className={"overlay" + (round === 1 ? " r1center" : "") + (round === 2 || round === 4 ? " cardlayout" : "")}>
         {round === 1 && (<div className="sheet2 chipsheet">
           <div><p className="eyebrow">Round 1 · your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
-          <div className="chips">{content.chips.map((chip) => {
+          <div className="chips">{typedNames.map((name) => (
+            <button key={"typed-" + name} className={"chip typedchip" + (typedState[name] === "love" ? " loved" : "")} aria-pressed={true}
+              onClick={(e) => { if ((e.target as HTMLElement).closest(".heart,.typedx")) return; }}>
+              <span className="checkmark" aria-hidden="true"><Check {...ICON_SM} /></span>
+              <span className="chiplabel">{name}</span>
+              <span className="heart" role="button" aria-label={"Favourite " + name}
+                onClick={(e) => { e.stopPropagation(); e.preventDefault(); sfx.pop(); setTypedState((s) => ({ ...s, [name]: s[name] === "love" ? "take" : "love" })); }}>
+                {typedState[name] === "love" ? <Heart {...ICON} fill="currentColor" aria-hidden="true" /> : <Heart {...ICON} aria-hidden="true" />}</span>
+              <span className="typedx" role="button" aria-label={"Remove " + name}
+                onClick={(e) => { e.stopPropagation(); e.preventDefault(); sfx.pop(); removeTyped(name); }}>
+                <X {...ICON_SM} aria-hidden="true" /></span>
+            </button>))}
+          {content.chips.filter((chip) => !hiddenChipIds.has(chip.id)).map((chip) => {
             const st = picked[chip.id];
             return (<button key={chip.id} className={"chip" + (st === "love" ? " loved" : "")} aria-pressed={!!st}
               onClick={(e) => { if ((e.target as HTMLElement).closest(".heart")) return; const nxt = toggleChip(st as "take" | "love" | undefined); const n = { ...picked }; if (nxt) n[chip.id] = nxt; else delete n[chip.id]; sfx.pop(); syncChips(n, typedNames); }}>
@@ -566,16 +593,16 @@ export default function App() {
             </button>);
           })}</div>
           <div>{otherOpen
-            ? (<div className="other"><input value={other} list="other-list" placeholder="Type a subject" autoComplete="off" autoFocus
+            ? (<div className="other"><input value={other} placeholder="Type a subject" autoComplete="off" autoFocus
+                aria-label="Type a subject"
                 onChange={(e) => setOther(e.target.value)}
-                onKeyDown={(e) => { if (e.key === "Enter" && other.trim()) { syncChips(picked, [...typedNames, other.trim()]); setOther(""); } }} />
-                <datalist id="other-list">{content.extra_names.map((n) => <option key={n} value={n} />)}</datalist>
+                onFocus={(e) => { const el = e.target; window.setTimeout(() => el.scrollIntoView({ block: "center" }), 350); }}
+                onKeyDown={(e) => { if (e.key === "Enter") addTyped(other); }} />
                 {other.trim().length >= 2 && (<div className="suggestrow">
                   {suggestAliases(content.aliases || {}, other, (code) => subjects.find((s) => s.code === code)?.display_name)
-                    .map((name) => <button key={name} className="suggestchip" onClick={() => { syncChips(picked, [...typedNames, name]); setOther(""); }}>{name}</button>)}
+                    .map((name) => <button key={name} className="suggestchip" onClick={() => addTyped(name)}>{name}</button>)}
                 </div>)}</div>)
-            : <button className="linkbtn addanother" onClick={() => setOtherOpen(true)}><Plus {...ICON_SM} aria-hidden="true" /> Add another subject</button>}
-            {typedNames.length > 0 && <p className="hint2">Added: {typedNames.join(", ")}</p>}</div>
+            : <button className="linkbtn addanother" onClick={() => setOtherOpen(true)}><Plus {...ICON_SM} aria-hidden="true" /> Add another subject</button>}</div>
           {Object.keys(picked).length + typedNames.length >= 3
             ? <button className="btn alt" onClick={chipsContinue}>Continue</button>
             : <p className="hint2" style={{ textAlign: "center" }}>Pick at least 3</p>}
@@ -637,7 +664,7 @@ export default function App() {
       </div>)}
 
       {scene.kind === "finale" && (<div className="finale">
-        <motion.span className="finaletag" initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 20 }}>This is your room.</motion.span>
+        <motion.span className="finaletag" initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: tapCode ? 0.2 : 1 }} transition={{ type: "spring", stiffness: 300, damping: 20 }}>This is your room.</motion.span>
         <button className="btn alt nextpill finale-next" onClick={() => { sfx.chord(); dispatch({ type: "FINALE_TAP" }); }}>See my subjects</button>
       </div>)}
 
@@ -698,10 +725,10 @@ export default function App() {
           <div className={"page" + (page === sharePage ? " on" : "")}><div className="pc bottom sharepc"><h2>Share your room</h2>
             <div className="share"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
-                <div className="over"><b>What's your inkling?</b>
-                  <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></div>
               </div>
-              <div><p className="note">{videoStatus === "preparing" ? "Preparing your video…" : "A 10-second video of your room filling up, or send the link."}</p>
+              <div><p className="shareline"><b>What's your inkling?</b>
+                  <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></p>
+                <p className="note">{videoStatus === "preparing" ? "Preparing your video…" : "A 10-second video of your room filling up, or send the link."}</p>
                 <div className="row" style={{ marginTop: 10 }}>
                   <button className="btn alt" disabled={videoStatus !== "ready"} onClick={async () => {
                     // Blob was pre-rendered at reveal start: share() fires

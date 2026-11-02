@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from "react";
 
 export type StickerEntry = { code: string; slot: string; size: string; w: number; h: number; label?: string };
 export type Spot = { slot: string; anchor: [number, number]; max: [number, number]; z: number };
@@ -52,6 +52,44 @@ export function assignStickers(codes: string[], stickers: Record<string, Sticker
 }
 
 const pct = (v: number, total: number) => (v / total * 100) + "%";
+
+/** Sticker info tag: rendered, measured, then clamped inside the app with a
+ * 12px margin. Flips below the sticker when there is no room above, with a
+ * small pointer that keeps aiming at the sticker centre. */
+function StickTag({ name, line, leftPct, topAbove, topBelow, belowFirst, anchorFrac }: {
+  name: string; line?: string; leftPct: string; topAbove: string; topBelow: string; belowFirst: boolean;
+  anchorFrac: { x: number };
+}) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const [adj, setAdj] = useState<{ dx: number; dy: number; flipped: boolean; px: number }>({ dx: 0, dy: 0, flipped: belowFirst, px: 50 });
+  useLayoutEffect(() => {
+    const tag = ref.current;
+    if (!tag) return;
+    const app = (tag.closest(".app") ?? tag.parentElement) as HTMLElement | null;
+    if (!app) return;
+    const r = tag.getBoundingClientRect();
+    const ar = app.getBoundingClientRect();
+    if (!adj.flipped && r.top < ar.top + 12) { setAdj((s) => ({ ...s, flipped: true, dx: 0, dy: 0 })); return; }
+    let dx = 0, dy = 0;
+    if (r.left < ar.left + 12) dx = ar.left + 12 - r.left;
+    else if (r.right > ar.right - 12) dx = ar.right - 12 - r.right;
+    if (r.bottom > ar.bottom - 12) dy = ar.bottom - 12 - r.bottom;
+    if (r.top + dy < ar.top + 12) dy = ar.top + 12 - r.top;
+    const stack = tag.parentElement?.parentElement?.getBoundingClientRect();
+    const anchorX = stack ? stack.left + anchorFrac.x * stack.width : r.left + r.width / 2;
+    const px = Math.max(16, Math.min(r.width - 16, anchorX - (r.left + dx)));
+    if (Math.abs(dx - adj.dx) > 0.5 || Math.abs(dy - adj.dy) > 0.5 || Math.abs(px - adj.px) > 0.5)
+      setAdj({ dx, dy, flipped: adj.flipped, px });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [adj.flipped, name]);
+  return (
+    <span ref={ref} className={"sticktag" + (adj.flipped ? " flipped" : "")}
+      style={{ left: leftPct, top: adj.flipped ? topBelow : topAbove, zIndex: 40, ["--px" as string]: adj.px + "px",
+        transform: `translate(-50%, ${adj.flipped ? "10%" : "-112%"}) translate(${adj.dx}px, ${adj.dy}px) rotate(-1deg)` }}>
+      <b>{name}</b>{line && <small>{line}</small>}
+    </span>
+  );
+}
 
 const BAND_TOP = 0.18;
 const BAND_BOTTOM = 0.96;
@@ -108,14 +146,10 @@ export function RoomView({ assigned, viewId, viewTime, band = false, celebrate =
             onClick={onStickerTap ? (e) => { e.stopPropagation(); onStickerTap(a.code); } : undefined}
             style={{ left: pct(a.x, ROOM_W), top: py(a.y), width: pct(a.w, ROOM_W), zIndex: a.z, animationDelay: dropCodes.includes(a.code) ? (dropCodes.indexOf(a.code) * 140) + "ms" : celebrate ? (ai * 120) + "ms" : undefined, pointerEvents: onStickerTap ? "auto" : "none", cursor: onStickerTap ? "pointer" : undefined }} />
           {highlight === a.code && <span className="plusflag" style={{ left: pct(a.x + a.w, ROOM_W), top: py(a.y), zIndex: a.z + 5 }}>+1</span>}
-          {tapInfo?.code === a.code && (() => {
-            // Below the sticker when above would collide with the top caption.
-            const below = (a.y + OFF) / TH < 0.28;
-            const tx = a.x / ROOM_W > 0.68 ? "calc(-100% + 14px)" : a.x / ROOM_W < 0.2 ? "-14px" : "-50%";
-            return (<span className="sticktag" style={{ left: pct(a.x + a.w / 2, ROOM_W), top: below ? py(a.y + a.h) : py(a.y), zIndex: 30,
-              transform: `translate(${tx}, ${below ? "10%" : "-112%"}) rotate(-1deg)` }}>
-              <b>{tapInfo.name}</b>{tapInfo.line && <small>{tapInfo.line}</small>}</span>);
-          })()}
+          {tapInfo?.code === a.code && (
+            <StickTag name={tapInfo.name} line={tapInfo.line}
+              leftPct={pct(a.x + a.w / 2, ROOM_W)} topAbove={py(a.y)} topBelow={py(a.y + a.h)}
+              belowFirst={(a.y + OFF) / TH < 0.28} anchorFrac={{ x: (a.x + a.w / 2) / ROOM_W }} />)}
         </span>
       ))}
       {viewTime === "dusk" && <span className="dusk-wash" />}
