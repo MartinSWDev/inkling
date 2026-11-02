@@ -1,0 +1,83 @@
+{
+ "about": "Scrunched-paper pals drawn by Muse Image (muse-image-1.0), cut out and checked with SAM 3.1.",
+ "base_pick": 1,
+ "papers": {
+  "lined": {
+   "file": "/characters/lined.webp",
+   "w": 604,
+   "h": 640,
+   "subjects": "everything else (default)",
+   "sam_confidence": 0
+  },
+  "graph": {
+   "file": "/characters/graph.webp",
+   "w": 608,
+   "h": 640,
+   "subjects": "maths, physics, engineering, economics",
+   "sam_confidence": 0
+  },
+  "manuscript": {
+   "file": "/characters/manuscript.webp",
+   "w": 607,
+   "h": 640,
+   "subjects": "music, drama, dance",
+   "sam_confidence": 0
+  },
+  "blueprint": {
+   "file": "/characters/blueprint.webp",
+   "w": 605,
+   "h": 640,
+   "subjects": "architecture, building, planning",
+   "sam_confidence": 0
+  },
+  "parchment": {
+   "file": "/characters/parchment.webp",
+   "w": 607,
+   "h": 640,
+   "subjects": "history, classics, philosophy, theology",
+   "sam_confidence": 0
+  },
+  "map": {
+   "file": "/characters/map.webp",
+   "w": 603,
+   "h": 640,
+   "subjects": "geography, earth and environmental sciences",
+   "sam_confidence": 0
+  },
+  "watercolour": {
+   "file": "/characters/watercolour.webp",
+   "w": 605,
+   "h": 640,
+   "subjects": "art, design, photography",
+   "sam_confidence": 0
+  },
+  "lab": {
+   "file": "/characters/lab.webp",
+   "w": 604,
+   "h": 640,
+   "subjects": "sciences, medicine, health, psychology",
+   "sam_confidence": 0
+  },
+  "legal": {
+   "file": "/characters/legal.webp",
+   "w": 604,
+   "h": 640,
+   "subjects": "law, business, social sciences, politics",
+   "sam_confidence": 0
+  },
+  "printout": {
+   "file": "/characters/printout.webp",
+   "w": 612,
+   "h": 640,
+   "subjects": "computing, AI, software",
+   "sam_confidence": 0
+  },
+  "kraft": {
+   "file": "/characters/kraft.webp",
+   "w": 605,
+   "h": 640,
+   "subjects": "agriculture, animal science, vets, food",
+   "sam_confidence": 0
+  }
+ }
+}

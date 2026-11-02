@@ -19,3 +19,5 @@ web/dist/
 card_out/
 sticker_out/
 review_out/
+char_out/
+.aider*

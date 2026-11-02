@@ -3,10 +3,10 @@ import { Menu as MenuIcon, X } from "lucide-react";
 import { navigate } from "./nav";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
-const ITEMS: { label: string; path: string; disabled?: boolean }[] = [
+const ITEMS: { label: string; path: string }[] = [
   { label: "Play Inkling", path: "/" },
   { label: "The simulation", path: "/simulation" },
-  { label: "How it was built", path: "/built", disabled: true },
+  { label: "How it was built", path: "/built" },
 ];
 
 /** Hamburger + paper sheet sliding in from the left (prompts/14 A).
@@ -32,10 +32,7 @@ export default function AppMenu({ path }: { path: string }) {
               <button className="menubtn iconbtn" aria-label="Close menu" onClick={() => setOpen(false)}>
                 <X {...ICON} aria-hidden="true" /></button>
             </div>
-            {ITEMS.map((it) => it.disabled ? (
-              <span key={it.path} className="menuitem disabled" aria-disabled="true">
-                {it.label}<span className="soontag">Soon</span></span>
-            ) : (
+            {ITEMS.map((it) => (
               <a key={it.path} className={"menuitem" + (path === it.path ? " on" : "")} href={it.path}
                 aria-current={path === it.path ? "page" : undefined}
                 onClick={(e) => { e.preventDefault(); setOpen(false); navigate(it.path); }}>{it.label}</a>
