@@ -18,7 +18,7 @@ export function decodeShare(code: string): ShareData | null {
 }
 /** Short domain printed on the video end card (the full /r/<code> link
  * only ever goes in the share text, never in the video). */
-export const SHORT_DOMAIN = "myinkling.com";
+export const SHORT_DOMAIN = "www.findyourinkling.com";
 
 /** Canonical share link on the production domain, wherever it is copied from. */
 export const shareUrl = (d: ShareData) => `https://${SHORT_DOMAIN}/r/${encodeShare(d)}`;

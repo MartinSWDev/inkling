@@ -35,7 +35,7 @@ Each deploy:
 npm --prefix web run build && npx wrangler pages deploy web/dist --project-name inkling
 ```
 
-Custom domain: Cloudflare dashboard → Workers & Pages → inkling → Custom domains → add `myinkling.com` (and `www.myinkling.com` redirecting to it). DNS is automatic because the domain is on Cloudflare.
+Custom domain: Cloudflare dashboard → Workers & Pages → inkling → Custom domains → add `www.findyourinkling.com` (and `findyourinkling.com` redirecting to it). DNS is automatic because the domain is on Cloudflare.
 
 Optional: enable Cloudflare Web Analytics for the project (cookie-free) to count plays and shares.
 
