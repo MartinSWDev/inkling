@@ -22,3 +22,8 @@ review_out/
 char_out/
 .aider*
 .wrangler/
+room_out/
+sim_building_out/
+tmp_stage/
+tweet_pals.png
+.pytest_cache/
