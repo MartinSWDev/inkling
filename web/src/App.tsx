@@ -12,6 +12,8 @@ import { suggestAliases } from "./aliases";
 import { heartChip, toggleChip } from "./chips";
 import AppMenu from "./Menu";
 import { ArrowLeft, ArrowRight, ArrowUp, Check, ChevronLeft, ChevronRight, Download, ExternalLink, Heart, Link as LinkIcon, Plus, RotateCcw, Share2, Sparkles, Volume2, VolumeX, X } from "lucide-react";
+import { newGameId } from "./feedback";
+import FeedbackPrompt from "./FeedbackPrompt";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
 const ICON_SM = { size: 16, strokeWidth: 2 } as const;
@@ -106,6 +108,7 @@ export default function App() {
     return () => { live = false; };
   }, [view]);
   const [gameSeed, setGameSeed] = useState(() => Math.floor(Math.random() * 0xffffffff));
+  const [gameId, setGameId] = useState(newGameId);
   const [canShareFiles] = useState(() => {
     try { return !!navigator.canShare?.({ files: [new File(["x"], "t.mp4", { type: "video/mp4" })] }); }
     catch { return false; }
@@ -371,6 +374,7 @@ export default function App() {
 
   function restart() {
     setGameSeed(Math.floor(Math.random() * 0xffffffff));
+    setGameId(newGameId());
     setRoomCodes([]); scoresRef.current = {};
     setAnswers(emptyAnswers()); setPicked({}); setTypedNames([]); setDeckIdx(0); setPairIdx(0);
     setWildcardFlipped(false);
@@ -682,6 +686,7 @@ export default function App() {
                 <div><h3>{r.display_name}</h3>
                 <p>{plainOf(r.code) || "It kept coming up in your answers."}</p></div>
               </motion.div>))}
+            {top3.length > 0 && <FeedbackPrompt key={gameId} gameId={gameId} top={top3.map((r) => ({ code: r.code, name: r.display_name }))} wildcard={surprise} answers={answersRef.current} />}
             {!top3.length && <div className="pc bottom"><h2>Not sure yet</h2><p className="note">Play a few more cards to fill this in.</p></div>}
           </div></div>
           <div className={"page" + (page === 1 ? " on" : "")}><div className="wildwrap">
@@ -725,7 +730,7 @@ export default function App() {
             <div className="share"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
               </div>
-              <div><p className="shareline"><b>What's your inkling?</b>
+              <div><p className="shareline"><b>Find your inkling.</b>
                   <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></p>
                 <p className="note">{videoStatus === "preparing" ? "Preparing your video…" : "A 10-second video of your room filling up, with your top 3 in the message."}</p>
                 <div className="row" style={{ marginTop: 10 }}>

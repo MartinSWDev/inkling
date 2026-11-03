@@ -27,7 +27,7 @@ export const HOME_URL = `https://${SHORT_DOMAIN}`;
 export function shareMessage(top: string[], wildcard: string | null): string {
   const lines = ["My top 3 subjects on Inkling 🏠", ...top.slice(0, 3).map((n, i) => `${i + 1}. ${n}`)];
   if (wildcard) lines.push(`Wildcard: ${wildcard}`);
-  lines.push("", `What's your inkling? ${HOME_URL}`);
+  lines.push("", `Find your inkling: ${HOME_URL}`);
   return lines.join("\n");
 }
 
@@ -239,7 +239,7 @@ export async function makeShareVideo(opts: {
       ctx.fillStyle = "rgba(30,24,48,.48)"; ctx.fillRect(0, 0, W, H);
       ctx.fillStyle = "#FBF6EE"; ctx.textAlign = "center";
       ctx.font = "900 108px Fraunces, Georgia, serif";
-      const q = fitName(ctx, "What's your inkling?", W - 160, 108);
+      const q = fitName(ctx, "Find your inkling.", W - 160, 108);
       q.lines.forEach((line, li) => ctx.fillText(line, W / 2, 860 + li * 116));
       ctx.font = "600 50px Figtree, Arial";
       ctx.fillText("Find yours at " + SHORT_DOMAIN, W / 2, 860 + q.lines.length * 116 + 30);

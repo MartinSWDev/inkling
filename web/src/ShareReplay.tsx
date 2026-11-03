@@ -56,7 +56,7 @@ export default function ShareReplay({ code }: { code: string }) {
         </motion.div></div>)}
       {ended && (<section className="landing replayend">
         <h1 className="wordmark">Inkling</h1>
-        <p className="lede">What's your inkling?</p>
+        <p className="lede">Find your inkling.</p>
         <a className="btn alt bigbtn" href="/">Find yours</a>
       </section>)}
     </div>

@@ -1,0 +1,8 @@
+name = "inkling"
+pages_build_output_dir = "web/dist"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "inkling-feedback"
+database_id = "d69fc5e9-0b6c-4f06-8f82-bc1aa8ac8aa2"

@@ -39,6 +39,25 @@ Custom domain: Cloudflare dashboard → Workers & Pages → inkling → Custom d
 
 Optional: enable Cloudflare Web Analytics for the project (cookie-free) to count plays and shares.
 
+## Feedback
+
+After the top 3, Inkling asks “Does this feel like you?” with thumbs up / thumbs down. Votes are stored anonymously in Cloudflare D1 to re-tune scoring weights.
+
+What is stored: `game_id` (random per game, not per person), `kind` (`vote` or `off`), `vote` (`up` | `down`), `off_code` (subject code or `all`), `top` (JSON array of up to 3 subject codes), `wildcard` (subject code or null), `answers` (JSON), `app_version`, `created_at`.
+
+What is not stored: names, accounts, cookies, IP addresses, user agents, request headers.
+
+Setup:
+
+```sh
+npx wrangler d1 create inkling-feedback          # copy the database_id into wrangler.toml
+npx wrangler d1 execute inkling-feedback --remote --file db/feedback.sql
+npm --prefix web run build && npx wrangler pages deploy
+npx wrangler d1 execute inkling-feedback --remote --command "SELECT vote, COUNT(*) FROM feedback WHERE kind='vote' GROUP BY vote"
+```
+
+Note that `wrangler pages deploy` now reads `wrangler.toml` and must be run from the repo root so `functions/` is included.
+
 ## Data attribution
 
 Contains public sector information licensed under the Open Government Licence v3.0. Apprenticeship standards © Skills England.
