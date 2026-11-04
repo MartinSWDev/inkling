@@ -1,0 +1,32 @@
+# Inkling
+
+A free game that helps UK school leavers find the degree subjects that fit them.
+
+## What it is
+
+Inkling helps UK school leavers who do not yet know what to study find the degree subjects that fit them. It is a game, not a chatbot or personality test: you answer picture and subject cards on gut feel, and a paper-craft room fills up with what you are into. Playing makes no AI calls and needs no sign-up.
+
+## How it works
+
+Four rounds: tap the subjects you study and heart your favourites; swipe "things you'd get stuck into" yes or no; pick between paired pictures; swipe big questions, up if you really want to know. The reveal gives your top 3 subjects, a wildcard that never came up but fits your answers, hands-on routes, real UK courses filtered by setting, and apprenticeships. At the finale, a live inkling note is written for you and a paper pal of your top subject is drawn, both shareable as an image or video.
+
+## Meta models used
+
+- Muse Spark Open (open weights) on Baseten — wrote and reviewed every subject card; writes and plays the live simulated students on /simulation.
+- Muse Spark 1.2 via the Meta Model API — writes your inkling note live (falls back to Spark Open on Baseten).
+- Muse Image — drew the room, stickers, card art and paper pals.
+- SAM 3.1 — cut out and checked every object.
+- Muse Code — built the site.
+
+## Data and licences
+
+Course and graduate-outcome data: Discover Uni (HESA), CC BY 4.0. Occupational interest data: O*NET 31.0, CC BY 4.0. Apprenticeship standards: © Skills England, Open Government Licence v3.0.
+
+## Links
+
+- Site: https://www.findyourinkling.com
+- Simulation: https://www.findyourinkling.com/simulation
+- How it was built: https://www.findyourinkling.com/built
+- GitHub: https://github.com/MartinSWDev/inkling
+- Demo video: https://youtu.be/0AtiOCTx2ow
+- X post: https://x.com/MartinSWDev/status/2118059722070790600
