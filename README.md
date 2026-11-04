@@ -2,9 +2,9 @@
 
 **A game that helps UK students find the degree subjects that fit them.** Four quick rounds of cards fill a paper-craft halls room with what you're into. Then you get your top 3 subjects, a wildcard you'd never have picked, real UK courses and the apprenticeships closest to them.
 
-**Play it:** [findyourinkling.com](https://www.findyourinkling.com) · **Watch the simulation:** [/simulation](https://www.findyourinkling.com/simulation) · **How it was built:** [/built](https://www.findyourinkling.com/built) · **Demo video:** _add link_
+**Play it:** [findyourinkling.com](https://www.findyourinkling.com) · **Watch the simulation:** [/simulation](https://www.findyourinkling.com/simulation) · **How it was built:** [/built](https://www.findyourinkling.com/built) · **Demo video:** [youtu.be/0AtiOCTx2ow](https://youtu.be/0AtiOCTx2ow)
 
-Built solo for the Meta Global AI Developer Hackathon (26 Oct – 4 Nov 2026), Indie Developer track, problem statement **Build for Your World**.
+Built solo for the Meta Global AI Developer Hackathon (26 Oct – 4 Nov 2026), Indie Developer track, problem statement **Build for Your World**. Also entered for the bonus categories: Open Weights (Muse Spark Open does the heavy lifting, on Baseten), Best Creative Build, Most Viral and Community Vote.
 
 ![Inkling](web/public/og.png)
 

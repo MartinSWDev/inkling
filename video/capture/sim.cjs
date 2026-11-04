@@ -1,0 +1,11 @@
+const { chromium } = require('playwright'); const startCast = require('./cast.cjs'); const fs=require('fs');
+(async () => { const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 1600, height: 900 }, deviceScaleFactor: 1.2 });
+ const p = await ctx.newPage(); await p.goto('http://127.0.0.1:4173/simulation'); await p.waitForTimeout(2000);
+ await p.getByRole('button', { name: /replay/i }).click(); await p.getByRole('button', { name: /^4/ }).click();
+ const cast = await startCast(p, 'f_sim', { maxWidth: 1920, maxHeight: 1080 });
+ cast.mark('start'); await p.waitForTimeout(16000);
+ cast.mark('tapbuilding'); await p.mouse.click(1162, 222); await p.waitForTimeout(3500);
+ await p.screenshot({ path: 'sim_card.jpg', quality: 90 });
+ const r = await cast.stop(); console.log(r.frames, r.dur);
+ await b.close();
+})();

@@ -1,0 +1,163 @@
+1
+00:00:00,400 --> 00:00:02,600
+Struggling to pick a subject for uni?
+
+2
+00:00:03,300 --> 00:00:05,700
+No idea which way to go for an apprenticeship?
+
+3
+00:00:06,300 --> 00:00:08,100
+Maybe you've just got…
+
+4
+00:00:08,300 --> 00:00:09,500
+an inkling?
+
+5
+00:00:09,800 --> 00:00:12,000
+Inkling uncovers the subjects that fit you.
+
+6
+00:00:13,000 --> 00:00:15,000
+From what you're actually into.
+
+7
+00:00:17,000 --> 00:00:18,800
+Backed by real data.
+
+8
+00:00:21,000 --> 00:00:22,800
+Your top three subjects.
+
+9
+00:00:23,000 --> 00:00:24,200
+Plus a wildcard.
+
+10
+00:00:25,000 --> 00:00:26,400
+Hi, I'm Martin.
+
+11
+00:00:26,500 --> 00:00:29,200
+I build university websites. I see this every day.
+
+12
+00:00:30,000 --> 00:00:33,000
+So for this hackathon, from an empty repo, I built Inkling.
+
+13
+00:00:33,300 --> 00:00:34,300
+Let me show you.
+
+14
+00:00:35,000 --> 00:00:40,000
+An inkling is that feeling you sort of know what you'd like to do, but you're not sure.
+
+15
+00:00:40,200 --> 00:00:41,500
+Inkling helps you confirm it.
+
+16
+00:00:41,800 --> 00:00:42,800
+Four quick rounds.
+
+17
+00:00:43,000 --> 00:00:44,900
+First, tap the subjects you take.
+
+18
+00:00:45,200 --> 00:00:48,200
+If one's missing, start typing and pick it from the list.
+
+19
+00:00:49,000 --> 00:00:56,500
+Then swipe through things you might get stuck into, pick between pictures, and answer a few big questions.
+
+20
+00:00:57,000 --> 00:01:00,000
+Everything you choose lands in your room.
+
+21
+00:01:04,000 --> 00:01:08,500
+At the end, you get your top three subjects, based on everything you picked.
+
+22
+00:01:09,000 --> 00:01:12,000
+Tap any object to see which subject it stands for.
+
+23
+00:01:16,600 --> 00:01:20,200
+And there's a wildcard: one that fits your answers, but you'd never have gone looking for.
+
+24
+00:01:21,000 --> 00:01:24,500
+Then it writes your inkling, live. Muse Spark reads your answers and says why your top subject fits.
+
+25
+00:01:25,000 --> 00:01:28,800
+And Muse Image draws your paper pal while you wait. Both are live Meta model calls, every game.
+
+26
+00:01:30,000 --> 00:01:39,500
+Each subject opens real UK courses, by city, coast or campus town, and apprenticeships if you'd rather earn while you learn.
+
+27
+00:01:41,000 --> 00:01:46,500
+And it makes a ten-second video of your room to share.
+
+28
+00:01:49,000 --> 00:01:52,500
+Meta's models did two jobs here. They built the game, and they run live inside it.
+
+29
+00:01:53,000 --> 00:01:58,500
+Before launch, Muse Spark Open on Baseten wrote all 163 subject cards, then reviewed its own work.
+
+30
+00:01:58,800 --> 00:02:02,300
+It rated five thousand course titles, tagged every campus and linked the apprenticeships.
+
+31
+00:02:02,700 --> 00:02:05,500
+Muse Image drew the whole paper world.
+
+32
+00:02:06,000 --> 00:02:08,500
+SAM 3.1 checks every sticker. And Muse Code helped me build it.
+
+33
+00:02:09,500 --> 00:02:13,800
+Because it's open weights, a school could run all of this on its own servers.
+
+34
+00:02:14,600 --> 00:02:23,500
+Before any real students played, Spark Open wrote 200 simulated students, each with the subjects they'd suit noted first, and played every round as them.
+
+35
+00:02:24,000 --> 00:02:30,500
+That showed where the scoring needed work: Zoology was landing in 45 students' top three when only one suited it.
+
+36
+00:02:30,800 --> 00:02:35,500
+After the fix, on students it had never seen, a fitting subject in the top three went from 38 to 54 percent.
+
+37
+00:02:35,800 --> 00:02:37,800
+Now real players can say if it felt right.
+
+38
+00:02:38,000 --> 00:02:44,000
+And you can run a new student any time: Spark Open writes one live on Baseten, plays every round, and the real scoring code walks them to their building.
+
+39
+00:02:45,000 --> 00:02:51,000
+Everything you saw was built this week, on real data from HESA, O*NET and Skills England.
+
+40
+00:02:52,000 --> 00:02:55,000
+Free, no sign-up, any phone.
+
+41
+00:02:55,300 --> 00:02:57,000
+Find your inkling.
