@@ -130,6 +130,133 @@ export function placeholderSnapshot(): SimSnapshot {
   };
 }
 
+function parseJsonBlock(text: string): Record<string, unknown> | null {
+  const start = text.indexOf("{");
+  const end = text.lastIndexOf("}");
+  if (start < 0 || end <= start) return null;
+  try {
+    const v: unknown = JSON.parse(text.slice(start, end + 1));
+    return typeof v === "object" && v !== null && !Array.isArray(v) ? (v as Record<string, unknown>) : null;
+  } catch {
+    return null;
+  }
+}
+
+/** One brand-new student, written and played live by Muse Spark Open via
+ * /api/student (prompts/21 E). Everything the model writes is passed to
+ * onLog exactly as it streams in; the two JSON blocks are then scored here,
+ * in the browser, by the same scoring code as the batch snapshot. Returns
+ * null (after logging why) on any failure. */
+export async function runLiveStudent(
+  onLog: (line: string) => void,
+  onHeaders?: (provider: "baseten" | "meta" | null, model: string | null) => void,
+): Promise<SimStudent | null> {
+  const { scoreAnswers } = await import("./scoring");
+  const { paperFor } = await import("./live");
+  const { fetchContent, fetchSubjects } = await import("./api");
+  try {
+    const res = await fetch("/api/student", { method: "POST" });
+    const providerHeader = res.headers.get("x-provider");
+    onHeaders?.(providerHeader === "baseten" || providerHeader === "meta" ? providerHeader : null, res.headers.get("x-model"));
+    if (!res.ok || !res.body) { onLog(`\nThe live student could not start (HTTP ${res.status}).`); return null; }
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let full = "";
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = decoder.decode(value, { stream: true });
+      full += chunk;
+      onLog(chunk);
+    }
+    if (full.includes("@@error")) return null; // the message is already in the log
+
+    const personaPart = full.split("@@persona")[1]?.split("@@play")[0] ?? "";
+    const playPart = full.split("@@play")[1]?.split("@@done")[0] ?? "";
+    const persona = parseJsonBlock(personaPart);
+    const play = parseJsonBlock(playPart);
+    if (!persona || !play) { onLog("\nThe model did not return the student as JSON, so no one was added."); return null; }
+
+    const [content, subjectsData] = await Promise.all([fetchContent(), fetchSubjects()]);
+    const subjects = subjectsData.subjects;
+    const codes = new Set(subjects.map((s) => s.code));
+    const suits = (Array.isArray(persona.suits) ? persona.suits : [])
+      .filter((c): c is string => typeof c === "string" && codes.has(c)).slice(0, 3);
+    if (!suits.length) { onLog("\nThe student's suited subjects were not in the list, so no one was added."); return null; }
+
+    const rec = (v: unknown): Record<string, unknown> =>
+      typeof v === "object" && v !== null && !Array.isArray(v) ? (v as Record<string, unknown>) : {};
+    const things = rec(play.things);
+    const questions = rec(play.questions);
+    const pairsPlayed = rec(play.pairs);
+    const answers = {
+      chips: (Array.isArray(play.chips) ? play.chips : [])
+        .map((c) => rec(c))
+        .filter((c) => typeof c.id === "string" && content.chips.some((x) => x.id === c.id))
+        .map((c) => ({ id: c.id as string, state: c.state === "love" ? "love" : "take" })),
+      typed: (Array.isArray(play.typed) ? play.typed : []).filter((t): t is string => typeof t === "string"),
+      swipes: [
+        ...Object.entries(things).filter(([, a]) => a === "yes" || a === "no")
+          .map(([card_id, answer]) => ({ card_id, answer: answer as "yes" | "no" })),
+        ...Object.entries(questions).filter(([, a]) => a === "yes" || a === "no" || a === "up")
+          .map(([card_id, answer]) => ({ card_id, answer: answer as "yes" | "no" | "up" })),
+      ],
+      subject_swipes: [],
+      pairs: Object.entries(pairsPlayed)
+        .filter(([, side]) => side === "a" || side === "b" || side === null)
+        .map(([pair_id, side]) => ({ pair_id, side: side as "a" | "b" | null })),
+      shown: [],
+    };
+    const profiles = Object.fromEntries(subjects.map((s) => [s.code, s.profile ?? {}]));
+    const result = scoreAnswers(answers, subjects, profiles, content.pairs,
+      { chips: content.chips, things: content.things, questions: content.questions },
+      content.aliases || {});
+    const topCodes = result.ranked.map((r) => r.code);
+    const top3 = topCodes.slice(0, 3);
+    const truth = new Set(suits);
+    const chipName = new Map(content.chips.map((c) => [c.id, c.name]));
+    const pairLabel = new Map(content.pairs.map((p) => [p.id, p]));
+    const str = (v: unknown, fallback: string) => (typeof v === "string" && v ? v : fallback);
+    return {
+      id: "live-" + Date.now(),
+      first_name: str(persona.first_name, "Sam"),
+      age: typeof persona.age === "number" ? persona.age : 17,
+      where: str(persona.where, "somewhere in the UK"),
+      enjoys: str(persona.enjoys, ""),
+      certainty: str(persona.certainty, "torn"),
+      paper: paperFor(suits[0]),
+      dest_paper: paperFor(top3[0]),
+      suits,
+      top3,
+      wildcard: result.surprise,
+      hit3: top3.some((c) => truth.has(c)),
+      hit5: topCodes.slice(0, 5).some((c) => truth.has(c)),
+      family3: top3.some((c) => suits.some((s) => s.slice(0, 8) === c.slice(0, 8))),
+      settled_after: null,
+      answers: {
+        chips: answers.chips.map((c) => ({ name: chipName.get(c.id) || c.id, love: c.state === "love" })),
+        hearts: answers.chips.filter((c) => c.state === "love").map((c) => chipName.get(c.id) || c.id),
+        typed: answers.typed,
+        yes: {
+          things: Object.values(things).filter((a) => a === "yes").length,
+          things_total: Object.keys(things).length,
+          questions: Object.values(questions).filter((a) => a === "yes" || a === "up").length,
+          questions_up: Object.values(questions).filter((a) => a === "up").length,
+          questions_total: Object.keys(questions).length,
+        },
+        pairs: Object.entries(pairsPlayed).map(([pid, side]) => {
+          const p = pairLabel.get(pid);
+          return { pair: pid, chose: p && (side === "a" || side === "b") ? p[side].label : null };
+        }),
+        pairs_decided: Object.values(pairsPlayed).filter((s) => s === "a" || s === "b").length,
+      },
+    };
+  } catch (e) {
+    onLog(`\nThe live student failed (${e instanceof Error ? e.message : "network error"}).`);
+    return null;
+  }
+}
+
 export async function loadSnapshot(): Promise<SimSnapshot> {
   try {
     const r = await fetch("/sim/snapshot.json");

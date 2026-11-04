@@ -41,6 +41,18 @@ No sign-up. Playing makes **zero AI calls**: everything AI-made was generated on
 | **SAM 3.1** | Meta Model API, `sam-3.1` | Finds and checks the object in every sticker render (stickers are cut out on a green key) | Every sticker | `build_stickers.py`, `image_check.py` |
 | **Muse Code** | Coding agent | Coding partner for most of the build, driven by the prompts in `prompts/` | 20 prompts | `prompts/` |
 
+**Live during play:**
+
+| Feature | Model | Function | What happens |
+| --- | --- | --- | --- |
+| Your inkling | Muse Spark Open · Baseten | `POST /api/inkling` | Writes two or three sentences about how your answers connect to your top 3, streamed onto the page, with a “Your wildcard,” sentence when you have one. Falls back to the cards alone. |
+| Your paper pal | Muse Image · Meta Model API | `POST /api/pal` | Draws a paper pal of your top subject's paper type holding its room object, on the share page and share image. Hidden on failure. |
+| Live students | Muse Spark Open · Baseten | `POST /api/student` | “Run a live student” on `/simulation` writes and plays one new student live (streamed log); the browser scores them and walks them to their building. |
+
+Spark Open runs on Baseten; if that endpoint is unavailable the same calls fall back to `muse-spark-1.3` on the Meta Model API, and the page says which one answered.
+
+Keys live in Cloudflare Pages secrets (`BASETEN_API_KEY`, `MODEL_API_KEY`); for local dev they sit in `.dev.vars` (git-ignored). Nothing the models write during play is stored.
+
 **Why open weights:** every text step runs on an open model, so a school, careers service or exam board could run the whole pipeline on its own servers, in its own language, and keep pupils' answers in-house.
 
 ## Testing it before real students: the simulation

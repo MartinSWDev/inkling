@@ -149,11 +149,21 @@ export default function Built() {
           </div>
         </section>
 
+        {/* Live during play */}
+        <section className="simcard">
+          <h2>Live during play</h2>
+          <ul>
+            <li><b>Your inkling</b> (Muse Spark Open, on Baseten): when you reach your top 3, it writes two or three sentences about how your answers connect to them, streamed in live — with a wildcard sentence when you have one. If it is unavailable, you just see the cards.</li>
+            <li><b>Your paper pal</b> (Muse Image, Meta Model API): on the share page, it draws a paper pal of your top subject&apos;s paper type, proudly holding its room object, and it appears on your share image too. If it fails, the card simply never appears.</li>
+            <li><b>Live students</b> (Muse Spark Open, on Baseten): “Run a live student” on the simulation page writes a brand-new student and plays every round as them, streamed as a live log, then the same scoring code walks them to their building.</li>
+          </ul>
+        </section>
+
         {/* Why open weights */}
         <section className="simcard">
           <h2>Why open weights</h2>
           <p>Every text step runs on an open model. A school, careers service or exam board could run the whole pipeline on its own servers, in its own language, and keep pupils&apos; answers in-house.</p>
-          <p>Batch jobs mean zero AI calls while you play. That keeps it free at any scale.</p>
+          <p>Batch jobs built the world, so the game itself works with no AI calls. The live touches above are optional extras that degrade silently — that keeps the core free at any scale.</p>
         </section>
 
         {/* Data underneath */}

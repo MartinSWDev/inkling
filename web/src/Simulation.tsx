@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { Pause, Play, RotateCcw, Shuffle, Volume2, VolumeX, X } from "lucide-react";
+import { Pause, Play, RotateCcw, Shuffle, Sparkles, Volume2, VolumeX, X } from "lucide-react";
 import AppMenu from "./Menu";
 import SimScene from "./SimScene";
-import { BUILDINGS, PAPER_COLOURS, loadSnapshot, type Paper, type SimSnapshot, type SimStudent } from "./simData";
+import { BUILDINGS, PAPER_COLOURS, loadSnapshot, runLiveStudent, type Paper, type SimSnapshot, type SimStudent } from "./simData";
 import { setSoundEnabled, unlock } from "./design/sound";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
@@ -70,6 +70,25 @@ export default function Simulation() {
     && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   const [started, setStarted] = useState(false);
   const sceneWrapRef = useRef<HTMLDivElement>(null);
+  // One brand-new student, written and played live (prompts/21 E).
+  const [liveStudents, setLiveStudents] = useState<SimStudent[]>([]);
+  const [liveProvider, setLiveProvider] = useState<"baseten" | "meta" | null>(null);
+  const [liveLog, setLiveLog] = useState("");
+  const [runLivePhase, setRunLivePhase] = useState<"idle" | "writing" | "scoring" | "walking" | "error">("idle");
+  const displayStudents = snap ? [...snap.students, ...liveStudents] : [];
+
+  const runLive = async () => {
+    if (runLivePhase === "writing" || runLivePhase === "scoring") return;
+    setRunLivePhase("writing");
+    setLiveLog("");
+    setLiveProvider(null);
+    const student = await runLiveStudent((line) => setLiveLog((log) => log + line), (provider) => setLiveProvider(provider));
+    if (!student) { setRunLivePhase("error"); return; }
+    setRunLivePhase("scoring");
+    setLiveStudents((list) => [...list, student]);
+    setSelected(student);
+    setRunLivePhase("walking");
+  };
 
   useEffect(() => { loadSnapshot().then(setSnap); }, []);
   useEffect(() => {
@@ -106,7 +125,7 @@ export default function Simulation() {
         <section className="simscene-card">
           <div className="simscene-wrap" ref={sceneWrapRef}>
             {snap ? (
-              <SimScene students={snap.students} playing={playing} speed={speed} replayKey={replayKey}
+              <SimScene students={displayStudents} playing={playing} speed={speed} replayKey={replayKey}
                 finalState={finalState} selectedId={selected?.id ?? null} soundOn={soundOn}
                 onSelect={(s) => { setBuilding(null); setSelected(s); }} onArrive={setArrived}
                 onBuilding={(paper, ids) => { setSelected(null); setBuilding({ paper, ids }); }} />
@@ -114,7 +133,7 @@ export default function Simulation() {
             {selected && snap && <StudentCard s={selected} snap={snap} onClose={() => setSelected(null)}
               backTo={building ? BUILDINGS[building.paper] : undefined} />}
             {!selected && building && snap && <BuildingCard paper={building.paper}
-              students={building.ids.map((id) => snap.students.find((s) => s.id === id)).filter((s): s is SimStudent => !!s)}
+              students={building.ids.map((id) => displayStudents.find((s) => s.id === id)).filter((s): s is SimStudent => !!s)}
               onPick={setSelected} onClose={() => setBuilding(null)} />}
           </div>
           <div className="simcontrols">
@@ -139,24 +158,39 @@ export default function Simulation() {
             <button className="btn" aria-label={soundOn ? "Sound on" : "Sound off"} aria-pressed={soundOn}
               onClick={() => { const on = !soundOn; setSoundOn(on); setSoundEnabled(on); if (on) unlock(); }}>
               {soundOn ? <Volume2 {...ICON_SM} aria-hidden="true" /> : <VolumeX {...ICON_SM} aria-hidden="true" />}</button>
-            <span className="arrived" role="status">{snap ? `${arrived} / ${snap.students.length} arrived` : ""}</span>
+            <span className="arrived" role="status">{snap ? `${arrived} / ${displayStudents.length} arrived` : ""}</span>
           </div>
           <p className="note">Tap a building to see who ended up there, then tap a student to read their story.</p>
         </section>
-        <div id="sim-results">{snap ? <Results snap={snap} heldOut={heldOut} onPick={setSelected} /> : null}</div>
+        <section className="simcard livepanel" aria-label="Run a live student">
+          <h2>Run a live student</h2>
+          <button className="btn alt" onClick={runLive}
+            disabled={runLivePhase === "writing" || runLivePhase === "scoring"}>
+            <Sparkles {...ICON_SM} aria-hidden="true" />
+            {runLivePhase === "writing" ? "Writing a new student…" : runLivePhase === "scoring" ? "Scoring…" : "Run a live student"}</button>
+          <p className="note">Costs a few pence in model calls. The batch above was free to replay.</p>
+          {runLivePhase === "error" && <p className="note">That live run failed — the log below says why. The batch simulation is unaffected.</p>}
+          {runLivePhase === "walking" && <p className="note">Added — watch them walk to their building, or tap them for their story.</p>}
+          {(liveLog || runLivePhase === "writing") && (<>
+            <p className="note">{liveProvider === "meta" ? "Live student · Muse Spark via the Meta Model API" : "Live student · Muse Spark Open on Baseten"}</p>
+            <pre className="livelog" aria-live="polite">{liveLog || "Waiting for the model…"}</pre></>)}
+        </section>
+        <div id="sim-results">{snap ? <Results snap={snap} students={displayStudents} heldOut={heldOut} onPick={setSelected} /> : null}</div>
       </main>
     </div>
   );
 }
 
-function Results({ snap, heldOut, onPick }: { snap: SimSnapshot; heldOut: HeldOut | null; onPick: (s: SimStudent) => void }) {
+function Results({ snap, students, heldOut, onPick }: { snap: SimSnapshot; students: SimStudent[]; heldOut: HeldOut | null; onPick: (s: SimStudent) => void }) {
   const sm = snap.summary;
-  const arrivals = Object.entries(sm.arrivals_by_paper)
+  const arrivedByPaper: Record<string, number> = {};
+  for (const s of students) arrivedByPaper[s.dest_paper] = (arrivedByPaper[s.dest_paper] || 0) + 1;
+  const arrivals = Object.entries(arrivedByPaper)
     .map(([paper, n]) => ({ paper: paper as keyof typeof BUILDINGS, n }))
     .sort((a, b) => b.n - a.n);
   const maxArr = Math.max(1, ...arrivals.map((a) => a.n));
-  const hits = snap.students.filter((s) => s.hit3).slice(0, 4);
-  const misses = snap.students.filter((s) => !s.hit3).slice(0, 2);
+  const hits = students.filter((s) => s.hit3).slice(0, 4);
+  const misses = students.filter((s) => !s.hit3).slice(0, 2);
   const examples = [...hits, ...misses];
   const name = (code: string) => snap.subjects[code] || code;
   return (
@@ -207,7 +241,7 @@ function Results({ snap, heldOut, onPick }: { snap: SimSnapshot; heldOut: HeldOu
       <section className="simcard">
         <h2>Run it yourself</h2>
         <pre className="simcmd">python scripts/simulate_students.py --limit 20{"\n"}python scripts/simulate_students.py{"\n"}python scripts/export_sim_snapshot.py</pre>
-        <p className="note">This page replays a fixed snapshot, so it costs nothing to view. No live calls are made.</p>
+        <p className="note">This page replays a fixed snapshot, so it costs nothing to view. “Run a live student” above makes live model calls instead.</p>
       </section>
 
       <section aria-label="Example students">

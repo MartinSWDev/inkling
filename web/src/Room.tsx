@@ -161,7 +161,7 @@ function loadImg(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => { const i = new Image(); i.onload = () => resolve(i); i.onerror = reject; i.src = src; });
 }
 
-export async function composeRoomCanvas(assigned: Assigned[], viewId: string, viewTime: string, layout: Layout) {
+export async function composeRoomCanvas(assigned: Assigned[], viewId: string, viewTime: string, layout: Layout, palUrl?: string) {
   const canvas = document.createElement("canvas");
   canvas.width = 1080; canvas.height = 1920;
   const ctx = canvas.getContext("2d")!;
@@ -172,6 +172,24 @@ export async function composeRoomCanvas(assigned: Assigned[], viewId: string, vi
   for (const a of [...assigned].sort((x, y) => x.z - y.z)) {
     const img = await loadImg("/stickers/" + a.code + ".webp");
     ctx.drawImage(img, a.x * k, a.y * k, a.w * k, a.h * k);
+  }
+  if (palUrl) {
+    // The live paper pal on a small paper card, bottom-right.
+    try {
+      const pal = await loadImg(palUrl);
+      const cardW = 300, cardH = 330, x = 1080 - cardW - 36, y = 1920 - cardH - 36;
+      ctx.save();
+      ctx.fillStyle = "#fbf6ee";
+      ctx.strokeStyle = "#ddd2c2";
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.roundRect(x, y, cardW, cardH, 18);
+      ctx.fill();
+      ctx.stroke();
+      ctx.clip();
+      ctx.drawImage(pal, x + 12, y + 12, cardW - 24, cardW - 24);
+      ctx.restore();
+    } catch { /* the share image is fine without the pal */ }
   }
   return canvas;
 }

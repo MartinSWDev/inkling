@@ -13,6 +13,7 @@ import { heartChip, toggleChip } from "./chips";
 import AppMenu from "./Menu";
 import { ArrowLeft, ArrowRight, ArrowUp, Check, ChevronLeft, ChevronRight, Download, ExternalLink, Heart, Link as LinkIcon, Plus, RotateCcw, Share2, Sparkles, Volume2, VolumeX, X } from "lucide-react";
 import { newGameId } from "./feedback";
+import { answerSummary, fetchInkling, fetchPal, paperFor } from "./live";
 import FeedbackPrompt from "./FeedbackPrompt";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
@@ -115,6 +116,13 @@ export default function App() {
   });
   const [videoStatus, setVideoStatus] = useState<"idle" | "preparing" | "ready">("idle");
   const videoRef = useRef<{ key: string; blob: Blob; ext: string } | null>(null);
+  // Live Meta model results for this reveal (prompts/21 D): written inkling,
+  // paper pal, and the pal added to the share image. All keyed by shareKey
+  // and aborted when a new game starts; every failure is silent.
+  const [liveInkling, setLiveInkling] = useState<{ key: string; text: string; done: boolean; provider: "baseten" | "meta" | null; model: string | null; ticks: number } | null>(null);
+  const [livePal, setLivePal] = useState<{ key: string; url: string | null; done: boolean } | null>(null);
+  const liveAbortRef = useRef<AbortController | null>(null);
+  const liveKeyRef = useRef("");
   const imageRef = useRef<{ key: string; blob: Blob } | null>(null);
   const videoGenRef = useRef("");
   const [wildcardFlipped, setWildcardFlipped] = useState(false);
@@ -373,6 +381,10 @@ export default function App() {
   }
 
   function restart() {
+    liveAbortRef.current?.abort();
+    liveKeyRef.current = "";
+    setLiveInkling(null);
+    setLivePal(null);
     setGameSeed(Math.floor(Math.random() * 0xffffffff));
     setGameId(newGameId());
     setRoomCodes([]); scoresRef.current = {};
@@ -423,6 +435,42 @@ export default function App() {
       .catch(() => null);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scene.kind, assets, shareKey]);
+
+  // Fire the live model calls once per reveal, at the same time as the video.
+  useEffect(() => {
+    if ((scene.kind !== "reveal" && scene.kind !== "share") || !top3.length || !content) return;
+    if (liveKeyRef.current === shareKey) return;
+    liveKeyRef.current = shareKey;
+    liveAbortRef.current?.abort();
+    const ctl = new AbortController();
+    liveAbortRef.current = ctl;
+    const key = shareKey;
+    const live = () => !ctl.signal.aborted && liveKeyRef.current === key;
+    setLiveInkling({ key, text: "", done: false, provider: null, model: null, ticks: 0 });
+    setLivePal({ key, url: null, done: false });
+    const input = {
+      top: top3.map((r) => ({ name: r.display_name, plain: plainOf(r.code) || r.display_name })),
+      wildcard: wildcardRow ? { name: wildcardRow.display_name, why: whyOf(wildcardRow.code) || "it never came up, but it fits your answers" } : null,
+      answers: answerSummary(answersRef.current, content.chips, content.things, content.questions, content.pairs),
+    };
+    fetchInkling(input, (text) => { if (live()) setLiveInkling((p) => ({ key, text, done: false, provider: p?.key === key ? p.provider : null, model: p?.key === key ? p.model : null, ticks: p?.key === key ? p.ticks : 0 })); }, ctl.signal,
+      (ticks) => { if (live()) setLiveInkling((p) => (p && p.key === key ? { ...p, ticks } : { key, text: "", done: false, provider: null, model: null, ticks })); })
+      .then((result) => { if (live()) setLiveInkling((p) => ({ key, text: result.text, done: true, provider: result.provider, model: result.model, ticks: p?.key === key ? p.ticks : 0 })); });
+    const topSubject = subjects.find((s) => s.code === top3[0].code);
+    fetchPal({ paper: paperFor(top3[0].code), object: topSubject?.object || "paper object", subject: top3[0].display_name }, ctl.signal)
+      .then((url) => {
+        if (!live()) { if (url) URL.revokeObjectURL(url); return; }
+        setLivePal({ key, url, done: true });
+        if (url && assets?.layout) {
+          composeRoomCanvas(assigned, view, viewTime, assets.layout, url)
+            .then((canvas) => canvas.toBlob((blob) => {
+              if (blob && liveKeyRef.current === key) imageRef.current = { key, blob };
+            }, "image/png"))
+            .catch(() => null);
+        }
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scene.kind, shareKey]);
 
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
@@ -686,6 +734,15 @@ export default function App() {
                 <div><h3>{r.display_name}</h3>
                 <p>{plainOf(r.code) || "It kept coming up in your answers."}</p></div>
               </motion.div>))}
+            {liveInkling && liveInkling.key === shareKey && (liveInkling.text || !liveInkling.done) && (
+              <div className="pc inklingcard"><p>{liveInkling.text}{!liveInkling.done && <span className="inklingcaret" aria-hidden="true" />}</p>
+                <p className="inklingtag"><Sparkles {...ICON_SM} aria-hidden="true" /> {liveInkling.done
+                  ? liveInkling.provider === "meta"
+                    ? "Written for you by Muse Spark (a Meta model, live via the Meta Model API)."
+                    : "Written for you by Muse Spark Open (a Meta model, live on Baseten)."
+                  : !liveInkling.text && liveInkling.ticks > 0
+                    ? "Muse Spark Open is thinking" + ".".repeat(liveInkling.ticks % 3 + 1)
+                    : "Muse Spark Open is writing your inkling…"}</p></div>)}
             {top3.length > 0 && <FeedbackPrompt key={gameId} gameId={gameId} top={top3.map((r) => ({ code: r.code, name: r.display_name }))} wildcard={surprise} answers={answersRef.current} />}
             {!top3.length && <div className="pc bottom"><h2>Not sure yet</h2><p className="note">Play a few more cards to fill this in.</p></div>}
           </div></div>
@@ -727,8 +784,13 @@ export default function App() {
                 <span>{v.name}</span></button>))}</div>
             <p className="note">It changes the view from your window.</p></div></div>
           <div className={"page" + (page === sharePage ? " on" : "")}><div className="pc bottom sharepc"><h2>Share your room</h2>
-            <div className="share"><div className="phone">
+            <div className="share"><div className="sharepics"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
+              </div>
+              {livePal && livePal.key === shareKey && (!livePal.done || livePal.url) && (
+                livePal.url
+                  ? <figure className="palcard"><img src={livePal.url} alt="Your paper pal, drawn live" /><figcaption>Your paper pal, drawn live by Muse Image</figcaption></figure>
+                  : <div className="palcard palwait" aria-hidden="true"><span className="paldots"><i /><i /><i /></span></div>)}
               </div>
               <div><p className="shareline"><b>Find your inkling.</b>
                   <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></p>
@@ -768,7 +830,8 @@ export default function App() {
                         if ((e as Error).name !== "AbortError") { console.log("share image failed:", (e as Error).name); tip("Sharing didn't work on this browser."); }
                       }
                     } else {
-                      download(await composeRoomCanvas(assigned, view, viewTime, assets.layout), "inkling-room.png");
+                      download(await composeRoomCanvas(assigned, view, viewTime, assets.layout,
+                        livePal && livePal.key === shareKey ? livePal.url ?? undefined : undefined), "inkling-room.png");
                     }
                   }}><Download {...ICON_SM} aria-hidden="true" /> Share image</button>
                   <button className="btn ghost" onClick={restart}><RotateCcw {...ICON_SM} aria-hidden="true" /> Start over</button>

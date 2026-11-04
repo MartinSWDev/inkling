@@ -27,3 +27,8 @@ sim_building_out/
 tmp_stage/
 tweet_pals.png
 .pytest_cache/
+video/node_modules/
+video/out/
+video/stills/
+video/public/
+.dev.vars
