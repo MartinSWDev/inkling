@@ -194,6 +194,87 @@ export async function composeRoomCanvas(assigned: Assigned[], viewId: string, vi
   return canvas;
 }
 
+/** Wrap text to a pixel width with the context's current font; returns lines. */
+function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
+  const out: string[] = [];
+  for (const para of text.split("\n")) {
+    let line = "";
+    for (const w of para.split(" ")) {
+      const t = line ? line + " " + w : w;
+      if (line && ctx.measureText(t).width > maxWidth) { out.push(line); line = w; } else line = t;
+    }
+    if (line) out.push(line);
+  }
+  return out;
+}
+
+/** The inkling page as a 1080x1920 share card (prompts/27 B), in the same
+ * paper style as composeRoomCanvas. Works without a pal image. */
+export async function composeInklingCard(opts: {
+  palUrl?: string; stickerCode: string; subject: string; plain: string;
+  text: string; provider: "baseten" | "meta" | null;
+}): Promise<HTMLCanvasElement> {
+  const canvas = document.createElement("canvas");
+  canvas.width = 1080; canvas.height = 1920;
+  const ctx = canvas.getContext("2d")!;
+  ctx.fillStyle = "#FBF6EE"; ctx.fillRect(0, 0, 1080, 1920);
+  try {
+    const grain = await loadImg("/paper-grain.png");
+    const pattern = ctx.createPattern(grain, "repeat");
+    if (pattern) { ctx.save(); ctx.globalAlpha = 0.5; ctx.fillStyle = pattern; ctx.fillRect(0, 0, 1080, 1920); ctx.restore(); }
+  } catch { /* plain paper is fine */ }
+  const INK = "#2A2238", MUTED = "#6c6280", ACCENT = "#E59A2C";
+  let y = 110;
+  ctx.fillStyle = MUTED; ctx.font = "600 40px Figtree, sans-serif"; ctx.textAlign = "center";
+  ctx.fillText("My inkling", 540, y); y += 60;
+  if (opts.palUrl) {
+    try {
+      const pal = await loadImg(opts.palUrl);
+      ctx.save();
+      ctx.beginPath(); ctx.roundRect(220, y, 640, 640, 28); ctx.clip();
+      ctx.drawImage(pal, 220, y, 640, 640);
+      ctx.restore();
+    } catch { /* the card still works without the pal */ }
+    y += 640 + 56;
+  }
+  // Subject block: sticker at its top-left.
+  const nameLines = (() => { ctx.font = "900 96px Fraunces, serif"; return wrapText(ctx, opts.subject, 760); })();
+  try {
+    const sticker = await loadImg("/stickers/" + opts.stickerCode + ".webp");
+    ctx.drawImage(sticker, 36, y - 70, 160, 160);
+  } catch { /* subject name still reads fine */ }
+  ctx.fillStyle = INK; ctx.font = "900 96px Fraunces, serif";
+  for (const line of nameLines) { ctx.fillText(line, 570, y + 60); y += 108; }
+  y += 24;
+  ctx.fillStyle = MUTED; ctx.font = "400 40px Figtree, sans-serif";
+  for (const line of wrapText(ctx, opts.plain, 900)) { ctx.fillText(line, 540, y); y += 56; }
+  y += 36;
+  // Body at 44px unless a long note would reach the footer; shrink to fit.
+  ctx.fillStyle = INK;
+  let bodyLines: string[] = [];
+  let bodySize = 44;
+  for (const size of [44, 40, 36, 32, 28]) {
+    bodySize = size;
+    ctx.font = `400 ${size}px Figtree, sans-serif`;
+    bodyLines = wrapText(ctx, opts.text, 900);
+    if (y + bodyLines.length * size * 1.4 <= 1600) break;
+  }
+  const lineH = bodySize * 1.4;
+  for (const line of bodyLines) { ctx.fillText(line, 540, y); y += lineH; }
+  // Footer + pill, pinned near the bottom.
+  ctx.fillStyle = MUTED; ctx.font = "400 32px Figtree, sans-serif";
+  const footer = opts.provider === "meta"
+    ? "Written live by Muse Spark 1.2 on the Meta Model API · pal drawn by Muse Image"
+    : "Written live by Muse Spark Open on Baseten · pal drawn by Muse Image";
+  wrapText(ctx, footer, 950).forEach((line, i) => ctx.fillText(line, 540, 1660 + i * 44));
+  ctx.font = "600 38px Figtree, sans-serif";
+  const pillText = "findyourinkling.com";
+  const pillW = ctx.measureText(pillText).width + 56;
+  ctx.fillStyle = ACCENT; ctx.beginPath(); ctx.roundRect(540 - pillW / 2, 1780, pillW, 64, 32); ctx.fill();
+  ctx.fillStyle = INK; ctx.fillText(pillText, 540, 1826);
+  return canvas;
+}
+
 export function download(canvas: HTMLCanvasElement, name: string) {
   const a = document.createElement("a");
   a.href = canvas.toDataURL("image/png"); a.download = name; a.click();

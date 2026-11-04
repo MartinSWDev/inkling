@@ -1,13 +1,23 @@
 import { useEffect, useRef, useState } from "react";
-import { Pause, Play, RotateCcw, Shuffle, Sparkles, Volume2, VolumeX, X } from "lucide-react";
+import { Check, Pause, Play, RotateCcw, Shuffle, Sparkles, User, Volume2, VolumeX, X } from "lucide-react";
 import AppMenu from "./Menu";
 import SimScene from "./SimScene";
-import { BUILDINGS, PAPER_COLOURS, loadSnapshot, runLiveStudent, type Paper, type SimSnapshot, type SimStudent } from "./simData";
+import { fetchContent } from "./api";
+import { BUILDINGS, PAPER_COLOURS, loadSnapshot, normaliseSuits, runLiveStudent, type LiveEvent, type Paper, type SimSnapshot, type SimStudent } from "./simData";
 import { setSoundEnabled, unlock } from "./design/sound";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
 const ICON_SM = { size: 16, strokeWidth: 2 } as const;
 const pct = (v: number | null | undefined) => (v == null ? "—" : Math.round(v * 100) + "%");
+const mmss = (s: number) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+type LiveContent = Awaited<ReturnType<typeof fetchContent>>;
+interface FeedItem { key: number; at: number; e: LiveEvent; thinkN?: number; thinkSec?: number }
+const STATUS_TEXT: Record<string, string> = {
+  "writing persona": "Muse Spark Open is writing a persona",
+  "playing the game": "Muse Spark Open is playing the four rounds as this student",
+  scoring: "Scoring with the real Inkling code",
+  retrying: "Retrying",
+};
 
 function BuildingCard({ paper, students, onPick, onClose }: { paper: Paper; students: SimStudent[]; onPick: (s: SimStudent) => void; onClose: () => void }) {
   return (
@@ -74,19 +84,61 @@ export default function Simulation() {
   const [liveStudents, setLiveStudents] = useState<SimStudent[]>([]);
   const [liveProvider, setLiveProvider] = useState<"baseten" | "meta" | null>(null);
   const [liveLog, setLiveLog] = useState("");
+  const [liveFeed, setLiveFeed] = useState<FeedItem[]>([]);
+  const [liveContent, setLiveContent] = useState<LiveContent | null>(null);
+  const [lastLive, setLastLive] = useState<SimStudent | null>(null);
+  const [liveElapsed, setLiveElapsed] = useState(0);
+  const liveStartRef = useRef(0);
+  const liveTimerRef = useRef<number | null>(null);
+  const liveKeyRef = useRef(0);
   const [runLivePhase, setRunLivePhase] = useState<"idle" | "writing" | "scoring" | "walking" | "error">("idle");
   const displayStudents = snap ? [...snap.students, ...liveStudents] : [];
+  const liveRunning = runLivePhase === "writing" || runLivePhase === "scoring";
+
+  useEffect(() => { fetchContent().then(setLiveContent).catch(() => setLiveContent(null)); }, []);
+  useEffect(() => () => { if (liveTimerRef.current !== null) window.clearInterval(liveTimerRef.current); }, []);
+
+  const followStudent = (s: SimStudent) => { setBuilding(null); setSelected(s); };
 
   const runLive = async () => {
     if (runLivePhase === "writing" || runLivePhase === "scoring") return;
     setRunLivePhase("writing");
     setLiveLog("");
+    setLiveFeed([]);
+    setLastLive(null);
     setLiveProvider(null);
-    const student = await runLiveStudent((line) => setLiveLog((log) => log + line), (provider) => setLiveProvider(provider));
+    // Timer starts on the click (prompts/30 B), not on the first event.
+    const t0 = Date.now();
+    liveStartRef.current = t0;
+    setLiveElapsed(0);
+    if (liveTimerRef.current !== null) window.clearInterval(liveTimerRef.current);
+    liveTimerRef.current = window.setInterval(() => setLiveElapsed((Date.now() - t0) / 1000), 250);
+    const stopTimer = () => {
+      if (liveTimerRef.current !== null) { window.clearInterval(liveTimerRef.current); liveTimerRef.current = null; }
+    };
+    const onEvent = (e: LiveEvent) => {
+      const at = (Date.now() - t0) / 1000;
+      if (e.kind === "think") {
+        setLiveFeed((prev) => {
+          const idx = prev.map((f) => f.e.kind).lastIndexOf("status");
+          if (idx < 0) return prev;
+          return prev.map((f, i) => (i === idx ? { ...f, thinkN: e.n, thinkSec: Math.floor(at) } : f));
+        });
+        return;
+      }
+      if (e.kind === "status" && e.text === "scoring") setRunLivePhase("scoring");
+      if (e.kind === "scored" || e.kind === "error") stopTimer();
+      if (e.kind === "error") setRunLivePhase("error");
+      setLiveFeed((prev) => [...prev, { key: ++liveKeyRef.current, at, e }]);
+    };
+    const student = await runLiveStudent((line) => setLiveLog((log) => log + line), (provider) => setLiveProvider(provider), onEvent);
+    stopTimer();
     if (!student) { setRunLivePhase("error"); return; }
-    setRunLivePhase("scoring");
     setLiveStudents((list) => [...list, student]);
-    setSelected(student);
+    setLastLive(student);
+    followStudent(student);
+    setStarted(true);
+    setPlaying(true);
     setRunLivePhase("walking");
   };
 
@@ -109,8 +161,68 @@ export default function Simulation() {
 
   const followRandom = () => {
     if (!snap?.students.length) return;
-    setBuilding(null);
-    setSelected(snap.students[Math.floor(Math.random() * snap.students.length)]);
+    followStudent(snap.students[Math.floor(Math.random() * snap.students.length)]);
+  };
+
+  const subjectName = (code: string) => snap?.subjects[code] || code;
+  const chipName = (id: string) => liveContent?.chips.find((c) => c.id === id)?.name || id;
+  const playRows = (play: Extract<LiveEvent, { kind: "play" }>["play"]): string[] => {
+    const takes = play.chips.map((c) => chipName(c.id) + (c.state === "love" ? " ♥" : "")).join(", ");
+    const r1 = `Round 1 · takes ${takes || "—"}${play.typed.length ? `, also ${play.typed.join(", ")}` : ""}`;
+    const r2 = `Round 2 · yes to ${Object.values(play.things).filter((a) => a === "yes").length} of ${Object.keys(play.things).length}`;
+    const picks = Object.entries(play.pairs).flatMap(([pid, side]) => {
+      const pair = liveContent?.pairs.find((x) => x.id === pid);
+      return pair && (side === "a" || side === "b") ? [pair[side].label] : [];
+    });
+    const r3 = `Round 3 · picked ${picks.join(", ") || "nothing"}`;
+    const r4 = `Round 4 · yes to ${Object.values(play.questions).filter((a) => a === "yes").length}, "tell me more" on ${Object.values(play.questions).filter((a) => a === "up").length}`;
+    return [r1, r2, r3, r4];
+  };
+  const latestStatusKey = [...liveFeed].reverse().find((f) => f.e.kind === "status")?.key;
+  const renderFeedItem = (item: FeedItem, isLatest: boolean) => {
+    const time = <span className="time">{mmss(item.at)}</span>;
+    const e = item.e;
+    if (e.kind === "status") return (
+      <div key={item.key}>
+        <Sparkles {...ICON_SM} aria-hidden="true" />
+        <span>{STATUS_TEXT[e.text] || e.text}{isLatest && liveRunning && <span className="livedots" aria-hidden="true"><i /><i /><i /></span>}</span>
+        <span>{item.key === latestStatusKey && liveRunning
+          ? <span className="time">{`thinking · ${Math.floor(liveElapsed)} s${item.thinkN != null ? ` · ${item.thinkN} reasoning tokens` : ""}`}</span>
+          : item.thinkN != null
+            ? <span className="time">{`thinking · ${item.thinkSec ?? 0} s · ${item.thinkN} reasoning tokens`}</span> : time}</span>
+      </div>);
+    if (e.kind === "persona") return (
+      <div key={item.key}>
+        <User {...ICON_SM} aria-hidden="true" />
+        <span><b>{e.persona.first_name}, {e.persona.age}, {e.persona.where}</b>
+          {e.persona.studying ? <> · takes {e.persona.studying}</> : null}<br />{e.persona.enjoys}<br />
+          Would suit: {normaliseSuits(e.persona.suits, Object.entries(snap?.subjects ?? {}).map(([code, display_name]) => ({ code, display_name }))).map(subjectName).join(", ") || "—"}</span>
+        {time}
+      </div>);
+    if (e.kind === "play") return playRows(e.play).map((row, i) => (
+      <div key={`${item.key}-${i}`}>
+        <Play {...ICON_SM} aria-hidden="true" />
+        <span>{row}</span>
+        {time}
+      </div>));
+    if (e.kind === "scored") return (
+      <div key={item.key}>
+        {e.hit ? <Check {...ICON_SM} aria-hidden="true" /> : <X {...ICON_SM} aria-hidden="true" />}
+        <span>Top 3: {e.top3.map(subjectName).join(", ") || "—"}<br />
+          <span className={e.hit ? "ok" : "miss"}>{e.hit
+            ? "✓ A fitting subject made the top 3"
+            : "✗ None of their suited subjects made the top 3"}</span>
+          {!!e.unrecognised && <><br />({e.unrecognised} suited {e.unrecognised === 1 ? "subject was" : "subjects were"} not recognised)</>}<br />
+          {lastLive && <button className="btn" onClick={() => followStudent(lastLive)}>Watch {lastLive.first_name} walk</button>}</span>
+        {time}
+      </div>);
+    if (e.kind === "error") return (
+      <div key={item.key} className="err">
+        <X {...ICON_SM} aria-hidden="true" />
+        <span>{e.text}</span>
+        <span>{time}<br /><button className="btn" onClick={runLive}>Try again</button></span>
+      </div>);
+    return null;
   };
 
   return (
@@ -169,11 +281,19 @@ export default function Simulation() {
             <Sparkles {...ICON_SM} aria-hidden="true" />
             {runLivePhase === "writing" ? "Writing a new student…" : runLivePhase === "scoring" ? "Scoring…" : "Run a live student"}</button>
           <p className="note">Costs a few pence in model calls. The batch above was free to replay.</p>
-          {runLivePhase === "error" && <p className="note">That live run failed — the log below says why. The batch simulation is unaffected.</p>}
+          {runLivePhase === "error" && <p className="note">That live run failed — the feed below says why. The batch simulation is unaffected.</p>}
           {runLivePhase === "walking" && <p className="note">Added — watch them walk to their building, or tap them for their story.</p>}
-          {(liveLog || runLivePhase === "writing") && (<>
+          {(liveFeed.length > 0 || liveRunning) && (<>
             <p className="note">{liveProvider === "meta" ? "Live student · Muse Spark via the Meta Model API" : "Live student · Muse Spark Open on Baseten"}</p>
-            <pre className="livelog" aria-live="polite">{liveLog || "Waiting for the model…"}</pre></>)}
+            <div className="livefeed" aria-live="polite">
+              {liveFeed.length ? liveFeed.map((item, i) => renderFeedItem(item, i === liveFeed.length - 1))
+                : <div><Sparkles {...ICON_SM} aria-hidden="true" /><span>Waiting for the model…</span><span className="time">{`thinking · ${Math.floor(liveElapsed)} s`}</span></div>}
+            </div>
+            {liveLog && <details>
+              <summary>Show raw model output</summary>
+              <pre className="livelog">{liveLog}</pre>
+            </details>}
+          </>)}
         </section>
         <div id="sim-results">{snap ? <Results snap={snap} students={displayStudents} heldOut={heldOut} onPick={setSelected} /> : null}</div>
       </main>

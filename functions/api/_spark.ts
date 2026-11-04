@@ -1,7 +1,7 @@
 // Shared Muse Spark chat helper with provider fallback (prompts/22 A).
-// Try Baseten (Spark Open) first, fall back to the Meta Model API
-// (muse-spark-1.3). Minimal Cloudflare types, declared here so the repo
-// needs no extra packages.
+// Tries the preferred provider first (Baseten by default; prompts/28), the
+// other one as fallback. Minimal Cloudflare types, declared here so the
+// repo needs no extra packages.
 export interface Fetcher { fetch: (request: Request) => Promise<Response> }
 
 export type Env = { BASETEN_API_KEY?: string; MODEL_API_KEY?: string; ASSETS?: Fetcher };
@@ -25,7 +25,7 @@ export interface SparkResult {
 const BASETEN_URL = "https://inference.baseten.co/v1/chat/completions";
 const BASETEN_MODEL = "meta-models/muse-spark-open-1026";
 const META_URL = "https://api.meta.ai/v1/chat/completions";
-const META_MODEL = "muse-spark-1.3";
+const META_MODEL = "muse-spark-1.2";
 
 async function tryProvider(
   url: string,
@@ -50,15 +50,16 @@ async function tryProvider(
 export async function sparkChat(
   env: Env,
   body: SparkBody,
-  opts?: Record<string, never>,
+  opts?: { prefer?: SparkProvider },
 ): Promise<SparkResult> {
-  void opts;
-  if (env.BASETEN_API_KEY) {
-    const r = await tryProvider(BASETEN_URL, env.BASETEN_API_KEY, BASETEN_MODEL, "baseten", body);
-    if (r) return r;
-  }
-  if (env.MODEL_API_KEY) {
-    const r = await tryProvider(META_URL, env.MODEL_API_KEY, META_MODEL, "meta", body);
+  const providers: { key?: string; url: string; model: string; provider: SparkProvider }[] = [
+    { key: env.BASETEN_API_KEY, url: BASETEN_URL, model: BASETEN_MODEL, provider: "baseten" },
+    { key: env.MODEL_API_KEY, url: META_URL, model: META_MODEL, provider: "meta" },
+  ];
+  if (opts?.prefer === "meta") providers.reverse();
+  for (const p of providers) {
+    if (!p.key) continue;
+    const r = await tryProvider(p.url, p.key, p.model, p.provider, body);
     if (r) return r;
   }
   throw new Error("no model provider available");

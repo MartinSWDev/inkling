@@ -4,7 +4,7 @@
 // Minimal Cloudflare types, declared here so the repo needs no extra packages.
 type PagesFunction<E> = (context: { request: Request; env: E }) => Promise<Response>;
 import { readSSE, sparkChat, type Env } from "./_spark";
-const SYSTEM = `You write two or three short, warm sentences for a UK sixth-former who has just played Inkling, a game that suggests degree subjects. Speak to them as "you". Only use the facts given: the subjects they take, what they said yes to, and the subject cards. Say plainly how their answers connect to each of their top subjects. Never invent facts about courses, jobs, grades or universities. No bullet points, no headings, no emojis, no exclamation marks, British spelling, under 70 words. Do not call it a quiz or a test.`;
+const SYSTEM = `You write a short, warm note for a UK sixth-former who has just played Inkling, which suggests degree subjects. Speak to them as "you". Their inkling is the first subject in "top". Write two sentences about how their answers point to that subject, using only the facts given: the subjects they take, what they said yes to, and the card text. Then one sentence that mentions the other top subjects by name as also fitting. Never invent facts about courses, jobs, grades or universities. No bullet points, headings, emojis or exclamation marks. British spelling. Under 60 words. Do not call it a quiz or a test.`;
 
 function jsonError(message: string, status: number): Response {
   return new Response(JSON.stringify({ error: message }), {
@@ -92,7 +92,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
         { role: "system", content: SYSTEM },
         { role: "user", content: user },
       ],
-    });
+    }, { prefer: "meta" });
   } catch {
     return jsonError("model unavailable", 502);
   }

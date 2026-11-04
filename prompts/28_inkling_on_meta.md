@@ -1,0 +1,9 @@
+# 28 · Inkling text on Muse Spark (Meta API), simulation on Spark Open (Baseten)
+
+Small change. `functions/api/_spark.ts`, `functions/api/inkling.ts`, `README.md`, and the two UI tag strings in `web/src/App.tsx`. Nothing else.
+
+1. `sparkChat(env, body, opts)` gains `opts.prefer: "baseten" | "meta"` (default `"baseten"`). It tries the preferred provider first and the other one as the fallback; same skip-if-key-missing and same error when both fail. Keep `readSSE` unchanged.
+2. `/api/inkling` calls `sparkChat(env, body, { prefer: "meta" })`. `/api/student` keeps the default (Baseten first). The `x-provider` / `x-model` headers already reflect whichever answered.
+3. App.tsx inkling tag: provider `meta` → `Written for you by Muse Spark (a Meta model, live on the Meta Model API).`; provider `baseten` → `Written for you by Muse Spark Open (a Meta model, live on Baseten).` Also update the share card footer in `composeInklingCard` (Room.tsx) to match: "Written live by Muse Spark on the Meta Model API" / "…by Muse Spark Open on Baseten". The simulation header strings stay.
+4. README "Live during play" table: the "Your inkling" row's model column becomes `Muse Spark · Meta Model API (falls back to Spark Open on Baseten)`; the live student row becomes `Muse Spark Open · Baseten (falls back to Muse Spark on the Meta Model API)`. Replace the fallback sentence under the table with: "Each live call has a second provider: the inkling runs on Muse Spark via the Meta Model API and falls back to Spark Open on Baseten; the live student runs on Spark Open on Baseten and falls back to Muse Spark. The page says which one answered."
+5. Checks: build and tests pass; under `wrangler pages dev`, `/api/inkling` returns `x-provider: meta` with both keys set, and `x-provider: baseten` with `MODEL_API_KEY` removed from `.dev.vars` (restore it after). Note the seconds from request start to first text byte for the meta run.

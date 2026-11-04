@@ -26,7 +26,7 @@ Give:
 - "studying": 3-4 school/college subjects they take (e.g. "A-level Biology", "BTEC Sport")
 - "enjoys": 2 sentences about what they genuinely like doing in and out of school (hobbies, part-time jobs, curiosities) — concrete, no personality labels
 - "certainty": "knows" | "torn" | "no idea"
-- "suits": 1 to 3 degree subject codes from the list below that this student would genuinely enjoy (the ground truth)
+- "suits": an array of 2 to 4 subject codes exactly as given in the list, codes only, no names
 
 Degree subjects (code name):
 ${catalogue}
@@ -60,12 +60,73 @@ ${qs}
 Return only JSON: {"chips": [{"id": "...", "state": "take|love"}], "typed": [...], "things": {"<id>": "yes|no", ...}, "pairs": {"<id>": "a|b|null", ...}, "questions": {"<id>": "yes|no|up", ...}}`;
 }
 
+/** Strip Markdown fences and anything outside the outer braces, then parse. */
+export function extractJson(text: string): Json | null {
+  const unfenced = text.replace(/```(?:json)?/gi, "");
+  const start = unfenced.indexOf("{");
+  const end = unfenced.lastIndexOf("}");
+  if (start < 0 || end <= start) return null;
+  try {
+    const v: unknown = JSON.parse(unfenced.slice(start, end + 1));
+    return typeof v === "object" && v !== null && !Array.isArray(v) ? (v as Json) : null;
+  } catch {
+    return null;
+  }
+}
+
+const plainError = (e: unknown): string =>
+  (e instanceof Error ? e.message : "something went wrong").toLowerCase();
+
+type Write = (text: string) => void;
+type Messages = { role: string; content: string }[];
+
+/** Stream one model call, emitting @@think N once a second while the model
+ * is only reasoning (never forwarding the reasoning text itself). */
+async function streamCall(res: Response, write: Write): Promise<string> {
+  let text = "";
+  let reasoning = 0;
+  let sawContent = false;
+  let lastThink = Date.now();
+  await readSSE(res, (delta) => {
+    if (delta.reasoning && !sawContent) {
+      reasoning += 1;
+      const now = Date.now();
+      if (now - lastThink >= 1000) { lastThink = now; write(`@@think ${reasoning}\n`); }
+    }
+    if (delta.content) { sawContent = true; text += delta.content; write(delta.content); }
+  });
+  return text;
+}
+
+/** One logical model call: status marker, streamed answer, and exactly one
+ * retry with a corrective message if the answer is not valid JSON. */
+async function callForJson(
+  env: Env, messages: Messages, write: Write,
+  status: string, section: string, firstRes?: Response,
+): Promise<Json> {
+  write(`\n@@status ${status}\n`);
+  write(`${section}\n`);
+  let res = firstRes;
+  if (!res) res = (await sparkChat(env, { stream: true, temperature: 0.8, max_tokens: 8000, messages })).res;
+  let parsed = extractJson(await streamCall(res, write));
+  if (parsed) return parsed;
+  write("\n@@status retrying\n");
+  write(`${section}\n`);
+  const retry = await sparkChat(env, {
+    stream: true, temperature: 0.8, max_tokens: 8000,
+    messages: [...messages, { role: "user", content: "Your last answer was not valid JSON. Return only the JSON object." }],
+  });
+  parsed = extractJson(await streamCall(retry.res, write));
+  if (parsed) return parsed;
+  throw new Error("the model did not return valid JSON");
+}
+
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const encoder = new TextEncoder();
   const errorResponse = (e: unknown) => {
     const stream = new ReadableStream<Uint8Array>({
       start(controller) {
-        controller.enqueue(encoder.encode(`\n@@error ${e instanceof Error ? e.message : "something went wrong"}\n`));
+        controller.enqueue(encoder.encode(`\n@@error ${plainError(e)}\n`));
         controller.close();
       },
     });
@@ -78,6 +139,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   // x-model / x-provider headers can be set (prompts/22 B).
   let content: Json;
   let first: SparkResult;
+  let personaMessages: Messages = [];
   try {
     if (!env.ASSETS) throw new Error("static assets unavailable");
     const origin = new URL(request.url).origin;
@@ -91,9 +153,10 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const catalogue = subjectsData.subjects.map((s) => `${s.code} ${s.display_name}`).join("\n");
     const focus = FOCI[Math.floor(Math.random() * FOCI.length)];
     const seed = Math.floor(Math.random() * 1_000_000_000);
+    personaMessages = [{ role: "user", content: personaPrompt(seed, focus, catalogue) }];
     first = await sparkChat(env, {
       stream: true, temperature: 0.8, max_tokens: 8000, // this model reasons for ~2-3k tokens before writing; the JSON itself is short
-      messages: [{ role: "user", content: personaPrompt(seed, focus, catalogue) }],
+      messages: personaMessages,
     });
   } catch (e) {
     return errorResponse(e);
@@ -103,32 +166,12 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     async start(controller) {
       const write = (text: string) => controller.enqueue(encoder.encode(text));
       try {
-        write("@@persona\n");
-        let personaText = "";
-        await readSSE(first.res, ({ content: delta }) => {
-          if (delta) { personaText += delta; write(delta); }
-        });
-
-        let student: Json;
-        try {
-          const start = personaText.indexOf("{");
-          const end = personaText.lastIndexOf("}");
-          student = JSON.parse(personaText.slice(start, end + 1)) as Json;
-        } catch {
-          throw new Error("the model did not return a student as JSON");
-        }
-
-        write("\n@@play\n");
-        const second = await sparkChat(env, {
-          stream: true, temperature: 0.8, max_tokens: 8000,
-          messages: [{ role: "user", content: playPrompt(student, content) }],
-        });
-        await readSSE(second.res, ({ content: delta }) => {
-          if (delta) write(delta);
-        });
-        write("\n@@done\n");
+        const student = await callForJson(env, personaMessages, write, "writing persona", "@@persona", first.res);
+        await callForJson(env, [{ role: "user", content: playPrompt(student, content) }], write, "playing the game", "@@play");
+        write("\n@@status scoring\n");
+        write("@@done\n");
       } catch (e) {
-        write(`\n@@error ${e instanceof Error ? e.message : "something went wrong"}\n`);
+        write(`\n@@error ${plainError(e)}\n`);
       } finally {
         controller.close();
       }

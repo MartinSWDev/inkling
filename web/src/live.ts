@@ -67,12 +67,18 @@ export async function fetchInkling(
   signal?: AbortSignal,
   onThinking?: (ticks: number) => void,
 ): Promise<InklingResult> {
+  // Own 90s timeout (prompts/26 C): aborting this controller never touches
+  // the caller's signal; the caller just sees an empty result.
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), 90000);
+  const onCallerAbort = () => ctl.abort();
+  signal?.addEventListener("abort", onCallerAbort, { once: true });
   try {
     const res = await fetch("/api/inkling", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(input),
-      signal,
+      signal: ctl.signal,
     });
     const providerHeader = res.headers.get("x-provider");
     const provider: InklingResult["provider"] =
@@ -109,6 +115,9 @@ export async function fetchInkling(
     return { text: text.trim() ? text : "", provider, model };
   } catch {
     return { text: "", provider: null, model: null };
+  } finally {
+    clearTimeout(timer);
+    signal?.removeEventListener("abort", onCallerAbort);
   }
 }
 
@@ -116,12 +125,17 @@ export async function fetchInkling(
 export async function fetchPal(
   input: { paper: Paper; object: string; subject: string }, signal?: AbortSignal,
 ): Promise<string | null> {
+  // Own 120s timeout (prompts/26 C), independent of the caller's signal.
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), 120000);
+  const onCallerAbort = () => ctl.abort();
+  signal?.addEventListener("abort", onCallerAbort, { once: true });
   try {
     const res = await fetch("/api/pal", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(input),
-      signal,
+      signal: ctl.signal,
     });
     if (!res.ok) return null;
     const data = (await res.json()) as { png?: string };
@@ -130,5 +144,8 @@ export async function fetchPal(
     return URL.createObjectURL(new Blob([bytes], { type: "image/png" }));
   } catch {
     return null;
+  } finally {
+    clearTimeout(timer);
+    signal?.removeEventListener("abort", onCallerAbort);
   }
 }

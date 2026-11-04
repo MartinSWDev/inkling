@@ -28,7 +28,7 @@ export interface SimAnswers {
 }
 export interface SimStudent {
   id: string; first_name: string; age: number; where: string; enjoys: string;
-  certainty: string; paper: Paper; dest_paper: Paper;
+  certainty: string; paper: Paper; dest_paper: Paper; live?: boolean;
   suits: string[]; top3: string[]; wildcard: string | null;
   hit3: boolean; hit5: boolean; family3: boolean; settled_after: number | null;
   answers: SimAnswers;
@@ -130,6 +130,134 @@ export function placeholderSnapshot(): SimSnapshot {
   };
 }
 
+export interface LivePersonaData {
+  first_name: string; age: number; where: string; studying: string;
+  enjoys: string; certainty: string; suits: string[];
+}
+export interface LivePlayData {
+  chips: { id: string; state: string }[];
+  typed: string[];
+  things: Record<string, string>;
+  pairs: Record<string, string | null>;
+  questions: Record<string, string>;
+}
+export type LiveEvent =
+  | { kind: "status"; text: string }
+  | { kind: "think"; n: number }
+  | { kind: "persona"; persona: LivePersonaData }
+  | { kind: "play"; play: LivePlayData }
+  | { kind: "scored"; top3: string[]; suits: string[]; hit: boolean; unrecognised?: number }
+  | { kind: "error"; text: string };
+
+/** Tolerant suits lookup (prompts/25): models sometimes return
+ * "CAH06-01-03 Agriculture" or a bare subject name instead of a bare code. */
+export function normaliseSuits(raw: unknown, subjects: { code: string; display_name: string }[]): string[] {
+  const entries: unknown[] = typeof raw === "string" ? [raw] : Array.isArray(raw) ? raw : [];
+  const codes = new Set(subjects.map((s) => s.code.toUpperCase()));
+  const byName = new Map(subjects.map((s) => [s.display_name.toLowerCase(), s.code]));
+  const byLength = [...subjects].sort((a, b) => b.display_name.length - a.display_name.length);
+  const out: string[] = [];
+  for (const entry of entries) {
+    if (typeof entry !== "string" || !entry.trim()) continue;
+    let code: string | undefined;
+    const m = entry.match(/CAH\d{2}-\d{2}-\d{2}/i);
+    if (m && codes.has(m[0].toUpperCase())) code = subjects.find((s) => s.code.toUpperCase() === m[0].toUpperCase())?.code;
+    if (!code) code = byName.get(entry.trim().toLowerCase());
+    if (!code) {
+      const e = entry.trim().toLowerCase();
+      code = byLength.find((s) => e.includes(s.display_name.toLowerCase()) || s.display_name.toLowerCase().includes(e))?.code;
+    }
+    if (code && !out.includes(code)) out.push(code);
+    if (out.length >= 4) break;
+  }
+  return out;
+}
+
+const strField = (v: unknown, fallback = ""): string => (typeof v === "string" && v ? v : fallback);
+const recField = (v: unknown): Record<string, unknown> =>
+  typeof v === "object" && v !== null && !Array.isArray(v) ? (v as Record<string, unknown>) : {};
+
+export function toPersona(r: Record<string, unknown>): LivePersonaData {
+  return {
+    first_name: strField(r.first_name, "Sam"), age: typeof r.age === "number" ? r.age : 17,
+    where: strField(r.where, "somewhere in the UK"), studying: strField(r.studying),
+    enjoys: strField(r.enjoys), certainty: strField(r.certainty, "torn"),
+    suits: (Array.isArray(r.suits) ? r.suits : []).filter((c): c is string => typeof c === "string"),
+  };
+}
+export function toPlay(r: Record<string, unknown>): LivePlayData {
+  const strRec = (v: unknown): Record<string, string> => Object.fromEntries(
+    Object.entries(recField(v)).filter((e): e is [string, string] => typeof e[1] === "string"));
+  return {
+    chips: (Array.isArray(r.chips) ? r.chips : []).map(recField)
+      .filter((c) => typeof c.id === "string")
+      .map((c) => ({ id: c.id as string, state: c.state === "love" ? "love" : "take" })),
+    typed: (Array.isArray(r.typed) ? r.typed : []).filter((t): t is string => typeof t === "string"),
+    things: strRec(r.things), questions: strRec(r.questions),
+    pairs: Object.fromEntries(Object.entries(recField(r.pairs))
+      .map(([k, v]) => [k, v === "a" || v === "b" ? v : null])),
+  };
+}
+
+/** Incremental parser for the @@ marker stream from /api/student. Markers
+ * are whole lines; JSON sections accumulate until the next marker, so chunks
+ * may split anywhere. A repeated section marker (a server retry) discards
+ * the earlier attempt. `scored` is emitted by runLiveStudent, not here. */
+export class LiveStreamParser {
+  private buf = "";
+  private section: "none" | "persona" | "play" = "none";
+  private personaText = "";
+  private playText = "";
+  private personaDone = false;
+  private playDone = false;
+  sawError = false;
+  sawDone = false;
+
+  private flushPersona(out: LiveEvent[]) {
+    if (this.section !== "persona" || this.personaDone) return;
+    const parsed = parseJsonBlock(this.personaText);
+    if (parsed) { out.push({ kind: "persona", persona: toPersona(parsed) }); this.personaDone = true; }
+  }
+  private flushPlay(out: LiveEvent[]) {
+    if (this.section !== "play" || this.playDone) return;
+    const parsed = parseJsonBlock(this.playText);
+    if (parsed) { out.push({ kind: "play", play: toPlay(parsed) }); this.playDone = true; }
+  }
+  private line(line: string, out: LiveEvent[]) {
+    const t = line.trimEnd();
+    if (t.startsWith("@@status ")) { this.flushPersona(out); this.flushPlay(out); out.push({ kind: "status", text: t.slice(9).trim() }); return; }
+    if (t.startsWith("@@think ")) { const n = Number(t.slice(8).trim()); if (Number.isFinite(n)) out.push({ kind: "think", n }); return; }
+    if (t === "@@persona") { this.section = "persona"; this.personaText = ""; this.personaDone = false; return; }
+    if (t === "@@play") { this.flushPersona(out); this.section = "play"; this.playText = ""; this.playDone = false; return; }
+    if (t === "@@done") { this.flushPersona(out); this.flushPlay(out); this.section = "none"; this.sawDone = true; return; }
+    if (t.startsWith("@@error")) { this.sawError = true; out.push({ kind: "error", text: t.slice(7).trim() || "something went wrong" }); return; }
+    if (this.section === "persona") this.personaText += line + "\n";
+    else if (this.section === "play") this.playText += line + "\n";
+  }
+  push(chunk: string): LiveEvent[] {
+    const out: LiveEvent[] = [];
+    this.buf += chunk;
+    const lines = this.buf.split("\n");
+    this.buf = lines.pop() ?? "";
+    for (const l of lines) this.line(l, out);
+    return out;
+  }
+  finish(): LiveEvent[] {
+    const out: LiveEvent[] = [];
+    if (this.buf) { this.line(this.buf, out); this.buf = ""; }
+    this.flushPersona(out); this.flushPlay(out);
+    return out;
+  }
+  get persona(): LivePersonaData | null {
+    const p = parseJsonBlock(this.personaText);
+    return p ? toPersona(p) : null;
+  }
+  get play(): LivePlayData | null {
+    const p = parseJsonBlock(this.playText);
+    return p ? toPlay(p) : null;
+  }
+}
+
 function parseJsonBlock(text: string): Record<string, unknown> | null {
   const start = text.indexOf("{");
   const end = text.lastIndexOf("}");
@@ -150,39 +278,48 @@ function parseJsonBlock(text: string): Record<string, unknown> | null {
 export async function runLiveStudent(
   onLog: (line: string) => void,
   onHeaders?: (provider: "baseten" | "meta" | null, model: string | null) => void,
+  onEvent?: (e: LiveEvent) => void,
 ): Promise<SimStudent | null> {
   const { scoreAnswers } = await import("./scoring");
   const { paperFor } = await import("./live");
   const { fetchContent, fetchSubjects } = await import("./api");
+  const fail = (msg: string): null => { onLog(`\n${msg}`); onEvent?.({ kind: "error", text: msg.toLowerCase() }); return null; };
   try {
     const res = await fetch("/api/student", { method: "POST" });
     const providerHeader = res.headers.get("x-provider");
     onHeaders?.(providerHeader === "baseten" || providerHeader === "meta" ? providerHeader : null, res.headers.get("x-model"));
-    if (!res.ok || !res.body) { onLog(`\nThe live student could not start (HTTP ${res.status}).`); return null; }
+    if (!res.ok || !res.body) return fail(`The live student could not start (HTTP ${res.status}).`);
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
-    let full = "";
+    const parser = new LiveStreamParser();
     for (;;) {
       const { done, value } = await reader.read();
       if (done) break;
       const chunk = decoder.decode(value, { stream: true });
-      full += chunk;
       onLog(chunk);
+      for (const e of parser.push(chunk)) onEvent?.(e);
     }
-    if (full.includes("@@error")) return null; // the message is already in the log
+    const tail = decoder.decode();
+    if (tail) { onLog(tail); for (const e of parser.push(tail)) onEvent?.(e); }
+    for (const e of parser.finish()) onEvent?.(e);
+    if (parser.sawError) return null; // the error event already says why
 
-    const personaPart = full.split("@@persona")[1]?.split("@@play")[0] ?? "";
-    const playPart = full.split("@@play")[1]?.split("@@done")[0] ?? "";
-    const persona = parseJsonBlock(personaPart);
-    const play = parseJsonBlock(playPart);
-    if (!persona || !play) { onLog("\nThe model did not return the student as JSON, so no one was added."); return null; }
+    const personaRaw = parser.persona;
+    const playRaw = parser.play;
+    if (!personaRaw || !playRaw) return fail("The model did not return the student as JSON, so no one was added.");
+    const persona: Record<string, unknown> = { ...personaRaw };
+    const play: Record<string, unknown> = {
+      chips: playRaw.chips, typed: playRaw.typed,
+      things: playRaw.things, questions: playRaw.questions, pairs: playRaw.pairs,
+    };
 
     const [content, subjectsData] = await Promise.all([fetchContent(), fetchSubjects()]);
     const subjects = subjectsData.subjects;
-    const codes = new Set(subjects.map((s) => s.code));
-    const suits = (Array.isArray(persona.suits) ? persona.suits : [])
-      .filter((c): c is string => typeof c === "string" && codes.has(c)).slice(0, 3);
-    if (!suits.length) { onLog("\nThe student's suited subjects were not in the list, so no one was added."); return null; }
+    const suits = normaliseSuits(persona.suits, subjects);
+    const rawSuitEntries: unknown[] = typeof persona.suits === "string" ? [persona.suits]
+      : Array.isArray(persona.suits) ? persona.suits : [];
+    const unrecognised = rawSuitEntries.filter((e) => normaliseSuits([e], subjects).length === 0).length;
+    if (!suits.length) return fail("The student's suited subjects were not in the list, so no one was added.");
 
     const rec = (v: unknown): Record<string, unknown> =>
       typeof v === "object" && v !== null && !Array.isArray(v) ? (v as Record<string, unknown>) : {};
@@ -217,7 +354,10 @@ export async function runLiveStudent(
     const chipName = new Map(content.chips.map((c) => [c.id, c.name]));
     const pairLabel = new Map(content.pairs.map((p) => [p.id, p]));
     const str = (v: unknown, fallback: string) => (typeof v === "string" && v ? v : fallback);
+    const hit = top3.some((c) => truth.has(c));
+    onEvent?.({ kind: "scored", top3, suits, hit, unrecognised });
     return {
+      live: true,
       id: "live-" + Date.now(),
       first_name: str(persona.first_name, "Sam"),
       age: typeof persona.age === "number" ? persona.age : 17,
@@ -252,8 +392,7 @@ export async function runLiveStudent(
       },
     };
   } catch (e) {
-    onLog(`\nThe live student failed (${e instanceof Error ? e.message : "network error"}).`);
-    return null;
+    return fail(`The live student failed (${e instanceof Error ? e.message : "network error"}).`);
   }
 }
 

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState, type CSSProperties } from "react";
 import { motion } from "motion/react";
 import { Answers, DeckCard, Pair, Subject, emptyAnswers, fetchContent, fetchSubjects } from "./api";
-import { RoomView, assignStickers, composeRoomCanvas, download, useRoomAssets } from "./Room";
+import { RoomView, assignStickers, composeInklingCard, composeRoomCanvas, download, useRoomAssets } from "./Room";
 import { handsOnPicks, isPractical, lengthLabel, levelLabel, qualifiedSubjects, scoreAnswers, type Apprenticeship } from "./scoring";
 import { ROUND_CAPS, collectRoundAdds, diverseTop, ensureFloorOrBed, ensureResults } from "./roomRules";
 import { ROUNDS, flowReducer, initialScene, roundAccent, shuffledDeck } from "./flow";
@@ -117,8 +117,9 @@ export default function App() {
   const [videoStatus, setVideoStatus] = useState<"idle" | "preparing" | "ready">("idle");
   const videoRef = useRef<{ key: string; blob: Blob; ext: string } | null>(null);
   // Live Meta model results for this reveal (prompts/21 D): written inkling,
-  // paper pal, and the pal added to the share image. All keyed by shareKey
-  // and aborted when a new game starts; every failure is silent.
+  // paper pal, and the pal added to the share image. All keyed by liveKey
+  // (the answers only, prompts/29) and aborted when a new game starts;
+  // every failure is silent.
   const [liveInkling, setLiveInkling] = useState<{ key: string; text: string; done: boolean; provider: "baseten" | "meta" | null; model: string | null; ticks: number } | null>(null);
   const [livePal, setLivePal] = useState<{ key: string; url: string | null; done: boolean } | null>(null);
   const liveAbortRef = useRef<AbortController | null>(null);
@@ -136,11 +137,12 @@ export default function App() {
     return () => { window.clearInterval(iv); window.clearTimeout(stop); };
   }, [scene]);
 
-  // Reveal order: top 3 -> wildcard -> [hands-on routes] -> views -> explore -> share.
+  // Reveal order: top 3 -> wildcard -> [hands-on routes] -> views -> explore -> your inkling -> share.
   const practical = isPractical(answers);
   const viewsPage = practical ? 3 : 2;
   const explorePage = practical ? 4 : 3;
-  const sharePage = explorePage + 1;
+  const inklingPage = explorePage + 1;
+  const sharePage = inklingPage + 1;
   const pageCount = sharePage + 1;
   const revealPage = scene.kind === "reveal" ? scene.page : scene.kind === "share" ? sharePage : 0;
   const page = revealPage;
@@ -416,6 +418,9 @@ export default function App() {
   // starts (wildcard is known by then), so Share can fire inside the tap's
   // transient user activation instead of after a 10s recording.
   const shareKey = displayCodes.join(",") + "|" + view + "|" + viewTime + "|" + top3.map((r) => r.code).join(",") + "|" + (surprise ?? "");
+  // Live calls are keyed by the answers only (prompts/29): a view or room
+  // change must not abort and restart them. The share video keeps shareKey.
+  const liveKey = top3.map((r) => r.code).join(",") + "|" + (surprise ?? "");
   useEffect(() => {
     if (!assets || (scene.kind !== "reveal" && scene.kind !== "share")) return;
     if (videoRef.current?.key === shareKey) { setVideoStatus("ready"); return; }
@@ -438,13 +443,13 @@ export default function App() {
 
   // Fire the live model calls once per reveal, at the same time as the video.
   useEffect(() => {
-    if ((scene.kind !== "reveal" && scene.kind !== "share") || !top3.length || !content) return;
-    if (liveKeyRef.current === shareKey) return;
-    liveKeyRef.current = shareKey;
+    if ((scene.kind !== "finale" && scene.kind !== "reveal" && scene.kind !== "share") || !top3.length || !content) return;
+    if (liveKeyRef.current === liveKey) return;
+    liveKeyRef.current = liveKey;
     liveAbortRef.current?.abort();
     const ctl = new AbortController();
     liveAbortRef.current = ctl;
-    const key = shareKey;
+    const key = liveKey;
     const live = () => !ctl.signal.aborted && liveKeyRef.current === key;
     setLiveInkling({ key, text: "", done: false, provider: null, model: null, ticks: 0 });
     setLivePal({ key, url: null, done: false });
@@ -464,13 +469,13 @@ export default function App() {
         if (url && assets?.layout) {
           composeRoomCanvas(assigned, view, viewTime, assets.layout, url)
             .then((canvas) => canvas.toBlob((blob) => {
-              if (blob && liveKeyRef.current === key) imageRef.current = { key, blob };
+              if (blob && liveKeyRef.current === key) imageRef.current = { key: shareKey, blob };
             }, "image/png"))
             .catch(() => null);
         }
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [scene.kind, shareKey]);
+  }, [scene.kind, liveKey]);
 
   if (!content) return <div className="app" data-mode="intro"><p style={{ padding: 24, color: "#fff" }}>Loading Inkling…</p></div>;
   const pair = content.pairs[pairIdx];
@@ -500,6 +505,43 @@ export default function App() {
     width: (uwin.w * 1.28 / 1152 * 100) + "%", height: (uwin.h * 1.28 / uTallH * 100) + "%",
   };
   const inGame = scene.kind === "round" || scene.kind === "roundTitle" || scene.kind === "roundOutro";
+  // "Your inkling" page (prompts/23 A): live text + pal for this reveal only.
+  const inklingNow = liveInkling && liveInkling.key === liveKey ? liveInkling : null;
+  const palNow = livePal && livePal.key === liveKey ? livePal : null;
+  const inklingFailed = !!inklingNow?.done && !inklingNow.text;
+  const palFailed = !!palNow?.done && !palNow.url;
+  const buildInklingCard = () => composeInklingCard({
+    palUrl: palNow?.url ?? undefined, stickerCode: top3[0].code,
+    subject: top3[0].display_name, plain: plainOf(top3[0].code) || "",
+    text: inklingNow?.text || "", provider: inklingNow?.provider ?? null,
+  });
+  const inklingShareText = () => {
+    const first = (inklingNow?.text || "").split(/(?<=[.!?])\s/)[0] || "";
+    return first
+      ? `My inkling on Inkling 🏠: ${top3[0].display_name}. ${first} Find your inkling: https://www.findyourinkling.com`
+      : `My inkling on Inkling 🏠: ${top3[0].display_name}. Find your inkling: https://www.findyourinkling.com`;
+  };
+  /** One card-share handler for the inkling page and the share page
+   * (prompts/30 A), so the two can never drift. Builds the card without
+   * the inkling text if it has not arrived yet (hero only). */
+  const shareInklingCard = async () => {
+    if (!top3.length) return;
+    const canvas = await buildInklingCard();
+    const text = inklingShareText();
+    const fallback = async () => {
+      download(canvas, "my-inkling.png");
+      try { await navigator.clipboard.writeText(text); } catch { /* clipboard optional */ }
+      tip("Image saved — post it from your phone.");
+    };
+    canvas.toBlob(async (blob) => {
+      if (!blob) return;
+      const file = new File([blob], "my-inkling.png", { type: "image/png" });
+      if (navigator.canShare?.({ files: [file] })) {
+        try { await navigator.share({ files: [file], text }); }
+        catch (e) { if ((e as Error).name !== "AbortError") await fallback(); }
+      } else await fallback();
+    }, "image/png");
+  };
   return (<>
     {scene.kind === "landing" && <StickerRain />}
     <div className="app" data-mode={phase === "reveal" ? "reveal" : phase === "intro" ? "intro" : "swipe"} lang="en-GB"
@@ -721,10 +763,10 @@ export default function App() {
 
       {(scene.kind === "reveal" || scene.kind === "share") && (<section className="story">
         <div className="sprog">{Array.from({ length: pageCount }, (_, i) => <i key={i} className={i < page ? "done" : i === page ? "now" : ""} />)}</div>
-        <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })} />
-        <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })} />
-        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV", last: explorePage })}><ChevronLeft {...ICON_SM} aria-hidden="true" /> Back</button>}
-        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT", last: explorePage })}>{page === explorePage ? "Share" : "Next"} <ChevronRight {...ICON_SM} aria-hidden="true" /></button>}
+        <button className="zone left" aria-label="Back" onClick={() => dispatch({ type: "REVEAL_PREV", last: inklingPage })} />
+        <button className="zone right" aria-label="Next" onClick={() => dispatch({ type: "REVEAL_NEXT", last: inklingPage })} />
+        {(scene.kind === "share" || page >= 1) && <button className="backbtn" onClick={() => dispatch({ type: "REVEAL_PREV", last: inklingPage })}><ChevronLeft {...ICON_SM} aria-hidden="true" /> Back</button>}
+        {scene.kind === "reveal" && <button className="btn alt nextpill" onClick={() => dispatch({ type: "REVEAL_NEXT", last: inklingPage })}>{page === explorePage ? "Your inkling" : "Next"} <ChevronRight {...ICON_SM} aria-hidden="true" /></button>}
         <div className="pages">
           <div className={"page" + (page === 0 ? " on" : "")}><div className="top3wrap">
             <h2 className="top3head">Your top 3</h2>
@@ -734,17 +776,45 @@ export default function App() {
                 <div><h3>{r.display_name}</h3>
                 <p>{plainOf(r.code) || "It kept coming up in your answers."}</p></div>
               </motion.div>))}
-            {liveInkling && liveInkling.key === shareKey && (liveInkling.text || !liveInkling.done) && (
-              <div className="pc inklingcard"><p>{liveInkling.text}{!liveInkling.done && <span className="inklingcaret" aria-hidden="true" />}</p>
-                <p className="inklingtag"><Sparkles {...ICON_SM} aria-hidden="true" /> {liveInkling.done
-                  ? liveInkling.provider === "meta"
-                    ? "Written for you by Muse Spark (a Meta model, live via the Meta Model API)."
-                    : "Written for you by Muse Spark Open (a Meta model, live on Baseten)."
-                  : !liveInkling.text && liveInkling.ticks > 0
-                    ? "Muse Spark Open is thinking" + ".".repeat(liveInkling.ticks % 3 + 1)
-                    : "Muse Spark Open is writing your inkling…"}</p></div>)}
             {top3.length > 0 && <FeedbackPrompt key={gameId} gameId={gameId} top={top3.map((r) => ({ code: r.code, name: r.display_name }))} wildcard={surprise} answers={answersRef.current} />}
             {!top3.length && <div className="pc bottom"><h2>Not sure yet</h2><p className="note">Play a few more cards to fill this in.</p></div>}
+          </div></div>
+          <div className={"page" + (page === inklingPage ? " on" : "")}><div className="pc bottom inklingpc">
+            <p className="eyebrow">Your inkling</p>
+            {top3.length > 0 ? (<>
+              <div className={"inklinghero" + (palFailed ? " nopal" : "")}>
+                {!palFailed && (<figure className="palframe">
+                  {palNow?.url
+                    ? <img src={palNow.url} alt="Your paper pal, drawn live" />
+                    : <div className="palshimmer" aria-hidden="true" />}
+                  {palNow?.url && <figcaption>Drawn live by Muse Image</figcaption>}
+                </figure>)}
+                <div className="inklingtitle">
+                  <img className="stick" src={"/stickers/" + top3[0].code + ".webp"} alt="" draggable={false} />
+                  <h2>{top3[0].display_name}</h2>
+                  <p className="note">{plainOf(top3[0].code)}</p>
+                </div>
+              </div>
+              <div className="inklingtext">
+                {inklingFailed
+                  ? <p>Your inkling is {top3[0].display_name}.</p>
+                  : inklingNow?.text
+                    ? <p>{inklingNow.text}{!inklingNow.done && <span className="inklingcaret" aria-hidden="true" />}</p>
+                    : <div className="skeleton" aria-hidden="true"><i /><i /><i /></div>}
+              </div>
+              {inklingNow?.done && !!inklingNow.text && (<div className="row inklingshare">
+                <button className="btn alt" onClick={shareInklingCard}><Share2 {...ICON_SM} aria-hidden="true" /> Share my inkling</button>
+                <button className="btn" onClick={async () => { download(await buildInklingCard(), "my-inkling.png"); }}>
+                  <Download {...ICON_SM} aria-hidden="true" /> Save image</button>
+              </div>)}
+              {!inklingFailed && (<p className="inklingtag"><Sparkles {...ICON_SM} aria-hidden="true" /> {inklingNow?.done
+                ? inklingNow.provider === "meta"
+                  ? "Written for you by Muse Spark 1.2 (a Meta model, live on the Meta Model API)."
+                  : "Written for you by Muse Spark Open (a Meta model, live on Baseten)."
+                : inklingNow?.text
+                  ? "Muse Spark Open is writing…"
+                  : <>Muse Spark Open is thinking<i>.</i><i>.</i><i>.</i></>}</p>)}
+            </>) : <p className="note">Play a few more cards to fill this in.</p>}
           </div></div>
           <div className={"page" + (page === 1 ? " on" : "")}><div className="wildwrap">
             {wildcardRow ? (<button className="wildcard" aria-label={wildcardFlipped ? wildcardRow.display_name : "Flip the wildcard card"}
@@ -787,10 +857,6 @@ export default function App() {
             <div className="share"><div className="sharepics"><div className="phone">
                 <RoomView assigned={assigned} viewId={view} viewTime={viewTime} />
               </div>
-              {livePal && livePal.key === shareKey && (!livePal.done || livePal.url) && (
-                livePal.url
-                  ? <figure className="palcard"><img src={livePal.url} alt="Your paper pal, drawn live" /><figcaption>Your paper pal, drawn live by Muse Image</figcaption></figure>
-                  : <div className="palcard palwait" aria-hidden="true"><span className="paldots"><i /><i /><i /></span></div>)}
               </div>
               <div><p className="shareline"><b>Find your inkling.</b>
                   <span>{top3.map((r) => r.display_name).join(" · ")}{wildcardRow ? " · " + wildcardRow.display_name + " (wildcard)" : ""}</span></p>
@@ -815,25 +881,20 @@ export default function App() {
                       tip("Video saved — post it from your phone or upload it to Instagram.");
                     }
                   }}><Share2 {...ICON_SM} aria-hidden="true" /> {videoStatus === "preparing" ? "Preparing your video…" : "Share video"}</button>
+                  <button className="btn" onClick={shareInklingCard}><Share2 {...ICON_SM} aria-hidden="true" /> Share image</button>
+                  <button className="btn" disabled={videoStatus !== "ready"} onClick={async () => {
+                    const cached = videoRef.current;
+                    if (!cached || cached.key !== shareKey) return;
+                    const text = shareMessage(top3.map((r) => r.display_name), wildcardRow?.display_name ?? null);
+                    const u = URL.createObjectURL(cached.blob); const a = document.createElement("a");
+                    a.href = u; a.download = "inkling." + cached.ext; a.click(); URL.revokeObjectURL(u);
+                    try { await navigator.clipboard.writeText(text); } catch { /* clipboard optional */ }
+                    tip("Video saved — post it from your phone or upload it to Instagram.");
+                  }}><Download {...ICON_SM} aria-hidden="true" /> Download video</button>
                   <button className="btn" onClick={async () => {
                     const text = shareMessage(top3.map((r) => r.display_name), wildcardRow?.display_name ?? null);
                     try { await navigator.clipboard.writeText(text); tip("Copied — paste it anywhere."); } catch { tip(text); }
                   }}><LinkIcon {...ICON_SM} aria-hidden="true" /> Copy text</button>
-                  <button className="btn" onClick={async () => {
-                    if (!assets) return;
-                    const text = shareMessage(top3.map((r) => r.display_name), wildcardRow?.display_name ?? null);
-                    const cachedImg = imageRef.current?.key === shareKey ? imageRef.current.blob : null;
-                    const file = cachedImg ? new File([cachedImg], "inkling-room.png", { type: "image/png" }) : null;
-                    if (file && navigator.canShare?.({ files: [file] })) {
-                      try { await navigator.share({ files: [file], text }); }
-                      catch (e) {
-                        if ((e as Error).name !== "AbortError") { console.log("share image failed:", (e as Error).name); tip("Sharing didn't work on this browser."); }
-                      }
-                    } else {
-                      download(await composeRoomCanvas(assigned, view, viewTime, assets.layout,
-                        livePal && livePal.key === shareKey ? livePal.url ?? undefined : undefined), "inkling-room.png");
-                    }
-                  }}><Download {...ICON_SM} aria-hidden="true" /> Share image</button>
                   <button className="btn ghost" onClick={restart}><RotateCcw {...ICON_SM} aria-hidden="true" /> Start over</button>
                 </div>
                 <p className="note sharehint">{canShareFiles ? "Opens your share sheet — pick Instagram, TikTok or WhatsApp" : "Saves the video — post it from your phone"}</p></div></div>

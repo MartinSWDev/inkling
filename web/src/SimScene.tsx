@@ -44,7 +44,9 @@ interface Itin { start: number; legs: Leg[]; arrive: number; seed: number }
 function itinerary(s: SimStudent, idx: number): Itin {
   const seed = ((idx * 2654435761) % 1000) / 1000;
   const wave = Math.floor(idx / 20);
-  let t = wave * 2.6 + seed * 1.2;
+  // Live students start at Sixth form on their own clock (t=0), however
+  // late in the batch replay they were added.
+  let t = s.live ? 0 : wave * 2.6 + seed * 1.2;
   const start = t;
   const legs: Leg[] = [];
   let px = START.x, py = START.y;
@@ -87,6 +89,7 @@ export interface SimSceneProps {
 
 export default function SimScene(p: SimSceneProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const liveClockRef = useRef(new Map<string, number>());
   const stateRef = useRef({ t: 0, last: 0, arrived: 0, lastPop: 0 });
   const propsRef = useRef(p);
   propsRef.current = p;
@@ -145,7 +148,7 @@ export default function SimScene(p: SimSceneProps) {
       }
       ctx.restore();
     };
-    const drawPal = (x: number, y: number, paper: Paper, hop: number, ring: boolean, done: boolean, hit: boolean) => {
+    const drawPal = (x: number, y: number, paper: Paper, hop: number, ring: boolean, done: boolean, hit: boolean, live = false, pulse = 0, reducedMotion = false) => {
       const bob = Math.abs(Math.sin(hop)) * 7;
       const yy = y - bob;
       const img = tryImg("c-" + paper, `/characters/${paper}.webp`);
@@ -164,6 +167,16 @@ export default function SimScene(p: SimSceneProps) {
         ctx.beginPath(); ctx.arc(x, yy - 13, 4.5, 0.15 * Math.PI, 0.85 * Math.PI); ctx.stroke();
       }
       if (ring) { ctx.beginPath(); ctx.arc(x, yy - 16, 23, 0, Math.PI * 2); ctx.strokeStyle = "#e59a2c"; ctx.lineWidth = 3; ctx.stroke(); }
+      if (live) {
+        // Pulsing ring (canvas equivalent of .sim-live-ring) + LIVE tag.
+        const k = reducedMotion ? 0 : pulse;
+        ctx.beginPath(); ctx.arc(x, yy - 16, 23 + k * 14, 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(229,154,44,${0.7 * (1 - k)})`; ctx.lineWidth = 3; ctx.stroke();
+        ctx.font = "600 10px Figtree, sans-serif"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+        const tw = ctx.measureText("LIVE").width + 12;
+        ctx.fillStyle = "#E59A2C"; ctx.beginPath(); ctx.roundRect(x - tw / 2, yy - 82, tw, 16, 8); ctx.fill();
+        ctx.fillStyle = "#2A2238"; ctx.fillText("LIVE", x, yy - 73.5);
+      }
       if (done) {
         if (hit) { // gold star
           ctx.fillStyle = "#e5a91c"; ctx.strokeStyle = "#8a5d00"; ctx.lineWidth = 1;
@@ -184,13 +197,22 @@ export default function SimScene(p: SimSceneProps) {
       else { ctx.moveTo(0, 6); ctx.bezierCurveTo(-8, -1, -5, -7, 0, -3.4); ctx.bezierCurveTo(5, -7, 8, -1, 0, 6); ctx.closePath(); ctx.fillStyle = "#d4577a"; ctx.fill(); ctx.stroke(); }
       ctx.restore();
     };
+    const reducedMotion = typeof window !== "undefined"
+      && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const frame = (now: number) => {
       const props = propsRef.current;
       const st = stateRef.current;
       const dt = st.last ? Math.min(0.05, (now - st.last) / 1000) : 0;
       st.last = now;
-      if (props.playing && !props.finalState) st.t += dt * props.speed;
+      if (props.playing && !props.finalState) {
+        st.t += dt * props.speed;
+        // Live students always walk at 1x on their own clock, even when the
+        // batch replay has finished or is playing faster.
+        for (const s of p.students) if (s.live)
+          liveClockRef.current.set(s.id, (liveClockRef.current.get(s.id) ?? 0) + dt);
+      }
       const t = props.finalState ? total + 1 : st.t;
+      const tFor = (s: SimStudent) => (s.live ? (props.finalState ? total + 1 : (liveClockRef.current.get(s.id) ?? 0)) : t);
       const dpr = Math.min(2, window.devicePixelRatio || 1);
       const cw = canvas.clientWidth, ch = canvas.clientHeight;
       if (canvas.width !== cw * dpr) { canvas.width = cw * dpr; canvas.height = ch * dpr; }
@@ -227,19 +249,21 @@ export default function SimScene(p: SimSceneProps) {
       // Buildings + counters
       const counts: Record<string, number> = {};
       const inside: Record<string, string[]> = {};
-      itins.forEach((it, i) => { if (t >= it.arrive) { const dp = p.students[i].dest_paper; counts[dp] = (counts[dp] || 0) + 1; (inside[dp] ||= []).push(p.students[i].id); } });
+      itins.forEach((it, i) => { if (tFor(p.students[i]) >= it.arrive) { const dp = p.students[i].dest_paper; counts[dp] = (counts[dp] || 0) + 1; (inside[dp] ||= []).push(p.students[i].id); } });
       (canvas as unknown as { _inside: typeof inside })._inside = inside;
       drawBuilding(START.x, START.y + 70, 150, "sixthform", "Sixth form");
       for (const paper of PAPERS) { const d = doorFor(paper); drawBuilding(d.x, d.y + 30, 128, paper, BUILDINGS[paper], counts[paper] || 0); }
       // Students
       let arrived = 0;
-      const order = itins.map((it, i) => ({ it, i, pos: posAt(it, t) })).sort((a, b) => a.pos.y - b.pos.y);
+      const order = itins.map((it, i) => ({ it, i, pos: posAt(it, tFor(p.students[i])) })).sort((a, b) => a.pos.y - b.pos.y);
       for (const { it, i, pos } of order) {
         const s = p.students[i];
-        if (t < it.start) continue;
+        const lt = tFor(s);
+        if (lt < it.start) continue;
         const done = pos.state === "done";
         if (done) arrived++;
-        drawPal(pos.x, pos.y, s.paper, t * 9 + it.seed * 6, props.selectedId === s.id, done, s.hit3);
+        drawPal(pos.x, pos.y, s.paper, lt * 9 + it.seed * 6, props.selectedId === s.id, done, s.hit3,
+          !!s.live, (now % 1400) / 1400, reducedMotion);
         if (pos.state === "pause" && pos.sign >= 0) drawIcon(pos.x, pos.y - 62, iconFor(s, pos.sign));
       }
       if (arrived !== st.arrived) {
