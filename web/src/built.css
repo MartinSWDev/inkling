@@ -23,6 +23,10 @@
 .script-links a{font-size:12px;font-weight:600;background:#fff;border:1px solid var(--line);border-radius:99px;padding:5px 10px;text-decoration:none;color:var(--ink)}
 .script-links a:hover{border-color:var(--ink)}
 .why-grid{display:grid;gap:12px}
+.playsteps{margin:8px 0;padding-left:22px;font-size:15px;line-height:1.55;display:grid;gap:8px}
+.model-pill{display:inline-block;margin-left:8px;font-size:11.5px;font-weight:700;background:var(--butter);border:1px solid var(--line);border-radius:99px;padding:2px 8px;color:var(--accent-ink);white-space:nowrap;vertical-align:middle}
+.built-two{grid-template-columns:1fr 1fr}
+.built-two h3{font-family:var(--display);font-weight:900;font-size:18px;margin:0 0 6px}
 .timeline{display:flex;gap:12px;overflow-x:auto;padding:6px 2px 8px;scrollbar-width:thin}
 .timeline-item{min-width:160px;flex:1;background:#fff;background-image:url(/paper-grain.png);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--paper-shadow-sm)}
 .timeline-item b{font-family:var(--display);font-weight:900;font-size:15px}
@@ -44,6 +48,7 @@
 .built-footer p{margin:6px 0;font-size:14px}
 .built-tag{display:inline-block;margin-top:8px;font-size:12px;font-weight:800;letter-spacing:0.02em;background:var(--ink);color:var(--paper);border-radius:99px;padding:6px 12px}
 @media(max-width:640px){
+  .built-two{grid-template-columns:1fr}
   .timeline{flex-direction:column;overflow:visible}
   .timeline-item{min-width:0}
   .calibration{grid-template-columns:1fr}
