@@ -150,7 +150,8 @@ export default function App() {
 
   // Reveal order: top 3 -> wildcard -> [hands-on routes] -> views -> explore -> your inkling -> share.
   // Hands-on routes are UK apprenticeships: hidden when the pack has no courses.
-  const practical = isPractical(answers) && pack.showCourses;
+  // Hands-on routes are England apprenticeship standards: only for packs that have apprenticeship data.
+  const practical = isPractical(answers) && pack.showCourses && pack.showApprenticeships;
   const viewsPage = practical ? 3 : 2;
   const explorePage = practical ? 4 : 3;
   const inklingPage = explorePage + 1;
