@@ -389,3 +389,11 @@ button svg.lucide,a svg.lucide{flex:none}
 @keyframes paldot{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 @media(max-height:720px){.pc.sharepc .palcard{width:118px}}
 @media(max-height:700px){.pc.sharepc .palcard{width:104px}}
+
+/* "Support it on X" line on the share page */
+.supportline{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-top:10px;padding:10px 12px;background:var(--paper);background-image:url(/paper-grain.png);border:1px solid var(--line);border-left:3px solid var(--lilac);border-radius:12px;font-size:13px;color:var(--muted);line-height:1.4;position:relative;padding-right:36px}
+.supportline p{margin:0;flex:1 1 200px}
+.supportline .btn.ghost{font-size:13px;padding:6px 10px;min-height:0}
+.supportclose{position:absolute;top:6px;right:6px;width:26px;height:26px;border:0;background:none;color:var(--muted);cursor:pointer;display:grid;place-items:center;border-radius:99px}
+.supportclose:hover{background:rgba(42,34,56,.06)}
+@media(max-height:720px){.supportline .supportmore{display:none}}

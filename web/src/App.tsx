@@ -115,6 +115,11 @@ export default function App() {
     catch { return false; }
   });
   const [videoStatus, setVideoStatus] = useState<"idle" | "preparing" | "ready">("idle");
+  // "Support it on X" line on the share page; dismissed state remembered per browser.
+  const [supportHidden, setSupportHidden] = useState<boolean>(() => {
+    try { return localStorage.getItem("inkling.support.hidden") === "1"; } catch { return false; }
+  });
+  const hideSupport = () => { setSupportHidden(true); try { localStorage.setItem("inkling.support.hidden", "1"); } catch { /* storage optional */ } };
   const videoRef = useRef<{ key: string; blob: Blob; ext: string } | null>(null);
   // Live Meta model results for this reveal (prompts/21 D): written inkling,
   // paper pal, and the pal added to the share image. All keyed by liveKey
@@ -897,7 +902,12 @@ export default function App() {
                   }}><LinkIcon {...ICON_SM} aria-hidden="true" /> Copy text</button>
                   <button className="btn ghost" onClick={restart}><RotateCcw {...ICON_SM} aria-hidden="true" /> Start over</button>
                 </div>
-                <p className="note sharehint">{canShareFiles ? "Opens your share sheet — pick Instagram, TikTok or WhatsApp" : "Saves the video — post it from your phone"}</p></div></div>
+                <p className="note sharehint">{canShareFiles ? "Opens your share sheet — pick Instagram, TikTok or WhatsApp" : "Saves the video — post it from your phone"}</p>
+                {!supportHidden && (<div className="supportline" role="note">
+                  <p>Found this useful? <span className="supportmore">It&apos;s up for a hackathon prize decided partly on X. A like or repost on the launch post helps a lot.</span></p>
+                  <a className="btn ghost" href="https://x.com/MartinSWDev/status/2118059722070790600" target="_blank" rel="noreferrer">Open the post <ExternalLink {...ICON_SM} aria-hidden="true" /></a>
+                  <button className="supportclose" aria-label="Hide this" onClick={hideSupport}><X {...ICON_SM} aria-hidden="true" /></button>
+                </div>)}</div></div>
           </div></div>
         </div>
       </section>)}
