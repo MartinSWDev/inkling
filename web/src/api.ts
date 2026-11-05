@@ -24,7 +24,21 @@ async function getJson<T>(url: string): Promise<T> {
   return r.json() as Promise<T>;
 }
 
-export const fetchContent = () =>
-  getJson<{ chips: Chip[]; extra_names: string[]; things: DeckCard[]; questions: DeckCard[]; pairs: Pair[];
-    aliases: Record<string, Record<string, number>> }>("/data/content.json");
-export const fetchSubjects = () => getJson<{ count: number; subjects: Subject[] }>("/data/subjects.json");
+/** Fetch a pack's file; if a non-UK pack's file is missing (pack not shipped
+ * yet), fall back to the live UK file with a console.warn. For base "" the
+ * URL is exactly the live one and no fallback is involved. */
+async function getPacked<T>(base: string, path: string): Promise<T> {
+  if (!base) return getJson<T>(path);
+  try {
+    return await getJson<T>(base + path);
+  } catch (e) {
+    console.warn("pack file missing, using UK data:", base + path, (e as Error).message);
+    return getJson<T>(path);
+  }
+}
+
+export type Content = { chips: Chip[]; extra_names: string[]; things: DeckCard[]; questions: DeckCard[]; pairs: Pair[];
+  aliases: Record<string, Record<string, number>> };
+
+export const fetchContent = (base = "") => getPacked<Content>(base, "/data/content.json");
+export const fetchSubjects = (base = "") => getPacked<{ count: number; subjects: Subject[] }>(base, "/data/subjects.json");

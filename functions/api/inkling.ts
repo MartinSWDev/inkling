@@ -4,7 +4,15 @@
 // Minimal Cloudflare types, declared here so the repo needs no extra packages.
 type PagesFunction<E> = (context: { request: Request; env: E }) => Promise<Response>;
 import { readSSE, sparkChat, type Env } from "./_spark";
-const SYSTEM = `You write a short, warm note for a UK sixth-former who has just played Inkling, which suggests degree subjects. Speak to them as "you". Their inkling is the first subject in "top". Write two sentences about how their answers point to that subject, using only the facts given: the subjects they take, what they said yes to, and the card text. Then one sentence that mentions the other top subjects by name as also fitting. Never invent facts about courses, jobs, grades or universities. No bullet points, headings, emojis or exclamation marks. British spelling. Under 60 words. Do not call it a quiz or a test.`;
+type Country = "uk" | "us" | "other";
+const isCountry = (v: unknown): v is Country => v === "uk" || v === "us" || v === "other";
+// Only the first sentence differs by country pack; uk and other share the live wording.
+const WHO: Record<Country, string> = {
+  uk: "a UK sixth-former who has just played Inkling, which suggests degree subjects",
+  other: "a UK sixth-former who has just played Inkling, which suggests degree subjects",
+  us: "a US high-schooler choosing a college major who has just played Inkling, which suggests majors",
+};
+const systemFor = (c: Country) => `You write a short, warm note for ${WHO[c]}. Speak to them as "you". Their inkling is the first subject in "top". Write two sentences about how their answers point to that subject, using only the facts given: the subjects they take, what they said yes to, and the card text. Then one sentence that mentions the other top subjects by name as also fitting. Never invent facts about courses, jobs, grades or universities. No bullet points, headings, emojis or exclamation marks. British spelling. Under 60 words. Do not call it a quiz or a test.`;
 
 function jsonError(message: string, status: number): Response {
   return new Response(JSON.stringify({ error: message }), {
@@ -79,6 +87,9 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     answers[key] = list;
   }
 
+  if (data.country !== undefined && !isCountry(data.country)) return jsonError("invalid country", 400);
+  const country: Country = isCountry(data.country) ? data.country : "uk";
+
   const facts = { top, wildcard, answers };
   const user = JSON.stringify(facts) + (wildcard
     ? `\n\nWrite their inkling. Then add one sentence starting "Your wildcard," explaining why ${wildcard.name} fits.`
@@ -89,7 +100,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     sparked = await sparkChat(env, {
       stream: true, temperature: 0.5, max_tokens: 8000, // this model reasons for ~2k tokens before writing; the prompt caps the visible text at 70 words
       messages: [
-        { role: "system", content: SYSTEM },
+        { role: "system", content: systemFor(country) },
         { role: "user", content: user },
       ],
     }, { prefer: "meta" });

@@ -50,7 +50,7 @@ body:has(.app){position:fixed;inset:0;width:100%;overflow:hidden;overscroll-beha
 .app[data-mode="swipe"] .overlay.dip{transform:translateY(46%)}
 .app[data-mode="swipe"] .deck{height:min(225px,26vh);height:min(225px,26svh);width:min(80%,340px);margin-bottom:136px}
 .app[data-mode="swipe"] .actioncol{position:absolute;left:0;right:0;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:grid;justify-items:center;gap:8px;z-index:5}
-.chipsheet{max-height:calc(100% - 160px);overflow-y:auto;overscroll-behavior:contain}
+.chipsheet{max-height:calc(100vh - 160px);max-height:calc(100dvh - 160px);overflow-y:auto;overscroll-behavior:contain}
 .chipsheet .chips{display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
 .chipsheet .chip{min-height:44px;padding:6px 6px 6px 10px;font-size:13.5px;border-radius:12px}
 .chipsheet .chiplabel{overflow:visible;text-overflow:clip;white-space:normal;overflow-wrap:normal;hyphens:none;line-height:1.15}
@@ -59,13 +59,14 @@ body:has(.app){position:fixed;inset:0;width:100%;overflow:hidden;overscroll-beha
 .chip:active{transform:scale(.97);background:var(--paper)}
 .chip[aria-pressed="true"]:active{background:var(--round-accent)}
 .app .overlay.r1center{top:0;align-content:center;background:rgba(30,24,48,.20)}
-.overlay.r1center .chipsheet{max-height:calc(100% - 160px);overflow-y:auto;overscroll-behavior:contain}
+.overlay.r1center .chipsheet{max-height:calc(100vh - 150px);max-height:calc(100dvh - 150px);overflow-y:auto;overscroll-behavior:contain}
 .app .overlay.r1center{overflow:visible;max-height:none}
 @media(max-height:720px){.chipsheet .chip{min-height:44px}.chipsheet{gap:8px;padding:10px}.chipsheet .chips{gap:5px}}
 .addanother{font-size:14px;color:var(--teal);font-weight:600}
 .suggestrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .suggestchip{font:inherit;font-size:13px;background:var(--butter);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:6px 11px;cursor:pointer;min-height:36px;max-width:100%;overflow-wrap:normal;word-break:normal;hyphens:none}
 .app[data-mode="swipe"] .sheet2{max-height:100%}
+.app[data-mode="swipe"] .overlay.r1center .chipsheet{max-height:calc(100vh - 150px);max-height:calc(100dvh - 150px)}
 .topline{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}
 .topline b{font-family:var(--display);font-weight:700;font-size:22px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .iconbtn{width:44px;height:44px;min-height:44px;border-radius:99px;display:grid;place-items:center;padding:0;flex:none;color:var(--ink)}
@@ -397,3 +398,14 @@ button svg.lucide,a svg.lucide{flex:none}
 .supportclose{position:absolute;top:6px;right:6px;width:26px;height:26px;border:0;background:none;color:var(--muted);cursor:pointer;display:grid;place-items:center;border-radius:99px}
 .supportclose:hover{background:rgba(42,34,56,.06)}
 @media(max-height:720px){.supportline .supportmore{display:none}}
+/* Country packs: UK · USA · Other pills (intro card + menu) and the "tell us your country" ask. */
+.countrypick{display:flex;gap:6px;width:100%;justify-content:center}
+.countrypill{flex:1 1 0;min-width:0;min-height:36px;font:inherit;font-size:13px;font-weight:600;border:1px solid var(--line);border-radius:99px;background:var(--paper);color:var(--muted);cursor:pointer;padding:6px 8px;white-space:nowrap}
+.countrypill.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.menurow{display:grid;gap:8px;padding:13px 12px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+.menurowlabel{font-weight:600;color:var(--ink)}
+.countryask{display:grid;gap:8px;margin-top:10px}
+.countryrow{display:flex;gap:8px}
+.countryrow input{flex:1;min-width:0;font:inherit;font-size:16px;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:9px 12px}
+.countryrow .btn{min-height:44px;padding:8px 14px}
+.settingtag.earntag{background:var(--butter,#F3D98B)}

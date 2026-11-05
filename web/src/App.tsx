@@ -15,6 +15,9 @@ import { ArrowLeft, ArrowRight, ArrowUp, Check, ChevronLeft, ChevronRight, Downl
 import { newGameId } from "./feedback";
 import { answerSummary, fetchInkling, fetchPal, paperFor } from "./live";
 import FeedbackPrompt from "./FeedbackPrompt";
+import { PACKS, getCountry, setCountry, subjectUrlFor, type Country } from "./packs";
+import CountryPicker from "./CountryPicker";
+import CountryAsk from "./CountryAsk";
 
 const ICON = { size: 20, strokeWidth: 2 } as const;
 const ICON_SM = { size: 16, strokeWidth: 2 } as const;
@@ -83,6 +86,9 @@ export default function App() {
   const [fact, setFact] = useState<string | null>(null);
   const [toast, setToast] = useState("");
   const [subjects, setSubjects] = useState<Subject[]>([]);
+  // Country data pack (prompts: country packs). "uk" loads exactly the live files.
+  const [country, setCountryState] = useState<Country>(getCountry);
+  const pack = PACKS[country];
   const [isPhone, setIsPhone] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 640px)").matches);
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 640px)");
@@ -143,7 +149,8 @@ export default function App() {
   }, [scene]);
 
   // Reveal order: top 3 -> wildcard -> [hands-on routes] -> views -> explore -> your inkling -> share.
-  const practical = isPractical(answers);
+  // Hands-on routes are UK apprenticeships: hidden when the pack has no courses.
+  const practical = isPractical(answers) && pack.showCourses;
   const viewsPage = practical ? 3 : 2;
   const explorePage = practical ? 4 : 3;
   const inklingPage = explorePage + 1;
@@ -153,10 +160,15 @@ export default function App() {
   const page = revealPage;
   const toastTimer = useRef<number>(0);
 
+  const [packLoading, setPackLoading] = useState(false);
   useEffect(() => {
-    fetchContent().then(setContent).catch(() => setToast("Could not load the game content. Check the API is running."));
-    fetchSubjects().then((d) => setSubjects(d.subjects)).catch(() => null);
-  }, []);
+    let live = true;
+    Promise.all([
+      fetchContent(pack.base).then((c) => { if (live) setContent(c); }).catch(() => setToast("Could not load the game content. Check the API is running.")),
+      fetchSubjects(pack.base).then((d) => { if (live) setSubjects(d.subjects); }).catch(() => null),
+    ]).then(() => { if (live) setPackLoading(false); });
+    return () => { live = false; };
+  }, [pack.base]);
   useEffect(() => {
     const onTap = () => unlock();
     window.addEventListener("pointerdown", onTap, { once: true });
@@ -227,16 +239,34 @@ export default function App() {
   const [tapCode, setTapCode] = useState<string | null>(null);
   const [courseSheet, setCourseSheet] = useState<{ code: string; name: string } | null>(null);
   const [sheetTab, setSheetTab] = useState<"courses" | "apprenticeships">("courses");
-  type SubjectFile = { courses: { title: string; provider: string; url: string; ucas_code: string; setting?: string | null; town?: string | null }[]; jobs: string[]; apprenticeships: Apprenticeship[] };
+  type SubjectFile = { courses: { title: string; provider: string; url: string; ucas_code: string | null; setting?: string | null; town?: string | null; earnings?: number | null }[]; jobs: string[]; apprenticeships: Apprenticeship[] };
   const [subjectFiles, setSubjectFiles] = useState<Record<string, SubjectFile>>({});
   const requestedFiles = useRef(new Set<string>());
   const loadSubjectFile = useCallback((code: string) => {
     if (requestedFiles.current.has(code)) return;
     requestedFiles.current.add(code);
-    fetch(`/subjects/${code}.json`).then((r) => r.json())
-      .then((d) => setSubjectFiles((p) => ({ ...p, [code]: { courses: d.courses || [], jobs: d.jobs || [], apprenticeships: d.apprenticeships || [] } })))
-      .catch(() => setSubjectFiles((p) => ({ ...p, [code]: { courses: [], jobs: [], apprenticeships: [] } })));
-  }, []);
+    const store = (d: Partial<SubjectFile>) => setSubjectFiles((p) => ({ ...p, [code]: { courses: d.courses || [], jobs: d.jobs || [], apprenticeships: d.apprenticeships || [] } }));
+    const getFile = (url: string) => fetch(url).then((r) => { if (!r.ok) throw new Error(url + " " + r.status); return r.json() as Promise<Partial<SubjectFile>>; });
+    const url = subjectUrlFor(country, code);
+    const fallback = subjectUrlFor("uk", code);
+    getFile(url)
+      .catch((e: Error) => {
+        if (url === fallback) throw e;
+        console.warn("pack file missing, using UK data:", url, e.message);
+        return getFile(fallback);
+      })
+      .then(store)
+      .catch(() => store({}));
+  }, [country]);
+  // A new pack means new per-subject files.
+  useEffect(() => { requestedFiles.current = new Set(); setSubjectFiles({}); }, [country]);
+  const changeCountry = (c: Country) => {
+    if (c === country) return;
+    setCountry(c);
+    setCountryState(c);
+    // Same files (uk <-> other): nothing to refetch.
+    if (PACKS[c].base !== pack.base) setPackLoading(true);
+  };
   function openCourses(code: string, name: string) {
     setCourseSheet({ code, name });
     setSheetTab("courses");
@@ -462,6 +492,7 @@ export default function App() {
       top: top3.map((r) => ({ name: r.display_name, plain: plainOf(r.code) || r.display_name })),
       wildcard: wildcardRow ? { name: wildcardRow.display_name, why: whyOf(wildcardRow.code) || "it never came up, but it fits your answers" } : null,
       answers: answerSummary(answersRef.current, content.chips, content.things, content.questions, content.pairs),
+      country,
     };
     fetchInkling(input, (text) => { if (live()) setLiveInkling((p) => ({ key, text, done: false, provider: p?.key === key ? p.provider : null, model: p?.key === key ? p.model : null, ticks: p?.key === key ? p.ticks : 0 })); }, ctl.signal,
       (ticks) => { if (live()) setLiveInkling((p) => (p && p.key === key ? { ...p, ticks } : { key, text: "", done: false, provider: null, model: null, ticks })); })
@@ -589,7 +620,8 @@ export default function App() {
         transition={{ type: "spring", stiffness: 380, damping: 20 }}>
         <b>Did you know?</b>{fact}</motion.div>)}
 
-      {scene.kind === "landing" && <AppMenu path="/" />}
+      {scene.kind === "landing" && <AppMenu path="/" country={country}
+        onCountry={(c) => { if (c === country) return; changeCountry(c); tip("Switched to " + PACKS[c].label + " — starting over"); restart(); }} />}
       {scene.kind === "landing" && (<section className="landing">
         <motion.div className="foldedsquare" aria-hidden="true" animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4, repeat: Infinity }}>
           <img className="miniview" src={"/views/" + view + "_" + viewTime + "_sm.webp"} alt="" />
@@ -642,6 +674,7 @@ export default function App() {
         <motion.div className="sheet2" variants={popUp} initial="hidden" animate="shown">
           <h2>Before we start</h2>
           <p className="note">Four quick rounds. Answer on gut feel — there are no wrong answers. Your room fills up with what you're into, then you'll see subjects worth exploring.</p>
+          <CountryPicker value={country} onChange={(c) => { sfx.pop(); changeCountry(c); }} />
           <div className="daypick" role="group" aria-label="Day or dusk">
             {(["day", "dusk"] as const).map((t) => (
               <button key={t} aria-pressed={viewTime === t} onClick={() => { setViewTime(t); sfx.pop(); }}>
@@ -649,7 +682,7 @@ export default function App() {
                 <span className="daylabel">{viewTime === t && <Check {...ICON_SM} aria-hidden="true" />}{t === "day" ? "Day" : "Dusk"}</span>
               </button>))}
           </div>
-          <button className="btn alt" onClick={() => { sfx.pop(); buzz(); dispatch({ type: "GO" }); }}>Let's go</button>
+          <button className="btn alt" disabled={packLoading} onClick={() => { sfx.pop(); buzz(); dispatch({ type: "GO" }); }}>{packLoading ? "Loading…" : "Let's go"}</button>
         </motion.div>
       </section>)}
 
@@ -657,13 +690,13 @@ export default function App() {
         <motion.span className="titleinner" initial={{ rotateY: 90, opacity: 0 }} animate={{ rotateY: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 260, damping: 24 }}>
           <span className="titlenum">{"Round " + round}</span>
           <span className="titlebig">{ROUNDS[round - 1].title}</span>
-          <span className="titlehow">{ROUNDS[round - 1].how}</span>
+          <span className="titlehow">{round === 1 ? pack.chipsHint : ROUNDS[round - 1].how}</span>
         </motion.span>
       </button>)}
 
       {scene.kind === "round" && (<div className={"overlay" + (round === 1 ? " r1center" : "") + (round === 2 || round === 4 ? " cardlayout" : "")}>
         {round === 1 && (<div className="sheet2 chipsheet">
-          <div><p className="eyebrow">Round 1 · your subjects</p><h2>What are you studying?</h2><p className="hint2">Tap the ones you take. Heart your favourites.</p></div>
+          <div><p className="eyebrow">Round 1 · your subjects</p><h2>What are you studying?</h2><p className="hint2">{pack.chipsHint}</p></div>
           <div className="chips">{typedNames.map((name) => (
             <button key={"typed-" + name} className={"chip typedchip" + (typedState[name] === "love" ? " loved" : "")} aria-pressed={true}
               onClick={(e) => { if ((e.target as HTMLElement).closest(".heart,.typedx")) return; }}>
@@ -849,9 +882,10 @@ export default function App() {
               <li key={r.code} className={r.code === surprise ? "surprise" : ""}><div><b>{r.display_name}</b>
                 <small>{r.code === surprise ? "A wildcard: it never came up, but it fits your answers." : (plainOf(r.code) || "")}</small>
                 {jobs.length > 0 && <small className="jobline">Graduates often work as: {jobs.map((j) => j.charAt(0).toLowerCase() + j.slice(1)).join(", ")}</small>}
-                <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button></span></div>
+                {pack.showCourses && <span className="explinks"><button className="linkbtn courselink" onClick={() => openCourses(r.code, r.display_name)}>See courses</button></span>}</div>
                 {r.code === surprise && <span className="pct"><span className="tag">surprise</span></span>}</li>); })}
-            </ul></div></div>
+            </ul>
+            {!pack.showCourses && <CountryAsk gameId={gameId} />}</div></div>
           <div className={"page" + (page === viewsPage ? " on" : "")}><div className="pc bottom"><h2>Where do you see yourself studying?</h2>
             <div className="views swatches">{VIEWS.map((v) => (
               <button key={v.id} aria-pressed={v.id === view} onClick={() => setView(v.id)}>
@@ -912,14 +946,14 @@ export default function App() {
         </div>
       </section>)}
 
-      {courseSheet && (<div className="coursesheetwrap">
+      {courseSheet && pack.showCourses && (<div className="coursesheetwrap">
         <button className="coursescrim" aria-label="Close courses" onClick={() => setCourseSheet(null)} />
         <motion.div className="coursesheet" initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 300, damping: 30 }}>
           <div className="pfoot"><h2>{courseSheet.name}</h2>
             <button className="linkbtn" onClick={() => setCourseSheet(null)}><X {...ICON_SM} aria-hidden="true" /> Close</button></div>
           <div className="sheettabs" role="tablist" aria-label="Routes">
-            <button role="tab" aria-selected={sheetTab === "courses"} className={sheetTab === "courses" ? "on" : ""} onClick={() => setSheetTab("courses")}>University courses</button>
-            <button role="tab" aria-selected={sheetTab === "apprenticeships"} className={sheetTab === "apprenticeships" ? "on" : ""} onClick={() => setSheetTab("apprenticeships")}>Apprenticeships</button>
+            <button role="tab" aria-selected={sheetTab === "courses"} className={sheetTab === "courses" ? "on" : ""} onClick={() => setSheetTab("courses")}>{pack.coursesTab}</button>
+            {(pack.showApprenticeships || (subjectFiles[courseSheet.code]?.apprenticeships.length ?? 0) > 0) && <button role="tab" aria-selected={sheetTab === "apprenticeships"} className={sheetTab === "apprenticeships" ? "on" : ""} onClick={() => setSheetTab("apprenticeships")}>Apprenticeships</button>}
           </div>
           {sheetTab === "apprenticeships" && (() => {
             const file = subjectFiles[courseSheet.code];
@@ -945,12 +979,18 @@ export default function App() {
             const chosen = { city: "city", coast: "coast", campus: "campus town", countryside: "countryside" }[view] || "campus town";
             const heading = { city: "In a city", coast: "In a coastal town", "campus town": "In a campus town", countryside: "In the countryside" }[chosen];
             const adj = { city: "city", coast: "coastal", "campus town": "campus town", countryside: "countryside" }[chosen];
-            const inChosen = all.filter((c) => c.setting === chosen);
-            const elsewhere = all.filter((c) => c.setting !== chosen);
+            // UK courses are grouped by the window view's campus setting; other
+            // packs tag each course with their own region label instead.
+            const bySetting = pack.regionLabel === "Setting";
+            const tagPrefix = bySetting ? "" : pack.regionLabel + ": ";
+            const inChosen = bySetting ? all.filter((c) => c.setting === chosen) : all;
+            const elsewhere = bySetting ? all.filter((c) => c.setting !== chosen) : [];
             const render = (list: typeof all) => list.map((c, i) => (
               <li key={c.title + i}><div><b>{c.title}</b><small>{c.provider}</small>
-                {c.setting && <span className="settingtag">{c.setting}{c.town ? " · " + c.town : ""}</span>}</div>
+                {c.setting && <span className="settingtag">{tagPrefix}{c.setting}{c.town ? " · " + c.town : ""}</span>}
+                {typeof c.earnings === "number" && c.earnings > 0 && <span className="settingtag earntag">{"$" + Math.round(c.earnings / 1000) + "k median pay, 4 yrs after"}</span>}</div>
                 <a href={c.url} target="_blank" rel="noreferrer">Course page <ExternalLink {...ICON_SM} aria-hidden="true" /></a></li>));
+            if (!bySetting) return <ul className="courselist">{render(inChosen)}</ul>;
             return (<>
               {inChosen.length > 0 && (<><h3 className="coursehead">{heading}</h3><ul className="courselist">{render(inChosen)}</ul></>)}
               {inChosen.length === 0 && <p className="note">{"No " + adj + " courses for this subject — here are the others."}</p>}

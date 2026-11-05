@@ -55,6 +55,29 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   if (typeof game_id !== "string" || !GAME_ID_RE.test(game_id)) {
     return jsonError("invalid game_id", 400);
   }
+  if (typeof app_version !== "string" || app_version.length === 0 || app_version.length > 32) {
+    return jsonError("invalid app_version", 400);
+  }
+
+  // Country packs: { type: "country", country } from the "Other" pack's
+  // explore page. Stored in the same table as kind = 'country', with the
+  // typed country in the answers JSON.
+  if (data.type === "country") {
+    const country = data.country;
+    if (typeof country !== "string" || country.trim().length === 0 || country.length > 80) {
+      return jsonError("invalid country", 400);
+    }
+    try {
+      await env.DB.prepare(
+        "INSERT INTO feedback (game_id, kind, vote, off_code, top, wildcard, answers, app_version) VALUES (?1,?2,?3,?4,?5,?6,?7,?8)"
+      )
+        .bind(game_id, "country", null, null, "[]", null, JSON.stringify({ country: country.trim() }), app_version)
+        .run();
+    } catch {
+      return jsonError("store failed", 500);
+    }
+    return new Response(null, { status: 204 });
+  }
   if (kind !== "vote" && kind !== "off") {
     return jsonError("invalid kind", 400);
   }
@@ -81,9 +104,6 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   }
   if (typeof answers !== "object" || answers === null || Array.isArray(answers)) {
     return jsonError("invalid answers", 400);
-  }
-  if (typeof app_version !== "string" || app_version.length === 0 || app_version.length > 32) {
-    return jsonError("invalid app_version", 400);
   }
 
   const voteVal = kind === "vote" ? vote : null;

@@ -35,7 +35,12 @@ export function feedbackPayload(o: {
   };
 }
 
-export async function sendFeedback(body: ReturnType<typeof feedbackPayload>): Promise<boolean> {
+/** "Tell us your country" request from the Other pack (country packs). */
+export function countryPayload(gameId: string, country: string) {
+  return { type: "country" as const, game_id: gameId, country: country.trim().slice(0, 80), app_version: APP_VERSION };
+}
+
+export async function sendFeedback(body: ReturnType<typeof feedbackPayload> | ReturnType<typeof countryPayload>): Promise<boolean> {
   try {
     const res = await fetch("/api/feedback", {
       method: "POST",
