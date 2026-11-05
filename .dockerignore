@@ -1,0 +1,8 @@
+node_modules
+web/node_modules
+web/dist
+video
+tmp_stage
+.env
+.dev.vars
+out
