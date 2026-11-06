@@ -14,6 +14,10 @@ describe("country packs", () => {
     expect(subjectUrlFor("other", "CAH01-01-01")).toBe(subjectUrlFor("uk", "CAH01-01-01"));
     expect(PACKS.other.showCourses).toBe(false);
   });
+  it("au lives under /packs/au", () => {
+    expect(urlFor("au", "content")).toBe("/packs/au/data/content.json");
+    expect(subjectUrlFor("au", "CAH01-01-01")).toBe("/packs/au/subjects/CAH01-01-01.json");
+  });
   it("us lives under /packs/us", () => {
     expect(urlFor("us", "content")).toBe("/packs/us/data/content.json");
     expect(urlFor("us", "subjects")).toBe("/packs/us/data/subjects.json");
@@ -28,6 +32,7 @@ describe("country packs", () => {
   it("validates countries", () => {
     expect(isCountry("uk")).toBe(true);
     expect(isCountry("us")).toBe(true);
+    expect(isCountry("au")).toBe(true);
     expect(isCountry("other")).toBe(true);
     expect(isCountry("fr")).toBe(false);
     expect(isCountry(null)).toBe(false);

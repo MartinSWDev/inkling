@@ -1,8 +1,8 @@
 /** Country data packs (UK / USA / Other). The UK pack is the live default and
  * its URLs are byte-identical to the pre-pack app; "other" plays the UK files
  * but hides the UK-only course and apprenticeship pages. */
-export type Country = "uk" | "us" | "other";
-export const COUNTRIES: readonly Country[] = ["uk", "us", "other"] as const;
+export type Country = "uk" | "us" | "au" | "other";
+export const COUNTRIES: readonly Country[] = ["uk", "us", "au", "other"] as const;
 
 export type Pack = {
   label: string;
@@ -25,6 +25,8 @@ export const PACKS: Record<Country, Pack> = {
   uk: { label: "UK", flag: "🇬🇧", base: "", showCourses: true, regionLabel: "Setting", studentNoun: "sixth-former", chipsHint: UK_CHIPS_HINT, coursesTab: "University courses", showApprenticeships: true },
   us: { label: "USA", flag: "🇺🇸", base: "/packs/us", showCourses: true, regionLabel: "Region", studentNoun: "high-schooler",
     chipsHint: "Tap the classes you take. AP, IB or Honors counts as a favourite.", coursesTab: "College programs", showApprenticeships: false },
+  au: { label: "Australia", flag: "🇦🇺", base: "/packs/au", showCourses: true, regionLabel: "Location", studentNoun: "Year 12 student",
+    chipsHint: "Tap the subjects you take. Heart your favourites.", coursesTab: "Uni courses", showApprenticeships: false },
   other: { label: "Other", flag: "🌍", base: "", showCourses: false, regionLabel: "Setting", studentNoun: "sixth-former", chipsHint: UK_CHIPS_HINT, coursesTab: "University courses", showApprenticeships: true },
 };
 

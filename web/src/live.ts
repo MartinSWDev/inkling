@@ -30,7 +30,7 @@ export interface InklingInput {
   wildcard: { name: string; why: string } | null;
   answers: { takes: string[]; loves: string[]; typed: string[]; yes: string[]; really: string[]; picks: string[] };
   /** Country pack; the server defaults to uk when absent. */
-  country?: "uk" | "us" | "other";
+  country?: "uk" | "us" | "au" | "other";
 }
 
 /** The facts sent to /api/inkling: nothing but names and titles. */

@@ -4,15 +4,17 @@
 // Minimal Cloudflare types, declared here so the repo needs no extra packages.
 type PagesFunction<E> = (context: { request: Request; env: E }) => Promise<Response>;
 import { readSSE, sparkChat, type Env } from "./_spark";
-type Country = "uk" | "us" | "other";
-const isCountry = (v: unknown): v is Country => v === "uk" || v === "us" || v === "other";
+type Country = "uk" | "us" | "au" | "other";
+const isCountry = (v: unknown): v is Country => v === "uk" || v === "us" || v === "au" || v === "other";
 // Only the first sentence differs by country pack; uk and other share the live wording.
 const WHO: Record<Country, string> = {
   uk: "a UK sixth-former who has just played Inkling, which suggests degree subjects",
   other: "a UK sixth-former who has just played Inkling, which suggests degree subjects",
   us: "a US high-schooler choosing a college major who has just played Inkling, which suggests majors",
+  au: "an Australian Year 12 student who has just played Inkling, which suggests uni subjects",
 };
-const systemFor = (c: Country) => `You write a short, warm note for ${WHO[c]}. Speak to them as "you". Their inkling is the first subject in "top". Write two sentences about how their answers point to that subject, using only the facts given: the subjects they take, what they said yes to, and the card text. Then one sentence that mentions the other top subjects by name as also fitting. Never invent facts about courses, jobs, grades or universities. No bullet points, headings, emojis or exclamation marks. British spelling. Under 60 words. Do not call it a quiz or a test.`;
+const SPELLING: Record<Country, string> = { uk: "British spelling", other: "British spelling", us: "American spelling", au: "Australian spelling" };
+const systemFor = (c: Country) => `You write a short, warm note for ${WHO[c]}. Speak to them as "you". Their inkling is the first subject in "top". Write two sentences about how their answers point to that subject, using only the facts given: the subjects they take, what they said yes to, and the card text. Then one sentence that mentions the other top subjects by name as also fitting. Never invent facts about courses, jobs, grades or universities. No bullet points, headings, emojis or exclamation marks. ${SPELLING[c]}. Under 60 words. Do not call it a quiz or a test.`;
 
 function jsonError(message: string, status: number): Response {
   return new Response(JSON.stringify({ error: message }), {
