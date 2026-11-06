@@ -399,8 +399,8 @@ button svg.lucide,a svg.lucide{flex:none}
 .supportclose:hover{background:rgba(42,34,56,.06)}
 @media(max-height:720px){.supportline .supportmore{display:none}}
 /* Country packs: UK · USA · Other pills (intro card + menu) and the "tell us your country" ask. */
-.countrypick{display:flex;gap:6px;width:100%;justify-content:center}
-.countrypill{flex:1 1 0;min-width:0;min-height:36px;font:inherit;font-size:13px;font-weight:600;border:1px solid var(--line);border-radius:99px;background:var(--paper);color:var(--muted);cursor:pointer;padding:6px 8px;white-space:nowrap}
+.countrypick{display:flex;gap:6px;width:100%;justify-content:center;flex-wrap:wrap}
+.countrypill{flex:1 1 auto;min-width:0;min-height:36px;font:inherit;font-size:13px;font-weight:600;border:1px solid var(--line);border-radius:99px;background:var(--paper);color:var(--muted);cursor:pointer;padding:6px 10px;white-space:nowrap}
 .countrypill.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .menurow{display:grid;gap:8px;padding:13px 12px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
 .menurowlabel{font-weight:600;color:var(--ink)}
