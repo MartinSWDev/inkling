@@ -409,3 +409,4 @@ button svg.lucide,a svg.lucide{flex:none}
 .countryrow input{flex:1;min-width:0;font:inherit;font-size:16px;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:9px 12px}
 .countryrow .btn{min-height:44px;padding:8px 14px}
 .settingtag.earntag{background:var(--butter,#F3D98B)}
+.coursenote{margin:0 0 8px;padding:8px 10px;border-left:3px solid var(--lilac);background:var(--paper);border-radius:8px}

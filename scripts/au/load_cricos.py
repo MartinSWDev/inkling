@@ -372,13 +372,18 @@ def collect(roles: dict[str, Sheet], cw, include_associate: bool) -> tuple[dict[
                 continue
             pc = to_postcode(s.get(r, "postcode"))
             place = {"city": tidy_city(s.get(r, "city")), "state": norm_state(s.get(r, "state"), pc), "postcode": pc}
-            if not place["city"]:
-                place = places.get((key[0], str(s.get(r, "location_name") or "").strip().lower()), place)
+            known = places.get((key[0], str(s.get(r, "location_name") or "").strip().lower()))
+            if known:
+                # The course-locations sheet has no postcode; the campus list does, and the
+                # postcode is what tells a metro suburb (Burwood, Clayton) from a regional town.
+                place = {"city": place["city"] or known.get("city"), "state": place["state"] or known.get("state"),
+                         "postcode": place["postcode"] or known.get("postcode")}
             course_place[key] = place
 
     stats = {"rows": 0, "level_kept": 0, "expired": 0, "mapped": 0, "unmapped": Counter(), "dupes": 0, "levels": Counter(),
              "no_place": 0, "no_url": 0}
     per_subject: dict[str, list[tuple[bool, dict]]] = defaultdict(list)
+    umbrella: dict[str, list[tuple[bool, dict]]] = defaultdict(list)
     seen: set[tuple[str, str]] = set()
     for r in courses.rows:
         stats["rows"] += 1
@@ -413,7 +418,8 @@ def collect(roles: dict[str, Sheet], cw, include_associate: bool) -> tuple[dict[
             unmapped += bad
         for label in unmapped:
             stats["unmapped"][label] += 1
-        if not subjects:
+        umb = next((k for k, pat in UMBRELLA.items() if pat.match(title)), None)
+        if not subjects and not umb:
             continue
         seen.add(dkey)
         stats["mapped"] += 1
@@ -443,16 +449,48 @@ def collect(roles: dict[str, Sheet], cw, include_associate: bool) -> tuple[dict[
         }
         for code in subjects:
             per_subject[code].append((is_uni, course))
+        if umb:
+            umbrella[umb].append((is_uni, course))
+    stats["umbrella"] = umbrella
     return per_subject, stats
 
 
-def write_subject_files(per_subject, codes: list[str], pack: Path, max_per_subject: int, dry_run: bool) -> dict[str, int]:
+# Subjects that Australian unis teach as a major inside a broader degree rather than as a
+# degree of their own. When CRICOS has no courses for one, show the umbrella degree with a note.
+UMBRELLA = {
+    "arts": re.compile(r"^bachelor of arts( \(honours\))?$", re.I),
+    "science": re.compile(r"^bachelor of (advanced )?science( \(honours\))?$", re.I),
+    "nursing": re.compile(r"^bachelor of nursing( \(honours\))?$", re.I),
+}
+_BA = "In Australia this is usually studied as a major within a Bachelor of Arts, so these are Bachelor of Arts courses."
+_BSC = "In Australia this is usually studied as a major within a Bachelor of Science, so these are Bachelor of Science courses."
+FALLBACK = {
+    "CAH19-01-01": ("arts", _BA), "CAH19-01-02": ("arts", _BA), "CAH19-01-03": ("arts", _BA),
+    "CAH19-04-01": ("arts", _BA), "CAH19-04-02": ("arts", _BA), "CAH19-04-03": ("arts", _BA), "CAH19-04-05": ("arts", _BA),
+    "CAH19-02-01": ("arts", "Celtic languages aren't offered as a degree in Australia. A Bachelor of Arts with a languages or linguistics major is the closest."),
+    "CAH19-02-02": ("arts", "Gaelic isn't offered as a degree in Australia. A Bachelor of Arts with a languages or linguistics major is the closest."),
+    "CAH19-02-03": ("arts", "Welsh isn't offered as a degree in Australia. A Bachelor of Arts with a languages or linguistics major is the closest."),
+    "CAH19-02-04": ("arts", "Celtic languages aren't offered as a degree in Australia. A Bachelor of Arts with a languages or linguistics major is the closest."),
+    "CAH15-01-06": ("arts", _BA), "CAH23-01-02": ("arts", _BA),
+    "CAH07-01-02": ("science", _BSC), "CAH06-01-05": ("science", _BSC),
+    "CAH02-04-05": ("nursing", "Australian nursing degrees cover patients of all ages; children's nursing is a specialisation after you qualify. These are Bachelor of Nursing courses."),
+    "CAH02-04-07": ("nursing", "Australian nursing degrees cover mental health; you can specialise after you qualify. These are Bachelor of Nursing courses."),
+}
+
+
+def write_subject_files(per_subject, codes: list[str], pack: Path, max_per_subject: int, dry_run: bool, umbrella=None) -> dict[str, int]:
     subj_dir = pack / "subjects"
     if not dry_run:
         subj_dir.mkdir(parents=True, exist_ok=True)
     counts: dict[str, int] = {}
     for code in codes:
         ranked = sorted(per_subject.get(code, []), key=lambda t: (not t[0], t[1]["provider"].lower(), t[1]["title"].lower()))
+        note = None
+        if not ranked and umbrella and code in FALLBACK:
+            kind, note = FALLBACK[code]
+            ranked = sorted(umbrella.get(kind, []), key=lambda t: (not t[0], t[1]["provider"].lower(), t[1]["title"].lower()))
+            if not ranked:
+                note = None
         courses = [c for _, c in ranked[:max_per_subject]]
         target = subj_dir / f"{code}.json"
         existing = json.loads(target.read_text(encoding="utf-8")) if target.exists() else {}
@@ -462,6 +500,8 @@ def write_subject_files(per_subject, codes: list[str], pack: Path, max_per_subje
             jobs = json.loads(uk_file.read_text(encoding="utf-8")).get("jobs", [])
         payload = {"code": code, "attribution": ATTRIBUTION, "courses": courses, "jobs": jobs or [],
                    "apprenticeships": existing.get("apprenticeships", [])}
+        if note:
+            payload["note"] = note
         counts[code] = len(courses)
         if not dry_run:
             target.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
@@ -519,7 +559,7 @@ def main(argv: list[str] | None = None) -> int:
         for label, n in stats["unmapped"].most_common(40):
             print(f"    {n:>5}  {label}")
 
-    counts = write_subject_files(per_subject, codes, args.pack, args.max_per_subject, args.dry_run)
+    counts = write_subject_files(per_subject, codes, args.pack, args.max_per_subject, args.dry_run, stats.get("umbrella"))
     update_course_counts(args.pack, counts, args.dry_run)
     empty = [c for c in codes if counts.get(c, 0) == 0]
     print(f"{'would write' if args.dry_run else 'wrote'} {len(codes)} subject files; "

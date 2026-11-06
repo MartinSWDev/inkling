@@ -240,13 +240,13 @@ export default function App() {
   const [tapCode, setTapCode] = useState<string | null>(null);
   const [courseSheet, setCourseSheet] = useState<{ code: string; name: string } | null>(null);
   const [sheetTab, setSheetTab] = useState<"courses" | "apprenticeships">("courses");
-  type SubjectFile = { courses: { title: string; provider: string; url: string; ucas_code: string | null; setting?: string | null; town?: string | null; earnings?: number | null }[]; jobs: string[]; apprenticeships: Apprenticeship[] };
+  type SubjectFile = { courses: { title: string; provider: string; url: string; ucas_code: string | null; setting?: string | null; town?: string | null; earnings?: number | null }[]; jobs: string[]; apprenticeships: Apprenticeship[]; note?: string };
   const [subjectFiles, setSubjectFiles] = useState<Record<string, SubjectFile>>({});
   const requestedFiles = useRef(new Set<string>());
   const loadSubjectFile = useCallback((code: string) => {
     if (requestedFiles.current.has(code)) return;
     requestedFiles.current.add(code);
-    const store = (d: Partial<SubjectFile>) => setSubjectFiles((p) => ({ ...p, [code]: { courses: d.courses || [], jobs: d.jobs || [], apprenticeships: d.apprenticeships || [] } }));
+    const store = (d: Partial<SubjectFile>) => setSubjectFiles((p) => ({ ...p, [code]: { courses: d.courses || [], jobs: d.jobs || [], apprenticeships: d.apprenticeships || [], note: typeof d.note === "string" ? d.note : undefined } }));
     const getFile = (url: string) => fetch(url).then((r) => { if (!r.ok) throw new Error(url + " " + r.status); return r.json() as Promise<Partial<SubjectFile>>; });
     const url = subjectUrlFor(country, code);
     const fallback = subjectUrlFor("uk", code);
@@ -991,7 +991,8 @@ export default function App() {
                 {c.setting && <span className="settingtag">{tagPrefix}{c.setting}{c.town ? " · " + c.town : ""}</span>}
                 {typeof c.earnings === "number" && c.earnings > 0 && <span className="settingtag earntag">{"$" + Math.round(c.earnings / 1000) + "k median pay, 4 yrs after"}</span>}</div>
                 <a href={c.url} target="_blank" rel="noreferrer">Course page <ExternalLink {...ICON_SM} aria-hidden="true" /></a></li>));
-            if (!bySetting) return <ul className="courselist">{render(inChosen)}</ul>;
+            const packNote = subjectFiles[courseSheet.code]?.note;
+            if (!bySetting) return <>{packNote && <p className="note coursenote">{packNote}</p>}<ul className="courselist">{render(inChosen)}</ul></>;
             return (<>
               {inChosen.length > 0 && (<><h3 className="coursehead">{heading}</h3><ul className="courselist">{render(inChosen)}</ul></>)}
               {inChosen.length === 0 && <p className="note">{"No " + adj + " courses for this subject — here are the others."}</p>}
